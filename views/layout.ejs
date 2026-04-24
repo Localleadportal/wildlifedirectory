@@ -7,6 +7,9 @@
   <meta name="description" content="<%- metaDesc %>">
   <link rel="canonical" href="https://www.removewildlifenow.com<%- canonical %>">
   <link rel="stylesheet" href="/css/style.css">
+  <% if (typeof schema !== 'undefined' && schema) { %>
+  <script type="application/ld+json"><%- schema %></script>
+  <% } %>
 </head>
 <body>
   <header>

@@ -7,6 +7,28 @@
   <meta name="description" content="Need <%= animal.name.toLowerCase() %> in <%= cityName %>, <%= stateName %>? Local licensed experts serve <%= cityName %> — fast, humane, same-day service available.">
   <link rel="canonical" href="https://www.removewildlifenow.com/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/<%= animal.slug %>/">
   <link rel="stylesheet" href="/css/style.css">
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "ProfessionalService"],
+    "name": animal.name + " in " + cityName,
+    "description": animal.shortDesc + " Serving " + cityName + " and all of " + countyName + ", " + stateName + ".",
+    "url": "https://www.removewildlifenow.com/" + stateSlug + "/" + countySlug + "/" + citySlug + "/" + animal.slug + "/",
+    "areaServed": [
+      { "@type": "City", "name": cityName + ", " + stateName },
+      { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
+    ],
+    "serviceType": animal.name,
+    "openingHours": "Mo-Su 00:00-23:59",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": animal.name + " Services",
+      "itemListElement": animal.services.map(function(svc) {
+        return { "@type": "Offer", "itemOffered": { "@type": "Service", "name": svc } };
+      })
+    }
+  }) %>
+  </script>
 </head>
 <body>
   <header>

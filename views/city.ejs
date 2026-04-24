@@ -7,6 +7,30 @@
   <meta name="description" content="Find a licensed wildlife removal contractor in <%= cityName %>, <%= stateName %>. Local experts serving <%= cityName %> for raccoon, squirrel, bat, snake removal and more.">
   <link rel="canonical" href="https://www.removewildlifenow.com/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/">
   <link rel="stylesheet" href="/css/style.css">
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "ProfessionalService"],
+    "name": "Wildlife Removal in " + cityName,
+    "description": "Licensed wildlife removal in " + cityName + ", " + stateName + ". Local experts serving " + cityName + " for raccoon, squirrel, bat, snake removal and more.",
+    "url": "https://www.removewildlifenow.com/" + stateSlug + "/" + countySlug + "/" + citySlug + "/",
+    "areaServed": [
+      { "@type": "City", "name": cityName + ", " + stateName },
+      { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
+    ],
+    "serviceType": "Wildlife Removal",
+    "openingHours": "Mo-Su 00:00-23:59",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Wildlife Removal Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Removal" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Animal Exclusion" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Remediation" } }
+      ]
+    }
+  }) %>
+  </script>
 </head>
 <body>
   <header>

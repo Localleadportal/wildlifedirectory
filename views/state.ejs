@@ -2,6 +2,24 @@
   const title = `Wildlife Removal in ${stateName} | Find Local Contractors by County | RemoveWildlifeNow.com`;
   const metaDesc = `Find licensed wildlife removal contractors in ${stateName}. Browse by county to connect with local professionals near you.`;
   const canonical = `/${toSlug(stateName)}/`;
+  const schema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": `Wildlife Removal in ${stateName}`,
+    "description": `Find licensed wildlife removal contractors in ${stateName}. Local experts for raccoon, squirrel, bat, snake, and wildlife removal.`,
+    "url": `https://www.removewildlifenow.com/${toSlug(stateName)}/`,
+    "provider": {
+      "@type": "Organization",
+      "name": "RemoveWildlifeNow.com",
+      "url": "https://www.removewildlifenow.com"
+    },
+    "areaServed": {
+      "@type": "State",
+      "name": stateName,
+      "containedInPlace": { "@type": "Country", "name": "United States" }
+    },
+    "serviceType": "Wildlife Removal"
+  });
   const body = `
 <nav class="breadcrumb">
   <div class="container">
@@ -42,4 +60,4 @@
   </div>
 </section>`;
 %>
-<%- include('layout', { title, metaDesc, canonical, body }) %>
+<%- include('layout', { title, metaDesc, canonical, schema, body }) %>

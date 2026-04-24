@@ -7,6 +7,30 @@
   <meta name="description" content="Find a licensed wildlife removal contractor in <%= countyName %>, <%= stateName %>. Local experts for raccoon, squirrel, bat, snake removal and full exclusion service.">
   <link rel="canonical" href="https://www.removewildlifenow.com/<%= stateSlug %>/<%= toSlug(countyName) %>/">
   <link rel="stylesheet" href="/css/style.css">
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "ProfessionalService"],
+    "name": "Wildlife Removal in " + countyName,
+    "description": "Licensed wildlife removal in " + countyName + ", " + stateName + ". Expert removal of raccoons, squirrels, bats, snakes and more. Humane methods, same-day service available.",
+    "url": "https://www.removewildlifenow.com/" + stateSlug + "/" + toSlug(countyName) + "/",
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": countyName + ", " + stateName
+    },
+    "serviceType": "Wildlife Removal",
+    "openingHours": "Mo-Su 00:00-23:59",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Wildlife Removal Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Removal" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Animal Exclusion" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Remediation" } }
+      ]
+    }
+  }) %>
+  </script>
 </head>
 <body>
   <header>

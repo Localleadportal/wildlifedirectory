@@ -2,8 +2,27 @@
   const title = 'Wildlife Removal Directory | Find Local Contractors | RemoveWildlifeNow.com';
   const metaDesc = 'Find licensed wildlife removal contractors near you. Click your state on the map to find a local expert in your county — raccoons, squirrels, bats, snakes and more.';
   const canonical = '/';
+  const schema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.removewildlifenow.com/#website",
+        "url": "https://www.removewildlifenow.com/",
+        "name": "RemoveWildlifeNow.com",
+        "description": "Find licensed wildlife removal contractors near you."
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.removewildlifenow.com/#organization",
+        "name": "RemoveWildlifeNow.com",
+        "url": "https://www.removewildlifenow.com/",
+        "description": "Nationwide wildlife removal directory connecting homeowners with licensed local contractors."
+      }
+    ]
+  });
 %>
-<%- include('layout', { title, metaDesc, canonical, body: `
+<%- include('layout', { title, metaDesc, canonical, schema, body: `
 
 <section class="hero">
   <div class="container hero-content">
