@@ -1,0 +1,42 @@
+<%
+  const title = 'Wildlife Removal Directory | Find Local Contractors | RemoveWildlifeNow.com';
+  const metaDesc = 'Find licensed wildlife removal contractors near you. Browse by state and county to connect with local professionals handling raccoons, squirrels, bats, snakes, and more.';
+  const canonical = '/';
+  const body = `
+<section class="hero">
+  <div class="container">
+    <h1>Find Wildlife Removal Near You</h1>
+    <p class="hero-sub">Connect with licensed, local wildlife removal contractors. Select your state to find coverage in your county.</p>
+  </div>
+</section>
+
+<section class="states-section">
+  <div class="container">
+    <h2>Browse by State</h2>
+    <ul class="states-grid">
+      ${states.map(state => `<li><a href="/${toSlug(state)}/">${state}</a></li>`).join('')}
+    </ul>
+  </div>
+</section>
+
+<section class="about">
+  <div class="container">
+    <h2>Why RemoveWildlifeNow.com?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Local Experts</h3>
+        <p>Every contractor in our directory is local to your county — they know the wildlife problems specific to your area.</p>
+      </div>
+      <div class="feature">
+        <h3>Licensed &amp; Insured</h3>
+        <p>We connect you only with professionals who hold the proper state licenses for wildlife removal and relocation.</p>
+      </div>
+      <div class="feature">
+        <h3>Fast Response</h3>
+        <p>Wildlife problems don't wait. Our directory contractors offer same-day and emergency service in most areas.</p>
+      </div>
+    </div>
+  </div>
+</section>`;
+%>
+<%- include('layout', { title, metaDesc, canonical, body }) %>

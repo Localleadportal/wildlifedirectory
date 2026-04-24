@@ -1,0 +1,198 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --green: #2d6a2d;
+  --green-dark: #1e4a1e;
+  --green-light: #f0f7f0;
+  --orange: #e05c00;
+  --text: #1a1a1a;
+  --muted: #555;
+  --border: #ddd;
+  --radius: 6px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.6;
+  background: #fff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  background: var(--green-dark);
+  padding: 14px 0;
+  border-bottom: 3px solid var(--orange);
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+.logo span { color: #a8d8a8; }
+.tagline { color: #c8e8c8; font-size: 0.85rem; margin-top: 2px; }
+
+/* Hero */
+.hero {
+  background: var(--green);
+  color: #fff;
+  padding: 56px 0 48px;
+  text-align: center;
+}
+.hero h1 { font-size: 2.4rem; font-weight: 700; margin-bottom: 14px; }
+.hero-sub { font-size: 1.15rem; color: #d8f0d8; max-width: 600px; margin: 0 auto; }
+
+.page-hero {
+  background: var(--green-light);
+  border-bottom: 1px solid var(--border);
+  padding: 36px 0;
+}
+.page-hero h1 { font-size: 2rem; color: var(--green-dark); margin-bottom: 8px; }
+.page-hero p { color: var(--muted); }
+
+/* Breadcrumb */
+.breadcrumb {
+  background: #f5f5f5;
+  border-bottom: 1px solid var(--border);
+  padding: 10px 0;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+.breadcrumb a { color: var(--green); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+
+/* States grid */
+.states-section, .counties-section {
+  padding: 48px 0;
+}
+.states-section h2, .counties-section h2 { font-size: 1.5rem; margin-bottom: 24px; color: var(--green-dark); }
+
+.states-grid, .counties-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+}
+.counties-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+
+.states-grid a, .counties-grid a {
+  display: block;
+  padding: 10px 14px;
+  background: var(--green-light);
+  border: 1px solid #c8e0c8;
+  border-radius: var(--radius);
+  color: var(--green-dark);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: background 0.15s, border-color 0.15s;
+}
+.states-grid a:hover, .counties-grid a:hover {
+  background: #d8ecd8;
+  border-color: var(--green);
+}
+
+/* About / Features */
+.about { background: #f9f9f9; padding: 48px 0; border-top: 1px solid var(--border); }
+.about h2 { font-size: 1.5rem; margin-bottom: 28px; color: var(--green-dark); }
+.features { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; }
+.feature { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; }
+.feature h3 { color: var(--green-dark); margin-bottom: 8px; font-size: 1.1rem; }
+.feature p { color: var(--muted); font-size: 0.95rem; }
+
+/* CTA Box */
+.cta-section { padding: 48px 0; }
+.cta-box {
+  background: var(--green-dark);
+  color: #fff;
+  border-radius: 10px;
+  padding: 40px 32px;
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.cta-box h2 { font-size: 1.6rem; margin-bottom: 10px; }
+.cta-sub { color: #c8e8c8; margin-bottom: 28px; }
+.phone-wrap { margin: 20px 0; }
+.phone-cta {
+  display: inline-block;
+  background: var(--orange);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 14px 36px;
+  border-radius: 8px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: background 0.15s;
+}
+.phone-cta:hover { background: #c04f00; }
+.availability { }
+.availability-msg {
+  display: inline-block;
+  background: #555;
+  color: #ddd;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 14px 36px;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+}
+.cta-note { color: #a8c8a8; font-size: 0.9rem; margin-top: 14px; }
+
+/* County content */
+.county-content, .state-content { padding: 48px 0; }
+.county-content h2, .county-content h3,
+.state-content h2, .state-content h3 {
+  color: var(--green-dark);
+  margin: 28px 0 12px;
+}
+.county-content h2:first-child, .state-content h2:first-child { margin-top: 0; }
+.county-content p, .state-content p { color: var(--muted); margin-bottom: 16px; }
+
+.services-list, .tips-list, .wildlife-list {
+  margin: 0 0 20px 20px;
+  color: var(--muted);
+}
+.services-list li, .tips-list li, .wildlife-list li { margin-bottom: 8px; }
+
+/* Footer */
+footer {
+  background: var(--green-dark);
+  color: #a8c8a8;
+  padding: 24px 0;
+  text-align: center;
+  font-size: 0.88rem;
+  margin-top: 48px;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  background: var(--orange);
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 16px;
+}
+.btn:hover { background: #c04f00; }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .hero h1 { font-size: 1.7rem; }
+  .page-hero h1 { font-size: 1.5rem; }
+  .phone-cta { font-size: 1.5rem; padding: 12px 24px; }
+  .cta-box { padding: 28px 20px; }
+  .states-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+}

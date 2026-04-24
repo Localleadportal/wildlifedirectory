@@ -1,0 +1,45 @@
+<%
+  const title = `Wildlife Removal in ${stateName} | Find Local Contractors by County | RemoveWildlifeNow.com`;
+  const metaDesc = `Find licensed wildlife removal contractors in ${stateName}. Browse by county to connect with local professionals near you.`;
+  const canonical = `/${toSlug(stateName)}/`;
+  const body = `
+<nav class="breadcrumb">
+  <div class="container">
+    <a href="/">Home</a> &rsaquo; <span>${stateName}</span>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Wildlife Removal in ${stateName}</h1>
+    <p>Select your county below to find a licensed wildlife removal contractor near you.</p>
+  </div>
+</section>
+
+<section class="counties-section">
+  <div class="container">
+    <h2>${stateName} Counties</h2>
+    <ul class="counties-grid">
+      ${counties.map(county => `<li><a href="/${toSlug(stateName)}/${toSlug(county)}/">${county}</a></li>`).join('')}
+    </ul>
+  </div>
+</section>
+
+<section class="state-content">
+  <div class="container">
+    <h2>Wildlife Removal Services in ${stateName}</h2>
+    <p>${stateName} homeowners commonly deal with raccoons, squirrels, bats, snakes, groundhogs, and other wildlife that can cause serious damage to homes and structures. Our directory connects you with licensed professionals who understand the specific wildlife challenges in your area.</p>
+    <p>Wildlife removal in ${stateName} is regulated by the state wildlife agency. All contractors in our directory hold the required permits and follow humane, legal removal practices.</p>
+    <h3>Common Wildlife Problems in ${stateName}</h3>
+    <ul class="wildlife-list">
+      <li><strong>Raccoons</strong> — attic damage, chimney entry, trash raiding</li>
+      <li><strong>Squirrels</strong> — chewing wiring, nesting in attics and walls</li>
+      <li><strong>Bats</strong> — colony infestations, health concerns, roosting removal</li>
+      <li><strong>Snakes</strong> — identification, removal, exclusion</li>
+      <li><strong>Groundhogs &amp; Moles</strong> — yard and foundation damage</li>
+      <li><strong>Birds</strong> — nesting, exclusion, deterrents</li>
+    </ul>
+  </div>
+</section>`;
+%>
+<%- include('layout', { title, metaDesc, canonical, body }) %>
