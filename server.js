@@ -34,6 +34,15 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
+// Contact page — must be before /:stateSlug/ wildcard
+app.get('/contact/', (req, res) => {
+  res.render('contact', {
+    sent: false, error: null, formData: {},
+    county: req.query.county || '',
+    state: req.query.state || ''
+  });
+});
+
 // State page — /georgia/
 app.get('/:stateSlug/', (req, res) => {
   const stateName = stateSlugToName(req.params.stateSlug);
@@ -59,15 +68,6 @@ app.get('/:stateSlug/:countySlug/', (req, res) => {
     embedScript,
     stateSlug: req.params.stateSlug,
     toSlug
-  });
-});
-
-// Contact page
-app.get('/contact/', (req, res) => {
-  res.render('contact', {
-    sent: false, error: null, formData: {},
-    county: req.query.county || '',
-    state: req.query.state || ''
   });
 });
 
