@@ -6,6 +6,7 @@ const us = require('us');
 const { statesAndCounties, stateSlugToName, countySlugToName, toSlug } = require('./data/locations');
 const { getCitiesForCounty, citySlugToName } = require('./data/cities');
 const { ANIMALS, ANIMAL_SLUGS, getAnimalBySlug } = require('./data/animals');
+const { stateContent } = require('./data/stateContent');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -50,7 +51,8 @@ app.get('/:stateSlug/', (req, res) => {
   if (!stateName) return res.status(404).render('404', { message: 'State not found.' });
 
   const counties = statesAndCounties[stateName];
-  res.render('state', { stateName, counties, toSlug });
+  const stateInfo = stateContent[stateName] || null;
+  res.render('state', { stateName, counties, stateInfo, toSlug });
 });
 
 // County page — /georgia/cobb-county/
@@ -63,12 +65,14 @@ app.get('/:stateSlug/:countySlug/', (req, res) => {
 
   const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
   const cities = getCitiesForCounty(stateName, countyName);
+  const stateInfo = stateContent[stateName] || null;
 
   res.render('county', {
     stateName,
     countyName,
     embedScript,
     cities,
+    stateInfo,
     stateSlug: req.params.stateSlug,
     toSlug,
     ANIMALS
@@ -121,16 +125,18 @@ app.get('/:stateSlug/:countySlug/:segment/', (req, res) => {
   const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
 
   // Animal page
+  const stateInfo = stateContent[stateName] || null;
+
   if (ANIMAL_SLUGS.has(seg)) {
     const animal = getAnimalBySlug(seg);
     const cities = getCitiesForCounty(stateName, countyName);
-    return res.render('county-animal', { stateName, countyName, animal, cities, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, toSlug, ANIMALS });
+    return res.render('county-animal', { stateName, countyName, animal, cities, stateInfo, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, toSlug, ANIMALS });
   }
 
   // City page
   const cityName = citySlugToName(stateName, countyName, seg);
   if (cityName) {
-    return res.render('city', { stateName, countyName, cityName, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: seg, toSlug, ANIMALS });
+    return res.render('city', { stateName, countyName, cityName, stateInfo, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: seg, toSlug, ANIMALS });
   }
 
   return res.status(404).render('404', { message: 'Page not found.' });
@@ -149,7 +155,8 @@ app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug/', (req, res) => {
 
   const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
 
-  res.render('city-animal', { stateName, countyName, cityName, animal, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: req.params.citySlug, toSlug, ANIMALS });
+  const stateInfo = stateContent[stateName] || null;
+  res.render('city-animal', { stateName, countyName, cityName, animal, stateInfo, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: req.params.citySlug, toSlug, ANIMALS });
 });
 
 // Redirect trailing-slash-less URLs

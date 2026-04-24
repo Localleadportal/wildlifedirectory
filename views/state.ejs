@@ -46,8 +46,9 @@
 <section class="state-content">
   <div class="container">
     <h2>Wildlife Removal Services in ${stateName}</h2>
-    <p>${stateName} homeowners commonly deal with raccoons, squirrels, bats, snakes, groundhogs, and other wildlife that can cause serious damage to homes and structures. Our directory connects you with licensed professionals who understand the specific wildlife challenges in your area.</p>
-    <p>Wildlife removal in ${stateName} is regulated by the state wildlife agency. All contractors in our directory hold the required permits and follow humane, legal removal practices.</p>
+    ${stateInfo ? `<p>${stateInfo.wildlifeNote}</p>
+    <p>Wildlife removal in ${stateName} is regulated by the <strong>${stateInfo.agency}</strong>. All contractors in our directory hold the required state permits and follow humane, legal removal practices. ${stateInfo.seasonNote}</p>` : `<p>${stateName} homeowners commonly deal with raccoons, squirrels, bats, snakes, groundhogs, and other wildlife that can cause serious damage to homes and structures. Our directory connects you with licensed professionals who understand the specific wildlife challenges in your area.</p>
+    <p>Wildlife removal in ${stateName} is regulated by the state wildlife agency. All contractors in our directory hold the required permits and follow humane, legal removal practices.</p>`}
     <h3>Common Wildlife Problems in ${stateName}</h3>
     <ul class="wildlife-list">
       <li><strong>Raccoons</strong> — attic damage, chimney entry, trash raiding</li>

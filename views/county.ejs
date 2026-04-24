@@ -177,8 +177,16 @@
 
     <section class="county-content">
       <div class="container">
-        <h2>Why Hire a Local <%= countyName %> Contractor?</h2>
+        <h2>Wildlife Removal in <%= countyName %>, <%= stateName %></h2>
+        <% if (stateInfo) { %>
+        <p><%= stateInfo.wildlifeNote %></p>
+        <p>Wildlife removal in <%= stateName %> is regulated by the <strong><%= stateInfo.agency %></strong>. All contractors in our directory are licensed under state requirements and follow humane, legal removal practices. <%= stateInfo.seasonNote %></p>
+        <% } else { %>
         <p>Wildlife removal requires knowledge of local species, seasonal patterns, and <%= stateName %> regulations. A contractor based in <%= countyName %> has handled the exact animals common to your neighborhood and knows the fastest, most effective solutions.</p>
+        <% } %>
+
+        <h3>Why Hire a Local <%= countyName %> Contractor?</h3>
+        <p>A contractor based in <%= countyName %> has handled the exact animals common to your neighborhood and understands local entry points, seasonal timing, and the most effective removal methods for your area.</p>
 
         <h3>What to Do Before the Contractor Arrives</h3>
         <ul class="tips-list">

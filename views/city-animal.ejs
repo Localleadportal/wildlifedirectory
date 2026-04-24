@@ -138,6 +138,16 @@
       </div>
     </section>
 
+    <% if (stateInfo) { %>
+    <section class="county-content">
+      <div class="container">
+        <h2><%= animal.name %> in <%= stateName %> — Local Context</h2>
+        <p><%= stateInfo.wildlifeNote %></p>
+        <p><%= stateInfo.seasonNote %> Our <%= cityName %> contractor is fully licensed under the <strong><%= stateInfo.agency %></strong> and uses only permitted, humane removal methods.</p>
+      </div>
+    </section>
+    <% } %>
+
     <section class="counties-section">
       <div class="container">
         <div class="section-header">

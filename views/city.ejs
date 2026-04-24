@@ -114,8 +114,13 @@
     <section class="county-content">
       <div class="container">
         <h2>Wildlife Problems in <%= cityName %>, <%= stateName %></h2>
+        <% if (stateInfo) { %>
+        <p><%= stateInfo.wildlifeNote %></p>
+        <p>The contractor serving <%= cityName %> is licensed by the <strong><%= stateInfo.agency %></strong> and knows the specific wildlife patterns, local regulations, and most effective removal methods for your area. <%= stateInfo.seasonNote %></p>
+        <% } else { %>
         <p>Homeowners in <%= cityName %> deal with many of the same wildlife issues found throughout <%= countyName %>. Raccoons, squirrels, bats, and snakes are among the most common — often entering through damaged soffits, vents, and rooflines in residential neighborhoods.</p>
-        <p>The contractor serving <%= cityName %> is based in <%= countyName %> and knows the specific wildlife patterns, local regulations, and most effective removal methods for your area. One call gets you a local expert who has worked throughout <%= cityName %> and surrounding communities.</p>
+        <p>The contractor serving <%= cityName %> is based in <%= countyName %> and knows the specific wildlife patterns, local regulations, and most effective removal methods for your area.</p>
+        <% } %>
 
         <h3>Why Use a Local <%= cityName %> Contractor?</h3>
         <ul class="tips-list">
