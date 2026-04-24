@@ -1,113 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wildlife Removal Directory | Find Local Contractors | RemoveWildlifeNow.com</title>
-  <meta name="description" content="Find licensed wildlife removal contractors near you. Click your state on the map to find coverage in your county.">
-  <link rel="canonical" href="https://www.removewildlifenow.com/">
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <a href="/" class="logo">RemoveWildlifeNow<span>.com</span></a>
-      <p class="tagline">Find Local Wildlife Removal Contractors — Fast</p>
+<%
+  const title = 'Wildlife Removal Directory | Find Local Contractors | RemoveWildlifeNow.com';
+  const metaDesc = 'Find licensed wildlife removal contractors near you. Click your state on the map to find a local expert in your county — raccoons, squirrels, bats, snakes and more.';
+  const canonical = '/';
+%>
+<%- include('layout', { title, metaDesc, canonical, body: `
+
+<section class="hero">
+  <div class="container hero-content">
+    <div class="hero-badge">Nationwide Wildlife Removal Directory</div>
+    <h1>Find Wildlife Removal<br>Near You — Fast</h1>
+    <p class="hero-sub">Click your state on the map below to find a licensed, local contractor in your county. One call, problem solved.</p>
+    <div class="hero-actions">
+      <a href="#map-section" class="btn-primary">Find My County</a>
+      <a href="#how-it-works" class="btn-ghost">How It Works</a>
     </div>
-  </header>
+  </div>
+</section>
 
-  <main>
-    <section class="hero">
-      <div class="container">
-        <h1>Find Wildlife Removal Near You</h1>
-        <p class="hero-sub">Click your state on the map to find a licensed local contractor in your county.</p>
-      </div>
-    </section>
-
-    <section class="map-section">
-      <div class="container">
-        <div id="map-tooltip" class="map-tooltip"></div>
-        <svg id="us-map"></svg>
-        <p class="map-hint">Click any state to browse counties</p>
-      </div>
-    </section>
-
-    <section class="about">
-      <div class="container">
-        <h2>Why RemoveWildlifeNow.com?</h2>
-        <div class="features">
-          <div class="feature">
-            <h3>Local Experts</h3>
-            <p>Every contractor in our directory is local to your county — they know the wildlife problems specific to your area.</p>
-          </div>
-          <div class="feature">
-            <h3>Licensed &amp; Insured</h3>
-            <p>We connect you only with professionals who hold the proper state licenses for wildlife removal and relocation.</p>
-          </div>
-          <div class="feature">
-            <h3>Fast Response</h3>
-            <p>Wildlife problems don't wait. Our directory contractors offer same-day and emergency service in most areas.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>&copy; <%= new Date().getFullYear() %> RemoveWildlifeNow.com &mdash; Connecting homeowners with licensed wildlife removal professionals nationwide.</p>
+<section class="map-section" id="map-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Select Your State</h2>
+      <p>Hover to preview, click to browse counties</p>
     </div>
-  </footer>
+    <div id="map-tooltip" class="map-tooltip"></div>
+    <svg id="us-map"></svg>
+    <p class="map-hint">Click any state to browse counties &amp; find a local contractor</p>
+  </div>
+</section>
 
-  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
-  <script>
-    (async () => {
-      const { topo, fips } = await d3.json('/api/states-map');
-      const states = topojson.feature(topo, topo.objects.states);
-      const mesh = topojson.mesh(topo, topo.objects.states, (a, b) => a !== b);
+<section class="about" id="how-it-works">
+  <div class="container">
+    <div class="section-header">
+      <h2>How It Works</h2>
+      <p>We connect homeowners directly with the best local wildlife removal professionals in their county.</p>
+    </div>
+    <div class="features">
+      <div class="feature">
+        <span class="feature-icon">📍</span>
+        <h3>Find Your County</h3>
+        <p>Click your state on the map above, then select your county to find the licensed contractor serving your area.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">📞</span>
+        <h3>Call a Local Expert</h3>
+        <p>Get connected directly with a contractor who knows your local wildlife, regulations, and the fastest solutions.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">✅</span>
+        <h3>Problem Solved</h3>
+        <p>Licensed, insured professionals handle removal, exclusion, and cleanup — with a guarantee on their work.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-      const svg = d3.select('#us-map');
-      const container = svg.node().parentElement;
-      const width = container.clientWidth;
-      const height = Math.round(width * 0.62);
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+<script>
+  (async () => {
+    const { topo, fips } = await d3.json('/api/states-map');
+    const states = topojson.feature(topo, topo.objects.states);
+    const mesh = topojson.mesh(topo, topo.objects.states, (a, b) => a !== b);
 
-      svg.attr('viewBox', `0 0 ${width} ${height}`)
-         .attr('width', '100%')
-         .style('display', 'block');
+    const svg = d3.select('#us-map');
+    const container = svg.node().parentElement;
+    const width = container.clientWidth;
+    const height = Math.round(width * 0.62);
 
-      const projection = d3.geoAlbersUsa().fitSize([width, height], states);
-      const path = d3.geoPath().projection(projection);
-      const tooltip = document.getElementById('map-tooltip');
+    svg.attr('viewBox', \`0 0 \${width} \${height}\`)
+       .attr('width', '100%')
+       .style('display', 'block');
 
-      svg.append('g')
-        .selectAll('path')
-        .data(states.features)
-        .join('path')
-          .attr('class', 'state')
-          .attr('d', path)
-          .attr('data-name', d => fips[d.id]?.name || '')
-          .on('mousemove', function(event, d) {
-            const name = fips[d.id]?.name;
-            if (!name) return;
-            tooltip.textContent = name;
-            tooltip.style.display = 'block';
-            tooltip.style.left = (event.offsetX + 12) + 'px';
-            tooltip.style.top = (event.offsetY - 10) + 'px';
-          })
-          .on('mouseleave', function() {
-            tooltip.style.display = 'none';
-          })
-          .on('click', function(event, d) {
-            const slug = fips[d.id]?.slug;
-            if (slug) window.location.href = '/' + slug + '/';
-          });
+    const projection = d3.geoAlbersUsa().fitSize([width, height], states);
+    const path = d3.geoPath().projection(projection);
+    const tooltip = document.getElementById('map-tooltip');
 
-      svg.append('path')
-        .datum(mesh)
-        .attr('class', 'state-border')
-        .attr('d', path);
-    })();
-  </script>
-</body>
-</html>
+    svg.append('g')
+      .selectAll('path')
+      .data(states.features)
+      .join('path')
+        .attr('class', 'state')
+        .attr('d', path)
+        .on('mousemove', function(event, d) {
+          const name = fips[d.id]?.name;
+          if (!name) return;
+          tooltip.textContent = name;
+          tooltip.style.display = 'block';
+          tooltip.style.left = (event.offsetX + 12) + 'px';
+          tooltip.style.top = (event.offsetY - 10) + 'px';
+        })
+        .on('mouseleave', () => tooltip.style.display = 'none')
+        .on('click', (event, d) => {
+          const slug = fips[d.id]?.slug;
+          if (slug) window.location.href = '/' + slug + '/';
+        });
+
+    svg.append('path')
+      .datum(mesh)
+      .attr('class', 'state-border')
+      .attr('d', path);
+  })();
+</script>
+` }) %>
