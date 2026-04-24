@@ -18,6 +18,7 @@ function apiCounty(name) {
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.urlencoded({ extended: true }));
 
 // Map data endpoint — TopoJSON + FIPS→slug mapping for D3
 const topoJson = JSON.parse(fs.readFileSync(require.resolve('us-atlas/states-10m.json'), 'utf8'));
@@ -70,8 +71,6 @@ app.get('/contact/', (req, res) => {
   });
 });
 
-app.use(express.urlencoded({ extended: true }));
-
 app.post('/contact/', async (req, res) => {
   const { name, email, phone, county, state, animal, message } = req.body;
   if (!name || !email) {
@@ -79,8 +78,12 @@ app.post('/contact/', async (req, res) => {
   }
   try {
     const transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: { user: process.env.GMAIL_USER, pass: process.env.GMAIL_PASS }
+      host: 'smtp.gmail.com',
+      port: 587,
+      secure: false,
+      auth: { user: process.env.GMAIL_USER, pass: process.env.GMAIL_PASS },
+      connectionTimeout: 10000,
+      greetingTimeout: 10000
     });
     await transporter.sendMail({
       from: `"RemoveWildlifeNow" <${process.env.GMAIL_USER}>`,
