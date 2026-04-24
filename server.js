@@ -1,6 +1,5 @@
 const express = require('express');
 const fetch = require('node-fetch');
-const nodemailer = require('nodemailer');
 const path = require('path');
 const fs = require('fs');
 const us = require('us');
@@ -77,29 +76,29 @@ app.post('/contact/', async (req, res) => {
     return res.render('contact', { sent: false, error: 'Please provide your name and email.', formData: req.body, county: '', state: '' });
   }
   try {
-    const transporter = nodemailer.createTransport({
-      host: 'smtp.gmail.com',
-      port: 587,
-      secure: false,
-      auth: { user: process.env.GMAIL_USER, pass: process.env.GMAIL_PASS }
+    const resp = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${process.env.RESEND_API_KEY}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        from: 'RemoveWildlifeNow <onboarding@resend.dev>',
+        to: ['localleadportal@gmail.com'],
+        subject: `Wildlife Removal Request — ${county || 'Unknown County'}, ${state || 'Unknown State'}`,
+        html: `<h2>New Wildlife Removal Request</h2>
+          <table style="border-collapse:collapse;width:100%;font-family:sans-serif;">
+            <tr><td style="padding:8px;font-weight:bold;width:140px;">Name</td><td style="padding:8px;">${name}</td></tr>
+            <tr style="background:#f9f9f9"><td style="padding:8px;font-weight:bold;">Email</td><td style="padding:8px;">${email}</td></tr>
+            <tr><td style="padding:8px;font-weight:bold;">Phone</td><td style="padding:8px;">${phone || '—'}</td></tr>
+            <tr style="background:#f9f9f9"><td style="padding:8px;font-weight:bold;">County</td><td style="padding:8px;">${county || '—'}</td></tr>
+            <tr><td style="padding:8px;font-weight:bold;">State</td><td style="padding:8px;">${state || '—'}</td></tr>
+            <tr style="background:#f9f9f9"><td style="padding:8px;font-weight:bold;">Animal</td><td style="padding:8px;">${animal || '—'}</td></tr>
+            <tr><td style="padding:8px;font-weight:bold;">Message</td><td style="padding:8px;">${message || '—'}</td></tr>
+          </table>`
+      })
     });
-    await transporter.sendMail({
-      from: `"RemoveWildlifeNow" <${process.env.GMAIL_USER}>`,
-      to: 'localleadportal@gmail.com',
-      subject: `Wildlife Removal Request — ${county || 'Unknown County'}, ${state || 'Unknown State'}`,
-      html: `
-        <h2>New Wildlife Removal Request</h2>
-        <table style="border-collapse:collapse;width:100%;font-family:sans-serif;">
-          <tr><td style="padding:8px;font-weight:bold;width:140px;">Name</td><td style="padding:8px;">${name}</td></tr>
-          <tr style="background:#f9f9f9"><td style="padding:8px;font-weight:bold;">Email</td><td style="padding:8px;">${email}</td></tr>
-          <tr><td style="padding:8px;font-weight:bold;">Phone</td><td style="padding:8px;">${phone || '—'}</td></tr>
-          <tr style="background:#f9f9f9"><td style="padding:8px;font-weight:bold;">County</td><td style="padding:8px;">${county || '—'}</td></tr>
-          <tr><td style="padding:8px;font-weight:bold;">State</td><td style="padding:8px;">${state || '—'}</td></tr>
-          <tr style="background:#f9f9f9"><td style="padding:8px;font-weight:bold;">Animal</td><td style="padding:8px;">${animal || '—'}</td></tr>
-          <tr><td style="padding:8px;font-weight:bold;">Message</td><td style="padding:8px;">${message || '—'}</td></tr>
-        </table>
-      `
-    });
+    if (!resp.ok) throw new Error(await resp.text());
     res.render('contact', { sent: true, error: null, formData: {}, county: '', state: '' });
   } catch (e) {
     res.render('contact', { sent: false, error: 'Failed to send your message. Please try again.', formData: req.body, county: '', state: '' });
