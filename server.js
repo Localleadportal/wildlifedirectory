@@ -3,6 +3,7 @@ const fetch = require('node-fetch');
 const path = require('path');
 const fs = require('fs');
 const us = require('us');
+const nodemailer = require('nodemailer');
 const { statesAndCounties, stateSlugToName, countySlugToName, toSlug } = require('./data/locations');
 
 const app = express();
@@ -58,6 +59,50 @@ app.get('/:stateSlug/:countySlug/', (req, res) => {
     stateSlug: req.params.stateSlug,
     toSlug
   });
+});
+
+// Contact page
+app.get('/contact/', (req, res) => {
+  res.render('contact', {
+    sent: false, error: null, formData: {},
+    county: req.query.county || '',
+    state: req.query.state || ''
+  });
+});
+
+app.use(express.urlencoded({ extended: true }));
+
+app.post('/contact/', async (req, res) => {
+  const { name, email, phone, county, state, animal, message } = req.body;
+  if (!name || !email) {
+    return res.render('contact', { sent: false, error: 'Please provide your name and email.', formData: req.body, county: '', state: '' });
+  }
+  try {
+    const transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: { user: process.env.GMAIL_USER, pass: process.env.GMAIL_PASS }
+    });
+    await transporter.sendMail({
+      from: `"RemoveWildlifeNow" <${process.env.GMAIL_USER}>`,
+      to: 'localleadportal@gmail.com',
+      subject: `Wildlife Removal Request — ${county || 'Unknown County'}, ${state || 'Unknown State'}`,
+      html: `
+        <h2>New Wildlife Removal Request</h2>
+        <table style="border-collapse:collapse;width:100%;font-family:sans-serif;">
+          <tr><td style="padding:8px;font-weight:bold;width:140px;">Name</td><td style="padding:8px;">${name}</td></tr>
+          <tr style="background:#f9f9f9"><td style="padding:8px;font-weight:bold;">Email</td><td style="padding:8px;">${email}</td></tr>
+          <tr><td style="padding:8px;font-weight:bold;">Phone</td><td style="padding:8px;">${phone || '—'}</td></tr>
+          <tr style="background:#f9f9f9"><td style="padding:8px;font-weight:bold;">County</td><td style="padding:8px;">${county || '—'}</td></tr>
+          <tr><td style="padding:8px;font-weight:bold;">State</td><td style="padding:8px;">${state || '—'}</td></tr>
+          <tr style="background:#f9f9f9"><td style="padding:8px;font-weight:bold;">Animal</td><td style="padding:8px;">${animal || '—'}</td></tr>
+          <tr><td style="padding:8px;font-weight:bold;">Message</td><td style="padding:8px;">${message || '—'}</td></tr>
+        </table>
+      `
+    });
+    res.render('contact', { sent: true, error: null, formData: {}, county: '', state: '' });
+  } catch (e) {
+    res.render('contact', { sent: false, error: 'Failed to send your message. Please try again.', formData: req.body, county: '', state: '' });
+  }
 });
 
 // Redirect trailing-slash-less URLs

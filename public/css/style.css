@@ -443,6 +443,80 @@ footer {
 footer a { color: rgba(255,255,255,0.7); text-decoration: none; }
 footer a:hover { color: #fff; }
 
+/* ── CONTACT FORM ── */
+.contact-form { text-align: left; margin-top: 24px; }
+.form-group { margin-bottom: 18px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.form-group label { display: block; font-size: 0.88rem; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: var(--text);
+  background: #fff;
+  transition: border-color 0.15s;
+  font-family: inherit;
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus { outline: none; border-color: var(--green); }
+.form-group textarea { resize: vertical; }
+.btn-submit {
+  width: 100%;
+  background: var(--orange);
+  color: #fff;
+  border: none;
+  padding: 14px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s;
+  margin-top: 4px;
+}
+.btn-submit:hover { background: var(--orange-hover); }
+.form-error {
+  background: #fff0f0;
+  border: 1px solid #f5c0c0;
+  color: #c0392b;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+}
+.success-msg { text-align: center; padding: 16px 0; }
+.success-msg h2 { color: var(--green); margin: 12px 0 8px; font-size: 1.6rem; }
+.success-msg p { color: var(--muted); }
+
+/* No-contractor contact section on county pages */
+.no-contractor-section {
+  display: none;
+  background: #fff8f5;
+  border: 1px solid #f5d5c0;
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
+.no-contractor-section h3 { color: var(--orange); margin-bottom: 8px; }
+.no-contractor-section p { color: var(--muted); font-size: 0.92rem; margin-bottom: 16px; }
+.btn-contact {
+  display: inline-block;
+  background: var(--green);
+  color: #fff;
+  padding: 11px 24px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+.btn-contact:hover { background: var(--green-mid); }
+
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
   .hero h1 { font-size: 2.1rem; }
