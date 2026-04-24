@@ -7,6 +7,7 @@ const { statesAndCounties, stateSlugToName, countySlugToName, toSlug } = require
 const { getCitiesForCounty, citySlugToName } = require('./data/cities');
 const { ANIMALS, ANIMAL_SLUGS, getAnimalBySlug } = require('./data/animals');
 const { stateContent } = require('./data/stateContent');
+const { getAnimalRegionContent } = require('./data/animalRegionContent');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -130,7 +131,8 @@ app.get('/:stateSlug/:countySlug/:segment/', (req, res) => {
   if (ANIMAL_SLUGS.has(seg)) {
     const animal = getAnimalBySlug(seg);
     const cities = getCitiesForCounty(stateName, countyName);
-    return res.render('county-animal', { stateName, countyName, animal, cities, stateInfo, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, toSlug, ANIMALS });
+    const animalRegionNote = getAnimalRegionContent(stateName, seg);
+    return res.render('county-animal', { stateName, countyName, animal, cities, stateInfo, animalRegionNote, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, toSlug, ANIMALS });
   }
 
   // City page
@@ -156,7 +158,8 @@ app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug/', (req, res) => {
   const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
 
   const stateInfo = stateContent[stateName] || null;
-  res.render('city-animal', { stateName, countyName, cityName, animal, stateInfo, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: req.params.citySlug, toSlug, ANIMALS });
+  const animalRegionNote = getAnimalRegionContent(stateName, req.params.animalSlug);
+  res.render('city-animal', { stateName, countyName, cityName, animal, stateInfo, animalRegionNote, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: req.params.citySlug, toSlug, ANIMALS });
 });
 
 // Redirect trailing-slash-less URLs

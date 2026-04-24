@@ -151,12 +151,16 @@
     </section>
     <% } %>
 
-    <% if (stateInfo) { %>
+    <% if (animalRegionNote || stateInfo) { %>
     <section class="county-content">
       <div class="container">
         <h2><%= animal.name %> in <%= stateName %> — What You Should Know</h2>
-        <p><%= stateInfo.wildlifeNote %></p>
+        <% if (animalRegionNote) { %>
+        <p><%= animalRegionNote %></p>
+        <% } %>
+        <% if (stateInfo) { %>
         <p><%= stateInfo.seasonNote %> All wildlife removal in <%= stateName %> is regulated by the <strong><%= stateInfo.agency %></strong>. Our contractors hold all required state permits and use only legal, humane methods.</p>
+        <% } %>
       </div>
     </section>
     <% } %>
