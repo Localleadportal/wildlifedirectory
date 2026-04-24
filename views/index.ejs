@@ -1,42 +1,113 @@
-<%
-  const title = 'Wildlife Removal Directory | Find Local Contractors | RemoveWildlifeNow.com';
-  const metaDesc = 'Find licensed wildlife removal contractors near you. Browse by state and county to connect with local professionals handling raccoons, squirrels, bats, snakes, and more.';
-  const canonical = '/';
-  const body = `
-<section class="hero">
-  <div class="container">
-    <h1>Find Wildlife Removal Near You</h1>
-    <p class="hero-sub">Connect with licensed, local wildlife removal contractors. Select your state to find coverage in your county.</p>
-  </div>
-</section>
-
-<section class="states-section">
-  <div class="container">
-    <h2>Browse by State</h2>
-    <ul class="states-grid">
-      ${states.map(state => `<li><a href="/${toSlug(state)}/">${state}</a></li>`).join('')}
-    </ul>
-  </div>
-</section>
-
-<section class="about">
-  <div class="container">
-    <h2>Why RemoveWildlifeNow.com?</h2>
-    <div class="features">
-      <div class="feature">
-        <h3>Local Experts</h3>
-        <p>Every contractor in our directory is local to your county — they know the wildlife problems specific to your area.</p>
-      </div>
-      <div class="feature">
-        <h3>Licensed &amp; Insured</h3>
-        <p>We connect you only with professionals who hold the proper state licenses for wildlife removal and relocation.</p>
-      </div>
-      <div class="feature">
-        <h3>Fast Response</h3>
-        <p>Wildlife problems don't wait. Our directory contractors offer same-day and emergency service in most areas.</p>
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wildlife Removal Directory | Find Local Contractors | RemoveWildlifeNow.com</title>
+  <meta name="description" content="Find licensed wildlife removal contractors near you. Click your state on the map to find coverage in your county.">
+  <link rel="canonical" href="https://www.removewildlifenow.com/">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="/" class="logo">RemoveWildlifeNow<span>.com</span></a>
+      <p class="tagline">Find Local Wildlife Removal Contractors — Fast</p>
     </div>
-  </div>
-</section>`;
-%>
-<%- include('layout', { title, metaDesc, canonical, body }) %>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Find Wildlife Removal Near You</h1>
+        <p class="hero-sub">Click your state on the map to find a licensed local contractor in your county.</p>
+      </div>
+    </section>
+
+    <section class="map-section">
+      <div class="container">
+        <div id="map-tooltip" class="map-tooltip"></div>
+        <svg id="us-map"></svg>
+        <p class="map-hint">Click any state to browse counties</p>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h2>Why RemoveWildlifeNow.com?</h2>
+        <div class="features">
+          <div class="feature">
+            <h3>Local Experts</h3>
+            <p>Every contractor in our directory is local to your county — they know the wildlife problems specific to your area.</p>
+          </div>
+          <div class="feature">
+            <h3>Licensed &amp; Insured</h3>
+            <p>We connect you only with professionals who hold the proper state licenses for wildlife removal and relocation.</p>
+          </div>
+          <div class="feature">
+            <h3>Fast Response</h3>
+            <p>Wildlife problems don't wait. Our directory contractors offer same-day and emergency service in most areas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <%= new Date().getFullYear() %> RemoveWildlifeNow.com &mdash; Connecting homeowners with licensed wildlife removal professionals nationwide.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+  <script>
+    (async () => {
+      const { topo, fips } = await d3.json('/api/states-map');
+      const states = topojson.feature(topo, topo.objects.states);
+      const mesh = topojson.mesh(topo, topo.objects.states, (a, b) => a !== b);
+
+      const svg = d3.select('#us-map');
+      const container = svg.node().parentElement;
+      const width = container.clientWidth;
+      const height = Math.round(width * 0.62);
+
+      svg.attr('viewBox', `0 0 ${width} ${height}`)
+         .attr('width', '100%')
+         .style('display', 'block');
+
+      const projection = d3.geoAlbersUsa().fitSize([width, height], states);
+      const path = d3.geoPath().projection(projection);
+      const tooltip = document.getElementById('map-tooltip');
+
+      svg.append('g')
+        .selectAll('path')
+        .data(states.features)
+        .join('path')
+          .attr('class', 'state')
+          .attr('d', path)
+          .attr('data-name', d => fips[d.id]?.name || '')
+          .on('mousemove', function(event, d) {
+            const name = fips[d.id]?.name;
+            if (!name) return;
+            tooltip.textContent = name;
+            tooltip.style.display = 'block';
+            tooltip.style.left = (event.offsetX + 12) + 'px';
+            tooltip.style.top = (event.offsetY - 10) + 'px';
+          })
+          .on('mouseleave', function() {
+            tooltip.style.display = 'none';
+          })
+          .on('click', function(event, d) {
+            const slug = fips[d.id]?.slug;
+            if (slug) window.location.href = '/' + slug + '/';
+          });
+
+      svg.append('path')
+        .datum(mesh)
+        .attr('class', 'state-border')
+        .attr('d', path);
+    })();
+  </script>
+</body>
+</html>

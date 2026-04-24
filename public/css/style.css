@@ -188,6 +188,41 @@ footer {
 }
 .btn:hover { background: #c04f00; }
 
+/* Map */
+.map-section { padding: 40px 0 20px; }
+.map-hint { text-align: center; color: var(--muted); font-size: 0.9rem; margin-top: 10px; }
+
+#us-map { width: 100%; cursor: pointer; }
+
+.state {
+  fill: var(--green-light);
+  stroke: #fff;
+  stroke-width: 0.5;
+  transition: fill 0.15s;
+}
+.state:hover { fill: var(--green); }
+.state-border {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1;
+  pointer-events: none;
+}
+
+.map-tooltip {
+  display: none;
+  position: absolute;
+  background: var(--green-dark);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 10;
+}
+.map-section .container { position: relative; }
+
 /* Responsive */
 @media (max-width: 640px) {
   .hero h1 { font-size: 1.7rem; }

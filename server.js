@@ -1,6 +1,8 @@
 const express = require('express');
 const fetch = require('node-fetch');
 const path = require('path');
+const fs = require('fs');
+const us = require('us');
 const { statesAndCounties, stateSlugToName, countySlugToName, toSlug } = require('./data/locations');
 
 const app = express();
@@ -12,10 +14,18 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Map data endpoint — TopoJSON + FIPS→slug mapping for D3
+const topoJson = JSON.parse(fs.readFileSync(require.resolve('us-atlas/states-10m.json'), 'utf8'));
+const fipsMap = {};
+us.STATES.forEach(s => { fipsMap[parseInt(s.fips, 10)] = { name: s.name, slug: toSlug(s.name) }; });
+
+app.get('/api/states-map', (req, res) => {
+  res.json({ topo: topoJson, fips: fipsMap });
+});
+
 // Homepage
 app.get('/', (req, res) => {
-  const states = Object.keys(statesAndCounties).sort();
-  res.render('index', { states, toSlug });
+  res.render('index');
 });
 
 // State page — /georgia/

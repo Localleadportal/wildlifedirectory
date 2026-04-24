@@ -12,7 +12,9 @@
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "node-fetch": "^2.7.0",
-    "us": "^2.0.0"
+    "topojson-client": "^3.1.0",
+    "us": "^2.0.0",
+    "us-atlas": "^3.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
