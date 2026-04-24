@@ -148,6 +148,7 @@ header {
   letter-spacing: 0.5px;
 }
 .cta-note { color: #a8c8a8; font-size: 0.9rem; margin-top: 14px; }
+.company-name { color: #d8f0d8; font-size: 1.1rem; font-weight: 600; margin-bottom: 4px; }
 
 /* County content */
 .county-content, .state-content { padding: 48px 0; }
