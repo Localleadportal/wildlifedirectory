@@ -38,37 +38,18 @@ app.get('/:stateSlug/', (req, res) => {
 });
 
 // County page — /georgia/cobb-county/
-app.get('/:stateSlug/:countySlug/', async (req, res) => {
+app.get('/:stateSlug/:countySlug/', (req, res) => {
   const stateName = stateSlugToName(req.params.stateSlug);
   if (!stateName) return res.status(404).render('404', { message: 'State not found.' });
 
   const countyName = countySlugToName(req.params.stateSlug, req.params.countySlug);
   if (!countyName) return res.status(404).render('404', { message: 'County not found.' });
 
-  let phone = null;
-  let hasContractor = false;
-  try {
-    const apiRes = await fetch(
-      `${LEAD_PORTAL}/api/directory?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(countyName)}`
-    );
-    if (apiRes.ok) {
-      const data = await apiRes.json();
-      if (data && data.forwardPhone) {
-        phone = data.forwardPhone;
-        hasContractor = true;
-      }
-    }
-  } catch (e) {
-    // Lead Portal unreachable — show availability message
-  }
-
   const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(countyName)}`;
 
   res.render('county', {
     stateName,
     countyName,
-    phone,
-    hasContractor,
     embedScript,
     stateSlug: req.params.stateSlug,
     toSlug

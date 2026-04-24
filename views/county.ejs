@@ -1,73 +1,85 @@
-<%
-  const title = `Wildlife Removal in ${countyName}, ${stateName} | RemoveWildlifeNow.com`;
-  const metaDesc = `Find a licensed wildlife removal contractor in ${countyName}, ${stateName}. Get connected with a local professional for raccoon, squirrel, bat, snake removal and more.`;
-  const canonical = `/${stateSlug}/${toSlug(countyName)}/`;
-  const body = `
-<nav class="breadcrumb">
-  <div class="container">
-    <a href="/">Home</a> &rsaquo; <a href="/${stateSlug}/">${stateName}</a> &rsaquo; <span>${countyName}</span>
-  </div>
-</nav>
-
-<section class="page-hero">
-  <div class="container">
-    <h1>Wildlife Removal in ${countyName}, ${stateName}</h1>
-    <p>Connect with a licensed local contractor serving ${countyName}.</p>
-  </div>
-</section>
-
-<section class="cta-section">
-  <div class="container">
-    <div class="cta-box">
-      ${hasContractor ? `
-      <h2>Call Your Local ${countyName} Wildlife Removal Expert</h2>
-      <p class="cta-sub">Licensed, insured, and local. Available for same-day and emergency service.</p>
-      <div class="phone-wrap">
-        <a class="llp-phone phone-cta" href="tel:${phone}">${phone}</a>
-      </div>
-      <p class="cta-note">Serving all of ${countyName}, ${stateName}</p>
-      ` : `
-      <h2>Wildlife Removal — ${countyName}, ${stateName}</h2>
-      <p class="cta-sub">A local contractor will be available in your area soon.</p>
-      <div class="phone-wrap availability">
-        <span class="availability-msg">Call for Availability</span>
-      </div>
-      <p class="cta-note">Check back soon or call to be added to our notification list.</p>
-      `}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wildlife Removal in <%= countyName %>, <%= stateName %> | RemoveWildlifeNow.com</title>
+  <meta name="description" content="Find a licensed wildlife removal contractor in <%= countyName %>, <%= stateName %>. Get connected with a local professional for raccoon, squirrel, bat, snake removal and more.">
+  <link rel="canonical" href="https://www.removewildlifenow.com/<%= stateSlug %>/<%= toSlug(countyName) %>/">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="/" class="logo">RemoveWildlifeNow<span>.com</span></a>
+      <p class="tagline">Find Local Wildlife Removal Contractors — Fast</p>
     </div>
-  </div>
-</section>
+  </header>
 
-<section class="county-content">
-  <div class="container">
-    <h2>Wildlife Removal Services in ${countyName}</h2>
-    <p>Homeowners in ${countyName}, ${stateName} face wildlife intrusions year-round. Raccoons, squirrels, bats, and snakes are among the most common problems — often entering through damaged soffits, vents, and rooflines. A local contractor who knows ${countyName} can identify entry points, remove animals humanely, and seal the structure to prevent return visits.</p>
+  <main>
+    <nav class="breadcrumb">
+      <div class="container">
+        <a href="/">Home</a> &rsaquo; <a href="/<%= stateSlug %>/"><%= stateName %></a> &rsaquo; <span><%= countyName %></span>
+      </div>
+    </nav>
 
-    <h3>Services Available in ${countyName}</h3>
-    <ul class="services-list">
-      <li>Raccoon removal and attic cleanup</li>
-      <li>Squirrel trapping and exclusion</li>
-      <li>Bat colony removal and exclusion</li>
-      <li>Snake identification and removal</li>
-      <li>Groundhog and mole control</li>
-      <li>Bird deterrent and exclusion</li>
-      <li>Dead animal removal</li>
-      <li>Wildlife damage repair</li>
-    </ul>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Wildlife Removal in <%= countyName %>, <%= stateName %></h1>
+        <p>Connect with a licensed local contractor serving <%= countyName %>.</p>
+      </div>
+    </section>
 
-    <h3>Why Hire a Local ${countyName} Contractor?</h3>
-    <p>Wildlife removal requires knowledge of local species, seasonal patterns, and ${stateName} regulations. A contractor based in ${countyName} has handled the exact animals common to your neighborhood and knows the fastest, most effective solutions.</p>
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <h2>Call Your Local <%= countyName %> Wildlife Removal Expert</h2>
+          <p class="cta-sub">Licensed, insured, and local. Available for same-day and emergency service.</p>
+          <div class="phone-wrap">
+            <a class="llp-phone phone-cta" href="#">Call for Availability</a>
+          </div>
+          <p class="cta-note">Serving all of <%= countyName %>, <%= stateName %></p>
+        </div>
+      </div>
+    </section>
 
-    <h3>What to Do Before the Contractor Arrives</h3>
-    <ul class="tips-list">
-      <li>Note where you've seen or heard the animal (attic, crawlspace, chimney, yard)</li>
-      <li>Don't attempt to handle or block animals yourself — this can be dangerous</li>
-      <li>Keep pets and children away from the affected area</li>
-      <li>Take photos of any damage or entry points you've found</li>
-    </ul>
-  </div>
-</section>
+    <section class="county-content">
+      <div class="container">
+        <h2>Wildlife Removal Services in <%= countyName %></h2>
+        <p>Homeowners in <%= countyName %>, <%= stateName %> face wildlife intrusions year-round. Raccoons, squirrels, bats, and snakes are among the most common problems — often entering through damaged soffits, vents, and rooflines. A local contractor who knows <%= countyName %> can identify entry points, remove animals humanely, and seal the structure to prevent return visits.</p>
 
-<script src="${embedScript}"></script>`;
-%>
-<%- include('layout', { title, metaDesc, canonical, body }) %>
+        <h3>Services Available in <%= countyName %></h3>
+        <ul class="services-list">
+          <li>Raccoon removal and attic cleanup</li>
+          <li>Squirrel trapping and exclusion</li>
+          <li>Bat colony removal and exclusion</li>
+          <li>Snake identification and removal</li>
+          <li>Groundhog and mole control</li>
+          <li>Bird deterrent and exclusion</li>
+          <li>Dead animal removal</li>
+          <li>Wildlife damage repair</li>
+        </ul>
+
+        <h3>Why Hire a Local <%= countyName %> Contractor?</h3>
+        <p>Wildlife removal requires knowledge of local species, seasonal patterns, and <%= stateName %> regulations. A contractor based in <%= countyName %> has handled the exact animals common to your neighborhood and knows the fastest, most effective solutions.</p>
+
+        <h3>What to Do Before the Contractor Arrives</h3>
+        <ul class="tips-list">
+          <li>Note where you've seen or heard the animal (attic, crawlspace, chimney, yard)</li>
+          <li>Don't attempt to handle or block animals yourself — this can be dangerous</li>
+          <li>Keep pets and children away from the affected area</li>
+          <li>Take photos of any damage or entry points you've found</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <%= new Date().getFullYear() %> RemoveWildlifeNow.com &mdash; Connecting homeowners with licensed wildlife removal professionals nationwide.</p>
+    </div>
+  </footer>
+
+  <script src="<%- embedScript %>"></script>
+</body>
+</html>
