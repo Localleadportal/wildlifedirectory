@@ -4,6 +4,8 @@ const path = require('path');
 const fs = require('fs');
 const us = require('us');
 const { statesAndCounties, stateSlugToName, countySlugToName, toSlug } = require('./data/locations');
+const { getCitiesForCounty, citySlugToName } = require('./data/cities');
+const { ANIMALS, ANIMAL_SLUGS, getAnimalBySlug } = require('./data/animals');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -60,13 +62,16 @@ app.get('/:stateSlug/:countySlug/', (req, res) => {
   if (!countyName) return res.status(404).render('404', { message: 'County not found.' });
 
   const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
+  const cities = getCitiesForCounty(stateName, countyName);
 
   res.render('county', {
     stateName,
     countyName,
     embedScript,
+    cities,
     stateSlug: req.params.stateSlug,
-    toSlug
+    toSlug,
+    ANIMALS
   });
 });
 
@@ -105,9 +110,53 @@ app.post('/contact/', async (req, res) => {
   }
 });
 
+// County-animal OR city page — /georgia/cobb-county/raccoon-removal/ OR /georgia/cobb-county/marietta/
+app.get('/:stateSlug/:countySlug/:segment/', (req, res) => {
+  const stateName = stateSlugToName(req.params.stateSlug);
+  if (!stateName) return res.status(404).render('404', { message: 'State not found.' });
+  const countyName = countySlugToName(req.params.stateSlug, req.params.countySlug);
+  if (!countyName) return res.status(404).render('404', { message: 'County not found.' });
+
+  const seg = req.params.segment;
+  const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
+
+  // Animal page
+  if (ANIMAL_SLUGS.has(seg)) {
+    const animal = getAnimalBySlug(seg);
+    const cities = getCitiesForCounty(stateName, countyName);
+    return res.render('county-animal', { stateName, countyName, animal, cities, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, toSlug, ANIMALS });
+  }
+
+  // City page
+  const cityName = citySlugToName(stateName, countyName, seg);
+  if (cityName) {
+    return res.render('city', { stateName, countyName, cityName, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: seg, toSlug, ANIMALS });
+  }
+
+  return res.status(404).render('404', { message: 'Page not found.' });
+});
+
+// City-animal page — /georgia/cobb-county/marietta/raccoon-removal/
+app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug/', (req, res) => {
+  const stateName = stateSlugToName(req.params.stateSlug);
+  if (!stateName) return res.status(404).render('404', { message: 'State not found.' });
+  const countyName = countySlugToName(req.params.stateSlug, req.params.countySlug);
+  if (!countyName) return res.status(404).render('404', { message: 'County not found.' });
+  const cityName = citySlugToName(stateName, countyName, req.params.citySlug);
+  if (!cityName) return res.status(404).render('404', { message: 'City not found.' });
+  const animal = getAnimalBySlug(req.params.animalSlug);
+  if (!animal) return res.status(404).render('404', { message: 'Service not found.' });
+
+  const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
+
+  res.render('city-animal', { stateName, countyName, cityName, animal, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: req.params.citySlug, toSlug, ANIMALS });
+});
+
 // Redirect trailing-slash-less URLs
 app.get('/:stateSlug', (req, res) => res.redirect(301, `/${req.params.stateSlug}/`));
 app.get('/:stateSlug/:countySlug', (req, res) => res.redirect(301, `/${req.params.stateSlug}/${req.params.countySlug}/`));
+app.get('/:stateSlug/:countySlug/:segment', (req, res) => res.redirect(301, `/${req.params.stateSlug}/${req.params.countySlug}/${req.params.segment}/`));
+app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug', (req, res) => res.redirect(301, `/${req.params.stateSlug}/${req.params.countySlug}/${req.params.citySlug}/${req.params.animalSlug}/`));
 
 app.use((req, res) => res.status(404).render('404', { message: 'Page not found.' }));
 

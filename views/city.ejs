@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wildlife Removal in <%= cityName %>, <%= stateName %> | RemoveWildlifeNow.com</title>
+  <meta name="description" content="Find a licensed wildlife removal contractor in <%= cityName %>, <%= stateName %>. Local experts serving <%= cityName %> for raccoon, squirrel, bat, snake removal and more.">
+  <link rel="canonical" href="https://www.removewildlifenow.com/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="/" class="logo">RemoveWildlife<span>Now</span></a>
+      <nav class="header-nav">
+        <a href="/">Home</a>
+        <a href="/<%= stateSlug %>/"><%= stateName %></a>
+        <a href="/<%= stateSlug %>/<%= countySlug %>/"><%= countyName %></a>
+      </nav>
+      <a class="llp-phone header-phone" href="#">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Call for Availability
+      </a>
+    </div>
+  </header>
+
+  <div class="trust-bar">
+    <div class="container trust-bar-inner">
+      <div class="trust-item">24/7 Emergency Response</div>
+      <div class="trust-item">Licensed &amp; Insured</div>
+      <div class="trust-item">Humane Methods</div>
+      <div class="trust-item">Local Experts</div>
+    </div>
+  </div>
+
+  <main>
+    <nav class="breadcrumb">
+      <div class="container">
+        <a href="/">Home</a> &rsaquo; <a href="/<%= stateSlug %>/"><%= stateName %></a> &rsaquo; <a href="/<%= stateSlug %>/<%= countySlug %>/"><%= countyName %></a> &rsaquo; <span><%= cityName %></span>
+      </div>
+    </nav>
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="hero-badge">Serving <%= cityName %>, <%= stateName %></div>
+        <h1>Wildlife Removal in <%= cityName %></h1>
+        <p>Local licensed experts serving <%= cityName %> and surrounding areas in <%= countyName %>.</p>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <h2>Your <%= cityName %> Wildlife Removal Expert</h2>
+          <p class="llp-company-name company-name" style="display:none;"></p>
+          <p class="cta-sub">Licensed, insured &amp; local. Same-day and emergency service available in <%= cityName %>.</p>
+          <div class="phone-wrap">
+            <a class="llp-phone phone-cta" href="#">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              Call for Availability
+            </a>
+          </div>
+          <p class="cta-note llp-available-only">Serving <%= cityName %> and all of <%= countyName %>, <%= stateName %></p>
+          <div class="no-contractor-section" id="no-contractor">
+            <h3>No Contractor Assigned Yet</h3>
+            <p>We're expanding fast. Contact us and we'll connect you with help in <%= cityName %>.</p>
+            <a href="/contact/?county=<%= encodeURIComponent(countyName) %>&state=<%= encodeURIComponent(stateName) %>" class="btn-contact">Contact Us for Help</a>
+          </div>
+          <div class="cta-badges">
+            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Licensed &amp; Insured</span>
+            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Same-Day Available</span>
+            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Humane Methods</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section">
+      <div class="container">
+        <h2>Wildlife Removal Services in <%= cityName %></h2>
+        <p class="section-sub">Our <%= countyName %> contractor serves all of <%= cityName %> — the same licensed professional handles every job in your area.</p>
+        <ul class="counties-grid">
+          <% ANIMALS.forEach(a => { %>
+          <li><a href="/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/<%= a.slug %>/"><%= a.emoji %> <%= a.name %></a></li>
+          <% }); %>
+        </ul>
+      </div>
+    </section>
+
+    <section class="county-content">
+      <div class="container">
+        <h2>Wildlife Problems in <%= cityName %>, <%= stateName %></h2>
+        <p>Homeowners in <%= cityName %> deal with many of the same wildlife issues found throughout <%= countyName %>. Raccoons, squirrels, bats, and snakes are among the most common — often entering through damaged soffits, vents, and rooflines in residential neighborhoods.</p>
+        <p>The contractor serving <%= cityName %> is based in <%= countyName %> and knows the specific wildlife patterns, local regulations, and most effective removal methods for your area. One call gets you a local expert who has worked throughout <%= cityName %> and surrounding communities.</p>
+
+        <h3>Why Use a Local <%= cityName %> Contractor?</h3>
+        <ul class="tips-list">
+          <li>They know the wildlife species most common to <%= cityName %> neighborhoods</li>
+          <li>Familiar with local ordinances and <%= stateName %> wildlife removal regulations</li>
+          <li>Faster response time — they're already in your area</li>
+          <li>Follow-up visits are easy when the contractor is local</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <%= new Date().getFullYear() %> RemoveWildlifeNow.com &mdash; Connecting homeowners with licensed wildlife removal professionals nationwide.</p>
+    </div>
+  </footer>
+
+  <script src="<%- embedScript %>"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= animal.name %> in <%= cityName %>, <%= stateName %> | RemoveWildlifeNow.com</title>
+  <meta name="description" content="Need <%= animal.name.toLowerCase() %> in <%= cityName %>, <%= stateName %>? Local licensed experts serve <%= cityName %> — fast, humane, same-day service available.">
+  <link rel="canonical" href="https://www.removewildlifenow.com/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/<%= animal.slug %>/">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="/" class="logo">RemoveWildlife<span>Now</span></a>
+      <nav class="header-nav">
+        <a href="/<%= stateSlug %>/"><%= stateName %></a>
+        <a href="/<%= stateSlug %>/<%= countySlug %>/"><%= countyName %></a>
+        <a href="/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/"><%= cityName %></a>
+      </nav>
+      <a class="llp-phone header-phone" href="#">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Call for Availability
+      </a>
+    </div>
+  </header>
+
+  <div class="trust-bar">
+    <div class="container trust-bar-inner">
+      <div class="trust-item">24/7 Emergency Response</div>
+      <div class="trust-item">Licensed &amp; Insured</div>
+      <div class="trust-item">Humane Methods</div>
+      <div class="trust-item">Local Experts</div>
+    </div>
+  </div>
+
+  <main>
+    <nav class="breadcrumb">
+      <div class="container">
+        <a href="/">Home</a> &rsaquo;
+        <a href="/<%= stateSlug %>/<%= countySlug %>/"><%= countyName %></a> &rsaquo;
+        <a href="/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/"><%= cityName %></a> &rsaquo;
+        <span><%= animal.name %></span>
+      </div>
+    </nav>
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="hero-badge"><%= cityName %>, <%= stateName %></div>
+        <h1><%= animal.emoji %> <%= animal.name %> in <%= cityName %></h1>
+        <p>Local licensed expert serving <%= cityName %> and all of <%= countyName %>. <%= animal.shortDesc %></p>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <h2><%= animal.name %> — <%= cityName %>, <%= stateName %></h2>
+          <p class="llp-company-name company-name" style="display:none;"></p>
+          <p class="cta-sub">Licensed local expert. Same-day and emergency service in <%= cityName %>.</p>
+          <div class="phone-wrap">
+            <a class="llp-phone phone-cta" href="#">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              Call for Availability
+            </a>
+          </div>
+          <p class="cta-note llp-available-only">Serving <%= cityName %> and all of <%= countyName %>, <%= stateName %></p>
+          <div class="no-contractor-section" id="no-contractor">
+            <h3>No Contractor Assigned Yet</h3>
+            <p>We're expanding. Contact us and we'll find <%= animal.name.toLowerCase() %> help in <%= cityName %> fast.</p>
+            <a href="/contact/?county=<%= encodeURIComponent(countyName) %>&state=<%= encodeURIComponent(stateName) %>" class="btn-contact">Contact Us for Help</a>
+          </div>
+          <div class="cta-badges">
+            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Licensed &amp; Insured</span>
+            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Same-Day Available</span>
+            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Humane Methods</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section">
+      <div class="container">
+        <h2><%= animal.name %> in <%= cityName %> — What to Expect</h2>
+        <p class="section-sub"><%= animal.urgency %></p>
+        <div class="service-cards">
+          <div class="service-card featured">
+            <span class="card-badge">Signs in <%= cityName %></span>
+            <span class="card-icon"><%= animal.emoji %></span>
+            <h3>Signs You Have <%= animal.plural %></h3>
+            <p><%= animal.season %></p>
+            <ul class="card-list">
+              <% animal.signs.forEach(sign => { %>
+              <li><%= sign %></li>
+              <% }); %>
+            </ul>
+            <a class="llp-phone card-phone" href="#">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              Call for Availability
+            </a>
+          </div>
+          <div class="service-card">
+            <span class="card-icon">🛠️</span>
+            <h3>Our Process in <%= cityName %></h3>
+            <p>Our local <%= countyName %> contractor serves all of <%= cityName %> using the same proven, humane process for every job.</p>
+            <ul class="card-list">
+              <% animal.services.forEach(svc => { %>
+              <li><%= svc %></li>
+              <% }); %>
+            </ul>
+            <a class="llp-phone card-phone" href="#">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              Call for Availability
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="counties-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>More Wildlife Services in <%= cityName %></h2>
+          <p>Your local contractor handles all wildlife removal needs</p>
+        </div>
+        <ul class="counties-grid">
+          <% ANIMALS.filter(a => a.slug !== animal.slug).forEach(a => { %>
+          <li><a href="/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/<%= a.slug %>/"><%= a.emoji %> <%= a.name %></a></li>
+          <% }); %>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <%= new Date().getFullYear() %> RemoveWildlifeNow.com &mdash; Connecting homeowners with licensed wildlife removal professionals nationwide.</p>
+    </div>
+  </footer>
+
+  <script src="<%- embedScript %>"></script>
+</body>
+</html>

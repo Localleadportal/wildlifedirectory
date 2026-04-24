@@ -4,7 +4,9 @@
       "Bash(npm install *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(node -e \"const d=require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\); console.log\\(d.slice\\(0,300\\)\\)\")",
+      "Bash(node *)"
     ]
   }
 }
