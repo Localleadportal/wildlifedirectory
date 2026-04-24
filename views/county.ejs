@@ -1,155 +1,178 @@
-<%
-  const title = `Wildlife Removal in ${countyName}, ${stateName} | RemoveWildlifeNow.com`;
-  const metaDesc = `Find a licensed wildlife removal contractor in ${countyName}, ${stateName}. Local experts for raccoon, squirrel, bat, snake removal and full exclusion service.`;
-  const canonical = `/${stateSlug}/${toSlug(countyName)}/`;
-%>
-<%- include('layout', { title, metaDesc, canonical, body: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wildlife Removal in <%= countyName %>, <%= stateName %> | RemoveWildlifeNow.com</title>
+  <meta name="description" content="Find a licensed wildlife removal contractor in <%= countyName %>, <%= stateName %>. Local experts for raccoon, squirrel, bat, snake removal and full exclusion service.">
+  <link rel="canonical" href="https://www.removewildlifenow.com/<%= stateSlug %>/<%= toSlug(countyName) %>/">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a href="/" class="logo">RemoveWildlife<span>Now</span></a>
+      <nav class="header-nav">
+        <a href="/">Home</a>
+        <a href="/<%= stateSlug %>/"><%= stateName %></a>
+      </nav>
+      <a class="llp-phone header-phone" href="#">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Call for Availability
+      </a>
+    </div>
+  </header>
 
-<nav class="breadcrumb">
-  <div class="container">
-    <a href="/">Home</a> &rsaquo; <a href="/${stateSlug}/">${stateName}</a> &rsaquo; <span>${countyName}</span>
-  </div>
-</nav>
-
-<section class="page-hero">
-  <div class="container">
-    <div class="hero-badge">Serving ${countyName}, ${stateName}</div>
-    <h1>Wildlife Removal in ${countyName}</h1>
-    <p>Local licensed experts ready to remove, exclude, and remediate — fast.</p>
-  </div>
-</section>
-
-<section class="cta-section">
-  <div class="container">
-    <div class="cta-box">
-      <h2>Your Local ${countyName} Expert</h2>
-      <p class="llp-company-name company-name" style="display:none;"></p>
-      <p class="cta-sub">Licensed, insured &amp; local. Available for same-day and emergency service.</p>
-      <div class="phone-wrap">
-        <a class="llp-phone phone-cta" href="#">
-          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-          Call for Availability
-        </a>
-      </div>
-      <p class="cta-note llp-available-only">Serving all of ${countyName}, ${stateName}</p>
-      <div class="no-contractor-section" id="no-contractor">
-        <h3>No Contractor Assigned Yet</h3>
-        <p>We don't have a licensed contractor in ${countyName} yet — but we're expanding fast. Contact us and we'll connect you with help.</p>
-        <a href="/contact/?county=${encodeURIComponent(countyName)}&state=${encodeURIComponent(stateName)}" class="btn-contact">Contact Us for Help</a>
-      </div>
-      <div class="cta-badges">
-        <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Licensed &amp; Insured</span>
-        <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Same-Day Available</span>
-        <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Humane Methods</span>
-      </div>
+  <div class="trust-bar">
+    <div class="container trust-bar-inner">
+      <div class="trust-item">24/7 Emergency Response</div>
+      <div class="trust-item">Licensed &amp; Insured Contractors</div>
+      <div class="trust-item">Humane Removal Methods</div>
+      <div class="trust-item">Local Experts in Your County</div>
     </div>
   </div>
-</section>
 
-<section class="services-section">
-  <div class="container">
-    <h2>Services Available in ${countyName}</h2>
-    <p class="section-sub">Our local contractor handles every aspect of wildlife removal — from capture to exclusion to cleanup.</p>
-    <div class="service-cards">
+  <main>
+    <nav class="breadcrumb">
+      <div class="container">
+        <a href="/">Home</a> &rsaquo; <a href="/<%= stateSlug %>/"><%= stateName %></a> &rsaquo; <span><%= countyName %></span>
+      </div>
+    </nav>
 
-      <div class="service-card">
-        <span class="card-icon">🦝</span>
-        <h3>Wildlife Removal</h3>
-        <p>Trained experts safely remove animals from your home using high-capture-rate trapping and exclusion techniques.</p>
-        <ul class="card-list">
-          <li>24/7 Emergency Response</li>
-          <li>High Capture Success Rate</li>
-          <li>Raccoons, Squirrels, Bats &amp; More</li>
-          <li>Safe &amp; Humane Methods</li>
-          <li>Certified Technicians</li>
+    <section class="page-hero">
+      <div class="container">
+        <div class="hero-badge">Serving <%= countyName %>, <%= stateName %></div>
+        <h1>Wildlife Removal in <%= countyName %></h1>
+        <p>Local licensed experts ready to remove, exclude, and remediate — fast.</p>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-box">
+          <h2>Your Local <%= countyName %> Expert</h2>
+          <p class="llp-company-name company-name" style="display:none;"></p>
+          <p class="cta-sub">Licensed, insured &amp; local. Available for same-day and emergency service.</p>
+          <div class="phone-wrap">
+            <a class="llp-phone phone-cta" href="#">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              Call for Availability
+            </a>
+          </div>
+          <p class="cta-note llp-available-only">Serving all of <%= countyName %>, <%= stateName %></p>
+          <div class="no-contractor-section" id="no-contractor">
+            <h3>No Contractor Assigned Yet</h3>
+            <p>We don't have a licensed contractor in <%= countyName %> yet — but we're expanding fast. Contact us and we'll connect you with help.</p>
+            <a href="/contact/?county=<%= encodeURIComponent(countyName) %>&state=<%= encodeURIComponent(stateName) %>" class="btn-contact">Contact Us for Help</a>
+          </div>
+          <div class="cta-badges">
+            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Licensed &amp; Insured</span>
+            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Same-Day Available</span>
+            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Humane Methods</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section">
+      <div class="container">
+        <h2>Services Available in <%= countyName %></h2>
+        <p class="section-sub">Our local contractor handles every aspect of wildlife removal — from capture to exclusion to cleanup.</p>
+        <div class="service-cards">
+          <div class="service-card">
+            <span class="card-icon">🦝</span>
+            <h3>Wildlife Removal</h3>
+            <p>Trained experts safely remove animals from your home using high-capture-rate trapping and exclusion techniques.</p>
+            <ul class="card-list">
+              <li>24/7 Emergency Response</li>
+              <li>High Capture Success Rate</li>
+              <li>Raccoons, Squirrels, Bats &amp; More</li>
+              <li>Safe &amp; Humane Methods</li>
+              <li>Certified Technicians</li>
+            </ul>
+            <a class="llp-phone card-phone" href="#"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg> Call for Availability</a>
+          </div>
+          <div class="service-card featured">
+            <span class="card-badge">Core Service</span>
+            <span class="card-icon">🛡️</span>
+            <h3>Exclusion</h3>
+            <p>Ensuring your home is properly sealed is the most important service we offer. We use only the highest quality materials and industry-best methods.</p>
+            <ul class="card-list">
+              <li>Galvanized Steel Sealing</li>
+              <li>Industry-Best Methods</li>
+              <li>1-Year Guarantee</li>
+              <li>Permanent Prevention</li>
+            </ul>
+            <a class="llp-phone card-phone" href="#"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg> Call for Availability</a>
+          </div>
+          <div class="service-card">
+            <span class="card-icon">🧹</span>
+            <h3>Remediation</h3>
+            <p>Whatever animal you had, they likely left waste and caused damage. Our team will deodorize, sanitize, and repair damaged material.</p>
+            <ul class="card-list">
+              <li>Complete Waste Removal</li>
+              <li>Deodorize &amp; Sanitize</li>
+              <li>Repair Damaged Materials</li>
+              <li>Restore Home Value</li>
+            </ul>
+            <a class="llp-phone card-phone" href="#"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg> Call for Availability</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="counties-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Wildlife Removal by Animal in <%= countyName %></h2>
+          <p>Find specific removal services in <%= countyName %></p>
+        </div>
+        <ul class="counties-grid">
+          <% ANIMALS.forEach(a => { %>
+          <li><a href="/<%= stateSlug %>/<%= toSlug(countyName) %>/<%= a.slug %>/"><%= a.emoji %> <%= a.name %></a></li>
+          <% }); %>
         </ul>
-        <a class="llp-phone card-phone" href="#">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-          Call for Availability
-        </a>
       </div>
+    </section>
 
-      <div class="service-card featured">
-        <span class="card-badge">Core Service</span>
-        <span class="card-icon">🛡️</span>
-        <h3>Exclusion</h3>
-        <p>Ensuring your home is properly sealed is the most important service we offer. We use only the highest quality materials and industry-best methods.</p>
-        <ul class="card-list">
-          <li>Galvanized Steel Sealing</li>
-          <li>Industry-Best Methods</li>
-          <li>1-Year Guarantee</li>
-          <li>Permanent Prevention</li>
+    <% if (cities && cities.length > 0) { %>
+    <section class="counties-section" style="background:var(--green-light);border-top:1px solid var(--green-border);">
+      <div class="container">
+        <div class="section-header">
+          <h2>Cities We Serve in <%= countyName %></h2>
+          <p>Find wildlife removal in your specific city</p>
+        </div>
+        <ul class="counties-grid">
+          <% cities.forEach(city => { %>
+          <li><a href="/<%= stateSlug %>/<%= toSlug(countyName) %>/<%= toSlug(city) %>/"><%= city %></a></li>
+          <% }); %>
         </ul>
-        <a class="llp-phone card-phone" href="#">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-          Call for Availability
-        </a>
       </div>
+    </section>
+    <% } %>
 
-      <div class="service-card">
-        <span class="card-icon">🧹</span>
-        <h3>Remediation</h3>
-        <p>Whatever animal you had, they likely left waste and caused damage. Our team will deodorize, sanitize, and repair damaged material.</p>
-        <ul class="card-list">
-          <li>Complete Waste Removal</li>
-          <li>Deodorize &amp; Sanitize</li>
-          <li>Repair Damaged Materials</li>
-          <li>Restore Home Value</li>
+    <section class="county-content">
+      <div class="container">
+        <h2>Why Hire a Local <%= countyName %> Contractor?</h2>
+        <p>Wildlife removal requires knowledge of local species, seasonal patterns, and <%= stateName %> regulations. A contractor based in <%= countyName %> has handled the exact animals common to your neighborhood and knows the fastest, most effective solutions.</p>
+
+        <h3>What to Do Before the Contractor Arrives</h3>
+        <ul class="tips-list">
+          <li>Note where you've seen or heard the animal — attic, crawlspace, chimney, or yard</li>
+          <li>Don't attempt to handle or block animals yourself — this can be dangerous</li>
+          <li>Keep pets and children away from the affected area</li>
+          <li>Take photos of any damage or entry points you've spotted</li>
         </ul>
-        <a class="llp-phone card-phone" href="#">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-          Call for Availability
-        </a>
       </div>
+    </section>
+  </main>
 
+  <footer>
+    <div class="container">
+      <p>&copy; <%= new Date().getFullYear() %> RemoveWildlifeNow.com &mdash; Connecting homeowners with licensed wildlife removal professionals nationwide.</p>
     </div>
-  </div>
-</section>
+  </footer>
 
-<section class="counties-section">
-  <div class="container">
-    <div class="section-header">
-      <h2>Wildlife Removal by Animal in <%= countyName %></h2>
-      <p>Find specific removal services in <%= countyName %></p>
-    </div>
-    <ul class="counties-grid">
-      <% ANIMALS.forEach(a => { %>
-      <li><a href="/<%= stateSlug %>/<%= toSlug(countyName) %>/<%= a.slug %>/"><%= a.emoji %> <%= a.name %></a></li>
-      <% }); %>
-    </ul>
-  </div>
-</section>
-
-<% if (cities && cities.length > 0) { %>
-<section class="counties-section" style="background:var(--green-light);border-top:1px solid var(--green-border);">
-  <div class="container">
-    <div class="section-header">
-      <h2>Cities We Serve in <%= countyName %></h2>
-      <p>Find wildlife removal in your specific city</p>
-    </div>
-    <ul class="counties-grid">
-      <% cities.forEach(city => { %>
-      <li><a href="/<%= stateSlug %>/<%= toSlug(countyName) %>/<%= toSlug(city) %>/"><%= city %></a></li>
-      <% }); %>
-    </ul>
-  </div>
-</section>
-<% } %>
-
-<section class="county-content">
-  <div class="container">
-    <h2>Why Hire a Local ${countyName} Contractor?</h2>
-    <p>Wildlife removal requires knowledge of local species, seasonal patterns, and ${stateName} regulations. A contractor based in ${countyName} has handled the exact animals common to your neighborhood and knows the fastest, most effective solutions.</p>
-
-    <h3>What to Do Before the Contractor Arrives</h3>
-    <ul class="tips-list">
-      <li>Note where you've seen or heard the animal — attic, crawlspace, chimney, or yard</li>
-      <li>Don't attempt to handle or block animals yourself — this can be dangerous</li>
-      <li>Keep pets and children away from the affected area</li>
-      <li>Take photos of any damage or entry points you've spotted</li>
-    </ul>
-  </div>
-</section>
-
-<script src="${embedScript}"></script>
-` }) %>
+  <script src="<%- embedScript %>"></script>
+</body>
+</html>
