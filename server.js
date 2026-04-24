@@ -10,6 +10,10 @@ const PORT = process.env.PORT || 3000;
 const LEAD_PORTAL = 'https://localleadportal-production.up.railway.app';
 const SERVICE_TYPE = 'Wildlife Removal';
 
+function apiCounty(name) {
+  return name.replace(/ (County|Parish|Borough|Census Area|City|Municipality)$/i, '').trim();
+}
+
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
@@ -45,7 +49,7 @@ app.get('/:stateSlug/:countySlug/', (req, res) => {
   const countyName = countySlugToName(req.params.stateSlug, req.params.countySlug);
   if (!countyName) return res.status(404).render('404', { message: 'County not found.' });
 
-  const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(countyName)}`;
+  const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
 
   res.render('county', {
     stateName,
