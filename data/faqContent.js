@@ -23,7 +23,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
       },
       {
         q: `What time of year are raccoons worst in ${stateName}?`,
-        a: `${stateInfo ? stateInfo.seasonNote : `Raccoon activity in ${stateName} peaks in late winter and early spring`}. Females actively seek attic entry points in January through March to give birth. A second wave of juvenile raccoon activity occurs in summer as young animals disperse. ${location} residents should inspect their rooflines and soffits in fall before denning season begins.`
+        a: `Raccoons are worst in ${stateName} from December through March, when pregnant females actively seek attic entry points to give birth. A second wave of activity occurs in late summer as juveniles disperse and establish new territories. ${location} residents should inspect rooflines and soffits in fall — before denning season — to seal entry points before a raccoon moves in.`
       },
       {
         q: `Can I remove raccoons myself in ${stateName}?`,
@@ -50,7 +50,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
       },
       {
         q: `What time of year are squirrel intrusions worst in ${stateName}?`,
-        a: `${stateName} sees two peak squirrel intrusion seasons. The first is fall — September through November — when squirrels aggressively seek winter shelter. The second is early spring when females establish nesting sites for their first litter. ${stateInfo ? stateInfo.seasonNote : `Squirrel calls spike significantly in both seasons across ${stateName}.`}`
+        a: `Squirrels have two peak intrusion seasons in ${stateName}. The first is fall — September through November — when squirrels aggressively seek winter shelter and cache food. The second is early spring — February through April — when females establish attic nesting sites for their first litter. ${location} residents hear the most squirrel activity at dawn and dusk during both seasons.`
       }
     ],
 
@@ -96,7 +96,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
       },
       {
         q: `When are snakes most active in ${stateName}?`,
-        a: `${stateInfo ? stateInfo.seasonNote : `Snake activity in ${stateName} peaks in spring and fall.`} Spring emergence is the first peak as snakes come out of winter dormancy and bask near homes. Fall is the second peak as snakes move toward winter den sites. ${location} residents should be most cautious from March through October.`
+        a: `Snakes are most active in ${stateName} from March through October. Spring emergence is the first peak — snakes come out of winter dormancy, bask in sunny areas, and begin moving onto properties as temperatures warm. Fall is the second peak as snakes actively move toward winter den sites and occasionally enter structures seeking warmth. ${location} residents should be most cautious during these two transition periods.`
       }
     ],
 
@@ -111,7 +111,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
       },
       {
         q: `When do groundhogs come out in ${stateName}?`,
-        a: `${stateInfo ? stateInfo.seasonNote : `Groundhogs in ${stateName} emerge from hibernation in late February or March.`} Activity peaks in spring and early summer when they are establishing burrows and raising young. By midsummer, juvenile groundhogs are dispersing from birth burrows — often into neighboring yards and foundations in ${location}.`
+        a: `Groundhogs in ${stateName} emerge from hibernation in late February or March and immediately begin expanding or establishing burrows. Burrowing damage peaks in spring and early summer as they establish territories and raise young. By midsummer, juvenile groundhogs disperse from their birth burrow — often moving directly under neighboring structures in ${location}. They hibernate again from November through February.`
       },
       {
         q: `Will groundhog repellents work on my ${location} property?`,
@@ -142,7 +142,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
       },
       {
         q: `When is the best time to do bird exclusion in ${stateName}?`,
-        a: `${stateInfo ? stateInfo.seasonNote : `The optimal window in ${stateName} is late fall through early spring`}, before nesting season begins. Once active nests are present, many species are legally protected and work must pause until chicks have fledged. Your ${location} contractor can inspect now and schedule exclusion for the next available legal window.`
+        a: `The optimal window for bird exclusion in ${stateName} is late fall through early spring — before nesting season begins in March. Once active nests are present, many species including chimney swifts and all native migratory birds are legally protected and work must pause until chicks have fledged. Your ${location} contractor can inspect now and schedule exclusion for the correct legal window for your specific bird species.`
       }
     ],
 
@@ -161,7 +161,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
       },
       {
         q: `What time of year are skunks most dangerous in ${stateName}?`,
-        a: `${stateInfo ? stateInfo.seasonNote : `Late winter — January through March — is the most active period for skunks in ${stateName}`}. Males roam at night seeking mates and have a strong spraying response to any perceived threat. Females begin establishing den sites under structures in February and March. Skunk encounters in ${location} peak sharply during this breeding season.`
+        a: `Skunk activity in ${stateName} peaks during breeding season — January through March — when males roam at night seeking mates and have a strong spraying response to any perceived threat. This is the period with the highest risk of pets being sprayed near ${location} homes. Females establish den sites under structures in February and March to give birth, and will remain until kits are fully weaned — typically 8–10 weeks.`
       },
       {
         q: `How do I get rid of skunk smell in my ${location} home?`,
@@ -188,7 +188,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
       },
       {
         q: `When are opossums most active in ${stateName}?`,
-        a: `Opossums are active year-round in ${stateName}. ${stateInfo ? stateInfo.seasonNote : `They breed twice per year and are found in structures in any season.`} Cold weather drives them more aggressively into sheltered structures. Females carry young in the pouch from January through April and again from June through August — these animals require extra care to handle safely.`
+        a: `Opossums are active year-round in ${stateName} and can be found in structures in any season. They breed twice per year — females carry young in the pouch from January through April for the first litter, and from June through August for the second. Cold weather drives them more aggressively into crawlspaces and attics. Mothers with pouch young require trained handling and are the most common opossum situation in ${location} homes.`
       }
     ],
 
@@ -207,7 +207,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
       },
       {
         q: `When are moles most damaging in ${stateName}?`,
-        a: `${stateInfo ? stateInfo.seasonNote : `Mole surface tunnel damage in ${stateName} peaks in spring and fall`}. Cool soil temperatures and rainfall bring earthworms near the surface, and moles follow — creating fresh tunnel networks nightly in ${location} lawns. Surface damage slows in dry summer heat as earthworms descend, then resumes aggressively in fall.`
+        a: `Mole surface tunnel damage in ${stateName} peaks in spring and fall. Cool soil temperatures and rainfall bring earthworms near the surface, and moles follow — creating fresh tunnel ridges nightly in ${location} lawns. Damage slows in dry summer heat when earthworms descend deeper into the soil, then resumes aggressively in September and October when fall rains return moisture to near-surface soil layers.`
       },
       {
         q: `Are the tunnels in my ${location} lawn from moles or voles?`,
