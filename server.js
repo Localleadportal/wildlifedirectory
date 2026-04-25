@@ -8,6 +8,8 @@ const { getCitiesForCounty, citySlugToName } = require('./data/cities');
 const { ANIMALS, ANIMAL_SLUGS, getAnimalBySlug } = require('./data/animals');
 const { stateContent } = require('./data/stateContent');
 const { getAnimalRegionContent } = require('./data/animalRegionContent');
+const { animalFaqs } = require('./data/faqContent');
+const { getSeasonalContent } = require('./data/seasonalContent');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -16,6 +18,29 @@ const SERVICE_TYPE = 'Wildlife Removal';
 
 function apiCounty(name) {
   return name.replace(/ (County|Parish|Borough|Census Area|City|Municipality)$/i, '').trim();
+}
+
+// ── Contractor presence check with 5-min cache ──────────────────────────────
+const _contractorCache = new Map();
+async function hasContractor(stateName, countyName) {
+  const key = `${stateName}|${apiCounty(countyName)}`;
+  const hit = _contractorCache.get(key);
+  if (hit && hit.expires > Date.now()) return hit.value;
+  try {
+    const controller = new AbortController();
+    const tid = setTimeout(() => controller.abort(), 2500);
+    const r = await fetch(
+      `${LEAD_PORTAL}/api/directory?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`,
+      { signal: controller.signal }
+    );
+    clearTimeout(tid);
+    const d = await r.json();
+    const value = !!d.available;
+    _contractorCache.set(key, { value, expires: Date.now() + 5 * 60 * 1000 });
+    return value;
+  } catch {
+    return false;
+  }
 }
 
 app.set('view engine', 'ejs');
@@ -30,6 +55,58 @@ us.STATES.forEach(s => { fipsMap[parseInt(s.fips, 10)] = { name: s.name, slug: t
 
 app.get('/api/states-map', (req, res) => {
   res.json({ topo: topoJson, fips: fipsMap });
+});
+
+// robots.txt
+app.get('/robots.txt', (req, res) => {
+  res.type('text/plain');
+  res.send('User-agent: *\nAllow: /\nSitemap: https://www.removewildlifenow.com/sitemap.xml\n');
+});
+
+// Dynamic sitemap — only lists pages that have an active contractor
+app.get('/sitemap.xml', async (req, res) => {
+  const BASE = 'https://www.removewildlifenow.com';
+  const urls = [`${BASE}/`, `${BASE}/contact/`];
+
+  // Add all state pages
+  Object.keys(statesAndCounties).forEach(state => {
+    urls.push(`${BASE}/${toSlug(state)}/`);
+  });
+
+  try {
+    const controller = new AbortController();
+    const tid = setTimeout(() => controller.abort(), 5000);
+    const r = await fetch(`${LEAD_PORTAL}/api/directory/active-locations`, { signal: controller.signal });
+    clearTimeout(tid);
+    const { locations } = await r.json();
+
+    locations.forEach(({ state, county, serviceType }) => {
+      if (serviceType !== SERVICE_TYPE) return;
+      const stateSlug  = toSlug(state);
+      // Find matching full county name
+      const counties   = statesAndCounties[state] || [];
+      const fullCounty = counties.find(c => apiCounty(c).toLowerCase() === county.toLowerCase());
+      if (!fullCounty) return;
+      const countySlug = toSlug(fullCounty);
+      urls.push(`${BASE}/${stateSlug}/${countySlug}/`);
+      ANIMALS.forEach(a => {
+        urls.push(`${BASE}/${stateSlug}/${countySlug}/${a.slug}/`);
+        const cities = getCitiesForCounty(state, fullCounty);
+        cities.forEach(city => {
+          urls.push(`${BASE}/${stateSlug}/${countySlug}/${toSlug(city)}/`);
+          urls.push(`${BASE}/${stateSlug}/${countySlug}/${toSlug(city)}/${a.slug}/`);
+        });
+      });
+    });
+  } catch { /* if portal unreachable, still return static pages */ }
+
+  const today = new Date().toISOString().slice(0, 10);
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+    [...new Set(urls)].map(u => `  <url><loc>${u}</loc><lastmod>${today}</lastmod></url>`).join('\n') +
+    `\n</urlset>`;
+
+  res.type('application/xml');
+  res.send(xml);
 });
 
 // Homepage
@@ -57,7 +134,7 @@ app.get('/:stateSlug/', (req, res) => {
 });
 
 // County page — /georgia/cobb-county/
-app.get('/:stateSlug/:countySlug/', (req, res) => {
+app.get('/:stateSlug/:countySlug/', async (req, res) => {
   const stateName = stateSlugToName(req.params.stateSlug);
   if (!stateName) return res.status(404).render('404', { message: 'State not found.' });
 
@@ -67,16 +144,13 @@ app.get('/:stateSlug/:countySlug/', (req, res) => {
   const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
   const cities = getCitiesForCounty(stateName, countyName);
   const stateInfo = stateContent[stateName] || null;
+  const contractor = await hasContractor(stateName, countyName);
 
   res.render('county', {
-    stateName,
-    countyName,
-    embedScript,
-    cities,
-    stateInfo,
+    stateName, countyName, embedScript, cities, stateInfo,
+    hasContractor: contractor,
     stateSlug: req.params.stateSlug,
-    toSlug,
-    ANIMALS
+    toSlug, ANIMALS
   });
 });
 
@@ -116,7 +190,7 @@ app.post('/contact/', async (req, res) => {
 });
 
 // County-animal OR city page — /georgia/cobb-county/raccoon-removal/ OR /georgia/cobb-county/marietta/
-app.get('/:stateSlug/:countySlug/:segment/', (req, res) => {
+app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
   const stateName = stateSlugToName(req.params.stateSlug);
   if (!stateName) return res.status(404).render('404', { message: 'State not found.' });
   const countyName = countySlugToName(req.params.stateSlug, req.params.countySlug);
@@ -132,20 +206,32 @@ app.get('/:stateSlug/:countySlug/:segment/', (req, res) => {
     const animal = getAnimalBySlug(seg);
     const cities = getCitiesForCounty(stateName, countyName);
     const animalRegionNote = getAnimalRegionContent(stateName, seg);
-    return res.render('county-animal', { stateName, countyName, animal, cities, stateInfo, animalRegionNote, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, toSlug, ANIMALS });
+    const contractor = await hasContractor(stateName, countyName);
+    return res.render('county-animal', {
+      stateName, countyName, animal, cities, stateInfo, animalRegionNote, embedScript,
+      hasContractor: contractor,
+      faqs: animalFaqs[seg] || [],
+      seasonal: getSeasonalContent(seg),
+      stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, toSlug, ANIMALS
+    });
   }
 
   // City page
   const cityName = citySlugToName(stateName, countyName, seg);
   if (cityName) {
-    return res.render('city', { stateName, countyName, cityName, stateInfo, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: seg, toSlug, ANIMALS });
+    const contractor = await hasContractor(stateName, countyName);
+    return res.render('city', {
+      stateName, countyName, cityName, stateInfo, embedScript,
+      hasContractor: contractor,
+      stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: seg, toSlug, ANIMALS
+    });
   }
 
   return res.status(404).render('404', { message: 'Page not found.' });
 });
 
 // City-animal page — /georgia/cobb-county/marietta/raccoon-removal/
-app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug/', (req, res) => {
+app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug/', async (req, res) => {
   const stateName = stateSlugToName(req.params.stateSlug);
   if (!stateName) return res.status(404).render('404', { message: 'State not found.' });
   const countyName = countySlugToName(req.params.stateSlug, req.params.countySlug);
@@ -159,7 +245,14 @@ app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug/', (req, res) => {
 
   const stateInfo = stateContent[stateName] || null;
   const animalRegionNote = getAnimalRegionContent(stateName, req.params.animalSlug);
-  res.render('city-animal', { stateName, countyName, cityName, animal, stateInfo, animalRegionNote, embedScript, stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: req.params.citySlug, toSlug, ANIMALS });
+  const contractor = await hasContractor(stateName, countyName);
+  res.render('city-animal', {
+    stateName, countyName, cityName, animal, stateInfo, animalRegionNote, embedScript,
+    hasContractor: contractor,
+    faqs: animalFaqs[req.params.animalSlug] || [],
+    seasonal: getSeasonalContent(req.params.animalSlug),
+    stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: req.params.citySlug, toSlug, ANIMALS
+  });
 });
 
 // Redirect trailing-slash-less URLs

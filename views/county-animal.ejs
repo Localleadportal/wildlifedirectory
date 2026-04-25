@@ -7,6 +7,12 @@
   <meta name="description" content="Need <%= animal.name.toLowerCase() %> in <%= countyName %>, <%= stateName %>? Local licensed experts handle <%= animal.plural.toLowerCase() %> fast — humane methods, same-day service available.">
   <link rel="canonical" href="https://www.removewildlifenow.com/<%= stateSlug %>/<%= countySlug %>/<%= animal.slug %>/">
   <link rel="stylesheet" href="/css/style.css">
+  <% if (!hasContractor) { %><meta name="robots" content="noindex, follow"><% } %>
+  <% if (faqs && faqs.length) { %>
+  <script type="application/ld+json">
+  <%- JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqs.map(function(f){ return { "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }; }) }) %>
+  </script>
+  <% } %>
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
@@ -151,6 +157,17 @@
     </section>
     <% } %>
 
+    <% if (seasonal) { %>
+    <section class="county-content" style="background:<%= seasonal.level === 'high' ? '#fff7ed' : seasonal.level === 'moderate' ? '#f0fdf4' : '#f8fafc' %>;border-top:3px solid <%= seasonal.level === 'high' ? '#f97316' : seasonal.level === 'moderate' ? '#22c55e' : '#94a3b8' %>;">
+      <div class="container">
+        <h2 style="color:<%= seasonal.level === 'high' ? '#c2410c' : seasonal.level === 'moderate' ? '#15803d' : '#475569' %>;margin-bottom:8px;">
+          <%= seasonal.level === 'high' ? '⚠️' : seasonal.level === 'moderate' ? '📅' : '📋' %> <%= seasonal.title %>
+        </h2>
+        <p><%= seasonal.msg %></p>
+      </div>
+    </section>
+    <% } %>
+
     <% if (animalRegionNote || stateInfo) { %>
     <section class="county-content">
       <div class="container">
@@ -161,6 +178,35 @@
         <% if (stateInfo) { %>
         <p><%= stateInfo.seasonNote %> All wildlife removal in <%= stateName %> is regulated by the <strong><%= stateInfo.agency %></strong>. Our contractors hold all required state permits and use only legal, humane methods.</p>
         <% } %>
+      </div>
+    </section>
+    <% } %>
+
+    <% if (animal.costRange) { %>
+    <section class="county-content" style="background:#f8fafc;">
+      <div class="container">
+        <h2><%= animal.name %> Cost in <%= stateName %></h2>
+        <p style="font-size:1.5rem;font-weight:700;color:var(--primary);margin:0 0 8px;"><%= animal.costRange %></p>
+        <p style="color:#6b7280;margin:0;"><%= animal.costNote %> Pricing varies by contractor, location, and severity. Call for a free estimate specific to your situation.</p>
+      </div>
+    </section>
+    <% } %>
+
+    <% if (faqs && faqs.length) { %>
+    <section class="county-content">
+      <div class="container">
+        <h2>Frequently Asked Questions — <%= animal.name %> in <%= countyName %></h2>
+        <div style="display:flex;flex-direction:column;gap:16px;margin-top:16px;">
+          <% faqs.forEach(function(faq) { %>
+          <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+            <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">
+              <%= faq.q %>
+              <span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span>
+            </summary>
+            <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;"><%= faq.a %></div>
+          </details>
+          <% }); %>
+        </div>
       </div>
     </section>
     <% } %>
