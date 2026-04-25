@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= animal.name %> in <%= cityName %>, <%= stateName %> | RemoveWildlifeNow.com</title>
-  <meta name="description" content="Need <%= animal.name.toLowerCase() %> in <%= cityName %>, <%= stateName %>? Local licensed experts serve <%= cityName %> — fast, humane, same-day service available.">
+  <title><%= animal.name %> in <%= cityName %>, <%= stateName %> — Licensed Local Experts | RemoveWildlifeNow.com</title>
+  <meta name="description" content="<%= animal.name %> in <%= cityName %>, <%= stateName %> (<%= countyName %>). <%= animal.costRange ? 'Typical cost ' + animal.costRange + '. ' : '' %>Licensed local contractor — humane methods, same-day service. <%= seasonal ? seasonal.title + '.' : '' %>">
   <link rel="canonical" href="https://www.removewildlifenow.com/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/<%= animal.slug %>/">
   <link rel="stylesheet" href="/css/style.css">
   <% if (!hasContractor) { %><meta name="robots" content="noindex, follow"><% } %>
@@ -158,12 +158,13 @@
     <% if (animalRegionNote || stateInfo) { %>
     <section class="county-content">
       <div class="container">
-        <h2><%= animal.name %> in <%= stateName %> — Local Context</h2>
+        <h2><%= animal.name %> in <%= cityName %>, <%= stateName %> — Local Context</h2>
         <% if (animalRegionNote) { %>
         <p><%= animalRegionNote %></p>
         <% } %>
         <% if (stateInfo) { %>
-        <p><%= stateInfo.seasonNote %> Our <%= cityName %> contractor is fully licensed under the <strong><%= stateInfo.agency %></strong> and uses only permitted, humane removal methods.</p>
+        <p><%= stateInfo.wildlifeNote %></p>
+        <p><%= stateInfo.seasonNote %> Our <%= cityName %> contractor is fully licensed under the <strong><%= stateInfo.agency %></strong> and uses only permitted, humane removal methods approved by <%= stateName %> regulations.</p>
         <% } %>
       </div>
     </section>

@@ -8,7 +8,7 @@ const { getCitiesForCounty, citySlugToName } = require('./data/cities');
 const { ANIMALS, ANIMAL_SLUGS, getAnimalBySlug } = require('./data/animals');
 const { stateContent } = require('./data/stateContent');
 const { getAnimalRegionContent } = require('./data/animalRegionContent');
-const { animalFaqs } = require('./data/faqContent');
+const { getAnimalFaqs } = require('./data/faqContent');
 const { getSeasonalContent } = require('./data/seasonalContent');
 
 const app = express();
@@ -210,7 +210,7 @@ app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
     return res.render('county-animal', {
       stateName, countyName, animal, cities, stateInfo, animalRegionNote, embedScript,
       hasContractor: contractor,
-      faqs: animalFaqs[seg] || [],
+      faqs: getAnimalFaqs(seg, { countyName, stateName, stateInfo }),
       seasonal: getSeasonalContent(seg),
       stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, toSlug, ANIMALS
     });
@@ -249,7 +249,7 @@ app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug/', async (req, res) => {
   res.render('city-animal', {
     stateName, countyName, cityName, animal, stateInfo, animalRegionNote, embedScript,
     hasContractor: contractor,
-    faqs: animalFaqs[req.params.animalSlug] || [],
+    faqs: getAnimalFaqs(req.params.animalSlug, { countyName, cityName, stateName, stateInfo }),
     seasonal: getSeasonalContent(req.params.animalSlug),
     stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: req.params.citySlug, toSlug, ANIMALS
   });

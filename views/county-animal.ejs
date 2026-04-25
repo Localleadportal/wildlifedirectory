@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= animal.name %> in <%= countyName %>, <%= stateName %> | RemoveWildlifeNow.com</title>
-  <meta name="description" content="Need <%= animal.name.toLowerCase() %> in <%= countyName %>, <%= stateName %>? Local licensed experts handle <%= animal.plural.toLowerCase() %> fast — humane methods, same-day service available.">
+  <title><%= animal.name %> in <%= countyName %>, <%= stateName %> — Licensed Local Experts | RemoveWildlifeNow.com</title>
+  <meta name="description" content="<%= animal.name %> in <%= countyName %>, <%= stateName %>. <%= animal.costRange ? 'Typical cost ' + animal.costRange + '. ' : '' %>Licensed local contractor — humane methods, same-day service available. <%= seasonal ? seasonal.title + '.' : '' %>">
   <link rel="canonical" href="https://www.removewildlifenow.com/<%= stateSlug %>/<%= countySlug %>/<%= animal.slug %>/">
   <link rel="stylesheet" href="/css/style.css">
   <% if (!hasContractor) { %><meta name="robots" content="noindex, follow"><% } %>
@@ -171,12 +171,13 @@
     <% if (animalRegionNote || stateInfo) { %>
     <section class="county-content">
       <div class="container">
-        <h2><%= animal.name %> in <%= stateName %> — What You Should Know</h2>
+        <h2><%= animal.name %> in <%= countyName %>, <%= stateName %> — What You Should Know</h2>
         <% if (animalRegionNote) { %>
         <p><%= animalRegionNote %></p>
         <% } %>
         <% if (stateInfo) { %>
-        <p><%= stateInfo.seasonNote %> All wildlife removal in <%= stateName %> is regulated by the <strong><%= stateInfo.agency %></strong>. Our contractors hold all required state permits and use only legal, humane methods.</p>
+        <p><%= stateInfo.wildlifeNote %></p>
+        <p><%= stateInfo.seasonNote %> All wildlife removal in <%= stateName %> is regulated by the <strong><%= stateInfo.agency %></strong>. Our <%= countyName %> contractors hold all required state permits and use only legal, humane methods approved by the <%= stateInfo.agency %>.</p>
         <% } %>
       </div>
     </section>

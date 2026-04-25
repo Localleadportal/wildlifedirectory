@@ -1,234 +1,246 @@
-// Per-animal FAQ content. State-specific bat restriction notes are injected at render time.
-const animalFaqs = {
-  'raccoon-removal': [
-    {
-      q: 'How much does raccoon removal cost?',
-      a: 'Raccoon trapping and removal typically costs $200–$600. If raccoons have been living in your attic, full remediation including cleanup, decontamination, and entry point sealing generally runs $800–$2,500 depending on colony size and the extent of insulation damage.'
-    },
-    {
-      q: 'Does homeowners insurance cover raccoon damage?',
-      a: 'Some policies cover sudden, accidental damage caused by raccoons — such as a torn-open soffit or damaged roof decking. Most policies do not cover gradual damage or the cost of removal itself. Review your policy or call your agent before assuming coverage.'
-    },
-    {
-      q: 'How did raccoons get into my attic?',
-      a: 'Raccoons are strong and persistent. Common entry points include loose soffit panels, damaged fascia boards, roof vents, uncapped chimneys, and areas where the roof meets the wall. A professional inspection will identify all active entry points so they can be sealed after removal.'
-    },
-    {
-      q: 'Can I remove raccoons myself?',
-      a: 'Raccoon removal requires a state wildlife permit in most states, and handling raccoons without proper equipment carries serious disease risks — including rabies and Baylisascaris roundworm, which is shed in raccoon feces and can be fatal to humans. Licensed professionals have the permits, equipment, and training to remove raccoons safely and legally.'
-    },
-    {
-      q: 'How long does raccoon removal take?',
-      a: 'Active trapping typically takes 3–7 days to remove all animals from a property. If young pups are present in the attic, the timeline extends until they are mobile enough to relocate safely. Entry point sealing and attic cleanup are completed after all animals are confirmed removed.'
-    }
-  ],
+// Returns localized FAQs for a given animal and location context.
+// Every question and answer injects county/city, state, and agency name
+// so each page's FAQ is unique and matches local search intent exactly.
 
-  'squirrel-removal': [
-    {
-      q: 'How much does squirrel removal cost?',
-      a: 'Squirrel removal typically costs $200–$500 for trapping. Full exclusion — sealing all entry points with chew-proof materials like steel mesh — adds $300–$900 depending on home size. Attic insulation replacement due to squirrel damage can add $1,000–$3,000.'
-    },
-    {
-      q: 'Why are squirrels in my attic dangerous?',
-      a: 'Squirrels constantly chew to keep their teeth trimmed. Inside attics and walls they chew electrical wiring, wood framing, PVC pipes, and HVAC ducting. Chewed wiring is a leading cause of house fires. Squirrel intrusions should be addressed immediately, not monitored.'
-    },
-    {
-      q: 'What is the difference between gray squirrels and flying squirrels in the attic?',
-      a: 'Gray squirrels are active during the day — you will hear scratching and movement in the morning and late afternoon. Flying squirrels are nocturnal, smaller, and often go undetected for months. Flying squirrel colonies can number 20 or more animals. If you hear noise only at night, flying squirrels are the likely culprit.'
-    },
-    {
-      q: 'Will squirrels leave on their own?',
-      a: 'No. Once squirrels establish a nesting site in an attic, they return to the same location year after year. Females raise two litters annually inside your home if the entry point is not sealed. Early intervention prevents a one or two squirrel problem from becoming a multi-generation colony.'
-    },
-    {
-      q: 'How do you keep squirrels from coming back?',
-      a: 'The only permanent solution is full exclusion — physically sealing every potential entry point with chew-proof material. Steel mesh, heavy-gauge hardware cloth, and galvanized flashing are standard materials. Repellents and deterrents alone do not work long-term against squirrels that have already established a nesting site.'
-    }
-  ],
+function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo }) {
+  const location = cityName || countyName;
+  const agency   = stateInfo ? stateInfo.agency : `${stateName} Department of Wildlife`;
 
-  'bat-removal': [
-    {
-      q: 'How much does bat removal cost?',
-      a: 'Bat exclusion typically costs $400–$1,500 for the exclusion work itself. Guano cleanup and attic decontamination — required to remove Histoplasma-contaminated material — adds $1,500–$8,000+ depending on colony size and accumulation depth. Bat removal is more expensive than most wildlife jobs due to the health risks and legal handling requirements.'
-    },
-    {
-      q: 'Are there legal restrictions on when bats can be removed?',
-      a: 'Yes. All bats in the US are protected under state wildlife laws and most states prohibit exclusion during the maternity season when nursing pups cannot fly — typically May through August, though exact dates vary by state. Performing exclusion during the protected period is illegal and traps flightless pups inside, causing a decomposition and odor problem. Contact us to schedule before or after the restricted window.'
-    },
-    {
-      q: 'Is bat guano dangerous?',
-      a: 'Yes. Bat guano supports the growth of Histoplasma capsulatum, a fungus that causes histoplasmosis — a serious respiratory illness. Disturbing dry guano releases spores into the air. Cleanup must be performed by trained professionals using respiratory protection and proper disposal protocols. Do not sweep or vacuum bat droppings yourself.'
-    },
-    {
-      q: 'Can one bat in my house mean there is a colony?',
-      a: 'A single bat inside living space usually entered through a gap from the attic or wall where a colony roosts, or is a juvenile that lost its way. If you find a bat inside your home, do not release it until a professional can inspect — it may indicate a larger colony above the ceiling. Any bat that may have had contact with a sleeping person should be tested for rabies.'
-    },
-    {
-      q: 'How do professionals remove bats?',
-      a: 'Bats are not trapped — they are excluded. One-way exclusion devices (tubes and netting) are installed over all entry points so bats can exit on their own but cannot re-enter. After all bats have departed — typically 3–7 nights — the exclusion devices are removed and all gaps are permanently sealed. The colony is never harmed.'
-    }
-  ],
+  const map = {
 
-  'snake-removal': [
-    {
-      q: 'How much does snake removal cost?',
-      a: 'A single snake removal visit typically costs $100–$300. Full property inspection and exclusion to prevent re-entry runs $300–$900. Ongoing snake control programs for properties with persistent pressure are available on a seasonal or annual basis.'
-    },
-    {
-      q: 'How do I know if the snake in my yard is venomous?',
-      a: 'Do not attempt to identify a snake by getting close to it — many non-venomous species mimic venomous ones. In the Southeast, venomous species include copperheads, cottonmouths, eastern diamondbacks, timber rattlesnakes, and pygmy rattlesnakes. If you cannot identify a snake with certainty from a safe distance, treat it as venomous and call a professional.'
-    },
-    {
-      q: 'Why are snakes coming onto my property?',
-      a: 'Snakes follow their food supply. A property with a mouse or rat problem will attract snakes. Dense ground cover, wood piles, rock walls, and tall grass provide shelter. Eliminating rodent harborage and food sources is the most effective long-term snake deterrent alongside physical exclusion of structures.'
-    },
-    {
-      q: 'Can snakes get inside my house?',
-      a: 'Yes. Snakes can enter through gaps as small as a quarter inch — including gaps under doors, around pipe penetrations, foundation cracks, and open vents. Rat snakes, black racers, and copperheads are among the species most commonly found inside homes in the Southeast and Midwest.'
-    },
-    {
-      q: 'What should I do if I find a snake in my house?',
-      a: 'Stay calm and keep people and pets away from the snake. Do not try to trap, kill, or handle it. Note the snake\'s location and call a professional immediately. If the snake disappears into a wall or under appliances, mark the area and keep the room sealed so the snake does not spread through the house.'
-    }
-  ],
+    'raccoon-removal': [
+      {
+        q: `How much does raccoon removal cost in ${location}, ${stateName}?`,
+        a: `Raccoon removal in ${stateName} typically costs $200–$600 for trapping and relocation. If raccoons have been living in your attic, full remediation including cleanup, decontamination, and entry point sealing generally runs $800–$2,500 depending on colony size and insulation damage. Call for a free estimate specific to your ${location} property.`
+      },
+      {
+        q: `Does homeowners insurance cover raccoon damage in ${stateName}?`,
+        a: `Some ${stateName} homeowners insurance policies cover sudden, accidental raccoon damage — such as a torn soffit or damaged roof decking. Most policies do not cover gradual damage or the cost of removal itself. Review your policy or call your agent before assuming coverage. Your ${location} contractor can provide documentation of damage for insurance claims.`
+      },
+      {
+        q: `Are raccoons dangerous to my family in ${location}?`,
+        a: `Yes. Raccoons in ${stateName} are one of the primary wildlife carriers of rabies and shed Baylisascaris roundworm in their feces — a parasite that can be fatal to humans and pets. Attic-dwelling raccoons contaminate insulation with droppings that remain infectious long after the animals are gone. Professional cleanup after removal is not optional — it is a health necessity.`
+      },
+      {
+        q: `What time of year are raccoons worst in ${stateName}?`,
+        a: `${stateInfo ? stateInfo.seasonNote : `Raccoon activity in ${stateName} peaks in late winter and early spring`}. Females actively seek attic entry points in January through March to give birth. A second wave of juvenile raccoon activity occurs in summer as young animals disperse. ${location} residents should inspect their rooflines and soffits in fall before denning season begins.`
+      },
+      {
+        q: `Can I remove raccoons myself in ${stateName}?`,
+        a: `Raccoon removal requires a state permit in ${stateName}, which is issued through the ${agency}. Handling raccoons without proper equipment and licensing carries serious legal and health risks. Licensed contractors in ${location} hold the required permits and carry the equipment needed to remove raccoons safely, relocate them legally, and clean contaminated areas properly.`
+      }
+    ],
 
-  'groundhog-removal': [
-    {
-      q: 'How much does groundhog removal cost?',
-      a: 'Groundhog trapping and removal typically costs $150–$400. If burrows have undermined a deck, shed, or foundation, exclusion to prevent re-burrowing adds $200–$600. Extensive foundation repair from burrow damage can cost significantly more and should be assessed by a contractor after removal is complete.'
-    },
-    {
-      q: 'How do I know if a groundhog is under my deck or foundation?',
-      a: 'Look for a large burrow entrance 5–8 inches in diameter, usually near the edge of a structure. There will typically be a mound of excavated soil near the entrance. Groundhog burrows can extend 25–30 feet and reach 5 feet deep — enough to undermine concrete footings and deck support posts over time.'
-    },
-    {
-      q: 'Will groundhogs go away on their own?',
-      a: 'No. Groundhogs are highly site-loyal and return to the same burrow systems year after year. Even after trapping, a new groundhog will often move into an unprotected burrow within weeks. Physical exclusion — burying hardware cloth along the foundation — is required to prevent re-occupancy.'
-    },
-    {
-      q: 'Do groundhog repellents work?',
-      a: 'Commercial repellents and home remedies (pepper, ammonia, moth balls) provide very limited, temporary deterrence for groundhogs that are already established. They may deter new groundhogs from exploring an area but will not remove an animal that has an active burrow. Trapping followed by physical exclusion is the only reliable solution.'
-    },
-    {
-      q: 'When is the best time of year to remove groundhogs?',
-      a: 'Trapping is most effective in early spring when groundhogs first emerge from hibernation and are actively feeding. Young groundhogs disperse from their birth burrow in early summer, so addressing a problem in spring prevents a single animal from becoming a family group by midsummer.'
-    }
-  ],
+    'squirrel-removal': [
+      {
+        q: `How much does squirrel removal cost in ${location}, ${stateName}?`,
+        a: `Squirrel removal in ${stateName} typically costs $200–$500 for trapping. Full exclusion — sealing every entry point with chew-proof materials — adds $300–$900 depending on your ${location} home's size and the number of access points. Attic insulation replacement due to squirrel damage can add $1,000–$3,000.`
+      },
+      {
+        q: `Why are squirrels in my attic dangerous in ${location}?`,
+        a: `Squirrels in ${location} attics constantly chew to keep their teeth trimmed — targeting electrical wiring, wood framing, and HVAC ducting. Chewed wiring is a leading cause of house fires across ${stateName}. If you hear scratching in your walls or attic, do not wait — the damage compounds daily.`
+      },
+      {
+        q: `How do squirrels get into homes in ${stateName}?`,
+        a: `The most common entry points in ${stateName} homes are gaps at the roofline — loose soffit panels, damaged fascia boards, gaps where the roof meets a wall, and unscreened attic vents. Squirrels can chew through wood, plastic, and thin aluminum in minutes. Steel mesh and galvanized flashing are the only materials that hold long-term.`
+      },
+      {
+        q: `Do I have gray squirrels or flying squirrels in my ${location} home?`,
+        a: `Gray squirrels are active during the day — you'll hear scratching in the morning and late afternoon. Flying squirrels are nocturnal, smaller, and go undetected for months. Flying squirrel colonies in ${stateName} homes can number 20 or more animals. If the noise only happens at night, flying squirrels are the likely culprit and require a different removal approach.`
+      },
+      {
+        q: `What time of year are squirrel intrusions worst in ${stateName}?`,
+        a: `${stateName} sees two peak squirrel intrusion seasons. The first is fall — September through November — when squirrels aggressively seek winter shelter. The second is early spring when females establish nesting sites for their first litter. ${stateInfo ? stateInfo.seasonNote : `Squirrel calls spike significantly in both seasons across ${stateName}.`}`
+      }
+    ],
 
-  'bird-removal': [
-    {
-      q: 'How much does bird removal cost?',
-      a: 'Bird removal and exclusion costs vary widely by species and situation — from $200–$600 for a simple starling or pigeon nest removal to $1,500+ for chimney swift management or large rooftop flock dispersal. Some protected species require specific permits and specialized methods.'
-    },
-    {
-      q: 'Are birds in my chimney protected by law?',
-      a: 'Chimney swifts are fully protected under the Migratory Bird Treaty Act and cannot be removed or disturbed while nesting. The chimney cannot be capped until swifts have departed for migration in fall. Other species in chimneys — starlings, sparrows — are not native and not protected, and nests can be removed at any time.'
-    },
-    {
-      q: 'Why do birds keep nesting in my vents?',
-      a: 'Dryer vents, bathroom exhaust vents, and attic vents are warm, protected cavities that closely resemble natural nest sites. Birds return to the same nesting location year after year. The solution is permanent exclusion — installing appropriate vent guards after the nesting season ends — not just removing the nest.'
-    },
-    {
-      q: 'How do you get rid of pigeons on a roof?',
-      a: 'Pigeon control on commercial and residential structures typically involves exclusion netting or spikes to eliminate roosting and nesting surfaces, combined with habitat modification to remove food sources. Trapping programs are used for large established flocks. A site inspection determines which combination of methods is appropriate.'
-    },
-    {
-      q: 'What damage can birds cause in an attic?',
-      a: 'Birds nesting in attics leave behind nesting material, feathers, and large amounts of droppings that harbor respiratory pathogens including Histoplasma and Cryptococcus. Nesting material can block ventilation and create fire hazards near exhaust vents. Mites and lice from bird nests often migrate into living spaces after chicks fledge.'
-    }
-  ],
+    'bat-removal': [
+      {
+        q: `How much does bat removal cost in ${location}, ${stateName}?`,
+        a: `Bat exclusion in ${stateName} typically costs $400–$1,500 for the exclusion work itself. Guano cleanup and attic decontamination — required to eliminate the health risk from Histoplasma-contaminated material — adds $1,500–$8,000 or more depending on colony size. ${location} properties with large, long-established colonies are at the higher end of this range.`
+      },
+      {
+        q: `Are there legal restrictions on bat removal in ${stateName}?`,
+        a: `Yes. Bats in ${stateName} are protected under state law administered by the ${agency}. Bat exclusion is prohibited during the maternity season — typically May through August — when nursing pups cannot fly. Performing exclusion during this period is illegal and traps pups inside, causing a serious decomposition problem. Contact us now to get on the schedule for the legal exclusion window.`
+      },
+      {
+        q: `Is bat guano in my ${location} home dangerous?`,
+        a: `Yes. Bat guano supports the growth of Histoplasma capsulatum, a fungus that causes histoplasmosis — a serious respiratory illness documented in ${stateName}. Disturbing dry guano releases spores into your home's air. Do not sweep, vacuum, or disturb bat droppings. Professional cleanup with respiratory protection and proper disposal is required.`
+      },
+      {
+        q: `I found one bat inside my house in ${location} — do I have a colony?`,
+        a: `A single bat inside living space usually entered from an attic or wall void where a larger colony roosts. This is one of the most common bat calls across ${stateName}. A professional inspection can determine whether you have a colony above the ceiling. Any bat that may have had contact with a sleeping person should be tested for rabies — contact ${agency} for guidance.`
+      },
+      {
+        q: `How do professionals remove bats in ${stateName}?`,
+        a: `Bats are not trapped — they are excluded. One-way exclusion devices are installed over every entry point so bats can exit but not re-enter. After all bats have departed — typically 3–7 nights — the devices are removed and all gaps are permanently sealed. The ${stateName} colony is never harmed, and all work follows ${agency} guidelines.`
+      }
+    ],
 
-  'skunk-removal': [
-    {
-      q: 'How much does skunk removal cost?',
-      a: 'Skunk trapping and removal typically costs $200–$500. If a skunk has sprayed under a deck or structure, professional deodorization adds $150–$400. Exclusion to prevent skunks from returning to the same denning site under your deck or foundation adds $200–$500.'
-    },
-    {
-      q: 'How do I get rid of skunk smell from my home or yard?',
-      a: 'Commercial enzyme-based deodorizers are more effective than home remedies like tomato juice. For spray inside a structure or crawlspace, professional-grade oxidizing agents and fogging equipment are required for complete neutralization. Store-bought products rarely eliminate skunk odor completely from enclosed spaces.'
-    },
-    {
-      q: 'Are skunks dangerous?',
-      a: 'Skunks are one of the primary wildlife carriers of rabies in North America. A skunk that is active during daylight, approaches humans without fear, or moves erratically should be considered potentially rabid and treated as an emergency. Do not attempt to handle or trap a skunk you suspect is rabid — call a professional immediately.'
-    },
-    {
-      q: 'How do skunks get under my deck?',
-      a: 'Skunks dig under skirting, through soil gaps, and around any opening at the base of a deck, porch, or shed that provides access to a sheltered den site. Females specifically seek these locations in late winter to give birth. Once a skunk has denned, it will return the following year if the entry point is not sealed.'
-    },
-    {
-      q: 'What time of year are skunks most active?',
-      a: 'Skunks enter partial dormancy in winter but emerge during warm spells. The most dangerous time is late winter — January through March — when males actively roam at night seeking mates. Skunk encounters and spray incidents peak during this breeding season, and females begin establishing den sites under structures in February and March.'
-    }
-  ],
+    'snake-removal': [
+      {
+        q: `How much does snake removal cost in ${location}, ${stateName}?`,
+        a: `A single snake removal visit in ${stateName} typically costs $100–$300. Full property inspection and exclusion to prevent snakes from re-entering structures runs $300–$900. Ongoing seasonal snake control programs are available for ${location} properties with persistent pressure from surrounding habitat.`
+      },
+      {
+        q: `What venomous snakes should I watch for in ${location}, ${stateName}?`,
+        a: `${stateInfo ? stateInfo.wildlifeNote.split('.')[0] + '.' : `${stateName} has several venomous snake species.`} Never attempt to identify a snake by approaching it — many non-venomous species mimic venomous ones. If you cannot confirm identification from a safe distance, treat it as venomous and call a professional in ${location}.`
+      },
+      {
+        q: `Why are snakes coming onto my ${location} property?`,
+        a: `Snakes follow their food supply. A ${location} property with a mouse or rat problem will attract snakes. Dense ground cover, wood piles, and tall grass provide shelter and hunting grounds. Eliminating rodent harborage is the most effective long-term snake deterrent alongside physical exclusion of structures.`
+      },
+      {
+        q: `Can snakes get inside my house in ${stateName}?`,
+        a: `Yes. Snakes can enter through gaps as small as a quarter inch — gaps under doors, around pipe penetrations, foundation cracks, and open vents. ${stateInfo ? stateInfo.wildlifeNote.split('.')[0] + '.' : `Several species in ${stateName} regularly enter homes.`} A professional inspection identifies all ground-level entry points and seals them permanently.`
+      },
+      {
+        q: `When are snakes most active in ${stateName}?`,
+        a: `${stateInfo ? stateInfo.seasonNote : `Snake activity in ${stateName} peaks in spring and fall.`} Spring emergence is the first peak as snakes come out of winter dormancy and bask near homes. Fall is the second peak as snakes move toward winter den sites. ${location} residents should be most cautious from March through October.`
+      }
+    ],
 
-  'opossum-removal': [
-    {
-      q: 'How much does opossum removal cost?',
-      a: 'Opossum trapping and removal typically costs $150–$400. Exclusion to seal the entry point where opossums are accessing a crawlspace, attic, or deck adds $150–$400. Cleanup of an area where opossums have been living long-term — including droppings and nesting material — may add additional cost.'
-    },
-    {
-      q: 'Are opossums dangerous?',
-      a: 'Opossums are generally not aggressive and are rarely carriers of rabies due to their low body temperature. However, they can carry leptospirosis and other parasites, and a cornered or threatened opossum will hiss, bare its teeth, and bite. A female carrying young in her pouch requires careful professional handling.'
-    },
-    {
-      q: 'Why is an opossum living under my house?',
-      a: 'Opossums are opportunistic den animals that use any sheltered, protected space they can access. Crawlspace vents, gaps in skirting, open foundation areas, and under decks and porches are all commonly used den sites. Opossums do not dig — they use existing openings. Sealing all ground-level entry points permanently eliminates the problem.'
-    },
-    {
-      q: 'Will the opossum leave on its own?',
-      a: 'Opossums are nomadic and often move on within a few days if not disturbed. However, if a den site is warm, sheltered, and undisturbed — as crawlspaces often are — an opossum may remain for weeks or months. Females with young in the pouch will not leave until pups are fully weaned. Professional removal guarantees the animal is gone and the entry point is sealed.'
-    },
-    {
-      q: 'What does opossum damage look like?',
-      a: 'Opossums rarely cause structural damage. Their primary impact is contamination — droppings, urine, and nesting material in crawlspaces and attics that harbor bacteria and parasites. An opossum living under a house for an extended period leaves behind enough contamination to require professional-grade sanitization before the area can be safely used.'
-    }
-  ],
+    'groundhog-removal': [
+      {
+        q: `How much does groundhog removal cost in ${location}, ${stateName}?`,
+        a: `Groundhog trapping and removal in ${stateName} typically costs $150–$400. If burrows have undermined a deck, shed, or foundation in ${location}, exclusion to prevent re-burrowing adds $200–$600. Extensive foundation repair from burrow damage should be assessed by a contractor after removal is complete.`
+      },
+      {
+        q: `How do I know if a groundhog is under my deck in ${location}?`,
+        a: `Look for a burrow entrance 5–8 inches in diameter, usually near the edge of your structure, with a mound of excavated soil nearby. Groundhog burrows in ${stateName} can extend 25–30 feet and reach 5 feet deep — enough to undermine concrete footings and deck support posts over one or two seasons.`
+      },
+      {
+        q: `When do groundhogs come out in ${stateName}?`,
+        a: `${stateInfo ? stateInfo.seasonNote : `Groundhogs in ${stateName} emerge from hibernation in late February or March.`} Activity peaks in spring and early summer when they are establishing burrows and raising young. By midsummer, juvenile groundhogs are dispersing from birth burrows — often into neighboring yards and foundations in ${location}.`
+      },
+      {
+        q: `Will groundhog repellents work on my ${location} property?`,
+        a: `Commercial repellents and home remedies provide limited, temporary deterrence. They will not remove a groundhog that already has an active burrow on your ${location} property. Trapping followed by physical exclusion — burying hardware cloth along the foundation — is the only reliable solution across ${stateName}.`
+      },
+      {
+        q: `Who regulates groundhog removal in ${stateName}?`,
+        a: `Groundhog removal in ${stateName} is regulated by the ${agency}. Nuisance groundhogs can generally be trapped and relocated by licensed professionals. Your ${location} contractor holds all required state permits and uses trapping methods approved under ${stateName} wildlife regulations.`
+      }
+    ],
 
-  'mole-removal': [
-    {
-      q: 'How much does mole removal cost?',
-      a: 'Professional mole trapping typically costs $200–$600 for an initial treatment. Ongoing mole control programs — recommended for properties with persistent mole pressure — run $100–$300 per month. The investment in professional control is usually justified by the cost of lawn re-sodding or re-seeding that repeated mole damage requires.'
-    },
-    {
-      q: 'Do mole repellents actually work?',
-      a: 'Castor oil-based repellents can temporarily displace moles from a treated area, but they do not eliminate the population — they simply push moles to an adjacent part of the lawn. Vibrating stakes, mothballs, and other common home remedies have no meaningful effect on established mole populations. Trapping is the only method with consistent results.'
-    },
-    {
-      q: 'Why do I have so many moles?',
-      a: 'Mole populations are directly tied to earthworm populations in your soil. A mole requires 60–100% of its body weight in earthworms daily — a single mole can travel 100 feet of tunnel per day hunting food. Irrigated, aerated, healthy lawns have more earthworms and therefore more moles. A grub or insect problem in the lawn can also drive mole activity.'
-    },
-    {
-      q: 'Are the raised ridges in my lawn mole tunnels or vole tunnels?',
-      a: 'Moles create raised, volcano-shaped dirt mounds and subsurface ridges that push up the surface of the lawn. Voles create surface runways by clipping grass close to the ground — they look like trails or channels on the lawn surface, not raised ridges. Both require different control methods. A professional inspection correctly identifies the pest and applies the right approach.'
-    },
-    {
-      q: 'How long does it take to get rid of moles?',
-      a: 'Active trapping typically catches the moles causing damage within 1–2 weeks. New moles from adjacent areas can move into a vacated territory, which is why ongoing monitoring and follow-up trapping are often recommended rather than a one-time treatment.'
-    }
-  ],
+    'bird-removal': [
+      {
+        q: `How much does bird removal cost in ${location}, ${stateName}?`,
+        a: `Bird removal and exclusion in ${stateName} ranges from $200–$600 for basic nest removal and vent guarding to $1,500 or more for chimney swift management or large rooftop flock dispersal. The cost depends on the species and the extent of the infestation at your ${location} property.`
+      },
+      {
+        q: `Are birds nesting in my ${location} home protected by law?`,
+        a: `It depends on the species. Chimney swifts and most migratory songbirds are fully protected under the federal Migratory Bird Treaty Act and cannot be disturbed while nesting. European starlings and house sparrows — both non-native species — are not protected. ${agency} can help identify regulated species. Always confirm before attempting any removal.`
+      },
+      {
+        q: `Why do birds keep nesting in my ${location} vents?`,
+        a: `Dryer vents, bathroom exhaust vents, and attic vents are warm, sheltered cavities that closely resemble natural nest sites. Birds in ${stateName} return to the same nesting location year after year. The permanent solution is installing appropriate vent guards after nesting season — not just removing the nest, which results in the same birds rebuilding within days.`
+      },
+      {
+        q: `What damage can birds cause in my ${location} attic?`,
+        a: `Birds nesting in ${location} attics leave nesting material, feathers, and droppings that harbor Histoplasma and Cryptococcus — both serious respiratory pathogens. Nesting material near exhaust vents creates fire hazards. Mites and lice from bird nests migrate into living spaces after chicks fledge, sometimes in large numbers.`
+      },
+      {
+        q: `When is the best time to do bird exclusion in ${stateName}?`,
+        a: `${stateInfo ? stateInfo.seasonNote : `The optimal window in ${stateName} is late fall through early spring`}, before nesting season begins. Once active nests are present, many species are legally protected and work must pause until chicks have fledged. Your ${location} contractor can inspect now and schedule exclusion for the next available legal window.`
+      }
+    ],
 
-  'dead-animal-removal': [
-    {
-      q: 'How much does dead animal removal cost?',
-      a: 'Dead animal removal typically costs $150–$500 depending on the species, location, and accessibility. Animals in accessible locations like under a deck or in a garage are at the lower end. Animals inside walls, crawlspaces with limited access, or deep in attic insulation are at the higher end due to the time required to locate and extract them.'
-    },
-    {
-      q: 'How do I find where a dead animal is in my walls?',
-      a: 'Dead animals in walls are located by smell — the odor is strongest closest to the carcass. Professionals use a combination of scent tracking, thermal imaging, and experience with common entry routes for each species to locate animals without opening large sections of wall. Most carcasses can be accessed through a small opening directly at the source.'
-    },
-    {
-      q: 'How long will a dead animal smell?',
-      a: 'A dead mouse or rat may smell for 7–14 days. A dead squirrel or opossum can produce odor for 3–6 weeks. A raccoon or larger animal in an attic can produce strong odor for 1–3 months, especially in warm weather. The heat of summer dramatically accelerates decomposition and intensifies the odor. Same-day removal prevents the worst of the smell.'
-    },
-    {
-      q: 'Is a dead animal in my house a health hazard?',
-      a: 'Yes. Decomposing animals attract blowflies and secondary scavengers like mice and rats. The carcass itself may harbor fleas, ticks, and mites that migrate into living areas after the animal dies. Bacteria from decomposition can contaminate insulation. Professional removal and sanitization are recommended, not just carcass extraction.'
-    },
-    {
-      q: 'What do I do if I find a dead animal on my property?',
-      a: 'Do not handle it with bare hands. If it is accessible in an outdoor area, double-bag it in heavy plastic bags and dispose of it with household waste (check local regulations). If the animal is inside your home, inside a wall, in a crawlspace, or in an attic — call a professional. The source of the smell must be fully removed and the area sanitized to eliminate odor and contamination.'
-    }
-  ]
-};
+    'skunk-removal': [
+      {
+        q: `How much does skunk removal cost in ${location}, ${stateName}?`,
+        a: `Skunk trapping and removal in ${stateName} typically costs $200–$500. Deodorization of a sprayed area under a deck or inside a crawlspace adds $150–$400. Exclusion to prevent skunks from returning to the same den site under your ${location} structure adds $200–$500.`
+      },
+      {
+        q: `Are skunks in ${stateName} dangerous?`,
+        a: `Skunks are one of the primary rabies carriers in ${stateName}, regulated by the ${agency}. A skunk that is active in daylight, approaches humans, or moves erratically may be rabid and should be treated as an emergency. Do not attempt to trap or handle a potentially rabid skunk — call a licensed professional in ${location} immediately.`
+      },
+      {
+        q: `How do skunks get under my deck in ${location}?`,
+        a: `Skunks dig under skirting, through soil gaps, and around openings at the base of any structure that provides sheltered den access. Females specifically seek these locations in late winter to give birth. Once a skunk has denned under your ${location} structure, it will return the following year if the entry point is not sealed with buried hardware cloth.`
+      },
+      {
+        q: `What time of year are skunks most dangerous in ${stateName}?`,
+        a: `${stateInfo ? stateInfo.seasonNote : `Late winter — January through March — is the most active period for skunks in ${stateName}`}. Males roam at night seeking mates and have a strong spraying response to any perceived threat. Females begin establishing den sites under structures in February and March. Skunk encounters in ${location} peak sharply during this breeding season.`
+      },
+      {
+        q: `How do I get rid of skunk smell in my ${location} home?`,
+        a: `Enzyme-based commercial deodorizers outperform home remedies like tomato juice. For spray inside a crawlspace or enclosed area in ${location}, professional-grade oxidizing agents and fogging equipment are required. Standard store-bought products rarely eliminate skunk odor completely from confined spaces — professional deodorization is the only reliable solution.`
+      }
+    ],
 
-module.exports = { animalFaqs };
+    'opossum-removal': [
+      {
+        q: `How much does opossum removal cost in ${location}, ${stateName}?`,
+        a: `Opossum trapping and removal in ${stateName} typically costs $150–$400. Sealing the entry point where opossums access your ${location} crawlspace or deck adds $150–$400. Long-term contamination cleanup in areas where opossums have been living adds additional cost depending on how long the animal was present.`
+      },
+      {
+        q: `Are opossums in ${stateName} dangerous?`,
+        a: `Opossums rarely carry rabies due to their low body temperature, but they do carry leptospirosis and harbor parasites including fleas, ticks, and mites. A female opossum with young in her pouch requires careful professional handling. Their droppings contaminate insulation in ${location} crawlspaces and attics and require professional-grade sanitization.`
+      },
+      {
+        q: `Why do opossums keep getting under my house in ${location}?`,
+        a: `Opossums do not dig — they use existing openings. Crawlspace vents, gaps in skirting, and open foundation areas in ${location} homes are the primary access points. Because they are opportunistic and nomadic, multiple different opossums may use the same entry point over time. Permanent sealing of all ground-level openings is the only lasting solution.`
+      },
+      {
+        q: `Will an opossum in ${location} leave on its own?`,
+        a: `Possibly, but not reliably. Opossums can be nomadic and sometimes move on within days. However, a warm, sheltered crawlspace in ${location} may be occupied continuously by successive animals unless the entry point is sealed. Females with young will not leave until pups are fully weaned. Professional removal guarantees the animal is gone and the entry is sealed.`
+      },
+      {
+        q: `When are opossums most active in ${stateName}?`,
+        a: `Opossums are active year-round in ${stateName}. ${stateInfo ? stateInfo.seasonNote : `They breed twice per year and are found in structures in any season.`} Cold weather drives them more aggressively into sheltered structures. Females carry young in the pouch from January through April and again from June through August — these animals require extra care to handle safely.`
+      }
+    ],
+
+    'mole-removal': [
+      {
+        q: `How much does mole removal cost in ${location}, ${stateName}?`,
+        a: `Professional mole trapping in ${stateName} typically costs $200–$600 for an initial treatment. Ongoing seasonal mole control programs — recommended for ${location} properties with persistent pressure — run $100–$300 per month. The cost is usually justified by what repeated mole damage to turf, sod, and landscaping would cost to repair.`
+      },
+      {
+        q: `Why do I have so many moles in my ${location} yard?`,
+        a: `Mole populations in ${location} are directly tied to the earthworm population in your soil. A mole needs 60–100% of its body weight in earthworms daily and can dig 100 feet of tunnels per day following food. Irrigated, healthy lawns have more earthworms and attract more moles. A grub problem in your lawn compounds mole pressure further.`
+      },
+      {
+        q: `Do mole repellents work in ${stateName}?`,
+        a: `Castor oil repellents temporarily displace moles from a treated area but do not eliminate the population — they push moles to another section of your ${location} yard. Vibrating stakes, mothballs, and home remedies have no meaningful effect on established moles. Trapping is the only method with consistent, lasting results in ${stateName}.`
+      },
+      {
+        q: `When are moles most damaging in ${stateName}?`,
+        a: `${stateInfo ? stateInfo.seasonNote : `Mole surface tunnel damage in ${stateName} peaks in spring and fall`}. Cool soil temperatures and rainfall bring earthworms near the surface, and moles follow — creating fresh tunnel networks nightly in ${location} lawns. Surface damage slows in dry summer heat as earthworms descend, then resumes aggressively in fall.`
+      },
+      {
+        q: `Are the tunnels in my ${location} lawn from moles or voles?`,
+        a: `Moles create raised, volcano-shaped dirt mounds and subsurface ridges that push up the lawn surface. Voles create surface runways by clipping grass close to the ground — trails or channels, not raised ridges. Both require different control methods. A professional inspection in ${location} correctly identifies the pest and applies the right approach.`
+      }
+    ],
+
+    'dead-animal-removal': [
+      {
+        q: `How much does dead animal removal cost in ${location}, ${stateName}?`,
+        a: `Dead animal removal in ${stateName} typically costs $150–$500 depending on the species, location, and accessibility. Animals in accessible outdoor areas are at the lower end. Animals inside ${location} walls, crawlspaces with limited access, or deep in attic insulation are at the higher end due to the time required to locate and extract them.`
+      },
+      {
+        q: `How do I find a dead animal in my walls in ${location}?`,
+        a: `Dead animals in ${location} walls are located by smell — the odor is strongest closest to the carcass. Professionals use scent tracking, experience with common species entry routes in ${stateName} homes, and sometimes thermal imaging to locate animals without opening large sections of wall. Most carcasses can be accessed through a small opening directly at the source.`
+      },
+      {
+        q: `How long will a dead animal smell in my ${location} home?`,
+        a: `A dead mouse may smell for 7–14 days. A dead squirrel or opossum can produce odor for 3–6 weeks. A raccoon in a ${location} attic can produce strong odor for 1–3 months, especially in ${stateName}'s warmer months. Same-day removal prevents the worst of the smell and eliminates the secondary pest and fly infestation that follows.`
+      },
+      {
+        q: `Is a dead animal in my ${location} house a health hazard?`,
+        a: `Yes. Decomposing animals attract blowflies and secondary scavengers like mice and rats into your ${location} home. The carcass harbors fleas, ticks, and mites that migrate into living areas. Bacteria from decomposition contaminate insulation and building materials. Professional removal and sanitization — not just carcass extraction — are the appropriate response.`
+      },
+      {
+        q: `What is the most common dead animal found in ${stateName} homes?`,
+        a: `${stateInfo ? stateInfo.wildlifeNote.split('.')[0] + '.' : `The most common deceased animals found in ${stateName} structures include raccoons, squirrels, and opossums.`} The species found most often in ${location} structures depends on local habitat — wooded areas see more squirrels and raccoons, while properties near water or agricultural land see more opossums and rats. A professional identifies the species and determines the most likely entry route.`
+      }
+    ]
+
+  };
+
+  return map[animalSlug] || [];
+}
+
+module.exports = { getAnimalFaqs };
