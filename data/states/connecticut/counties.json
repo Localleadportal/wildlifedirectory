@@ -1,0 +1,117 @@
+{
+  "state": {
+    "name": "Connecticut",
+    "agency": "Connecticut Department of Energy and Environmental Protection, Wildlife Division",
+    "agency_short": "CT DEEP Wildlife Division",
+    "peak_intrusion_season": "March through May during spring denning, and again from late September through November as animals prepare for winter",
+    "climate_factor": "Connecticut's cold winters push rodents, bats, and squirrels into attics aggressively, while warm humid summers drive heavy raccoon and skunk activity in suburban yards",
+    "permit_note": "Connecticut requires a Nuisance Wildlife Control Operator (NWCO) permit for commercial trapping, and bears, bobcats, and migratory birds have additional state and federal handling restrictions",
+    "county_government_note": "Connecticut formally dissolved county government in 1960, but the eight counties remain as geographic and legal designations"
+  },
+  "counties": {
+    "Fairfield County": {
+      "county_seat": "historically Bridgeport (county government dissolved in 1960)",
+      "population": 957419,
+      "established": 1666,
+      "region": "southwestern Connecticut along Long Island Sound, bordering New York",
+      "largest_cities": ["Bridgeport", "Stamford", "Norwalk", "Danbury", "Greenwich", "Fairfield"],
+      "nearest_metro": "New York City (Stamford is about 35 miles from Manhattan)",
+      "natural_features": ["Devil's Den Preserve", "Sherwood Island State Park", "Audubon Greenwich"],
+      "habitat_type": "dense suburban Gold Coast along the Sound, with wooded interior towns to the north",
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "striped skunks", "white-tailed deer", "Norway rats", "Eastern chipmunks"],
+      "regional_wildlife": "coyote populations are unusually dense in the affluent suburban towns, and black bear sightings have steadily increased in northern Fairfield County since 2015",
+      "absent_or_rare": "moose are uncommon this far south in Connecticut"
+    },
+    "Hartford County": {
+      "county_seat": "historically Hartford (county government dissolved in 1960)",
+      "population": 899498,
+      "established": 1666,
+      "region": "central Connecticut along the Connecticut River valley",
+      "largest_cities": ["Hartford", "New Britain", "Bristol", "West Hartford", "Manchester", "Enfield"],
+      "nearest_metro": "Hartford is itself the regional metro center",
+      "natural_features": ["Talcott Mountain State Park", "Connecticut River", "Penwood State Park"],
+      "habitat_type": "the urban Hartford core, dense suburbs throughout the river valley, and rocky traprock ridges to the west",
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "striped skunks", "opossums", "white-tailed deer", "Eastern cottontail rabbits"],
+      "regional_wildlife": "fisher cats are well-established across the suburban towns, and bear activity in the western Hartford County hills now produces frequent residential calls",
+      "absent_or_rare": "porcupines are scarce this far south of their core New England range"
+    },
+    "Litchfield County": {
+      "county_seat": "historically Litchfield (county government dissolved in 1960)",
+      "population": 185186,
+      "established": 1751,
+      "region": "northwestern Connecticut, the most rural and mountainous part of the state",
+      "largest_cities": ["Torrington", "Winsted", "New Milford", "Litchfield", "Watertown", "Thomaston"],
+      "nearest_metro": "Hartford (about 30 miles east) and Waterbury (about 20 miles south)",
+      "natural_features": ["Mohawk State Forest", "Housatonic State Forest", "Lake Waramaug", "Macedonia Brook State Park"],
+      "habitat_type": "wooded hills and small mountains, scattered farmland, and lake communities — the most forested county in the state",
+      "common_wildlife": ["black bears", "white-tailed deer", "raccoons", "Eastern gray squirrels", "fishers", "porcupines"],
+      "regional_wildlife": "Litchfield County has the highest black bear density in Connecticut, and bear-proofing services are in heavy demand spring through fall",
+      "absent_or_rare": "this is the only Connecticut county where moose sightings are regularly reported"
+    },
+    "Middlesex County": {
+      "county_seat": "historically Middletown (county government dissolved in 1960)",
+      "population": 164759,
+      "established": 1785,
+      "region": "south-central Connecticut along the lower Connecticut River and Long Island Sound",
+      "largest_cities": ["Middletown", "Old Saybrook", "Cromwell", "Portland", "Clinton", "Essex"],
+      "nearest_metro": "Hartford (about 20 miles north) and New Haven (about 25 miles west)",
+      "natural_features": ["Cockaponset State Forest", "Hammonasset Beach State Park", "Connecticut River estuary"],
+      "habitat_type": "river towns, small Sound-facing shoreline communities, and significant inland forest",
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "white-tailed deer", "striped skunks", "red foxes", "wild turkeys"],
+      "regional_wildlife": "the lower Connecticut River corridor concentrates muskrats, beavers, and waterfowl issues, and bat activity in older shoreline homes is a recurring summer problem",
+      "absent_or_rare": "black bears are increasing here but still less common than in the northwest"
+    },
+    "New Haven County": {
+      "county_seat": "historically New Haven (county government dissolved in 1960)",
+      "population": 864835,
+      "established": 1666,
+      "region": "south-central Connecticut along Long Island Sound",
+      "largest_cities": ["New Haven", "Waterbury", "Meriden", "Milford", "West Haven", "Hamden"],
+      "nearest_metro": "New Haven is the regional center, with New York City about 80 miles southwest",
+      "natural_features": ["Sleeping Giant State Park", "West Rock Ridge State Park", "Long Island Sound shoreline"],
+      "habitat_type": "the urban cores of New Haven and Waterbury, dense suburbs, and the rocky traprock ridges that run through the county",
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "Norway rats", "striped skunks", "opossums", "white-tailed deer"],
+      "regional_wildlife": "rat populations are heavy in the older neighborhoods of New Haven and Waterbury, and coyotes are now established in nearly every suburban town",
+      "absent_or_rare": "moose and porcupines are rare in this densely populated part of the state"
+    },
+    "New London County": {
+      "county_seat": "historically New London (county government dissolved in 1960)",
+      "population": 268555,
+      "established": 1666,
+      "region": "southeastern Connecticut along Long Island Sound and the Rhode Island border",
+      "largest_cities": ["Norwich", "New London", "Groton", "Stonington", "East Lyme", "Waterford"],
+      "nearest_metro": "Providence, RI (about 50 miles east) and Hartford (about 50 miles northwest)",
+      "natural_features": ["Pachaug State Forest", "Bluff Point State Park", "Mystic River estuary"],
+      "habitat_type": "shoreline towns, the large Pachaug forest in the north, and rural farming communities in between",
+      "common_wildlife": ["raccoons", "white-tailed deer", "Eastern gray squirrels", "striped skunks", "wild turkeys", "red foxes"],
+      "regional_wildlife": "Pachaug State Forest and the surrounding towns have growing black bear and bobcat populations, and waterfront properties along the Mystic and Thames rivers see frequent otter and beaver issues",
+      "absent_or_rare": "moose are rare but occasionally wander down from northern New England"
+    },
+    "Tolland County": {
+      "county_seat": "historically Tolland (county government dissolved in 1960)",
+      "population": 149788,
+      "established": 1785,
+      "region": "north-central and northeastern Connecticut, including the area around UConn",
+      "largest_cities": ["Mansfield", "Vernon", "Stafford", "Tolland", "Coventry", "Ellington"],
+      "nearest_metro": "Hartford (about 20 miles southwest)",
+      "natural_features": ["Shenipsit State Forest", "Nipmuck State Forest", "Mansfield Hollow State Park"],
+      "habitat_type": "rolling wooded hills, university and lake-area communities, and small dairy farms",
+      "common_wildlife": ["white-tailed deer", "raccoons", "black bears", "Eastern gray squirrels", "Eastern chipmunks", "fishers"],
+      "regional_wildlife": "bear activity in residential areas around Tolland and Stafford has grown sharply, and university-area neighborhoods in Mansfield see heavy raccoon and skunk pressure",
+      "absent_or_rare": "porcupines occur but are uncommon, and moose sightings are rare"
+    },
+    "Windham County": {
+      "county_seat": "historically Brooklyn (county government dissolved in 1960)",
+      "population": 116782,
+      "established": 1726,
+      "region": "northeastern Connecticut, the 'Quiet Corner,' bordering Massachusetts and Rhode Island",
+      "largest_cities": ["Killingly", "Windham", "Plainfield", "Putnam", "Thompson", "Woodstock"],
+      "nearest_metro": "Worcester, MA (about 30 miles northeast) and Hartford (about 35 miles west)",
+      "natural_features": ["Goodwin State Forest", "Natchaug State Forest", "Quinebaug River corridor"],
+      "habitat_type": "the most rural region in the state, with extensive forest, hill farms, and small mill villages",
+      "common_wildlife": ["white-tailed deer", "black bears", "raccoons", "wild turkeys", "fishers", "Eastern gray squirrels"],
+      "regional_wildlife": "Windham County's rural character means bear, fisher, and bobcat encounters are routine, and rural barns and outbuildings often host bat colonies and raccoon families",
+      "absent_or_rare": "moose are very occasionally reported, mostly along the Massachusetts border"
+    }
+  }
+}
