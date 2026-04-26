@@ -1,0 +1,77 @@
+{
+  "state": {
+    "name": "Rhode Island",
+    "agency": "Rhode Island Department of Environmental Management, Division of Fish and Wildlife",
+    "agency_short": "RI DEM Fish and Wildlife",
+    "peak_intrusion_season": "March through May for spring denning, with a second wave from October into early winter as animals seek warm shelter",
+    "climate_factor": "Rhode Island's coastal New England climate brings cold winters that drive rodents and bats indoors aggressively, while mild humid summers fuel rapid wildlife reproduction in suburban and urban areas",
+    "permit_note": "Rhode Island requires a Nuisance Wildlife Control permit for commercial trappers, and bats and migratory birds carry additional state and federal handling restrictions"
+  },
+  "counties": {
+    "Providence County": {
+      "county_seat": "Providence",
+      "population": 660741,
+      "established": 1703,
+      "region": "northern Rhode Island, the most populous and urbanized part of the state",
+      "largest_cities": ["Providence", "Cranston", "Pawtucket", "Woonsocket", "East Providence", "North Providence"],
+      "nearest_metro": "Boston, MA (about 50 miles north)",
+      "natural_features": ["Lincoln Woods State Park", "Blackstone River corridor", "Snake Den State Park"],
+      "habitat_type": "dense urban Providence and surrounding mill cities, with wooded suburbs and small river valleys to the north and west",
+      "common_wildlife": ["Norway rats", "raccoons", "Eastern gray squirrels", "bats", "striped skunks", "opossums", "house mice"],
+      "regional_wildlife": "Norway rat populations are dense in the older neighborhoods of Providence, Pawtucket, and Woonsocket, raccoons routinely raid attics and dumpsters across the urban core, and bat colonies in older multifamily homes throughout the city are a recurring summer call source",
+      "absent_or_rare": "coyotes are heavily established throughout Rhode Island and white-tailed deer move through the wooded northern townships, but both species fall under RI DEM Fish and Wildlife management rather than private wildlife removal contractor scope"
+    },
+    "Kent County": {
+      "county_seat": "East Greenwich",
+      "population": 170363,
+      "established": 1750,
+      "region": "central Rhode Island west of Narragansett Bay",
+      "largest_cities": ["Warwick", "Coventry", "West Warwick", "East Greenwich", "West Greenwich"],
+      "nearest_metro": "Providence (about 10 miles north)",
+      "natural_features": ["Big River Management Area", "Goddard Memorial State Park", "Greenwich Bay shoreline"],
+      "habitat_type": "suburban neighborhoods along the bay shore transitioning to wooded interior in western Coventry and West Greenwich",
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "striped skunks", "bats", "opossums", "moles", "fishers"],
+      "regional_wildlife": "Warwick and the Greenwich Bay shoreline communities see steady raccoon and skunk pressure in attics and under decks, moles damage manicured lawns throughout the suburban Cranston-edge and East Greenwich neighborhoods, and the wooded interior of Coventry and West Greenwich generates occasional fisher and porcupine outbuilding damage",
+      "absent_or_rare": "coyotes are well-established across every Kent County town and white-tailed deer move through the wooded western towns, but both species are managed by RI DEM Fish and Wildlife rather than private wildlife removal contractors"
+    },
+    "Washington County": {
+      "county_seat": "West Kingston",
+      "population": 126979,
+      "established": 1729,
+      "region": "southern Rhode Island along the Atlantic coast and Narragansett Bay's western shore",
+      "largest_cities": ["South Kingstown", "North Kingstown", "Westerly", "Narragansett", "Charlestown", "Hopkinton"],
+      "nearest_metro": "Providence (about 30 miles north)",
+      "natural_features": ["Burlingame State Park", "Trustom Pond National Wildlife Refuge", "Ninigret National Wildlife Refuge", "Block Island Sound coastline"],
+      "habitat_type": "coastal salt ponds, pine and oak forest, and farmland — the most rural part of the state",
+      "common_wildlife": ["bats", "raccoons", "fishers", "beavers", "Eastern gray squirrels", "moles", "muskrats"],
+      "regional_wildlife": "coastal vacation homes near the salt ponds and around Burlingame State Park generate heavy bat colony activity, particularly in structures that sit empty through the off-season, fishers cause regular chicken-coop and outbuilding damage in the inland pine and oak forest, beavers flood streams and culverts along the rural waterways, and moles damage lawns at coastal residential properties throughout South Kingstown, North Kingstown, and Westerly",
+      "absent_or_rare": "coyotes are common throughout the rural southern Rhode Island countryside and white-tailed deer are abundant in the inland forest, but both species fall under RI DEM Fish and Wildlife jurisdiction rather than private wildlife removal contractor scope"
+    },
+    "Newport County": {
+      "county_seat": "Newport",
+      "population": 85643,
+      "established": 1703,
+      "region": "Aquidneck Island, Conanicut Island, and several smaller islands and a small mainland town",
+      "largest_cities": ["Newport", "Middletown", "Portsmouth", "Tiverton", "Little Compton", "Jamestown"],
+      "nearest_metro": "Providence (about 30 miles north)",
+      "natural_features": ["Sachuest Point National Wildlife Refuge", "Norman Bird Sanctuary", "Newport Cliff Walk"],
+      "habitat_type": "coastal islands with historic estates, suburban neighborhoods, and undeveloped shoreline",
+      "common_wildlife": ["bats", "raccoons", "Norway rats", "pigeons", "Canada geese", "striped skunks", "Eastern gray squirrels"],
+      "regional_wildlife": "Newport's historic mansions and older homes throughout Aquidneck Island host large bat colonies that require summer maternity-season exclusion work, raccoons are persistent at waterfront properties across Newport, Middletown, and Portsmouth, Norway rats are concentrated in the downtown Newport waterfront commercial blocks, and pigeon nuisance issues are widespread on the historic-building stock",
+      "absent_or_rare": "coyotes have established on Aquidneck Island in recent years and white-tailed deer move through the more wooded mainland edge, but both species are managed by RI DEM Fish and Wildlife rather than private wildlife removal contractors; the islands' water barrier limits other forest mammals common on the mainland"
+    },
+    "Bristol County": {
+      "county_seat": "Bristol",
+      "population": 50793,
+      "established": 1747,
+      "region": "a small peninsula between the Providence River and Mount Hope Bay, the smallest county in the smallest state",
+      "largest_cities": ["Bristol", "Warren", "Barrington"],
+      "nearest_metro": "Providence (about 15 miles northwest)",
+      "natural_features": ["Colt State Park", "Mount Hope Bay shoreline", "Touisset Marsh"],
+      "habitat_type": "a fully developed coastal peninsula with historic neighborhoods, small wooded parcels, and tidal shoreline",
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "striped skunks", "opossums", "bats", "Norway rats", "moles"],
+      "regional_wildlife": "raccoons, striped skunks, and opossums are persistent residential nuisance species across the developed peninsula, bat colonies in older homes throughout Bristol and Warren are a recurring summer issue, Norway rats are concentrated in the Mount Hope Bay waterfront blocks and Bristol's downtown commercial corridor, and moles damage manicured lawns throughout the residential neighborhoods of Barrington, Warren, and Bristol",
+      "absent_or_rare": "coyotes are well-established across the peninsula and white-tailed deer occasionally move through the more wooded edges, but both species fall under RI DEM Fish and Wildlife management rather than private wildlife removal contractor scope"
+    }
+  }
+}

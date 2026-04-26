@@ -4,6 +4,7 @@ const delawareData      = require('./states/delaware/counties.json');
 const connecticutData   = require('./states/connecticut/counties.json');
 const newHampshireData  = require('./states/new-hampshire/counties.json');
 const vermontData       = require('./states/vermont/counties.json');
+const rhodeIslandData   = require('./states/rhode-island/counties.json');
 
 // Registry: state name → county data file
 const stateRegistry = {
@@ -11,6 +12,7 @@ const stateRegistry = {
   'Connecticut':   connecticutData,
   'New Hampshire': newHampshireData,
   'Vermont':       vermontData,
+  'Rhode Island':  rhodeIslandData,
 };
 
 // ---- helpers ----
@@ -314,6 +316,52 @@ function vermontContent(countyName, county, s) {
   return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription };
 }
 
+// ---- Rhode Island county content ----
+function rhodeIslandContent(countyName, county, s) {
+  let blockA, blockB, blockC, metaTitle, metaDescription;
+
+  if (countyName === 'Providence County') {
+    blockA = `Providence anchors Rhode Island's most populous county and the densest urban concentration in the smallest state. With ${county.population.toLocaleString()} residents established in ${county.established}, Providence County stretches north from the capital through the older mill cities of Pawtucket and Woonsocket and out into wooded suburbs and small river valleys. Boston is about 50 miles north, but Providence functions as its own regional metro center with the housing stock, urban density, and commercial corridors of a mid-sized New England city.`;
+    blockB = `Norway rat pressure is the defining urban wildlife load in Providence County — populations are dense in the older three-decker neighborhoods of Providence, Pawtucket, and Woonsocket, and rat activity in commercial alleys and waterfront blocks generates a steady share of the county's call volume. Raccoons routinely raid attics, dumpsters, and screened porches across the urban core and the inner-ring suburbs of Cranston, North Providence, and East Providence. Bat colonies in older multifamily homes — particularly the wood-frame triple-deckers of the Federal Hill, West End, and South Providence neighborhoods — are a recurring summer maternity-season exclusion issue. Eastern gray squirrels intrude into attics and soffits across the entire residential housing stock, striped skunks and opossums shelter under porches and sheds throughout the suburban townships, and house mice surge into homes countywide every fall as cold weather sets in. ${cap(county.absent_or_rare)}.`;
+    blockC = `Contractor coverage spans Providence and the surrounding mill cities of Pawtucket, Woonsocket, Cranston, and East Providence, along with the wooded suburban towns of Lincoln, Smithfield, and Glocester to the north and west. Boston is about 50 miles north and Hartford about 70 miles west, but Providence County calls are handled locally given the urban density and the specific demands of the older multi-family housing stock.`;
+    metaTitle = `Wildlife Removal in Providence County, RI | Serving Providence, Pawtucket & Woonsocket`;
+    metaDescription = `Licensed wildlife removal in Providence County, RI. Norway rats, raccoons, bats, and skunks in older urban neighborhoods — serving Providence, Pawtucket, Cranston, and Woonsocket. RI-permitted contractors.`;
+
+  } else if (countyName === 'Kent County') {
+    blockA = `Sitting between the Narragansett Bay shoreline and Rhode Island's wooded interior, Kent County combines the suburban density of Warwick and East Greenwich with the more rural character of Coventry and West Greenwich to the west. Established in ${county.established} with a current population of ${county.population.toLocaleString()}, the county runs west from Greenwich Bay through the bay-shore commuter towns and into the working forest and small-farm landscape of the Big River Management Area. Providence is about 10 miles north, putting Kent firmly in the Providence metro commuter belt.`;
+    blockB = `Warwick and the Greenwich Bay shoreline communities generate the highest residential nuisance call volume in the county — raccoons routinely intrude into attics and screened porches across the suburban housing stock, striped skunks shelter under decks and sheds throughout the residential neighborhoods, and bat colonies in older homes from East Greenwich through Warwick are a recurring summer maternity-season call source. Moles damage manicured lawns across the bay-shore residential developments, generating steady spring-to-fall demand. The wooded interior of Coventry and West Greenwich shifts the wildlife profile toward fisher and porcupine activity — fishers cause occasional chicken-coop and outbuilding damage on the rural homesteads, and porcupines target deck boards and outbuilding components at camps near Big River Management Area. Opossums and Eastern gray squirrels round out the county's regular nuisance picture. ${cap(county.absent_or_rare)}.`;
+    blockC = `Service spans the bay-shore communities of Warwick, East Greenwich, and West Warwick, the larger inland town of Coventry, and the rural townships of West Greenwich and the Big River area. Providence is about 10 miles north and is the nearest major metro hub, but local Kent County contractors are essential for the mix of suburban exclusion and rural outbuilding work.`;
+    metaTitle = `Kent County RI Wildlife Removal — Warwick, Coventry & East Greenwich`;
+    metaDescription = `Licensed wildlife removal in Kent County, RI. Raccoons, skunks, bats, moles, and fishers — serving Warwick, Coventry, West Warwick, and East Greenwich. RI-permitted contractors.`;
+
+  } else if (countyName === 'Washington County') {
+    blockA = `Stretching from the Atlantic coast and the Block Island Sound shoreline north through the salt ponds and inland into Rhode Island's largest blocks of working forest, Washington County is the most rural county in the smallest state. Established in ${county.established} with a population of ${county.population.toLocaleString()}, the county includes the coastal communities of South Kingstown, Narragansett, and Westerly, the salt-pond villages of Charlestown, and the inland forest townships of Hopkinton and Richmond. Providence is about 30 miles north, distant enough that the county functions largely as its own rural-coastal economy.`;
+    blockB = `Coastal vacation homes near the salt ponds and around Burlingame State Park, Trustom Pond National Wildlife Refuge, and Ninigret National Wildlife Refuge generate heavy bat colony activity — older shoreline homes that sit empty for months at a time provide ideal roosting conditions, and summer maternity-season exclusion work is a major part of the local market. Fishers cause regular chicken-coop and outbuilding damage in the pine and oak forest of the inland townships, and beavers flood streams, culverts, and low-lying farmland across the rural waterways. Raccoons are persistent at second homes near the salt ponds and at coastal vacation properties, moles damage manicured lawns at coastal residential developments throughout South Kingstown, North Kingstown, and Westerly, and Eastern gray squirrels intrude into attics across the older shoreline housing stock. Muskrats are persistent along the salt-pond margins and inland wetland edges. ${cap(county.absent_or_rare)}.`;
+    blockC = `Coverage runs from Westerly on the Connecticut border east through Charlestown, South Kingstown, and Narragansett along the coast, and inland to North Kingstown and the rural townships of Hopkinton, Richmond, and Exeter. Providence is about 30 miles north, but the rural-coastal character of the county and the prevalence of seasonal-occupancy properties means locally based contractors are essential for the off-season exclusion work that defines this market.`;
+    metaTitle = `Washington County RI Wildlife Removal — South County Coast & Salt Ponds`;
+    metaDescription = `Licensed wildlife removal in Washington County, RI. Bats in coastal homes, fishers, beavers, and moles — serving South Kingstown, Narragansett, Westerly, and Charlestown.`;
+
+  } else if (countyName === 'Newport County') {
+    blockA = `Built around Aquidneck Island and Conanicut Island in Narragansett Bay, Newport County is Rhode Island's only true island county — Newport itself sits at the south end of Aquidneck Island, with Middletown and Portsmouth running north and Jamestown across the West Passage on Conanicut Island. Tiverton and Little Compton occupy a separate small mainland section to the east. With ${county.population.toLocaleString()} residents established in ${county.established}, the county combines the historic-mansion district of Newport with suburban neighborhoods on Middletown and Portsmouth and undeveloped shoreline along the Cliff Walk and the protected Sachuest Point and Norman Bird Sanctuary areas.`;
+    blockB = `Newport's historic mansions and the older Federal-era and Victorian housing stock throughout Aquidneck Island host some of the largest and longest-established bat colonies in Rhode Island — masonry gaps, deteriorated pointing, and unscreened soffits in pre-war structures provide ideal roost access, and summer maternity-season exclusion work is a defining part of the local market. Raccoons are persistent at waterfront properties throughout Newport, Middletown, and Portsmouth, and Norway rats are concentrated in the downtown Newport waterfront commercial blocks and at the active wharfside areas. Pigeon nuisance issues are widespread on Newport's historic building stock, requiring exclusion and deterrent work on architectural ledges and ornamental masonry. Canada goose populations cause persistent property conflicts on Aquidneck Island lawns and waterfront parks, striped skunks shelter under decks and historic-home foundations across the year-round residential housing, and Eastern gray squirrels intrude into attics across the older buildings. ${cap(county.absent_or_rare)}.`;
+    blockC = `Coverage includes Newport, Middletown, and Portsmouth on Aquidneck Island, Jamestown on Conanicut Island, and the mainland communities of Tiverton and Little Compton. Providence is about 30 miles north, but Newport County's island geography and historic building stock require contractors with specific local experience — particularly for the mansion-district bat colony work and the dockside Norway rat control that define the seasonal call profile.`;
+    metaTitle = `Newport County RI Wildlife Removal — Newport Mansions, Aquidneck Island & Jamestown`;
+    metaDescription = `Licensed wildlife removal in Newport County, RI. Bat colonies in historic mansions, waterfront raccoons, downtown rats, and pigeons — serving Newport, Middletown, Portsmouth, and Jamestown.`;
+
+  } else if (countyName === 'Bristol County') {
+    blockA = `Bristol County is the smallest county in Rhode Island — itself the smallest state — covering a single small peninsula that runs south from East Providence between the Providence River and Mount Hope Bay. Just three towns make up the entire county: Bristol at the southern tip with its colonial-era harbor and historic main street, Warren midway up the peninsula along the Warren River, and Barrington at the north end with its bay-side suburban character. With ${county.population.toLocaleString()} residents established in ${county.established}, the county is fully developed and tightly connected to Providence — about 15 miles to the northwest.`;
+    blockB = `Raccoons, striped skunks, and opossums are persistent residential nuisance species across the fully developed peninsula, with the highest call volume coming from the suburban Barrington bay-side and the residential neighborhoods of Warren and Bristol. Bat colonies in older homes throughout Bristol's colonial-era housing stock and along Warren's historic Main Street are a recurring summer maternity-season exclusion issue. Norway rats are concentrated in the Mount Hope Bay waterfront commercial blocks and in Bristol's downtown corridor near the harbor. Moles damage manicured lawns throughout the residential neighborhoods of Barrington, Warren, and Bristol — generating steady spring-to-fall service demand on the bay-side properties. Eastern gray squirrels intrude into attics and soffits across the older housing stock, and house mice surge into homes countywide every fall. ${cap(county.absent_or_rare)}.`;
+    blockC = `Service covers all three Bristol County towns — Bristol, Warren, and Barrington — and the surrounding bay-side communities. Providence is about 15 miles to the northwest, but the small-county scale and the specific demands of the older Bristol and Warren housing stock mean local contractors are best suited for both routine residential exclusion and the historic-building bat work that defines this market.`;
+    metaTitle = `Bristol County RI Wildlife Removal — Bristol, Warren & Barrington`;
+    metaDescription = `Licensed wildlife removal in Bristol County, RI. Raccoons, skunks, bats in historic homes, Norway rats at the waterfront, and moles in residential lawns — serving Bristol, Warren, and Barrington.`;
+  }
+
+  const blockD = `Wildlife intrusion in ${countyName} follows Rhode Island's two main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
+  const blockE = `All commercial wildlife removal in Rhode Island is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds a valid Rhode Island Nuisance Wildlife Control permit and operates within RI DEM Fish and Wildlife guidelines on species-specific handling and relocation.`;
+
+  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription };
+}
+
 // ---- main dispatcher ----
 function getCountyContent(stateName, countyName) {
   const stateData = stateRegistry[stateName];
@@ -328,6 +376,7 @@ function getCountyContent(stateName, countyName) {
   if (stateName === 'Connecticut')   return connecticutContent(countyName, county, s);
   if (stateName === 'New Hampshire') return newHampshireContent(countyName, county, s);
   if (stateName === 'Vermont')       return vermontContent(countyName, county, s);
+  if (stateName === 'Rhode Island')  return rhodeIslandContent(countyName, county, s);
 
   return null;
 }

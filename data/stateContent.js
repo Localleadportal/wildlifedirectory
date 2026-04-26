@@ -190,8 +190,8 @@ const stateContent = {
     seasonNote: 'Bat maternity season runs from May through August, and groundhog activity peaks in spring and early summer.'
   },
   'Rhode Island': {
-    agency: 'Rhode Island Division of Fish and Wildlife',
-    wildlifeNote: 'Rhode Island\'s small geographic size and high suburban density produce intense raccoon, squirrel, and coyote pressure throughout all counties. Coyotes have firmly established in every Rhode Island town, and bat exclusion is regulated from June 1 through August 15 to protect maternity colonies during the nursing season.',
+    agency: 'Rhode Island Department of Environmental Management, Division of Fish and Wildlife',
+    wildlifeNote: 'Rhode Island\'s small geographic size and high suburban density produce intense raccoon, gray squirrel, and Norway rat pressure throughout the urban Providence metro and bat colony issues across the state\'s older multi-family and historic housing stock. Bat exclusion is regulated from June 1 through August 15 to protect maternity colonies during the nursing season.',
     seasonNote: 'Fall is peak season for Rhode Island wildlife intrusion as animals prepare for winter and seek attic shelter.'
   },
   'South Carolina': {
