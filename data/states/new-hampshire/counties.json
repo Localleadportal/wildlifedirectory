@@ -1,0 +1,142 @@
+{
+  "state": {
+    "name": "New Hampshire",
+    "agency": "New Hampshire Fish and Game Department",
+    "agency_short": "NH Fish and Game",
+    "peak_intrusion_season": "March through May for spring denning, late summer for bear pressure, and October through November as animals seek winter shelter",
+    "climate_factor": "New Hampshire's long, harsh winters drive rodents, bats, and squirrels into attics aggressively, and the state's growing bear population makes spring and fall the busiest seasons for residential conflicts",
+    "permit_note": "New Hampshire requires a Wildlife Control Operator license for commercial trappers, and bears, bobcats, and migratory birds carry additional state and federal handling restrictions"
+  },
+  "counties": {
+    "Rockingham County": {
+      "county_seat": "Brentwood",
+      "population": 314176,
+      "established": 1769,
+      "region": "southeastern New Hampshire along the Atlantic coast and Massachusetts border",
+      "largest_cities": ["Derry", "Salem", "Londonderry", "Portsmouth", "Hampton", "Exeter"],
+      "nearest_metro": "Boston, MA (about 50 miles south of Portsmouth)",
+      "natural_features": ["Pawtuckaway State Park", "Odiorne Point State Park", "Great Bay estuary"],
+      "habitat_type": "the most developed county in the state, with dense suburban towns, the small Atlantic coastline, and the Great Bay tidal estuary",
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "white-tailed deer", "striped skunks", "red foxes", "Eastern chipmunks"],
+      "regional_wildlife": "coyotes are well-established in every suburban town here, and bat colonies in older Portsmouth and Exeter homes are a recurring summer issue",
+      "absent_or_rare": "moose are rare in this developed southern coastal area"
+    },
+    "Hillsborough County": {
+      "county_seat": "Manchester and Nashua (shared)",
+      "population": 422937,
+      "established": 1769,
+      "region": "south-central New Hampshire along the Massachusetts border, the most populous county in the state",
+      "largest_cities": ["Manchester", "Nashua", "Merrimack", "Hudson", "Bedford", "Goffstown"],
+      "nearest_metro": "Boston, MA (about 50 miles south of Nashua)",
+      "natural_features": ["Bear Brook State Park", "Pisgah State Park area", "Merrimack River corridor"],
+      "habitat_type": "the urban Manchester and Nashua cores, surrounding suburban towns, and significant wooded areas in the western part of the county",
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "white-tailed deer", "striped skunks", "Norway rats", "wild turkeys"],
+      "regional_wildlife": "fisher cats are widely reported in suburban yards across the county, and black bear sightings in residential neighborhoods have steadily increased",
+      "absent_or_rare": "moose occur in the wooded northern and western edges but are uncommon in the populated south"
+    },
+    "Merrimack County": {
+      "county_seat": "Concord",
+      "population": 153808,
+      "established": 1823,
+      "region": "central New Hampshire along the Merrimack River, including the state capital",
+      "largest_cities": ["Concord", "Franklin", "Boscawen", "Hooksett", "Bow", "Pembroke"],
+      "nearest_metro": "Manchester (about 20 miles south of Concord)",
+      "natural_features": ["Bear Brook State Park", "Mount Kearsarge State Forest Park", "Merrimack River"],
+      "habitat_type": "the small urban core of Concord, river-valley suburbs, and substantial forest in the surrounding hills",
+      "common_wildlife": ["white-tailed deer", "raccoons", "Eastern gray squirrels", "black bears", "wild turkeys", "fishers"],
+      "regional_wildlife": "bear activity around Concord-area residential neighborhoods is a recurring spring and fall issue, and beavers cause flooding problems along several smaller tributaries",
+      "absent_or_rare": "moose are present but more concentrated to the north"
+    },
+    "Strafford County": {
+      "county_seat": "Dover",
+      "population": 130889,
+      "established": 1769,
+      "region": "southeastern New Hampshire between the seacoast and the lakes region",
+      "largest_cities": ["Dover", "Rochester", "Somersworth", "Durham", "Barrington", "Farmington"],
+      "nearest_metro": "Portsmouth (about 15 miles east of Dover)",
+      "natural_features": ["Bellamy River Wildlife Management Area", "Cocheco River corridor", "UNH campus woodlands"],
+      "habitat_type": "small cities, university-area neighborhoods around Durham, and rural towns transitioning toward the lakes region",
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "white-tailed deer", "striped skunks", "red foxes", "wild turkeys"],
+      "regional_wildlife": "the UNH area in Durham generates heavy raccoon and skunk pressure around student housing, and bear activity has expanded into Rochester and Barrington",
+      "absent_or_rare": "moose sightings are uncommon in this corner of the state"
+    },
+    "Cheshire County": {
+      "county_seat": "Keene",
+      "population": 76458,
+      "established": 1769,
+      "region": "southwestern New Hampshire along the Connecticut River and the Massachusetts and Vermont borders",
+      "largest_cities": ["Keene", "Swanzey", "Jaffrey", "Walpole", "Winchester", "Rindge"],
+      "nearest_metro": "Brattleboro, VT (about 20 miles west) and Manchester (about 60 miles east)",
+      "natural_features": ["Mount Monadnock", "Pisgah State Park", "Connecticut River corridor"],
+      "habitat_type": "wooded hills, small towns and farmland around the Monadnock region, and the Connecticut River valley",
+      "common_wildlife": ["white-tailed deer", "black bears", "raccoons", "Eastern gray squirrels", "wild turkeys", "fishers"],
+      "regional_wildlife": "the Monadnock region has heavy bear pressure on residential properties, and porcupines are an established nuisance for outbuildings and decks",
+      "absent_or_rare": "moose are present but mostly in the higher, more remote sections of the county"
+    },
+    "Grafton County": {
+      "county_seat": "North Haverhill",
+      "population": 91118,
+      "established": 1769,
+      "region": "western New Hampshire along the Connecticut River, including much of the White Mountains",
+      "largest_cities": ["Lebanon", "Hanover", "Plymouth", "Littleton", "Bristol", "Lincoln"],
+      "nearest_metro": "the Lebanon-Hanover area is its own regional hub; Manchester is about 70 miles southeast",
+      "natural_features": ["Franconia Notch State Park", "Mount Moosilauke", "White Mountain National Forest", "Connecticut River"],
+      "habitat_type": "the steep terrain of the White Mountains, the Upper Connecticut River valley, and the Dartmouth College area",
+      "common_wildlife": ["black bears", "white-tailed deer", "moose", "raccoons", "fishers", "porcupines"],
+      "regional_wildlife": "Grafton County has some of the highest moose density in the state, and bear conflicts at vacation homes throughout the White Mountains region are routine",
+      "absent_or_rare": "open-country species like coyotes are present but less concentrated than in southern counties"
+    },
+    "Belknap County": {
+      "county_seat": "Laconia",
+      "population": 63705,
+      "established": 1840,
+      "region": "central New Hampshire's lakes region, centered on Lake Winnipesaukee",
+      "largest_cities": ["Laconia", "Gilford", "Belmont", "Meredith", "Tilton", "Alton"],
+      "nearest_metro": "Concord (about 30 miles south of Laconia)",
+      "natural_features": ["Lake Winnipesaukee", "Gunstock Mountain", "Belknap Mountain State Forest"],
+      "habitat_type": "lakeshore communities, vacation-home developments, and surrounding wooded hills",
+      "common_wildlife": ["raccoons", "black bears", "white-tailed deer", "Eastern gray squirrels", "fishers", "river otters"],
+      "regional_wildlife": "lakeshore properties around Winnipesaukee have heavy bat, raccoon, and bear pressure, and seasonal vacation homes routinely host overwintering rodents",
+      "absent_or_rare": "moose are present but less concentrated than in Grafton or Coos counties"
+    },
+    "Carroll County": {
+      "county_seat": "Ossipee",
+      "population": 50107,
+      "established": 1840,
+      "region": "east-central New Hampshire including the eastern White Mountains and the Maine border",
+      "largest_cities": ["Conway", "Wolfeboro", "Ossipee", "Wakefield", "Tuftonboro", "Tamworth"],
+      "nearest_metro": "Portland, ME (about 60 miles east) and Concord (about 70 miles south)",
+      "natural_features": ["White Mountain National Forest", "Mount Chocorua", "Lake Winnipesaukee's eastern shore", "Squam Lake"],
+      "habitat_type": "mountain valleys, lake communities, and large blocks of national forest",
+      "common_wildlife": ["black bears", "white-tailed deer", "moose", "raccoons", "fishers", "porcupines"],
+      "regional_wildlife": "the Conway and North Conway area has constant bear conflict at vacation properties and dumpsters, and moose-related calls are common in the more remote valleys",
+      "absent_or_rare": "open-country species are scarce given the heavy forest cover"
+    },
+    "Sullivan County": {
+      "county_seat": "Newport",
+      "population": 43360,
+      "established": 1827,
+      "region": "western New Hampshire along the Connecticut River south of Grafton County",
+      "largest_cities": ["Claremont", "Newport", "Charlestown", "Sunapee", "Unity", "Cornish"],
+      "nearest_metro": "Lebanon (about 20 miles north) and Concord (about 50 miles east)",
+      "natural_features": ["Mount Sunapee State Park", "Pillsbury State Park", "Connecticut River corridor"],
+      "habitat_type": "small mill towns along the Connecticut River and rural wooded hills inland, including the Sunapee region",
+      "common_wildlife": ["white-tailed deer", "black bears", "raccoons", "Eastern gray squirrels", "wild turkeys", "fishers"],
+      "regional_wildlife": "Sunapee-area lake homes and the rural towns east of Claremont see frequent bear and raccoon issues at residential properties",
+      "absent_or_rare": "moose are present but at lower densities than the counties to the north"
+    },
+    "Coos County": {
+      "county_seat": "Lancaster",
+      "population": 31268,
+      "established": 1803,
+      "region": "the entire northern tip of New Hampshire, bordering Quebec, Maine, and Vermont — the most remote county in the state",
+      "largest_cities": ["Berlin", "Gorham", "Lancaster", "Colebrook", "Whitefield", "Pittsburg"],
+      "nearest_metro": "the region is its own remote hub; Portland, ME and Concord are each about 100+ miles away",
+      "natural_features": ["Mount Washington", "the Great North Woods", "White Mountain National Forest", "Connecticut Lakes"],
+      "habitat_type": "the most heavily forested county in the state, with mountains, vast working timberlands, and a small number of mill towns",
+      "common_wildlife": ["moose", "black bears", "white-tailed deer", "fishers", "porcupines", "raccoons"],
+      "regional_wildlife": "Coos County has the highest moose density in New Hampshire, and bear, fisher, and porcupine encounters at residential and camp properties are routine year-round",
+      "absent_or_rare": "the region's harsh climate and remote character make commercial wildlife services more limited than in southern New Hampshire"
+    }
+  }
+}
