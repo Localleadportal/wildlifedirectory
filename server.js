@@ -51,7 +51,7 @@ app.use(express.urlencoded({ extended: true }));
 // Map data endpoint — TopoJSON + FIPS→slug mapping for D3
 const topoJson = JSON.parse(fs.readFileSync(require.resolve('us-atlas/states-10m.json'), 'utf8'));
 const fipsMap = {};
-us.STATES.forEach(s => { fipsMap[parseInt(s.fips, 10)] = { name: s.name, slug: toSlug(s.name) }; });
+us.STATES.forEach(s => { fipsMap[s.fips] = { name: s.name, slug: toSlug(s.name) }; });
 
 app.get('/api/states-map', (req, res) => {
   res.json({ topo: topoJson, fips: fipsMap });
