@@ -3,9 +3,9 @@
     "name": "Vermont",
     "agency": "Vermont Fish and Wildlife Department",
     "agency_short": "Vermont Fish and Wildlife",
-    "peak_intrusion_season": "March through May during spring denning, with heavy bear pressure in late summer and a rodent and squirrel surge from October into early winter",
-    "climate_factor": "Vermont's long, cold winters drive rodents, bats, and squirrels indoors aggressively, and the state's growing bear population makes spring and fall the busiest seasons for residential conflicts",
-    "permit_note": "Vermont requires a Nuisance Wildlife Control Operator certification for commercial trappers, and bears, bobcats, and migratory birds carry additional state and federal handling restrictions"
+    "peak_intrusion_season": "March through May during spring squirrel, raccoon, and skunk dispersal, summer for bat maternity colonies in attics and barns, and a heavy rodent and squirrel surge from October into early winter as cold weather drives them indoors",
+    "climate_factor": "Vermont's long, cold winters drive rodents, bats, and squirrels indoors aggressively, and the seasonal-occupancy pattern of vacation properties across the state creates concentrated nuisance windows when homes sit empty for months at a time",
+    "permit_note": "Vermont requires a Nuisance Wildlife Control Operator certification for commercial trappers, and migratory birds carry additional state and federal handling restrictions; large game animals fall under direct Vermont Fish and Wildlife Department management rather than the private wildlife removal industry"
   },
   "counties": {
     "Addison County": {
@@ -17,9 +17,9 @@
       "nearest_metro": "Burlington (about 35 miles north of Middlebury)",
       "natural_features": ["Green Mountain National Forest", "Lake Champlain shoreline", "Mount Abraham", "Bread Loaf Wilderness"],
       "habitat_type": "Champlain Valley dairy farmland to the west, transitioning into the Green Mountains in the eastern half of the county",
-      "common_wildlife": ["white-tailed deer", "raccoons", "Eastern gray squirrels", "black bears", "wild turkeys", "fishers"],
-      "regional_wildlife": "the dairy country around Middlebury sees heavy raccoon and skunk pressure on barns and silos, and bear conflicts at residential properties along the mountain edge are routine spring through fall",
-      "absent_or_rare": "open-country species like coyotes are present but less concentrated than in southern Vermont"
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "striped skunks", "bats", "fishers", "Norway rats", "woodchucks"],
+      "regional_wildlife": "the dairy country around Middlebury and Vergennes drives heavy raccoon, skunk, and Norway rat pressure on barns, silos, and feed storage, and woodchucks dig under sheds and farm outbuildings throughout the valley",
+      "absent_or_rare": "black bears and moose live in the eastern mountains but are managed by Vermont Fish and Wildlife rather than private wildlife removal contractors"
     },
     "Bennington County": {
       "county_seat": "Bennington",
@@ -30,9 +30,9 @@
       "nearest_metro": "Albany, NY (about 35 miles west of Bennington)",
       "natural_features": ["Green Mountain National Forest", "Mount Equinox", "Lye Brook Wilderness", "Battenkill River"],
       "habitat_type": "wooded mountains, small historic towns, and the Battenkill valley",
-      "common_wildlife": ["black bears", "white-tailed deer", "raccoons", "Eastern gray squirrels", "fishers", "porcupines"],
-      "regional_wildlife": "the Manchester-area vacation homes and second residences have heavy bear and raccoon pressure, and porcupines damage outbuildings and decks throughout the rural towns",
-      "absent_or_rare": "moose are present but in lower densities than in northern Vermont"
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "bats", "porcupines", "fishers", "striped skunks", "Norway rats"],
+      "regional_wildlife": "Manchester-area vacation homes and second residences see heavy bat and rodent pressure during the long off-season stretches when buildings sit unoccupied, and porcupines damage outbuildings, deck boards, and parked vehicles throughout the rural towns",
+      "absent_or_rare": "black bears and moose are present in the surrounding Green Mountain forests but are handled by Vermont Fish and Wildlife rather than private wildlife removal contractors"
     },
     "Caledonia County": {
       "county_seat": "St. Johnsbury",
@@ -43,9 +43,9 @@
       "nearest_metro": "the region is its own rural hub; Burlington is about 75 miles west",
       "natural_features": ["Groton State Forest", "Connecticut River corridor", "Willoughby State Forest"],
       "habitat_type": "the Northeast Kingdom's rolling hills, small farms, and large blocks of working forest",
-      "common_wildlife": ["white-tailed deer", "black bears", "moose", "raccoons", "fishers", "porcupines"],
-      "regional_wildlife": "the Northeast Kingdom's heavy forest cover supports strong bear, moose, and fisher populations, and rural barns commonly host bat colonies and raccoon families",
-      "absent_or_rare": "urban species like Norway rats are uncommon outside the small downtown of St. Johnsbury"
+      "common_wildlife": ["fishers", "porcupines", "bats", "raccoons", "beavers", "red squirrels", "Eastern chipmunks"],
+      "regional_wildlife": "older farmhouses and barns throughout the Northeast Kingdom routinely host little brown bat colonies through the summer maternity season, fishers cause chicken-coop and outbuilding losses on rural properties, and beaver dams flood culverts, driveways, and low-lying farmland",
+      "absent_or_rare": "black bears and moose are common in the surrounding Northeast Kingdom forests but fall under Vermont Fish and Wildlife management rather than private wildlife removal contractors"
     },
     "Chittenden County": {
       "county_seat": "Burlington",
@@ -56,9 +56,9 @@
       "nearest_metro": "Burlington is itself the largest metro in Vermont; Montreal is about 95 miles north",
       "natural_features": ["Lake Champlain shoreline", "Mount Mansfield (eastern slope)", "Winooski River corridor"],
       "habitat_type": "the urban Burlington core, dense suburbs, lakeshore neighborhoods, and rural eastern towns",
-      "common_wildlife": ["raccoons", "Eastern gray squirrels", "white-tailed deer", "striped skunks", "Norway rats", "red foxes"],
-      "regional_wildlife": "the Burlington-area suburbs have unusually heavy raccoon and skunk pressure for Vermont, and lakeshore properties along Lake Champlain see frequent bat colony issues",
-      "absent_or_rare": "moose are uncommon in this populated county compared to the rest of Vermont"
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "striped skunks", "Norway rats", "bats", "red foxes", "house mice"],
+      "regional_wildlife": "the Burlington-area suburbs see unusually heavy raccoon and skunk pressure for Vermont, Norway rats are persistent in the urban core and along the waterfront, and lakeshore properties along Lake Champlain see frequent bat colony issues in older structures",
+      "absent_or_rare": "black bears occasionally pass through the suburban edge and moose are uncommon visitors, but both species are handled by Vermont Fish and Wildlife rather than the private wildlife removal industry"
     },
     "Essex County": {
       "county_seat": "Guildhall",
@@ -69,9 +69,9 @@
       "nearest_metro": "the region is extremely rural; St. Johnsbury (about 35 miles south) is the nearest population center",
       "natural_features": ["Nulhegan Basin", "Silvio O. Conte National Fish and Wildlife Refuge", "Connecticut River headwaters"],
       "habitat_type": "vast working timberlands, beaver wetlands, and a handful of small mill towns — the most heavily forested county in the state",
-      "common_wildlife": ["moose", "black bears", "white-tailed deer", "fishers", "porcupines", "beavers"],
-      "regional_wildlife": "Essex County has some of the highest moose density in Vermont, and bear, fisher, and beaver issues at camps and rural homes are routine year-round",
-      "absent_or_rare": "the population is so small that commercial wildlife services are limited, and many residents handle issues through state biologists or licensed neighbors"
+      "common_wildlife": ["beavers", "fishers", "porcupines", "bats", "raccoons", "red squirrels", "muskrats"],
+      "regional_wildlife": "beavers flood roads, drainage culverts, and low-lying camp properties throughout the county's wetland zones including the Nulhegan Basin, fishers and porcupines cause persistent damage at hunting camps and seasonal cabins, and bat colonies are routine in older agricultural outbuildings",
+      "absent_or_rare": "black bears and moose are abundant throughout this remote forest country, but both fall under Vermont Fish and Wildlife jurisdiction rather than private wildlife removal contractor scope"
     },
     "Franklin County": {
       "county_seat": "St. Albans",
@@ -82,9 +82,9 @@
       "nearest_metro": "Burlington (about 30 miles south of St. Albans)",
       "natural_features": ["Missisquoi National Wildlife Refuge", "Lake Champlain's Missisquoi Bay", "Cold Hollow Mountains"],
       "habitat_type": "Champlain Valley dairy farms, the Missisquoi delta wetlands, and forested foothills inland",
-      "common_wildlife": ["white-tailed deer", "raccoons", "Eastern gray squirrels", "black bears", "wild turkeys", "muskrats"],
-      "regional_wildlife": "dairy operations across the county have constant raccoon, skunk, and rodent pressure, and the Missisquoi delta concentrates beavers, muskrats, and migratory waterfowl",
-      "absent_or_rare": "moose are present in the eastern hills but uncommon in the open farmland"
+      "common_wildlife": ["raccoons", "striped skunks", "Norway rats", "bats", "muskrats", "beavers", "Eastern gray squirrels"],
+      "regional_wildlife": "dairy operations across the county generate constant raccoon, skunk, and rat pressure at barns, silos, and feed-storage areas, and the Missisquoi delta concentrates beavers and muskrats that damage shoreline farmland and adjacent property",
+      "absent_or_rare": "black bears live in the forested eastern hills and moose pass through the same uplands, but both are managed by Vermont Fish and Wildlife rather than private wildlife removal contractors"
     },
     "Grand Isle County": {
       "county_seat": "North Hero",
@@ -95,9 +95,9 @@
       "nearest_metro": "Burlington (about 25 miles south of South Hero)",
       "natural_features": ["Lake Champlain Islands", "Knight Point State Park", "Sand Bar State Park (causeway)"],
       "habitat_type": "lake-island farmland, summer homes, and small year-round communities surrounded by Lake Champlain",
-      "common_wildlife": ["raccoons", "white-tailed deer", "Eastern gray squirrels", "striped skunks", "muskrats", "Canada geese"],
-      "regional_wildlife": "lakeshore vacation homes have heavy seasonal raccoon and bat pressure, and the islands' goose populations cause frequent property and dock issues",
-      "absent_or_rare": "many forest mammals common on the Vermont mainland are limited or absent on the islands due to the water barrier"
+      "common_wildlife": ["raccoons", "bats", "Canada geese", "muskrats", "striped skunks", "Eastern gray squirrels", "house mice"],
+      "regional_wildlife": "lakeshore vacation homes have heavy seasonal raccoon and bat pressure, and Canada goose populations cause persistent damage on docks, shoreline lawns, and waterfront properties through the summer months",
+      "absent_or_rare": "the water barrier limits most forest mammals common on the Vermont mainland, and the black bears and moose found across the rest of the state are absent here — those species in any case fall under Vermont Fish and Wildlife rather than private wildlife removal contractors"
     },
     "Lamoille County": {
       "county_seat": "Hyde Park",
@@ -108,9 +108,9 @@
       "nearest_metro": "Burlington (about 35 miles west of Stowe)",
       "natural_features": ["Mount Mansfield", "Smugglers' Notch", "Mount Mansfield State Forest", "Green Mountain National Forest (northern end)"],
       "habitat_type": "ski resort towns, mountain villages, and large blocks of national and state forest",
-      "common_wildlife": ["black bears", "white-tailed deer", "moose", "raccoons", "fishers", "porcupines"],
-      "regional_wildlife": "Stowe and the surrounding ski communities have constant bear pressure on residential properties and dumpsters, and vacation homes see heavy bat and rodent activity during winter dormancy",
-      "absent_or_rare": "open-country wildlife is scarce given the heavy forest cover"
+      "common_wildlife": ["bats", "raccoons", "Eastern gray squirrels", "house mice", "porcupines", "fishers", "striped skunks"],
+      "regional_wildlife": "Stowe and the surrounding ski communities see heavy bat and overwintering-rodent activity in vacation homes that sit unused for months between seasons, and raccoons routinely raid dumpsters, screened porches, and unsecured decks at short-term rental properties",
+      "absent_or_rare": "black bears and moose are common in the surrounding Mount Mansfield forest but are handled by Vermont Fish and Wildlife rather than private wildlife removal contractors"
     },
     "Orange County": {
       "county_seat": "Chelsea",
@@ -121,9 +121,9 @@
       "nearest_metro": "the Lebanon-Hanover area in New Hampshire (just across the river from Bradford)",
       "natural_features": ["Groton State Forest", "Connecticut River corridor", "Allis State Park"],
       "habitat_type": "rolling hill farms, river-valley towns, and substantial forest in the uplands",
-      "common_wildlife": ["white-tailed deer", "black bears", "raccoons", "Eastern gray squirrels", "wild turkeys", "fishers"],
-      "regional_wildlife": "rural barns and outbuildings throughout the hill towns commonly host bat colonies and raccoon families, and bear pressure increases sharply in late summer when natural foods get scarce",
-      "absent_or_rare": "moose occur but at lower densities than in the Northeast Kingdom"
+      "common_wildlife": ["bats", "raccoons", "Eastern gray squirrels", "fishers", "porcupines", "woodchucks", "striped skunks"],
+      "regional_wildlife": "rural barns and outbuildings throughout the hill towns commonly host bat colonies and raccoon families, woodchucks burrow under sheds and barn foundations across the farmed valley, and fishers cause occasional chicken-coop predation on rural homesteads",
+      "absent_or_rare": "black bears live throughout the surrounding upland forest and moose occur in the higher hills, but both fall under Vermont Fish and Wildlife management rather than private wildlife removal contractor scope"
     },
     "Orleans County": {
       "county_seat": "Newport",
@@ -134,9 +134,9 @@
       "nearest_metro": "the region is rural; St. Johnsbury is about 30 miles south",
       "natural_features": ["Lake Memphremagog", "Willoughby State Forest", "Lake Willoughby"],
       "habitat_type": "the Northeast Kingdom's lake country, dairy farms, and surrounding forest",
-      "common_wildlife": ["white-tailed deer", "black bears", "moose", "raccoons", "fishers", "river otters"],
-      "regional_wildlife": "Lake Memphremagog and Lake Willoughby shoreline properties have heavy seasonal raccoon, bat, and beaver pressure, and bear conflicts at rural homes are routine",
-      "absent_or_rare": "urban-adapted species are scarce outside Newport's small downtown"
+      "common_wildlife": ["beavers", "bats", "fishers", "porcupines", "raccoons", "muskrats", "Norway rats"],
+      "regional_wildlife": "Lake Memphremagog and Lake Willoughby shoreline properties have heavy seasonal bat and raccoon pressure in homes left unoccupied through winter, and beaver dams flood farmland, driveways, and rural roads throughout the county",
+      "absent_or_rare": "black bears and moose are part of everyday rural life in the Northeast Kingdom but are handled by Vermont Fish and Wildlife rather than private wildlife removal contractors"
     },
     "Rutland County": {
       "county_seat": "Rutland",
@@ -147,9 +147,9 @@
       "nearest_metro": "Albany, NY (about 65 miles southwest) and Burlington (about 70 miles north)",
       "natural_features": ["Killington Peak", "Green Mountain National Forest (central section)", "Lake Bomoseen"],
       "habitat_type": "the small urban core of Rutland, surrounding hill farms, ski resort developments, and large blocks of national forest",
-      "common_wildlife": ["black bears", "white-tailed deer", "raccoons", "Eastern gray squirrels", "fishers", "wild turkeys"],
-      "regional_wildlife": "the Killington-area vacation homes have constant bear and rodent pressure, and the Rutland city neighborhoods see urban-edge raccoon, skunk, and rat issues",
-      "absent_or_rare": "moose are present but more concentrated to the north"
+      "common_wildlife": ["raccoons", "striped skunks", "Norway rats", "Eastern gray squirrels", "bats", "fishers", "porcupines"],
+      "regional_wildlife": "the Killington-area vacation homes see heavy bat and overwintering-rodent activity during the off-season, the Rutland city neighborhoods generate steady urban-edge raccoon, skunk, and Norway rat calls in older residential blocks, and Lake Bomoseen camp properties have recurring seasonal bat issues",
+      "absent_or_rare": "black bears and moose move through the surrounding Green Mountain forests but are managed by Vermont Fish and Wildlife rather than the private wildlife removal industry"
     },
     "Washington County": {
       "county_seat": "Montpelier",
@@ -160,9 +160,9 @@
       "nearest_metro": "Burlington (about 40 miles northwest of Montpelier)",
       "natural_features": ["Camel's Hump State Park", "Mount Mansfield State Forest (eastern slope)", "Worcester Range"],
       "habitat_type": "the small urban centers of Montpelier and Barre, surrounding hill farms, and the Mad River and Camel's Hump mountain country",
-      "common_wildlife": ["white-tailed deer", "black bears", "raccoons", "Eastern gray squirrels", "fishers", "wild turkeys"],
-      "regional_wildlife": "the Mad River Valley vacation homes and ski-area properties have heavy bear pressure, and bat colonies in the older homes of Montpelier and Barre are a recurring summer issue",
-      "absent_or_rare": "moose are present in the higher mountain country but not in the populated valleys"
+      "common_wildlife": ["bats", "raccoons", "striped skunks", "Eastern gray squirrels", "Norway rats", "fishers", "house mice"],
+      "regional_wildlife": "bat colonies in the older building stock of Montpelier and Barre are a recurring summer management issue across the county's pre-war neighborhoods, and the Mad River Valley vacation homes and ski-area properties at Sugarbush and Mad River Glen see heavy bat and overwintering-rodent activity during the long off-seasons",
+      "absent_or_rare": "black bears and moose live in the surrounding Camel's Hump and Worcester Range country but fall under Vermont Fish and Wildlife management rather than private wildlife removal contractor scope"
     },
     "Windham County": {
       "county_seat": "Newfane",
@@ -173,9 +173,9 @@
       "nearest_metro": "Brattleboro is its own small hub; Springfield, MA is about 60 miles south",
       "natural_features": ["Green Mountain National Forest (southern section)", "Mount Snow", "Connecticut River corridor"],
       "habitat_type": "river-valley towns, ski resort developments around Mount Snow and Stratton, and surrounding mountain forest",
-      "common_wildlife": ["black bears", "white-tailed deer", "raccoons", "Eastern gray squirrels", "fishers", "porcupines"],
-      "regional_wildlife": "the Mount Snow and Stratton vacation-home communities have constant bear and bat pressure, and Brattleboro's older neighborhoods see heavy urban-edge raccoon and skunk activity",
-      "absent_or_rare": "moose are present but in lower numbers than in northern Vermont"
+      "common_wildlife": ["porcupines", "raccoons", "bats", "Eastern gray squirrels", "striped skunks", "fishers", "Norway rats"],
+      "regional_wildlife": "porcupines are a more visible and destructive nuisance in the interior hill towns than in most other Vermont counties — deck boards, outbuilding siding, and parked vehicles near camp structures are routinely targeted; Mount Snow and Stratton vacation properties see persistent bat intrusions during the off-season, and Brattleboro's older neighborhoods generate heavy urban-edge raccoon and skunk activity",
+      "absent_or_rare": "black bears and moose are present in the surrounding Green Mountain forests but are managed by Vermont Fish and Wildlife rather than private wildlife removal contractors"
     },
     "Windsor County": {
       "county_seat": "Woodstock",
@@ -186,9 +186,9 @@
       "nearest_metro": "the Lebanon-Hanover area in New Hampshire (just across the river from White River Junction)",
       "natural_features": ["Quechee Gorge", "Mount Ascutney State Park", "Calvin Coolidge State Forest", "Connecticut River"],
       "habitat_type": "river-valley towns, the affluent Woodstock and Quechee area, ski resorts at Killington's eastern edge and Okemo, and surrounding mountain forest",
-      "common_wildlife": ["black bears", "white-tailed deer", "raccoons", "Eastern gray squirrels", "fishers", "wild turkeys"],
-      "regional_wildlife": "the Woodstock-area vacation homes and Okemo-region ski properties have heavy bear and bat pressure, and rural barns throughout the county commonly host raccoon and squirrel intrusions",
-      "absent_or_rare": "moose are present in the higher elevations but uncommon in the populated river valley"
+      "common_wildlife": ["bats", "raccoons", "Eastern gray squirrels", "fishers", "porcupines", "striped skunks", "Norway rats"],
+      "regional_wildlife": "the Woodstock-area second-home corridor sees heavy bat and rodent activity in seasonally-occupied properties under mature tree canopy, and the Okemo-region resort properties run a similar off-season bat and overwintering-rodent cycle; rural barns throughout Springfield and Weathersfield host raccoon and squirrel intrusions at rates typical of working-farm landscapes",
+      "absent_or_rare": "black bears and moose are present in the surrounding upland forest but fall under Vermont Fish and Wildlife management rather than private wildlife removal contractor scope"
     }
   }
 }
