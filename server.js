@@ -10,6 +10,7 @@ const { stateContent } = require('./data/stateContent');
 const { getAnimalRegionContent } = require('./data/animalRegionContent');
 const { getAnimalFaqs } = require('./data/faqContent');
 const { getSeasonalContent } = require('./data/seasonalContent');
+const { getCountyContent } = require('./data/countyContent');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -144,10 +145,11 @@ app.get('/:stateSlug/:countySlug/', async (req, res) => {
   const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
   const cities = getCitiesForCounty(stateName, countyName);
   const stateInfo = stateContent[stateName] || null;
+  const countyContent = getCountyContent(stateName, countyName);
   const contractor = await hasContractor(stateName, countyName);
 
   res.render('county', {
-    stateName, countyName, embedScript, cities, stateInfo,
+    stateName, countyName, embedScript, cities, stateInfo, countyContent,
     hasContractor: contractor,
     stateSlug: req.params.stateSlug,
     toSlug, ANIMALS

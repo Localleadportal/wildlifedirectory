@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wildlife Removal in <%= countyName %>, <%= stateName %> | RemoveWildlifeNow.com</title>
-  <meta name="description" content="Find a licensed wildlife removal contractor in <%= countyName %>, <%= stateName %>. Local experts for raccoon, squirrel, bat, snake removal and full exclusion service.">
+  <title><%= countyContent ? countyContent.metaTitle : 'Wildlife Removal in ' + countyName + ', ' + stateName + ' | RemoveWildlifeNow.com' %></title>
+  <meta name="description" content="<%= countyContent ? countyContent.metaDescription : 'Find a licensed wildlife removal contractor in ' + countyName + ', ' + stateName + '. Local experts for raccoon, squirrel, bat, snake removal and full exclusion service.' %>">
   <link rel="canonical" href="https://www.removewildlifenow.com/<%= stateSlug %>/<%= toSlug(countyName) %>/">
   <link rel="stylesheet" href="/css/style.css">
   <% if (!hasContractor) { %><meta name="robots" content="noindex, follow"><% } %>
@@ -176,6 +176,42 @@
     </section>
     <% } %>
 
+    <% if (countyContent) { %>
+    <section class="county-content">
+      <div class="container">
+        <h2>About <%= countyName %>, <%= stateName %></h2>
+        <p><%- countyContent.blockA %></p>
+      </div>
+    </section>
+
+    <section class="county-content" style="background:#f8fafc;">
+      <div class="container">
+        <h2>Wildlife Common to <%= countyName %></h2>
+        <p><%- countyContent.blockB %></p>
+      </div>
+    </section>
+
+    <section class="county-content">
+      <div class="container">
+        <h2>Service Coverage in <%= countyName %></h2>
+        <p><%- countyContent.blockC %></p>
+
+        <h3>Seasonal Activity Patterns</h3>
+        <p><%- countyContent.blockD %></p>
+
+        <h3>Delaware Wildlife Regulations</h3>
+        <p><%- countyContent.blockE %></p>
+
+        <h3>What to Do Before the Contractor Arrives</h3>
+        <ul class="tips-list">
+          <li>Note where you've seen or heard the animal — attic, crawlspace, chimney, or yard</li>
+          <li>Don't attempt to handle or block animals yourself — this can be dangerous</li>
+          <li>Keep pets and children away from the affected area</li>
+          <li>Take photos of any damage or entry points you've spotted</li>
+        </ul>
+      </div>
+    </section>
+    <% } else { %>
     <section class="county-content">
       <div class="container">
         <h2>Wildlife Removal in <%= countyName %>, <%= stateName %></h2>
@@ -198,6 +234,7 @@
         </ul>
       </div>
     </section>
+    <% } %>
   </main>
 
   <footer>

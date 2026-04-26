@@ -1,0 +1,51 @@
+{
+  "state": {
+    "name": "Delaware",
+    "agency": "Delaware Division of Fish and Wildlife",
+    "agency_short": "Delaware Fish and Wildlife",
+    "peak_intrusion_season": "March through May for denning, and again September through November as animals seek winter shelter",
+    "climate_factor": "Delaware's mild but humid climate keeps wildlife active year-round, with shorter dormancy periods than in northern states",
+    "permit_note": "Most nuisance wildlife in Delaware can be trapped by licensed contractors year-round, but relocation of certain species requires state authorization"
+  },
+  "counties": {
+    "New Castle County": {
+      "county_seat": "Wilmington",
+      "population": 570719,
+      "established": 1673,
+      "region": "northern Delaware along the Delaware River",
+      "largest_cities": ["Wilmington", "Newark", "Middletown", "Bear", "Glasgow"],
+      "nearest_metro": "Philadelphia, PA (about 30 miles north)",
+      "natural_features": ["White Clay Creek State Park", "Brandywine Creek State Park", "Delaware River corridor"],
+      "habitat_type": "mixed urban, suburban, and Piedmont woodland",
+      "common_wildlife": ["raccoons", "gray squirrels", "Eastern gray squirrels", "Norway rats", "white-tailed deer", "red foxes"],
+      "regional_wildlife": "groundhogs are abundant in suburban edge habitats",
+      "absent_or_rare": "armadillos and coyotes remain uncommon compared to states further south and west"
+    },
+    "Kent County": {
+      "county_seat": "Dover",
+      "population": 181851,
+      "established": 1683,
+      "region": "central Delaware between the Chesapeake and Delaware Bays",
+      "largest_cities": ["Dover", "Smyrna", "Milford", "Camden", "Harrington"],
+      "nearest_metro": "Wilmington (about 45 miles north)",
+      "natural_features": ["Bombay Hook National Wildlife Refuge", "Killens Pond State Park", "Little Creek Wildlife Area"],
+      "habitat_type": "agricultural lowlands, coastal marsh, and small woodlots",
+      "common_wildlife": ["raccoons", "opossums", "muskrats", "Canada geese", "Eastern gray squirrels", "skunks"],
+      "regional_wildlife": "snapping turtles and water snakes around the many farm ponds and tidal waterways",
+      "absent_or_rare": "tree squirrels are less concentrated here than in the wooded northern county"
+    },
+    "Sussex County": {
+      "county_seat": "Georgetown",
+      "population": 237378,
+      "established": 1683,
+      "region": "southern Delaware along the Atlantic coast and Delaware Bay",
+      "largest_cities": ["Seaford", "Georgetown", "Lewes", "Rehoboth Beach", "Millsboro", "Milton"],
+      "nearest_metro": "Salisbury, MD (about 25 miles southwest)",
+      "natural_features": ["Cape Henlopen State Park", "Prime Hook National Wildlife Refuge", "Trap Pond State Park", "Delaware Seashore State Park"],
+      "habitat_type": "coastal pine forest, salt marsh, and Atlantic beach communities",
+      "common_wildlife": ["raccoons", "red foxes", "Eastern gray squirrels", "flying squirrels", "river otters", "beavers"],
+      "regional_wildlife": "bats roost heavily in coastal vacation homes and outbuildings, and ospreys often nest on residential structures",
+      "absent_or_rare": "moose and porcupines do not occur this far south"
+    }
+  }
+}
