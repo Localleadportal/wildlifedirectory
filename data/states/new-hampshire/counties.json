@@ -3,9 +3,9 @@
     "name": "New Hampshire",
     "agency": "New Hampshire Fish and Game Department",
     "agency_short": "NH Fish and Game",
-    "peak_intrusion_season": "March through May for spring denning, late summer for bear pressure, and October through November as animals seek winter shelter",
-    "climate_factor": "New Hampshire's long, harsh winters drive rodents, bats, and squirrels into attics aggressively, and the state's growing bear population makes spring and fall the busiest seasons for residential conflicts",
-    "permit_note": "New Hampshire requires a Wildlife Control Operator license for commercial trappers, and bears, bobcats, and migratory birds carry additional state and federal handling restrictions"
+    "peak_intrusion_season": "March through May for spring squirrel and raccoon dispersal, summer for bat maternity colonies and mole lawn damage in the suburban counties, and October through November as rodents and squirrels seek winter shelter",
+    "climate_factor": "New Hampshire's long, harsh winters drive rodents, bats, and squirrels into attics aggressively, and the seasonal-occupancy patterns of vacation properties across the Lakes Region and White Mountains create concentrated nuisance windows when homes sit empty for months at a time",
+    "permit_note": "New Hampshire requires a Wildlife Control Operator license for commercial trappers, and migratory birds carry additional state and federal handling restrictions; large game animals fall under direct New Hampshire Fish and Game Department management rather than the private wildlife removal industry"
   },
   "counties": {
     "Rockingham County": {
@@ -17,9 +17,9 @@
       "nearest_metro": "Boston, MA (about 50 miles south of Portsmouth)",
       "natural_features": ["Pawtuckaway State Park", "Odiorne Point State Park", "Great Bay estuary"],
       "habitat_type": "the most developed county in the state, with dense suburban towns, the small Atlantic coastline, and the Great Bay tidal estuary",
-      "common_wildlife": ["raccoons", "Eastern gray squirrels", "white-tailed deer", "striped skunks", "red foxes", "Eastern chipmunks"],
-      "regional_wildlife": "coyotes are well-established in every suburban town here, and bat colonies in older Portsmouth and Exeter homes are a recurring summer issue",
-      "absent_or_rare": "moose are rare in this developed southern coastal area"
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "striped skunks", "red foxes", "Eastern chipmunks", "moles", "bats"],
+      "regional_wildlife": "bat colonies in the older Portsmouth and Exeter homes are a recurring summer issue, raccoons and skunks are persistent in suburban Derry, Salem, and Londonderry yards, and moles damage manicured lawns across the county's commuter neighborhoods",
+      "absent_or_rare": "black bears, moose, white-tailed deer, coyotes, and bobcats live in the surrounding region but are managed by NH Fish and Game rather than private wildlife removal contractors"
     },
     "Hillsborough County": {
       "county_seat": "Manchester and Nashua (shared)",
@@ -30,9 +30,9 @@
       "nearest_metro": "Boston, MA (about 50 miles south of Nashua)",
       "natural_features": ["Bear Brook State Park", "Pisgah State Park area", "Merrimack River corridor"],
       "habitat_type": "the urban Manchester and Nashua cores, surrounding suburban towns, and significant wooded areas in the western part of the county",
-      "common_wildlife": ["raccoons", "Eastern gray squirrels", "white-tailed deer", "striped skunks", "Norway rats", "wild turkeys"],
-      "regional_wildlife": "fisher cats are widely reported in suburban yards across the county, and black bear sightings in residential neighborhoods have steadily increased",
-      "absent_or_rare": "moose occur in the wooded northern and western edges but are uncommon in the populated south"
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "striped skunks", "Norway rats", "fishers", "moles", "bats"],
+      "regional_wildlife": "Manchester and Nashua's older neighborhoods produce steady Norway rat, raccoon, and skunk pressure, fishers are widely reported in suburban yards across the county, and moles damage lawns in the Bedford, Merrimack, and Hudson commuter suburbs",
+      "absent_or_rare": "black bears, moose, white-tailed deer, wild turkeys, coyotes, and bobcats are present in the wooded edges of the county but fall under NH Fish and Game management rather than private wildlife removal contractor scope"
     },
     "Merrimack County": {
       "county_seat": "Concord",
@@ -43,9 +43,9 @@
       "nearest_metro": "Manchester (about 20 miles south of Concord)",
       "natural_features": ["Bear Brook State Park", "Mount Kearsarge State Forest Park", "Merrimack River"],
       "habitat_type": "the small urban core of Concord, river-valley suburbs, and substantial forest in the surrounding hills",
-      "common_wildlife": ["white-tailed deer", "raccoons", "Eastern gray squirrels", "black bears", "wild turkeys", "fishers"],
-      "regional_wildlife": "bear activity around Concord-area residential neighborhoods is a recurring spring and fall issue, and beavers cause flooding problems along several smaller tributaries",
-      "absent_or_rare": "moose are present but more concentrated to the north"
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "bats", "fishers", "striped skunks", "moles", "beavers"],
+      "regional_wildlife": "Concord's residential neighborhoods generate steady raccoon, skunk, and squirrel pressure, beavers cause flooding problems along the Merrimack's smaller tributaries, and moles damage lawns throughout the city's developed suburbs and the surrounding river-valley towns",
+      "absent_or_rare": "black bears, moose, white-tailed deer, and wild turkeys live in the surrounding hills but are handled by NH Fish and Game rather than private wildlife removal contractors"
     },
     "Strafford County": {
       "county_seat": "Dover",
@@ -56,9 +56,9 @@
       "nearest_metro": "Portsmouth (about 15 miles east of Dover)",
       "natural_features": ["Bellamy River Wildlife Management Area", "Cocheco River corridor", "UNH campus woodlands"],
       "habitat_type": "small cities, university-area neighborhoods around Durham, and rural towns transitioning toward the lakes region",
-      "common_wildlife": ["raccoons", "Eastern gray squirrels", "white-tailed deer", "striped skunks", "red foxes", "wild turkeys"],
-      "regional_wildlife": "the UNH area in Durham generates heavy raccoon and skunk pressure around student housing, and bear activity has expanded into Rochester and Barrington",
-      "absent_or_rare": "moose sightings are uncommon in this corner of the state"
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "striped skunks", "red foxes", "moles", "bats", "Norway rats"],
+      "regional_wildlife": "the UNH area in Durham generates heavy raccoon and skunk pressure around student housing, bat colonies in older Dover and Rochester homes are a steady summer call source, and moles damage lawns throughout the residential Dover, Somersworth, and Durham neighborhoods",
+      "absent_or_rare": "black bears, moose, white-tailed deer, and wild turkeys are present in the surrounding region but fall under NH Fish and Game management rather than private wildlife removal contractors"
     },
     "Cheshire County": {
       "county_seat": "Keene",
@@ -69,9 +69,9 @@
       "nearest_metro": "Brattleboro, VT (about 20 miles west) and Manchester (about 60 miles east)",
       "natural_features": ["Mount Monadnock", "Pisgah State Park", "Connecticut River corridor"],
       "habitat_type": "wooded hills, small towns and farmland around the Monadnock region, and the Connecticut River valley",
-      "common_wildlife": ["white-tailed deer", "black bears", "raccoons", "Eastern gray squirrels", "wild turkeys", "fishers"],
-      "regional_wildlife": "the Monadnock region has heavy bear pressure on residential properties, and porcupines are an established nuisance for outbuildings and decks",
-      "absent_or_rare": "moose are present but mostly in the higher, more remote sections of the county"
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "fishers", "porcupines", "bats", "striped skunks", "woodchucks"],
+      "regional_wildlife": "porcupines are an established structural nuisance for outbuildings, deck boards, and parked vehicles across the Monadnock-region rural towns, bat colonies in older Keene-area homes are a recurring summer issue, and fishers cause occasional chicken-coop and outbuilding damage on rural homesteads",
+      "absent_or_rare": "black bears, moose, white-tailed deer, and wild turkeys are common in the surrounding Monadnock region but are managed by NH Fish and Game rather than private wildlife removal contractors"
     },
     "Grafton County": {
       "county_seat": "North Haverhill",
@@ -82,9 +82,9 @@
       "nearest_metro": "the Lebanon-Hanover area is its own regional hub; Manchester is about 70 miles southeast",
       "natural_features": ["Franconia Notch State Park", "Mount Moosilauke", "White Mountain National Forest", "Connecticut River"],
       "habitat_type": "the steep terrain of the White Mountains, the Upper Connecticut River valley, and the Dartmouth College area",
-      "common_wildlife": ["black bears", "white-tailed deer", "moose", "raccoons", "fishers", "porcupines"],
-      "regional_wildlife": "Grafton County has some of the highest moose density in the state, and bear conflicts at vacation homes throughout the White Mountains region are routine",
-      "absent_or_rare": "open-country species like coyotes are present but less concentrated than in southern counties"
+      "common_wildlife": ["bats", "raccoons", "fishers", "porcupines", "Eastern gray squirrels", "red squirrels", "house mice"],
+      "regional_wildlife": "vacation homes throughout Lincoln, Franconia, and the White Mountains corridor see heavy bat and overwintering-rodent activity during the long off-season stretches, fishers cause recurring chicken-coop and outbuilding damage at rural Upper Valley homesteads, and porcupines target wooden deck boards and outbuilding components throughout the mountain communities",
+      "absent_or_rare": "black bears, moose, white-tailed deer, and bobcats are abundant throughout the White Mountains region but fall under NH Fish and Game jurisdiction rather than private wildlife removal contractor scope"
     },
     "Belknap County": {
       "county_seat": "Laconia",
@@ -95,9 +95,9 @@
       "nearest_metro": "Concord (about 30 miles south of Laconia)",
       "natural_features": ["Lake Winnipesaukee", "Gunstock Mountain", "Belknap Mountain State Forest"],
       "habitat_type": "lakeshore communities, vacation-home developments, and surrounding wooded hills",
-      "common_wildlife": ["raccoons", "black bears", "white-tailed deer", "Eastern gray squirrels", "fishers", "river otters"],
-      "regional_wildlife": "lakeshore properties around Winnipesaukee have heavy bat, raccoon, and bear pressure, and seasonal vacation homes routinely host overwintering rodents",
-      "absent_or_rare": "moose are present but less concentrated than in Grafton or Coos counties"
+      "common_wildlife": ["bats", "raccoons", "Eastern gray squirrels", "house mice", "fishers", "moles", "porcupines"],
+      "regional_wildlife": "lakeshore vacation properties around Lake Winnipesaukee see heavy bat and overwintering-rodent activity in homes that sit unventilated for months between seasons, raccoons routinely raid screened porches and unsecured decks at camps, and moles damage manicured lawns at year-round and second-home properties throughout Gilford and Meredith",
+      "absent_or_rare": "black bears, moose, white-tailed deer, river otters, and bobcats live in the surrounding region but are managed by NH Fish and Game rather than private wildlife removal contractors"
     },
     "Carroll County": {
       "county_seat": "Ossipee",
@@ -108,9 +108,9 @@
       "nearest_metro": "Portland, ME (about 60 miles east) and Concord (about 70 miles south)",
       "natural_features": ["White Mountain National Forest", "Mount Chocorua", "Lake Winnipesaukee's eastern shore", "Squam Lake"],
       "habitat_type": "mountain valleys, lake communities, and large blocks of national forest",
-      "common_wildlife": ["black bears", "white-tailed deer", "moose", "raccoons", "fishers", "porcupines"],
-      "regional_wildlife": "the Conway and North Conway area has constant bear conflict at vacation properties and dumpsters, and moose-related calls are common in the more remote valleys",
-      "absent_or_rare": "open-country species are scarce given the heavy forest cover"
+      "common_wildlife": ["bats", "raccoons", "fishers", "porcupines", "Eastern gray squirrels", "house mice", "red squirrels"],
+      "regional_wildlife": "the Conway and North Conway corridor generates constant raccoon and bat pressure at vacation properties, restaurant areas, and short-term rentals, fishers and porcupines cause regular outbuilding and deck damage throughout the mountain communities, and overwintering rodents are a persistent issue in seasonal camps and lake-area homes",
+      "absent_or_rare": "black bears, moose, white-tailed deer, and bobcats are common throughout the eastern White Mountains but fall under NH Fish and Game jurisdiction rather than private wildlife removal contractor scope"
     },
     "Sullivan County": {
       "county_seat": "Newport",
@@ -121,9 +121,9 @@
       "nearest_metro": "Lebanon (about 20 miles north) and Concord (about 50 miles east)",
       "natural_features": ["Mount Sunapee State Park", "Pillsbury State Park", "Connecticut River corridor"],
       "habitat_type": "small mill towns along the Connecticut River and rural wooded hills inland, including the Sunapee region",
-      "common_wildlife": ["white-tailed deer", "black bears", "raccoons", "Eastern gray squirrels", "wild turkeys", "fishers"],
-      "regional_wildlife": "Sunapee-area lake homes and the rural towns east of Claremont see frequent bear and raccoon issues at residential properties",
-      "absent_or_rare": "moose are present but at lower densities than the counties to the north"
+      "common_wildlife": ["bats", "raccoons", "beavers", "fishers", "Eastern gray squirrels", "porcupines", "striped skunks"],
+      "regional_wildlife": "the Connecticut River floodplain and its tributaries produce consistent beaver dam and flooding issues affecting agricultural land, culverts, and road drainage in the river towns, the Sunapee resort community sees seasonal bat colony issues and overwintering rodent activity in lake homes that sit empty for months, and fishers cause occasional chicken-coop losses in the wooded interior hills",
+      "absent_or_rare": "black bears, moose, white-tailed deer, and wild turkeys live throughout the surrounding rural countryside but are managed by NH Fish and Game rather than private wildlife removal contractors"
     },
     "Coos County": {
       "county_seat": "Lancaster",
@@ -134,9 +134,9 @@
       "nearest_metro": "the region is its own remote hub; Portland, ME and Concord are each about 100+ miles away",
       "natural_features": ["Mount Washington", "the Great North Woods", "White Mountain National Forest", "Connecticut Lakes"],
       "habitat_type": "the most heavily forested county in the state, with mountains, vast working timberlands, and a small number of mill towns",
-      "common_wildlife": ["moose", "black bears", "white-tailed deer", "fishers", "porcupines", "raccoons"],
-      "regional_wildlife": "Coos County has the highest moose density in New Hampshire, and bear, fisher, and porcupine encounters at residential and camp properties are routine year-round",
-      "absent_or_rare": "the region's harsh climate and remote character make commercial wildlife services more limited than in southern New Hampshire"
+      "common_wildlife": ["beavers", "fishers", "porcupines", "raccoons", "bats", "red squirrels", "muskrats"],
+      "regional_wildlife": "beavers flood roads, drainage culverts, and low-lying camp properties throughout the Great North Woods, fishers and porcupines are persistent nuisances at hunting camps and remote agricultural outbuildings, and bat colonies are routine in older mill-town homes and farmhouses across Berlin, Lancaster, and Colebrook",
+      "absent_or_rare": "black bears, moose, white-tailed deer, and bobcats are abundant throughout the North Country but fall under NH Fish and Game jurisdiction rather than private wildlife removal contractor scope"
     }
   }
 }
