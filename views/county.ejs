@@ -1,20 +1,60 @@
+<%
+  const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + toSlug(countyName) + '/';
+  const pageTitle = countyContent ? countyContent.metaTitle : 'Wildlife Removal in ' + countyName + ', ' + stateName + ' | RemoveWildlifeNow.com';
+  const pageDesc = countyContent ? countyContent.metaDescription : 'Find a licensed wildlife removal contractor in ' + countyName + ', ' + stateName + '. Local experts for raccoon, squirrel, bat, snake removal and full exclusion service.';
+  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
+  // Gate enhanced SEO scaffolding (OG, Twitter, geo meta, additional schemas, FAQ section, neighbors)
+  // behind data-presence so this rollout is scoped to one county at a time. Other counties render
+  // exactly as they did before until they get their own enriched countyContent block.
+  const seoEnhanced = !!(countyContent && countyContent.geo);
+%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= countyContent ? countyContent.metaTitle : 'Wildlife Removal in ' + countyName + ', ' + stateName + ' | RemoveWildlifeNow.com' %></title>
-  <meta name="description" content="<%= countyContent ? countyContent.metaDescription : 'Find a licensed wildlife removal contractor in ' + countyName + ', ' + stateName + '. Local experts for raccoon, squirrel, bat, snake removal and full exclusion service.' %>">
-  <link rel="canonical" href="https://www.removewildlifenow.com/<%= stateSlug %>/<%= toSlug(countyName) %>/">
+  <title><%= pageTitle %></title>
+  <meta name="description" content="<%= pageDesc %>">
+  <link rel="canonical" href="<%= pageUrl %>">
   <link rel="stylesheet" href="/css/style.css">
-  <% if (!hasContractor) { %><meta name="robots" content="noindex, follow"><% } %>
+  <% if (!indexable) { %>
+  <meta name="robots" content="noindex, follow">
+  <% } else if (seoEnhanced) { %>
+  <meta name="robots" content="index, follow">
+  <% } %>
+
+  <% if (seoEnhanced) { %>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="RemoveWildlifeNow.com">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="<%= pageUrl %>">
+  <meta property="og:title" content="<%= pageTitle %>">
+  <meta property="og:description" content="<%= pageDesc %>">
+  <meta property="og:image" content="<%= ogImage %>">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="<%= pageTitle %>">
+  <meta name="twitter:description" content="<%= pageDesc %>">
+  <meta name="twitter:image" content="<%= ogImage %>">
+
+  <!-- Geo -->
+  <meta name="geo.region" content="US-<%= stateName === 'Georgia' ? 'GA' : '' %>">
+  <meta name="geo.placename" content="<%= countyName %>, <%= stateName %>">
+  <meta name="geo.position" content="<%= countyContent.geo.lat %>;<%= countyContent.geo.lon %>">
+  <meta name="ICBM" content="<%= countyContent.geo.lat %>, <%= countyContent.geo.lon %>">
+  <% } %>
+
+  <!-- LocalBusiness / ProfessionalService -->
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "ProfessionalService"],
+    ...(seoEnhanced ? { "@id": pageUrl + "#business" } : {}),
     "name": "Wildlife Removal in " + countyName,
     "description": "Licensed wildlife removal in " + countyName + ", " + stateName + ". Expert removal of raccoons, squirrels, bats, snakes and more. Humane methods, same-day service available.",
-    "url": "https://www.removewildlifenow.com/" + stateSlug + "/" + toSlug(countyName) + "/",
+    "url": pageUrl,
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": countyName + ", " + stateName
@@ -32,6 +72,90 @@
     }
   }) %>
   </script>
+
+  <% if (seoEnhanced) { %>
+  <!-- BreadcrumbList -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": pageUrl + "#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.removewildlifenow.com/" },
+      { "@type": "ListItem", "position": 2, "name": stateName, "item": "https://www.removewildlifenow.com/" + stateSlug + "/" },
+      { "@type": "ListItem", "position": 3, "name": countyName }
+    ]
+  }) %>
+  </script>
+
+  <!-- WebPage -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": pageUrl + "#webpage",
+    "url": pageUrl,
+    "name": pageTitle,
+    "description": pageDesc,
+    "isPartOf": { "@id": "https://www.removewildlifenow.com/#website" },
+    "breadcrumb": { "@id": pageUrl + "#breadcrumb" },
+    "inLanguage": "en-US"
+  }) %>
+  </script>
+
+  <!-- Service -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": pageUrl + "#service",
+    "name": "Wildlife Removal in " + countyName,
+    "serviceType": "Wildlife Removal",
+    "provider": { "@id": pageUrl + "#business" },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": countyName + ", " + stateName
+    },
+    "description": "Licensed nuisance wildlife removal, exclusion, and remediation throughout " + countyName + ", " + stateName + "."
+  }) %>
+  </script>
+
+  <!-- AdministrativeArea (Place) -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "AdministrativeArea",
+    "@id": pageUrl + "#area",
+    "name": countyName,
+    "containedInPlace": {
+      "@type": "State",
+      "name": stateName
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": countyContent.geo.lat,
+      "longitude": countyContent.geo.lon
+    },
+    ...(countyContent.sameAs && countyContent.sameAs.length ? { "sameAs": countyContent.sameAs } : {})
+  }) %>
+  </script>
+
+    <% if (countyContent.faqs && countyContent.faqs.length) { %>
+  <!-- FAQPage -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": pageUrl + "#faq",
+    "mainEntity": countyContent.faqs.map(f => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a }
+    }))
+  }) %>
+  </script>
+    <% } %>
+  <% } %>
 </head>
 <body>
   <header>
@@ -193,7 +317,15 @@
       </div>
     </section>
 
+    <% if (countyContent.extendedBody) { %>
     <section class="county-content">
+      <div class="container">
+        <%- countyContent.extendedBody %>
+      </div>
+    </section>
+    <% } %>
+
+    <section class="county-content" style="background:#f8fafc;">
       <div class="container">
         <h2>Service Coverage in <%= countyName %></h2>
         <p><%- countyContent.blockC %></p>
@@ -213,6 +345,41 @@
         </ul>
       </div>
     </section>
+
+    <% if (countyContent.faqs && countyContent.faqs.length) { %>
+    <section class="county-content">
+      <div class="container">
+        <h2>Frequently Asked Questions: Wildlife Removal in <%= countyName %></h2>
+        <div class="faq-list">
+          <% countyContent.faqs.forEach((f, i) => { %>
+          <details class="faq-item"<% if (i === 0) { %> open<% } %>>
+            <summary><%= f.q %></summary>
+            <p><%= f.a %></p>
+          </details>
+          <% }); %>
+        </div>
+      </div>
+    </section>
+    <% } %>
+
+    <% if (countyContent.neighboringCounties && countyContent.neighboringCounties.length) { %>
+    <section class="counties-section" style="background:var(--green-light);border-top:1px solid var(--green-border);">
+      <div class="container">
+        <div class="section-header">
+          <h2>Neighboring Counties</h2>
+          <p>Need wildlife removal in a county next to <%= countyName %>? We cover those too.</p>
+        </div>
+        <ul class="neighbor-list">
+          <% countyContent.neighboringCounties.forEach(n => { %>
+          <li>
+            <a href="/<%= stateSlug %>/<%= n.slug %>/"><%= n.anchor %></a>
+            <% if (n.blurb) { %><span class="neighbor-blurb"> — <%= n.blurb %></span><% } %>
+          </li>
+          <% }); %>
+        </ul>
+      </div>
+    </section>
+    <% } %>
     <% } else { %>
     <section class="county-content">
       <div class="container">

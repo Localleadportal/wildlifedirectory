@@ -26,9 +26,20 @@ us.STATES.forEach(s => {
   });
 });
 
+// Hard-coded city list overrides for counties where the zipcodes-nrviens library
+// returns wrong/extra cities (zips that physically sit in a neighboring county
+// often share city names with the target — e.g. the library returns Atlanta,
+// Roswell, Dallas, and Lithia Springs as "Cobb" cities, but none are in Cobb).
+// Keys are `${stateName}|${countyKey}` where countyKey has no "County" suffix.
+const CITY_OVERRIDES = {
+  'Georgia|Cobb': ['Marietta', 'Smyrna', 'Kennesaw', 'Acworth', 'Powder Springs', 'Austell', 'Mableton', 'Vinings', 'Clarkdale'],
+};
+
 // Get cities for a county (matches "Cobb County" -> county key "Cobb")
 function getCitiesForCounty(stateName, countyName) {
   const countyKey = countyName.replace(/ (County|Parish|Borough|Census Area|City|Municipality)$/i, '').trim();
+  const overrideKey = `${stateName}|${countyKey}`;
+  if (CITY_OVERRIDES[overrideKey]) return CITY_OVERRIDES[overrideKey].slice();
   return (citiesByCounty[stateName] && citiesByCounty[stateName][countyKey]) || [];
 }
 

@@ -5,6 +5,7 @@ const connecticutData   = require('./states/connecticut/counties.json');
 const newHampshireData  = require('./states/new-hampshire/counties.json');
 const vermontData       = require('./states/vermont/counties.json');
 const rhodeIslandData   = require('./states/rhode-island/counties.json');
+const georgiaData       = require('./states/georgia/counties.json');
 
 // Registry: state name → county data file
 const stateRegistry = {
@@ -13,6 +14,7 @@ const stateRegistry = {
   'New Hampshire': newHampshireData,
   'Vermont':       vermontData,
   'Rhode Island':  rhodeIslandData,
+  'Georgia':       georgiaData,
 };
 
 // ---- helpers ----
@@ -362,6 +364,126 @@ function rhodeIslandContent(countyName, county, s) {
   return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription };
 }
 
+// ---- Georgia county content ----
+function georgiaContent(countyName, county, s) {
+  const top4cities = county.largest_cities.slice(0, 4).join(', ');
+
+  let blockA, blockB, blockC, metaTitle, metaDescription;
+  let extendedBody = null;
+  let faqs = null;
+  let neighboringCounties = null;
+  let geo = null;
+  let sameAs = null;
+
+  if (countyName === 'Cobb County') {
+    blockA = `Cobb County sits in the northwestern Atlanta metro area immediately north of the Chattahoochee River, with downtown Atlanta about 20 miles southeast of the county seat in Marietta. With a population of ${county.population.toLocaleString()} — making it one of Georgia's largest counties — Cobb runs from the older inner-ring neighborhoods of Smyrna, Marietta, and Vinings out through the dense suburban corridors of East Cobb, Kennesaw, and Acworth, with the Kennesaw Mountain National Battlefield Park anchoring the county's center and the Chattahoochee River corridor forming the southern boundary. Established in ${county.established}, the county combines Civil War-era historic districts, post-war ranch suburbs, and late-20th-century subdivisions under heavy oak-hickory canopy.`;
+    blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across the wooded subdivisions countywide where mature trees touch rooflines, and Virginia opossums shelter under decks and porches across the older inner-ring housing stock. Snake calls — primarily rat snakes and the occasional copperhead — concentrate around the wooded properties along the Chattahoochee corridor and the Kennesaw Mountain ridgeline, particularly in spring and fall. Striped skunks are persistent under sheds and crawl spaces in the suburban-edge subdivisions, and dead-animal calls run year-round given Cobb's near-continuous wildlife activity. ${cap(county.absent_or_rare)}.`;
+    blockC = `Coverage spans all of Cobb County including ${top4cities}, plus Powder Springs, Vinings, Mableton, Austell, and Clarkdale, and the unincorporated subdivisions across East and West Cobb. The county's mix of historic Marietta neighborhoods, dense suburban housing stock, and wooded subdivisions along the Chattahoochee and Kennesaw Mountain — combined with the year-round wildlife activity that defines the Atlanta metro — means contractors here handle a continuous mix of attic exclusion, armadillo lawn damage, and emergency snake and bat calls.`;
+    metaTitle = `Cobb County Wildlife Removal — Marietta, Smyrna, Kennesaw GA`;
+    metaDescription = `Licensed wildlife removal in Cobb County, GA — Marietta, Smyrna, Kennesaw, Acworth & Powder Springs. Raccoons, bats, snakes, coyotes — call for same-day.`;
+
+    geo = { lat: 33.94, lon: -84.58 };
+    sameAs = [
+      'https://en.wikipedia.org/wiki/Cobb_County,_Georgia',
+    ];
+
+    neighboringCounties = [
+      { name: 'Fulton County',   slug: 'fulton-county',   anchor: 'Wildlife removal in Fulton County',   blurb: 'south and east border' },
+      { name: 'Cherokee County', slug: 'cherokee-county', anchor: 'Cherokee County animal services',     blurb: 'directly to the north' },
+      { name: 'Paulding County', slug: 'paulding-county', anchor: 'Paulding County wildlife services',   blurb: 'to the west' },
+      { name: 'Bartow County',   slug: 'bartow-county',   anchor: 'Bartow County wildlife removal',      blurb: 'to the northwest, sharing Lake Allatoona' },
+      { name: 'Douglas County',  slug: 'douglas-county',  anchor: 'Animal removal in Douglas County',    blurb: 'to the southwest, across Sweetwater Creek' },
+    ];
+
+    extendedBody = `
+      <h2>Cobb County's Geography Shapes Its Wildlife Activity</h2>
+      <p>Cobb County sits in the rolling Piedmont uplands of north Georgia, hemmed in by the <strong>Chattahoochee River</strong> along its southern and eastern borders and crowned by <strong>Lake Allatoona</strong> on the north. Between those two waters runs a string of monadnocks — <strong>Kennesaw Mountain</strong> (1,808 feet), <strong>Pine Mountain</strong>, <strong>Lost Mountain</strong>, and <strong>Brushy Mountain</strong> — small isolated peaks that interrupt an otherwise gently rolling landscape and concentrate the kind of mature mast-producing oak-hickory forest that supports dense local wildlife populations.</p>
+      <p>Within or directly bordering the county sit several major public conservation lands: <strong>Kennesaw Mountain National Battlefield Park</strong>, multiple riverside units of the <strong>Chattahoochee River National Recreation Area</strong> (Cochran Shoals, Sope Creek, East and West Palisades, Powers Island, Paces Mill), <strong>Red Top Mountain State Park</strong> on the Lake Allatoona shore, and <strong>Sweetwater Creek State Park</strong> just across the southwestern county line. The result is a metro Atlanta county where protected habitat sits directly against subdivisions, golf courses, and corporate office parks — and that interface is what drives Cobb's residential wildlife removal call volume.</p>
+
+      <h3>Waterways That Move Wildlife Through the County</h3>
+      <p>The Chattahoochee corridor is the dominant ecological feature, but Cobb is also drained by <strong>Sweetwater Creek</strong>, <strong>Nickajack Creek</strong>, <strong>Sope Creek</strong>, <strong>Allatoona Creek</strong>, <strong>Noses Creek</strong>, and <strong>Rottenwood Creek</strong> — every one of which functions as a wildlife travel corridor. Beavers move through these tributaries and routinely flood storm-detention ponds and low-lying yards in the West Cobb subdivisions along Allatoona and Noses Creek. River otters use the Chattahoochee corridor and the lower reaches of Sope and Sweetwater. Around <strong>Lake Allatoona</strong> and the smaller <strong>Lake Acworth</strong> at the county's northern edge, bald eagles have established active nesting pairs — Allatoona is one of the more reliable bald eagle viewing spots in the metro.</p>
+
+      <h2>Wildlife Species Present in Cobb County</h2>
+      <p>Cobb residents most frequently call about animals that have moved from these natural corridors into the residential edge:</p>
+      <ul class="tips-list">
+        <li><strong>White-tailed deer</strong> — densities are particularly high in and around the Kennesaw Mountain area</li>
+        <li><strong>Coyotes</strong> — significant established presence in East Cobb, Smyrna, and Vinings</li>
+        <li><strong>Red and gray fox</strong>, <strong>eastern cottontail rabbits</strong>, <strong>raccoons</strong>, <strong>Virginia opossums</strong>, <strong>eastern gray squirrels</strong>, <strong>fox squirrels</strong></li>
+        <li><strong>Beavers and river otters</strong> in the Chattahoochee tributaries</li>
+        <li><strong>Eastern wild turkey</strong> on Kennesaw Mountain</li>
+        <li><strong>Bald eagles</strong> nesting at Lake Allatoona; <strong>red-tailed hawks</strong>, <strong>broad-winged hawks</strong> (conspicuous in fall migration over the Kennesaw ridge)</li>
+        <li><strong>Barred owls</strong>, <strong>great horned owls</strong>, <strong>pileated woodpeckers</strong></li>
+        <li><strong>Eastern box turtles</strong> and <strong>snapping turtles</strong></li>
+        <li>Snakes encountered residentially are dominated by the <strong>eastern rat snake</strong> (frequently mistaken for venomous) and the <strong>northern copperhead</strong>, with <strong>brown watersnakes</strong> along river and creek corridors. <strong>Timber rattlesnakes</strong> occur but are essentially restricted to the rugged ridgeline habitat around Kennesaw Mountain — encounters at residential properties are uncommon.</li>
+      </ul>
+
+      <h2>Common Wildlife Issues That Define the Cobb Job Mix</h2>
+      <p>Several patterns in Cobb's call volume are distinctive enough to call out:</p>
+
+      <h3>Urban coyote management in East Cobb and Smyrna</h3>
+      <p>Coyote sightings now occur in nearly every subdivision east of I-75. Most calls are driven by missing cats, daytime sightings near schools, or den activity in stormwater easements. Coyotes are using the small woodlots, golf courses, and creek corridors that run between subdivisions as travel routes and den sites. Removal is rarely lethal — most resolutions involve hazing, exclusion of food sources, and den-site disturbance.</p>
+
+      <h3>Bats in older Marietta-area homes</h3>
+      <p>The pre-1970s housing stock in the <strong>Marietta Square historic district</strong> and the inner Smyrna neighborhoods is the classic substrate for big brown bat maternity colonies — louvered gable vents, original wood-shake roofing, and decades of unmaintained soffits. Georgia DNR restricts active exclusion during the maternity period (roughly May through July) to protect non-volant pups, so most exclusion work is scheduled August through April.</p>
+
+      <h3>Beaver flooding in West Cobb subdivisions</h3>
+      <p>Subdivisions along Allatoona Creek, Noses Creek, and the smaller tributaries west of US-41 see recurring beaver-related flooding of yards, walking paths, and culverts. Most resolutions are some combination of trapping and the installation of dam-leveler devices to manage water levels rather than full beaver removal.</p>
+
+      <h3>Deer-vehicle collisions</h3>
+      <p>Cobb has consistently ranked among the higher Georgia counties for deer-vehicle collisions, with hotspots along Old Highway 41, Sandy Plains Road, Burnt Hickory Road, and the corridors bordering Kennesaw Mountain Park.</p>
+
+      <h3>Canada goose overpopulation at corporate ponds and Lake Allatoona</h3>
+      <p>Resident (non-migratory) Canada geese on corporate retention ponds along the I-75 corridor, Cumberland-area office parks, and the Lake Allatoona shoreline produce enough fecal volume to be a real water-quality and slip-and-fall liability. Most management is non-lethal — egg addling, habitat modification, dog-based hazing — though USDA permits for population reduction are issued in some cases.</p>
+
+      <h2>Federally Protected Species in the Cobb Watersheds</h2>
+      <p>Two federally listed fish — the <strong>Cherokee darter</strong> (federally threatened) and the <strong>Etowah darter</strong> (federally endangered) — occur in the Etowah and Allatoona Creek systems draining the northern part of the county. They have no direct relevance to residential wildlife removal, but any work in those creek corridors is subject to federal habitat protections, and licensed contractors operating there should be aware of the listing. The <strong>bald eagle</strong> remains protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act; Lake Allatoona's nesting pairs are surveyed annually by Georgia DNR.</p>
+
+      <h2>Local Authorities and Regulations</h2>
+      <p><strong>Cobb County Animal Services</strong> handles domestic-animal complaints — stray dogs, cat colonies, bite reports — but does not respond to most nuisance wildlife calls. Raccoons, squirrels, bats, snakes, beavers, coyotes, and similar species are referred to private licensed wildlife control operators. State-level oversight comes from <strong>Georgia DNR Wildlife Resources Division Region 1</strong> (Armuchee office), which issues the Trapping License and Nuisance Wildlife Control Permit required of commercial operators. Federal protections apply to bats during maternity periods, all migratory birds (Canada geese, owls, hawks, woodpeckers), and the federally listed fish species above. Every contractor in this directory operating in Cobb County is required to hold the applicable state and federal credentials.</p>
+    `;
+
+    faqs = [
+      {
+        q: 'What wildlife is most common in Cobb County, Georgia?',
+        a: 'In residential calls across Cobb County, eastern gray squirrels, raccoons, Virginia opossums, big brown bats, and armadillos make up the bulk of attic and yard intrusions. Snake calls — primarily eastern rat snakes and the occasional copperhead — concentrate along the Chattahoochee corridor and around Kennesaw Mountain. Coyotes are now firmly established across East Cobb, Smyrna, and Vinings. Beavers and Canada geese drive most of the water-related complaints in West Cobb subdivisions and around corporate retention ponds. Larger species — white-tailed deer, the occasional black bear that wanders through Kennesaw Mountain, and alligators in the Chattahoochee — fall under direct Georgia DNR Wildlife Resources Division management rather than the private removal industry.'
+      },
+      {
+        q: 'Are coyotes a problem in East Cobb and Smyrna?',
+        a: 'Coyote sightings are routine in East Cobb and Smyrna, with most subdivisions east of I-75 reporting at least seasonal activity. Coyotes use the small woodlots, golf courses, and creek corridors that run between subdivisions as travel routes and den sites. The most common reasons residents call are missing cats, daytime sightings near schools, and den activity in stormwater easements. Resolutions are rarely lethal — they typically involve some combination of hazing, removing food sources (pet food left out, accessible trash, fallen fruit), and disrupting den sites. A licensed contractor can also work the food-source side of the problem at neighboring properties when the issue is community-wide.'
+      },
+      {
+        q: 'What should I do about bats in my Marietta attic?',
+        a: 'Don\'t try to handle a bat colony yourself. Bats in Georgia carry rabies risk, are protected by federal law during the maternity period, and require specialized exclusion technique to remove without sealing pups inside the structure. Cobb\'s pre-1970s housing stock — the Marietta Square historic district, inner Smyrna, and older sections of Vinings — is the classic substrate for big brown bat maternity colonies forming in louvered gable vents and original wood-shake roofing. Georgia DNR restricts active exclusion during the maternity period (roughly May through July). A licensed contractor will typically schedule work for August through April, install one-way exit devices, and seal the structure once the colony is confirmed to have left.'
+      },
+      {
+        q: 'Is wildlife removal regulated in Cobb County?',
+        a: 'Yes. Wildlife removal in Cobb County operates under three layers of regulation. State-level oversight comes from the Georgia Department of Natural Resources, Wildlife Resources Division (Region 1, Armuchee office), which issues the Trapping License and Nuisance Wildlife Control Permit required for commercial operators. Federal protections apply to bats, all migratory birds (Canada geese, owls, hawks, woodpeckers), and federally listed species in the local watersheds. Cobb County Animal Services handles domestic-animal calls but does not respond to most nuisance wildlife — those calls are referred to licensed private operators. Every contractor in this directory holds the applicable state and federal credentials.'
+      },
+      {
+        q: 'How much does wildlife removal cost in Cobb County?',
+        a: 'Pricing varies significantly with the species, the extent of the intrusion, and how much exclusion work is needed to keep the animal out. A single squirrel or raccoon removal on a clean attic might run a few hundred dollars; a full bat colony exclusion with attic remediation, sanitization, and sealed entry points can run several thousand. Beaver and coyote work is priced by trap-set count and visit frequency. The most accurate way to get a number is a free phone consult with a Cobb-based contractor — most quote at no cost over the phone once they understand the species and the property.'
+      },
+      {
+        q: 'When is the best time to handle wildlife exclusion in Georgia?',
+        a: 'For most species in the Cobb County area, the best window for exclusion work is late summer through early spring — roughly August through April. Bat exclusion in particular must be scheduled outside the maternity period (May through July) to avoid trapping non-volant pups inside. Squirrel and raccoon exclusion is best handled outside their main denning seasons (February through April for both species in north Georgia), though urgent intrusions can be addressed any time of year using one-way doors that allow animals to exit but not return. Snake calls and emergency removals run year-round. Cobb\'s mild winters keep wildlife active twelve months a year.'
+      },
+      {
+        q: 'Are there protected species in Cobb County I should be aware of?',
+        a: 'Two federally listed fish — the Cherokee darter (threatened) and the Etowah darter (endangered) — occur in the Etowah and Allatoona Creek systems draining the northern part of the county. Bald eagles nest on Lake Allatoona and are protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act. Bats are protected by both state and federal regulations during their maternity period. Canada geese require federal Migratory Bird Treaty Act permits for any active take, even though they are often regarded as a nuisance. Licensed contractors are required to know which species can be handled directly and which require specific federal or state permitting before work begins.'
+      },
+      {
+        q: 'What\'s the difference between county animal control and a wildlife removal contractor?',
+        a: 'Cobb County Animal Services responds to domestic-animal calls — stray and aggressive dogs, cat colonies, bite reports, animal cruelty — and handles licensing, vaccination compliance, and shelter operations. They do not respond to most nuisance wildlife situations. Raccoons in attics, bats in walls, snakes in yards, squirrels in chimneys, coyote sightings, beaver flooding, and similar calls are referred to private licensed wildlife removal contractors. The reason is that wild-animal handling requires specialized state DNR licensing, exclusion work falls outside animal control\'s mandate, and the work is typically property-specific (sealing buildings, installing one-way doors, repairing damage) rather than animal-pickup-and-relocate.'
+      }
+    ];
+  }
+
+  const blockD = `Wildlife intrusion in ${countyName} follows Georgia's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
+  const blockE = `All commercial wildlife removal in Georgia is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds the applicable Georgia DNR licensing and operates within Wildlife Resources Division guidelines on species-specific handling and relocation.`;
+
+  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, extendedBody, faqs, neighboringCounties, geo, sameAs };
+}
+
 // ---- main dispatcher ----
 function getCountyContent(stateName, countyName) {
   const stateData = stateRegistry[stateName];
@@ -377,6 +499,7 @@ function getCountyContent(stateName, countyName) {
   if (stateName === 'New Hampshire') return newHampshireContent(countyName, county, s);
   if (stateName === 'Vermont')       return vermontContent(countyName, county, s);
   if (stateName === 'Rhode Island')  return rhodeIslandContent(countyName, county, s);
+  if (stateName === 'Georgia')       return georgiaContent(countyName, county, s);
 
   return null;
 }
