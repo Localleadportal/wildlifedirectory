@@ -11,6 +11,8 @@ const { getAnimalRegionContent } = require('./data/animalRegionContent');
 const { getAnimalFaqs } = require('./data/faqContent');
 const { getSeasonalContent } = require('./data/seasonalContent');
 const { getCountyContent } = require('./data/countyContent');
+const { getCityContent } = require('./data/cityContent');
+const { getCityAnimalContent } = require('./data/cityAnimalContent');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -21,27 +23,68 @@ function apiCounty(name) {
   return name.replace(/ (County|Parish|Borough|Census Area|City|Municipality)$/i, '').trim();
 }
 
-// ── Contractor presence check with 5-min cache ──────────────────────────────
-const _contractorCache = new Map();
-async function hasContractor(stateName, countyName) {
-  const key = `${stateName}|${apiCounty(countyName)}`;
-  const hit = _contractorCache.get(key);
-  if (hit && hit.expires > Date.now()) return hit.value;
+// ── Active-locations cache + sticky permanent-indexable set ──────────────────
+// Pages flip to indexable when a contractor signs up. Once flipped, the page
+// stays indexable forever — even if the contractor later drops the area —
+// because the fallback 800 number still routes calls and we don't want to
+// throw away accumulated SEO ranking on a churn event.
+//
+// The permanent set is loaded from data/permanentlyIndexed.json at startup
+// and auto-augmented with currently-active counties at runtime. To make the
+// status durable across redeploys, append new (state|county) entries to that
+// JSON file when contractors sign up.
+// Key format throughout: `${ProperCaseState}|${lowercaseCounty}` so it matches
+// the same key built by the API loader and by isCountyIndexable.
+const permanentlyIndexed = require('./data/permanentlyIndexed.json');
+const _permanentCounties = new Set(
+  (permanentlyIndexed.counties || []).map(k => {
+    const [state, county] = k.split('|');
+    return `${state}|${(county || '').toLowerCase()}`;
+  })
+);
+const _permanentStates = new Set(permanentlyIndexed.states || []);
+
+const _activeCache = { counties: null, states: null, expires: 0 };
+async function loadActiveLocations() {
+  if (_activeCache.counties && _activeCache.expires > Date.now()) return;
   try {
     const controller = new AbortController();
     const tid = setTimeout(() => controller.abort(), 2500);
-    const r = await fetch(
-      `${LEAD_PORTAL}/api/directory?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`,
-      { signal: controller.signal }
-    );
+    const r = await fetch(`${LEAD_PORTAL}/api/directory/active-locations`, { signal: controller.signal });
     clearTimeout(tid);
-    const d = await r.json();
-    const value = !!d.available;
-    _contractorCache.set(key, { value, expires: Date.now() + 5 * 60 * 1000 });
-    return value;
+    const { locations } = await r.json();
+    const counties = new Set();
+    const states = new Set();
+    (locations || []).forEach(l => {
+      if (l.serviceType !== SERVICE_TYPE) return;
+      const key = `${l.state}|${l.county.toLowerCase()}`;
+      counties.add(key);
+      states.add(l.state);
+      // Auto-augment the permanent set so we don't lose currently-active areas
+      // between manual JSON file updates. Persistence still requires committing
+      // the file — but the runtime never regresses while the server is up.
+      _permanentCounties.add(key);
+      _permanentStates.add(l.state);
+    });
+    _activeCache.counties = counties;
+    _activeCache.states = states;
+    _activeCache.expires = Date.now() + 5 * 60 * 1000;
   } catch {
-    return false;
+    _activeCache.counties = _activeCache.counties || new Set();
+    _activeCache.states = _activeCache.states || new Set();
+    _activeCache.expires = Date.now() + 30 * 1000;
   }
+}
+
+// Sticky indexable checks — true if currently active OR ever activated
+async function isCountyIndexable(stateName, countyName) {
+  await loadActiveLocations();
+  const key = `${stateName}|${apiCounty(countyName).toLowerCase()}`;
+  return _activeCache.counties.has(key) || _permanentCounties.has(key);
+}
+async function isStateIndexable(stateName) {
+  await loadActiveLocations();
+  return _activeCache.states.has(stateName) || _permanentStates.has(stateName);
 }
 
 app.set('view engine', 'ejs');
@@ -64,42 +107,36 @@ app.get('/robots.txt', (req, res) => {
   res.send('User-agent: *\nAllow: /\nSitemap: https://www.removewildlifenow.com/sitemap.xml\n');
 });
 
-// Dynamic sitemap — only lists pages that have an active contractor
+// Dynamic sitemap — lists every indexable page (currently active OR ever-active)
 app.get('/sitemap.xml', async (req, res) => {
   const BASE = 'https://www.removewildlifenow.com';
   const urls = [`${BASE}/`, `${BASE}/contact/`];
 
-  // Add all state pages
-  Object.keys(statesAndCounties).forEach(state => {
+  // Trigger a refresh so any newly active areas get merged into the permanent set
+  try { await loadActiveLocations(); } catch {}
+
+  // Include every (state, county) that has ever been activated
+  _permanentStates.forEach(state => {
     urls.push(`${BASE}/${toSlug(state)}/`);
   });
 
-  try {
-    const controller = new AbortController();
-    const tid = setTimeout(() => controller.abort(), 5000);
-    const r = await fetch(`${LEAD_PORTAL}/api/directory/active-locations`, { signal: controller.signal });
-    clearTimeout(tid);
-    const { locations } = await r.json();
-
-    locations.forEach(({ state, county, serviceType }) => {
-      if (serviceType !== SERVICE_TYPE) return;
-      const stateSlug  = toSlug(state);
-      // Find matching full county name
-      const counties   = statesAndCounties[state] || [];
-      const fullCounty = counties.find(c => apiCounty(c).toLowerCase() === county.toLowerCase());
-      if (!fullCounty) return;
-      const countySlug = toSlug(fullCounty);
-      urls.push(`${BASE}/${stateSlug}/${countySlug}/`);
-      ANIMALS.forEach(a => {
-        urls.push(`${BASE}/${stateSlug}/${countySlug}/${a.slug}/`);
-        const cities = getCitiesForCounty(state, fullCounty);
-        cities.forEach(city => {
-          urls.push(`${BASE}/${stateSlug}/${countySlug}/${toSlug(city)}/`);
-          urls.push(`${BASE}/${stateSlug}/${countySlug}/${toSlug(city)}/${a.slug}/`);
-        });
+  _permanentCounties.forEach(key => {
+    const [state, countyLower] = key.split('|');
+    const stateSlug = toSlug(state);
+    const counties = statesAndCounties[state] || [];
+    const fullCounty = counties.find(c => apiCounty(c).toLowerCase() === countyLower);
+    if (!fullCounty) return;
+    const countySlug = toSlug(fullCounty);
+    urls.push(`${BASE}/${stateSlug}/${countySlug}/`);
+    ANIMALS.forEach(a => {
+      urls.push(`${BASE}/${stateSlug}/${countySlug}/${a.slug}/`);
+      const cities = getCitiesForCounty(state, fullCounty);
+      cities.forEach(city => {
+        urls.push(`${BASE}/${stateSlug}/${countySlug}/${toSlug(city)}/`);
+        urls.push(`${BASE}/${stateSlug}/${countySlug}/${toSlug(city)}/${a.slug}/`);
       });
     });
-  } catch { /* if portal unreachable, still return static pages */ }
+  });
 
   const today = new Date().toISOString().slice(0, 10);
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
@@ -125,13 +162,14 @@ app.get('/contact/', (req, res) => {
 });
 
 // State page — /georgia/
-app.get('/:stateSlug/', (req, res) => {
+app.get('/:stateSlug/', async (req, res) => {
   const stateName = stateSlugToName(req.params.stateSlug);
   if (!stateName) return res.status(404).render('404', { message: 'State not found.' });
 
   const counties = statesAndCounties[stateName];
   const stateInfo = stateContent[stateName] || null;
-  res.render('state', { stateName, counties, stateInfo, toSlug });
+  const indexable = await isStateIndexable(stateName);
+  res.render('state', { stateName, counties, stateInfo, toSlug, indexable });
 });
 
 // County page — /georgia/cobb-county/
@@ -146,11 +184,11 @@ app.get('/:stateSlug/:countySlug/', async (req, res) => {
   const cities = getCitiesForCounty(stateName, countyName);
   const stateInfo = stateContent[stateName] || null;
   const countyContent = getCountyContent(stateName, countyName);
-  const contractor = await hasContractor(stateName, countyName);
+  const indexable = await isCountyIndexable(stateName, countyName);
 
   res.render('county', {
     stateName, countyName, embedScript, cities, stateInfo, countyContent,
-    hasContractor: contractor,
+    indexable,
     stateSlug: req.params.stateSlug,
     toSlug, ANIMALS
   });
@@ -208,10 +246,10 @@ app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
     const animal = getAnimalBySlug(seg);
     const cities = getCitiesForCounty(stateName, countyName);
     const animalRegionNote = getAnimalRegionContent(stateName, seg);
-    const contractor = await hasContractor(stateName, countyName);
+    const indexable = await isCountyIndexable(stateName, countyName);
     return res.render('county-animal', {
       stateName, countyName, animal, cities, stateInfo, animalRegionNote, embedScript,
-      hasContractor: contractor,
+      indexable,
       faqs: getAnimalFaqs(seg, { countyName, stateName, stateInfo }),
       seasonal: getSeasonalContent(seg),
       stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, toSlug, ANIMALS
@@ -221,10 +259,11 @@ app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
   // City page
   const cityName = citySlugToName(stateName, countyName, seg);
   if (cityName) {
-    const contractor = await hasContractor(stateName, countyName);
+    const indexable = await isCountyIndexable(stateName, countyName);
+    const cityContent = getCityContent(stateName, countyName, cityName);
     return res.render('city', {
-      stateName, countyName, cityName, stateInfo, embedScript,
-      hasContractor: contractor,
+      stateName, countyName, cityName, stateInfo, embedScript, cityContent,
+      indexable,
       stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: seg, toSlug, ANIMALS
     });
   }
@@ -247,10 +286,11 @@ app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug/', async (req, res) => {
 
   const stateInfo = stateContent[stateName] || null;
   const animalRegionNote = getAnimalRegionContent(stateName, req.params.animalSlug);
-  const contractor = await hasContractor(stateName, countyName);
+  const indexable = await isCountyIndexable(stateName, countyName);
+  const cityAnimalContent = getCityAnimalContent(stateName, countyName, cityName, req.params.animalSlug);
   res.render('city-animal', {
-    stateName, countyName, cityName, animal, stateInfo, animalRegionNote, embedScript,
-    hasContractor: contractor,
+    stateName, countyName, cityName, animal, stateInfo, animalRegionNote, embedScript, cityAnimalContent,
+    indexable,
     faqs: getAnimalFaqs(req.params.animalSlug, { countyName, cityName, stateName, stateInfo }),
     seasonal: getSeasonalContent(req.params.animalSlug),
     stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: req.params.citySlug, toSlug, ANIMALS

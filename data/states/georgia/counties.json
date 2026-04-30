@@ -1,0 +1,25 @@
+{
+  "state": {
+    "name": "Georgia",
+    "agency": "Georgia Department of Natural Resources, Wildlife Resources Division",
+    "agency_short": "Georgia DNR",
+    "peak_intrusion_season": "February through April for raccoon and squirrel denning, May through August for bat maternity colonies in attics, and a sustained year-round pressure across the southern half of the state where mild winters keep wildlife active and breeding cycles overlap",
+    "climate_factor": "Georgia's long, humid subtropical summers and mild winters allow many nuisance species — raccoons, squirrels, opossums, rats, and armadillos — to breed multiple times per year and remain active twelve months a year, producing call volume that never fully drops off the way it does in northern states",
+    "permit_note": "Georgia DNR requires commercial wildlife trappers to hold a Trapping License and, for properties using lethal control, a Nuisance Wildlife Control Permit; bats and migratory birds carry additional federal handling restrictions, and large game species including white-tailed deer, black bears, alligators, and feral hogs fall under direct Georgia DNR Wildlife Resources Division management rather than the private wildlife removal industry"
+  },
+  "counties": {
+    "Cobb County": {
+      "county_seat": "Marietta",
+      "population": 766149,
+      "established": 1832,
+      "region": "the northwestern Atlanta metro area, immediately north of the Chattahoochee River",
+      "largest_cities": ["Marietta", "Smyrna", "Kennesaw", "Acworth", "Mableton", "Austell", "Powder Springs"],
+      "nearest_metro": "Atlanta (downtown is about 20 miles southeast of Marietta)",
+      "natural_features": ["Kennesaw Mountain National Battlefield Park", "Chattahoochee River National Recreation Area", "Lake Allatoona (northern edge)", "Sweetwater Creek corridor"],
+      "habitat_type": "dense Atlanta-edge suburbs with mature oak-hickory canopy, the Chattahoochee River corridor, the Kennesaw Mountain ridgeline, and pockets of older inner-ring development around Marietta and Smyrna",
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "Virginia opossums", "Norway rats", "big brown bats", "striped skunks", "armadillos", "snakes (rat snakes, copperheads)"],
+      "regional_wildlife": "the wooded older neighborhoods of Marietta, East Cobb, and Vinings see heavy raccoon and gray squirrel pressure on attics and chimneys with mature tree canopy giving direct roof access, big brown bat colonies routinely form in the older brick-and-frame housing stock around the Marietta Square historic district and the inner Smyrna neighborhoods, armadillos have become an established and rapidly growing residential nuisance across the county — rooting up lawns and damaging foundation plantings particularly in the wooded subdivisions along the Chattahoochee corridor and Kennesaw Mountain area — and Norway rats are persistent in the older commercial corridors of Marietta, Smyrna, and the Cumberland/Vinings business district",
+      "absent_or_rare": "white-tailed deer are abundant throughout Cobb's wooded subdivisions, black bears occasionally pass through the Kennesaw Mountain area, and the occasional alligator turns up in the Chattahoochee River corridor — but all three species fall under Georgia DNR Wildlife Resources Division management rather than the private wildlife removal contractor industry"
+    }
+  }
+}

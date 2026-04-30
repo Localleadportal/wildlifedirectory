@@ -1,0 +1,13 @@
+{
+  "_comment": "Counties and states that have ever had an active contractor. Pages stay indexable forever once a contractor signs up — even if the contractor later drops the area, the page does not revert to noindex (the fallback 800 number still routes calls). Server.js auto-merges currently-active counties into this list at runtime, but that in-memory state resets on redeploy. Commit this file to make the indexable status durable. NEVER REMOVE entries.",
+  "counties": [
+    "Georgia|Bartow",
+    "Georgia|Cherokee",
+    "Georgia|Cobb",
+    "Georgia|Coweta",
+    "Georgia|Fayette"
+  ],
+  "states": [
+    "Georgia"
+  ]
+}

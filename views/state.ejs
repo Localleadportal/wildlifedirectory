@@ -61,4 +61,4 @@
   </div>
 </section>`;
 %>
-<%- include('layout', { title, metaDesc, canonical, schema, body }) %>
+<%- include('layout', { title, metaDesc, canonical, schema, body, noindex: !indexable }) %>
