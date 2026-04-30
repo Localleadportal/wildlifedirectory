@@ -85,11 +85,13 @@
             </a>
           </div>
           <p class="cta-note llp-available-only">Serving all of <%= countyName %>, <%= stateName %></p>
+          <% if (!hasContractor) { %>
           <div class="no-contractor-section" id="no-contractor">
             <h3>No Contractor Assigned Yet</h3>
             <p>We don't have a licensed contractor in <%= countyName %> yet — but we're expanding fast. Contact us and we'll connect you with help.</p>
             <a href="/contact/?county=<%= encodeURIComponent(countyName) %>&state=<%= encodeURIComponent(stateName) %>" class="btn-contact">Contact Us for Help</a>
           </div>
+          <% } %>
           <div class="cta-badges">
             <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Licensed &amp; Insured</span>
             <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Same-Day Available</span>
