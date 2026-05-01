@@ -33,6 +33,7 @@ us.STATES.forEach(s => {
 // Keys are `${stateName}|${countyKey}` where countyKey has no "County" suffix.
 const CITY_OVERRIDES = {
   'Georgia|Cobb': ['Marietta', 'Smyrna', 'Kennesaw', 'Acworth', 'Powder Springs', 'Austell', 'Mableton', 'Vinings', 'Clarkdale'],
+  'Georgia|Cherokee': ['Canton', 'Woodstock', 'Holly Springs', 'Ball Ground', 'Waleska', 'Nelson', 'Mountain Park'],
 };
 
 // Get cities for a county (matches "Cobb County" -> county key "Cobb")
