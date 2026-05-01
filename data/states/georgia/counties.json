@@ -13,11 +13,33 @@
       "population": 766149,
       "established": 1832,
       "region": "the northwestern Atlanta metro area, immediately north of the Chattahoochee River",
-      "largest_cities": ["Marietta", "Smyrna", "Kennesaw", "Acworth", "Mableton", "Austell", "Powder Springs"],
+      "largest_cities": [
+        "Marietta",
+        "Smyrna",
+        "Kennesaw",
+        "Acworth",
+        "Mableton",
+        "Austell",
+        "Powder Springs"
+      ],
       "nearest_metro": "Atlanta (downtown is about 20 miles southeast of Marietta)",
-      "natural_features": ["Kennesaw Mountain National Battlefield Park", "Chattahoochee River National Recreation Area", "Lake Allatoona (northern edge)", "Sweetwater Creek corridor"],
+      "natural_features": [
+        "Kennesaw Mountain National Battlefield Park",
+        "Chattahoochee River National Recreation Area",
+        "Lake Allatoona (northern edge)",
+        "Sweetwater Creek corridor"
+      ],
       "habitat_type": "dense Atlanta-edge suburbs with mature oak-hickory canopy, the Chattahoochee River corridor, the Kennesaw Mountain ridgeline, and pockets of older inner-ring development around Marietta and Smyrna",
-      "common_wildlife": ["raccoons", "Eastern gray squirrels", "Virginia opossums", "Norway rats", "big brown bats", "striped skunks", "armadillos", "snakes (rat snakes, copperheads)"],
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Virginia opossums",
+        "Norway rats",
+        "big brown bats",
+        "striped skunks",
+        "armadillos",
+        "snakes (rat snakes, copperheads)"
+      ],
       "regional_wildlife": "the wooded older neighborhoods of Marietta, East Cobb, and Vinings see heavy raccoon and gray squirrel pressure on attics and chimneys with mature tree canopy giving direct roof access, big brown bat colonies routinely form in the older brick-and-frame housing stock around the Marietta Square historic district and the inner Smyrna neighborhoods, armadillos have become an established and rapidly growing residential nuisance across the county — rooting up lawns and damaging foundation plantings particularly in the wooded subdivisions along the Chattahoochee corridor and Kennesaw Mountain area — and Norway rats are persistent in the older commercial corridors of Marietta, Smyrna, and the Cumberland/Vinings business district",
       "absent_or_rare": "white-tailed deer are abundant throughout Cobb's wooded subdivisions, black bears occasionally pass through the Kennesaw Mountain area, and the occasional alligator turns up in the Chattahoochee River corridor — but all three species fall under Georgia DNR Wildlife Resources Division management rather than the private wildlife removal contractor industry"
     },
@@ -26,13 +48,169 @@
       "population": 1066710,
       "established": 1853,
       "region": "the central metropolitan Atlanta area, the most populous county in Georgia, running from the Chattahoochee River along the western boundary through the city of Atlanta down to the southern suburbs",
-      "largest_cities": ["Atlanta", "Sandy Springs", "Roswell", "Johns Creek", "Alpharetta", "Milton", "East Point", "South Fulton"],
+      "largest_cities": [
+        "Atlanta",
+        "Sandy Springs",
+        "Roswell",
+        "Johns Creek",
+        "Alpharetta",
+        "Milton",
+        "East Point",
+        "South Fulton"
+      ],
       "nearest_metro": "Atlanta is the metro itself — Fulton contains the city's downtown core, Buckhead, Midtown, and the major north-Fulton tech and commercial corridors",
-      "natural_features": ["Chattahoochee River", "Chattahoochee River National Recreation Area (Cochran Shoals, Powers Island, Vickery Creek, Jones Bridge, Island Ford units)", "Atlanta BeltLine (22-mile former rail corridor)", "Big Creek and Big Creek Greenway", "Vickery Creek (Roswell historic mill village)", "Foe Killer Creek", "Marsh Creek"],
+      "natural_features": [
+        "Chattahoochee River",
+        "Chattahoochee River National Recreation Area (Cochran Shoals, Powers Island, Vickery Creek, Jones Bridge, Island Ford units)",
+        "Atlanta BeltLine (22-mile former rail corridor)",
+        "Big Creek and Big Creek Greenway",
+        "Vickery Creek (Roswell historic mill village)",
+        "Foe Killer Creek",
+        "Marsh Creek"
+      ],
       "habitat_type": "metro Atlanta's most diverse housing-and-habitat mix — pre-1940 historic intown neighborhoods (Buckhead, Midtown, Inman Park, Cabbagetown, West End, Old Fourth Ward), mid-century post-war suburbs in East Point and southern Atlanta, mid-century Sandy Springs and Roswell ranch-housing zones, the Roswell historic mill village, and 1990s-2010s tech-corridor subdivisions across Alpharetta, Johns Creek, Milton, and Peachtree Corners-adjacent north Fulton",
-      "common_wildlife": ["Norway rats", "roof rats", "raccoons", "Eastern gray squirrels", "Virginia opossums", "big brown bats", "evening bats", "tricolored bats (federally proposed for listing)", "striped skunks", "Southern flying squirrels"],
+      "common_wildlife": [
+        "Norway rats",
+        "roof rats",
+        "raccoons",
+        "Eastern gray squirrels",
+        "Virginia opossums",
+        "big brown bats",
+        "evening bats",
+        "tricolored bats (federally proposed for listing)",
+        "striped skunks",
+        "Southern flying squirrels"
+      ],
       "regional_wildlife": "Fulton has the highest urban Norway rat density in metro Atlanta — the BeltLine corridor, Buckhead Village, Midtown, the Old Fourth Ward (Ponce City Market and Krog Street Market), Centennial Olympic Park downtown, and the West End commercial blocks all sustain year-round Norway rat populations in restaurant dumpster ecology and aging municipal sewer infrastructure. Big brown bat colonies in pre-1940 Atlanta intown chimneys (Buckhead older estates, West End historic district, Cabbagetown's Fulton-side row housing, Old Fourth Ward, the streets around the State Capitol) routinely span 30-60+ years of continuous occupation — among the longest-established residential bat colonies in the metro. Roof rats moved up the I-75 / GA-400 corridors during the 2000s-2010s and now drive most call volume in suburban Sandy Springs, Roswell, Alpharetta, Johns Creek, and Milton. Raccoon densities are heaviest along the Chattahoochee corridor, with year-round protein subsidy from shoreline foraging producing 15-25+ lb adults across the western edge of the county",
       "absent_or_rare": "white-tailed deer are largely absent from Atlanta intown but reach high densities in Milton's large-lot estate properties and along the wooded Chattahoochee corridor in north Fulton, urban coyotes are firmly established across Atlanta intown (Buckhead, West End, Old Fourth Ward) and increasingly common in north Fulton subdivisions, and federal listings include the tricolored bat (proposed for ESA listing) appearing along the Chattahoochee corridor and the bald eagle protected under the Bald and Golden Eagle Protection Act"
+    },
+    "Cherokee County": {
+      "county_seat": "Canton",
+      "population": 281451,
+      "established": 1831,
+      "region": "the northern metropolitan Atlanta exurban arc, in the rolling Piedmont uplands transitioning toward the Blue Ridge foothills",
+      "largest_cities": [
+        "Woodstock",
+        "Canton",
+        "Holly Springs",
+        "Ball Ground",
+        "Waleska",
+        "Nelson",
+        "Mountain Park"
+      ],
+      "nearest_metro": "Atlanta (downtown is about 35-45 miles south of the Cherokee County center)",
+      "natural_features": [
+        "Etowah River",
+        "Lake Allatoona (southern boundary, shared with Bartow and Cobb)",
+        "Sharp Mountain",
+        "Blackjack Mountain",
+        "Allatoona Creek",
+        "Long Swamp Creek",
+        "Hightower Creek",
+        "Woodstock Creek"
+      ],
+      "habitat_type": "Piedmont upland forest transitioning to Blue Ridge foothills, with the Etowah River corridor cutting east-to-west through the southern half of the county, Lake Allatoona shoreline forest along the southwestern boundary, Sharp Mountain and Blackjack Mountain elevation-edge habitat, Reinhardt University's wooded Waleska campus, and rapid 1990s-2010s subdivision growth across Woodstock and Holly Springs",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Southern flying squirrels",
+        "Virginia opossums",
+        "roof rats",
+        "Norway rats",
+        "big brown bats",
+        "evening bats",
+        "tricolored bats (federally proposed for listing)",
+        "striped skunks",
+        "armadillos",
+        "snakes (rat snakes, copperheads)"
+      ],
+      "regional_wildlife": "Cherokee's wide construction range — from pre-1900 mill housing in the Canton historic district through 1960s-1970s small-town infill in Ball Ground and Waleska to the massive 1990s-2010s subdivision growth across Woodstock and Holly Springs — produces a wide range of residential wildlife pressure profiles. The Etowah River corridor sustains federally listed darter populations (Cherokee darter, Etowah darter) and a continuous year-round raccoon source population. Lake Allatoona's wooded shoreline forest contributes to the bat-source population along the southern boundary. Roof rats moved up the I-575 corridor over the past two decades and now drive most suburban call volume in Woodstock and the Hwy 92 corridor",
+      "absent_or_rare": "white-tailed deer reach high densities in the wooded subdivisions backing up to Sharp Mountain and along the Etowah corridor, black bears occasionally appear in the northern parts of the county near the Pickens border, and the federally listed Cherokee darter and Etowah darter remain protected under the Endangered Species Act in their respective river systems"
+    },
+    "Bartow County": {
+      "county_seat": "Cartersville",
+      "population": 113486,
+      "established": 1832,
+      "region": "the northwestern metropolitan Atlanta exurban arc, with Lake Allatoona's main basin along the eastern boundary and the Etowah River cutting through the county center",
+      "largest_cities": [
+        "Cartersville",
+        "Adairsville",
+        "Euharlee",
+        "Emerson",
+        "Kingston",
+        "White",
+        "Taylorsville"
+      ],
+      "nearest_metro": "Atlanta (downtown is about 45 miles southeast of Cartersville)",
+      "natural_features": [
+        "Lake Allatoona (main basin)",
+        "Etowah River",
+        "Allatoona Creek",
+        "Pumpkinvine Creek",
+        "Pine Mountain",
+        "Red Top Mountain State Park",
+        "Etowah Indian Mounds State Historic Site",
+        "Cooper's Furnace Day Use Area"
+      ],
+      "habitat_type": "rural-suburban transition zone with Lake Allatoona's main basin and Red Top Mountain State Park along the eastern boundary, the Etowah River and Etowah Indian Mounds State Historic Site near the county seat, the Pine Mountain monadnock, and a residential housing stock dominated by pre-1940 Cartersville mill housing, the 1840s-era Adairsville historic downtown, mid-century rural-suburban housing, and 1990s-2010s subdivision growth in southern Bartow toward the Cobb boundary",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Southern flying squirrels",
+        "Virginia opossums",
+        "Norway rats",
+        "roof rats",
+        "big brown bats",
+        "evening bats",
+        "striped skunks",
+        "armadillos",
+        "snakes (rat snakes, copperheads)"
+      ],
+      "regional_wildlife": "Bartow has the largest Lake Allatoona shoreline footprint of any county and the wooded shoreline forest sustains one of the densest year-round raccoon source populations in north Georgia. Pre-1940 Cartersville mill housing and the 1840s-era Adairsville historic downtown around the Train Depot host long-established big-brown-bat colonies — many spanning 30-50+ years. Roof rats moved up the I-75 corridor during the 2010s and are now establishing throughout southern Bartow; Norway rats remain dominant in the older Cartersville and Adairsville commercial corridors. The Etowah River corridor and Pumpkinvine Creek tributary system sustain continuous year-round wildlife travel habitat",
+      "absent_or_rare": "white-tailed deer are abundant throughout Bartow's rural and rural-suburban edges, black bears occasionally pass through the more remote northern parts of the county, the occasional alligator turns up along the Etowah River corridor, and federally listed Cherokee darter and Etowah darter populations occur in the Etowah and Allatoona Creek systems"
+    },
+    "Gwinnett County": {
+      "county_seat": "Lawrenceville",
+      "population": 975353,
+      "established": 1818,
+      "region": "the northeastern metropolitan Atlanta arc, the second-most populous county in Georgia, running from Lake Lanier on the northern boundary down through the major suburban cities to the southern Snellville and Norcross edges",
+      "largest_cities": [
+        "Peachtree Corners",
+        "Lawrenceville",
+        "Duluth",
+        "Snellville",
+        "Sugar Hill",
+        "Suwanee",
+        "Norcross",
+        "Buford"
+      ],
+      "nearest_metro": "Atlanta (downtown is about 25-35 miles southwest of central Gwinnett)",
+      "natural_features": [
+        "Lake Lanier (northern boundary)",
+        "Yellow River",
+        "Chattahoochee River (western boundary)",
+        "Buford Dam",
+        "Suwanee Creek",
+        "Big Haynes Creek",
+        "Sweetwater Creek (north Gwinnett, distinct from south Cobb)"
+      ],
+      "habitat_type": "metro Atlanta's eastern suburban-to-exurban arc, with Lake Lanier shoreline forest along the northern boundary, the Chattahoochee River corridor along the west, the Yellow River cutting through the county center, the Buford Highway commercial corridor running through the southwest, and a residential housing stock dominated by 1980s-2010s subdivision growth across Peachtree Corners, Sugar Hill, Suwanee, Duluth, and Snellville, plus the older pre-1900 Lawrenceville historic-square and 1870-established Norcross historic-downtown areas",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Southern flying squirrels",
+        "Virginia opossums",
+        "Norway rats",
+        "roof rats",
+        "big brown bats",
+        "evening bats",
+        "tricolored bats (federally proposed for listing)",
+        "striped skunks",
+        "armadillos",
+        "snakes (rat snakes, copperheads)"
+      ],
+      "regional_wildlife": "Gwinnett has the metro's most ethnically diverse food ecosystem along the Buford Highway corridor — Korean, Vietnamese, Mexican, Chinese, Indian, Ethiopian, and Latin American restaurant rows that sustain year-round Norway rat populations in dumpster ecology. Pre-1900 Lawrenceville historic-square and 1870-established Norcross historic-downtown housing host long-established big-brown-bat colonies (30-50+ years). Roof rats moved up the I-85 corridor during the 2000s-2010s and now drive most call volume in suburban Sugar Hill, Suwanee, Peachtree Corners, Dacula, and Duluth subdivisions. Lake Lanier's shoreline forest sustains a substantial regional source population that disperses south into Sugar Hill, Suwanee, and Buford during the September-November fall window",
+      "absent_or_rare": "white-tailed deer are abundant in the wooded subdivision edges throughout Gwinnett, urban coyotes are increasingly common in the older inner-Norcross and Lawrenceville blocks, the occasional alligator appears along the Yellow River corridor, and the federally proposed-for-listing tricolored bat appears along the Lake Lanier shoreline and the Chattahoochee corridor"
     }
   }
 }

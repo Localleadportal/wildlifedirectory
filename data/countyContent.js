@@ -580,6 +580,297 @@ function georgiaContent(countyName, county, s) {
         a: 'The tricolored bat (Perimyotis subflavus) is federally proposed for listing under the Endangered Species Act and appears along the Chattahoochee corridor with some regularity. Bald eagles are protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act. All bats are protected by Georgia DNR regulations during maternity season (May-August). Migratory birds (Canada geese, owls, hawks, woodpeckers) require federal Migratory Bird Treaty Act permits for any active take. Licensed contractors are required to know which species can be handled directly and which require specific federal or state permitting.'
       }
     ];
+
+  } else if (countyName === 'Cherokee County') {
+    blockA = `Cherokee County sits in the northern metropolitan Atlanta exurban arc, in the rolling Piedmont uplands where the landscape transitions toward the Blue Ridge foothills. With a population of ${county.population.toLocaleString()} residents and rapidly growing, Cherokee runs from the Lake Allatoona shoreline along its southwestern boundary up through the explosive Woodstock and Holly Springs subdivision growth corridor and into the older small-town historic districts of Canton, Ball Ground, and Waleska. Established in ${county.established}, the county combines pre-1900 mill housing in the Canton historic district, 1840s-era small-town housing in Ball Ground, the Reinhardt University-anchored Waleska area, and the massive 1990s-2010s subdivision boom that transformed Woodstock from a small town into one of metro Atlanta's fastest-growing exurban centers.`;
+    blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across Cherokee's mature canopy, with twin breeding-cycle peaks driving twin call peaks. Southern flying squirrels appear with notable frequency in older Canton mill housing and along Sharp Mountain's wooded ridges. Virginia opossums shelter under decks and porches across the older Canton and Ball Ground inner-town housing. Striped skunks are persistent under sheds and crawl spaces in the wooded subdivisions, and snake calls — primarily eastern rat snakes and the occasional copperhead — concentrate around the wooded properties along the Etowah River corridor and the Sharp Mountain ridgeline. ${cap(county.absent_or_rare)}.`;
+    blockC = `Coverage spans all of Cherokee County including ${top4cities}, plus Mountain Park, Nelson, and the unincorporated subdivisions throughout the county and along the Hwy 92, Hwy 20, and Hwy 5 corridors. The county's mix of historic Canton mill-housing, the 1840s-era Ball Ground downtown, the Reinhardt University-anchored Waleska area, and the rapidly-grown Woodstock and Holly Springs subdivisions — combined with the Lake Allatoona and Etowah River source populations — means contractors here handle a continuous mix of historic-district multi-entry-point exclusion, suburban roof-rat work, and continuous raccoon-and-squirrel residential pressure.`;
+    metaTitle = `Cherokee County Wildlife Removal — Canton, Woodstock, Holly Springs GA`;
+    metaDescription = `Licensed wildlife removal in Cherokee County, GA — Canton, Woodstock, Holly Springs, Ball Ground & Waleska. Same-day humane service. Call now.`;
+
+    geo = { lat: 34.2502, lon: -84.4742 };
+    sameAs = [
+      'https://en.wikipedia.org/wiki/Cherokee_County,_Georgia',
+    ];
+
+    neighboringCounties = [
+      { name: 'Cobb County',     slug: 'cobb-county',     anchor: 'Cobb County wildlife removal',        blurb: 'directly to the south' },
+      { name: 'Bartow County',   slug: 'bartow-county',   anchor: 'Bartow County wildlife services',     blurb: 'to the west, sharing Lake Allatoona' },
+      { name: 'Forsyth County',  slug: 'forsyth-county',  anchor: 'Forsyth County animal removal',       blurb: 'to the east' },
+      { name: 'Pickens County',  slug: 'pickens-county',  anchor: 'Pickens County wildlife removal',     blurb: 'to the north' },
+      { name: 'Fulton County',   slug: 'fulton-county',   anchor: 'Wildlife removal in Fulton County',   blurb: 'to the south, near Roswell' },
+    ];
+
+    extendedBody = `
+      <h2>Cherokee County's Geography Shapes Wildlife Activity</h2>
+      <p>Cherokee sits at the transition between metro Atlanta's outer suburbs and the Blue Ridge foothills, with the <strong>Etowah River</strong> cutting east-to-west across the southern half of the county and <strong>Lake Allatoona</strong>'s shoreline forest along the southwestern boundary (shared with Bartow and Cobb). The Etowah corridor supports federally listed darter populations — the <strong>Cherokee darter</strong> (federally threatened) and the <strong>Etowah darter</strong> (federally endangered) — and a continuous year-round raccoon source population. Tributary creeks (<strong>Long Swamp Creek</strong>, <strong>Hightower Creek</strong>, <strong>Woodstock Creek</strong>, <strong>Allatoona Creek</strong>) reinforce wildlife travel habitat throughout the county.</p>
+      <p>The eastern third of the county runs up against <strong>Sharp Mountain</strong> and the smaller monadnocks scattered across the Pickens County boundary, while <strong>Blackjack Mountain</strong> anchors the southern boundary. Cherokee's residential subdivisions fill the lower elevations between these features, and the canopy has grown over the past two decades to connect almost every residential street to broader forest habitat. Reinhardt University's 600-acre Waleska campus carries continuous mature canopy that hosts year-round wildlife populations.</p>
+
+      <h2>Wildlife Species Present in Cherokee County</h2>
+      <p>Cherokee residents most frequently call about animals that have moved from these natural corridors into the residential edge:</p>
+      <ul class="tips-list">
+        <li><strong>Raccoons</strong> — heaviest densities along the Etowah corridor and Lake Allatoona shoreline; female raccoons whelp in Canton historic-district masonry chimneys February through April every year</li>
+        <li><strong>Eastern gray squirrels</strong> — constant across the county's mature canopy, with twin breeding-cycle peaks (February-March, August-September)</li>
+        <li><strong>Southern flying squirrels</strong> — notable in older Canton mill housing and along Sharp Mountain's wooded ridges; nocturnal and often mistaken for rats</li>
+        <li><strong>Roof rats</strong> — dominant species in suburban Woodstock, Holly Springs, and the Hwy 92 corridor; entered the metro via I-575 during the 2000s-2010s</li>
+        <li><strong>Norway rats</strong> — concentrated in the Canton historic-square commercial blocks and older Ball Ground downtown</li>
+        <li><strong>Big brown bats</strong> — long-established colonies in the original 1899 Canton Mill complex, the surrounding pre-1940 worker housing, and the older Reinhardt-area homes in Waleska</li>
+        <li><strong>Evening bats</strong> in older Canton mill housing</li>
+        <li><strong>Tricolored bats</strong> (federally proposed for listing) along the Sharp Mountain ridgeline and the Etowah corridor</li>
+        <li><strong>Virginia opossums</strong>, <strong>striped skunks</strong>, <strong>armadillos</strong> in residential and rural-edge areas</li>
+        <li>Snakes encountered residentially are dominated by the <strong>eastern rat snake</strong> with the occasional <strong>northern copperhead</strong>; <strong>brown watersnakes</strong> along the Etowah corridor</li>
+      </ul>
+
+      <h2>Common Wildlife Issues That Define the Cherokee Job Mix</h2>
+      <p>Several patterns in Cherokee's call volume are distinctive enough to call out:</p>
+
+      <h3>Pre-1900 Canton mill-housing multi-entry-point raccoon and bat work</h3>
+      <p>The surviving worker housing around the original 1899 Canton Mill complex and the historic blocks around the Cherokee County Courthouse have structural features — original masonry chimneys without modern caps, hand-laid brick foundations with pointing failures, original wood soffits and pre-modern gable louvers — that produce 4-5+ raccoon and bat entry points per property. Long-established big-brown-bat colonies in Canton historic-district chimneys span 30-50+ years of continuous occupation.</p>
+
+      <h3>Rapid Woodstock and Holly Springs roof-rat establishment</h3>
+      <p>The 1990s-2010s subdivision growth across Woodstock and Holly Springs occurred during exactly the period when roof rats moved up the I-575 corridor from peninsular Florida. The result is now-mature subdivision canopy plus overhead utility infrastructure providing the connectivity roof rats need to move between properties. Neighbor-to-neighbor reinfestation via overhead utility runs is the defining suburban Cherokee rat-call pattern.</p>
+
+      <h3>Sharp Mountain edge raccoon and squirrel pressure</h3>
+      <p>The Sharp Mountain elevation-edge habitat sustains a regional source population that disperses westward into adjacent Holly Springs and inner-Cherokee subdivisions. Properties within a half-mile of the wooded eastern edge take continuous fall dispersal pressure (September-November).</p>
+
+      <h3>Lake Allatoona shoreline raccoon source population</h3>
+      <p>Cherokee's southwestern boundary along Lake Allatoona's shoreline forest produces continuous raccoon dispersal pressure into Holly Springs and southern Cherokee subdivisions. Year-round protein subsidy from shoreline foraging produces 15-25+ lb adults common in lake-adjacent properties.</p>
+
+      <h2>Federally Protected Species in the Etowah Watershed</h2>
+      <p>The <strong>Cherokee darter</strong> (federally threatened) and the <strong>Etowah darter</strong> (federally endangered) occur in the Etowah River system that drains the southern half of Cherokee County. Any work along the river corridor is subject to federal habitat protections. The federally proposed <strong>tricolored bat</strong> (<em>Perimyotis subflavus</em>) appears along the Sharp Mountain ridgeline and the Etowah corridor; any encounter requires careful protocol because of the federal status.</p>
+
+      <h2>Local Authorities and Regulations</h2>
+      <p>Public-health authority for Cherokee County rabies-vector exposure runs through the <strong>Cherokee County Health Department</strong>; <strong>Cherokee County Animal Services</strong> handles domestic-animal complaints but does not respond to most nuisance wildlife. Commercial wildlife removal in Georgia operates under <strong>Georgia DNR Wildlife Resources Division Region 1</strong> (Armuchee office). Federal protections apply to bats during maternity periods (May-August exclusion restrictions), all migratory birds, and the federally listed darters and proposed-for-listing tricolored bat.`;
+
+    faqs = [
+      {
+        q: 'What wildlife is most common in Cherokee County, Georgia?',
+        a: 'In residential calls across Cherokee County, eastern gray squirrels, raccoons, Virginia opossums, and big brown bats make up the bulk of attic and yard intrusions. Roof rats are increasingly dominant in the suburban subdivisions of Woodstock and Holly Springs. Pre-1900 Canton mill housing and the 1840s-era Ball Ground downtown host long-established big-brown-bat colonies. Snake calls — primarily eastern rat snakes and the occasional copperhead — concentrate along the Etowah River corridor and the Sharp Mountain ridgeline. Federally protected species include the Cherokee darter and Etowah darter in the river system.'
+      },
+      {
+        q: 'Why are bat colonies so common in Canton historic homes?',
+        a: 'The pre-1940 housing around the original 1899 Canton Mill complex provides classic big-brown-bat maternity habitat. Original masonry chimneys without modern caps, pre-modern gable louvers, original wood soffits with corner separation, and hand-laid brick foundations all support continuous colony occupation. Many Canton historic-district chimney colonies span 30-50+ years; daughters return to natal roosts to whelp, so colony memory is multigenerational. Long-established colonies produce inches of accumulated guano, requiring HEPA-equipped decontamination.'
+      },
+      {
+        q: 'Is roof rat pressure worse in Woodstock than other Cherokee cities?',
+        a: 'Yes — Woodstock has the highest residential roof-rat call density in Cherokee. The 1990s-2010s subdivision growth occurred during exactly the period when roof rats moved up the I-575 corridor from peninsular Florida, and the resulting now-mature canopy plus overhead utility infrastructure provides the connectivity roof rats need. Subdivision tree planting from 20-30 years ago now provides unbroken tree-to-roof bridges across most neighborhoods. Holly Springs sees similar pressure; Canton, Ball Ground, and Waleska are mostly Norway-rat-dominant in their older inner-town blocks.'
+      },
+      {
+        q: 'Are raccoons more common near Lake Allatoona or the Etowah River?',
+        a: 'Both — but the patterns differ. Lake Allatoona shoreline produces year-round protein subsidy from shoreline foraging, resulting in heavier 15-25+ lb adult raccoons in lake-adjacent Holly Springs and southwestern Cherokee properties. The Etowah River corridor sustains the broader county-wide source population with consistent fall dispersal pressure (September-November) reaching most Cherokee subdivisions. Properties within a half-mile of either water feature take heaviest pressure.'
+      },
+      {
+        q: 'When can I evict raccoons from my Cherokee County attic?',
+        a: 'Female raccoons in Cherokee County whelp late February through early May, and kits are immobile and dependent until roughly 8-10 weeks of age. Performing exclusion during that window risks separating mother from kits and trapping kits inside the structure. Right approach during kit season is one-way doors that let the family exit but not re-enter, deployed once kits are mobile. Inspections and entry-point identification can happen any time of year.'
+      },
+      {
+        q: 'What are the legal restrictions on bat removal in Cherokee County?',
+        a: 'Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — typically May through August — when non-flying pups are present. All bat exclusion in Georgia must use one-way valves, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations. Tricolored bat encounters along the Sharp Mountain ridgeline and the Etowah corridor carry additional federal-status concerns. Cherokee contractors hold the required Georgia DNR Region 1 licensing and follow the legal exclusion calendar (April or September-October only).'
+      },
+      {
+        q: 'How much does wildlife removal cost in Cherokee County?',
+        a: 'Pricing varies by species and exclusion scope. Pre-1900 Canton historic-district raccoon jobs run $700-$1,800 because of multi-entry-point profiles. Long-established Canton bat colonies run $2,500-$5,000+ once full guano remediation is included. Suburban Woodstock and Holly Springs roof-rat jobs typically run $400-$1,000. Single-animal squirrel trap-and-release at one-entry-point homes is the floor. The variable is exclusion scope and remediation, not trapping itself. A Cherokee-licensed contractor will quote the property-specific cost during inspection.'
+      },
+      {
+        q: 'Are there protected species in Cherokee County I should be aware of?',
+        a: 'Yes. The Cherokee darter (federally threatened) and the Etowah darter (federally endangered) occur in the Etowah River system. Any work along the river corridor is subject to federal habitat protections. The federally proposed tricolored bat (Perimyotis subflavus) appears along the Sharp Mountain ridgeline and the Etowah corridor. Bald eagles and migratory birds are protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act. Bats are protected by both state and federal regulations during maternity season.'
+      }
+    ];
+
+  } else if (countyName === 'Bartow County') {
+    blockA = `Bartow County sits in the northwestern metropolitan Atlanta exurban arc, with Lake Allatoona's main basin along its eastern boundary and the Etowah River cutting through the county center. With a population of ${county.population.toLocaleString()} residents, Bartow runs from the Lake Allatoona shoreline through Cartersville (the county seat) down to the Etowah Indian Mounds State Historic Site and out to the historic 1840s-era Adairsville downtown around the Train Depot. Established in ${county.established}, the county combines pre-1940 Cartersville mill housing, the 1840s-era Adairsville historic-downtown, mid-century rural-suburban housing, and 1990s-2010s subdivision growth in southern Bartow toward the Cobb boundary. Pine Mountain and Red Top Mountain State Park anchor the eastern boundary along Lake Allatoona.`;
+    blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across Bartow's mature canopy. Southern flying squirrels appear with notable frequency in older Cartersville mill housing and along Pine Mountain's wooded ridges. Virginia opossums shelter under decks and porches across the older Cartersville and Adairsville inner-town housing. Striped skunks are persistent under sheds and crawl spaces in the rural-edge subdivisions, and snake calls concentrate around the wooded properties along the Etowah River corridor and the Pumpkinvine Creek tributary system. ${cap(county.absent_or_rare)}.`;
+    blockC = `Coverage spans all of Bartow County including ${top4cities}, plus Kingston, White, and Taylorsville, and the unincorporated subdivisions throughout the county. The county's mix of pre-1940 Cartersville mill housing, the 1840s-era Adairsville historic-downtown, the Lake Allatoona shoreline lakefront properties, and the rural-suburban transition subdivisions — combined with the Etowah River corridor source population and the proximity to Sweetwater Creek State Park — means contractors here handle a continuous mix of historic-district multi-entry-point exclusion, lakefront multi-structure outbuilding work, and continuous suburban raccoon-and-squirrel residential pressure.`;
+    metaTitle = `Bartow County Wildlife Removal — Cartersville, Adairsville GA`;
+    metaDescription = `Licensed wildlife removal in Bartow County, GA — Cartersville, Adairsville, Euharlee, Emerson & Kingston. Lake Allatoona coverage. Same-day service.`;
+
+    geo = { lat: 34.2435, lon: -84.8407 };
+    sameAs = [
+      'https://en.wikipedia.org/wiki/Bartow_County,_Georgia',
+    ];
+
+    neighboringCounties = [
+      { name: 'Cobb County',     slug: 'cobb-county',     anchor: 'Cobb County wildlife removal',        blurb: 'directly to the south' },
+      { name: 'Cherokee County', slug: 'cherokee-county', anchor: 'Cherokee County wildlife services',   blurb: 'to the east, sharing Lake Allatoona' },
+      { name: 'Floyd County',    slug: 'floyd-county',    anchor: 'Floyd County wildlife removal',       blurb: 'to the west' },
+      { name: 'Polk County',     slug: 'polk-county',     anchor: 'Polk County animal removal',          blurb: 'to the southwest' },
+      { name: 'Gordon County',   slug: 'gordon-county',   anchor: 'Wildlife removal in Gordon County',   blurb: 'to the north' },
+    ];
+
+    extendedBody = `
+      <h2>Bartow County's Geography Shapes Wildlife Activity</h2>
+      <p>Bartow has the largest <strong>Lake Allatoona</strong> shoreline footprint of any county — the lake's main basin runs along the eastern boundary, with <strong>Red Top Mountain State Park</strong> on the lake's eastern shore providing protected hardwood forest habitat. The <strong>Etowah River</strong> cuts east-to-west through the county center, passing the <strong>Etowah Indian Mounds State Historic Site</strong> just south of Cartersville (one of the largest pre-Columbian Mississippian cultural sites in the southeast). The <strong>Allatoona Creek</strong>, <strong>Pumpkinvine Creek</strong>, and Sweetwater Creek (the north-Bartow tributary, distinct from the south-Cobb one) provide additional wildlife travel corridors throughout the county.</p>
+      <p>The <strong>Pine Mountain</strong> monadnock anchors the southeastern part of the county, and <strong>Cooper's Furnace Day Use Area</strong> at the south end of Lake Allatoona is one of north Georgia's better bald eagle viewing sites. Bartow's residential housing range — pre-1940 Cartersville mill housing in the original textile-mill area, the 1840s-era Adairsville historic-downtown around the Train Depot, mid-century rural-suburban housing, and the 1990s-2010s subdivision growth in southern Bartow toward the Cobb boundary — produces a wide range of residential wildlife pressure profiles.</p>
+
+      <h2>Wildlife Species Present in Bartow County</h2>
+      <p>Bartow residents most frequently call about animals that have moved from the Lake Allatoona shoreline, the Etowah corridor, or the Pumpkinvine Creek tributary system into residential structures:</p>
+      <ul class="tips-list">
+        <li><strong>Raccoons</strong> — heaviest densities along Lake Allatoona's main basin and the Etowah corridor; female raccoons whelp in Cartersville historic mill-housing chimneys February through April every year</li>
+        <li><strong>Eastern gray squirrels</strong> — constant across Bartow's mature canopy</li>
+        <li><strong>Southern flying squirrels</strong> — notable in older Cartersville mill housing and along Pine Mountain's wooded ridges</li>
+        <li><strong>Roof rats</strong> — establishing in southern Bartow subdivisions and the Hwy 41 corridor as the species expands northward via I-75</li>
+        <li><strong>Norway rats</strong> — concentrated in the Cartersville historic-district commercial blocks and the 1840s-era Adairsville historic-downtown around the Train Depot</li>
+        <li><strong>Big brown bats</strong> — long-established colonies in pre-1940 Cartersville mill housing and the historic Adairsville Train Depot area</li>
+        <li><strong>Evening bats</strong> in older mill-housing blocks</li>
+        <li><strong>Virginia opossums</strong>, <strong>striped skunks</strong>, <strong>armadillos</strong> across residential and rural-edge areas</li>
+        <li><strong>Bald eagles</strong> nesting at Lake Allatoona's main basin, particularly viewable from Cooper's Furnace Day Use Area</li>
+        <li>Snakes encountered residentially are dominated by the <strong>eastern rat snake</strong> and the occasional <strong>northern copperhead</strong>; <strong>brown watersnakes</strong> along the Etowah and Pumpkinvine Creek corridors</li>
+      </ul>
+
+      <h2>Common Wildlife Issues That Define the Bartow Job Mix</h2>
+      <p>Several patterns in Bartow's call volume are distinctive enough to call out:</p>
+
+      <h3>Lake Allatoona shoreline multi-structure work in Euharlee</h3>
+      <p>Euharlee sits directly on Lake Allatoona's southern shore, with lakefront properties having boathouses, dock-side sheds, detached lakefront garages, and screened porches that each represent a separate possible wildlife access route. Effective Euharlee exclusion plans inspect every structure on the property; a colony excluded from one structure frequently relocates to another on the same property.</p>
+
+      <h3>Pre-1940 Cartersville mill-housing multi-entry-point work</h3>
+      <p>The original textile-mill housing around the Cartersville mill site, the historic blocks along Tennessee Street, and the older homes along Cherokee Avenue have structural features — original masonry chimneys, hand-laid brick foundations with pointing failures, original wood soffits with corner separation, pre-modern gable louvers — that produce 4-5+ raccoon, bat, and squirrel entry points per property. Long-established big-brown-bat colonies span 30-50+ years.</p>
+
+      <h3>1840s-era Adairsville Train Depot bat colonies</h3>
+      <p>The historic 1840s-era downtown around the Adairsville Train Depot and the surrounding pre-1900 brick storefronts and adjacent housing host some of the longest-established big-brown-bat colonies in metro Atlanta — many spanning 50+ years of continuous occupation in original brick storefront construction.</p>
+
+      <h3>Roof rat range expansion in southern Bartow</h3>
+      <p>Southern Bartow subdivisions along the Hwy 41 corridor (toward the Cobb boundary) are at the leading edge of roof rat range expansion as the species moves north along I-75. Properties here are seeing roof-rat establishment for the first time, often without homeowners recognizing the species.</p>
+
+      <h2>Federally Protected Species in Bartow's Watersheds</h2>
+      <p>The <strong>Cherokee darter</strong> (federally threatened) and the <strong>Etowah darter</strong> (federally endangered) occur in the Etowah and Allatoona Creek systems draining Bartow County. Any work along these corridors is subject to federal habitat protections. <strong>Bald eagles</strong> nest at Lake Allatoona's main basin and are protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act; Cooper's Furnace Day Use Area is one of north Georgia's better viewing sites.</p>
+
+      <h2>Local Authorities and Regulations</h2>
+      <p>Public-health authority for Bartow County rabies-vector exposure runs through the <strong>Bartow County Health Department</strong>; <strong>Bartow County Animal Services</strong> handles domestic-animal complaints but does not respond to most nuisance wildlife. Commercial wildlife removal in Georgia operates under <strong>Georgia DNR Wildlife Resources Division Region 1</strong> (Armuchee office). Federal protections apply to bats during maternity periods (May-August exclusion restrictions), bald eagles, and the federally listed Cherokee and Etowah darters.`;
+
+    faqs = [
+      {
+        q: 'What wildlife is most common in Bartow County, Georgia?',
+        a: 'In residential calls across Bartow County, eastern gray squirrels, raccoons, Virginia opossums, and big brown bats make up the bulk of attic and yard intrusions. Roof rats are establishing in southern Bartow subdivisions; Norway rats remain dominant in older Cartersville and Adairsville commercial corridors. Lake Allatoona shoreline properties see heavy raccoon and bat pressure from the wooded shoreline source population. Long-established big-brown-bat colonies span 30-50+ years in pre-1940 Cartersville mill housing and the 1840s-era Adairsville Train Depot area. Snake calls concentrate along the Etowah corridor and Pumpkinvine Creek.'
+      },
+      {
+        q: 'Are raccoons more common on Lake Allatoona properties in Euharlee?',
+        a: 'Yes, measurably. Lake Allatoona\'s shoreline forest sustains one of the densest year-round raccoon source populations in north Georgia, and Euharlee lakefront properties take continuous pressure from this source. Year-round protein subsidy from shoreline foraging produces 15-25+ lb adult raccoons. Female raccoons specifically select lakefront attics over natural den sites during spring whelping. Properties with boathouses, screened porches, and dock-attached structures see raccoon presence even when the main house is well sealed — multi-structure exclusion is the rule for Euharlee lakefront work.'
+      },
+      {
+        q: 'How old are bat colonies in Cartersville mill housing?',
+        a: 'Cartersville pre-1940 mill-housing chimney colonies are routinely 30-50+ years old by the time homeowners first notice activity. Big brown bat daughters return to their natal roosts to whelp, so colony memory is multigenerational and persists across changes in property ownership. The first noticeable sign is typically guano accumulation on siding below an entry point, a single bat appearing in living space, or summer-time odor from the attic. The 1840s-era Adairsville Train Depot area hosts colonies that span 50+ years of continuous occupation in some original brick storefronts.'
+      },
+      {
+        q: 'Is roof rat pressure new to southern Bartow?',
+        a: 'Relatively. Roof rats moved up the I-75 corridor from peninsular Florida during the 2000s-2010s and are now establishing in southern Bartow subdivisions along the Hwy 41 corridor. Properties here are seeing roof-rat presence for the first time, often without homeowners recognizing the species — they assume the activity is squirrels or Norway rats. The defining diagnostic is pointed-end half-inch droppings (versus blunt 3/4-inch Norway droppings) and overhead activity in attics and ceiling cavities (versus Norway rat ground-level activity).'
+      },
+      {
+        q: 'When can I evict raccoons from my Bartow County attic?',
+        a: 'Female raccoons in Bartow County whelp late February through early May, and kits are immobile and dependent until roughly 8-10 weeks of age. Performing exclusion during that window risks separating mother from kits and trapping kits inside the structure. Right approach during kit season is one-way doors that let the family exit but not re-enter, deployed once kits are mobile. Inspections and entry-point identification can happen any time of year. Lake Allatoona shoreline properties may need wider perimeter exclusion than typical because of the continuous source-population pressure.'
+      },
+      {
+        q: 'What are the legal restrictions on bat removal in Bartow County?',
+        a: 'Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — typically May through August — when non-flying pups are present. All bat exclusion in Georgia must use one-way valves, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations. Long-established Cartersville mill-housing colonies and Adairsville Train Depot-area colonies require careful staged exclusion in the legal April or September-October windows. Bartow contractors hold the required Georgia DNR Region 1 licensing.'
+      },
+      {
+        q: 'How much does wildlife removal cost in Bartow County?',
+        a: 'Pricing varies by species and exclusion scope. Pre-1940 Cartersville mill-housing raccoon jobs run $700-$1,800 because of multi-entry-point profiles. Long-established Cartersville and Adairsville bat colonies run $2,500-$5,000+ once full guano remediation is included. Euharlee lakefront multi-structure jobs (main house plus boathouse plus detached garage) frequently run $3,000-$6,000+. Newer southern Bartow subdivision roof-rat jobs typically run $400-$900. The variable is exclusion scope and remediation.'
+      },
+      {
+        q: 'Are there protected species in Bartow County I should be aware of?',
+        a: 'Yes. The Cherokee darter (federally threatened) and the Etowah darter (federally endangered) occur in the Etowah and Allatoona Creek systems. Any work along these corridors is subject to federal habitat protections. Bald eagles nest at Lake Allatoona\'s main basin and are protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act — Cooper\'s Furnace Day Use Area is one of north Georgia\'s better viewing sites. All bats are protected by Georgia DNR regulations during maternity season (May-August). Migratory birds require federal Migratory Bird Treaty Act permits for any active take.'
+      }
+    ];
+
+  } else if (countyName === 'Gwinnett County') {
+    blockA = `Gwinnett County is the second-most populous county in Georgia at ${county.population.toLocaleString()} residents and the geographic center of metro Atlanta's eastern arc. The county runs from <strong>Lake Lanier</strong> on the northern boundary down through the major suburban cities of Sugar Hill, Suwanee, Duluth, Lawrenceville (the county seat), and Peachtree Corners to Snellville and Norcross at the southern edges. The <strong>Yellow River</strong> cuts diagonally through the county center, the <strong>Chattahoochee River</strong> forms the western boundary, and <strong>Buford Dam</strong> at the southern end of Lake Lanier is one of the more important wildlife-corridor anchors in north Georgia. Established in ${county.established}, Gwinnett combines the pre-1900 Lawrenceville historic-square housing, the 1870-established Norcross historic-downtown, mid-century post-war ranches, and the massive 1980s-2010s subdivision growth that transformed the county into one of metro Atlanta's largest residential markets.`;
+    blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across Gwinnett's mature canopy. Southern flying squirrels appear with notable frequency in older Lawrenceville and Norcross historic-district housing. Virginia opossums shelter under decks and porches across the older inner-town housing stock and mid-century post-war ranches. Striped skunks are persistent under sheds and crawl spaces, and snake calls — primarily eastern rat snakes and the occasional copperhead — concentrate along the Yellow River corridor, the Chattahoochee corridor, and the Buford Highway commercial-residential transition zones. ${cap(county.absent_or_rare)}.`;
+    blockC = `Coverage spans all of Gwinnett County including ${top4cities}, plus Sugar Hill, Suwanee, Norcross, Lilburn, Dacula, Grayson, Berkeley Lake, Loganville, and Auburn. The county's mix of pre-1900 Lawrenceville historic-square housing, 1870-established Norcross historic-downtown, mid-century post-war ranch housing, and the 1980s-2010s tech-corridor and growth-era subdivisions — combined with the Lake Lanier and Yellow River source populations and the Buford Highway commercial corridor's restaurant ecology — means contractors here handle the metro's most diverse residential wildlife call profile.`;
+    metaTitle = `Gwinnett County Wildlife Removal — Lawrenceville, Duluth GA`;
+    metaDescription = `Licensed wildlife removal in Gwinnett County, GA — Lawrenceville, Duluth, Peachtree Corners, Sugar Hill, Suwanee & Snellville. Same-day humane service.`;
+
+    geo = { lat: 33.9598, lon: -84.0231 };
+    sameAs = [
+      'https://en.wikipedia.org/wiki/Gwinnett_County,_Georgia',
+    ];
+
+    neighboringCounties = [
+      { name: 'Fulton County',   slug: 'fulton-county',   anchor: 'Fulton County wildlife removal',      blurb: 'directly to the west' },
+      { name: 'DeKalb County',   slug: 'dekalb-county',   anchor: 'DeKalb County wildlife services',     blurb: 'to the southwest' },
+      { name: 'Forsyth County',  slug: 'forsyth-county',  anchor: 'Forsyth County animal removal',       blurb: 'to the north, sharing Lake Lanier' },
+      { name: 'Hall County',     slug: 'hall-county',     anchor: 'Hall County wildlife removal',        blurb: 'to the north, sharing Lake Lanier' },
+      { name: 'Walton County',   slug: 'walton-county',   anchor: 'Wildlife removal in Walton County',   blurb: 'to the southeast' },
+    ];
+
+    extendedBody = `
+      <h2>Gwinnett County's Geography Shapes Wildlife Activity</h2>
+      <p>Gwinnett's geography combines three major water-corridor source populations with the densest restaurant-corridor commercial ecology in metro Atlanta. <strong>Lake Lanier</strong> on the northern boundary (with Buford Dam at the southern end of the lake) sustains a substantial year-round shoreline raccoon and bat source population. The <strong>Chattahoochee River</strong> forms the western boundary, with the <strong>Chattahoochee River National Recreation Area's Jones Bridge and Holcomb Bridge units</strong> directly on the Gwinnett-Fulton boundary. The <strong>Yellow River</strong> cuts diagonally through the county center, and tributary creeks (<strong>Suwanee Creek</strong>, <strong>Big Haynes Creek</strong>, the north-Gwinnett <strong>Sweetwater Creek</strong>) reinforce wildlife travel habitat throughout the county.</p>
+      <p>The <strong>Buford Highway corridor</strong> running through the southwestern portion of the county is one of the most ethnically diverse restaurant rows in the southeast — Korean, Vietnamese, Mexican, Chinese, Indian, Ethiopian, and Latin American restaurants serving the broader Gwinnett population. The corridor's continuous canopy and dumpster ecology sustain year-round Norway rat populations at densities significantly above the suburban-Georgia average. Gwinnett's residential housing range — pre-1900 Lawrenceville historic-square housing, 1870-established Norcross historic-downtown, mid-century post-war ranches, and the 1980s-2010s tech-corridor subdivisions — produces metro Atlanta's most diverse residential wildlife pressure profile.</p>
+
+      <h2>Wildlife Species Present in Gwinnett County</h2>
+      <p>Gwinnett residents most frequently call about animals that have moved from the Lake Lanier shoreline, the Yellow River corridor, the Chattahoochee corridor, or the Buford Highway commercial ecology into residential structures:</p>
+      <ul class="tips-list">
+        <li><strong>Raccoons</strong> — heaviest densities along Lake Lanier and the Chattahoochee corridor; female raccoons whelp in Lawrenceville historic-square chimneys February through April every year</li>
+        <li><strong>Eastern gray squirrels</strong> — constant across the entire county; <strong>Southern flying squirrels</strong> in older Lawrenceville and Norcross historic-district housing</li>
+        <li><strong>Roof rats</strong> — dominant species in suburban Sugar Hill, Suwanee, Peachtree Corners, Dacula, and most of Duluth; entered the metro via I-85 during the 2000s-2010s</li>
+        <li><strong>Norway rats</strong> — highest density along the Buford Highway corridor; also concentrated in pre-1900 Lawrenceville historic-square commercial blocks and 1870-established Norcross historic-downtown</li>
+        <li><strong>Big brown bats</strong> — long-established colonies in pre-1900 Lawrenceville historic-square housing and 1870 Norcross historic-downtown; many spanning 30-50+ years</li>
+        <li><strong>Evening bats</strong> in older Lawrenceville and Norcross housing</li>
+        <li><strong>Tricolored bats</strong> (federally proposed for listing) along the Lake Lanier shoreline and the Chattahoochee corridor</li>
+        <li><strong>Virginia opossums</strong>, <strong>striped skunks</strong>, <strong>armadillos</strong> across residential and rural-edge areas</li>
+        <li><strong>Urban coyotes</strong> increasingly common in older inner-Norcross and Lawrenceville blocks</li>
+        <li>Snakes encountered residentially are dominated by the <strong>eastern rat snake</strong> with the occasional <strong>northern copperhead</strong>; <strong>brown watersnakes</strong> along the Yellow River and Chattahoochee corridors</li>
+      </ul>
+
+      <h2>Common Wildlife Issues That Define the Gwinnett Job Mix</h2>
+      <p>Several patterns in Gwinnett's call volume are distinctive enough to call out:</p>
+
+      <h3>Buford Highway corridor Norway rat ecology</h3>
+      <p>The Buford Highway corridor running through Norcross, Doraville (DeKalb), and Duluth's southern edge is one of the densest restaurant-and-commercial corridors in the southeast. Year-round Norway rat populations in restaurant dumpster ecology behind Korean, Vietnamese, Mexican, Chinese, Indian, Ethiopian, and Latin American restaurants disperse into adjacent residential blocks within a quarter-mile of the corridor. BC corridor-adjacent properties often need expanded-perimeter exclusion plans rather than standard single-property treatment.</p>
+
+      <h3>Pre-1900 Lawrenceville historic-square multi-decade bat colonies</h3>
+      <p>The Lawrenceville historic-square area around the original Gwinnett Historic Courthouse hosts long-established big-brown-bat maternity colonies in pre-1900 housing — many spanning 30-50+ years of continuous occupation. Original masonry chimneys without modern caps, pre-modern gable louvers, original wood soffits, and original lath-and-plaster wall framing voids all support continuous colony occupation. Long-established colonies produce inches of accumulated guano.</p>
+
+      <h3>1870-established Norcross historic-downtown bat and Norway rat work</h3>
+      <p>Norcross was established in 1870 as a railroad town, and the surviving pre-1880 housing along Brunswick Avenue and the surrounding original commercial-and-housing complex hosts both multi-decade big-brown-bat colonies and persistent Norway rat populations. Hand-laid brick foundations with pointing failures, original masonry foundation vents without modern hardware-cloth backing, and the connected canopy across the historic district all support continuous wildlife occupation.</p>
+
+      <h3>Lake Lanier shoreline source-population pressure</h3>
+      <p>Lake Lanier's wooded shoreline forest sustains a substantial regional source population that disperses south into Sugar Hill, Suwanee, and Buford properties throughout the active season. Year-round protein subsidy from shoreline foraging produces heavier-than-typical adult raccoons in lake-adjacent properties. Tricolored bats (federally proposed for listing) appear along the lake shoreline with notable regularity.</p>
+
+      <h3>Suburban Gwinnett roof-rat establishment</h3>
+      <p>Sugar Hill, Suwanee, Peachtree Corners, Dacula, and most of Duluth saw their major subdivision growth during exactly the period when roof rats moved up the I-85 corridor from peninsular Florida (2000s-2010s). The result is now-mature subdivision canopy plus overhead utility infrastructure providing the connectivity roof rats need. Neighbor-to-neighbor reinfestation via overhead utility runs is the defining suburban Gwinnett rat-call pattern.</p>
+
+      <h2>Federally Protected Species in Gwinnett's Watersheds</h2>
+      <p>The federally proposed-for-listing <strong>tricolored bat</strong> (<em>Perimyotis subflavus</em>) appears along the Lake Lanier shoreline and the Chattahoochee corridor with notable regularity; any encounter requires careful protocol because of the federal status. <strong>Bald eagles</strong> remain protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act; they appear along Lake Lanier and the Chattahoochee occasionally. <strong>Migratory birds</strong> including Canada geese, hawks, owls, and woodpeckers are protected under the Migratory Bird Treaty Act.</p>
+
+      <h2>Local Authorities and Regulations</h2>
+      <p>Public-health authority for Gwinnett County rabies-vector exposure runs through the <strong>Gwinnett County Health Department</strong>; <strong>Gwinnett County Animal Welfare and Enforcement</strong> handles domestic-animal complaints but does not respond to most nuisance wildlife. Commercial wildlife removal in Georgia operates under <strong>Georgia DNR Wildlife Resources Division Region 2</strong> (Gainesville office). Federal protections apply to bats during maternity periods (May-August exclusion restrictions), all migratory birds, and the federally proposed tricolored bat.`;
+
+    faqs = [
+      {
+        q: 'What wildlife is most common in Gwinnett County, Georgia?',
+        a: 'Gwinnett has the metro\'s most diverse residential wildlife profile because of the Buford Highway corridor commercial ecology, the Lake Lanier shoreline source population, and the wide housing-era range. Norway rats are the dominant species along Buford Highway, in the pre-1900 Lawrenceville historic-square commercial blocks, and in the 1870-established Norcross historic-downtown. Roof rats dominate suburban Sugar Hill, Suwanee, Peachtree Corners, Dacula, and most of Duluth. Big brown bat colonies are long-established in pre-1900 Lawrenceville and Norcross historic-district housing (30-50+ years). Eastern gray squirrels are constant across the county. Tricolored bats appear along Lake Lanier and the Chattahoochee corridor.'
+      },
+      {
+        q: 'Is the Buford Highway corridor making rat problems worse for nearby Gwinnett residents?',
+        a: 'Yes, demonstrably for properties within about a quarter-mile of the corridor. Buford Highway\'s restaurant density (Korean, Vietnamese, Mexican, Chinese, Indian, Ethiopian, and Latin American restaurants) sustains year-round Norway rat populations in dumpster ecology behind the restaurants. The corridor\'s continuous travel route between adjacent residential blocks means populations spread laterally even when individual properties are sealed. Properties along the corridor often need expanded-perimeter exclusion plans rather than standard single-property treatment.'
+      },
+      {
+        q: 'How old are bat colonies in Lawrenceville and Norcross historic homes?',
+        a: 'Lawrenceville historic-square pre-1900 chimney colonies and Norcross historic-downtown 1870-established commercial-and-housing complex colonies are routinely 30-50+ years old by the time homeowners first notice activity. Big brown bat daughters return to their natal roosts to whelp, so colony memory is multigenerational. The first noticeable sign is typically guano accumulation on siding below an entry point or a single bat appearing in living space. Long-established colonies produce inches of accumulated guano, requiring HEPA-equipped decontamination.'
+      },
+      {
+        q: 'Why do roof rats keep returning to my Gwinnett home?',
+        a: 'Suburban Gwinnett\'s continuous mature canopy plus overhead utility infrastructure means roof rats from neighboring properties travel along overhead utility runs without ground contact and replace any rats killed in DIY trapping within weeks. Same-era 1990s-2010s subdivision construction in Sugar Hill, Suwanee, Peachtree Corners, and Dacula means failure modes (gable-vent screens, attic-fan housings, builder-grade chimney chase caps) appear simultaneously across blocks. Durable resolution requires structural exclusion combined with trapping — and sometimes coordinated treatment with adjacent properties for connected-canopy neighborhoods.'
+      },
+      {
+        q: 'Are raccoons more common around Lake Lanier?',
+        a: 'Yes — Lake Lanier\'s wooded shoreline forest sustains one of the densest year-round raccoon source populations in north Georgia. Sugar Hill, Suwanee, and Buford properties within a mile of the lake take continuous fall dispersal pressure during the September-November window. Year-round protein subsidy from shoreline foraging produces heavier-than-typical adult raccoons. Female raccoons specifically select lakefront residential attics over natural den sites because residential structures provide better climate stability than tree-cavity dens along an actively-used corridor.'
+      },
+      {
+        q: 'When can I evict raccoons from my Gwinnett County attic?',
+        a: 'Female raccoons in Gwinnett County whelp late February through early May, and kits are immobile and dependent until roughly 8-10 weeks of age. Performing exclusion during that window risks separating mother from kits and trapping kits inside the structure. Right approach during kit season is one-way doors that let the family exit but not re-enter, deployed once kits are mobile. Inspections and entry-point identification can happen any time of year. Lawrenceville historic-square pre-1900 homes especially require careful timing because the lath-and-plaster construction makes kit-recovery particularly difficult.'
+      },
+      {
+        q: 'How much does wildlife removal cost in Gwinnett County?',
+        a: 'Pricing varies by species and exclusion scope. Pre-1900 Lawrenceville historic-square and Norcross historic-downtown raccoon jobs run $700-$1,800 because of multi-entry-point profiles. Long-established Lawrenceville and Norcross bat colonies run $2,500-$5,000+ once full guano remediation is included. Buford Highway-adjacent Norway rat work with expanded-perimeter exclusion runs $1,500-$3,000+. Suburban roof-rat jobs in Sugar Hill, Suwanee, Peachtree Corners, and Dacula typically run $400-$1,000. Single-animal squirrel trap-and-release at one-entry-point homes is the floor.'
+      },
+      {
+        q: 'Are there protected species in Gwinnett County I should be aware of?',
+        a: 'Yes. The federally proposed tricolored bat (Perimyotis subflavus) appears along Lake Lanier and the Chattahoochee corridor; any encounter requires careful protocol. Bald eagles are protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act and appear occasionally along Lake Lanier. All bats are protected by Georgia DNR regulations during maternity season (May-August). Migratory birds (Canada geese, owls, hawks, woodpeckers) require federal Migratory Bird Treaty Act permits for any active take. Licensed contractors are required to know which species can be handled directly and which require specific federal or state permitting.'
+      }
+    ];
   }
 
   const blockD = `Wildlife intrusion in ${countyName} follows Georgia's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
