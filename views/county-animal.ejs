@@ -1,25 +1,100 @@
+<%
+  const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + countySlug + '/' + animal.slug + '/';
+  const pageTitle = (countyAnimalContent && countyAnimalContent.metaTitle)
+    ? countyAnimalContent.metaTitle
+    : (animal.name + ' in ' + countyName + ', ' + stateName + ' — Licensed Local Experts | RemoveWildlifeNow.com');
+  const pageDesc = (countyAnimalContent && countyAnimalContent.metaDescription)
+    ? countyAnimalContent.metaDescription
+    : (animal.name + ' in ' + countyName + ', ' + stateName + '. ' + (animal.costRange ? 'Typical cost ' + animal.costRange + '. ' : '') + 'Licensed local contractor — humane methods, same-day service available. ' + (seasonal ? seasonal.title + '.' : ''));
+  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
+  // Same opt-in gating as county.ejs: only fire enriched scaffolding when this (county, animal) pair has its own content block.
+  const seoEnhanced = !!(countyAnimalContent && countyAnimalContent.geo);
+  const stateRegion = stateName === 'Georgia' ? 'GA'
+    : stateName === 'Delaware' ? 'DE'
+    : stateName === 'Connecticut' ? 'CT'
+    : stateName === 'New Hampshire' ? 'NH'
+    : stateName === 'Vermont' ? 'VT'
+    : stateName === 'Rhode Island' ? 'RI' : '';
+%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= animal.name %> in <%= countyName %>, <%= stateName %> — Licensed Local Experts | RemoveWildlifeNow.com</title>
-  <meta name="description" content="<%= animal.name %> in <%= countyName %>, <%= stateName %>. <%= animal.costRange ? 'Typical cost ' + animal.costRange + '. ' : '' %>Licensed local contractor — humane methods, same-day service available. <%= seasonal ? seasonal.title + '.' : '' %>">
-  <link rel="canonical" href="https://www.removewildlifenow.com/<%= stateSlug %>/<%= countySlug %>/<%= animal.slug %>/">
+  <title><%= pageTitle %></title>
+  <meta name="description" content="<%= pageDesc %>">
+  <link rel="canonical" href="<%= pageUrl %>">
   <link rel="stylesheet" href="/css/style.css">
-  <% if (!indexable) { %><meta name="robots" content="noindex, follow"><% } %>
-  <% if (faqs && faqs.length) { %>
+  <% if (!indexable) { %>
+  <meta name="robots" content="noindex, follow">
+  <% } else if (seoEnhanced) { %>
+  <meta name="robots" content="index, follow">
+  <% } %>
+
+  <% if (seoEnhanced) { %>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="RemoveWildlifeNow.com">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="<%= pageUrl %>">
+  <meta property="og:title" content="<%= pageTitle %>">
+  <meta property="og:description" content="<%= pageDesc %>">
+  <meta property="og:image" content="<%= ogImage %>">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="<%= pageTitle %>">
+  <meta name="twitter:description" content="<%= pageDesc %>">
+  <meta name="twitter:image" content="<%= ogImage %>">
+
+  <!-- Geo -->
+  <meta name="geo.region" content="US-<%= stateRegion %>">
+  <meta name="geo.placename" content="<%= countyName %>, <%= stateName %>">
+  <meta name="geo.position" content="<%= countyAnimalContent.geo.lat %>;<%= countyAnimalContent.geo.lon %>">
+  <meta name="ICBM" content="<%= countyAnimalContent.geo.lat %>, <%= countyAnimalContent.geo.lon %>">
+
+  <!-- BreadcrumbList -->
   <script type="application/ld+json">
-  <%- JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqs.map(function(f){ return { "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }; }) }) %>
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": pageUrl + "#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.removewildlifenow.com/" },
+      { "@type": "ListItem", "position": 2, "name": stateName, "item": "https://www.removewildlifenow.com/" + stateSlug + "/" },
+      { "@type": "ListItem", "position": 3, "name": countyName, "item": "https://www.removewildlifenow.com/" + stateSlug + "/" + countySlug + "/" },
+      { "@type": "ListItem", "position": 4, "name": animal.name }
+    ]
+  }) %>
+  </script>
+
+  <!-- WebPage -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": pageUrl + "#webpage",
+    "url": pageUrl,
+    "name": pageTitle,
+    "description": pageDesc,
+    "isPartOf": { "@id": "https://www.removewildlifenow.com/#website" },
+    "breadcrumb": { "@id": pageUrl + "#breadcrumb" },
+    "inLanguage": "en-US",
+    "about": { "@id": pageUrl + "#service" },
+    "primaryImageOfPage": ogImage
+  }) %>
   </script>
   <% } %>
+
+  <!-- Service / LocalBusiness -->
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "ProfessionalService"],
+    ...(seoEnhanced ? { "@id": pageUrl + "#business" } : {}),
     "name": animal.name + " in " + countyName,
     "description": animal.shortDesc + " Serving all of " + countyName + ", " + stateName + ".",
-    "url": "https://www.removewildlifenow.com/" + stateSlug + "/" + countySlug + "/" + animal.slug + "/",
+    "url": pageUrl,
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": countyName + ", " + stateName
@@ -35,6 +110,40 @@
     }
   }) %>
   </script>
+
+  <% if (seoEnhanced) { %>
+  <!-- Service (richer, linked to LocalBusiness) -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": pageUrl + "#service",
+    "name": animal.name + " in " + countyName + ", " + stateName,
+    "serviceType": animal.name,
+    "provider": { "@id": pageUrl + "#business" },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": countyName + ", " + stateName,
+      ...(countyAnimalContent.sameAs && countyAnimalContent.sameAs.length ? { "sameAs": countyAnimalContent.sameAs } : {})
+    },
+    "description": pageDesc
+  }) %>
+  </script>
+  <% } %>
+
+  <% if (faqs && faqs.length) { %>
+  <!-- FAQPage -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    ...(seoEnhanced ? { "@id": pageUrl + "#faq" } : {}),
+    "mainEntity": faqs.map(function(f) {
+      return { "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } };
+    })
+  }) %>
+  </script>
+  <% } %>
 </head>
 <body>
   <header>
@@ -105,6 +214,15 @@
       </div>
     </section>
 
+    <% if (countyAnimalContent && countyAnimalContent.leadParagraph) { %>
+    <section class="county-content">
+      <div class="container">
+        <h2><%= animal.name %> in <%= countyName %>, <%= stateName %></h2>
+        <p><%- countyAnimalContent.leadParagraph %></p>
+      </div>
+    </section>
+    <% } %>
+
     <section class="services-section">
       <div class="container">
         <h2><%= animal.name %> Services in <%= countyName %></h2>
@@ -143,6 +261,14 @@
       </div>
     </section>
 
+    <% if (countyAnimalContent && countyAnimalContent.extendedBody) { %>
+    <section class="county-content">
+      <div class="container">
+        <%- countyAnimalContent.extendedBody %>
+      </div>
+    </section>
+    <% } %>
+
     <% if (cities.length > 0) { %>
     <section class="counties-section">
       <div class="container">
@@ -153,6 +279,22 @@
         <ul class="counties-grid">
           <% cities.forEach(city => { %>
           <li><a href="/<%= stateSlug %>/<%= countySlug %>/<%= toSlug(city) %>/<%= animal.slug %>/"><%= city %></a></li>
+          <% }); %>
+        </ul>
+      </div>
+    </section>
+    <% } %>
+
+    <% if (countyAnimalContent && countyAnimalContent.neighborhoodLinks && countyAnimalContent.neighborhoodLinks.length) { %>
+    <section class="counties-section" style="background:var(--green-light);border-top:1px solid var(--green-border);">
+      <div class="container">
+        <div class="section-header">
+          <h2><%= animal.name %> Across <%= countyName %></h2>
+          <p>Same licensed contractor — varied anchor coverage across the county.</p>
+        </div>
+        <ul class="neighbor-list">
+          <% countyAnimalContent.neighborhoodLinks.forEach(l => { %>
+          <li><a href="<%= l.href %>"><%= l.anchor %></a></li>
           <% }); %>
         </ul>
       </div>
@@ -170,7 +312,7 @@
     </section>
     <% } %>
 
-    <% if (animalRegionNote || stateInfo) { %>
+    <% if ((animalRegionNote || stateInfo) && !(countyAnimalContent && countyAnimalContent.extendedBody)) { %>
     <section class="county-content">
       <div class="container">
         <h2><%= animal.name %> in <%= countyName %>, <%= stateName %> — What You Should Know</h2>
@@ -205,7 +347,7 @@
               <%= faq.q %>
               <span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span>
             </summary>
-            <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;"><%= faq.a %></div>
+            <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;"><%- faq.a %></div>
           </details>
           <% }); %>
         </div>
@@ -219,13 +361,37 @@
           <h2>More Wildlife Services in <%= countyName %></h2>
           <p>We handle all wildlife removal needs in <%= countyName %></p>
         </div>
+        <% if (countyAnimalContent && countyAnimalContent.siblingAnimalLinks && countyAnimalContent.siblingAnimalLinks.length) { %>
+        <ul class="counties-grid">
+          <% countyAnimalContent.siblingAnimalLinks.forEach(l => { %>
+          <li><a href="<%= l.href %>"><%= l.anchor %></a></li>
+          <% }); %>
+        </ul>
+        <% } else { %>
         <ul class="counties-grid">
           <% ANIMALS.filter(a => a.slug !== animal.slug).forEach(a => { %>
           <li><a href="/<%= stateSlug %>/<%= countySlug %>/<%= a.slug %>/"><%= a.emoji %> <%= a.name %></a></li>
           <% }); %>
         </ul>
+        <% } %>
       </div>
     </section>
+
+    <% if (countyAnimalContent && countyAnimalContent.neighborCountyLinks && countyAnimalContent.neighborCountyLinks.length) { %>
+    <section class="counties-section" style="background:var(--green-light);border-top:1px solid var(--green-border);">
+      <div class="container">
+        <div class="section-header">
+          <h2><%= animal.name %> in Neighboring Counties</h2>
+          <p>Need <%= animal.name.toLowerCase() %> in a county next to <%= countyName %>? We cover those too.</p>
+        </div>
+        <ul class="neighbor-list">
+          <% countyAnimalContent.neighborCountyLinks.forEach(n => { %>
+          <li><a href="<%= n.href %>"><%= n.anchor %></a></li>
+          <% }); %>
+        </ul>
+      </div>
+    </section>
+    <% } %>
   </main>
 
   <footer>

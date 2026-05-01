@@ -13,6 +13,7 @@ const { getSeasonalContent } = require('./data/seasonalContent');
 const { getCountyContent } = require('./data/countyContent');
 const { getCityContent } = require('./data/cityContent');
 const { getCityAnimalContent } = require('./data/cityAnimalContent');
+const { getCountyAnimalContent } = require('./data/countyAnimalContent');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -247,10 +248,11 @@ app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
     const cities = getCitiesForCounty(stateName, countyName);
     const animalRegionNote = getAnimalRegionContent(stateName, seg);
     const indexable = await isCountyIndexable(stateName, countyName);
+    const countyAnimalContent = getCountyAnimalContent(stateName, countyName, seg);
     return res.render('county-animal', {
       stateName, countyName, animal, cities, stateInfo, animalRegionNote, embedScript,
-      indexable,
-      faqs: getAnimalFaqs(seg, { countyName, stateName, stateInfo }),
+      indexable, countyAnimalContent,
+      faqs: (countyAnimalContent && countyAnimalContent.faqs) || getAnimalFaqs(seg, { countyName, stateName, stateInfo }),
       seasonal: getSeasonalContent(seg),
       stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, toSlug, ANIMALS
     });
