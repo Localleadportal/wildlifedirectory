@@ -169,7 +169,8 @@ These are non-negotiable. Pages that violate these are worse than no page at all
 - **Specific cost numbers** unless they match the `costRange` defined in `data/animals.js` for that animal. Generalize to ranges; don't say "$427 average in this zip code."
 - **Specific call-volume statistics.** "Raccoons account for 38% of our Cobb calls" — don't fabricate this.
 - **Specific contractor names** in the body content. The contractor is dynamic per page, set by the embed script. Refer to "our local contractor" or "the licensed Cobb County operator," not a brand name.
-- **Specific addresses, customer names, or testimonials** unless explicitly provided by the assignee.
+- **Specific addresses, customer names, or testimonials.** Do not include these even if a contractor offers them. Contractors leave; pages are permanent. We don't want the page to age into something false the day a contractor stops covering an area.
+- **Anything contractor-specific** — call volume claims, ticket-size averages, "we see X most often," fleet size, years in business, before/after photos tied to a specific provider. Same reason: contractor churn must not break our content.
 - **Phone numbers other than `(844) 544-3498`.** That's the fallback that routes calls system-wide. The contractor's tracking number is injected dynamically by the embed script.
 
 ### Vary the structural skeleton
@@ -373,16 +374,25 @@ Before opening the PR, every page you produced must pass:
 
 ---
 
-## When in doubt — ask
+## Sources to use — and stay durable across contractor churn
 
-If you don't have enough real local information to hit the quality bar, **stop and ask**. It's better to skip a page than to ship a fabricated one. Specifically ask the project owner for:
+Pages must not depend on any specific contractor's knowledge, claims, or data. Contractors come and go; pages are permanent. Build content from sources that stay true regardless of who's currently covering the area:
 
-- Real entry-point patterns the contractor sees in this area
-- Real ticket sizes for the animal in this area
-- Real neighborhood-level call distribution (which parts of town generate the most calls)
-- Anything specific or surprising about this animal in this area
+**Use:**
+- **Public geography**: rivers, creeks, watersheds, state/national parks, mountain ridges, lakes, named neighborhoods, historic districts. Wikipedia infoboxes and county/city government sites are reliable.
+- **Public housing-stock facts**: established-year of subdivisions, dominant architectural era (e.g., "post-WWII ranches in inner-ring Smyrna"), historic-district designations.
+- **Public species facts**: scientific name, weight ranges, native range, behavior — from authoritative wildlife sources (state DNR / fish & wildlife, USDA, USGS, university extension offices).
+- **Public seasonal patterns**: breeding seasons, denning seasons, dispersal periods. Same authoritative wildlife sources.
+- **Public regulatory facts**: state DNR / wildlife agency, regional offices, licensing requirements, public-health authority names. State agency websites are the source of truth.
+- **Public health risks**: rabies vector status, zoonotic diseases (roundworm, leptospirosis, histoplasmosis). CDC and state health-department sources.
+- **Real on-the-ground building details that don't depend on the contractor**: gable vents, soffits, masonry chimneys, foundation vents, roof eras — these are universally true of housing categories.
 
-Five minutes of project-owner input per page raises a page from "AI-generic with local paint" to "this contractor actually knows the area" — and that's the difference between ranking and not.
+**Don't use:**
+- Anything a specific contractor told you ("we see 5 entry points on average")
+- Anything tied to a specific business identity (testimonials, case studies, fleet info, specialty claims)
+- Anything that would become false if the contractor changed tomorrow
+
+If a page can't hit the quality bar from public sources alone, **skip it** rather than fabricating or leaning on contractor input. The whole indexable strategy is built on durable assets — don't compromise that.
 
 ---
 
