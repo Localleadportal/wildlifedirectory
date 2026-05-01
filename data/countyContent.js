@@ -476,6 +476,110 @@ function georgiaContent(countyName, county, s) {
         a: 'Cobb County Animal Services responds to domestic-animal calls — stray and aggressive dogs, cat colonies, bite reports, animal cruelty — and handles licensing, vaccination compliance, and shelter operations. They do not respond to most nuisance wildlife situations. Raccoons in attics, bats in walls, snakes in yards, squirrels in chimneys, coyote sightings, beaver flooding, and similar calls are referred to private licensed wildlife removal contractors. The reason is that wild-animal handling requires specialized state DNR licensing, exclusion work falls outside animal control\'s mandate, and the work is typically property-specific (sealing buildings, installing one-way doors, repairing damage) rather than animal-pickup-and-relocate.'
       }
     ];
+
+  } else if (countyName === 'Fulton County') {
+    blockA = `Fulton County is the most populous county in Georgia at ${county.population.toLocaleString()} residents and the geographic and economic center of metro Atlanta. The county runs from the Chattahoochee River along its western boundary through the city of Atlanta — including Buckhead, Midtown, Downtown, the West End, and Cabbagetown's Fulton-side blocks — and continues north through Sandy Springs, Roswell, Alpharetta, Johns Creek, and Milton, then south through East Point, College Park, and the recently incorporated South Fulton. Established in ${county.established}, Fulton combines Atlanta's pre-1940 historic intown housing, mid-century suburban Sandy Springs and Roswell, the Roswell historic mill village, and the 1990s-2010s tech-corridor subdivisions of north Fulton — the widest residential housing-era range in metro Atlanta.`;
+    blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across Fulton's mature canopy, with twin breeding-cycle peaks in February-March and August-September driving twin call peaks. Southern flying squirrels appear with notable frequency in older Atlanta intown housing — Buckhead older estate areas, the West End historic district, Cabbagetown row housing, and the Atlanta BeltLine corridor. Virginia opossums shelter under decks and porches across the older Atlanta intown housing stock and the East Point mid-century neighborhoods. Coyotes are firmly established across Atlanta intown and increasingly common in north Fulton subdivisions. ${cap(county.absent_or_rare)}.`;
+    blockC = `Coverage spans all of Fulton County including ${top4cities}, plus Milton, East Point, College Park, South Fulton, Union City, Fairburn, Hapeville, Palmetto, and Chattahoochee Hills. The county's mix of dense Atlanta urban core, pre-1940 historic intown neighborhoods, mid-century suburban Sandy Springs and Roswell, the Roswell historic mill village, and the 1990s-2010s north-Fulton tech-corridor subdivisions — combined with the Chattahoochee River corridor source population and the Atlanta BeltLine ecology — means contractors here handle the widest mix of urban Norway-rat work, intown bat-colony exclusion, suburban roof-rat exclusion, and continuous raccoon-and-squirrel residential pressure.`;
+    metaTitle = `Fulton County Wildlife Removal — Atlanta, Sandy Springs, Roswell GA`;
+    metaDescription = `Licensed wildlife removal in Fulton County, GA — Atlanta, Sandy Springs, Roswell, Alpharetta, Johns Creek, Milton & East Point. Same-day humane service.`;
+
+    geo = { lat: 33.8044, lon: -84.4699 };
+    sameAs = [
+      'https://en.wikipedia.org/wiki/Fulton_County,_Georgia',
+    ];
+
+    neighboringCounties = [
+      { name: 'Cobb County',     slug: 'cobb-county',     anchor: 'Cobb County wildlife removal',        blurb: 'directly to the northwest' },
+      { name: 'DeKalb County',   slug: 'dekalb-county',   anchor: 'DeKalb County wildlife services',     blurb: 'directly to the east, sharing Atlanta\'s eastern half' },
+      { name: 'Cherokee County', slug: 'cherokee-county', anchor: 'Cherokee County animal removal',      blurb: 'to the north' },
+      { name: 'Forsyth County',  slug: 'forsyth-county',  anchor: 'Forsyth County wildlife removal',     blurb: 'to the northeast' },
+      { name: 'Clayton County',  slug: 'clayton-county',  anchor: 'Wildlife removal in Clayton County',  blurb: 'to the south' },
+    ];
+
+    extendedBody = `
+      <h2>Fulton County's Geography Shapes Atlanta-Metro Wildlife Activity</h2>
+      <p>Fulton County is unique within metro Atlanta because of how its housing-and-habitat range stretches from one of the densest urban cores in the southeast through suburban canopy to large-lot estate properties — all within a single county. The <strong>Chattahoochee River</strong> forms the western boundary, with multiple <strong>Chattahoochee River National Recreation Area</strong> units (Cochran Shoals, Powers Island, Vickery Creek, Jones Bridge, Island Ford) sustaining a continuous riverside source population. The <strong>Atlanta BeltLine</strong> — a 22-mile loop converted from former rail right-of-way — runs through the county's intown core and now functions as both a wildlife travel corridor and a major Norway-rat habitat. <strong>Big Creek</strong> and the <strong>Big Creek Greenway</strong> cut through Roswell and Alpharetta; <strong>Vickery Creek</strong> runs through the Roswell historic mill village; and <strong>Foe Killer Creek</strong>, <strong>Marsh Creek</strong>, and <strong>Tanyard Creek</strong> form a network of intown tributaries.</p>
+      <p>The result is a county where Atlanta's urban food density, the BeltLine's restaurant-and-dumpster ecology, the Chattahoochee corridor's source population, and the canopy of north-Fulton's 1990s-2010s subdivisions all combine to produce continuous year-round residential wildlife call volume. Fulton has the highest absolute residential wildlife call count in Georgia.</p>
+
+      <h3>Atlanta Intown Housing as Wildlife Habitat</h3>
+      <p>Atlanta's pre-1940 intown housing — Buckhead older estate areas, the West End historic district, Cabbagetown's Fulton-side row housing, Old Fourth Ward, the streets around the State Capitol — is the metro's most concentrated multi-decade big-brown-bat maternity habitat. Original masonry chimneys without modern caps, hand-laid brick foundations with pointing failures, original wood soffits with corner separation, and pre-modern gable louvers without screen backing all support continuous colony occupation spanning 30-60+ years. Pre-1940 Atlanta wiring runs (knob-and-tube remnants, early Romex, undersized neutrals) are particularly vulnerable to chew damage, making chewed-Romex fire risk a more urgent concern in Atlanta intown housing than in suburban Fulton.</p>
+
+      <h2>Wildlife Species Present in Fulton County</h2>
+      <p>Fulton residents most frequently call about animals that have moved from the Chattahoochee corridor, the BeltLine, the Atlanta urban core, or the north-Fulton wooded subdivisions into residential structures:</p>
+      <ul class="tips-list">
+        <li><strong>Norway rats</strong> — highest urban density in the metro, concentrated along the BeltLine, Buckhead Village, Midtown, Old Fourth Ward (Ponce City Market, Krog Street Market), Centennial Olympic Park downtown, and the West End commercial blocks</li>
+        <li><strong>Roof rats</strong> — dominant species in suburban Sandy Springs, Roswell, Alpharetta, Johns Creek, and Milton; entered the metro via I-75 / GA-400 corridors during the 2000s-2010s</li>
+        <li><strong>Big brown bats</strong> — long-established colonies in pre-1940 Atlanta intown chimneys</li>
+        <li><strong>Evening bats</strong> in older Atlanta intown housing</li>
+        <li><strong>Tricolored bats</strong> (federally proposed for listing under the Endangered Species Act) along the Chattahoochee corridor</li>
+        <li><strong>Eastern gray squirrels</strong> across the entire county; <strong>Southern flying squirrels</strong> in older intown housing and along the Chattahoochee</li>
+        <li><strong>Raccoons</strong> — heaviest densities along the Chattahoochee corridor; 15-25+ lb adults common in shoreline-adjacent properties</li>
+        <li><strong>Virginia opossums</strong>, <strong>striped skunks</strong>, <strong>red and gray fox</strong></li>
+        <li><strong>Urban coyotes</strong> — firmly established across Atlanta intown (Buckhead, West End, Old Fourth Ward) and increasingly common in north Fulton</li>
+        <li><strong>White-tailed deer</strong> — high densities in Milton's large-lot estate properties and along the Chattahoochee corridor</li>
+        <li>Snakes encountered residentially are dominated by the <strong>eastern rat snake</strong> and the occasional <strong>northern copperhead</strong>; <strong>brown watersnakes</strong> along the Chattahoochee and BeltLine creek tributaries</li>
+      </ul>
+
+      <h2>Common Wildlife Issues That Define the Fulton Job Mix</h2>
+      <p>Several patterns in Fulton's call volume are distinctive enough to call out:</p>
+
+      <h3>Atlanta BeltLine Norway rat pressure</h3>
+      <p>The Atlanta BeltLine corridor has become one of the most active Norway rat habitats in the metro. Properties within a quarter-mile of the corridor see consistent year-round pressure from the dumpster ecology at commercial nodes (Ponce City Market, Krog Street Market) and the continuous travel route the corridor provides between adjacent neighborhoods. BeltLine-adjacent residential properties often need expanded-perimeter exclusion plans rather than standard single-property treatment.</p>
+
+      <h3>Pre-1940 Atlanta intown bat colonies</h3>
+      <p>Buckhead older estate areas, West End historic district, Cabbagetown row housing, and the Capitol-area streets all support continuously-occupied big-brown-bat maternity colonies spanning 30-60+ years. Daughters return to natal roosts to whelp, so colony memory is multigenerational. Long-established colonies produce inches of accumulated guano, and decontamination is the dominant scope item on Atlanta intown bat jobs. Tricolored-bat encounters along the Chattahoochee corridor carry federal-status concerns.</p>
+
+      <h3>Roof rat establishment in north Fulton subdivisions</h3>
+      <p>Sandy Springs, Roswell, Alpharetta, Johns Creek, and Milton all see consistent roof-rat pressure from the suburban canopy and overhead utility infrastructure. Same-era 1990s-2010s subdivision construction means failure modes (gable-vent screens, attic-fan housings, builder-grade chase caps) appear simultaneously across blocks. Neighbor-to-neighbor reinfestation via overhead utility runs is the rule.</p>
+
+      <h3>Multi-structure exclusion in Milton estate properties</h3>
+      <p>Milton's large-lot equestrian-and-estate residential pattern (3-10+ acres typical) means most properties have multiple structures: main house, barn, detached garage, equestrian outbuildings. Each is a separate possible wildlife access route. Effective Milton exclusion plans inspect every structure and schedule simultaneous treatment.</p>
+
+      <h3>Atlanta urban coyote management</h3>
+      <p>Coyote sightings are now routine across Atlanta intown — Buckhead, West End, Old Fourth Ward, Cabbagetown, the Atlanta BeltLine corridor — and increasingly common in north Fulton subdivisions. Most calls are driven by missing cats, daytime sightings near schools, or den activity in stormwater easements. Resolutions typically combine hazing, food-source removal, and den-site disturbance.</p>
+
+      <h2>Federally Protected Species in Fulton's Watersheds</h2>
+      <p>The <strong>tricolored bat</strong> (<em>Perimyotis subflavus</em>) is federally proposed for listing under the Endangered Species Act and appears with notable regularity along the Chattahoochee corridor; any encounter requires careful protocol. <strong>Bald eagles</strong> remain protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act; they appear along the Chattahoochee corridor occasionally. <strong>Migratory birds</strong> including Canada geese, hawks, owls, and woodpeckers are protected under the Migratory Bird Treaty Act and require federal permits for any active take.</p>
+
+      <h2>Local Authorities and Regulations</h2>
+      <p>Public-health authority for Fulton County rabies-vector exposure runs through the <strong>Fulton County Board of Health</strong>; <strong>LifeLine Animal Project / Atlanta Animal Services</strong> handles domestic-animal complaints in the city of Atlanta but does not respond to most nuisance wildlife. Commercial wildlife removal in Georgia operates under <strong>Georgia DNR Wildlife Resources Division</strong> licensing — Region 2 (Gainesville office) handles north Fulton; Region 4 handles south Fulton. Federal protections apply to bats during maternity periods (May-August exclusion restrictions), all migratory birds, and the federally proposed tricolored bat. Every contractor in this directory operating in Fulton County holds the applicable state and federal credentials.</p>
+    `;
+
+    faqs = [
+      {
+        q: 'What wildlife is most common in Fulton County, Georgia?',
+        a: 'Fulton has the metro\'s most diverse residential wildlife profile. Norway rats are the dominant species in Atlanta intown commercial corridors and along the BeltLine. Roof rats dominate north-Fulton suburban subdivisions (Sandy Springs, Roswell, Alpharetta, Johns Creek, Milton). Big brown bat colonies are long-established in pre-1940 Atlanta intown chimneys (30-60+ years old). Eastern gray squirrels are constant across the county, with flying squirrels notable in older intown housing. Raccoons are heaviest along the Chattahoochee corridor. Urban coyotes are firmly established in Atlanta intown. Tricolored bats (federally proposed for listing) appear along the Chattahoochee corridor.'
+      },
+      {
+        q: 'Is the Atlanta BeltLine making Norway rat problems worse for nearby residents?',
+        a: 'Yes, demonstrably for properties within about a quarter-mile of the corridor. The BeltLine\'s dumpster ecology at commercial nodes (Ponce City Market, Krog Street Market) plus the continuous travel route the corridor provides between neighborhoods has driven measurable Norway-rat-pressure increases in adjacent residential blocks since the BeltLine opened. Properties along the corridor often need expanded-perimeter exclusion plans rather than standard single-property treatment.'
+      },
+      {
+        q: 'How old are the bat colonies in Atlanta historic homes?',
+        a: 'Atlanta intown pre-1940 chimney colonies are routinely 30-60+ years old by the time homeowners first notice activity. Big brown bat daughters return to their natal roosts to whelp, so colony memory is multigenerational and persists across changes in property ownership. The first noticeable sign is typically guano accumulation on siding below an entry point or a single bat appearing in living space — and by that point, the colony has been there for decades. Buckhead, West End, Cabbagetown, and the Capitol-area streets all support continuously-occupied multi-decade colonies.'
+      },
+      {
+        q: 'Why do roof rats keep returning to my north Fulton home?',
+        a: 'North Fulton\'s continuous mature canopy plus overhead utility infrastructure means roof rats from neighboring properties travel along overhead utility runs without ground contact and replace any rats killed in DIY trapping within weeks. Same-era 1990s-2010s subdivision construction means failure modes (gable-vent screens, attic-fan housings, builder-grade chimney chase caps) appear simultaneously across blocks. Durable resolution requires structural exclusion combined with trapping — and sometimes coordinated treatment with adjacent properties for connected-canopy neighborhoods.'
+      },
+      {
+        q: 'Are coyotes a problem in Atlanta intown?',
+        a: 'Yes — coyote sightings are now routine across Atlanta intown. Buckhead, West End, Old Fourth Ward, Cabbagetown, and the Atlanta BeltLine corridor all report regular activity. Coyotes use the small woodlots, the BeltLine\'s green corridor, and the creek tributaries that run between intown neighborhoods as travel routes and den sites. The most common reasons residents call are missing cats, daytime sightings near schools, and den activity in stormwater easements. Resolutions typically combine hazing, removing food sources, and disrupting den sites.'
+      },
+      {
+        q: 'What are the legal restrictions on bat removal in Fulton County?',
+        a: 'Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — typically May through August — when non-flying pups are present and would be trapped inside the structure to die if exclusion went forward. All bat exclusion in Georgia must use one-way valves, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations. Tricolored bat encounters along the Chattahoochee corridor carry additional federal-status concerns. Atlanta intown contractors hold the required Georgia DNR licensing and follow the legal exclusion calendar (April or September-October only).'
+      },
+      {
+        q: 'How much does wildlife removal cost in Fulton County?',
+        a: 'Pricing varies by species, the extent of intrusion, and exclusion scope. Atlanta intown pre-1940 historic-district raccoon jobs run $700-$1,800 because of multi-entry-point profiles. Long-established Atlanta bat colonies run $2,500-$6,000+ once full guano remediation is included. North-Fulton suburban roof-rat jobs typically run $400-$1,000. Multi-structure Milton estate jobs run higher because each outbuilding represents a separate exclusion target. The variable is exclusion scope and remediation, not trapping itself. A Fulton-licensed contractor will quote the property-specific cost during inspection.'
+      },
+      {
+        q: 'Are there protected species in Fulton County I should be aware of?',
+        a: 'The tricolored bat (Perimyotis subflavus) is federally proposed for listing under the Endangered Species Act and appears along the Chattahoochee corridor with some regularity. Bald eagles are protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act. All bats are protected by Georgia DNR regulations during maternity season (May-August). Migratory birds (Canada geese, owls, hawks, woodpeckers) require federal Migratory Bird Treaty Act permits for any active take. Licensed contractors are required to know which species can be handled directly and which require specific federal or state permitting.'
+      }
+    ];
   }
 
   const blockD = `Wildlife intrusion in ${countyName} follows Georgia's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
