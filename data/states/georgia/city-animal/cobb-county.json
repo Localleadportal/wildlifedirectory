@@ -3,71 +3,284 @@
     "raccoon-removal": {
       "intro": "Raccoons are the most common attic-intruder call in Marietta, particularly in the antebellum and Victorian housing stock around the Marietta Square historic district and along Whitlock Avenue. Mature oak-hickory canopy throughout the West Side Historic District gives raccoons direct roof access, and the original masonry chimneys on pre-1940 homes are textbook entry points. Female raccoons den in attics February through April to give birth, making this Marietta's peak intrusion window. Trash and pet food on the ground in the older neighborhoods sustain heavy populations year-round, and roundworm contamination of attic insulation requires professional remediation after every removal.",
       "faqs": [
-        { "q": "Why are raccoons so common in Marietta historic homes?", "a": "Pre-1940 housing in the Marietta Square area has masonry chimneys, gable vents, and original soffit construction that all provide easy attic access. Combined with the heavy oak-hickory canopy, raccoons can move from tree to roof to attic with minimal effort. Most older Marietta homes have at least one entry point and most need a full roofline inspection." },
-        { "q": "Is raccoon attic cleanup necessary in Marietta?", "a": "Yes. Raccoons in attics deposit feces that carry Baylisascaris roundworm — a parasite dangerous to humans and pets. Spores remain infectious in insulation long after the raccoons leave. Marietta's older homes with cellulose or aging fiberglass insulation almost always need full removal and replacement after a raccoon infestation." }
+        {
+          "q": "Why are raccoons so common in Marietta historic homes?",
+          "a": "Pre-1940 housing in the Marietta Square area has masonry chimneys, gable vents, and original soffit construction that all provide easy attic access. Combined with the heavy oak-hickory canopy, raccoons can move from tree to roof to attic with minimal effort. Most older Marietta homes have at least one entry point and most need a full roofline inspection."
+        },
+        {
+          "q": "Is raccoon attic cleanup necessary in Marietta?",
+          "a": "Yes. Raccoons in attics deposit feces that carry Baylisascaris roundworm — a parasite dangerous to humans and pets. Spores remain infectious in insulation long after the raccoons leave. Marietta's older homes with cellulose or aging fiberglass insulation almost always need full removal and replacement after a raccoon infestation."
+        },
+        {
+          "q": "How much does raccoon removal cost for a Marietta historic home?",
+          "a": "Most Marietta historic-district raccoon jobs run between $700 and $1,800 once the multiple entry points typical of pre-1940 homes are sealed. Single-entry trap-and-release jobs sit at the low end. Properties with original masonry chimneys, deteriorated slate flashing, and contaminated attic insulation frequently exceed $2,000 once a custom chimney cap and full sanitation are included. The variable cost is exclusion scope, not the trapping itself. Newer Marietta neighborhoods outside the historic districts run closer to standard Cobb pricing of $400-$1,200."
+        },
+        {
+          "q": "What time of year are raccoon kits in Marietta attics?",
+          "a": "Female raccoons in Marietta historically whelp <strong>late February through early May</strong>, with peak intrusion during the first three weeks of March. Kits are immobile and dependent until roughly 8-10 weeks of age, which means emergency exclusion any time from late February through early June risks separating the mother from kits and trapping the kits inside the structure. The right approach during kit season is one-way doors that allow the family to exit but not re-enter, deployed once the kits are mobile enough to travel."
+        }
+      ],
+      "metaTitle": "Raccoon Removal in Marietta, GA | Historic-Home Specialists",
+      "metaDescription": "Licensed raccoon removal in Marietta, GA. Historic-district attic specialists serving Whitlock Avenue, the Square, and West Side. Same-day humane service.",
+      "geo": {
+        "lat": 33.9526,
+        "lon": -84.5499
+      },
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Marietta,_Georgia",
+        "https://en.wikipedia.org/wiki/Raccoon"
+      ],
+      "extendedBody": "<h2>Why Marietta Has Some of Cobb's Oldest Raccoon Pressure</h2>\n      <p>Marietta is the oldest substantially-built section of Cobb County. The Marietta Square historic district, the West Side Historic District, the Whitlock Avenue corridor, and the city cemetery zone are anchored by housing stock built between the 1880s and the 1930s — and that housing stock is nearly purpose-built for raccoon entry. Original masonry chimneys built before modern liner standards, hand-laid brick foundations with pointing failures, original wood soffits with chewed corner returns, gable louvers without screen backing, and slate or tile roofs with deteriorated flashing all combine to produce homes that routinely have 5+ viable raccoon entry points before any survey is even done.</p>\n      <p>Add the canopy: Marietta sits under one of the most mature oak-hickory canopies in the metro Atlanta area. The trees in the West Side Historic District, around the cemetery, and along Whitlock are 80 to 130 years old in many cases, and they touch every roofline they shade. Raccoons climbing those trees reach the attic without ever needing a downspout or a chimney chase. The same canopy that defines Marietta's character also defines its raccoon problem.</p>\n\n      <h2>Where Raccoons Get Into Marietta's Pre-1940 Housing Stock</h2>\n      <p>Most Marietta historic-home jobs identify three or more of these entry points on a single property:</p>\n      <ul>\n        <li><strong>Original masonry chimney chases</strong>. Without modern caps and dampers, chimneys are an open invitation. Female raccoons whelp inside chimney boxes February through April every year.</li>\n        <li><strong>Wood soffit corner returns</strong>. The decorative scrollwork and end caps on Victorian and Craftsman soffits invariably gap as the wood weathers. Raccoons chew the gap larger and slip into the attic.</li>\n        <li><strong>Original gable louvers</strong>. Pre-WWII vents were rarely backed with hardware cloth. Raccoons push through aging slats in minutes.</li>\n        <li><strong>Roof-to-chimney flashing</strong>. Step flashing on slate, tile, or original shingles deteriorates and creates a wedge-shaped opening that raccoons exploit.</li>\n        <li><strong>Foundation and crawlspace vents</strong>. Antebellum and early-20th-century homes have masonry foundation vents that raccoons pull screen out of with one push.</li>\n      </ul>\n      <p>Marietta's job sequence is essentially never trap-and-go. It's inspect, identify five-plus entry points, evict (or one-way exclude), seal with galvanized steel mesh and proper flashing, sanitize, and replace contaminated insulation. Properties with original chimneys frequently need a custom-fabricated stainless-steel chimney cap as part of the seal. Georgia DNR Wildlife Resources Division Region 1 (Armuchee) regulations apply throughout, and licensed operators handle every job in the directory.</p>",
+      "relatedLinks": [
+        {
+          "anchor": "Smyrna raccoon control services",
+          "href": "/georgia/cobb-county/smyrna/raccoon-removal/"
+        },
+        {
+          "anchor": "Kennesaw raccoon trapping",
+          "href": "/georgia/cobb-county/kennesaw/raccoon-removal/"
+        },
+        {
+          "anchor": "Marietta squirrel removal",
+          "href": "/georgia/cobb-county/marietta/squirrel-removal/"
+        },
+        {
+          "anchor": "rat removal in Marietta",
+          "href": "/georgia/cobb-county/marietta/rat-removal/"
+        },
+        {
+          "anchor": "Cobb County raccoon hub",
+          "href": "/georgia/cobb-county/raccoon-removal/"
+        },
+        {
+          "anchor": "Marietta wildlife services",
+          "href": "/georgia/cobb-county/marietta/"
+        }
       ]
     },
     "squirrel-removal": {
       "intro": "Eastern gray squirrels are a constant residential nuisance throughout Marietta, with the highest call volume in the older West Side Historic District and along Whitlock Avenue where mature oak-hickory canopy gives direct attic access. Squirrels chew through soffit returns, vent caps, and roof flashing — and once inside, they damage wiring and insulation aggressively. Marietta's two breeding seasons (February–April and August–September) drive twin call peaks, but cooler-weather attic intrusion runs through winter as well. Most jobs in Marietta involve sealing 3–5 entry points to prevent re-entry by other squirrels exploiting the same access.",
       "faqs": [
-        { "q": "Why are squirrel infestations bad for Marietta homes?", "a": "Squirrels chew electrical wiring — a leading cause of attic fires — and shred insulation for nesting. Older Marietta homes with knob-and-tube or aging cloth-jacketed wiring are particularly vulnerable. Damage compounds quickly: a single litter can destroy a section of insulation in weeks." },
-        { "q": "When do squirrels enter attics in Marietta?", "a": "The two peak seasons are February through April for the spring litter and August through September for the fall litter. Many Marietta homeowners notice scratching or running sounds in the early morning during these windows. Cooler weather in November and December also drives attic-seeking activity." }
+        {
+          "q": "Why are squirrel infestations bad for Marietta homes?",
+          "a": "Squirrels chew electrical wiring — a leading cause of attic fires — and shred insulation for nesting. Older Marietta homes with knob-and-tube or aging cloth-jacketed wiring are particularly vulnerable. Damage compounds quickly: a single litter can destroy a section of insulation in weeks."
+        },
+        {
+          "q": "When do squirrels enter attics in Marietta?",
+          "a": "The two peak seasons are February through April for the spring litter and August through September for the fall litter. Many Marietta homeowners notice scratching or running sounds in the early morning during these windows. Cooler weather in November and December also drives attic-seeking activity."
+        },
+        {
+          "q": "What time of year is best to evict squirrels from a Marietta attic?",
+          "a": "The two safe exclusion windows for Marietta are <strong>May through early June</strong> (after first-litter kits have dispersed) and <strong>October through November</strong> (after second-litter kits are mobile). Performing one-way exclusion or trapping during nursing periods — late February through April, or August through mid-September — risks trapping kits inside wall cavities where they die and cause smell-and-fly callbacks. Inspections, planning, and entry-point identification can happen any time of year; only the exclusion step itself has to be timed."
+        },
+        {
+          "q": "Are squirrels really a fire risk in Marietta historic homes?",
+          "a": "Yes — chewed electrical wiring is documented as a leading cause of attic-origin residential fires, and pre-1940 Marietta homes are especially vulnerable because they often have older wiring runs (knob-and-tube remnants, early Romex, undersized neutral wires) that aren't built to take rodent damage. Squirrels chew wires reflexively to keep their incisors filed down. Any Marietta job that exposes chewed Romex requires licensed-electrician follow-up before sealing — and any homeowner who hears squirrel activity in the attic should not delay inspection."
+        }
+      ],
+      "metaTitle": "Squirrel Removal in Marietta, GA | Historic-District Pros",
+      "metaDescription": "Licensed squirrel removal in Marietta, GA. Whitlock Avenue and West Side Historic District attic exclusion, chewed-wire repair. Same-day service. Call now.",
+      "geo": {
+        "lat": 33.9526,
+        "lon": -84.5499
+      },
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Marietta,_Georgia",
+        "https://en.wikipedia.org/wiki/Eastern_gray_squirrel"
+      ],
+      "extendedBody": "<h2>Why Marietta's Tree Canopy Is a Year-Round Squirrel Reservoir</h2>\n      <p>Eastern gray squirrels (<em>Sciurus carolinensis</em>) cycle through Marietta in larger numbers than almost anywhere else in Cobb. The <strong>Marietta City Cemetery</strong> — one of the oldest and largest in Georgia — together with the wooded blocks around <strong>Whitlock Avenue</strong> and the <strong>West Side Historic District</strong> support a continuously-replenishing source population. Add the proximity of <strong>Kennesaw Mountain National Battlefield Park</strong> immediately west of the city, and Marietta sits inside one of the densest year-round gray squirrel ranges in metro Atlanta.</p>\n      <p>Two breeding cycles per year (a January–March mating producing first kits in February–April, and a June mating producing second kits in August–September) mean Marietta call volume peaks twice annually. The mild Cobb winters never break the breeding rhythm. Backyard bird feeders are the under-recognized driver of suburban Marietta squirrel density: feeders provide enough caloric subsidy to push juveniles to disperse earlier and pressure-test more entry points than they would in unsubsidized environments.</p>\n\n      <h2>How Squirrels Get Into Marietta's Older Homes vs Newer Subdivisions</h2>\n      <p>Entry-point profile differs sharply by housing era:</p>\n      <ul>\n        <li><strong>Pre-1940 historic homes</strong> (Marietta Square, Whitlock, West Side, Cemetery District): chewed wood soffit returns, gable louvers without screen backing, deteriorated fascia, gaps at chimney flashing, attic louver vents in older masonry.</li>\n        <li><strong>1950s–1970s ranch homes</strong> (mid-Marietta neighborhoods east and south of the historic core): aluminum or wood soffit-fascia junctions, ridge-vent caps, eave returns where trim wraps the corner, chewed-through cable and vent penetrations.</li>\n        <li><strong>1990s and newer subdivisions</strong> (East Marietta, the corridors approaching East Cobb): vinyl-soffit chew-throughs at corners, gable-vent screens, dormer flashing, attic-fan housings.</li>\n      </ul>\n      <p>Squirrels need only a 1.5-inch opening — much smaller than raccoons — and the typical Marietta historic home has more of these than the homeowner realizes. Damage signature is also different from raccoons: chewed wood and electrical wiring rather than pulled-apart insulation. <strong>Chewed-wire fire risk is the underwriter's concern</strong>, and any Marietta job that finds chewed romex requires immediate licensed-electrician follow-up. Exclusion timing matters because of the twin breeding cycles — see the FAQ on the right windows.</p>",
+      "relatedLinks": [
+        {
+          "anchor": "Marietta raccoon removal",
+          "href": "/georgia/cobb-county/marietta/raccoon-removal/"
+        },
+        {
+          "anchor": "rat removal in Marietta",
+          "href": "/georgia/cobb-county/marietta/rat-removal/"
+        },
+        {
+          "anchor": "Smyrna squirrel control",
+          "href": "/georgia/cobb-county/smyrna/squirrel-removal/"
+        },
+        {
+          "anchor": "Kennesaw squirrel trapping",
+          "href": "/georgia/cobb-county/kennesaw/squirrel-removal/"
+        },
+        {
+          "anchor": "Cobb County squirrel hub",
+          "href": "/georgia/cobb-county/squirrel-removal/"
+        },
+        {
+          "anchor": "Marietta wildlife services",
+          "href": "/georgia/cobb-county/marietta/"
+        }
       ]
     },
     "bat-removal": {
       "intro": "Big brown bat colonies are a defining wildlife issue in Marietta — the brick masonry, gable vents, and unscreened soffits of the antebellum and Victorian housing stock around the Marietta Square historic district provide ideal maternity-roost conditions. Colonies of 40–200 bats are common in Marietta's older homes, and once established the females return to the same structure every year. Georgia DNR prohibits exclusion from May through August during the maternity season when nursing pups cannot fly. The optimal exclusion window in Marietta is September through early April, with guano cleanup and attic decontamination almost always required afterward.",
       "faqs": [
-        { "q": "Can bats be removed from a Marietta home in summer?", "a": "No — Georgia DNR prohibits bat exclusion from May through August during maternity season when flightless pups depend on the colony. We can inspect, document the entry points, and prepare exclusion materials so work can begin the moment the season ends in September." },
-        { "q": "How dangerous is bat guano in Marietta attics?", "a": "Accumulated guano grows Histoplasma capsulatum — a fungus that causes histoplasmosis when spores are inhaled. Marietta's humid climate accelerates fungal growth. Cleanup requires HEPA filtration, full PPE, and sealed disposal — not a DIY project." }
+        {
+          "q": "Can bats be removed from a Marietta home in summer?",
+          "a": "No — Georgia DNR prohibits bat exclusion from May through August during maternity season when flightless pups depend on the colony. We can inspect, document the entry points, and prepare exclusion materials so work can begin the moment the season ends in September."
+        },
+        {
+          "q": "How dangerous is bat guano in Marietta attics?",
+          "a": "Accumulated guano grows Histoplasma capsulatum — a fungus that causes histoplasmosis when spores are inhaled. Marietta's humid climate accelerates fungal growth. Cleanup requires HEPA filtration, full PPE, and sealed disposal — not a DIY project."
+        }
       ]
     },
     "snake-removal": {
       "intro": "Snake calls in Marietta concentrate around homes adjacent to Kennesaw Mountain National Battlefield Park, along the Sope Creek corridor, and around the stone retaining walls and shaded woodpiles common to the older West Side Historic District. Rat snakes are by far the most common call — they're non-venomous and beneficial for rodent control but unwelcome inside homes, and Marietta homeowners frequently misidentify them as copperheads. True copperhead encounters do occur in Marietta, particularly near rocky and wooded edges. Spring and early fall are peak activity windows. Never attempt to handle or identify a snake without a licensed professional.",
       "faqs": [
-        { "q": "How do I know if a snake in Marietta is venomous?", "a": "Don't try to identify it yourself — Georgia rat snakes can mimic copperhead coloration and behavior. Take a photo from a safe distance and call a licensed contractor. Of all snake calls in Marietta, 80%+ are non-venomous rat snakes, but the remaining percentage matters." },
-        { "q": "Why are snakes near Kennesaw Mountain Battlefield Park?", "a": "The 2,900-acre wooded preserve maintains higher reptile densities than typical urban areas. Snakes disperse from the park into adjacent yards in spring and fall searching for prey, mates, and overwintering sites. Homes within a quarter mile of the park boundary see noticeably more snake calls." }
+        {
+          "q": "How do I know if a snake in Marietta is venomous?",
+          "a": "Don't try to identify it yourself — Georgia rat snakes can mimic copperhead coloration and behavior. Take a photo from a safe distance and call a licensed contractor. Of all snake calls in Marietta, 80%+ are non-venomous rat snakes, but the remaining percentage matters."
+        },
+        {
+          "q": "Why are snakes near Kennesaw Mountain Battlefield Park?",
+          "a": "The 2,900-acre wooded preserve maintains higher reptile densities than typical urban areas. Snakes disperse from the park into adjacent yards in spring and fall searching for prey, mates, and overwintering sites. Homes within a quarter mile of the park boundary see noticeably more snake calls."
+        }
       ]
     },
     "groundhog-removal": {
       "intro": "Groundhogs (woodchucks) are uncommon in Marietta compared to north Georgia's mountain counties — Cobb County sits at the southern edge of their established range. When they do appear in Marietta, calls concentrate around older properties on the wooded edges of the West Side Historic District and near park boundaries where there's both forage and undisturbed soil for burrows. Groundhog burrows damage building foundations, sheds, and garden structures. Removal requires trapping with cage traps placed at burrow entrances. Confirm species identification before any work — armadillo damage is far more common in Marietta and is often misattributed to groundhogs.",
       "faqs": [
-        { "q": "Do groundhogs actually live in Marietta?", "a": "Rarely. Groundhogs are at the southern edge of their range in metro Atlanta. Most Marietta calls labeled as groundhog turn out to be armadillo lawn damage on inspection. A licensed contractor can confirm species through tracks, scat, and burrow morphology before any removal work." },
-        { "q": "What damage do groundhogs cause in Marietta?", "a": "When groundhogs are present, they undermine sheds, foundations, and garden structures with extensive burrow systems that can extend 15+ feet. They also strip vegetable gardens. Trapping at burrow entrances is the standard removal method." }
+        {
+          "q": "Do groundhogs actually live in Marietta?",
+          "a": "Rarely. Groundhogs are at the southern edge of their range in metro Atlanta. Most Marietta calls labeled as groundhog turn out to be armadillo lawn damage on inspection. A licensed contractor can confirm species through tracks, scat, and burrow morphology before any removal work."
+        },
+        {
+          "q": "What damage do groundhogs cause in Marietta?",
+          "a": "When groundhogs are present, they undermine sheds, foundations, and garden structures with extensive burrow systems that can extend 15+ feet. They also strip vegetable gardens. Trapping at burrow entrances is the standard removal method."
+        }
       ]
     },
     "bird-removal": {
       "intro": "Bird control calls in Marietta concentrate on three species: feral pigeons fouling the historic commercial buildings around Marietta Square and the Whitlock Avenue corridor, European starlings nesting in dryer vents and gable vents of the older homes throughout the West Side Historic District, and house sparrows entering attic vents and bathroom exhaust outlets. Pigeon droppings on Marietta's historic masonry cause acid damage and pose a histoplasmosis risk. Starling and sparrow nests block ventilation and create fire hazards in clogged dryer ducts. Exclusion with proper screening, deterrent spikes, and netting is the durable fix — repellent gels and ultrasonic devices rarely work long-term.",
       "faqs": [
-        { "q": "How do I keep starlings out of Marietta dryer vents?", "a": "Replace the standard plastic flap vent with a metal screened vent cap rated for bird exclusion. Make sure the cap closes flush and doesn't get stuck open by lint buildup. Check it twice a year. Once starlings nest, the duct must be cleaned to prevent fire risk." },
-        { "q": "What about pigeons on Marietta Square buildings?", "a": "Commercial pigeon control around Marietta Square requires a combination of spikes on ledges, netting on architectural recesses, and exclusion of any access points to attic spaces. Cleanup of accumulated droppings is a separate scope — masonry damage from droppings can be permanent if neglected." }
+        {
+          "q": "How do I keep starlings out of Marietta dryer vents?",
+          "a": "Replace the standard plastic flap vent with a metal screened vent cap rated for bird exclusion. Make sure the cap closes flush and doesn't get stuck open by lint buildup. Check it twice a year. Once starlings nest, the duct must be cleaned to prevent fire risk."
+        },
+        {
+          "q": "What about pigeons on Marietta Square buildings?",
+          "a": "Commercial pigeon control around Marietta Square requires a combination of spikes on ledges, netting on architectural recesses, and exclusion of any access points to attic spaces. Cleanup of accumulated droppings is a separate scope — masonry damage from droppings can be permanent if neglected."
+        }
       ]
     },
     "skunk-removal": {
       "intro": "Striped skunks shelter under the wraparound porches, raised foundations, and detached garage crawl spaces common to Marietta's antebellum and Victorian housing stock. The West Side Historic District and the older neighborhoods along Whitlock Avenue see persistent skunk pressure, and the older detached carriage-house structures are particularly attractive den sites. Spring is peak removal season as females establish dens before giving birth. Skunks also dig for grubs in lawns. Spray events can permeate older Marietta homes through poorly sealed crawl space accesses — exclusion of every potential den site is essential after removal to prevent return.",
       "faqs": [
-        { "q": "How do I get rid of skunk smell in a Marietta home?", "a": "Skunk spray penetrates poorly sealed crawl spaces and gets pulled into the home through HVAC returns. Treatment involves sealing the entry route, neutralizing the scent at the source with enzymatic products, and running activated charcoal filtration. Older Marietta homes with original ductwork need particular attention." },
-        { "q": "Can skunks be relocated in Georgia?", "a": "Skunks are rabies vector species in Georgia and have specific handling restrictions. Licensed Georgia DNR contractors handle relocation under permit. Homeowners should never attempt skunk removal — bite or spray risk is high and rabies exposure carries serious consequences." }
+        {
+          "q": "How do I get rid of skunk smell in a Marietta home?",
+          "a": "Skunk spray penetrates poorly sealed crawl spaces and gets pulled into the home through HVAC returns. Treatment involves sealing the entry route, neutralizing the scent at the source with enzymatic products, and running activated charcoal filtration. Older Marietta homes with original ductwork need particular attention."
+        },
+        {
+          "q": "Can skunks be relocated in Georgia?",
+          "a": "Skunks are rabies vector species in Georgia and have specific handling restrictions. Licensed Georgia DNR contractors handle relocation under permit. Homeowners should never attempt skunk removal — bite or spray risk is high and rabies exposure carries serious consequences."
+        }
       ]
     },
     "opossum-removal": {
       "intro": "Virginia opossums shelter under decks, porches, sheds, and detached garages across Marietta's older residential neighborhoods. The wraparound porches of the antebellum and Victorian housing stock around the Marietta Square historic district are particularly attractive den sites, as are the detached garage crawl spaces of the West Side Historic District. Opossums are not aggressive but their presence under a home creates persistent flea, tick, and scent issues. Females raise young in spring, making March through May peak removal season. Trapping is the standard method, followed by exclusion of every potential den site to prevent the next opossum from moving in.",
       "faqs": [
-        { "q": "Are opossums dangerous in Marietta?", "a": "Opossums are not aggressive and rarely carry rabies due to their low body temperature. The real concerns are flea and tick infestations brought into yards, contamination of crawl spaces with droppings, and persistent scent issues. Removal is straightforward but follow-up exclusion is essential." },
-        { "q": "How do I keep opossums out from under my Marietta porch?", "a": "Heavy-gauge wire mesh buried 12 inches below grade and extending up to the porch deck is the standard exclusion. Marietta's older porches often have multiple access points — a thorough inspection is required before sealing. Repellents alone don't work durably." }
+        {
+          "q": "Are opossums dangerous in Marietta?",
+          "a": "Opossums are not aggressive and rarely carry rabies due to their low body temperature. The real concerns are flea and tick infestations brought into yards, contamination of crawl spaces with droppings, and persistent scent issues. Removal is straightforward but follow-up exclusion is essential."
+        },
+        {
+          "q": "How do I keep opossums out from under my Marietta porch?",
+          "a": "Heavy-gauge wire mesh buried 12 inches below grade and extending up to the porch deck is the standard exclusion. Marietta's older porches often have multiple access points — a thorough inspection is required before sealing. Repellents alone don't work durably."
+        }
       ]
     },
     "mole-removal": {
       "intro": "Eastern moles damage the manicured lawns and ornamental beds throughout Marietta's residential neighborhoods, with the heaviest call volume coming from the West Side Historic District and the irrigated lawns around the Marietta Square area. Mole tunnel ridges are most visible after rain when the surface heaves. Marietta's red clay soils and abundant earthworm populations create ideal mole habitat, and irrigated lawns concentrate worm density even further. Trapping is the only durable control — repellents, sonic devices, and grub treatments rarely work because moles eat earthworms primarily, not grubs. Multiple traps placed at active runs typically resolve the issue within 1–2 weeks.",
       "faqs": [
-        { "q": "Why do grub treatments not work for moles in Marietta?", "a": "Moles primarily eat earthworms, not grubs. Grub control treatments don't reduce mole activity in Marietta — they only happen to coincide with seasonal mole pattern changes. Trapping is the only proven method that meaningfully reduces mole damage in residential lawns." },
-        { "q": "How long does mole control take in Marietta?", "a": "Most active mole problems are resolved within 1–2 weeks with proper trap placement. Lawns recover quickly once moles are removed. Monitoring for new activity in the following months catches reinvasion early — moles from neighboring properties can move in if ground conditions are favorable." }
+        {
+          "q": "Why do grub treatments not work for moles in Marietta?",
+          "a": "Moles primarily eat earthworms, not grubs. Grub control treatments don't reduce mole activity in Marietta — they only happen to coincide with seasonal mole pattern changes. Trapping is the only proven method that meaningfully reduces mole damage in residential lawns."
+        },
+        {
+          "q": "How long does mole control take in Marietta?",
+          "a": "Most active mole problems are resolved within 1–2 weeks with proper trap placement. Lawns recover quickly once moles are removed. Monitoring for new activity in the following months catches reinvasion early — moles from neighboring properties can move in if ground conditions are favorable."
+        }
       ]
     },
     "dead-animal-removal": {
       "intro": "Dead animal calls in Marietta typically involve raccoons, opossums, or rats that died inside attics, walls, crawl spaces, or under decks of the older housing stock around the Marietta Square historic district and the West Side neighborhoods. Decomposition odor is intense in Marietta's humid climate and can linger for weeks if the carcass and contaminated material aren't fully removed. Locating the carcass often requires opening drywall, removing soffit panels, or accessing crawl spaces. Same-day service is standard. Enzymatic odor treatment of the surrounding area is included after physical removal — odor masking sprays alone don't address the source.",
       "faqs": [
-        { "q": "How long does dead animal odor last in a Marietta home?", "a": "In Marietta's humid climate, odor from a decomposing raccoon or opossum can persist 3–6 weeks if untreated. With the carcass removed and the surrounding contaminated area treated, odor typically clears within days. Older Marietta homes with original ductwork may need additional HVAC system treatment." },
-        { "q": "Can you remove a dead animal from inside a Marietta wall?", "a": "Yes. Locating a carcass inside a wall requires methodical inspection — sometimes including small access cuts in drywall — followed by removal and treatment. Most Marietta calls take 1–3 hours total. The opening is patched after the work is done." }
+        {
+          "q": "How long does dead animal odor last in a Marietta home?",
+          "a": "In Marietta's humid climate, odor from a decomposing raccoon or opossum can persist 3–6 weeks if untreated. With the carcass removed and the surrounding contaminated area treated, odor typically clears within days. Older Marietta homes with original ductwork may need additional HVAC system treatment."
+        },
+        {
+          "q": "Can you remove a dead animal from inside a Marietta wall?",
+          "a": "Yes. Locating a carcass inside a wall requires methodical inspection — sometimes including small access cuts in drywall — followed by removal and treatment. Most Marietta calls take 1–3 hours total. The opening is patched after the work is done."
+        }
+      ]
+    },
+    "rat-removal": {
+      "metaTitle": "Rat Removal in Marietta, GA | Norway & Roof Rat Experts",
+      "metaDescription": "Licensed rat removal in Marietta, GA — historic-district Norway rat control and suburban roof rat exclusion. Same-day service. Call now.",
+      "geo": {
+        "lat": 33.9526,
+        "lon": -84.5499
+      },
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Marietta,_Georgia",
+        "https://en.wikipedia.org/wiki/Brown_rat",
+        "https://en.wikipedia.org/wiki/Black_rat"
+      ],
+      "intro": "Marietta sits at the convergence of Cobb's two distinct rat ecologies. Norway rats (Rattus norvegicus) dominate the older commercial corridors around Marietta Square, the inner neighborhoods on the west and north sides of the city, and the foundation crawlspaces of pre-WWII housing stock. Roof rats (Rattus rattus) — having migrated up the I-75 corridor from peninsular Florida over the past two decades — now drive most of the in-the-attic call volume in the suburban subdivisions east and south of the historic core. Knowing which species is on your property changes the entire treatment plan.",
+      "extendedBody": "<h2>The Marietta Square Norway Rat Belt vs the Suburban Roof Rat Belt</h2>\n      <p>Marietta is unusual within Cobb because both rat species are present in significant numbers within a few square miles of each other. The dividing line is roughly geographic: the <strong>Marietta Square historic district, the older West Side blocks, and the foundation crawlspaces of pre-1940 housing stock</strong> sustain Norway rat populations that persist year-round, fed by the same drainage and dumpster ecology that feeds Norway rat populations in any older Southern downtown. <strong>Suburban Marietta neighborhoods east of Cobb Parkway and south toward East Cobb</strong> are roof rat territory — wooded subdivisions, ornamental landscape plantings, overhead utility lines, and gable-vent or soffit attic entry.</p>\n      <p>Three quick tells distinguish the two on a Marietta property: <strong>where you find them</strong> (ground-level or attic), <strong>body shape</strong> (Norway rats are stocky with short tails and small ears; roof rats are slender with long tails and large ears), and <strong>droppings</strong> (Norway droppings are 3/4 inch with blunt ends; roof rat droppings are 1/2 inch with pointed ends). The treatment plan for each is genuinely different: Norway rats are addressed with ground-level exclusion, foundation sealing, and exterior trap deployment; roof rats require attic exclusion, overhead utility-line surveying, and tree-canopy assessment.</p>\n\n      <h2>Why Marietta Historic Homes Are a Rat Magnet</h2>\n      <p>Pre-1940 Marietta housing has structural features that modern construction simply doesn't share, and those features are why the historic-district call volume runs higher than the suburban call volume per capita:</p>\n      <ul>\n        <li><strong>Hand-laid brick or stone foundations with pointing failures</strong>. Mortar joints fail with age. Norway rats exploit even quarter-inch gaps to enter crawlspaces.</li>\n        <li><strong>Original wood crawlspace doors and access panels</strong>. Routinely chewed through, ill-fitting after 80+ years of seasonal wood movement.</li>\n        <li><strong>Open-bay foundation vents without modern hardware-cloth backing</strong>. Pre-war foundation vents were screens at best; the screen has long since rusted out on most homes.</li>\n        <li><strong>Original cellar coal chutes and exterior cellar entries</strong>. On Marietta homes that still have them, these are direct rat entries unless intentionally sealed.</li>\n        <li><strong>Voids in original lath-and-plaster walls and dropped ceilings</strong>. Once rats reach interior wall cavities, the older homes give them effectively unlimited travel routes.</li>\n      </ul>\n      <p>Public-health authority for Marietta rat issues runs through <strong>Cobb &amp; Douglas Public Health</strong> for disease-reporting purposes; rat control on private property is a private-property responsibility, not a city or county service. Commercial removal in Georgia operates under <strong>Georgia DNR Wildlife Resources Division Region 1</strong> licensing, and every contractor in this directory holds the applicable credentials.</p>",
+      "relatedLinks": [
+        {
+          "anchor": "Marietta raccoon removal",
+          "href": "/georgia/cobb-county/marietta/raccoon-removal/"
+        },
+        {
+          "anchor": "Marietta squirrel control",
+          "href": "/georgia/cobb-county/marietta/squirrel-removal/"
+        },
+        {
+          "anchor": "Smyrna rat control services",
+          "href": "/georgia/cobb-county/smyrna/rat-removal/"
+        },
+        {
+          "anchor": "Kennesaw rat trapping",
+          "href": "/georgia/cobb-county/kennesaw/rat-removal/"
+        },
+        {
+          "anchor": "Cobb County rat removal hub",
+          "href": "/georgia/cobb-county/rat-removal/"
+        },
+        {
+          "anchor": "Marietta wildlife services",
+          "href": "/georgia/cobb-county/marietta/"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How much does rat removal cost in Marietta, Georgia?",
+          "a": "Most Marietta rat jobs run between $500 and $1,500 depending on whether you have a localized issue or an established population, and how much exclusion and sanitation is required. Marietta historic-district properties with foundation pointing failures or attic decontamination needs sometimes exceed $2,000. Newer suburban Marietta subdivisions with single-source roof-rat entries often resolve in the $400-$900 range. The variable is exclusion scope and decontamination, not trapping itself. Call for a free property-specific estimate."
+        },
+        {
+          "q": "Do I have Norway rats or roof rats in my Marietta home?",
+          "a": "Where you find them is the fastest tell. Activity in your attic, walls, ceiling cavities, or running along overhead utility lines means roof rats — common across Marietta's suburban subdivisions east and south of Cobb Parkway. Activity in your basement, crawlspace, or under outdoor structures means Norway rats — more common around Marietta Square, the older West Side, and the inner-city blocks. Body shape, tail length, and droppings size confirm the ID. Both species require professional exclusion, but the approaches differ enough that misidentification slows resolution."
+        },
+        {
+          "q": "Why do rats keep returning to my Marietta home after I trap them?",
+          "a": "Almost always because entry points haven't been sealed. A few snap traps catch a few rats but the population reproduces faster than DIY trapping can keep up, and any open entry route lets new rats from neighboring properties replace the dead ones in weeks. Marietta's older neighborhoods are especially prone to neighbor-to-neighbor reinfestation because of shared foundation walls, contiguous tree canopies, and overhead utility runs that connect back-to-back yards. The only durable fix is structural exclusion combined with trapping, not trapping alone."
+        },
+        {
+          "q": "Are rats dangerous to my Marietta family or pets?",
+          "a": "Yes, in concrete ways. <strong>Leptospirosis</strong> is transmitted through rat-urine-contaminated water and surfaces — a real risk for pets that drink from outdoor sources where rats are active. <strong>Salmonella</strong> contamination of pantry food and kitchen surfaces is a household risk anywhere droppings are present. Hantavirus exposure during DIY attic cleanup is a recognized hazard nationally. Chewed electrical wiring is also a documented residential fire risk. Marietta historic homes have older wiring runs that are especially vulnerable to chew damage. Fast professional removal plus full sanitation handles all of these."
+        },
+        {
+          "q": "What time of year are rats worst in Marietta?",
+          "a": "Marietta rat activity peaks <strong>October through December</strong> as outdoor food sources dry up and rats move indoors aggressively for warmth and food access. A small autumn intrusion left untreated routinely becomes a structural problem by January. A secondary spike happens <strong>early spring</strong> when populations that overwintered indoors begin breeding before juveniles disperse. Summer is the lowest-call period — but it's also when undetected populations grow inside walls and attics, which is why fall escalations look so sudden to homeowners."
+        }
       ]
     }
   },
@@ -75,71 +288,131 @@
     "raccoon-removal": {
       "intro": "Raccoons are a constant attic-intruder call in Smyrna's post-war 1950s and 1960s ranches across West Smyrna and the Market Village area, where mature oak-hickory canopy gives raccoons direct roof access via overhanging trees. The Cumberland/Galleria district's commercial dumpster pressure sustains heavy raccoon populations that spill into adjacent residential neighborhoods. February through April is peak attic-denning season as females seek birthing sites, and the Chattahoochee River corridor along Smyrna's southern edge funnels additional raccoons into the riverside subdivisions. Roundworm contamination of attic insulation requires professional remediation after every Smyrna raccoon removal — DIY trapping leaves the health hazard untouched.",
       "faqs": [
-        { "q": "Why are raccoons so common in Smyrna?", "a": "The combination of dense post-war housing stock with aging soffits, mature oak-hickory canopy, and the Cumberland commercial district's dumpster food sources creates ideal raccoon habitat. Smyrna sustains some of the highest raccoon densities in inner-ring Atlanta — call volume runs year-round." },
-        { "q": "How do raccoons get into Smyrna ranches?", "a": "Most Smyrna ranches have at least one of: aging soffit returns, unscreened gable vents, deteriorated roof flashing, or chimney access. Raccoons climb overhanging trees to reach the roof, then exploit any gap larger than 4 inches. A full roofline inspection is needed to find every potential entry point." }
+        {
+          "q": "Why are raccoons so common in Smyrna?",
+          "a": "The combination of dense post-war housing stock with aging soffits, mature oak-hickory canopy, and the Cumberland commercial district's dumpster food sources creates ideal raccoon habitat. Smyrna sustains some of the highest raccoon densities in inner-ring Atlanta — call volume runs year-round."
+        },
+        {
+          "q": "How do raccoons get into Smyrna ranches?",
+          "a": "Most Smyrna ranches have at least one of: aging soffit returns, unscreened gable vents, deteriorated roof flashing, or chimney access. Raccoons climb overhanging trees to reach the roof, then exploit any gap larger than 4 inches. A full roofline inspection is needed to find every potential entry point."
+        }
       ]
     },
     "squirrel-removal": {
       "intro": "Eastern gray squirrels intrude into Smyrna attics constantly, with the heaviest call volume from the post-war ranches across West Smyrna and the inner Market Village neighborhoods. The dense oak-hickory canopy throughout Smyrna gives squirrels direct roof access, and the aging soffit construction of 1950s and 1960s homes provides multiple potential entry points per house. Squirrels chew through soffit returns, gable vent screens, and roof flashing — once inside, they damage wiring and shred insulation aggressively. Smyrna's two breeding peaks (February–April and August–September) drive twin call surges, with cool-weather attic-seeking adding a third intrusion window in November.",
       "faqs": [
-        { "q": "Are squirrels in my Smyrna attic dangerous?", "a": "Yes — squirrels chew electrical wiring, which is a leading cause of attic fires. They also shred insulation for nesting and create accumulated waste contamination. Smyrna's older ranches with original wiring are particularly vulnerable. Damage accelerates with each litter." },
-        { "q": "How much does squirrel exclusion cost in Smyrna?", "a": "Trapping plus full exclusion typically runs $500–$1,200 in Smyrna depending on the number of entry points. Older West Smyrna ranches often need 4–6 sealing locations to prevent re-entry. Cheaper one-point removal almost always results in re-infestation within months." }
+        {
+          "q": "Are squirrels in my Smyrna attic dangerous?",
+          "a": "Yes — squirrels chew electrical wiring, which is a leading cause of attic fires. They also shred insulation for nesting and create accumulated waste contamination. Smyrna's older ranches with original wiring are particularly vulnerable. Damage accelerates with each litter."
+        },
+        {
+          "q": "How much does squirrel exclusion cost in Smyrna?",
+          "a": "Trapping plus full exclusion typically runs $500–$1,200 in Smyrna depending on the number of entry points. Older West Smyrna ranches often need 4–6 sealing locations to prevent re-entry. Cheaper one-point removal almost always results in re-infestation within months."
+        }
       ]
     },
     "bat-removal": {
       "intro": "Big brown bat colonies form in the older 1950s and 1960s ranches across inner Smyrna, particularly in homes with original soffit construction, unscreened gable vents, and deteriorated chimney flashing. Brick chimneys in the Market Village and West Smyrna neighborhoods are common roost sites. Once established, colonies of 30–150 bats return to the same Smyrna structure every May through August during maternity season. Georgia DNR prohibits exclusion during the maternity window. The optimal exclusion period in Smyrna is September through early April, and guano accumulation in attics typically requires HEPA-filtered cleanup and full insulation replacement afterward.",
       "faqs": [
-        { "q": "How do I know if I have bats in my Smyrna attic?", "a": "Watch for small dark spots (guano) accumulating on siding directly below the entry point, listen for high-pitched chittering at dusk, and check for staining around soffits. A daytime attic inspection by a licensed contractor confirms colony presence and locates roost concentrations." },
-        { "q": "When can bat exclusion happen in Smyrna?", "a": "September through April. Georgia DNR prohibits exclusion May through August during maternity season when flightless pups depend on the colony. We can inspect and prepare during the closed window so work begins immediately on September 1st." }
+        {
+          "q": "How do I know if I have bats in my Smyrna attic?",
+          "a": "Watch for small dark spots (guano) accumulating on siding directly below the entry point, listen for high-pitched chittering at dusk, and check for staining around soffits. A daytime attic inspection by a licensed contractor confirms colony presence and locates roost concentrations."
+        },
+        {
+          "q": "When can bat exclusion happen in Smyrna?",
+          "a": "September through April. Georgia DNR prohibits exclusion May through August during maternity season when flightless pups depend on the colony. We can inspect and prepare during the closed window so work begins immediately on September 1st."
+        }
       ]
     },
     "snake-removal": {
       "intro": "Snake calls in Smyrna concentrate along the Chattahoochee River corridor on the southern boundary, around the wooded edges of the Silver Comet Trail, and in the riverside subdivisions where wooded property edges meet residential lawns. Rat snakes are the dominant call — non-venomous and harmless to people but unwelcome inside homes, sheds, and crawl spaces. Smyrna homeowners frequently mistake rat snakes for copperheads given similar coloration. True copperhead encounters do occur, particularly in the wooded southern subdivisions. Spring and early fall are peak activity windows. Never attempt to handle or identify a snake — call a licensed contractor for any in-home or near-home encounter.",
       "faqs": [
-        { "q": "Are copperheads common in Smyrna?", "a": "Less common than rat snakes, but copperheads do occur in Smyrna's wooded southern subdivisions and along the Chattahoochee corridor. Stone walls, woodpiles, and shaded landscape edges are typical hiding spots. Always have a snake identified by a professional before any handling." },
-        { "q": "How do snakes get into Smyrna homes?", "a": "Foundation gaps, dryer vent openings, garage door seals, and crawl space accesses are the most common entry routes. Smyrna's older ranches with original construction often have multiple gaps that need sealing. Snake exclusion is essentially a foundation and seal inspection." }
+        {
+          "q": "Are copperheads common in Smyrna?",
+          "a": "Less common than rat snakes, but copperheads do occur in Smyrna's wooded southern subdivisions and along the Chattahoochee corridor. Stone walls, woodpiles, and shaded landscape edges are typical hiding spots. Always have a snake identified by a professional before any handling."
+        },
+        {
+          "q": "How do snakes get into Smyrna homes?",
+          "a": "Foundation gaps, dryer vent openings, garage door seals, and crawl space accesses are the most common entry routes. Smyrna's older ranches with original construction often have multiple gaps that need sealing. Snake exclusion is essentially a foundation and seal inspection."
+        }
       ]
     },
     "groundhog-removal": {
       "intro": "Groundhogs are uncommon in Smyrna — Cobb County sits at the southern edge of woodchuck range, and most Smyrna calls labeled as groundhog turn out on inspection to be armadillo damage. When groundhogs are confirmed, they tend to occur on the wooded outer edges of West Smyrna where there's both forage and undisturbed soil for burrows. Burrows undermine sheds, foundations, and garden structures. Trapping with cage traps at burrow entrances is the standard removal method. Species confirmation by a licensed contractor before work is essential — armadillo control uses different techniques and treatments.",
       "faqs": [
-        { "q": "Is it a groundhog or an armadillo in my Smyrna yard?", "a": "Most Smyrna calls turn out to be armadillos, which are now established across Cobb County. Groundhogs leave large burrow entrances 8–12 inches across with mounded soil, while armadillos leave shallow rooted-up patches across the lawn. A site visit is the simplest way to confirm." },
-        { "q": "What damage do groundhogs cause in Smyrna?", "a": "When present, groundhogs undermine sheds, deck supports, and garden structures. Burrow systems can extend 15+ feet underground and weaken foundations over time. They also strip vegetable gardens. Removal is straightforward when species is confirmed." }
+        {
+          "q": "Is it a groundhog or an armadillo in my Smyrna yard?",
+          "a": "Most Smyrna calls turn out to be armadillos, which are now established across Cobb County. Groundhogs leave large burrow entrances 8–12 inches across with mounded soil, while armadillos leave shallow rooted-up patches across the lawn. A site visit is the simplest way to confirm."
+        },
+        {
+          "q": "What damage do groundhogs cause in Smyrna?",
+          "a": "When present, groundhogs undermine sheds, deck supports, and garden structures. Burrow systems can extend 15+ feet underground and weaken foundations over time. They also strip vegetable gardens. Removal is straightforward when species is confirmed."
+        }
       ]
     },
     "bird-removal": {
       "intro": "Bird control calls in Smyrna focus on three species: feral pigeons in the dense Cumberland/Galleria commercial district and along the Atlanta Road commercial corridor, European starlings nesting in dryer vents and gable vents of the post-war ranches across Smyrna, and house sparrows entering bathroom exhausts and unscreened attic vents. Pigeon droppings on Cumberland-area buildings cause acid damage to masonry and pose histoplasmosis exposure risk. Starling nests block ventilation and create fire hazards. Exclusion with screened metal vent caps, deterrent spikes, and netting is the durable fix — most Smyrna homes are missing properly rated bird-exclusion vent covers.",
       "faqs": [
-        { "q": "Why do starlings nest in Smyrna homes?", "a": "Standard plastic flap dryer vents and unscreened bathroom fan vents are easy access for starlings. Smyrna's post-war ranches typically have 4–8 such vents across the exterior, all of which need rated screened replacements. Once nested, the duct must be cleaned to prevent fire risk." },
-        { "q": "How do I deal with pigeons in the Cumberland area?", "a": "Commercial pigeon control around Cumberland/Galleria requires a combination of spikes on ledges, netting on architectural recesses, and full exclusion of any access points to attic spaces. Cleanup of accumulated droppings is a separate scope and may require lift access for upper-story work." }
+        {
+          "q": "Why do starlings nest in Smyrna homes?",
+          "a": "Standard plastic flap dryer vents and unscreened bathroom fan vents are easy access for starlings. Smyrna's post-war ranches typically have 4–8 such vents across the exterior, all of which need rated screened replacements. Once nested, the duct must be cleaned to prevent fire risk."
+        },
+        {
+          "q": "How do I deal with pigeons in the Cumberland area?",
+          "a": "Commercial pigeon control around Cumberland/Galleria requires a combination of spikes on ledges, netting on architectural recesses, and full exclusion of any access points to attic spaces. Cleanup of accumulated droppings is a separate scope and may require lift access for upper-story work."
+        }
       ]
     },
     "skunk-removal": {
       "intro": "Striped skunks shelter under the decks, porches, sheds, and crawl spaces of Smyrna's post-war ranches across West Smyrna and the inner Market Village neighborhoods. Spring is peak removal season as females establish dens before giving birth. Smyrna's ranches with raised foundations and detached storage structures provide abundant denning options, and the Chattahoochee corridor pushes additional skunk pressure into the southern subdivisions. Spray events permeate poorly sealed crawl spaces and pull through HVAC returns into the home. Skunks are a rabies vector species in Georgia — never attempt removal yourself. Licensed contractors handle relocation under Georgia DNR permits.",
       "faqs": [
-        { "q": "How do I get rid of skunk smell in my Smyrna home?", "a": "Skunk spray under a poorly sealed crawl space gets pulled into Smyrna ranches through HVAC returns. Treatment combines crawl space sealing, enzymatic odor neutralization at the source, and HVAC filter replacement. Old ductwork in 1950s ranches may require additional treatment." },
-        { "q": "Are skunks rabies carriers in Smyrna?", "a": "Yes — striped skunks are one of Georgia's primary rabies vector species. Any skunk behaving unusually (active in daylight, unsteady, aggressive) should trigger immediate professional response. Never attempt to handle a skunk yourself, even one that appears injured." }
+        {
+          "q": "How do I get rid of skunk smell in my Smyrna home?",
+          "a": "Skunk spray under a poorly sealed crawl space gets pulled into Smyrna ranches through HVAC returns. Treatment combines crawl space sealing, enzymatic odor neutralization at the source, and HVAC filter replacement. Old ductwork in 1950s ranches may require additional treatment."
+        },
+        {
+          "q": "Are skunks rabies carriers in Smyrna?",
+          "a": "Yes — striped skunks are one of Georgia's primary rabies vector species. Any skunk behaving unusually (active in daylight, unsteady, aggressive) should trigger immediate professional response. Never attempt to handle a skunk yourself, even one that appears injured."
+        }
       ]
     },
     "opossum-removal": {
       "intro": "Virginia opossums shelter under decks, porches, and sheds across Smyrna's residential housing stock. The post-war ranches throughout West Smyrna and the inner Market Village neighborhoods have raised crawl spaces and detached structures that provide ideal denning. Opossums also exploit pet doors and unsecured garages. Females raise young in spring, making March through May peak removal season. Beyond the den itself, opossums bring fleas and ticks into yards and contaminate crawl spaces with droppings. Trapping is the standard removal method — followed by full exclusion of every potential den site to prevent the next opossum from moving in.",
       "faqs": [
-        { "q": "Why are opossums under my Smyrna deck?", "a": "Smyrna's post-war ranches typically have raised decks with multiple access points along the joists. Opossums find these spaces ideal for denning and raising young. Without exclusion, the same site attracts a new opossum within weeks of any single removal." },
-        { "q": "Are opossums dangerous to pets in Smyrna?", "a": "Opossums rarely fight — they play dead. The real risks are flea and tick transfer to pets, scent contamination, and crawl space damage. Pet food left outdoors should always be brought in at night to reduce opossum (and raccoon) attraction." }
+        {
+          "q": "Why are opossums under my Smyrna deck?",
+          "a": "Smyrna's post-war ranches typically have raised decks with multiple access points along the joists. Opossums find these spaces ideal for denning and raising young. Without exclusion, the same site attracts a new opossum within weeks of any single removal."
+        },
+        {
+          "q": "Are opossums dangerous to pets in Smyrna?",
+          "a": "Opossums rarely fight — they play dead. The real risks are flea and tick transfer to pets, scent contamination, and crawl space damage. Pet food left outdoors should always be brought in at night to reduce opossum (and raccoon) attraction."
+        }
       ]
     },
     "mole-removal": {
       "intro": "Eastern moles damage the manicured lawns throughout Smyrna's residential neighborhoods, with the heaviest call volume from the irrigated yards in West Smyrna and Vinings, and from the lawns of the inner Market Village area. Smyrna's red clay soils, mature canopy, and routine irrigation create ideal earthworm density — and earthworms are what moles primarily eat. Tunnel ridges become visible after rain when the surface heaves. Trapping is the only durable control. Grub treatments don't reduce mole activity meaningfully. Smyrna lawns typically resolve within 1–2 weeks of trap placement, with monitoring for reinvasion in subsequent months.",
       "faqs": [
-        { "q": "Why are moles such a problem in Smyrna lawns?", "a": "Smyrna's irrigated red-clay soils sustain very high earthworm populations, which is the primary mole food source. Mature oak-hickory canopy and routine fall leaf cover further enrich soil. The result is ideal mole habitat across most Smyrna residential lawns." },
-        { "q": "Will repellents stop moles in Smyrna?", "a": "Generally not. Mole repellents — castor oil products, sonic spikes, gum, mothballs — show inconsistent results in real-world Smyrna lawns. Trapping at active runs is the only method that reliably reduces mole damage. Most lawns recover surface appearance within 2–3 weeks of removal." }
+        {
+          "q": "Why are moles such a problem in Smyrna lawns?",
+          "a": "Smyrna's irrigated red-clay soils sustain very high earthworm populations, which is the primary mole food source. Mature oak-hickory canopy and routine fall leaf cover further enrich soil. The result is ideal mole habitat across most Smyrna residential lawns."
+        },
+        {
+          "q": "Will repellents stop moles in Smyrna?",
+          "a": "Generally not. Mole repellents — castor oil products, sonic spikes, gum, mothballs — show inconsistent results in real-world Smyrna lawns. Trapping at active runs is the only method that reliably reduces mole damage. Most lawns recover surface appearance within 2–3 weeks of removal."
+        }
       ]
     },
     "dead-animal-removal": {
       "intro": "Dead animal calls in Smyrna typically involve raccoons or rats inside walls or attics of post-war ranches, opossums under decks of the Market Village neighborhoods, or carcasses in crawl spaces across West Smyrna. The Cumberland/Galleria commercial corridor sustains a Norway rat population that periodically dies inside adjacent residential structures. Smyrna's humid summers accelerate decomposition odor — odor from a single animal can permeate a ranch home within 48 hours. Locating the carcass often requires opening drywall, removing soffit panels, or accessing crawl spaces. Same-day service is standard. Enzymatic odor treatment is included after physical removal.",
       "faqs": [
-        { "q": "How do I find a dead animal smell in my Smyrna home?", "a": "Follow the strongest odor through the home — concentrate where the smell intensifies. In Smyrna ranches, common locations are wall cavities, attic insulation, crawl space corners, and HVAC duct interiors. A trained contractor uses thermal and physical inspection to pinpoint the carcass quickly." },
-        { "q": "Will the odor go away on its own in Smyrna?", "a": "Eventually — but it can take 4–6 weeks in Smyrna's humid climate, during which time the home is hard to occupy and decomposition fluids can damage drywall and insulation. Professional removal plus enzymatic treatment clears odor within days, not weeks." }
+        {
+          "q": "How do I find a dead animal smell in my Smyrna home?",
+          "a": "Follow the strongest odor through the home — concentrate where the smell intensifies. In Smyrna ranches, common locations are wall cavities, attic insulation, crawl space corners, and HVAC duct interiors. A trained contractor uses thermal and physical inspection to pinpoint the carcass quickly."
+        },
+        {
+          "q": "Will the odor go away on its own in Smyrna?",
+          "a": "Eventually — but it can take 4–6 weeks in Smyrna's humid climate, during which time the home is hard to occupy and decomposition fluids can damage drywall and insulation. Professional removal plus enzymatic treatment clears odor within days, not weeks."
+        }
       ]
     }
   },
@@ -147,71 +420,131 @@
     "raccoon-removal": {
       "intro": "Raccoons are a constant nuisance in Kennesaw's subdivisions ringing the Kennesaw Mountain National Battlefield Park — the 2,900-acre wooded preserve serves as a wildlife corridor that pushes raccoons directly into adjacent residential neighborhoods along the Stilesboro Road and Burnt Hickory areas. The 1980s and 1990s subdivisions ringing the mountain have aging soffits and roof flashing that give raccoons easy attic access. February through April is peak denning season as females seek attic birthing sites. Trash and pet food management is critical for Kennesaw homeowners — the park-edge populations are conditioned to residential food sources and roundworm contamination is a documented concern.",
       "faqs": [
-        { "q": "Why are raccoons worse near Kennesaw Mountain?", "a": "The Kennesaw Mountain National Battlefield Park maintains higher raccoon densities than typical urban parks. Animals move freely between the park and adjacent yards looking for food and den sites. Homes within a quarter mile of the park boundary see the highest raccoon call volume in Cobb County." },
-        { "q": "How do I keep raccoons out of my Kennesaw trash?", "a": "Switch to a heavy-duty trash bin with a locking lid rated for wildlife. Keep bins inside the garage until pickup morning. Pet food should never be left outdoors overnight. These three changes alone significantly reduce raccoon pressure on Kennesaw homes near the park." }
+        {
+          "q": "Why are raccoons worse near Kennesaw Mountain?",
+          "a": "The Kennesaw Mountain National Battlefield Park maintains higher raccoon densities than typical urban parks. Animals move freely between the park and adjacent yards looking for food and den sites. Homes within a quarter mile of the park boundary see the highest raccoon call volume in Cobb County."
+        },
+        {
+          "q": "How do I keep raccoons out of my Kennesaw trash?",
+          "a": "Switch to a heavy-duty trash bin with a locking lid rated for wildlife. Keep bins inside the garage until pickup morning. Pet food should never be left outdoors overnight. These three changes alone significantly reduce raccoon pressure on Kennesaw homes near the park."
+        }
       ]
     },
     "squirrel-removal": {
       "intro": "Eastern gray squirrels are a constant attic intruder across Kennesaw's 1980s and 1990s subdivisions, with the heaviest call volume in the homes ringing Kennesaw Mountain National Battlefield Park where the wooded park boundary feeds continuous squirrel populations into adjacent residential neighborhoods. Squirrels chew through soffit returns, gable vent screens, and roof flashing — once inside, they damage wiring and shred insulation aggressively. Kennesaw's two breeding peaks (February–April and August–September) drive twin call surges. Most jobs in Kennesaw involve sealing 3–5 entry points, with particular attention to homes within a quarter mile of the park boundary where pressure is highest.",
       "faqs": [
-        { "q": "Why are squirrels so common in Kennesaw subdivisions?", "a": "The Kennesaw Mountain National Battlefield Park sustains continuous squirrel populations that disperse into adjacent neighborhoods. The 1980s and 1990s subdivisions ringing the park have aging soffits and roof flashing that provide easy attic access. Pressure is highest within a quarter mile of the park boundary." },
-        { "q": "Should I trap squirrels myself in Kennesaw?", "a": "Georgia requires a Trapping License for nuisance wildlife work. Beyond the legal requirement, single-point trapping without exclusion almost always results in re-infestation within months — other squirrels exploit the same entry points. Licensed contractors handle trapping plus full exclusion." }
+        {
+          "q": "Why are squirrels so common in Kennesaw subdivisions?",
+          "a": "The Kennesaw Mountain National Battlefield Park sustains continuous squirrel populations that disperse into adjacent neighborhoods. The 1980s and 1990s subdivisions ringing the park have aging soffits and roof flashing that provide easy attic access. Pressure is highest within a quarter mile of the park boundary."
+        },
+        {
+          "q": "Should I trap squirrels myself in Kennesaw?",
+          "a": "Georgia requires a Trapping License for nuisance wildlife work. Beyond the legal requirement, single-point trapping without exclusion almost always results in re-infestation within months — other squirrels exploit the same entry points. Licensed contractors handle trapping plus full exclusion."
+        }
       ]
     },
     "bat-removal": {
       "intro": "Big brown bat colonies form in Kennesaw's 1980s and 1990s subdivision homes that ring Kennesaw Mountain National Battlefield Park, particularly those with original soffit construction and unscreened gable vents. Detached garages and outbuildings throughout Kennesaw also host smaller bat roosts. The wooded park boundary provides ideal foraging habitat that supports nearby colonies, and once established, females return to the same Kennesaw structure every May through August during maternity season. Georgia DNR prohibits exclusion during that window. The optimal exclusion period in Kennesaw is September through early April, with HEPA-filtered guano cleanup and attic decontamination almost always required afterward.",
       "faqs": [
-        { "q": "Why are bats common around Kennesaw Mountain?", "a": "The 2,900-acre battlefield park provides abundant insect foraging habitat, supporting larger bat populations than typical suburban areas. Adjacent homes with structural roost access become attractive maternity sites. Most Kennesaw colonies are big brown bats, occasionally evening bats." },
-        { "q": "Can I do bat exclusion myself in Kennesaw?", "a": "No — bat exclusion requires Georgia-specific timing knowledge, proper one-way exclusion device installation, and post-exclusion verification that the colony has fully departed before sealing. Improper DIY exclusion frequently traps pups inside the structure, which is illegal and creates a worse problem." }
+        {
+          "q": "Why are bats common around Kennesaw Mountain?",
+          "a": "The 2,900-acre battlefield park provides abundant insect foraging habitat, supporting larger bat populations than typical suburban areas. Adjacent homes with structural roost access become attractive maternity sites. Most Kennesaw colonies are big brown bats, occasionally evening bats."
+        },
+        {
+          "q": "Can I do bat exclusion myself in Kennesaw?",
+          "a": "No — bat exclusion requires Georgia-specific timing knowledge, proper one-way exclusion device installation, and post-exclusion verification that the colony has fully departed before sealing. Improper DIY exclusion frequently traps pups inside the structure, which is illegal and creates a worse problem."
+        }
       ]
     },
     "snake-removal": {
       "intro": "Snake calls in Kennesaw concentrate around homes adjacent to Kennesaw Mountain National Battlefield Park — the 2,900-acre wooded preserve maintains substantially higher reptile densities than typical urban areas, and snakes disperse into adjacent yards in spring and fall. Rat snakes are the dominant call and are non-venomous, but copperhead encounters genuinely occur in Kennesaw's park-adjacent stone walls, woodpiles, and shaded landscape edges. The Stilesboro Road and Burnt Hickory subdivisions see the highest call volume. Kennesaw State University campus surroundings also produce regular snake calls. Never attempt to handle or identify a snake — call a licensed contractor for any encounter.",
       "faqs": [
-        { "q": "Are copperheads in Kennesaw Mountain neighborhoods?", "a": "Yes, copperheads do occur in Kennesaw, particularly in homes adjacent to the battlefield park boundary. Stone retaining walls, woodpiles, and shaded landscape edges are typical hiding spots. Always have a professional identify any snake before any handling — Georgia rat snakes can mimic copperhead coloration." },
-        { "q": "How do snakes get into Kennesaw homes?", "a": "Foundation cracks, garage door seal gaps, dryer vent openings, and crawl space accesses are the typical entry points. Kennesaw's park-edge subdivisions see snake intrusion pressure concentrated on homes with open soil contact and woodpile accumulation. Exclusion is essentially a foundation and seal inspection." }
+        {
+          "q": "Are copperheads in Kennesaw Mountain neighborhoods?",
+          "a": "Yes, copperheads do occur in Kennesaw, particularly in homes adjacent to the battlefield park boundary. Stone retaining walls, woodpiles, and shaded landscape edges are typical hiding spots. Always have a professional identify any snake before any handling — Georgia rat snakes can mimic copperhead coloration."
+        },
+        {
+          "q": "How do snakes get into Kennesaw homes?",
+          "a": "Foundation cracks, garage door seal gaps, dryer vent openings, and crawl space accesses are the typical entry points. Kennesaw's park-edge subdivisions see snake intrusion pressure concentrated on homes with open soil contact and woodpile accumulation. Exclusion is essentially a foundation and seal inspection."
+        }
       ]
     },
     "groundhog-removal": {
       "intro": "Groundhogs are uncommon in Kennesaw — most calls turn out on inspection to be armadillo damage, which is now established across Cobb County. When woodchucks are confirmed, they tend to occur on the wooded outer edges of subdivisions adjacent to Kennesaw Mountain National Battlefield Park where there's both undisturbed soil for burrows and forage. Burrows undermine sheds, garden structures, and occasionally building foundations. Trapping with cage traps placed at burrow entrances is the standard removal. A licensed contractor can confirm species through tracks, scat, and burrow morphology before any work begins.",
       "faqs": [
-        { "q": "Is the digging in my Kennesaw yard a groundhog?", "a": "Probably not. Most Kennesaw calls labeled as groundhog turn out to be armadillo lawn damage. Armadillos leave shallow rooted-up patches scattered across the lawn; groundhogs leave large 8–12 inch burrow entrances with mounded soil. A site inspection confirms species before any work." },
-        { "q": "Where are groundhogs found in Kennesaw?", "a": "When present, groundhogs in Kennesaw concentrate on the wooded edges adjacent to the battlefield park where ground cover and undisturbed soil support denning. They're rare in the densely developed subdivisions further from the park boundary." }
+        {
+          "q": "Is the digging in my Kennesaw yard a groundhog?",
+          "a": "Probably not. Most Kennesaw calls labeled as groundhog turn out to be armadillo lawn damage. Armadillos leave shallow rooted-up patches scattered across the lawn; groundhogs leave large 8–12 inch burrow entrances with mounded soil. A site inspection confirms species before any work."
+        },
+        {
+          "q": "Where are groundhogs found in Kennesaw?",
+          "a": "When present, groundhogs in Kennesaw concentrate on the wooded edges adjacent to the battlefield park where ground cover and undisturbed soil support denning. They're rare in the densely developed subdivisions further from the park boundary."
+        }
       ]
     },
     "bird-removal": {
       "intro": "Bird control calls in Kennesaw focus on feral pigeons in the downtown Kennesaw historic district and the Kennesaw State University campus surroundings, European starlings nesting in dryer vents and gable vents of the 1980s and 1990s subdivision homes, and house sparrows entering bathroom exhausts and unscreened attic vents. Pigeon droppings on downtown Kennesaw masonry cause acid damage and pose histoplasmosis exposure risk. Starling nests block ventilation and create dryer fire hazards. Exclusion with rated screened metal vent caps, deterrent spikes on commercial ledges, and netting on architectural recesses is the durable fix.",
       "faqs": [
-        { "q": "How do I keep starlings out of Kennesaw vents?", "a": "Replace standard plastic flap dryer vents with metal screened vent caps rated for bird exclusion. Inspect bathroom exhausts, attic gable vents, and any other exterior penetration. Once a starling nests, the duct must be cleaned to prevent dryer fire risk." },
-        { "q": "What about pigeons in downtown Kennesaw?", "a": "Commercial pigeon control around downtown Kennesaw and the KSU campus area requires spikes on ledges, netting on architectural recesses, and exclusion of attic-access points. Cleanup of accumulated droppings is a separate scope and may require lift access." }
+        {
+          "q": "How do I keep starlings out of Kennesaw vents?",
+          "a": "Replace standard plastic flap dryer vents with metal screened vent caps rated for bird exclusion. Inspect bathroom exhausts, attic gable vents, and any other exterior penetration. Once a starling nests, the duct must be cleaned to prevent dryer fire risk."
+        },
+        {
+          "q": "What about pigeons in downtown Kennesaw?",
+          "a": "Commercial pigeon control around downtown Kennesaw and the KSU campus area requires spikes on ledges, netting on architectural recesses, and exclusion of attic-access points. Cleanup of accumulated droppings is a separate scope and may require lift access."
+        }
       ]
     },
     "skunk-removal": {
       "intro": "Striped skunks shelter under sheds, decks, and crawl spaces of Kennesaw's 1980s and 1990s subdivision homes, particularly those adjacent to the wooded edges of Kennesaw Mountain National Battlefield Park. Spring is peak removal season as females establish dens before giving birth. Skunks dig characteristic cone-shaped holes in lawns searching for grubs. Spray events permeate poorly sealed crawl spaces and pull through HVAC returns. Skunks are rabies vector species in Georgia — never attempt removal yourself. Licensed Kennesaw contractors handle relocation under Georgia DNR permits, followed by exclusion of every den site to prevent reinvasion.",
       "faqs": [
-        { "q": "Why are there cone-shaped holes in my Kennesaw lawn?", "a": "Skunks dig small cone-shaped holes 2–3 inches deep searching for grubs and earthworms. The holes appear overnight and concentrate in irrigated lawn areas. This is distinctly different from armadillo rooting (broad shallow patches) and groundhog burrows (large entrance holes)." },
-        { "q": "Can I trap a skunk myself in Kennesaw?", "a": "No — skunks are a rabies vector species in Georgia, and unlicensed trapping carries health and legal risks. Licensed contractors handle skunk trapping under Georgia DNR permits with proper PPE. DIY trapping frequently results in spray events that permeate the home." }
+        {
+          "q": "Why are there cone-shaped holes in my Kennesaw lawn?",
+          "a": "Skunks dig small cone-shaped holes 2–3 inches deep searching for grubs and earthworms. The holes appear overnight and concentrate in irrigated lawn areas. This is distinctly different from armadillo rooting (broad shallow patches) and groundhog burrows (large entrance holes)."
+        },
+        {
+          "q": "Can I trap a skunk myself in Kennesaw?",
+          "a": "No — skunks are a rabies vector species in Georgia, and unlicensed trapping carries health and legal risks. Licensed contractors handle skunk trapping under Georgia DNR permits with proper PPE. DIY trapping frequently results in spray events that permeate the home."
+        }
       ]
     },
     "opossum-removal": {
       "intro": "Virginia opossums shelter under decks, porches, and sheds across Kennesaw's residential housing stock, with the heaviest call volume in the 1980s and 1990s subdivisions ringing Kennesaw Mountain National Battlefield Park. The park-edge wildlife corridor pushes additional opossum pressure into adjacent neighborhoods. Females raise young in spring, making March through May peak removal season. Beyond denning, opossums bring fleas and ticks into yards and contaminate crawl spaces. Trapping is the standard removal method, followed by exclusion of every potential den site. Without exclusion, the same site attracts a new opossum within weeks of removal.",
       "faqs": [
-        { "q": "Are opossums dangerous to pets in Kennesaw?", "a": "Opossums rarely fight — they play dead. The real risks are flea and tick transfer to pets, scent contamination, and crawl space waste. Pet food left outdoors at night significantly increases opossum (and raccoon) attraction across all Kennesaw subdivisions." },
-        { "q": "How do I keep opossums out from under my Kennesaw deck?", "a": "Heavy-gauge wire mesh buried 12 inches below grade and extending to the deck joists is the standard exclusion. Kennesaw's park-edge subdivisions often need particular attention given continuous opossum pressure from the battlefield boundary. Repellents alone are not durable." }
+        {
+          "q": "Are opossums dangerous to pets in Kennesaw?",
+          "a": "Opossums rarely fight — they play dead. The real risks are flea and tick transfer to pets, scent contamination, and crawl space waste. Pet food left outdoors at night significantly increases opossum (and raccoon) attraction across all Kennesaw subdivisions."
+        },
+        {
+          "q": "How do I keep opossums out from under my Kennesaw deck?",
+          "a": "Heavy-gauge wire mesh buried 12 inches below grade and extending to the deck joists is the standard exclusion. Kennesaw's park-edge subdivisions often need particular attention given continuous opossum pressure from the battlefield boundary. Repellents alone are not durable."
+        }
       ]
     },
     "mole-removal": {
       "intro": "Eastern moles damage manicured lawns throughout Kennesaw's residential subdivisions, with the heaviest call volume from the irrigated yards in the subdivisions ringing Kennesaw Mountain National Battlefield Park and the residential lawns surrounding the Kennesaw State University campus. Kennesaw's red clay soils, mature canopy, and routine irrigation create ideal earthworm density, which is the primary mole food source. Tunnel ridges become visible after rain. Trapping is the only durable control — grub treatments, sonic devices, and repellents rarely work because moles eat earthworms primarily. Most Kennesaw lawns resolve within 1–2 weeks of trap placement.",
       "faqs": [
-        { "q": "Why don't grub treatments work for Kennesaw moles?", "a": "Moles primarily eat earthworms, not grubs. Grub control products kill grubs but don't reduce earthworm density — and earthworms are the actual mole food source in Kennesaw's red clay soils. Trapping is the only proven method that reliably reduces mole damage." },
-        { "q": "How quickly will my Kennesaw lawn recover?", "a": "Surface tunnels typically settle within 2–3 weeks of mole removal once trampled or rolled flat. Heavily damaged lawns may need overseeding in fall to fully recover. Monitoring for reinvasion in following months catches new mole activity early." }
+        {
+          "q": "Why don't grub treatments work for Kennesaw moles?",
+          "a": "Moles primarily eat earthworms, not grubs. Grub control products kill grubs but don't reduce earthworm density — and earthworms are the actual mole food source in Kennesaw's red clay soils. Trapping is the only proven method that reliably reduces mole damage."
+        },
+        {
+          "q": "How quickly will my Kennesaw lawn recover?",
+          "a": "Surface tunnels typically settle within 2–3 weeks of mole removal once trampled or rolled flat. Heavily damaged lawns may need overseeding in fall to fully recover. Monitoring for reinvasion in following months catches new mole activity early."
+        }
       ]
     },
     "dead-animal-removal": {
       "intro": "Dead animal calls in Kennesaw typically involve raccoons or opossums in attics and crawl spaces of subdivision homes ringing Kennesaw Mountain National Battlefield Park, road-killed park wildlife along Burnt Hickory and Stilesboro Road shoulders, and rats inside walls of older homes throughout the area. Decomposition odor in Kennesaw's humid climate is intense and can permeate homes within days. Locating the carcass often requires opening drywall, removing soffit panels, or accessing crawl spaces. Same-day service is standard. Enzymatic odor treatment is included after physical removal — masking sprays don't address the source.",
       "faqs": [
-        { "q": "Why is the dead animal smell so strong in my Kennesaw home?", "a": "Kennesaw's humid summer climate accelerates decomposition. A single deceased raccoon in an attic can permeate the entire home within 48 hours. The smell only fully clears with physical removal of the carcass and treatment of surrounding contaminated insulation or material." },
-        { "q": "Can you find a dead animal in a Kennesaw wall?", "a": "Yes. Locating a carcass inside a wall requires methodical inspection — sometimes including small drywall access cuts — followed by removal and enzymatic treatment of the surrounding cavity. Most Kennesaw calls take 1–3 hours and include patching of any access openings." }
+        {
+          "q": "Why is the dead animal smell so strong in my Kennesaw home?",
+          "a": "Kennesaw's humid summer climate accelerates decomposition. A single deceased raccoon in an attic can permeate the entire home within 48 hours. The smell only fully clears with physical removal of the carcass and treatment of surrounding contaminated insulation or material."
+        },
+        {
+          "q": "Can you find a dead animal in a Kennesaw wall?",
+          "a": "Yes. Locating a carcass inside a wall requires methodical inspection — sometimes including small drywall access cuts — followed by removal and enzymatic treatment of the surrounding cavity. Most Kennesaw calls take 1–3 hours and include patching of any access openings."
+        }
       ]
     }
   },
@@ -219,71 +552,131 @@
     "raccoon-removal": {
       "intro": "Raccoons are a constant call in Acworth, particularly at lakefront properties around Lake Allatoona and Lake Acworth where dock structures, boat houses, and crawl spaces of older lake-area homes provide ideal denning. The 1970s and 1980s lakeshore housing stock has aging deck structures and gaps in original soffit construction that give raccoons easy access. February through April is peak attic-denning season. Lakefront trash and food waste from boating activity sustain heavy raccoon populations year-round. Roundworm contamination of attic insulation requires professional remediation after every Acworth raccoon removal — the health risk is real and well-documented.",
       "faqs": [
-        { "q": "Are raccoons in Acworth boat houses common?", "a": "Yes — boat houses and dock structures around Lake Allatoona are prime raccoon denning sites. Older boat houses with wood frame construction, accessible attic spaces, and stored boat cushions provide ideal cover. Inspection of all lake-adjacent structures is recommended every spring." },
-        { "q": "How do raccoons get into Acworth lake homes?", "a": "Most Acworth lake homes have at least one of: aging deck access, original soffit gaps, unscreened crawl space vents, or chimney access. Raccoons exploit any gap larger than 4 inches. Lake-area homes also see particular pressure on dock-adjacent storage and boat house structures." }
+        {
+          "q": "Are raccoons in Acworth boat houses common?",
+          "a": "Yes — boat houses and dock structures around Lake Allatoona are prime raccoon denning sites. Older boat houses with wood frame construction, accessible attic spaces, and stored boat cushions provide ideal cover. Inspection of all lake-adjacent structures is recommended every spring."
+        },
+        {
+          "q": "How do raccoons get into Acworth lake homes?",
+          "a": "Most Acworth lake homes have at least one of: aging deck access, original soffit gaps, unscreened crawl space vents, or chimney access. Raccoons exploit any gap larger than 4 inches. Lake-area homes also see particular pressure on dock-adjacent storage and boat house structures."
+        }
       ]
     },
     "squirrel-removal": {
       "intro": "Eastern gray squirrels are a constant attic intruder across Acworth's lakeside subdivisions and downtown historic core, with mature canopy throughout the Lake Acworth shoreline neighborhoods giving direct roof access. The 1970s and 1980s lake-area homes have aging soffit construction that provides multiple potential entry points per house. Squirrels chew through soffit returns, gable vent screens, and roof flashing — once inside, they damage wiring and shred insulation aggressively. Acworth's two breeding peaks (February–April and August–September) drive twin call surges, with cool-weather attic-seeking adding a third intrusion window in November.",
       "faqs": [
-        { "q": "Why are squirrels in my Acworth attic right now?", "a": "Acworth's two squirrel breeding seasons are February–April (spring litter) and August–September (fall litter). Cool weather in November also drives attic-seeking activity. Most squirrel calls cluster in these three windows. Attic noise during these months almost always means active nesting." },
-        { "q": "How much does squirrel exclusion cost in Acworth?", "a": "Trapping plus full exclusion typically runs $500–$1,200 in Acworth depending on the number of entry points. Older lake-area homes often need 4–6 sealing locations to prevent re-entry. Cheaper one-point removal almost always results in re-infestation within months." }
+        {
+          "q": "Why are squirrels in my Acworth attic right now?",
+          "a": "Acworth's two squirrel breeding seasons are February–April (spring litter) and August–September (fall litter). Cool weather in November also drives attic-seeking activity. Most squirrel calls cluster in these three windows. Attic noise during these months almost always means active nesting."
+        },
+        {
+          "q": "How much does squirrel exclusion cost in Acworth?",
+          "a": "Trapping plus full exclusion typically runs $500–$1,200 in Acworth depending on the number of entry points. Older lake-area homes often need 4–6 sealing locations to prevent re-entry. Cheaper one-point removal almost always results in re-infestation within months."
+        }
       ]
     },
     "bat-removal": {
       "intro": "Big brown bat colonies form in Acworth's older lakefront homes and boat houses around Lake Allatoona and Lake Acworth — wooden boat house construction, accessible roost spaces, and proximity to lake foraging habitat make these structures particularly attractive maternity sites. Downtown Acworth's 19th-century historic core also hosts persistent colonies in its older masonry buildings. Once established, females return to the same Acworth structure every May through August during maternity season. Georgia DNR prohibits exclusion during the maternity window. The optimal exclusion period in Acworth is September through early April, with HEPA-filtered guano cleanup almost always required afterward.",
       "faqs": [
-        { "q": "Why are bats common in Acworth boat houses?", "a": "Big brown bats favor enclosed wooden structures near water — Acworth's Lake Allatoona and Lake Acworth boat houses offer ideal roost conditions and abundant insect foraging immediately adjacent. Once established, colonies return to the same boat house every summer maternity season." },
-        { "q": "When can bats be removed from Acworth homes?", "a": "September through early April. Georgia DNR prohibits bat exclusion May through August during maternity season. We can inspect, locate entry points, and prepare exclusion materials during the closed window so work begins on September 1st." }
+        {
+          "q": "Why are bats common in Acworth boat houses?",
+          "a": "Big brown bats favor enclosed wooden structures near water — Acworth's Lake Allatoona and Lake Acworth boat houses offer ideal roost conditions and abundant insect foraging immediately adjacent. Once established, colonies return to the same boat house every summer maternity season."
+        },
+        {
+          "q": "When can bats be removed from Acworth homes?",
+          "a": "September through early April. Georgia DNR prohibits bat exclusion May through August during maternity season. We can inspect, locate entry points, and prepare exclusion materials during the closed window so work begins on September 1st."
+        }
       ]
     },
     "snake-removal": {
       "intro": "Snake calls in Acworth concentrate along the Lake Allatoona and Lake Acworth shorelines and in the wooded subdivisions on the outer edges of the city. Northern water snakes are the dominant call at lakefront properties — non-venomous and harmless but unwelcome in boat houses, around docks, and in shoreline yards. Rat snakes are common in the wooded subdivisions and around the historic downtown core. Copperhead encounters do occur in the wooded outer edges of Acworth, particularly near rocky lakeshore areas and woodpiles. Spring through fall is peak activity. Never attempt to handle or identify a snake — always call a licensed contractor.",
       "faqs": [
-        { "q": "Are water snakes dangerous in Acworth?", "a": "Northern water snakes around Lake Allatoona and Lake Acworth are non-venomous but defensive when cornered. They're frequently mistaken for cottonmouths (water moccasins), which are extremely rare this far north in Georgia. A licensed contractor confirms identification before any handling." },
-        { "q": "How do I keep snakes out of my Acworth boat house?", "a": "Boat houses concentrate snake activity given the cover and rodent prey. Sealing foundation gaps, removing accumulated debris, and keeping boat house floors clear reduces but doesn't eliminate snake activity. Periodic inspection by a licensed contractor catches issues before they escalate." }
+        {
+          "q": "Are water snakes dangerous in Acworth?",
+          "a": "Northern water snakes around Lake Allatoona and Lake Acworth are non-venomous but defensive when cornered. They're frequently mistaken for cottonmouths (water moccasins), which are extremely rare this far north in Georgia. A licensed contractor confirms identification before any handling."
+        },
+        {
+          "q": "How do I keep snakes out of my Acworth boat house?",
+          "a": "Boat houses concentrate snake activity given the cover and rodent prey. Sealing foundation gaps, removing accumulated debris, and keeping boat house floors clear reduces but doesn't eliminate snake activity. Periodic inspection by a licensed contractor catches issues before they escalate."
+        }
       ]
     },
     "groundhog-removal": {
       "intro": "Groundhogs are uncommon in Acworth — Cobb County sits at the southern edge of woodchuck range, and most Acworth calls labeled as groundhog turn out to be armadillo damage. When woodchucks are confirmed, they tend to occur on the wooded outer edges of subdivisions or older rural-edge lots where there's both forage and undisturbed soil for burrows. Burrows undermine sheds, foundations, and garden structures. Trapping with cage traps placed at burrow entrances is the standard removal method. Species confirmation by a licensed contractor before work is essential — armadillo and groundhog damage and removal techniques are entirely different.",
       "faqs": [
-        { "q": "Is the digging in my Acworth lawn an armadillo or a groundhog?", "a": "Almost certainly an armadillo if it's broad shallow rooted-up patches scattered across the yard. Groundhogs leave large 8–12 inch burrow entrances with mounded soil. Site inspection confirms species before any work — the removal techniques and pricing differ significantly." },
-        { "q": "Where are groundhogs found in Acworth?", "a": "When present, groundhogs in Acworth concentrate on rural-edge older lots and the wooded outer subdivisions where ground cover and undisturbed soil support denning. They're rare in the developed lakeshore neighborhoods and downtown historic core." }
+        {
+          "q": "Is the digging in my Acworth lawn an armadillo or a groundhog?",
+          "a": "Almost certainly an armadillo if it's broad shallow rooted-up patches scattered across the yard. Groundhogs leave large 8–12 inch burrow entrances with mounded soil. Site inspection confirms species before any work — the removal techniques and pricing differ significantly."
+        },
+        {
+          "q": "Where are groundhogs found in Acworth?",
+          "a": "When present, groundhogs in Acworth concentrate on rural-edge older lots and the wooded outer subdivisions where ground cover and undisturbed soil support denning. They're rare in the developed lakeshore neighborhoods and downtown historic core."
+        }
       ]
     },
     "bird-removal": {
       "intro": "Bird control calls in Acworth focus on Canada goose congregation on lakefront lawns and parks around Lake Allatoona and Lake Acworth, feral pigeons in the downtown Acworth historic district, European starlings nesting in dryer and gable vents of subdivision homes, and house sparrows in bathroom exhausts. Canada goose droppings on lakefront lawns are a persistent property issue. Pigeon droppings on downtown masonry cause acid damage. Exclusion with rated metal vent caps for starlings, deterrent installations on commercial ledges, and goose-specific deterrents (visual, acoustic, habitat modification) is the durable approach.",
       "faqs": [
-        { "q": "How do I get rid of Canada geese in my Acworth yard?", "a": "Canada goose deterrence on lakefront lawns combines visual deterrents (predator silhouettes, flagging), acoustic deterrents, and habitat modification (taller grass strips along the shoreline to interrupt their preferred lawn-to-water sightline). Lethal control requires federal permits and is generally not necessary." },
-        { "q": "What about pigeons in downtown Acworth?", "a": "Commercial pigeon control around downtown Acworth requires a combination of spikes on ledges, netting on architectural recesses, and exclusion of any access points to attic spaces. Cleanup of accumulated droppings on historic masonry is a separate scope." }
+        {
+          "q": "How do I get rid of Canada geese in my Acworth yard?",
+          "a": "Canada goose deterrence on lakefront lawns combines visual deterrents (predator silhouettes, flagging), acoustic deterrents, and habitat modification (taller grass strips along the shoreline to interrupt their preferred lawn-to-water sightline). Lethal control requires federal permits and is generally not necessary."
+        },
+        {
+          "q": "What about pigeons in downtown Acworth?",
+          "a": "Commercial pigeon control around downtown Acworth requires a combination of spikes on ledges, netting on architectural recesses, and exclusion of any access points to attic spaces. Cleanup of accumulated droppings on historic masonry is a separate scope."
+        }
       ]
     },
     "skunk-removal": {
       "intro": "Striped skunks shelter under decks, sheds, and boat houses across Acworth's lakefront and subdivision housing stock. Lake Allatoona and Lake Acworth shoreline properties see particular pressure given the abundance of detached storage and dock structures. Spring is peak removal season as females establish dens before giving birth. Skunks dig characteristic cone-shaped holes in lawns searching for grubs. Spray events permeate poorly sealed crawl spaces and pull through HVAC returns. Skunks are rabies vector species in Georgia — never attempt removal yourself. Licensed contractors handle relocation under Georgia DNR permits.",
       "faqs": [
-        { "q": "Why are skunks under my Acworth boat house?", "a": "Boat houses with raised wood frame construction provide ideal denning — sheltered, dry, and free from disturbance. Acworth lakefront properties see particular skunk pressure given the abundance of detached structures. Exclusion of all denning sites is essential after removal." },
-        { "q": "How do I get rid of skunk smell in my Acworth home?", "a": "Skunk spray under a poorly sealed crawl space or boat house gets pulled into adjacent residential space through HVAC returns. Treatment combines crawl space sealing, enzymatic odor neutralization, and HVAC filter replacement. Lake-area homes with original ductwork need particular attention." }
+        {
+          "q": "Why are skunks under my Acworth boat house?",
+          "a": "Boat houses with raised wood frame construction provide ideal denning — sheltered, dry, and free from disturbance. Acworth lakefront properties see particular skunk pressure given the abundance of detached structures. Exclusion of all denning sites is essential after removal."
+        },
+        {
+          "q": "How do I get rid of skunk smell in my Acworth home?",
+          "a": "Skunk spray under a poorly sealed crawl space or boat house gets pulled into adjacent residential space through HVAC returns. Treatment combines crawl space sealing, enzymatic odor neutralization, and HVAC filter replacement. Lake-area homes with original ductwork need particular attention."
+        }
       ]
     },
     "opossum-removal": {
       "intro": "Virginia opossums shelter under decks, porches, sheds, and boat houses across Acworth's lakefront and subdivision housing stock. The lakeshore neighborhoods around Lake Allatoona and Lake Acworth have abundant detached structures that provide ideal denning. Females raise young in spring, making March through May peak removal season. Opossums also exploit pet doors and unsecured boat house storage. Beyond denning, they bring fleas and ticks into yards and contaminate crawl spaces with droppings. Trapping is the standard removal method, followed by exclusion of every potential den site.",
       "faqs": [
-        { "q": "Are opossums in Acworth boat houses dangerous?", "a": "Opossums rarely fight — they play dead. The real risks are flea and tick transfer, scent contamination, and structure damage from droppings. Acworth boat houses with stored cushions and gear see particular fouling issues from opossum activity." },
-        { "q": "How do I exclude opossums from my Acworth deck?", "a": "Heavy-gauge wire mesh buried 12 inches below grade and extending up to the deck joists is the standard exclusion. Acworth lake-area decks often have multiple access points along the joist line — a thorough inspection is needed before sealing." }
+        {
+          "q": "Are opossums in Acworth boat houses dangerous?",
+          "a": "Opossums rarely fight — they play dead. The real risks are flea and tick transfer, scent contamination, and structure damage from droppings. Acworth boat houses with stored cushions and gear see particular fouling issues from opossum activity."
+        },
+        {
+          "q": "How do I exclude opossums from my Acworth deck?",
+          "a": "Heavy-gauge wire mesh buried 12 inches below grade and extending up to the deck joists is the standard exclusion. Acworth lake-area decks often have multiple access points along the joist line — a thorough inspection is needed before sealing."
+        }
       ]
     },
     "mole-removal": {
       "intro": "Eastern moles damage the manicured and irrigated lawns throughout Acworth's residential neighborhoods, with the heaviest call volume from the lakeshore subdivisions around Lake Allatoona and Lake Acworth where lakeside lawns are intensively maintained. Acworth's red clay soils, regular irrigation, and proximity to lake-edge moisture create ideal earthworm density. Tunnel ridges become visible after rain. Trapping is the only durable control — grub treatments, sonic devices, and repellents rarely work because moles eat earthworms primarily. Most Acworth lawns resolve within 1–2 weeks of trap placement, with monitoring for reinvasion in following months.",
       "faqs": [
-        { "q": "Why are moles such a problem at Acworth lake homes?", "a": "Lakefront lawns in Acworth combine intensive irrigation, mature canopy, and ample fall leaf cover — all conditions that boost earthworm density, which is the primary mole food source. Lake-edge soil moisture further enhances habitat. Most Acworth lakeshore lawns experience seasonal mole damage." },
-        { "q": "How long does mole control take in Acworth?", "a": "Most active mole problems are resolved within 1–2 weeks with proper trap placement. Lawns recover surface appearance within 2–3 weeks of removal. Monitoring for reinvasion in subsequent months catches new mole activity from neighboring properties early." }
+        {
+          "q": "Why are moles such a problem at Acworth lake homes?",
+          "a": "Lakefront lawns in Acworth combine intensive irrigation, mature canopy, and ample fall leaf cover — all conditions that boost earthworm density, which is the primary mole food source. Lake-edge soil moisture further enhances habitat. Most Acworth lakeshore lawns experience seasonal mole damage."
+        },
+        {
+          "q": "How long does mole control take in Acworth?",
+          "a": "Most active mole problems are resolved within 1–2 weeks with proper trap placement. Lawns recover surface appearance within 2–3 weeks of removal. Monitoring for reinvasion in subsequent months catches new mole activity from neighboring properties early."
+        }
       ]
     },
     "dead-animal-removal": {
       "intro": "Dead animal calls in Acworth typically involve raccoons or opossums in boat houses around Lake Allatoona and Lake Acworth, carcasses under decks of lakefront and subdivision homes, and rats inside walls of older downtown structures. The combination of lake-area structures, humid climate, and abundant wildlife population creates frequent dead-animal-removal calls year-round. Decomposition odor in Acworth's humid climate is intense and can permeate homes within days. Same-day service is standard. Locating the carcass often requires opening drywall, removing soffit panels, or accessing crawl spaces. Enzymatic odor treatment is included after physical removal.",
       "faqs": [
-        { "q": "Can dead animals in my Acworth boat house damage anything?", "a": "Yes. Decomposition fluids damage wood structures, stored cushions, and gear. Acworth boat houses with carpeting or storage materials can suffer permanent damage if a carcass is not removed promptly. Same-day removal limits the damage." },
-        { "q": "How long does dead animal odor last in an Acworth home?", "a": "In Acworth's humid climate, odor from a decomposing raccoon or opossum can persist 4–6 weeks if untreated. With the carcass removed and surrounding contaminated material treated, odor typically clears within days. Older lake-area homes may need additional HVAC treatment." }
+        {
+          "q": "Can dead animals in my Acworth boat house damage anything?",
+          "a": "Yes. Decomposition fluids damage wood structures, stored cushions, and gear. Acworth boat houses with carpeting or storage materials can suffer permanent damage if a carcass is not removed promptly. Same-day removal limits the damage."
+        },
+        {
+          "q": "How long does dead animal odor last in an Acworth home?",
+          "a": "In Acworth's humid climate, odor from a decomposing raccoon or opossum can persist 4–6 weeks if untreated. With the carcass removed and surrounding contaminated material treated, odor typically clears within days. Older lake-area homes may need additional HVAC treatment."
+        }
       ]
     }
   },
@@ -291,71 +684,131 @@
     "raccoon-removal": {
       "intro": "Raccoons are a constant call in Mableton, particularly in the Riverside neighborhoods along the Chattahoochee River corridor and across the post-war 1960s and 1970s split-level housing stock that dominates the area. The Chattahoochee River National Recreation Area pushes continuous raccoon pressure into adjacent residential subdivisions. February through April is peak attic-denning season. The aging soffits and roof flashing on Mableton's split-level homes provide multiple entry points per house. Trash and pet food management is critical — riverside populations are conditioned to residential food sources. Roundworm contamination of attic insulation requires professional remediation after every Mableton raccoon removal.",
       "faqs": [
-        { "q": "Why are raccoons so common in Mableton?", "a": "The Chattahoochee River corridor along Mableton's southern boundary serves as a wildlife highway, sustaining continuous raccoon populations that move into adjacent neighborhoods. The post-war split-level housing stock has aging soffits and roof flashing that provide easy attic access. Riverside subdivisions see the highest call volume." },
-        { "q": "How do raccoons get into Mableton homes?", "a": "Most Mableton split-level homes have at least one of: aging soffit returns, unscreened gable vents, deteriorated roof flashing, or chimney access. Raccoons climb overhanging trees to reach the roof, then exploit any gap larger than 4 inches. A full roofline inspection is needed to find every potential entry point." }
+        {
+          "q": "Why are raccoons so common in Mableton?",
+          "a": "The Chattahoochee River corridor along Mableton's southern boundary serves as a wildlife highway, sustaining continuous raccoon populations that move into adjacent neighborhoods. The post-war split-level housing stock has aging soffits and roof flashing that provide easy attic access. Riverside subdivisions see the highest call volume."
+        },
+        {
+          "q": "How do raccoons get into Mableton homes?",
+          "a": "Most Mableton split-level homes have at least one of: aging soffit returns, unscreened gable vents, deteriorated roof flashing, or chimney access. Raccoons climb overhanging trees to reach the roof, then exploit any gap larger than 4 inches. A full roofline inspection is needed to find every potential entry point."
+        }
       ]
     },
     "squirrel-removal": {
       "intro": "Eastern gray squirrels intrude into Mableton attics constantly, with the heaviest call volume from the post-war split-level and ranch homes throughout the Mable House area and the Veterans Memorial Highway corridor. Mature oak-hickory canopy across most Mableton residential streets gives squirrels direct roof access. Aging soffit construction on 1960s and 1970s housing provides multiple entry points per house. Squirrels chew through soffit returns, gable vent screens, and roof flashing — once inside, they damage wiring and shred insulation aggressively. Mableton's two breeding peaks (February–April and August–September) drive twin call surges throughout the year.",
       "faqs": [
-        { "q": "Are squirrels in my Mableton attic dangerous?", "a": "Yes — squirrels chew electrical wiring, which is a leading cause of attic fires. They also shred insulation for nesting. Mableton's older split-level homes with aging wiring are particularly vulnerable. Damage compounds quickly: a single litter can destroy a section of insulation in weeks." },
-        { "q": "How much does squirrel removal cost in Mableton?", "a": "Trapping plus full exclusion typically runs $500–$1,200 in Mableton depending on the number of entry points. Older split-level homes often need 4–6 sealing locations to prevent re-entry. One-point removal without exclusion almost always results in re-infestation within months." }
+        {
+          "q": "Are squirrels in my Mableton attic dangerous?",
+          "a": "Yes — squirrels chew electrical wiring, which is a leading cause of attic fires. They also shred insulation for nesting. Mableton's older split-level homes with aging wiring are particularly vulnerable. Damage compounds quickly: a single litter can destroy a section of insulation in weeks."
+        },
+        {
+          "q": "How much does squirrel removal cost in Mableton?",
+          "a": "Trapping plus full exclusion typically runs $500–$1,200 in Mableton depending on the number of entry points. Older split-level homes often need 4–6 sealing locations to prevent re-entry. One-point removal without exclusion almost always results in re-infestation within months."
+        }
       ]
     },
     "bat-removal": {
       "intro": "Big brown bat colonies form in Mableton's older 1960s and 1970s split-level and ranch housing stock — original soffit construction, unscreened gable vents, and deteriorated chimney flashing all provide maternity-roost access. The Chattahoochee River corridor's abundant insect foraging habitat supports nearby colonies, and the older Veterans Memorial Highway commercial structures host smaller bat populations. Once established, females return to the same Mableton structure every May through August during maternity season. Georgia DNR prohibits exclusion during the maternity window. The optimal exclusion period in Mableton is September through early April, with HEPA-filtered guano cleanup almost always required afterward.",
       "faqs": [
-        { "q": "How do I know if I have bats in my Mableton attic?", "a": "Watch for guano accumulating on siding directly below entry points, listen for high-pitched chittering at dusk, and check for staining around soffits. A daytime attic inspection by a licensed contractor confirms colony presence and locates roost concentrations within the structure." },
-        { "q": "Can I do bat exclusion myself in Mableton?", "a": "No — bat exclusion requires Georgia-specific timing, proper one-way exclusion device installation, and post-exclusion verification that the colony has fully departed. Improper DIY exclusion frequently traps pups inside the structure, which is illegal and creates a worse problem." }
+        {
+          "q": "How do I know if I have bats in my Mableton attic?",
+          "a": "Watch for guano accumulating on siding directly below entry points, listen for high-pitched chittering at dusk, and check for staining around soffits. A daytime attic inspection by a licensed contractor confirms colony presence and locates roost concentrations within the structure."
+        },
+        {
+          "q": "Can I do bat exclusion myself in Mableton?",
+          "a": "No — bat exclusion requires Georgia-specific timing, proper one-way exclusion device installation, and post-exclusion verification that the colony has fully departed. Improper DIY exclusion frequently traps pups inside the structure, which is illegal and creates a worse problem."
+        }
       ]
     },
     "snake-removal": {
       "intro": "Snake calls in Mableton concentrate along the Chattahoochee River corridor and around the wooded subdivisions in the Riverside neighborhoods. The Chattahoochee River National Recreation Area maintains substantially higher reptile densities than typical urban areas, and snakes disperse into adjacent yards in spring and fall. Rat snakes are the dominant call and are non-venomous, but copperhead encounters genuinely occur in the wooded riverside subdivisions, particularly near rocky drainage areas and woodpiles. Northern water snakes also occur along the Chattahoochee shoreline. Spring through fall is peak activity. Never attempt to handle or identify a snake — always call a licensed contractor.",
       "faqs": [
-        { "q": "Are snakes in Mableton venomous?", "a": "Most Mableton snake calls are non-venomous rat snakes, but copperheads do occur in the wooded riverside subdivisions, and water snakes (commonly mistaken for cottonmouths) occur along the Chattahoochee. Always have a professional identify any snake before any handling — Georgia rat snakes can mimic copperhead coloration." },
-        { "q": "How do snakes get into Mableton homes?", "a": "Foundation cracks, garage door seal gaps, dryer vent openings, and crawl space accesses are the typical entry points. Mableton's older split-level homes with original construction often have multiple gaps. Snake exclusion is essentially a foundation and seal inspection followed by appropriate sealing." }
+        {
+          "q": "Are snakes in Mableton venomous?",
+          "a": "Most Mableton snake calls are non-venomous rat snakes, but copperheads do occur in the wooded riverside subdivisions, and water snakes (commonly mistaken for cottonmouths) occur along the Chattahoochee. Always have a professional identify any snake before any handling — Georgia rat snakes can mimic copperhead coloration."
+        },
+        {
+          "q": "How do snakes get into Mableton homes?",
+          "a": "Foundation cracks, garage door seal gaps, dryer vent openings, and crawl space accesses are the typical entry points. Mableton's older split-level homes with original construction often have multiple gaps. Snake exclusion is essentially a foundation and seal inspection followed by appropriate sealing."
+        }
       ]
     },
     "groundhog-removal": {
       "intro": "Groundhogs are uncommon in Mableton — Cobb County sits at the southern edge of woodchuck range, and most Mableton calls labeled as groundhog turn out to be armadillo damage. When woodchucks are confirmed, they tend to occur on the wooded outer edges of subdivisions or in older rural-edge lots. Burrows undermine sheds, foundations, and garden structures. Trapping with cage traps placed at burrow entrances is the standard removal method. Species confirmation by a licensed contractor before work is essential — armadillos are far more common in Mableton, particularly in the Chattahoochee corridor neighborhoods, and removal techniques differ entirely.",
       "faqs": [
-        { "q": "Is the digging in my Mableton lawn a groundhog?", "a": "Probably not. Most Mableton calls labeled as groundhog turn out to be armadillo lawn damage, particularly in the Chattahoochee corridor neighborhoods. Armadillos leave shallow rooted-up patches scattered across lawns; groundhogs leave large 8–12 inch burrow entrances with mounded soil." },
-        { "q": "Where would groundhogs be found in Mableton?", "a": "When present, groundhogs in Mableton concentrate on the wooded outer edges of subdivisions and older rural-edge lots where ground cover and undisturbed soil support denning. They're rare in the developed Mable House and Veterans Memorial corridor neighborhoods." }
+        {
+          "q": "Is the digging in my Mableton lawn a groundhog?",
+          "a": "Probably not. Most Mableton calls labeled as groundhog turn out to be armadillo lawn damage, particularly in the Chattahoochee corridor neighborhoods. Armadillos leave shallow rooted-up patches scattered across lawns; groundhogs leave large 8–12 inch burrow entrances with mounded soil."
+        },
+        {
+          "q": "Where would groundhogs be found in Mableton?",
+          "a": "When present, groundhogs in Mableton concentrate on the wooded outer edges of subdivisions and older rural-edge lots where ground cover and undisturbed soil support denning. They're rare in the developed Mable House and Veterans Memorial corridor neighborhoods."
+        }
       ]
     },
     "bird-removal": {
       "intro": "Bird control calls in Mableton focus on feral pigeons in the Veterans Memorial Highway commercial corridor, European starlings nesting in dryer vents and gable vents of the post-war split-level and ranch homes, and house sparrows entering bathroom exhausts and unscreened attic vents. Pigeon droppings on Veterans Memorial commercial buildings cause acid damage to masonry and pose histoplasmosis risk. Starling nests block ventilation and create dryer fire hazards. Exclusion with rated metal vent caps, deterrent spikes on commercial ledges, and netting on architectural recesses is the durable fix throughout Mableton.",
       "faqs": [
-        { "q": "How do I keep starlings out of Mableton vents?", "a": "Replace standard plastic flap dryer vents with metal screened vent caps rated for bird exclusion. Inspect all bathroom exhausts, attic gable vents, and exterior penetrations. Once a starling nests, the duct must be cleaned to prevent dryer fire risk." },
-        { "q": "What about pigeons in the Veterans Memorial corridor?", "a": "Commercial pigeon control along Veterans Memorial Highway requires spikes on ledges, netting on architectural recesses, and exclusion of attic-access points. Cleanup of accumulated droppings is a separate scope and may require lift access for upper-story commercial work." }
+        {
+          "q": "How do I keep starlings out of Mableton vents?",
+          "a": "Replace standard plastic flap dryer vents with metal screened vent caps rated for bird exclusion. Inspect all bathroom exhausts, attic gable vents, and exterior penetrations. Once a starling nests, the duct must be cleaned to prevent dryer fire risk."
+        },
+        {
+          "q": "What about pigeons in the Veterans Memorial corridor?",
+          "a": "Commercial pigeon control along Veterans Memorial Highway requires spikes on ledges, netting on architectural recesses, and exclusion of attic-access points. Cleanup of accumulated droppings is a separate scope and may require lift access for upper-story commercial work."
+        }
       ]
     },
     "skunk-removal": {
       "intro": "Striped skunks shelter under the decks, porches, sheds, and crawl spaces of Mableton's post-war split-level and ranch housing stock. The Chattahoochee corridor and the wooded Riverside subdivisions see particular skunk pressure given the abundance of cover. Spring is peak removal season as females establish dens before giving birth. Skunks dig characteristic cone-shaped holes in lawns searching for grubs. Spray events permeate poorly sealed crawl spaces and pull through HVAC returns. Skunks are rabies vector species in Georgia — never attempt removal yourself. Licensed contractors handle relocation under Georgia DNR permits.",
       "faqs": [
-        { "q": "Why are there cone-shaped holes in my Mableton lawn?", "a": "Skunks dig small cone-shaped holes 2–3 inches deep searching for grubs and earthworms. The holes appear overnight and concentrate in irrigated areas. This is distinctly different from armadillo rooting (broad shallow patches across the lawn) and groundhog burrows (large entrance holes)." },
-        { "q": "Can I trap a skunk myself in Mableton?", "a": "No — skunks are a rabies vector species in Georgia, and unlicensed trapping carries health and legal risks. Licensed contractors handle skunk trapping under Georgia DNR permits with proper PPE. DIY trapping frequently results in spray events that permeate the home." }
+        {
+          "q": "Why are there cone-shaped holes in my Mableton lawn?",
+          "a": "Skunks dig small cone-shaped holes 2–3 inches deep searching for grubs and earthworms. The holes appear overnight and concentrate in irrigated areas. This is distinctly different from armadillo rooting (broad shallow patches across the lawn) and groundhog burrows (large entrance holes)."
+        },
+        {
+          "q": "Can I trap a skunk myself in Mableton?",
+          "a": "No — skunks are a rabies vector species in Georgia, and unlicensed trapping carries health and legal risks. Licensed contractors handle skunk trapping under Georgia DNR permits with proper PPE. DIY trapping frequently results in spray events that permeate the home."
+        }
       ]
     },
     "opossum-removal": {
       "intro": "Virginia opossums shelter under decks, porches, sheds, and crawl spaces across Mableton's residential housing stock. The post-war split-level homes throughout Mable House and the Riverside neighborhoods have raised crawl spaces and detached structures that provide ideal denning. The Chattahoochee corridor pushes additional opossum pressure into adjacent neighborhoods. Females raise young in spring, making March through May peak removal season. Beyond denning, opossums bring fleas and ticks into yards and contaminate crawl spaces with droppings. Trapping is the standard removal method, followed by exclusion of every potential den site.",
       "faqs": [
-        { "q": "Why are opossums under my Mableton deck?", "a": "Mableton's split-level homes typically have raised decks with multiple access points along the joist line. Opossums find these spaces ideal for denning. Without exclusion, the same site attracts a new opossum within weeks of any single removal — exclusion is essential." },
-        { "q": "Are opossums dangerous to pets in Mableton?", "a": "Opossums rarely fight — they play dead. The real risks are flea and tick transfer to pets, scent contamination, and crawl space waste. Pet food left outdoors at night significantly increases opossum (and raccoon) attraction across all Mableton subdivisions." }
+        {
+          "q": "Why are opossums under my Mableton deck?",
+          "a": "Mableton's split-level homes typically have raised decks with multiple access points along the joist line. Opossums find these spaces ideal for denning. Without exclusion, the same site attracts a new opossum within weeks of any single removal — exclusion is essential."
+        },
+        {
+          "q": "Are opossums dangerous to pets in Mableton?",
+          "a": "Opossums rarely fight — they play dead. The real risks are flea and tick transfer to pets, scent contamination, and crawl space waste. Pet food left outdoors at night significantly increases opossum (and raccoon) attraction across all Mableton subdivisions."
+        }
       ]
     },
     "mole-removal": {
       "intro": "Eastern moles damage manicured lawns throughout Mableton's residential subdivisions, with the heaviest call volume from the irrigated yards in the Mable House area and the Riverside neighborhoods near the Chattahoochee corridor. Mableton's red clay soils, regular irrigation, and proximity to river-corridor moisture create ideal earthworm density. Tunnel ridges become visible after rain. Trapping is the only durable control — grub treatments, sonic devices, and repellents rarely work because moles eat earthworms primarily, not grubs. Most Mableton lawns resolve within 1–2 weeks of trap placement, with monitoring for reinvasion from neighboring properties in subsequent months.",
       "faqs": [
-        { "q": "Why don't grub treatments work for Mableton moles?", "a": "Moles primarily eat earthworms, not grubs. Grub control products kill grubs but don't reduce earthworm density — and earthworms are the actual mole food source in Mableton's red clay soils. Trapping is the only proven method that reliably reduces mole damage." },
-        { "q": "How long until my Mableton lawn recovers from mole damage?", "a": "Surface tunnels typically settle within 2–3 weeks of mole removal once trampled or rolled flat. Heavily damaged lawns may need overseeding in fall to fully recover. Riverside neighborhood lawns adjacent to the Chattahoochee corridor may see faster reinvasion than interior subdivisions." }
+        {
+          "q": "Why don't grub treatments work for Mableton moles?",
+          "a": "Moles primarily eat earthworms, not grubs. Grub control products kill grubs but don't reduce earthworm density — and earthworms are the actual mole food source in Mableton's red clay soils. Trapping is the only proven method that reliably reduces mole damage."
+        },
+        {
+          "q": "How long until my Mableton lawn recovers from mole damage?",
+          "a": "Surface tunnels typically settle within 2–3 weeks of mole removal once trampled or rolled flat. Heavily damaged lawns may need overseeding in fall to fully recover. Riverside neighborhood lawns adjacent to the Chattahoochee corridor may see faster reinvasion than interior subdivisions."
+        }
       ]
     },
     "dead-animal-removal": {
       "intro": "Dead animal calls in Mableton typically involve raccoons or opossums in attics and crawl spaces of post-war split-level and ranch homes, rats inside walls of older Veterans Memorial corridor structures, and carcasses under decks throughout the Mable House and Riverside neighborhoods. The Chattahoochee corridor sustains continuous wildlife populations that produce regular dead-animal-removal calls year-round. Decomposition odor in Mableton's humid climate is intense and can permeate homes within days. Same-day service is standard. Locating the carcass often requires opening drywall, removing soffit panels, or accessing crawl spaces. Enzymatic odor treatment is included after physical removal.",
       "faqs": [
-        { "q": "How do I find a dead animal smell in my Mableton home?", "a": "Follow the strongest odor through the home — concentrate where the smell intensifies. In Mableton split-levels, common locations are wall cavities, attic insulation, crawl space corners, and HVAC duct interiors. A trained contractor uses thermal and physical inspection to pinpoint the carcass quickly." },
-        { "q": "Will the odor go away on its own in Mableton?", "a": "Eventually — but it can take 4–6 weeks in Mableton's humid climate, during which time the home is hard to occupy and decomposition fluids can damage drywall and insulation. Professional removal plus enzymatic treatment clears odor within days." }
+        {
+          "q": "How do I find a dead animal smell in my Mableton home?",
+          "a": "Follow the strongest odor through the home — concentrate where the smell intensifies. In Mableton split-levels, common locations are wall cavities, attic insulation, crawl space corners, and HVAC duct interiors. A trained contractor uses thermal and physical inspection to pinpoint the carcass quickly."
+        },
+        {
+          "q": "Will the odor go away on its own in Mableton?",
+          "a": "Eventually — but it can take 4–6 weeks in Mableton's humid climate, during which time the home is hard to occupy and decomposition fluids can damage drywall and insulation. Professional removal plus enzymatic treatment clears odor within days."
+        }
       ]
     }
   },
@@ -363,71 +816,131 @@
     "raccoon-removal": {
       "intro": "Raccoons are a constant call in Austell, particularly in the older late-19th- and early-20th-century railroad-era housing stock in the historic downtown core where masonry chimneys, gable vents, and original soffit construction provide easy attic access. The Sweetwater Creek corridor on Austell's western edge and the wooded fringe around Six Flags Over Georgia push additional raccoon pressure into the residential neighborhoods. February through April is peak attic-denning season. Roundworm contamination of attic insulation requires professional remediation after every Austell raccoon removal — older homes often need full insulation replacement given the contaminated material accumulation.",
       "faqs": [
-        { "q": "Why are raccoons in older Austell homes so common?", "a": "The historic railroad-era housing stock in downtown Austell has masonry chimneys, gable vents, and original soffit construction that all provide easy attic access. Combined with the Sweetwater Creek corridor wildlife pressure, older Austell homes see persistent raccoon intrusion. Most older homes need a full roofline inspection." },
-        { "q": "How dangerous is raccoon attic contamination in Austell?", "a": "Raccoons in attics deposit feces that carry Baylisascaris roundworm — a parasite dangerous to humans and pets. Spores remain infectious in insulation long after the raccoons leave. Austell's older homes with cellulose or aging fiberglass insulation almost always need full removal and replacement after a raccoon infestation." }
+        {
+          "q": "Why are raccoons in older Austell homes so common?",
+          "a": "The historic railroad-era housing stock in downtown Austell has masonry chimneys, gable vents, and original soffit construction that all provide easy attic access. Combined with the Sweetwater Creek corridor wildlife pressure, older Austell homes see persistent raccoon intrusion. Most older homes need a full roofline inspection."
+        },
+        {
+          "q": "How dangerous is raccoon attic contamination in Austell?",
+          "a": "Raccoons in attics deposit feces that carry Baylisascaris roundworm — a parasite dangerous to humans and pets. Spores remain infectious in insulation long after the raccoons leave. Austell's older homes with cellulose or aging fiberglass insulation almost always need full removal and replacement after a raccoon infestation."
+        }
       ]
     },
     "squirrel-removal": {
       "intro": "Eastern gray squirrels are a constant attic intruder across Austell's older railroad-era housing stock and the post-war ranches in the central neighborhoods. Mature pecan and oak trees in the older yards give squirrels direct roof access, and the original soffit and gable vent construction of late-19th-century homes provides multiple potential entry points. Squirrels chew through soffit returns, vent screens, and roof flashing — once inside, they damage wiring and shred insulation aggressively. Austell's two breeding peaks (February–April and August–September) drive twin call surges throughout the year, with cool-weather attic-seeking adding a third intrusion window in November.",
       "faqs": [
-        { "q": "Why are squirrels in my Austell attic right now?", "a": "Austell's two squirrel breeding seasons are February–April (spring litter) and August–September (fall litter). Cool weather in November also drives attic-seeking activity. Most squirrel calls cluster in these three windows. Attic noise during these months almost always means active nesting." },
-        { "q": "How much does squirrel exclusion cost in Austell?", "a": "Trapping plus full exclusion typically runs $500–$1,200 in Austell depending on the number of entry points. Older railroad-era homes often need 5–7 sealing locations given the multiple potential access points in original construction. Cheaper one-point removal almost always results in re-infestation." }
+        {
+          "q": "Why are squirrels in my Austell attic right now?",
+          "a": "Austell's two squirrel breeding seasons are February–April (spring litter) and August–September (fall litter). Cool weather in November also drives attic-seeking activity. Most squirrel calls cluster in these three windows. Attic noise during these months almost always means active nesting."
+        },
+        {
+          "q": "How much does squirrel exclusion cost in Austell?",
+          "a": "Trapping plus full exclusion typically runs $500–$1,200 in Austell depending on the number of entry points. Older railroad-era homes often need 5–7 sealing locations given the multiple potential access points in original construction. Cheaper one-point removal almost always results in re-infestation."
+        }
       ]
     },
     "bat-removal": {
       "intro": "Big brown bat colonies form in Austell's older late-19th- and early-20th-century railroad-era homes — gable vents, deteriorated mortar joints, and original soffit construction in the historic downtown core all provide ideal maternity-roost conditions. The historic commercial structures along the original rail corridor also host smaller bat populations. Once established, females return to the same Austell structure every May through August during maternity season. Georgia DNR prohibits exclusion during the maternity window. The optimal exclusion period in Austell is September through early April, with HEPA-filtered guano cleanup almost always required afterward — older Austell homes typically have decades of accumulated guano that requires full removal.",
       "faqs": [
-        { "q": "Why are bats so common in older Austell homes?", "a": "The late-19th- and early-20th-century railroad-era housing in Austell has masonry gaps, deteriorated mortar joints, gable vents, and original soffit construction that give big brown bats ideal roost access. Once established, maternity colonies return to the same structure every May through August." },
-        { "q": "How dangerous is bat guano in Austell attics?", "a": "Accumulated guano grows Histoplasma capsulatum — a fungus that causes histoplasmosis when spores are inhaled. Older Austell homes with decades of accumulation pose significant exposure risk. Cleanup requires HEPA filtration, full PPE, and sealed disposal — never a DIY project." }
+        {
+          "q": "Why are bats so common in older Austell homes?",
+          "a": "The late-19th- and early-20th-century railroad-era housing in Austell has masonry gaps, deteriorated mortar joints, gable vents, and original soffit construction that give big brown bats ideal roost access. Once established, maternity colonies return to the same structure every May through August."
+        },
+        {
+          "q": "How dangerous is bat guano in Austell attics?",
+          "a": "Accumulated guano grows Histoplasma capsulatum — a fungus that causes histoplasmosis when spores are inhaled. Older Austell homes with decades of accumulation pose significant exposure risk. Cleanup requires HEPA filtration, full PPE, and sealed disposal — never a DIY project."
+        }
       ]
     },
     "snake-removal": {
       "intro": "Snake calls in Austell concentrate along the Sweetwater Creek corridor on the western edge of the city and around the wooded fringe near Six Flags Over Georgia. The Sweetwater Creek corridor maintains substantially higher reptile densities than typical urban areas, and snakes disperse into adjacent yards in spring and fall. Rat snakes are the dominant call and are non-venomous, but copperhead encounters genuinely occur in the wooded creek-adjacent subdivisions. Northern water snakes also occur along Sweetwater Creek itself. Spring through fall is peak activity. Never attempt to handle or identify a snake — always call a licensed contractor for any encounter.",
       "faqs": [
-        { "q": "Are copperheads in Austell?", "a": "Yes, copperheads do occur in Austell, particularly in the wooded subdivisions adjacent to the Sweetwater Creek corridor. Stone walls, woodpiles, and shaded landscape edges are typical hiding spots. Always have a snake identified by a professional before any handling — rat snakes mimic copperhead coloration." },
-        { "q": "How do snakes get into Austell homes?", "a": "Foundation cracks, garage door seal gaps, dryer vent openings, and crawl space accesses are typical entry routes. Austell's older railroad-era homes with original construction often have multiple gaps. Snake exclusion is essentially a thorough foundation and seal inspection followed by appropriate sealing." }
+        {
+          "q": "Are copperheads in Austell?",
+          "a": "Yes, copperheads do occur in Austell, particularly in the wooded subdivisions adjacent to the Sweetwater Creek corridor. Stone walls, woodpiles, and shaded landscape edges are typical hiding spots. Always have a snake identified by a professional before any handling — rat snakes mimic copperhead coloration."
+        },
+        {
+          "q": "How do snakes get into Austell homes?",
+          "a": "Foundation cracks, garage door seal gaps, dryer vent openings, and crawl space accesses are typical entry routes. Austell's older railroad-era homes with original construction often have multiple gaps. Snake exclusion is essentially a thorough foundation and seal inspection followed by appropriate sealing."
+        }
       ]
     },
     "groundhog-removal": {
       "intro": "Groundhogs are uncommon in Austell — Cobb County sits at the southern edge of woodchuck range, and most Austell calls labeled as groundhog turn out to be armadillo damage. When woodchucks are confirmed, they tend to occur on the wooded outer edges near Sweetwater Creek or in older rural-edge lots where there's both forage and undisturbed soil for burrows. Burrows undermine sheds, foundations, and garden structures. Trapping with cage traps placed at burrow entrances is the standard removal method. Species confirmation by a licensed contractor before work is essential — armadillos require entirely different removal techniques and pricing.",
       "faqs": [
-        { "q": "Is the digging in my Austell yard a groundhog?", "a": "Probably not. Most Austell calls labeled as groundhog turn out to be armadillo lawn damage, particularly in subdivisions near the Sweetwater Creek corridor. Armadillos leave shallow rooted-up patches scattered across lawns; groundhogs leave large 8–12 inch burrow entrances with mounded soil." },
-        { "q": "Where would groundhogs be found in Austell?", "a": "When present, groundhogs in Austell concentrate on the wooded edges along Sweetwater Creek and in older rural-edge lots where ground cover and undisturbed soil support denning. They're rare in the developed downtown historic core and Six Flags-area subdivisions." }
+        {
+          "q": "Is the digging in my Austell yard a groundhog?",
+          "a": "Probably not. Most Austell calls labeled as groundhog turn out to be armadillo lawn damage, particularly in subdivisions near the Sweetwater Creek corridor. Armadillos leave shallow rooted-up patches scattered across lawns; groundhogs leave large 8–12 inch burrow entrances with mounded soil."
+        },
+        {
+          "q": "Where would groundhogs be found in Austell?",
+          "a": "When present, groundhogs in Austell concentrate on the wooded edges along Sweetwater Creek and in older rural-edge lots where ground cover and undisturbed soil support denning. They're rare in the developed downtown historic core and Six Flags-area subdivisions."
+        }
       ]
     },
     "bird-removal": {
       "intro": "Bird control calls in Austell focus on feral pigeons in the historic rail-corridor downtown commercial structures, European starlings nesting in dryer vents and gable vents of the older housing stock, and house sparrows entering bathroom exhausts and unscreened attic vents of the late-19th-century railroad-era homes. Pigeon droppings on historic Austell masonry cause acid damage and pose histoplasmosis risk. Starling nests block ventilation and create dryer fire hazards. Exclusion with rated metal vent caps, deterrent spikes on commercial ledges, and netting on architectural recesses is the durable fix throughout downtown Austell and the residential neighborhoods.",
       "faqs": [
-        { "q": "Why are pigeons in downtown Austell?", "a": "The historic rail-corridor commercial structures in downtown Austell provide ideal pigeon roost sites — masonry ledges, accessible attic spaces in older buildings, and architectural recesses. Commercial pigeon control combines spikes, netting, and exclusion of any attic access points throughout the downtown historic district." },
-        { "q": "How do I keep starlings out of Austell vents?", "a": "Replace standard plastic flap dryer vents with metal screened vent caps rated for bird exclusion. Older Austell homes typically have additional unscreened gable and bathroom vents that all need rated covers. Once a starling nests, the duct must be cleaned to prevent dryer fire risk." }
+        {
+          "q": "Why are pigeons in downtown Austell?",
+          "a": "The historic rail-corridor commercial structures in downtown Austell provide ideal pigeon roost sites — masonry ledges, accessible attic spaces in older buildings, and architectural recesses. Commercial pigeon control combines spikes, netting, and exclusion of any attic access points throughout the downtown historic district."
+        },
+        {
+          "q": "How do I keep starlings out of Austell vents?",
+          "a": "Replace standard plastic flap dryer vents with metal screened vent caps rated for bird exclusion. Older Austell homes typically have additional unscreened gable and bathroom vents that all need rated covers. Once a starling nests, the duct must be cleaned to prevent dryer fire risk."
+        }
       ]
     },
     "skunk-removal": {
       "intro": "Striped skunks shelter under the porches, crawl spaces, and detached sheds of Austell's older railroad-era housing stock and the post-war ranches across the central neighborhoods. The Sweetwater Creek corridor and the wooded Six Flags-area subdivisions push additional skunk pressure into the residential blocks. Spring is peak removal season as females establish dens before giving birth. Skunks dig characteristic cone-shaped holes in lawns. Spray events permeate the poorly sealed crawl spaces typical of older Austell construction and pull through HVAC returns. Skunks are rabies vector species in Georgia — never attempt removal yourself.",
       "faqs": [
-        { "q": "How do I get skunk smell out of an older Austell home?", "a": "Skunk spray under the poorly sealed crawl spaces typical of older Austell railroad-era construction gets pulled into the home through HVAC returns. Treatment combines crawl space sealing, enzymatic odor neutralization at the source, and HVAC filter replacement. Older ductwork may need additional treatment." },
-        { "q": "Are skunks rabies carriers in Austell?", "a": "Yes — striped skunks are one of Georgia's primary rabies vector species. Any skunk behaving unusually (active in daylight, unsteady, aggressive) should trigger immediate professional response. Never attempt to handle a skunk yourself, even one that appears injured." }
+        {
+          "q": "How do I get skunk smell out of an older Austell home?",
+          "a": "Skunk spray under the poorly sealed crawl spaces typical of older Austell railroad-era construction gets pulled into the home through HVAC returns. Treatment combines crawl space sealing, enzymatic odor neutralization at the source, and HVAC filter replacement. Older ductwork may need additional treatment."
+        },
+        {
+          "q": "Are skunks rabies carriers in Austell?",
+          "a": "Yes — striped skunks are one of Georgia's primary rabies vector species. Any skunk behaving unusually (active in daylight, unsteady, aggressive) should trigger immediate professional response. Never attempt to handle a skunk yourself, even one that appears injured."
+        }
       ]
     },
     "opossum-removal": {
       "intro": "Virginia opossums shelter under porches, decks, sheds, and crawl spaces across Austell's older railroad-era housing stock and the post-war ranches throughout the central neighborhoods. The wraparound porches and raised crawl spaces of late-19th- and early-20th-century homes provide particularly attractive denning. The Sweetwater Creek corridor and Six Flags-area wooded fringe push additional opossum pressure into adjacent blocks. Females raise young in spring, making March through May peak removal season. Beyond denning, opossums bring fleas and ticks into yards. Trapping is the standard removal method, followed by exclusion of every potential den site.",
       "faqs": [
-        { "q": "Why are opossums under my Austell porch?", "a": "Older Austell homes with wraparound porches and raised crawl spaces have multiple access points along the joist line and foundation. Opossums find these spaces ideal for denning and raising young. Without exclusion, the same site attracts a new opossum within weeks of any single removal." },
-        { "q": "Are opossums dangerous in Austell?", "a": "Opossums are not aggressive and rarely carry rabies due to their low body temperature. The real concerns are flea and tick infestations brought into yards, contamination of crawl spaces, and persistent scent issues. Removal plus exclusion is the durable fix." }
+        {
+          "q": "Why are opossums under my Austell porch?",
+          "a": "Older Austell homes with wraparound porches and raised crawl spaces have multiple access points along the joist line and foundation. Opossums find these spaces ideal for denning and raising young. Without exclusion, the same site attracts a new opossum within weeks of any single removal."
+        },
+        {
+          "q": "Are opossums dangerous in Austell?",
+          "a": "Opossums are not aggressive and rarely carry rabies due to their low body temperature. The real concerns are flea and tick infestations brought into yards, contamination of crawl spaces, and persistent scent issues. Removal plus exclusion is the durable fix."
+        }
       ]
     },
     "mole-removal": {
       "intro": "Eastern moles damage the manicured lawns throughout Austell's residential neighborhoods, with the heaviest call volume from the irrigated yards in the newer subdivisions and the older yards in the central historic district. Austell's red clay soils, mature canopy, and routine irrigation create ideal earthworm density — the primary mole food source. Tunnel ridges become visible after rain when the surface heaves. Trapping is the only durable control — grub treatments, sonic devices, and repellents rarely work because moles eat earthworms primarily, not grubs. Most Austell lawns resolve within 1–2 weeks of trap placement, with monitoring for reinvasion in following months.",
       "faqs": [
-        { "q": "Why are moles a problem in Austell lawns?", "a": "Austell's irrigated red-clay soils sustain very high earthworm populations, which is the primary mole food source. Mature canopy and fall leaf cover further enrich soil. The combination creates ideal mole habitat across most Austell residential lawns — mole damage is essentially seasonal." },
-        { "q": "Will repellents stop moles in Austell?", "a": "Generally not. Mole repellents — castor oil products, sonic spikes, gum, mothballs — show inconsistent results in real-world Austell lawns. Trapping at active runs is the only method that reliably reduces mole damage. Most lawns recover surface appearance within 2–3 weeks of removal." }
+        {
+          "q": "Why are moles a problem in Austell lawns?",
+          "a": "Austell's irrigated red-clay soils sustain very high earthworm populations, which is the primary mole food source. Mature canopy and fall leaf cover further enrich soil. The combination creates ideal mole habitat across most Austell residential lawns — mole damage is essentially seasonal."
+        },
+        {
+          "q": "Will repellents stop moles in Austell?",
+          "a": "Generally not. Mole repellents — castor oil products, sonic spikes, gum, mothballs — show inconsistent results in real-world Austell lawns. Trapping at active runs is the only method that reliably reduces mole damage. Most lawns recover surface appearance within 2–3 weeks of removal."
+        }
       ]
     },
     "dead-animal-removal": {
       "intro": "Dead animal calls in Austell typically involve raccoons or opossums in attics and crawl spaces of older railroad-era homes, rats inside walls of historic downtown commercial structures, and carcasses under porches and decks across the central residential neighborhoods. Decomposition odor in Austell's humid climate is intense and can permeate homes within days. Locating the carcass often requires opening drywall, removing soffit panels, or accessing the raised crawl spaces typical of older Austell construction. Same-day service is standard. Enzymatic odor treatment of the surrounding contaminated material is included after physical removal.",
       "faqs": [
-        { "q": "How long does dead animal odor last in an Austell home?", "a": "In Austell's humid climate, odor from a decomposing raccoon or opossum can persist 4–6 weeks if untreated. With the carcass removed and the surrounding contaminated material treated, odor typically clears within days. Older railroad-era homes with original ductwork may need additional HVAC system treatment." },
-        { "q": "Can you find a dead animal in an Austell crawl space?", "a": "Yes. Austell's older railroad-era homes typically have raised crawl spaces with multiple access points. Locating a carcass requires methodical inspection — sometimes including soffit panel removal — followed by physical removal and enzymatic treatment of the surrounding contaminated material." }
+        {
+          "q": "How long does dead animal odor last in an Austell home?",
+          "a": "In Austell's humid climate, odor from a decomposing raccoon or opossum can persist 4–6 weeks if untreated. With the carcass removed and the surrounding contaminated material treated, odor typically clears within days. Older railroad-era homes with original ductwork may need additional HVAC system treatment."
+        },
+        {
+          "q": "Can you find a dead animal in an Austell crawl space?",
+          "a": "Yes. Austell's older railroad-era homes typically have raised crawl spaces with multiple access points. Locating a carcass requires methodical inspection — sometimes including soffit panel removal — followed by physical removal and enzymatic treatment of the surrounding contaminated material."
+        }
       ]
     }
   }
