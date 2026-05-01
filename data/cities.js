@@ -34,6 +34,7 @@ us.STATES.forEach(s => {
 const CITY_OVERRIDES = {
   'Georgia|Cobb': ['Marietta', 'Smyrna', 'Kennesaw', 'Acworth', 'Powder Springs', 'Austell', 'Mableton', 'Vinings', 'Clarkdale'],
   'Georgia|Cherokee': ['Canton', 'Woodstock', 'Holly Springs', 'Ball Ground', 'Waleska', 'Nelson', 'Mountain Park'],
+  'Georgia|Bartow': ['Cartersville', 'Adairsville', 'Euharlee', 'Emerson', 'Kingston', 'White', 'Taylorsville'],
 };
 
 // Get cities for a county (matches "Cobb County" -> county key "Cobb")
