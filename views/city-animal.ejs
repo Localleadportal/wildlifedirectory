@@ -1,26 +1,103 @@
+<%
+  const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + countySlug + '/' + citySlug + '/' + animal.slug + '/';
+  const allFaqs = ((cityAnimalContent && cityAnimalContent.faqs) ? cityAnimalContent.faqs : []).concat(faqs || []);
+  const pageTitle = (cityAnimalContent && cityAnimalContent.metaTitle)
+    ? cityAnimalContent.metaTitle
+    : (animal.name + ' in ' + cityName + ', ' + stateName + ' — Licensed Local Experts');
+  const pageDesc = (cityAnimalContent && cityAnimalContent.metaDescription)
+    ? cityAnimalContent.metaDescription
+    : (cityAnimalContent && cityAnimalContent.intro
+        ? cityAnimalContent.intro.slice(0, 155).replace(/\s+\S*$/, '') + '…'
+        : (animal.name + ' in ' + cityName + ', ' + stateName + ' (' + countyName + '). ' + (animal.costRange ? 'Typical cost ' + animal.costRange + '. ' : '') + 'Licensed local contractor — humane methods, same-day service.'));
+  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
+  const seoEnhanced = !!(cityAnimalContent && cityAnimalContent.geo);
+  const stateRegion = stateName === 'Georgia' ? 'GA'
+    : stateName === 'Delaware' ? 'DE'
+    : stateName === 'Connecticut' ? 'CT'
+    : stateName === 'New Hampshire' ? 'NH'
+    : stateName === 'Vermont' ? 'VT'
+    : stateName === 'Rhode Island' ? 'RI' : '';
+%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <% const allFaqs = ((cityAnimalContent && cityAnimalContent.faqs) ? cityAnimalContent.faqs : []).concat(faqs || []); %>
-  <title><%= animal.name %> in <%= cityName %>, <%= stateName %> — Licensed Local Experts</title>
-  <meta name="description" content="<%= cityAnimalContent && cityAnimalContent.intro ? cityAnimalContent.intro.slice(0, 155).replace(/\s+\S*$/, '') + '…' : (animal.name + ' in ' + cityName + ', ' + stateName + ' (' + countyName + '). ' + (animal.costRange ? 'Typical cost ' + animal.costRange + '. ' : '') + 'Licensed local contractor — humane methods, same-day service.') %>">
-  <link rel="canonical" href="https://www.removewildlifenow.com/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/<%= animal.slug %>/">
+  <title><%= pageTitle %></title>
+  <meta name="description" content="<%= pageDesc %>">
+  <link rel="canonical" href="<%= pageUrl %>">
   <link rel="stylesheet" href="/css/style.css">
-  <% if (!indexable) { %><meta name="robots" content="noindex, follow"><% } %>
-  <% if (allFaqs && allFaqs.length) { %>
+  <% if (!indexable) { %>
+  <meta name="robots" content="noindex, follow">
+  <% } else if (seoEnhanced) { %>
+  <meta name="robots" content="index, follow">
+  <% } %>
+
+  <% if (seoEnhanced) { %>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="RemoveWildlifeNow.com">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="<%= pageUrl %>">
+  <meta property="og:title" content="<%= pageTitle %>">
+  <meta property="og:description" content="<%= pageDesc %>">
+  <meta property="og:image" content="<%= ogImage %>">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="<%= pageTitle %>">
+  <meta name="twitter:description" content="<%= pageDesc %>">
+  <meta name="twitter:image" content="<%= ogImage %>">
+
+  <!-- Geo -->
+  <meta name="geo.region" content="US-<%= stateRegion %>">
+  <meta name="geo.placename" content="<%= cityName %>, <%= stateName %>">
+  <meta name="geo.position" content="<%= cityAnimalContent.geo.lat %>;<%= cityAnimalContent.geo.lon %>">
+  <meta name="ICBM" content="<%= cityAnimalContent.geo.lat %>, <%= cityAnimalContent.geo.lon %>">
+
+  <!-- BreadcrumbList -->
   <script type="application/ld+json">
-  <%- JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": allFaqs.map(function(f){ return { "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }; }) }) %>
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": pageUrl + "#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.removewildlifenow.com/" },
+      { "@type": "ListItem", "position": 2, "name": stateName, "item": "https://www.removewildlifenow.com/" + stateSlug + "/" },
+      { "@type": "ListItem", "position": 3, "name": countyName, "item": "https://www.removewildlifenow.com/" + stateSlug + "/" + countySlug + "/" },
+      { "@type": "ListItem", "position": 4, "name": cityName, "item": "https://www.removewildlifenow.com/" + stateSlug + "/" + countySlug + "/" + citySlug + "/" },
+      { "@type": "ListItem", "position": 5, "name": animal.name }
+    ]
+  }) %>
+  </script>
+
+  <!-- WebPage -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": pageUrl + "#webpage",
+    "url": pageUrl,
+    "name": pageTitle,
+    "description": pageDesc,
+    "isPartOf": { "@id": "https://www.removewildlifenow.com/#website" },
+    "breadcrumb": { "@id": pageUrl + "#breadcrumb" },
+    "inLanguage": "en-US",
+    "about": { "@id": pageUrl + "#service" },
+    "primaryImageOfPage": ogImage
+  }) %>
   </script>
   <% } %>
+
+  <!-- Service / LocalBusiness -->
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "ProfessionalService"],
+    ...(seoEnhanced ? { "@id": pageUrl + "#business" } : {}),
     "name": animal.name + " in " + cityName,
     "description": animal.shortDesc + " Serving " + cityName + " and all of " + countyName + ", " + stateName + ".",
-    "url": "https://www.removewildlifenow.com/" + stateSlug + "/" + countySlug + "/" + citySlug + "/" + animal.slug + "/",
+    "url": pageUrl,
     "areaServed": [
       { "@type": "City", "name": cityName + ", " + stateName },
       { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
@@ -36,6 +113,40 @@
     }
   }) %>
   </script>
+
+  <% if (seoEnhanced) { %>
+  <!-- Service (linked to LocalBusiness) -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": pageUrl + "#service",
+    "name": animal.name + " in " + cityName + ", " + stateName,
+    "serviceType": animal.name,
+    "provider": { "@id": pageUrl + "#business" },
+    "areaServed": {
+      "@type": "City",
+      "name": cityName + ", " + stateName,
+      ...(cityAnimalContent.sameAs && cityAnimalContent.sameAs.length ? { "sameAs": cityAnimalContent.sameAs } : {})
+    },
+    "description": pageDesc
+  }) %>
+  </script>
+  <% } %>
+
+  <% if (allFaqs && allFaqs.length) { %>
+  <!-- FAQPage -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    ...(seoEnhanced ? { "@id": pageUrl + "#faq" } : {}),
+    "mainEntity": allFaqs.map(function(f){
+      return { "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } };
+    })
+  }) %>
+  </script>
+  <% } %>
 </head>
 <body>
   <header>
@@ -156,6 +267,14 @@
       </div>
     </section>
 
+    <% if (cityAnimalContent && cityAnimalContent.extendedBody) { %>
+    <section class="county-content">
+      <div class="container">
+        <%- cityAnimalContent.extendedBody %>
+      </div>
+    </section>
+    <% } %>
+
     <% if (seasonal) { %>
     <section class="county-content" style="background:<%= seasonal.level === 'high' ? '#fff7ed' : seasonal.level === 'moderate' ? '#f0fdf4' : '#f8fafc' %>;border-top:3px solid <%= seasonal.level === 'high' ? '#f97316' : seasonal.level === 'moderate' ? '#22c55e' : '#94a3b8' %>;">
       <div class="container">
@@ -167,7 +286,7 @@
     </section>
     <% } %>
 
-    <% if (animalRegionNote || stateInfo) { %>
+    <% if ((animalRegionNote || stateInfo) && !(cityAnimalContent && cityAnimalContent.extendedBody)) { %>
     <section class="county-content">
       <div class="container">
         <h2><%= animal.name %> in <%= cityName %>, <%= stateName %> — Local Context</h2>
@@ -202,10 +321,26 @@
               <%= faq.q %>
               <span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span>
             </summary>
-            <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;"><%= faq.a %></div>
+            <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;"><%- faq.a %></div>
           </details>
           <% }); %>
         </div>
+      </div>
+    </section>
+    <% } %>
+
+    <% if (cityAnimalContent && cityAnimalContent.relatedLinks && cityAnimalContent.relatedLinks.length) { %>
+    <section class="counties-section" style="background:var(--green-light);border-top:1px solid var(--green-border);">
+      <div class="container">
+        <div class="section-header">
+          <h2><%= animal.name %> &amp; Other Wildlife — Across <%= countyName %></h2>
+          <p>Same licensed contractor, broader coverage.</p>
+        </div>
+        <ul class="neighbor-list">
+          <% cityAnimalContent.relatedLinks.forEach(l => { %>
+          <li><a href="<%= l.href %>"><%= l.anchor %></a></li>
+          <% }); %>
+        </ul>
       </div>
     </section>
     <% } %>

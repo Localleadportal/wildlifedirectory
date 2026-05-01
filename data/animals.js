@@ -24,6 +24,18 @@ const ANIMALS = [
     costRange: '$200–$500+', costNote: 'Trapping. Full exclusion and entry point sealing adds $300–$900+.'
   },
   {
+    slug: 'rat-removal',
+    name: 'Rat Removal',
+    plural: 'Rats',
+    emoji: '🐀',
+    shortDesc: 'Rats nest in walls, attics, and crawlspaces — gnawing wiring, contaminating insulation and food, and spreading disease.',
+    signs: ['Droppings along baseboards or in attic insulation', 'Gnaw marks on wood, plastic, or wiring', 'Scratching or scurrying noises in walls at night', 'Greasy rub marks along travel routes', 'Nests of shredded material in walls or attic'],
+    services: ['Inspection and entry-point identification', 'Snap and bait trap deployment', 'Permanent exclusion sealing with steel mesh', 'Sanitation and decontamination', 'Insulation replacement when contaminated'],
+    urgency: 'Rats reproduce rapidly and chew electrical wiring — a real fire risk in older homes. Populations double in months without intervention.',
+    season: 'Rats are active year-round but populations spike in fall as outdoor food becomes scarce and they move indoors for warmth.',
+    costRange: '$300–$900+', costNote: 'Inspection and trap deployment. Major exclusions, decontamination, and insulation replacement adds $800–$2,500+.'
+  },
+  {
     slug: 'bat-removal',
     name: 'Bat Removal',
     plural: 'Bats',
