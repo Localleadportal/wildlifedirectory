@@ -362,11 +362,11 @@ header {
   z-index: 1;
 }
 .service-card--photo > *:not(.card-bg-img) { position: relative; z-index: 2; }
-.service-card--photo h3 { color: #fff; }
-.service-card--photo > p { color: #fff; }
-.service-card--photo .card-list li { color: #fff; }
-.service-card--photo .card-list li::before { color: #fff; }
-.service-card--photo .card-phone { color: #fff; }
+.service-card.service-card--photo h3 { color: #fff; }
+.service-card.service-card--photo > p { color: #fff; }
+.service-card.service-card--photo .card-list li { color: #fff; }
+.service-card.service-card--photo .card-list li::before { color: #fff; }
+.service-card.service-card--photo .card-phone { color: #fff; }
 .card-badge {
   display: inline-block;
   background: var(--green);
