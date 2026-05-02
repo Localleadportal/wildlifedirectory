@@ -84,5 +84,49 @@
         "a": "Yes — North Beach (lighthouse area, Fort Screven historic district), Mid-Beach (Tybrisa Street commercial corridor, Butler Avenue, Lighthouse Beach), South Beach (around the Pier and Pavilion), Back River (residential/vacation rental waterfront on Lazaretto Creek and Tybee Creek), and the unincorporated areas adjacent to Tybee proper. The contractor handling Tybee is licensed under Georgia DNR Coastal Region (Brunswick office), holds the applicable Trapping License and Nuisance Wildlife Control Permit, and follows USFWS and Georgia DNR Sea Turtle Cooperative protocols for any work near nesting beaches."
       }
     ]
+  },
+  "Garden City": {
+    "population_tier": "small",
+    "housing_era": "Predominantly 1950s-1970s post-WWII residential housing surrounding the industrial corridor, with newer 1990s-2010s subdivisions filling in the western edges, plus older 1920s-1940s housing in the original Garden City core near Highway 80.",
+    "geographic_features": [
+      "Port of Savannah / Garden City Terminal (one of the largest container ports in the United States)",
+      "Savannah River industrial corridor",
+      "Highway 80 / US 80 commercial corridor",
+      "CSX and Norfolk Southern railroad infrastructure",
+      "Pipemakers Canal and Hardin Canal drainage system"
+    ],
+    "neighborhoods": [
+      "Pine Gardens and Pine Gardens Estates (residential)",
+      "Garden City core (near Highway 80 and Highway 21 / Augusta Avenue intersection)",
+      "Industrial corridor along the Port and railroad infrastructure",
+      "West Garden City (newer subdivisions toward Pooler)"
+    ],
+    "wildlife_intro": "Wildlife problems in Garden City are driven by a fundamentally different set of factors than mainland Savannah or Tybee Island. <strong>Garden City sits at the intersection of one of the largest container ports in the United States (the Port of Savannah / Garden City Terminal), the Highway 80 commercial and industrial corridor, two major railroad lines, and the Savannah River industrial waterfront</strong> — which means rat pressure here is structurally heavier than mainland Savannah residential averages. International shipping ports are the dominant rat-introduction pathway in the United States, and Garden City Terminal moves containers from countries with active Norway rat and roof rat populations every day. Compounding the port pressure, the Highway 80 commercial corridor sustains substantial pigeon, rat, and raccoon populations through restaurant, distribution warehouse, and trucking food spillage. The CSX and Norfolk Southern rail corridors function as wildlife travel infrastructure, particularly for raccoons and rats moving between food sources. Residential pressure profile is different from Savannah and Tybee: <strong>most Garden City residential calls come from working-class homeowners in 1950s-1970s post-WWII housing — straightforward residential wildlife removal, no historic preservation review, no vacation rental urgency, no sea turtle ESA layer</strong>. The Coastal Health District handles rabies-exposure investigations; Georgia DNR Coastal Region (Brunswick office) issues commercial trapping licenses; rats are the dominant Garden City call volume by a wide margin.",
+    "faqs": [
+      {
+        "q": "How is Garden City wildlife different from Savannah and Tybee?",
+        "a": "Three big differences. <strong>Port pressure</strong> — Garden City Terminal is one of the largest container ports in the United States, and international shipping ports are the dominant rat-introduction pathway in the country. Garden City has structurally heavier rat pressure than mainland Savannah residential averages because of port-introduced populations. <strong>Highway 80 commercial corridor</strong> — restaurant, distribution warehouse, and trucking food spillage sustains substantial wildlife populations along the corridor. <strong>Working-class residential profile</strong> — most calls are mid-century 1950s-1970s post-WWII housing, no historic preservation review (vs Savannah Historic District), no vacation rental urgency (vs Tybee), straightforward residential wildlife removal."
+      },
+      {
+        "q": "Why are there so many rats in Garden City?",
+        "a": "Three reasons compound. <strong>The Port of Savannah / Garden City Terminal</strong> is one of the largest container ports in the United States, and international shipping is the dominant rat-introduction pathway in the country. Both Norway rats and roof rats are introduced regularly through port traffic. <strong>Highway 80 commercial corridor food density</strong> — restaurants, fast food, distribution warehouses, and trucking food spillage sustain a permanent rat population. <strong>Industrial warehouse and rail corridor habitat</strong> — empty warehouses, loading docks, and railroad infrastructure provide ideal rat shelter. Residential blocks adjacent to the industrial corridor see the heaviest rat pressure."
+      },
+      {
+        "q": "What's the most common wildlife problem in Garden City homes?",
+        "a": "Rats — by a wide margin — followed by raccoons, opossums, and occasional snake calls along the Savannah River industrial waterfront. <strong>Norway rats are heavier in Garden City than in any other Chatham submarket</strong> because of the port and industrial-corridor pressure; roof rats are also present and concentrated in older 1950s-1970s residential blocks with mature canopy. Raccoons follow the Highway 80 commercial corridor food sources into adjacent residential blocks. Pigeons and starlings concentrate in industrial buildings and along the Highway 80 commercial frontage."
+      },
+      {
+        "q": "Are Garden City wildlife problems regulated differently than Savannah?",
+        "a": "Same state regulatory framework — Georgia DNR Coastal Region (Brunswick office) issues commercial trapping licenses; same federal protections apply to bats, migratory birds, and federally protected species. Garden City work generally has fewer extra layers than Savannah Historic District (no preservation review) or Tybee Island (no sea turtle ESA, no vacation rental urgency). The Coastal Health District handles rabies-exposure investigations across all of Chatham County. Industrial property work may require coordination with industrial site safety protocols depending on the facility."
+      },
+      {
+        "q": "How fast can you respond to a wildlife emergency in Garden City?",
+        "a": "Most Garden City contractors offer same-day or 24-hour response. The straightforward residential and industrial profile (no preservation review, no sea turtle coordination, no vacation rental tenant scheduling) means inspections and removal can typically be scheduled faster than Savannah Historic District or Tybee Island work. Industrial property work occasionally requires advance scheduling for site access permissions, but residential calls run on standard same-day timelines."
+      },
+      {
+        "q": "Do you serve all of Garden City?",
+        "a": "Yes — Pine Gardens and Pine Gardens Estates, Garden City core (near Highway 80 and Highway 21/Augusta Avenue), the industrial corridor along the Port and railroad infrastructure, and West Garden City (newer subdivisions toward Pooler). The contractor handling Garden City is licensed under Georgia DNR Coastal Region (Brunswick office), holds the applicable Trapping License and Nuisance Wildlife Control Permit, and works regularly with industrial properties along the Highway 80 corridor and Port-adjacent properties."
+      }
+    ]
   }
 }
