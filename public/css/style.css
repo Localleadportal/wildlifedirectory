@@ -340,6 +340,33 @@ header {
 }
 .service-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-3px); }
 .service-card.featured { border-color: var(--green); border-top: 4px solid var(--green); }
+.service-card--photo {
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+.service-card--photo .card-bg-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
+.service-card--photo::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.62);
+  z-index: 1;
+}
+.service-card--photo > *:not(.card-bg-img) { position: relative; z-index: 2; }
+.service-card--photo h3 { color: #fff; }
+.service-card--photo > p { color: rgba(255,255,255,0.92); }
+.service-card--photo .card-list li { color: #fff; }
+.service-card--photo .card-list li::before { color: #fff; }
+.service-card--photo .card-phone { color: #fff; }
 .card-badge {
   display: inline-block;
   background: var(--green);
