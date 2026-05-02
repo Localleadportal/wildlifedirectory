@@ -1,0 +1,45 @@
+{
+  "Savannah": {
+    "population_tier": "large",
+    "housing_era": "Pre-Revolutionary, antebellum, Victorian, and 1900s-1940s historic-residential housing dominates the intown core (Historic District, Ardsley Park, Chatham Crescent, Habersham Park, Gordonston). Mid-century 1940s-1970s housing fills the Eastside and Southside. Newer 2000s+ construction concentrates in Pooler-adjacent suburbs and waterfront Wilmington Island and Whitemarsh Island developments.",
+    "geographic_features": [
+      "Savannah River (northern boundary, separating GA from SC)",
+      "Forsyth Park, Daffin Park, and the Olmsted-influenced inner-city park system",
+      "South Fork and Vernon River tidal creek corridors",
+      "Live oak and Spanish moss canopy (one of the densest urban forest canopies in the Southeast)"
+    ],
+    "neighborhoods": [
+      "Historic District (River Street, Bay Street, City Market, Forsyth Park, Madison Square, Monterey Square)",
+      "Ardsley Park, Chatham Crescent, Habersham Park, and Gordonston",
+      "Eastside (around Bonaventure Cemetery, Daffin Park, Magnolia Park)",
+      "Southside (Sandfly, Habersham Woods, Windsor Forest, Georgetown)"
+    ],
+    "wildlife_intro": "Wildlife problems in Savannah are concentrated in two distinct submarkets that produce very different homeowner calls. <strong>The Savannah Historic District (River Street, Bay Street, City Market, Forsyth Park edge, Madison Square, Monterey Square)</strong> is one of the highest-density historic residential zones in the country — the 1700s-1800s brick row houses, federal-style townhomes, antebellum mansions, and attic cupolas combine with restaurant-corridor food density to produce exceptional roof rat pressure, long-established big brown bat and Brazilian free-tailed bat colonies in chimneys and church steeples (some continuous for 50-100+ years), and complex multi-entry-point raccoon and squirrel infestations. The dense live oak canopy gives wildlife continuous arboreal travel routes between properties, and the Olmsted-influenced inner-city park system (Forsyth, Daffin, Bonaventure Cemetery) functions as continuous wildlife corridor habitat. <strong>Beyond the Historic District, the 1900s-1930s historic-residential expansion through Ardsley Park, Chatham Crescent, Habersham Park, and Gordonston</strong> sees similar pressure — heavy raccoon and squirrel attic infestations under century-old oak canopy, big brown bat colonies in original wood gable vents and masonry chimneys, and a steady volume of cottonmouth and rat snake calls along the wooded lot edges. <strong>Eastside and Southside Savannah</strong> (Sandfly, Habersham Woods, Windsor Forest, Magnolia Park) sees more 1940s-1970s housing stock with a mix of suburban wildlife pressure plus the salt marsh edge habitat that brings cottonmouths and watersnakes into yards near tidal creeks. The Coastal Health District (Chatham County Health Department) handles rabies-exposure investigations across all submarkets; Georgia DNR Coastal Region (Brunswick office) issues the Trapping License and Nuisance Wildlife Control Permit required for commercial removal work. Historic-preservation coordination with the Historic Savannah Foundation is required for visible structural changes in designated Historic District properties — and that coordination layer is part of why Savannah work runs differently from other coastal Georgia cities.",
+    "faqs": [
+      {
+        "q": "What's the most common wildlife problem in Savannah homes?",
+        "a": "Raccoons, roof rats, big brown bats, and eastern gray squirrels make up the bulk of attic and structural wildlife calls in Savannah. The Historic District, Ardsley Park, Chatham Crescent, and Habersham Park submarkets see the highest infestation density because of the pre-WWII housing stock and the continuous live oak canopy. Roof rats in particular are heavier in Savannah than almost anywhere else in coastal Georgia because of restaurant-corridor food density and the 1700s-1800s structural entry-point inventory. Snake calls — primarily eastern rat snakes plus cottonmouths along tidal creek edges — round out the most common species mix."
+      },
+      {
+        "q": "How do I find a wildlife removal company in Savannah Historic District?",
+        "a": "Look for a contractor licensed under Georgia DNR Coastal Region (Brunswick office) with the applicable Trapping License and Nuisance Wildlife Control Permit. Historic District work requires familiarity with the Historic Savannah Foundation preservation review process for any visible structural changes — chimney caps, soffit repairs, gable vent replacements, masonry repointing — so a contractor without that experience will create coordination problems. The contractor in this directory serving Savannah holds the applicable state credentials and works regularly with Historic District properties."
+      },
+      {
+        "q": "What time of year do Savannah wildlife problems peak?",
+        "a": "Most species are active year-round in coastal Georgia because of the mild climate, but call volume follows distinct seasonal patterns. Raccoon and squirrel kit-rearing season (March-May plus August-October for squirrels) drives emergency attic removal calls; bat maternity season (May-August) restricts legal exclusion windows; Atlantic hurricane season (June-November) produces displacement spikes when storms damage habitat; and cool-weather seasons (October-February) push outdoor rat and rodent populations toward indoor structural shelter. Snake activity peaks April-October. Dead-animal calls run year-round but escalate fast in coastal Georgia summer humidity."
+      },
+      {
+        "q": "Are wildlife removal contractors in Savannah licensed?",
+        "a": "Commercial wildlife removal in Georgia requires a Trapping License and (for paid lethal control) a Nuisance Wildlife Control Permit, both issued through Georgia DNR Wildlife Resources Division. Chatham County falls under the Coastal Region (Brunswick office). Federal protections apply to bats during maternity periods, all migratory birds, sea turtles nesting on Tybee, and federally proposed species like the tricolored bat. Savannah Historic District work additionally coordinates with the Historic Savannah Foundation. Every contractor in this directory holds the applicable state credentials and follows federal protocol where required."
+      },
+      {
+        "q": "Why is wildlife pressure higher in Savannah than in inland Georgia cities?",
+        "a": "Three things compound. The dense live oak canopy and Olmsted-influenced park system through Forsyth, Daffin, and Bonaventure provide continuous wildlife travel corridors that no metro Atlanta city has. Pre-Revolutionary and antebellum housing stock creates structural entry-point inventory that newer construction lacks. Coastal Georgia's mild winters and year-round food supply (restaurant corridor + tidal creek seafood + barrier island sea turtle eggs in season) produce wildlife populations that are larger and more food-conditioned than inland counterparts — coastal raccoons routinely run 18-30 lbs vs the 10-15 lb state average, and roof rat populations in the Historic District are among the highest in the Southeast."
+      },
+      {
+        "q": "What should I do tonight if there's a wildlife emergency in my Savannah home?",
+        "a": "It depends on the species. <strong>Bat in your bedroom</strong> — confine to one room, don't kill it (damages it for rabies testing), call the Coastal Health District for any potential exposure. <strong>Raccoon stuck in chimney</strong> — close the damper, don't light a fire, call a contractor. <strong>Snake in your house</strong> — close interior doors, open exterior doors, photograph from a safe distance for identification. <strong>Dead animal smell</strong> — schedule removal within 24 hours; coastal Georgia humidity escalates the problem fast. <strong>Multiple animals or active infestation in multi-story structure</strong> — schedule professional inspection rather than attempt DIY. Most Savannah contractors offer same-day or 24-hour response."
+      }
+    ]
+  }
+}

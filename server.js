@@ -78,11 +78,22 @@ async function isCountyAnimalIndexable(stateName, countyName, animalSlug) {
   }
   return true;
 }
-async function isCityIndexable(stateName, countyName) {
+async function isCityIndexable(stateName, countyName, cityName, animalSlug) {
   const key = `${stateName}|${apiCounty(countyName).toLowerCase()}`;
-  if (_hubOnlyIndexCounties.has(key)) return false;
-  if (_countyOnlyIndexCounties.has(key)) return false;
-  return _permanentCounties.has(key);
+  if (!_permanentCounties.has(key)) return false;
+  // Selective modes: city/city-animal page is indexable only if it has enriched content.
+  // This allows individual cities like Savannah to flip indexable while other Chatham
+  // cities (still without enriched content) stay noindex.
+  if (_hubOnlyIndexCounties.has(key) || _countyOnlyIndexCounties.has(key)) {
+    if (!cityName) return false;
+    if (animalSlug) {
+      const content = getCityAnimalContent(stateName, countyName, cityName, animalSlug);
+      return !!(content && content.extendedBody);
+    }
+    const content = getCityContent(stateName, countyName, cityName);
+    return !!(content && content.wildlife_intro);
+  }
+  return true;
 }
 async function isStateIndexable(stateName) {
   return _permanentStates.has(stateName);
@@ -138,20 +149,37 @@ app.get('/sitemap.xml', async (req, res) => {
     if (!fullCounty) return;
     const countySlug = toSlug(fullCounty);
     const hubOnly = _hubOnlyIndexCounties.has(key);
-    const cityIndexable = !hubOnly && !_countyOnlyIndexCounties.has(key);
+    const countyOnly = _countyOnlyIndexCounties.has(key);
+    const selectiveMode = hubOnly || countyOnly;
+    const cities = getCitiesForCounty(state, fullCounty);
     urls.push(`${BASE}/${stateSlug}/${countySlug}/`);
+
+    // City hub URLs — in selective mode, only include cities with enriched cityContent
+    cities.forEach(city => {
+      const citySlug = toSlug(city);
+      if (selectiveMode) {
+        const cContent = getCityContent(state, fullCounty, city);
+        if (!cContent || !cContent.wildlife_intro) return;
+      }
+      urls.push(`${BASE}/${stateSlug}/${countySlug}/${citySlug}/`);
+    });
+
     ANIMALS.forEach(a => {
-      // Hub-only counties: only sitemap animal hubs that have enriched content
+      // County-animal hub URL — in hub-only mode, only sitemap animals with enriched content
       if (hubOnly) {
-        const content = getCountyAnimalContent(state, fullCounty, a.slug);
-        if (!content || !content.extendedBody) return;
+        const cAnimal = getCountyAnimalContent(state, fullCounty, a.slug);
+        if (!cAnimal || !cAnimal.extendedBody) return;
       }
       urls.push(`${BASE}/${stateSlug}/${countySlug}/${a.slug}/`);
-      if (!cityIndexable) return;
-      const cities = getCitiesForCounty(state, fullCounty);
+
+      // City-animal URLs — in selective mode, only include those with enriched content
       cities.forEach(city => {
-        urls.push(`${BASE}/${stateSlug}/${countySlug}/${toSlug(city)}/`);
-        urls.push(`${BASE}/${stateSlug}/${countySlug}/${toSlug(city)}/${a.slug}/`);
+        const citySlug = toSlug(city);
+        if (selectiveMode) {
+          const cAnimal = getCityAnimalContent(state, fullCounty, city, a.slug);
+          if (!cAnimal || !cAnimal.extendedBody) return;
+        }
+        urls.push(`${BASE}/${stateSlug}/${countySlug}/${citySlug}/${a.slug}/`);
       });
     });
   });
@@ -308,7 +336,7 @@ app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
   // City page
   const cityName = citySlugToName(stateName, countyName, seg);
   if (cityName) {
-    const indexable = await isCityIndexable(stateName, countyName);
+    const indexable = await isCityIndexable(stateName, countyName, cityName);
     const cityContent = getCityContent(stateName, countyName, cityName);
     return res.render('city', {
       stateName, countyName, cityName, stateInfo, embedScript, cityContent,
@@ -335,7 +363,7 @@ app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug/', async (req, res) => {
 
   const stateInfo = stateContent[stateName] || null;
   const animalRegionNote = getAnimalRegionContent(stateName, req.params.animalSlug);
-  const indexable = await isCityIndexable(stateName, countyName);
+  const indexable = await isCityIndexable(stateName, countyName, cityName, req.params.animalSlug);
   const cityAnimalContent = getCityAnimalContent(stateName, countyName, cityName, req.params.animalSlug);
   res.render('city-animal', {
     stateName, countyName, cityName, animal, stateInfo, animalRegionNote, embedScript, cityAnimalContent,
