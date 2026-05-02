@@ -1,10 +1,10 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --green: #1a5c2a;
-  --green-mid: #2d7a3a;
-  --green-light: #f2f8f3;
-  --green-border: #c8e0cc;
+  --green: #1a3c6e;
+  --green-mid: #2563eb;
+  --green-light: #eff6ff;
+  --green-border: #bfdbfe;
   --orange: #e05c00;
   --orange-hover: #c44f00;
   --text: #1a1a1a;
@@ -104,7 +104,7 @@ header {
 
 /* ── HERO ── */
 .hero {
-  background: #0f3d1a;
+  background: #0f2548;
   color: #fff;
   padding: 72px 0 64px;
   text-align: center;
@@ -205,7 +205,7 @@ header {
 
 /* ── PAGE HERO ── */
 .page-hero {
-  background: linear-gradient(135deg, var(--green) 0%, #0f3d1a 100%);
+  background: linear-gradient(135deg, var(--green) 0%, #0f2548 100%);
   color: #fff;
   padding: 48px 0 40px;
   text-align: center;
