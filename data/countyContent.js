@@ -773,6 +773,181 @@ function georgiaContent(countyName, county, s) {
       }
     ];
 
+  } else if (countyName === 'Coweta County') {
+    blockA = `Coweta County sits in the southwestern metropolitan Atlanta exurban arc, with the Chattahoochee River along its western boundary and I-85 cutting north-south through the county center. With a population of ${county.population.toLocaleString()} residents, Coweta runs from the historic Newnan downtown core (locally known as the "City of Homes" for its exceptional density of antebellum and Victorian residences) through the surrounding 1990s-2010s subdivision growth corridor and out to Senoia's pre-1900 brick storefronts (used as a filming location for The Walking Dead). Established in ${county.established}, the county combines pre-1860 Newnan historic housing, mid-century Senoia and rural-edge construction, and the explosive I-85 corridor subdivision growth from the past 30 years.`;
+    blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across Coweta's mature canopy, with twin breeding-cycle peaks driving twin call peaks. Southern flying squirrels appear with notable frequency in older Newnan and Senoia historic-district housing. Virginia opossums shelter under decks and porches across the older inner-Newnan housing stock. Striped skunks are persistent under sheds and crawl spaces in the rural-edge subdivisions, and snake calls — primarily eastern rat snakes and the occasional copperhead — concentrate around the wooded properties along the Chattahoochee River corridor. ${cap(county.absent_or_rare)}.`;
+    blockC = `Coverage spans all of Coweta County including ${top4cities}, plus Moreland, Turin, and Haralson, and the unincorporated subdivisions throughout the county. The county's mix of pre-1860 Newnan "City of Homes" antebellum and Victorian historic housing, the pre-1900 Senoia historic district, mid-century rural-edge construction, and the 1990s-2010s I-85 corridor subdivision growth — combined with the Chattahoochee River source population — means contractors here handle a continuous mix of historic-district multi-entry-point exclusion, suburban roof-rat work, and continuous raccoon-and-squirrel residential pressure.`;
+    metaTitle = `Coweta County Wildlife Removal — Newnan, Senoia GA`;
+    metaDescription = `Licensed wildlife removal in Coweta County, GA — Newnan, Senoia, Sharpsburg, Grantville. Same-day humane service. Call now.`;
+
+    geo = { lat: 33.3793, lon: -84.7641 };
+    sameAs = [
+      'https://en.wikipedia.org/wiki/Coweta_County,_Georgia',
+    ];
+
+    neighboringCounties = [
+      { name: 'Fulton County',     slug: 'fulton-county',     anchor: 'Fulton County wildlife removal',      blurb: 'directly to the north' },
+      { name: 'Fayette County',    slug: 'fayette-county',    anchor: 'Fayette County wildlife services',    blurb: 'to the east' },
+      { name: 'Carroll County',    slug: 'carroll-county',    anchor: 'Carroll County animal removal',       blurb: 'to the west' },
+      { name: 'Heard County',      slug: 'heard-county',      anchor: 'Heard County wildlife removal',       blurb: 'to the southwest' },
+      { name: 'Meriwether County', slug: 'meriwether-county', anchor: 'Wildlife removal in Meriwether County', blurb: 'to the south' },
+    ];
+
+    extendedBody = `
+      <h2>Coweta County's Geography Shapes Wildlife Activity</h2>
+      <p>Coweta sits at the southwestern edge of metro Atlanta's commuter belt, with the <strong>Chattahoochee River</strong> forming the entire western boundary and <strong>I-85</strong> cutting north-south through the county center. The river corridor sustains a continuous year-round raccoon source population that disperses into adjacent western Coweta subdivisions; tributary creeks (<strong>Whitewater Creek</strong>, <strong>Yellow Jacket Creek</strong>, <strong>Cedar Creek</strong>) reinforce wildlife travel habitat throughout the county.</p>
+      <p>Newnan's historic downtown — the central <strong>Newnan square</strong> and the surrounding antebellum and Victorian residences that earned the city the local nickname "<strong>City of Homes</strong>" — has one of metro Atlanta's highest concentrations of pre-1860 substantially-built housing. The pre-1900 <strong>Senoia historic district</strong> in the eastern part of the county (used as a filming location for <em>The Walking Dead</em>) provides similar pre-1900 brick storefront and worker housing. The combination of these two historic cores plus 1990s-2010s I-85 corridor subdivision growth produces metro Atlanta's widest residential wildlife-pressure profile range in a southern county.</p>
+
+      <h2>Wildlife Species Present in Coweta County</h2>
+      <p>Coweta residents most frequently call about animals that have moved from the Chattahoochee corridor or the Whitewater/Yellow Jacket Creek tributary system into residential structures:</p>
+      <ul class="tips-list">
+        <li><strong>Raccoons</strong> — heaviest densities along the Chattahoochee corridor; female raccoons whelp in Newnan "City of Homes" antebellum-era masonry chimneys February through April every year</li>
+        <li><strong>Eastern gray squirrels</strong> — constant across the county's mature canopy; <strong>Southern flying squirrels</strong> in older Newnan and Senoia historic-district housing</li>
+        <li><strong>Roof rats</strong> — establishing in southern Coweta subdivisions and along the I-85 corridor as the species expands northward</li>
+        <li><strong>Norway rats</strong> — concentrated in pre-1860 Newnan historic-square commercial blocks and pre-1900 Senoia historic-downtown</li>
+        <li><strong>Big brown bats</strong> — long-established colonies in pre-1860 Newnan "City of Homes" antebellum chimneys (some 30-50+ years of continuous occupation) and pre-1900 Senoia historic brick storefronts</li>
+        <li><strong>Evening bats</strong> in older Newnan and Senoia housing</li>
+        <li><strong>Virginia opossums</strong>, <strong>striped skunks</strong>, <strong>armadillos</strong> across residential and rural-edge areas</li>
+        <li>Snakes encountered residentially are dominated by the <strong>eastern rat snake</strong> with the occasional <strong>northern copperhead</strong>; <strong>brown watersnakes</strong> along the Chattahoochee corridor</li>
+      </ul>
+
+      <h2>Common Wildlife Issues That Define the Coweta Job Mix</h2>
+      <p>Several patterns in Coweta's call volume are distinctive enough to call out:</p>
+
+      <h3>Newnan "City of Homes" antebellum and Victorian multi-entry-point work</h3>
+      <p>Newnan's historic-downtown housing has structural features — original masonry chimneys without modern caps, hand-laid brick foundations with pointing failures, original wood soffits, pre-modern gable louvers without screen backing — that produce 4-5+ raccoon, bat, and squirrel entry points per property. Custom-fabricated stainless-steel chimney caps for pre-1860 chimneys are typical scope items, and licensed-electrician follow-up is required where chewed wiring is found on the older Romex.</p>
+
+      <h3>Senoia pre-1900 historic district bat and Norway rat work</h3>
+      <p>The Senoia historic district's pre-1900 brick storefronts and adjacent worker housing host long-established big-brown-bat colonies and persistent Norway rat populations. The historic-district housing-and-commercial mix produces the same multi-decade colony profile as Newnan's downtown core.</p>
+
+      <h3>I-85 corridor roof-rat establishment</h3>
+      <p>Southern Coweta subdivisions along the I-85 corridor (toward the Cobb and Fulton boundaries) are at the leading edge of roof rat range expansion as the species moves north along I-85. Properties along the corridor are seeing roof-rat establishment in 1990s-2010s subdivision construction.</p>
+
+      <h2>Local Authorities and Regulations</h2>
+      <p>Public-health authority for Coweta County rabies-vector exposure runs through the <strong>Coweta County Health Department</strong>; <strong>Coweta County Animal Control</strong> handles domestic-animal complaints but does not respond to most nuisance wildlife. Commercial wildlife removal in Georgia operates under <strong>Georgia DNR Wildlife Resources Division Region 4</strong> (Fort Valley office) for southern Coweta and Region 1 for the northern portions. Federal protections apply to bats during maternity periods (May-August exclusion restrictions) and all migratory birds.`;
+
+    faqs = [
+      {
+        q: 'What wildlife is most common in Coweta County, Georgia?',
+        a: 'In residential calls across Coweta County, eastern gray squirrels, raccoons, Virginia opossums, and big brown bats make up the bulk of attic and yard intrusions. Pre-1860 Newnan "City of Homes" antebellum and Victorian housing hosts long-established big-brown-bat colonies in original masonry chimneys. Roof rats are establishing in southern Coweta subdivisions along the I-85 corridor; Norway rats remain dominant in Newnan and Senoia historic-downtown commercial blocks. Snake calls concentrate along the Chattahoochee corridor.'
+      },
+      {
+        q: 'Why is Newnan called the "City of Homes"?',
+        a: "Newnan has one of metro Atlanta's highest concentrations of pre-1860 substantially-built housing — antebellum and Victorian residences clustered around the central courthouse square and along the surrounding streets. The historic-district housing density is unusual in metro Atlanta, and the structural features of pre-1860 housing (original masonry chimneys, hand-laid brick foundations, original wood soffits, pre-modern gable louvers) make Newnan a wildlife-pressure pocket that's closer to Marietta or Roswell historic district patterns than to typical Coweta suburban housing."
+      },
+      {
+        q: 'How old are the bat colonies in Newnan historic homes?',
+        a: 'Newnan "City of Homes" antebellum-era chimney colonies are routinely 30-50+ years old by the time homeowners first notice activity. Big brown bat daughters return to their natal roosts to whelp, so colony memory is multigenerational and persists across changes in property ownership. Senoia historic-district colonies span similar timeframes. Long-established colonies produce inches of accumulated guano, requiring HEPA-equipped decontamination.'
+      },
+      {
+        q: 'Are roof rats new to Coweta County?',
+        a: 'Relatively. Roof rats moved up the I-85 corridor from peninsular Florida during the 2010s and are now establishing in southern Coweta subdivisions. Properties here are seeing roof-rat presence for the first time, often without homeowners recognizing the species — they assume the activity is squirrels or Norway rats. The defining diagnostic is pointed-end half-inch droppings (versus blunt 3/4-inch Norway droppings) and overhead activity in attics and ceiling cavities.'
+      },
+      {
+        q: 'When can I evict raccoons from my Coweta County attic?',
+        a: 'Female raccoons in Coweta County whelp late February through early May, and kits are immobile and dependent until roughly 8-10 weeks of age. Performing exclusion during that window risks separating mother from kits and trapping kits inside the structure. Right approach during kit season is one-way doors that let the family exit but not re-enter, deployed once kits are mobile. Inspections and entry-point identification can happen any time of year.'
+      },
+      {
+        q: 'How much does wildlife removal cost in Coweta County?',
+        a: 'Pre-1860 Newnan "City of Homes" historic-district raccoon jobs run $700-$1,800 because of multi-entry-point profiles. Long-established Newnan and Senoia bat colonies run $2,500-$5,000+ once full guano remediation is included. Suburban roof-rat jobs in southern Coweta subdivisions typically run $400-$900. Single-animal squirrel trap-and-release at one-entry-point homes is the floor.'
+      },
+      {
+        q: 'Is wildlife removal regulated in Coweta County?',
+        a: 'Yes. State-level oversight comes from the Georgia DNR Wildlife Resources Division (Region 4 Fort Valley office for southern Coweta, Region 1 for northern portions), which issues the Trapping License and Nuisance Wildlife Control Permit required for commercial operators. Federal protections apply to bats during maternity periods and all migratory birds. Coweta County Animal Control handles domestic-animal calls but does not respond to most nuisance wildlife — those calls are referred to licensed private operators.'
+      }
+    ];
+
+  } else if (countyName === 'Fayette County') {
+    blockA = `Fayette County sits in the southern metropolitan Atlanta suburban arc, anchored by the distinctive planned community of Peachtree City and the historic county seat of Fayetteville. With a population of ${county.population.toLocaleString()} residents, Fayette runs from the multiple-reservoir geography of Peachtree City (Lake Peachtree, Lake Kedron, Lake McIntosh) and its 100+ mile golf-cart path network through Fayetteville's older historic-downtown core out to the smaller communities of Tyrone, Brooks, and Woolsey. Established in ${county.established}, the county combines pre-1900 Fayetteville historic housing, the highly distinctive Peachtree City master-planned community pattern (1970s-1990s development around three reservoirs), and mid-century rural housing in Tyrone and southern Fayette.`;
+    blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across Fayette's mature canopy. Southern flying squirrels appear with notable frequency in older Fayetteville historic-district housing. Virginia opossums shelter under decks and porches across the older Fayetteville inner-town housing and along the Peachtree City greenspace network. Striped skunks are persistent in the wooded greenspace edges, and snake calls — primarily eastern rat snakes and the occasional copperhead — concentrate around the lake-edge properties and along the Whitewater Creek corridor. ${cap(county.absent_or_rare)}.`;
+    blockC = `Coverage spans all of Fayette County including ${top4cities}, plus Brooks and Woolsey, and the unincorporated areas across the county. The county's mix of the Peachtree City master-planned community geography (multiple reservoirs, 100+ mile golf-cart path greenspace network), Fayetteville's pre-1900 historic-downtown core, and the smaller mid-century communities — combined with the lake-edge raccoon source populations and the cart-path-corridor wildlife travel network — means contractors here handle a uniquely mixed call profile compared to typical south-metro counties.`;
+    metaTitle = `Fayette County Wildlife Removal — Peachtree City, Fayetteville GA`;
+    metaDescription = `Licensed wildlife removal in Fayette County, GA — Peachtree City, Fayetteville, Tyrone & Brooks. Lake corridor coverage. Same-day service.`;
+
+    geo = { lat: 33.4115, lon: -84.4940 };
+    sameAs = [
+      'https://en.wikipedia.org/wiki/Fayette_County,_Georgia',
+    ];
+
+    neighboringCounties = [
+      { name: 'Fulton County',  slug: 'fulton-county',  anchor: 'Fulton County wildlife removal',      blurb: 'directly to the north' },
+      { name: 'Clayton County', slug: 'clayton-county', anchor: 'Clayton County wildlife services',    blurb: 'to the northeast' },
+      { name: 'Henry County',   slug: 'henry-county',   anchor: 'Henry County animal removal',         blurb: 'to the east' },
+      { name: 'Spalding County',slug: 'spalding-county',anchor: 'Spalding County wildlife removal',    blurb: 'to the south' },
+      { name: 'Coweta County',  slug: 'coweta-county',  anchor: 'Wildlife removal in Coweta County',   blurb: 'to the west' },
+    ];
+
+    extendedBody = `
+      <h2>Fayette County's Distinctive Geography Shapes Wildlife Activity</h2>
+      <p>Fayette has metro Atlanta's most distinctive planned-community geography. <strong>Peachtree City</strong> — incorporated in 1959 and developed as a master-planned community through the 1970s-1990s — has three reservoirs (<strong>Lake Peachtree</strong>, <strong>Lake Kedron</strong>, <strong>Lake McIntosh</strong>) integrated into the residential pattern, plus a famous <strong>100+ mile golf-cart path network</strong> that cuts through preserved greenspace connecting most of the city's homes to the lakes. From a wildlife perspective, the cart-path system effectively functions as a continuous wildlife travel corridor — raccoons, bats, squirrels, and roof rats all use the connected canopy and overhead utility lines along the paths to move between properties without ground contact.</p>\n      <p>Beyond Peachtree City, <strong>Fayetteville</strong> (the county seat) has a pre-1900 historic-downtown core around the Fayette County Courthouse, with surrounding historic housing that hosts long-established big-brown-bat colonies. The smaller communities of Tyrone, Brooks, and Woolsey have a mid-century rural-suburban housing profile.</p>
+
+      <h2>Wildlife Species Present in Fayette County</h2>
+      <p>Fayette residents most frequently call about animals that have moved from the Peachtree City lake corridors, the Whitewater Creek system, or the Fayetteville historic district into residential structures:</p>
+      <ul class="tips-list">
+        <li><strong>Raccoons</strong> — heaviest densities along Lake Peachtree, Lake Kedron, and Lake McIntosh shorelines; year-round protein subsidy from shoreline foraging produces 15-25+ lb adults common in lakefront properties</li>
+        <li><strong>Eastern gray squirrels</strong> — constant across the county; <strong>Southern flying squirrels</strong> in older Fayetteville historic-district housing and along the Peachtree City cart-path greenspace</li>
+        <li><strong>Roof rats</strong> — dominant species in Peachtree City's now-mature 1970s-1990s subdivision construction; the cart-path canopy plus overhead utility infrastructure provides ideal connectivity</li>
+        <li><strong>Norway rats</strong> — concentrated in pre-1900 Fayetteville historic-downtown commercial blocks</li>
+        <li><strong>Big brown bats</strong> — long-established colonies in pre-1900 Fayetteville historic-downtown housing; multi-decade colonies common</li>
+        <li><strong>Virginia opossums</strong>, <strong>striped skunks</strong>, <strong>armadillos</strong> across residential and rural-edge areas</li>
+        <li><strong>White-tailed deer</strong> at exceptional densities throughout Peachtree City because of the preserved greenspace and limited deer hunting</li>
+        <li><strong>Urban coyotes</strong> firmly established in the Peachtree City greenspace network</li>
+        <li>Snakes encountered residentially are dominated by the <strong>eastern rat snake</strong> with the occasional <strong>northern copperhead</strong>; <strong>brown watersnakes</strong> along the lake corridors</li>
+      </ul>
+
+      <h2>Common Wildlife Issues That Define the Fayette Job Mix</h2>
+      <p>Several patterns in Fayette's call volume are distinctive enough to call out:</p>
+
+      <h3>Peachtree City lake-corridor raccoon and roof-rat work</h3>
+      <p>The three Peachtree City reservoirs (Lake Peachtree, Lake Kedron, Lake McIntosh) sustain dense year-round raccoon source populations along the lakeshore forest. Lake-adjacent properties take continuous fall dispersal pressure during the September-November window. The same lakefront construction features that support raccoons (boathouses, screened porches, dock-side outbuildings) also host bat colonies and roof-rat populations.</p>
+
+      <h3>Cart-path greenspace as a wildlife travel corridor</h3>
+      <p>Peachtree City's 100+ miles of golf-cart paths cut through preserved greenspace connecting the city's residential subdivisions to the lakes. From a wildlife perspective, this greenspace network functions as a continuous travel corridor — roof rats, raccoons, opossums, and skunks all use the connected canopy and overhead utility lines to move between properties without ground contact. Neighbor-to-neighbor reinfestation along the cart-path corridor is the defining Peachtree City rat-call pattern.</p>
+
+      <h3>Pre-1900 Fayetteville historic-downtown bat colonies</h3>
+      <p>The pre-1900 Fayetteville historic-downtown housing around the Fayette County Courthouse hosts long-established big-brown-bat colonies, with many spanning 30-50+ years of continuous occupation in original masonry chimneys and pre-modern gable louvers.</p>
+
+      <h3>Peachtree City white-tailed deer overpopulation</h3>
+      <p>The combination of preserved greenspace, the cart-path network providing safe nighttime browsing routes, and limited deer hunting in the master-planned community has produced exceptional white-tailed deer densities in Peachtree City. Most management is non-lethal — habitat modification, deterrent fencing, fertility control studies — though USDA permits for population reduction are issued in some cases.</p>
+
+      <h2>Local Authorities and Regulations</h2>
+      <p>Public-health authority for Fayette County rabies-vector exposure runs through the <strong>Fayette County Department of Public Health</strong>; <strong>Fayette County Animal Control</strong> handles domestic-animal complaints but does not respond to most nuisance wildlife. Commercial wildlife removal in Georgia operates under <strong>Georgia DNR Wildlife Resources Division Region 4</strong> (Fort Valley office). Federal protections apply to bats during maternity periods (May-August exclusion restrictions) and all migratory birds.`;
+
+    faqs = [
+      {
+        q: 'What wildlife is most common in Fayette County, Georgia?',
+        a: "In residential calls across Fayette County, eastern gray squirrels, raccoons, Virginia opossums, and big brown bats make up the bulk of attic and yard intrusions. Peachtree City's lake corridors (Lake Peachtree, Lake Kedron, Lake McIntosh) sustain dense raccoon and bat populations. Roof rats dominate Peachtree City's 1970s-1990s subdivision construction. White-tailed deer reach exceptional densities throughout Peachtree City because of the preserved greenspace. Pre-1900 Fayetteville historic-downtown housing hosts long-established big-brown-bat colonies."
+      },
+      {
+        q: 'Why is wildlife pressure so high in Peachtree City?',
+        a: 'Three reasons. First, the three reservoirs (Lake Peachtree, Lake Kedron, Lake McIntosh) sustain dense year-round source populations along the lakeshore forest. Second, the 100+ mile golf-cart path network cuts through preserved greenspace and effectively functions as a continuous wildlife travel corridor — roof rats, raccoons, opossums, and skunks use the connected canopy and overhead utility lines to move between properties without ground contact. Third, the master-planned community design has limited deer hunting and produces exceptional white-tailed deer densities.'
+      },
+      {
+        q: 'How old are the bat colonies in Fayetteville historic homes?',
+        a: 'Pre-1900 Fayetteville historic-downtown chimney colonies are routinely 30-50+ years old by the time homeowners first notice activity. Big brown bat daughters return to their natal roosts to whelp, so colony memory is multigenerational and persists across changes in property ownership. The first noticeable sign is typically guano accumulation on siding below an entry point, a single bat appearing in living space, or summer-time odor from the attic.'
+      },
+      {
+        q: 'Are raccoons more common on Peachtree City lake properties?',
+        a: 'Yes, measurably. Lake Peachtree, Lake Kedron, and Lake McIntosh shoreline forests sustain dense year-round raccoon source populations, and lake-adjacent properties take continuous pressure from this source. Year-round protein subsidy from shoreline foraging produces heavier-than-typical adult raccoons (15-25+ lbs). Female raccoons specifically select lakefront attics over natural den sites during spring whelping. Properties with boathouses, screened porches, and dock-attached structures see raccoon presence even when the main house is well sealed.'
+      },
+      {
+        q: 'When can I evict raccoons from my Fayette County attic?',
+        a: 'Female raccoons in Fayette County whelp late February through early May, and kits are immobile and dependent until roughly 8-10 weeks of age. Performing exclusion during that window risks separating mother from kits and trapping kits inside the structure. Right approach during kit season is one-way doors that let the family exit but not re-enter, deployed once kits are mobile. Inspections and entry-point identification can happen any time of year.'
+      },
+      {
+        q: 'Are coyotes a problem in Peachtree City?',
+        a: 'Yes — urban coyotes are now firmly established in the Peachtree City greenspace network. The combination of preserved greenspace, the cart-path corridor system, and the limited deer hunting that has produced exceptional white-tailed deer densities has also produced ideal coyote habitat. Most calls are driven by missing cats, daytime sightings near the cart paths, or den activity in stormwater easements. Resolutions typically combine hazing, removing food sources, and disrupting den sites.'
+      },
+      {
+        q: 'How much does wildlife removal cost in Fayette County?',
+        a: 'Pricing varies by species and exclusion scope. Pre-1900 Fayetteville historic-downtown raccoon jobs run $700-$1,800 because of multi-entry-point profiles. Long-established Fayetteville bat colonies run $2,500-$5,000+ once full guano remediation is included. Peachtree City lakefront properties with multi-structure colonies (main house plus boathouse) frequently run $3,000-$6,000+. Suburban Peachtree City roof-rat jobs typically run $400-$1,000.'
+      },
+      {
+        q: 'Is wildlife removal regulated in Fayette County?',
+        a: 'Yes. State-level oversight comes from the Georgia DNR Wildlife Resources Division (Region 4, Fort Valley office), which issues the Trapping License and Nuisance Wildlife Control Permit required for commercial operators. Federal protections apply to bats during maternity periods (May-August exclusion restrictions) and all migratory birds (Canada geese, owls, hawks, woodpeckers). Fayette County Animal Control handles domestic-animal calls but does not respond to most nuisance wildlife.'
+      }
+    ];
+
   } else if (countyName === 'Gwinnett County') {
     blockA = `Gwinnett County is the second-most populous county in Georgia at ${county.population.toLocaleString()} residents and the geographic center of metro Atlanta's eastern arc. The county runs from <strong>Lake Lanier</strong> on the northern boundary down through the major suburban cities of Sugar Hill, Suwanee, Duluth, Lawrenceville (the county seat), and Peachtree Corners to Snellville and Norcross at the southern edges. The <strong>Yellow River</strong> cuts diagonally through the county center, the <strong>Chattahoochee River</strong> forms the western boundary, and <strong>Buford Dam</strong> at the southern end of Lake Lanier is one of the more important wildlife-corridor anchors in north Georgia. Established in ${county.established}, Gwinnett combines the pre-1900 Lawrenceville historic-square housing, the 1870-established Norcross historic-downtown, mid-century post-war ranches, and the massive 1980s-2010s subdivision growth that transformed the county into one of metro Atlanta's largest residential markets.`;
     blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across Gwinnett's mature canopy. Southern flying squirrels appear with notable frequency in older Lawrenceville and Norcross historic-district housing. Virginia opossums shelter under decks and porches across the older inner-town housing stock and mid-century post-war ranches. Striped skunks are persistent under sheds and crawl spaces, and snake calls — primarily eastern rat snakes and the occasional copperhead — concentrate along the Yellow River corridor, the Chattahoochee corridor, and the Buford Highway commercial-residential transition zones. ${cap(county.absent_or_rare)}.`;

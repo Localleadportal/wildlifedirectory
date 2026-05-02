@@ -169,6 +169,32 @@
       "regional_wildlife": "Bartow has the largest Lake Allatoona shoreline footprint of any county and the wooded shoreline forest sustains one of the densest year-round raccoon source populations in north Georgia. Pre-1940 Cartersville mill housing and the 1840s-era Adairsville historic downtown around the Train Depot host long-established big-brown-bat colonies — many spanning 30-50+ years. Roof rats moved up the I-75 corridor during the 2010s and are now establishing throughout southern Bartow; Norway rats remain dominant in the older Cartersville and Adairsville commercial corridors. The Etowah River corridor and Pumpkinvine Creek tributary system sustain continuous year-round wildlife travel habitat",
       "absent_or_rare": "white-tailed deer are abundant throughout Bartow's rural and rural-suburban edges, black bears occasionally pass through the more remote northern parts of the county, the occasional alligator turns up along the Etowah River corridor, and federally listed Cherokee darter and Etowah darter populations occur in the Etowah and Allatoona Creek systems"
     },
+    "Coweta County": {
+      "county_seat": "Newnan",
+      "population": 153526,
+      "established": 1826,
+      "region": "the southwestern metropolitan Atlanta exurban arc, with the Chattahoochee River along the western boundary and I-85 cutting through the county center",
+      "largest_cities": ["Newnan", "Senoia", "Sharpsburg", "Grantville", "Moreland", "Turin", "Haralson"],
+      "nearest_metro": "Atlanta (downtown is about 40 miles northeast of Newnan via I-85)",
+      "natural_features": ["Chattahoochee River (western boundary)", "Whitewater Creek", "Yellow Jacket Creek", "Cedar Creek", "Sprewell Bluff area", "Newnan historic downtown 'City of Homes'", "Senoia historic district"],
+      "habitat_type": "rural-suburban transition zone with Newnan's antebellum and Victorian historic housing core (the 'City of Homes'), Senoia's pre-1900 historic district (used as a film location for The Walking Dead), the Chattahoochee corridor along the western boundary, and the I-85 corridor running through the county center with substantial 1990s-2010s subdivision growth between Newnan and the Cobb/Fulton boundary",
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "Southern flying squirrels", "Virginia opossums", "Norway rats", "roof rats", "big brown bats", "evening bats", "striped skunks", "armadillos", "snakes (rat snakes, copperheads)"],
+      "regional_wildlife": "Coweta combines Newnan's exceptional density of antebellum and Victorian historic housing with the more rural suburban-transition character of southern Coweta. The pre-1900 Newnan historic-downtown housing — Newnan is locally known as the 'City of Homes' for its concentration of pre-Civil War and Victorian residences — hosts long-established big-brown-bat colonies in original masonry chimneys, with many spanning 30-50+ years of continuous occupation. Pre-1900 Senoia historic-district brick storefronts and surrounding housing host similar colonies. Roof rats moved up the I-85 corridor during the 2010s and now drive most call volume in southern Coweta subdivisions; Norway rats remain dominant in Newnan and Senoia historic-downtown commercial blocks. The Chattahoochee River corridor sustains a year-round raccoon source population that disperses into adjacent western Coweta subdivisions",
+      "absent_or_rare": "white-tailed deer reach high densities in the wooded rural-edge areas of southern Coweta and along the Chattahoochee corridor, the occasional black bear passes through the more remote western parts of the county, and federally protected migratory bird species (hawks, owls, woodpeckers) are present throughout the county under Migratory Bird Treaty Act protocols"
+    },
+    "Fayette County": {
+      "county_seat": "Fayetteville",
+      "population": 119194,
+      "established": 1821,
+      "region": "the southern metropolitan Atlanta suburban arc, anchored by the planned community of Peachtree City and the historic county seat of Fayetteville",
+      "largest_cities": ["Peachtree City", "Fayetteville", "Tyrone", "Brooks", "Woolsey"],
+      "nearest_metro": "Atlanta (downtown is about 30 miles north of Fayetteville)",
+      "natural_features": ["Lake Peachtree", "Lake Kedron", "Lake McIntosh", "Flat Creek", "Whitewater Creek", "Peachtree City's 100+ mile golf-cart path network", "Fayetteville historic downtown"],
+      "habitat_type": "Atlanta's most distinctive planned-community geography — Peachtree City's master-planned residential pattern with multiple lakes (Lake Peachtree, Lake Kedron, Lake McIntosh), 100+ miles of golf-cart paths cutting through preserved greenspace, and homes that connect to lake corridors via the cart-path system; combined with Fayetteville's older historic-downtown core and Tyrone's smaller mid-century housing stock",
+      "common_wildlife": ["raccoons", "Eastern gray squirrels", "Southern flying squirrels", "Virginia opossums", "Norway rats", "roof rats", "big brown bats", "evening bats", "striped skunks", "armadillos", "snakes (rat snakes, copperheads)"],
+      "regional_wildlife": "Fayette's wildlife profile is shaped by Peachtree City's distinctive planned-community design. The three reservoirs (Lake Peachtree, Lake Kedron, Lake McIntosh) sustain dense year-round raccoon and bat populations along the lakeshore forest, and the 100+ mile golf-cart path network through preserved greenspace effectively functions as a continuous wildlife travel corridor connecting source habitat to residential properties. Pre-1900 Fayetteville historic-downtown housing hosts long-established big-brown-bat colonies; roof rats are dominant in Peachtree City's now-mature 1970s-1990s subdivision construction. Tyrone and the smaller north-Fayette communities have a mid-century rural-suburban housing profile",
+      "absent_or_rare": "white-tailed deer reach exceptional densities throughout Peachtree City because of the preserved greenspace and limited deer hunting in the master-planned community, urban coyotes are now firmly established in the Peachtree City greenspace network, and federally protected migratory bird species are present throughout the county"
+    },
     "Gwinnett County": {
       "county_seat": "Lawrenceville",
       "population": 975353,

@@ -37,6 +37,8 @@ const CITY_OVERRIDES = {
   'Georgia|Bartow': ['Cartersville', 'Adairsville', 'Euharlee', 'Emerson', 'Kingston', 'White', 'Taylorsville'],
   'Georgia|Fulton': ['Atlanta', 'Sandy Springs', 'Roswell', 'Johns Creek', 'Alpharetta', 'Milton', 'East Point', 'College Park', 'South Fulton', 'Union City', 'Fairburn', 'Hapeville', 'Palmetto', 'Chattahoochee Hills'],
   'Georgia|Gwinnett': ['Lawrenceville', 'Duluth', 'Peachtree Corners', 'Snellville', 'Sugar Hill', 'Suwanee', 'Norcross', 'Buford', 'Lilburn', 'Dacula', 'Grayson', 'Berkeley Lake', 'Loganville', 'Auburn'],
+  'Georgia|Coweta': ['Newnan', 'Senoia', 'Sharpsburg', 'Grantville', 'Moreland', 'Turin', 'Haralson'],
+  'Georgia|Fayette': ['Peachtree City', 'Fayetteville', 'Tyrone', 'Brooks', 'Woolsey'],
 };
 
 // Get cities for a county (matches "Cobb County" -> county key "Cobb")
