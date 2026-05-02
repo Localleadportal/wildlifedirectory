@@ -226,7 +226,8 @@
     <section class="services-section">
       <div class="container">
         <% if (animal.slug === 'opossum-removal') { %>
-        <div class="section-photo-banner" style="background-image: url('/images/hero11.jpg');">
+        <div class="section-photo-banner">
+          <img src="/images/hero11.jpg" alt="Opossum in tree near residential property — local possum trapping and exclusion in <%= countyName %>" loading="lazy" class="banner-img">
           <h2><%= animal.name %> Services in <%= countyName %></h2>
           <p class="section-sub"><%= animal.urgency %></p>
         </div>

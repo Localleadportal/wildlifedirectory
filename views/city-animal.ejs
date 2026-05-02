@@ -231,7 +231,7 @@
 
     <section class="services-section">
       <div class="container">
-        <% if (animal.slug === 'opossum-removal') { %><div class="section-photo-banner" style="background-image: url('/images/hero11.jpg');"><% } %>
+        <% if (animal.slug === 'opossum-removal') { %><div class="section-photo-banner"><img src="/images/hero11.jpg" alt="Wild opossum spotted in <%= cityName %> yard — humane possum removal and prevention experts" loading="lazy" class="banner-img"><% } %>
         <h2><%= animal.name %> in <%= cityName %> — What to Expect</h2>
         <p class="section-sub"><%= animal.urgency %></p>
         <% if (animal.slug === 'opossum-removal') { %></div><% } %>
