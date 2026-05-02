@@ -52,13 +52,28 @@ const _countyOnlyIndexCounties = new Set(
     return `${state}|${(county || '').toLowerCase()}`;
   })
 );
+// Counties where ONLY the bare hub (/state/county/) is indexable — per-animal
+// hubs and all city-level pages stay noindex (typically because only the
+// county hub content has been authored).
+const _hubOnlyIndexCounties = new Set(
+  (permanentlyIndexed.countiesWithHubOnlyIndex || []).map(k => {
+    const [state, county] = k.split('|');
+    return `${state}|${(county || '').toLowerCase()}`;
+  })
+);
 
 async function isCountyIndexable(stateName, countyName) {
   const key = `${stateName}|${apiCounty(countyName).toLowerCase()}`;
   return _permanentCounties.has(key);
 }
+async function isCountyAnimalIndexable(stateName, countyName) {
+  const key = `${stateName}|${apiCounty(countyName).toLowerCase()}`;
+  if (_hubOnlyIndexCounties.has(key)) return false;
+  return _permanentCounties.has(key);
+}
 async function isCityIndexable(stateName, countyName) {
   const key = `${stateName}|${apiCounty(countyName).toLowerCase()}`;
+  if (_hubOnlyIndexCounties.has(key)) return false;
   if (_countyOnlyIndexCounties.has(key)) return false;
   return _permanentCounties.has(key);
 }
@@ -115,8 +130,10 @@ app.get('/sitemap.xml', async (req, res) => {
     const fullCounty = counties.find(c => apiCounty(c).toLowerCase() === countyLower);
     if (!fullCounty) return;
     const countySlug = toSlug(fullCounty);
-    const cityIndexable = !_countyOnlyIndexCounties.has(key);
+    const hubOnly = _hubOnlyIndexCounties.has(key);
+    const cityIndexable = !hubOnly && !_countyOnlyIndexCounties.has(key);
     urls.push(`${BASE}/${stateSlug}/${countySlug}/`);
+    if (hubOnly) return;
     ANIMALS.forEach(a => {
       urls.push(`${BASE}/${stateSlug}/${countySlug}/${a.slug}/`);
       if (!cityIndexable) return;
@@ -266,7 +283,7 @@ app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
     const animal = getAnimalBySlug(seg);
     const cities = getCitiesForCounty(stateName, countyName);
     const animalRegionNote = getAnimalRegionContent(stateName, seg);
-    const indexable = await isCountyIndexable(stateName, countyName);
+    const indexable = await isCountyAnimalIndexable(stateName, countyName);
     const countyAnimalContent = getCountyAnimalContent(stateName, countyName, seg);
     return res.render('county-animal', {
       stateName, countyName, animal, cities, stateInfo, animalRegionNote, embedScript,

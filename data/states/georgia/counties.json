@@ -279,6 +279,52 @@
       ],
       "regional_wildlife": "DeKalb has metro Atlanta's densest concentration of pre-WWII intown housing — Decatur, Druid Hills, Avondale Estates, Oakhurst, Candler Park, Kirkwood, Lake Claire, and East Atlanta — and that 1900s-1940s housing stock sustains long-established big-brown-bat maternity colonies, persistent flying squirrel colonies in the older attic spaces, and exceptional roof rat pressure feeding off the Decatur Square, Avondale Estates, East Atlanta Village, and Brookhaven Village restaurant districts. The Olmsted-designed canopy through Druid Hills and the mature oak-hickory cover across Decatur produce some of the metro's highest gray squirrel densities. Stone Mountain Park functions as a major regional wildlife source population, with raccoons, gray squirrels, and bats dispersing into surrounding Tucker and Stone Mountain neighborhoods",
       "absent_or_rare": "white-tailed deer are abundant in Stone Mountain Park and the wooded edges of Tucker and Stonecrest, urban coyotes are firmly established in Druid Hills, Decatur, and along the South Fork Peachtree Creek corridor, the federally proposed-for-listing tricolored bat is documented in the Stone Mountain and Arabia Mountain area, and the occasional black bear passes through the Stone Mountain ridgeline"
+    },
+    "Chatham County": {
+      "county_seat": "Savannah",
+      "population": 303025,
+      "established": 1777,
+      "region": "the Atlantic coastal plain at the mouth of the Savannah River, anchored by the historic city of Savannah and bordered on the east by the Atlantic Ocean",
+      "largest_cities": [
+        "Savannah",
+        "Pooler",
+        "Garden City",
+        "Port Wentworth",
+        "Tybee Island",
+        "Thunderbolt",
+        "Bloomingdale"
+      ],
+      "nearest_metro": "Savannah is the regional metropolitan center; Atlanta is roughly 250 miles inland to the northwest",
+      "natural_features": [
+        "Savannah River (northern boundary)",
+        "Ogeechee River (southern boundary)",
+        "Atlantic Ocean (eastern coast)",
+        "Savannah National Wildlife Refuge",
+        "Wassaw Island National Wildlife Refuge",
+        "Skidaway Island State Park",
+        "Tybee Island",
+        "Ossabaw Island Heritage Preserve (south)",
+        "Coastal salt marsh and tidal creek system"
+      ],
+      "habitat_type": "Atlantic coastal plain with extensive salt marsh, maritime live-oak forest under Spanish moss, tidal creek and saltwater estuary systems, the Savannah and Ogeechee River corridors, the barrier islands of Tybee, Wassaw, and Skidaway, and the historic 1700s-1800s housing stock of the Savannah Historic District",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "fox squirrels",
+        "Virginia opossums",
+        "roof rats",
+        "Norway rats",
+        "American alligators",
+        "big brown bats",
+        "Brazilian free-tailed bats",
+        "evening bats",
+        "Eastern cottontail rabbits",
+        "striped skunks",
+        "armadillos",
+        "snakes (Eastern diamondback rattlesnake, cottonmouth, copperhead, rat snakes)"
+      ],
+      "regional_wildlife": "Chatham's wildlife profile is unlike any inland Georgia county because of the coastal geography. American alligators are present in any standing water across the county — golf course ponds, retention basins, drainage ditches, tidal creek banks, and even residential pools after storm flooding. Roof rat pressure in the Savannah Historic District is among the highest in the Southeast, sustained by tourism-district food density and 1700s-1800s housing stock with extensive structural entry-point inventory. Big brown bat and Brazilian free-tailed bat maternity colonies are routine in the historic downtown's brick row houses, attic cupolas, and church steeples. Cottonmouths (water moccasins) drive a distinctive snake call profile in waterfront and tidal-edge properties — a regional risk that Atlanta-metro counties don't share. Fox squirrels, larger and more habitat-specialized than gray squirrels, persist on the barrier-island and longleaf-pine fragments",
+      "absent_or_rare": "American alligators are abundant and protected — encounters of any animal over 4 feet should be referred to Georgia DNR rather than handled privately, white-tailed deer are common in the suburban edges and barrier islands, sea turtles nest on Tybee and Wassaw under federal Endangered Species Act protection, the Eastern diamondback rattlesnake (the largest venomous snake in North America) is present at lower density and is treated as a serious encounter, and feral hogs occur in the western rural portions of the county"
     }
   }
 }
