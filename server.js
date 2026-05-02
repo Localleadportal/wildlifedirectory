@@ -15,6 +15,7 @@ const { getCityContent } = require('./data/cityContent');
 const { getCityAnimalContent } = require('./data/cityAnimalContent');
 const { getCountyAnimalContent } = require('./data/countyAnimalContent');
 const { getNationalContent } = require('./data/animalNationalContent');
+const { getAllPosts, getPostBySlug } = require('./data/blogPosts');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -120,6 +121,10 @@ app.get('/sitemap.xml', async (req, res) => {
     urls.push(`${BASE}/services/${slug}/`);
   });
 
+  // Blog index + posts
+  urls.push(`${BASE}/blog/`);
+  getAllPosts().forEach(p => urls.push(`${BASE}/blog/${p.slug}/`));
+
   // Trigger a refresh so any newly active areas get merged into the permanent set
   try { await loadActiveLocations(); } catch {}
 
@@ -182,6 +187,22 @@ app.get('/services/:animalSlug/', (req, res) => {
 
 // Trailing-slash redirect for /services/{animal}
 app.get('/services/:animalSlug', (req, res) => res.redirect(301, `/services/${req.params.animalSlug}/`));
+
+// Blog index — /blog/
+app.get('/blog/', (req, res) => {
+  const posts = getAllPosts();
+  res.render('blog-index', { posts });
+});
+app.get('/blog', (req, res) => res.redirect(301, '/blog/'));
+
+// Blog post — /blog/{slug}/
+app.get('/blog/:slug/', (req, res) => {
+  const post = getPostBySlug(req.params.slug);
+  if (!post) return res.status(404).render('404', { message: 'Blog post not found.' });
+  const relatedPostsList = getAllPosts().filter(p => p.slug !== post.slug).slice(0, 3);
+  res.render('blog-post', { post, relatedPostsList });
+});
+app.get('/blog/:slug', (req, res) => res.redirect(301, `/blog/${req.params.slug}/`));
 
 // State page — /georgia/
 app.get('/:stateSlug/', async (req, res) => {

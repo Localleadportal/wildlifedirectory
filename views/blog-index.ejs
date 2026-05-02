@@ -1,0 +1,108 @@
+<%
+  const pageUrl = 'https://www.removewildlifenow.com/blog/';
+  const title = 'Wildlife Removal Blog — Tips, Costs, and Local Guides | RemoveWildlifeNow';
+  const metaDesc = 'Expert articles on wildlife removal: cost guides, signs of infestation, DIY tips, and what to expect when hiring a licensed contractor.';
+  const canonical = '/blog/';
+  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
+
+  const schema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Blog",
+        "@id": pageUrl + "#blog",
+        "url": pageUrl,
+        "name": "RemoveWildlifeNow Blog",
+        "description": metaDesc,
+        "publisher": { "@id": "https://www.removewildlifenow.com/#organization" },
+        "blogPost": posts.map(p => ({
+          "@type": "BlogPosting",
+          "headline": p.title,
+          "url": "https://www.removewildlifenow.com/blog/" + p.slug + "/",
+          "datePublished": p.datePublished,
+          "dateModified": p.dateModified,
+          "author": { "@type": "Organization", "name": p.author }
+        }))
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": pageUrl + "#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.removewildlifenow.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog" }
+        ]
+      }
+    ]
+  });
+
+  const extraHead = `
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="RemoveWildlifeNow.com">
+    <meta property="og:url" content="${pageUrl}">
+    <meta property="og:title" content="${title}">
+    <meta property="og:description" content="${metaDesc}">
+    <meta property="og:image" content="${ogImage}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${title}">
+    <meta name="twitter:description" content="${metaDesc}">
+    <meta name="twitter:image" content="${ogImage}">
+    <meta name="robots" content="index, follow">
+  `;
+
+  function formatDate(iso) {
+    const d = new Date(iso + 'T00:00:00Z');
+    return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+  }
+%>
+<%- include('layout', { title, metaDesc, canonical, schema, extraHead, body: `
+
+<nav class="breadcrumb">
+  <div class="container">
+    <a href="/">Home</a> &rsaquo; <span>Blog</span>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="hero-badge">Wildlife Removal Blog</div>
+    <h1>Expert Guides for Homeowners</h1>
+    <p>Real pricing, real signs to watch for, and real advice on when to call a pro. Written by people who actually do this work.</p>
+  </div>
+</section>
+
+<section class="county-content">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px;">
+      ${posts.map(p => `
+        <article style="border:1px solid #e5e7eb;border-radius:12px;overflow:hidden;background:#fff;display:flex;flex-direction:column;transition:transform 0.2s,box-shadow 0.2s;">
+          <a href="/blog/${p.slug}/" style="text-decoration:none;color:inherit;display:block;padding:24px;flex:1;">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+              <span style="background:var(--green-light);color:var(--green-dark);padding:4px 10px;border-radius:6px;font-size:0.78rem;font-weight:600;">${p.category}</span>
+              <span style="color:#9ca3af;font-size:0.85rem;">${formatDate(p.datePublished)}</span>
+            </div>
+            <h2 style="font-size:1.25rem;margin:0 0 12px;line-height:1.35;color:#0f172a;">${p.title}</h2>
+            <p style="color:#475569;font-size:0.95rem;line-height:1.6;margin:0 0 16px;">${p.excerpt}</p>
+            <span style="color:var(--primary);font-weight:600;font-size:0.9rem;">Read article &rarr;</span>
+          </a>
+        </article>
+      `).join('')}
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box">
+      <h2>Need Help Right Now?</h2>
+      <p class="cta-sub">Skip the article — call our 24/7 dispatch line and we'll connect you with a licensed local contractor.</p>
+      <div class="phone-wrap">
+        <a class="llp-phone phone-cta" href="tel:+18445443498">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          (844) 544-3498
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+` }) %>
