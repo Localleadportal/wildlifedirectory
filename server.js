@@ -114,6 +114,12 @@ app.get('/sitemap.xml', async (req, res) => {
   const BASE = 'https://www.removewildlifenow.com';
   const urls = [`${BASE}/`, `${BASE}/contact/`];
 
+  // National per-animal landing pages (only those with content authored)
+  const { NATIONAL_CONTENT } = require('./data/animalNationalContent');
+  Object.keys(NATIONAL_CONTENT).forEach(slug => {
+    urls.push(`${BASE}/services/${slug}/`);
+  });
+
   // Trigger a refresh so any newly active areas get merged into the permanent set
   try { await loadActiveLocations(); } catch {}
 
