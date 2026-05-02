@@ -13,6 +13,9 @@
   <% if (typeof schema !== 'undefined' && schema) { %>
   <script type="application/ld+json"><%- schema %></script>
   <% } %>
+  <% if (typeof extraHead !== 'undefined' && extraHead) { %>
+  <%- extraHead %>
+  <% } %>
 </head>
 <body>
   <header>
@@ -21,6 +24,7 @@
       <nav class="header-nav">
         <a href="/">Home</a>
         <a href="/#map-section">Find by State</a>
+        <a href="/services/raccoon-removal/">Services</a>
       </nav>
       <a class="llp-phone header-phone" href="tel:+18445443498">
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
@@ -54,9 +58,48 @@
     <%- body %>
   </main>
 
-  <footer>
+  <footer style="background:#1e293b;color:#cbd5e1;padding:48px 0 24px;margin-top:48px;">
     <div class="container">
-      <p>&copy; <%= new Date().getFullYear() %> RemoveWildlifeNow.com &mdash; Connecting homeowners with licensed wildlife removal professionals nationwide.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:32px;margin-bottom:32px;">
+        <div>
+          <h4 style="color:#fff;font-size:0.95rem;margin:0 0 12px;text-transform:uppercase;letter-spacing:0.5px;">Wildlife Services</h4>
+          <ul style="list-style:none;padding:0;margin:0;font-size:0.9rem;">
+            <li style="margin-bottom:6px;"><a href="/services/raccoon-removal/" style="color:#cbd5e1;text-decoration:none;">Raccoon Removal</a></li>
+            <li style="margin-bottom:6px;"><a href="/services/squirrel-removal/" style="color:#cbd5e1;text-decoration:none;">Squirrel Removal</a></li>
+            <li style="margin-bottom:6px;"><a href="/services/rat-removal/" style="color:#cbd5e1;text-decoration:none;">Rat Removal</a></li>
+            <li style="margin-bottom:6px;"><a href="/services/bat-removal/" style="color:#cbd5e1;text-decoration:none;">Bat Removal</a></li>
+            <li style="margin-bottom:6px;"><a href="/services/snake-removal/" style="color:#cbd5e1;text-decoration:none;">Snake Removal</a></li>
+            <li style="margin-bottom:6px;"><a href="/services/opossum-removal/" style="color:#cbd5e1;text-decoration:none;">Opossum Removal</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#fff;font-size:0.95rem;margin:0 0 12px;text-transform:uppercase;letter-spacing:0.5px;">Top States</h4>
+          <ul style="list-style:none;padding:0;margin:0;font-size:0.9rem;">
+            <li style="margin-bottom:6px;"><a href="/georgia/" style="color:#cbd5e1;text-decoration:none;">Georgia</a></li>
+            <li style="margin-bottom:6px;"><a href="/connecticut/" style="color:#cbd5e1;text-decoration:none;">Connecticut</a></li>
+            <li style="margin-bottom:6px;"><a href="/delaware/" style="color:#cbd5e1;text-decoration:none;">Delaware</a></li>
+            <li style="margin-bottom:6px;"><a href="/new-hampshire/" style="color:#cbd5e1;text-decoration:none;">New Hampshire</a></li>
+            <li style="margin-bottom:6px;"><a href="/rhode-island/" style="color:#cbd5e1;text-decoration:none;">Rhode Island</a></li>
+            <li style="margin-bottom:6px;"><a href="/vermont/" style="color:#cbd5e1;text-decoration:none;">Vermont</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#fff;font-size:0.95rem;margin:0 0 12px;text-transform:uppercase;letter-spacing:0.5px;">Resources</h4>
+          <ul style="list-style:none;padding:0;margin:0;font-size:0.9rem;">
+            <li style="margin-bottom:6px;"><a href="/" style="color:#cbd5e1;text-decoration:none;">Find by State Map</a></li>
+            <li style="margin-bottom:6px;"><a href="/contact/" style="color:#cbd5e1;text-decoration:none;">Contact Us</a></li>
+            <li style="margin-bottom:6px;"><a href="/sitemap.xml" style="color:#cbd5e1;text-decoration:none;">Sitemap</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color:#fff;font-size:0.95rem;margin:0 0 12px;text-transform:uppercase;letter-spacing:0.5px;">Get Help Now</h4>
+          <p style="margin:0 0 12px;color:#94a3b8;font-size:0.9rem;line-height:1.5;">Licensed wildlife removal across the United States. 24/7 emergency response.</p>
+          <a class="llp-phone" href="tel:+18445443498" style="color:#fff;font-weight:600;font-size:1.1rem;text-decoration:none;display:inline-block;">📞 (844) 544-3498</a>
+        </div>
+      </div>
+      <div style="border-top:1px solid #334155;padding-top:24px;text-align:center;color:#94a3b8;font-size:0.85rem;">
+        <p style="margin:0;">&copy; <%= new Date().getFullYear() %> RemoveWildlifeNow.com &mdash; Connecting homeowners with licensed wildlife removal professionals nationwide.</p>
+      </div>
     </div>
   </footer>
 </body>

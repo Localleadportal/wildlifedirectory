@@ -1,37 +1,124 @@
 <%
-  const title = 'Wildlife Removal Directory | Find Local Contractors | RemoveWildlifeNow.com';
-  const metaDesc = 'Find licensed wildlife removal contractors near you. Click your state on the map to find a local expert in your county — raccoons, squirrels, bats, snakes and more.';
+  const title = 'Wildlife Removal Directory | Find Licensed Local Contractors | RemoveWildlifeNow.com';
+  const metaDesc = 'Nationwide wildlife removal directory. Find licensed local contractors for raccoons, squirrels, rats, bats, snakes, and more — humane methods, same-day service.';
   const canonical = '/';
+  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
+
   const schema = JSON.stringify({
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://www.removewildlifenow.com/#website",
-        "url": "https://www.removewildlifenow.com/",
-        "name": "RemoveWildlifeNow.com",
-        "description": "Find licensed wildlife removal contractors near you."
-      },
       {
         "@type": "Organization",
         "@id": "https://www.removewildlifenow.com/#organization",
         "name": "RemoveWildlifeNow.com",
         "url": "https://www.removewildlifenow.com/",
-        "description": "Nationwide wildlife removal directory connecting homeowners with licensed local contractors."
+        "logo": "https://www.removewildlifenow.com/images/logo.png",
+        "description": "Nationwide directory of licensed wildlife removal contractors. Connecting homeowners with local professionals for raccoons, squirrels, rats, bats, snakes, and more.",
+        "areaServed": { "@type": "Country", "name": "United States" },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-844-544-3498",
+          "contactType": "customer service",
+          "areaServed": "US",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.removewildlifenow.com/#website",
+        "url": "https://www.removewildlifenow.com/",
+        "name": "RemoveWildlifeNow.com",
+        "description": "Find licensed wildlife removal contractors near you.",
+        "publisher": { "@id": "https://www.removewildlifenow.com/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.removewildlifenow.com/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.removewildlifenow.com/#webpage",
+        "url": "https://www.removewildlifenow.com/",
+        "name": title,
+        "description": metaDesc,
+        "isPartOf": { "@id": "https://www.removewildlifenow.com/#website" },
+        "about": { "@id": "https://www.removewildlifenow.com/#organization" },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": ogImage
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.removewildlifenow.com/#service",
+        "name": "Wildlife Removal Directory Services",
+        "serviceType": "Wildlife Removal",
+        "provider": { "@id": "https://www.removewildlifenow.com/#organization" },
+        "areaServed": { "@type": "Country", "name": "United States" },
+        "description": "Connect with licensed wildlife removal contractors for raccoon removal, squirrel removal, rat control, bat exclusion, snake removal, opossum removal, and more across all 50 states.",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Wildlife Removal Services",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Raccoon Removal" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Squirrel Removal" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Rat Removal" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bat Removal" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Snake Removal" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Opossum Removal" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bat Exclusion" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dead Animal Removal" } }
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.removewildlifenow.com/#faq",
+        "mainEntity": [
+          { "@type": "Question", "name": "How does the wildlife removal directory work?", "acceptedAnswer": { "@type": "Answer", "text": "Click your state on the map, then drill down to your county to find the licensed wildlife removal contractor serving your area. Each county page lists the local professional plus information specific to your area's wildlife pressure, regulations, and seasonal patterns. One call connects you directly with a contractor who knows your local wildlife and the fastest legal solutions." } },
+          { "@type": "Question", "name": "How much does wildlife removal cost?", "acceptedAnswer": { "@type": "Answer", "text": "Most residential wildlife removal jobs run between $300 and $1,500 depending on the species, the number of entry points to seal, whether babies are present, and how much sanitation and remediation is needed. Single-animal trap-and-release work sits at the lower end; multi-entry historic-home raccoon or bat exclusion with full guano remediation runs higher. Each contractor in our directory provides free property-specific estimates." } },
+          { "@type": "Question", "name": "What's the difference between a wildlife removal company and pest control?", "acceptedAnswer": { "@type": "Answer", "text": "Pest control focuses on insects and small rodents using chemicals and bait. Wildlife removal handles larger nuisance animals — raccoons, squirrels, bats, snakes, opossums, skunks — using trapping, exclusion, and structural sealing. Wildlife removal is licensed by state DNR/fish-and-wildlife agencies and operates under different legal protocols (especially for bats during maternity season and any rabies-vector species). For a raccoon in your attic or a bat colony in your chimney, you need a licensed wildlife removal contractor, not pest control." } },
+          { "@type": "Question", "name": "How do I find a licensed wildlife removal contractor near me?", "acceptedAnswer": { "@type": "Answer", "text": "Click your state on the map on this page, then select your county. The contractor listed is licensed under your state's DNR or fish-and-wildlife agency and holds the applicable trapping and nuisance-wildlife-control credentials. Every contractor in this directory is verified to operate legally in their service area and to follow state and federal regulations on bat exclusion timing, migratory bird protection, and rabies-vector handling." } },
+          { "@type": "Question", "name": "What animals do wildlife removal contractors handle?", "acceptedAnswer": { "@type": "Answer", "text": "Licensed wildlife removal contractors handle the full range of residential nuisance wildlife: raccoons, squirrels (including flying squirrels), rats (Norway and roof rats), bats (with state-required maternity-season exclusion timing), snakes (venomous and non-venomous), opossums, skunks, groundhogs, moles, birds (pigeons, starlings, woodpeckers under federal Migratory Bird Treaty Act protocols), armadillos, and dead-animal removal from walls and crawlspaces." } },
+          { "@type": "Question", "name": "When can wildlife exclusion legally be done?", "acceptedAnswer": { "@type": "Answer", "text": "Most species have year-round exclusion windows, but bats are restricted: state DNR regulations across the U.S. typically restrict bat exclusion during the maternity season (May through August in most regions) when non-flying pups would be trapped inside the structure if exclusion went forward. The two safe windows are typically April (before maternity activity) and September through mid-October (after pups are flying). Raccoon and squirrel exclusion is best timed outside the spring whelping windows (February through April for raccoons, slightly different for squirrels). Inspections can happen any time of year." } },
+          { "@type": "Question", "name": "Are the contractors in this directory licensed and insured?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — every contractor in this directory holds the trapping license and nuisance-wildlife-control credentials required by their state DNR or fish-and-wildlife agency, and carries appropriate commercial liability insurance. Licensing requirements vary by state but generally include background checks, training in species-specific handling, and ongoing compliance with state and federal regulations on bat exclusion, migratory bird protection, and rabies-vector species." } },
+          { "@type": "Question", "name": "Why use a directory instead of searching for a contractor directly?", "acceptedAnswer": { "@type": "Answer", "text": "A directory verifies that the contractor serving your county is licensed, insured, and operates legally under state DNR rules. Search results often include unlicensed operators or pest-control companies that don't handle larger wildlife. Our directory pairs each indexable county with one verified local contractor, with content specific to your area's wildlife pressure, housing-stock entry points, and seasonal patterns — so you get an experienced professional, not a generic referral." } }
+        ]
       }
     ]
   });
+
+  const extraHead = `
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="RemoveWildlifeNow.com">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="https://www.removewildlifenow.com/">
+    <meta property="og:title" content="${title}">
+    <meta property="og:description" content="${metaDesc}">
+    <meta property="og:image" content="${ogImage}">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${title}">
+    <meta name="twitter:description" content="${metaDesc}">
+    <meta name="twitter:image" content="${ogImage}">
+
+    <meta name="robots" content="index, follow">
+  `;
 %>
-<%- include('layout', { title, metaDesc, canonical, schema, body: `
+<%- include('layout', { title, metaDesc, canonical, schema, extraHead, body: `
 
 <section class="hero">
   <div class="container hero-content">
     <div class="hero-badge">Nationwide Wildlife Removal Directory</div>
-    <h1>Find Wildlife Removal<br>Near You — Fast</h1>
-    <p class="hero-sub">Click your state on the map below to find a licensed, local contractor in your county. One call, problem solved.</p>
+    <h1>Find Licensed Wildlife Removal<br>Near You — Fast</h1>
+    <p class="hero-sub">A nationwide directory of licensed wildlife removal contractors. Click your state on the map below to find a verified local expert in your county. One call, problem solved.</p>
     <div class="hero-actions">
       <a href="#map-section" class="btn-primary">Find My County</a>
-      <a href="#how-it-works" class="btn-ghost">How It Works</a>
+      <a href="#services" class="btn-ghost">Browse Services</a>
     </div>
   </div>
 </section>
@@ -40,11 +127,33 @@
   <div class="container">
     <div class="section-header">
       <h2>Select Your State</h2>
-      <p>Hover to preview, click to browse counties</p>
+      <p>Hover to preview, click to browse counties and find your local contractor</p>
     </div>
     <div id="map-tooltip" class="map-tooltip"></div>
     <svg id="us-map"></svg>
-    <p class="map-hint">Click any state to browse counties &amp; find a local contractor</p>
+    <p class="map-hint">Click any state to browse counties &amp; find a licensed local contractor</p>
+  </div>
+</section>
+
+<section class="counties-section" id="services" style="background:var(--green-light);border-top:1px solid var(--green-border);">
+  <div class="container">
+    <div class="section-header">
+      <h2>Wildlife Removal Services Nationwide</h2>
+      <p>Every contractor in our directory handles the full range of residential wildlife. Click any service to learn more about that animal and find a local contractor.</p>
+    </div>
+    <ul class="counties-grid">
+      <li><a href="/services/raccoon-removal/">🦝 Raccoon Removal</a></li>
+      <li><a href="/services/squirrel-removal/">🐿️ Squirrel Removal</a></li>
+      <li><a href="/services/rat-removal/">🐀 Rat Removal</a></li>
+      <li><a href="/services/bat-removal/">🦇 Bat Removal</a></li>
+      <li><a href="/services/snake-removal/">🐍 Snake Removal</a></li>
+      <li><a href="/services/opossum-removal/">🐾 Opossum Removal</a></li>
+      <li><a href="/services/skunk-removal/">🦨 Skunk Removal</a></li>
+      <li><a href="/services/bird-removal/">🐦 Bird Removal</a></li>
+      <li><a href="/services/groundhog-removal/">🦫 Groundhog Removal</a></li>
+      <li><a href="/services/mole-removal/">🐭 Mole Removal</a></li>
+      <li><a href="/services/dead-animal-removal/">⚠️ Dead Animal Removal</a></li>
+    </ul>
   </div>
 </section>
 
@@ -70,6 +179,46 @@
         <h3>Problem Solved</h3>
         <p>Licensed, insured professionals handle removal, exclusion, and cleanup — with a guarantee on their work.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="county-content">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div style="display:flex;flex-direction:column;gap:16px;margin-top:16px;">
+      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;" open>
+        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">How does the wildlife removal directory work?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
+        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">Click your state on the map, then drill down to your county to find the licensed wildlife removal contractor serving your area. Each county page lists the local professional plus information specific to your area's wildlife pressure, regulations, and seasonal patterns. One call connects you directly with a contractor who knows your local wildlife and the fastest legal solutions.</div>
+      </details>
+      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">How much does wildlife removal cost?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
+        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">Most residential wildlife removal jobs run between <strong>$300 and $1,500</strong> depending on the species, the number of entry points to seal, whether babies are present, and how much sanitation and remediation is needed. Single-animal trap-and-release work sits at the lower end; multi-entry historic-home raccoon or bat exclusion with full guano remediation runs higher. Each contractor in our directory provides free property-specific estimates.</div>
+      </details>
+      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">What's the difference between wildlife removal and pest control?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
+        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">Pest control focuses on insects and small rodents using chemicals and bait. Wildlife removal handles larger nuisance animals — raccoons, squirrels, bats, snakes, opossums, skunks — using trapping, exclusion, and structural sealing. Wildlife removal is licensed by state DNR/fish-and-wildlife agencies and operates under different legal protocols (especially for bats during maternity season and any rabies-vector species). For a raccoon in your attic or a bat colony in your chimney, you need a licensed wildlife removal contractor, not pest control.</div>
+      </details>
+      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">How do I find a licensed wildlife removal contractor near me?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
+        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">Click your state on the map above, then select your county. The contractor listed is licensed under your state's DNR or fish-and-wildlife agency and holds the applicable trapping and nuisance-wildlife-control credentials. Every contractor in this directory is verified to operate legally in their service area.</div>
+      </details>
+      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">What animals do wildlife removal contractors handle?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
+        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">The full range of residential nuisance wildlife: raccoons, squirrels (including flying squirrels), rats (Norway and roof rats), bats (with state-required maternity-season exclusion timing), snakes (venomous and non-venomous), opossums, skunks, groundhogs, moles, birds (pigeons, starlings, woodpeckers under federal Migratory Bird Treaty Act protocols), armadillos, and dead-animal removal from walls and crawlspaces.</div>
+      </details>
+      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">When can wildlife exclusion legally be done?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
+        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">Most species have year-round exclusion windows, but bats are restricted: state DNR regulations across the U.S. typically restrict bat exclusion during the maternity season (May through August in most regions) when non-flying pups would be trapped inside the structure if exclusion went forward. The two safe windows are typically April and September through mid-October. Raccoon and squirrel exclusion is best timed outside the spring whelping windows. Inspections can happen any time of year.</div>
+      </details>
+      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">Are the contractors in this directory licensed and insured?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
+        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">Yes — every contractor in this directory holds the trapping license and nuisance-wildlife-control credentials required by their state DNR or fish-and-wildlife agency, and carries appropriate commercial liability insurance. Licensing requirements vary by state but generally include background checks, training in species-specific handling, and ongoing compliance with state and federal regulations on bat exclusion, migratory bird protection, and rabies-vector species.</div>
+      </details>
+      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">Why use a directory instead of searching for a contractor directly?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
+        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">A directory verifies that the contractor serving your county is licensed, insured, and operates legally under state DNR rules. Search results often include unlicensed operators or pest-control companies that don't handle larger wildlife. Our directory pairs each indexable county with one verified local contractor, with content specific to your area's wildlife pressure, housing-stock entry points, and seasonal patterns.</div>
+      </details>
     </div>
   </div>
 </section>

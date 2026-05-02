@@ -1,0 +1,194 @@
+<%
+  const pageUrl = 'https://www.removewildlifenow.com/services/' + animal.slug + '/';
+  const title = content.metaTitle;
+  const metaDesc = content.metaDescription;
+  const canonical = '/services/' + animal.slug + '/';
+  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
+
+  const schema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": pageUrl + "#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.removewildlifenow.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.removewildlifenow.com/" },
+          { "@type": "ListItem", "position": 3, "name": animal.name }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": pageUrl + "#webpage",
+        "url": pageUrl,
+        "name": title,
+        "description": metaDesc,
+        "isPartOf": { "@id": "https://www.removewildlifenow.com/#website" },
+        "breadcrumb": { "@id": pageUrl + "#breadcrumb" },
+        "about": { "@id": pageUrl + "#service" },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": ogImage
+      },
+      {
+        "@type": "Service",
+        "@id": pageUrl + "#service",
+        "name": animal.name,
+        "serviceType": animal.name,
+        "provider": { "@id": "https://www.removewildlifenow.com/#organization" },
+        "areaServed": { "@type": "Country", "name": "United States" },
+        "description": animal.shortDesc,
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": animal.name + " Services",
+          "itemListElement": animal.services.map(function(svc) {
+            return { "@type": "Offer", "itemOffered": { "@type": "Service", "name": svc } };
+          })
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": pageUrl + "#faq",
+        "mainEntity": content.faqs.map(function(f) {
+          return { "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } };
+        })
+      }
+    ]
+  });
+
+  const extraHead = `
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="RemoveWildlifeNow.com">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="${pageUrl}">
+    <meta property="og:title" content="${title}">
+    <meta property="og:description" content="${metaDesc}">
+    <meta property="og:image" content="${ogImage}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${title}">
+    <meta name="twitter:description" content="${metaDesc}">
+    <meta name="twitter:image" content="${ogImage}">
+
+    <meta name="robots" content="index, follow">
+  `;
+
+  const stateLinks = states.map(s => '<li><a href="/' + toSlug(s) + '/">' + s + '</a></li>').join('\\n          ');
+%>
+<%- include('layout', { title, metaDesc, canonical, schema, extraHead, body: `
+
+<nav class="breadcrumb">
+  <div class="container">
+    <a href="/">Home</a> &rsaquo; <span>${animal.name}</span>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="hero-badge">Nationwide ${animal.name}</div>
+    <h1>${animal.emoji} ${animal.name} — Find a Licensed Local Trapper</h1>
+    <p>${animal.shortDesc}</p>
+  </div>
+</section>
+
+<section class="county-content">
+  <div class="container">
+    <h2>${animal.name} in the United States</h2>
+    <p>${content.intro}</p>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-box">
+      <h2>${animal.name} — Find Your Local Contractor</h2>
+      <p class="cta-sub">Click your state below to find the licensed contractor in your county.</p>
+      <div class="phone-wrap">
+        <a class="llp-phone phone-cta" href="tel:+18445443498">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          (844) 544-3498
+        </a>
+      </div>
+      <p class="cta-note">Or browse by state below to find a verified local contractor.</p>
+      <div class="cta-badges">
+        <span class="cta-badge">Licensed &amp; Insured</span>
+        <span class="cta-badge">Same-Day Available</span>
+        <span class="cta-badge">Humane Methods</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services-section">
+  <div class="container">
+    <h2>${animal.name} Services Available</h2>
+    <p class="section-sub">${animal.urgency}</p>
+    <div class="service-cards">
+      <div class="service-card featured">
+        <span class="card-badge">Signs You Have ${animal.plural}</span>
+        <span class="card-icon">${animal.emoji}</span>
+        <h3>Warning Signs</h3>
+        <p>${animal.season}</p>
+        <ul class="card-list">
+          ${animal.signs.map(s => '<li>' + s + '</li>').join('')}
+        </ul>
+      </div>
+      <div class="service-card">
+        <span class="card-icon">🛠️</span>
+        <h3>What Professionals Do</h3>
+        <p>Licensed contractors handle every aspect of ${animal.name.toLowerCase()} — capture, exclusion, sanitation, repair.</p>
+        <ul class="card-list">
+          ${animal.services.map(s => '<li>' + s + '</li>').join('')}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="county-content">
+  <div class="container">
+    ${content.extendedBody}
+  </div>
+</section>
+
+<section class="county-content" style="background:#f8fafc;">
+  <div class="container">
+    <h2>${animal.name} Cost</h2>
+    <p style="font-size:1.5rem;font-weight:700;color:var(--primary);margin:0 0 8px;">${animal.costRange}</p>
+    <p style="color:#6b7280;margin:0;">${animal.costNote} Pricing varies by region, contractor, and severity. Each contractor in our directory provides free property-specific estimates.</p>
+  </div>
+</section>
+
+<section class="counties-section" style="background:var(--green-light);border-top:1px solid var(--green-border);">
+  <div class="container">
+    <div class="section-header">
+      <h2>Find a Licensed ${animal.name} Contractor by State</h2>
+      <p>Click your state to find the contractor serving your county.</p>
+    </div>
+    <ul class="counties-grid">
+      ${stateLinks}
+    </ul>
+  </div>
+</section>
+
+<section class="county-content">
+  <div class="container">
+    <h2>Frequently Asked Questions — ${animal.name}</h2>
+    <div style="display:flex;flex-direction:column;gap:16px;margin-top:16px;">
+      ${content.faqs.map((f, i) => '<details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;"' + (i === 0 ? ' open' : '') + '><summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">' + f.q + '<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary><div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">' + f.a + '</div></details>').join('')}
+    </div>
+  </div>
+</section>
+
+<section class="counties-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Other Wildlife Services</h2>
+      <p>Need help with a different animal?</p>
+    </div>
+    <ul class="counties-grid">
+      ${ANIMALS.filter(a => a.slug !== animal.slug).map(a => '<li><a href="/services/' + a.slug + '/">' + a.emoji + ' ' + a.name + '</a></li>').join('')}
+    </ul>
+  </div>
+</section>
+
+` }) %>

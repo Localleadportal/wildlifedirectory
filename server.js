@@ -14,6 +14,7 @@ const { getCountyContent } = require('./data/countyContent');
 const { getCityContent } = require('./data/cityContent');
 const { getCityAnimalContent } = require('./data/cityAnimalContent');
 const { getCountyAnimalContent } = require('./data/countyAnimalContent');
+const { getNationalContent } = require('./data/animalNationalContent');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -161,6 +162,20 @@ app.get('/contact/', (req, res) => {
     state: req.query.state || ''
   });
 });
+
+// National per-animal landing pages — /services/{animal-slug}/
+// Must be defined before /:stateSlug/ to take precedence over state route
+app.get('/services/:animalSlug/', (req, res) => {
+  const animal = getAnimalBySlug(req.params.animalSlug);
+  if (!animal) return res.status(404).render('404', { message: 'Service not found.' });
+  const content = getNationalContent(req.params.animalSlug);
+  if (!content) return res.status(404).render('404', { message: 'National content not yet available for this service.' });
+  const states = Object.keys(statesAndCounties);
+  res.render('animal-national', { animal, content, states, toSlug, ANIMALS });
+});
+
+// Trailing-slash redirect for /services/{animal}
+app.get('/services/:animalSlug', (req, res) => res.redirect(301, `/services/${req.params.animalSlug}/`));
 
 // State page — /georgia/
 app.get('/:stateSlug/', async (req, res) => {
