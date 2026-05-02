@@ -128,5 +128,49 @@
         "a": "Yes — Pine Gardens and Pine Gardens Estates, Garden City core (near Highway 80 and Highway 21/Augusta Avenue), the industrial corridor along the Port and railroad infrastructure, and West Garden City (newer subdivisions toward Pooler). The contractor handling Garden City is licensed under Georgia DNR Coastal Region (Brunswick office), holds the applicable Trapping License and Nuisance Wildlife Control Permit, and works regularly with industrial properties along the Highway 80 corridor and Port-adjacent properties."
       }
     ]
+  },
+  "Bloomingdale": {
+    "population_tier": "small",
+    "housing_era": "Mix of 1940s-1970s rural-residential housing, larger-lot 1980s-2000s subdivisions, some original early-1900s farmhouses, and newer 2010s-2020s subdivisions on the western edge toward Effingham County. Many Bloomingdale properties have substantial outbuildings — barns, sheds, equipment storage — that don't exist in denser Chatham cities.",
+    "geographic_features": [
+      "Highway 80 / US 80 western terminus through Chatham",
+      "Pipemakers Canal upper drainage (extends from Garden City)",
+      "Pine flatwoods and mixed hardwood-pine forest (closer to actual woods than other Chatham cities)",
+      "Adjacent to Effingham County's rural agricultural landscape",
+      "Savannah-Hilton Head International Airport approach corridor"
+    ],
+    "neighborhoods": [
+      "Bloomingdale core (around Highway 80 and Adams Road / Parker Avenue)",
+      "Larger-lot rural-residential properties with outbuildings, barns, and acreage",
+      "Newer subdivisions on the western edge toward Effingham County",
+      "Highway 80-adjacent residential and small-commercial blocks"
+    ],
+    "wildlife_intro": "Wildlife problems in Bloomingdale operate on a fundamentally different model than the rest of Chatham County. <strong>Bloomingdale is the rural / semi-rural western edge of Chatham, with larger lot sizes, substantial outbuildings (barns, sheds, equipment storage), and direct adjacency to actual woods and Effingham County agricultural landscape</strong> — which produces a wildlife mix that's both more diverse and lower-pressure-per-property than denser Chatham cities. Where Savannah is dominated by historic-district roof rats and bat colonies, Tybee by sea-turtle-coordination raccoons and vacation-rental urgency, and Garden City by Port and Highway 80 industrial-corridor pressure, <strong>Bloomingdale is dominated by a more native-wildlife mix</strong>: coyotes are documented and present (rare elsewhere in residential Chatham), eastern diamondback rattlesnakes show up more often in pine flatwoods edges, fox sightings are routine, white-tailed deer pressure is real on larger-lot properties, opossum-EPM concern is more relevant because more residents have horses, and barn wildlife (rats following livestock feed, snakes following rats, owls roosting in barns) is part of the regular call mix. Rural Bloomingdale residents are also generally more familiar with wildlife than urban Savannah residents — which sometimes means waiting longer to call (because the wildlife is more familiar) and sometimes means more accurate species ID before the call.",
+    "faqs": [
+      {
+        "q": "How is Bloomingdale wildlife different from Savannah, Tybee, and Garden City?",
+        "a": "Three big differences. <strong>Rural / semi-rural setting</strong> — larger lot sizes, substantial outbuildings (barns, sheds), direct adjacency to actual woods and Effingham County agricultural landscape. <strong>More native predator and large-mammal presence</strong> — coyotes documented and present (rare elsewhere in residential Chatham), eastern diamondback rattlesnakes more likely in pine flatwoods edges, fox sightings routine, white-tailed deer pressure on larger lots. <strong>Barn / agricultural wildlife</strong> — rats following livestock feed, snakes following rats in barns, owls roosting in barns, opossum-EPM concern for horse properties. Less roof rat pressure than Garden City; less historic preservation than Savannah; no vacation rental urgency."
+      },
+      {
+        "q": "Are there coyotes in Bloomingdale?",
+        "a": "Yes — Bloomingdale has documented coyote presence, more than the rest of residential Chatham. Coyotes use the pine flatwoods, mixed hardwood-pine forest, and Effingham-County-adjacent agricultural land as habitat and travel corridors. Most Bloomingdale coyote calls are about missing cats, daytime sightings, or den activity in stormwater easements and wooded property edges. Resolutions are typically non-lethal — hazing, food-source removal, den-site disturbance — rather than active removal, because coyotes are functioning ecologically and removed coyotes are quickly replaced by neighboring populations."
+      },
+      {
+        "q": "What's the most common wildlife problem in Bloomingdale homes?",
+        "a": "Different distribution than other Chatham cities. <strong>Raccoons remain the dominant residential call</strong>, but with more rural-property emphasis (barn raccoons, livestock feed thieves, larger-lot attic infestations). <strong>Snakes are higher-volume than Garden City or Savannah</strong> because of pine flatwoods and forest-edge habitat; the snake species mix is more diverse and includes eastern diamondback rattlesnakes more often. <strong>Bats in barns and older farm structures</strong> are common. Roof rats are present but at lower density than Garden City; Norway rats are heavier in barn settings than residential. Opossums are common, with EPM concern for horse properties."
+      },
+      {
+        "q": "Do I need different wildlife protection on a rural Bloomingdale property?",
+        "a": "Yes. Larger lot sizes, outbuildings, livestock, and direct forest adjacency change the wildlife management approach. Hardware cloth perimeter exclusion has to cover more linear feet (deck and shed perimeters, barn perimeters, larger crawl-space exposure). Food-source management has to address livestock feed storage (which attracts rats, opossums, raccoons). Properties with horses have specific opossum-EPM considerations. Properties adjacent to woods have more snake and coyote pressure than residential properties further from forest edges."
+      },
+      {
+        "q": "Are wildlife problems in Bloomingdale regulated differently?",
+        "a": "Same state regulatory framework — Georgia DNR Coastal Region (Brunswick office) issues commercial trapping licenses; same federal protections apply to bats, migratory birds, and federally protected species. Rural-property considerations: federally threatened eastern indigo snakes use gopher tortoise burrows, which exist on some Bloomingdale rural lots — don't disturb gopher tortoise burrows. Coyote control is permitted under Georgia regulations but typically managed non-lethally. Hunting on private property follows separate Georgia DNR hunting regulations distinct from nuisance wildlife control."
+      },
+      {
+        "q": "Do you serve all of Bloomingdale?",
+        "a": "Yes — Bloomingdale core (Highway 80 and Adams Road / Parker Avenue area), larger-lot rural-residential properties with outbuildings and acreage, newer subdivisions on the western edge toward Effingham County, and Highway 80-adjacent residential and small-commercial blocks. The contractor handling Bloomingdale is licensed under Georgia DNR Coastal Region (Brunswick office) and works regularly with rural-property wildlife situations including barns, livestock-area exclusion, and forest-edge encounters."
+      }
+    ]
   }
 }
