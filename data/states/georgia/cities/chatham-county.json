@@ -41,5 +41,48 @@
         "a": "It depends on the species. <strong>Bat in your bedroom</strong> — confine to one room, don't kill it (damages it for rabies testing), call the Coastal Health District for any potential exposure. <strong>Raccoon stuck in chimney</strong> — close the damper, don't light a fire, call a contractor. <strong>Snake in your house</strong> — close interior doors, open exterior doors, photograph from a safe distance for identification. <strong>Dead animal smell</strong> — schedule removal within 24 hours; coastal Georgia humidity escalates the problem fast. <strong>Multiple animals or active infestation in multi-story structure</strong> — schedule professional inspection rather than attempt DIY. Most Savannah contractors offer same-day or 24-hour response."
       }
     ]
+  },
+  "Tybee Island": {
+    "population_tier": "small",
+    "housing_era": "Mix of pre-WWII beach cottages, 1950s-1970s vacation cottages, and 1990s-2020s elevated coastal construction built to current FEMA flood zone requirements. Most Tybee structures sit on raised foundations or stilts because of storm-surge flood zone designations.",
+    "geographic_features": [
+      "Atlantic Ocean (eastern boundary, with North Beach, Mid-Beach, South Beach, and Back River frontage)",
+      "Federally protected sea turtle nesting beaches (loggerhead, green, leatherback, Kemp's ridley)",
+      "Lazaretto Creek and Tybee Creek tidal salt marsh corridors",
+      "Tybee Lighthouse, Fort Pulaski National Monument (Cockspur Island), and Tybee Marine Science Center"
+    ],
+    "neighborhoods": [
+      "North Beach (around the lighthouse and Fort Screven historic district)",
+      "Mid-Beach (Tybrisa Street commercial corridor, Butler Avenue)",
+      "South Beach (around the Pier and Pavilion)",
+      "Back River (residential / vacation rental waterfront on Lazaretto Creek)"
+    ],
+    "wildlife_intro": "Wildlife problems on Tybee Island operate on a fundamentally different model than mainland Savannah because Tybee is a barrier island vacation-rental community with federally protected sea turtle nesting beaches. <strong>Most Tybee residential calls are vacation rental property managers checking on attics and crawl spaces between tenants, year-round residents handling storm-displacement after hurricane season, or short-term rental owners discovering wildlife after a tenancy gap</strong>. The species mix is distinctive: <strong>raccoons are documented as the single largest predator of sea turtle nests on Tybee</strong>, which puts Tybee raccoon control under direct coordination with the U.S. Fish and Wildlife Service and the Georgia DNR Sea Turtle Cooperative through the Tybee Island Marine Science Center; Brazilian free-tailed bat colonies (100-500+ individuals each) have used the Tybee Lighthouse, Fort Pulaski-area structures, and historic North Beach cottages for decades; storm flooding from Atlantic hurricanes routinely pushes raccoons, opossums, and snakes into elevated beach houses and crawl spaces above flood-zone elevations; and seagulls, pelicans, and migratory shorebirds (including the federally threatened piping plover) are protected under the federal Migratory Bird Treaty Act. Salt-air corrosion accelerates structural decay on Tybee — wood gable vents, soffits, and roof flashing fail faster than mainland equivalents — which combined with the elevated FEMA-zone construction produces wildlife entry profiles that look nothing like mainland Savannah work. Sea turtle nesting season (May through October) constrains exclusion windows for any work near nesting beaches, layering the federal ESA timeline on top of the standard Georgia DNR maternity-season calendars for bats. The Coastal Health District handles rabies-exposure investigations; Georgia DNR Coastal Region (Brunswick office) issues commercial trapping licenses; USFWS and the Sea Turtle Cooperative coordinate any work that intersects with nesting beaches.",
+    "faqs": [
+      {
+        "q": "How is Tybee Island wildlife different from mainland Savannah?",
+        "a": "Three big differences. <strong>Sea turtle nesting</strong> — federally protected nesting beaches add an Endangered Species Act layer to any work near the dunes, particularly raccoon and bird control, and the May-October nesting season constrains exclusion timing. <strong>Vacation rental dynamics</strong> — most Tybee residential calls come from property managers checking on attics and crawl spaces between tenants, or owners discovering wildlife after off-season gaps. <strong>Storm flooding and salt air</strong> — Atlantic hurricane season routinely pushes wildlife into elevated structures, salt-air corrosion accelerates structural decay (wood gable vents and soffits fail faster), and raised-foundation construction creates crawl-space access patterns that don't exist on the mainland."
+      },
+      {
+        "q": "Why are raccoons such a problem on Tybee?",
+        "a": "Two reasons compound. First, the food supply: tidal creek seafood plus vacation-rental garbage plus tourism food density along Tybrisa Street and Butler Avenue plus seasonal sea turtle eggs from May-October produce raccoon populations that are larger and more food-conditioned than mainland populations. Second, sea turtle nest predation: <strong>raccoons are documented as the single largest predator of sea turtle nests on Tybee</strong>, and the federal ESA layer makes any control work near nesting beaches require coordination with USFWS and the Tybee Island Marine Science Center sea turtle program. Tybee raccoon work isn't standalone wildlife control — it intersects with active conservation."
+      },
+      {
+        "q": "Are there bats in the Tybee Lighthouse?",
+        "a": "Yes — and in Fort Pulaski, the historic Fort Screven structures, and several pre-WWII North Beach cottages. <strong>Brazilian free-tailed bat colonies of 100-500+ individuals have used Tybee structures for decades</strong>; some colonies have been continuous in the same Tybee buildings for 50+ years. Big brown bats and evening bats are also present in residential Tybee structures. Bat exclusion has to time around both the May-August Georgia DNR maternity season and the May-October sea turtle nesting season for properties near nesting beaches."
+      },
+      {
+        "q": "What should I do about wildlife in my Tybee vacation rental?",
+        "a": "If you're a vacation rental owner or property manager finding wildlife between tenants, the right approach depends on species and timing. Schedule a licensed contractor inspection — Tybee has heavy off-season wildlife pressure, and an attic or crawl-space infestation discovered between tenants can rapidly become a guest-cancellation issue if not addressed before turnover. Most contractors offer same-day or next-day inspection on Tybee. Don't seal entry points yourself — DIY work on a vacation rental often misses entry points, leaves animals trapped (producing dead-animal smell that reaches guest spaces), or violates federal ESA protocols if work is too close to nesting beaches."
+      },
+      {
+        "q": "How do storms and hurricanes affect Tybee wildlife problems?",
+        "a": "Atlantic hurricane season (June-November) and major storm events push substantial volumes of wildlife into elevated structures across Tybee. Raccoons, opossums, and occasionally cottonmouths climb into raised-foundation crawl spaces and attics during storm surge. Salt-air damage from sustained high winds accelerates structural decay at wood entry points (gable vents, soffit returns, fascia), often opening new wildlife entry points for the following season. Most Tybee residential wildlife call volume spikes for 30-60 days after major storm events. Property owners who suspect wildlife after a storm should schedule inspection within the first 2-4 weeks rather than waiting — early intervention is much cheaper than dealing with established colonies."
+      },
+      {
+        "q": "Do you serve all of Tybee Island?",
+        "a": "Yes — North Beach (lighthouse area, Fort Screven historic district), Mid-Beach (Tybrisa Street commercial corridor, Butler Avenue, Lighthouse Beach), South Beach (around the Pier and Pavilion), Back River (residential/vacation rental waterfront on Lazaretto Creek and Tybee Creek), and the unincorporated areas adjacent to Tybee proper. The contractor handling Tybee is licensed under Georgia DNR Coastal Region (Brunswick office), holds the applicable Trapping License and Nuisance Wildlife Control Permit, and follows USFWS and Georgia DNR Sea Turtle Cooperative protocols for any work near nesting beaches."
+      }
+    ]
   }
 }
