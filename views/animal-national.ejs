@@ -72,7 +72,7 @@
     <meta name="robots" content="index, follow">
   `;
 
-  const stateLinks = states.map(s => '<li><a href="/' + toSlug(s) + '/">' + s + '</a></li>').join('\\n          ');
+  const stateLinks = states.map(s => '<li><a href="/' + toSlug(s) + '/">' + s + '</a></li>').join('');
 %>
 <%- include('layout', { title, metaDesc, canonical, schema, extraHead, body: `
 
