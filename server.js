@@ -26,18 +26,16 @@ function apiCounty(name) {
   return name.replace(/ (County|Parish|Borough|Census Area|City|Municipality)$/i, '').trim();
 }
 
-// ── Active-locations cache + sticky permanent-indexable set ──────────────────
-// Pages flip to indexable when a contractor signs up. Once flipped, the page
-// stays indexable forever — even if the contractor later drops the area —
-// because the fallback 800 number still routes calls and we don't want to
-// throw away accumulated SEO ranking on a churn event.
+// ── Manual indexable set ─────────────────────────────────────────────────────
+// Indexability is fully manual and content-driven. A page is indexable if and
+// only if its (state|county) is listed in data/permanentlyIndexed.json. This
+// is intentional: pages should stay noindex until they have been updated with
+// quality, ranking-worthy content. Contractor assignment has NO effect on
+// indexability — adding/removing a contractor never flips the index meta tag.
 //
-// The permanent set is loaded from data/permanentlyIndexed.json at startup
-// and auto-augmented with currently-active counties at runtime. To make the
-// status durable across redeploys, append new (state|county) entries to that
-// JSON file when contractors sign up.
-// Key format throughout: `${ProperCaseState}|${lowercaseCounty}` so it matches
-// the same key built by the API loader and by isCountyIndexable.
+// To mark a page indexable: edit data/permanentlyIndexed.json, append the
+// entry, commit, and redeploy. There is no auto-augmentation at runtime.
+// Key format: `${ProperCaseState}|${lowercaseCounty}`.
 const permanentlyIndexed = require('./data/permanentlyIndexed.json');
 const _permanentCounties = new Set(
   (permanentlyIndexed.counties || []).map(k => {
@@ -47,47 +45,12 @@ const _permanentCounties = new Set(
 );
 const _permanentStates = new Set(permanentlyIndexed.states || []);
 
-const _activeCache = { counties: null, states: null, expires: 0 };
-async function loadActiveLocations() {
-  if (_activeCache.counties && _activeCache.expires > Date.now()) return;
-  try {
-    const controller = new AbortController();
-    const tid = setTimeout(() => controller.abort(), 2500);
-    const r = await fetch(`${LEAD_PORTAL}/api/directory/active-locations`, { signal: controller.signal });
-    clearTimeout(tid);
-    const { locations } = await r.json();
-    const counties = new Set();
-    const states = new Set();
-    (locations || []).forEach(l => {
-      if (l.serviceType !== SERVICE_TYPE) return;
-      const key = `${l.state}|${l.county.toLowerCase()}`;
-      counties.add(key);
-      states.add(l.state);
-      // Auto-augment the permanent set so we don't lose currently-active areas
-      // between manual JSON file updates. Persistence still requires committing
-      // the file — but the runtime never regresses while the server is up.
-      _permanentCounties.add(key);
-      _permanentStates.add(l.state);
-    });
-    _activeCache.counties = counties;
-    _activeCache.states = states;
-    _activeCache.expires = Date.now() + 5 * 60 * 1000;
-  } catch {
-    _activeCache.counties = _activeCache.counties || new Set();
-    _activeCache.states = _activeCache.states || new Set();
-    _activeCache.expires = Date.now() + 30 * 1000;
-  }
-}
-
-// Sticky indexable checks — true if currently active OR ever activated
 async function isCountyIndexable(stateName, countyName) {
-  await loadActiveLocations();
   const key = `${stateName}|${apiCounty(countyName).toLowerCase()}`;
-  return _activeCache.counties.has(key) || _permanentCounties.has(key);
+  return _permanentCounties.has(key);
 }
 async function isStateIndexable(stateName) {
-  await loadActiveLocations();
-  return _activeCache.states.has(stateName) || _permanentStates.has(stateName);
+  return _permanentStates.has(stateName);
 }
 
 app.set('view engine', 'ejs');
@@ -110,7 +73,9 @@ app.get('/robots.txt', (req, res) => {
   res.send('User-agent: *\nAllow: /\nSitemap: https://www.removewildlifenow.com/sitemap.xml\n');
 });
 
-// Dynamic sitemap — lists every indexable page (currently active OR ever-active)
+// Sitemap — lists every page that is manually marked indexable in
+// data/permanentlyIndexed.json, plus the always-indexable static pages
+// (homepage, services, blog).
 app.get('/sitemap.xml', async (req, res) => {
   const BASE = 'https://www.removewildlifenow.com';
   const urls = [`${BASE}/`, `${BASE}/contact/`];
@@ -125,10 +90,7 @@ app.get('/sitemap.xml', async (req, res) => {
   urls.push(`${BASE}/blog/`);
   getAllPosts().forEach(p => urls.push(`${BASE}/blog/${p.slug}/`));
 
-  // Trigger a refresh so any newly active areas get merged into the permanent set
-  try { await loadActiveLocations(); } catch {}
-
-  // Include every (state, county) that has ever been activated
+  // Manually-marked indexable states and counties
   _permanentStates.forEach(state => {
     urls.push(`${BASE}/${toSlug(state)}/`);
   });
