@@ -1,13 +1,18 @@
 {
   "_comment": "Manually-curated list of (state|county) pages that have been updated with quality content and are ready to rank. Pages NOT in this list are served with noindex regardless of contractor status. Contractor assignment has zero effect on indexability — only adding an entry here flips a page to indexable. To add a page: append the entry, commit, and redeploy. Once added, leave entries in place even if you change contractors — removing an entry will noindex a page Google has already started ranking, which throws away accumulated SEO equity.",
+  "_countyOnlyIndexComment": "Counties listed here have an enriched county-animal hub but city + city-animal pages should remain noindex (typically because city-level content has not yet been authored). The county itself must also be in the 'counties' array. Remove from this list once city-level content meets the SEO template.",
   "counties": [
     "Georgia|Bartow",
     "Georgia|Cherokee",
     "Georgia|Cobb",
     "Georgia|Coweta",
+    "Georgia|DeKalb",
     "Georgia|Fayette",
     "Georgia|Fulton",
     "Georgia|Gwinnett"
+  ],
+  "countiesWithCountyOnlyIndex": [
+    "Georgia|DeKalb"
   ],
   "states": [
     "Georgia"

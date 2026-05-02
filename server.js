@@ -44,9 +44,22 @@ const _permanentCounties = new Set(
   })
 );
 const _permanentStates = new Set(permanentlyIndexed.states || []);
+// Counties whose hub is indexable but whose city + city-animal pages should
+// stay noindex (typically because city-level content hasn't been authored yet).
+const _countyOnlyIndexCounties = new Set(
+  (permanentlyIndexed.countiesWithCountyOnlyIndex || []).map(k => {
+    const [state, county] = k.split('|');
+    return `${state}|${(county || '').toLowerCase()}`;
+  })
+);
 
 async function isCountyIndexable(stateName, countyName) {
   const key = `${stateName}|${apiCounty(countyName).toLowerCase()}`;
+  return _permanentCounties.has(key);
+}
+async function isCityIndexable(stateName, countyName) {
+  const key = `${stateName}|${apiCounty(countyName).toLowerCase()}`;
+  if (_countyOnlyIndexCounties.has(key)) return false;
   return _permanentCounties.has(key);
 }
 async function isStateIndexable(stateName) {
@@ -102,9 +115,11 @@ app.get('/sitemap.xml', async (req, res) => {
     const fullCounty = counties.find(c => apiCounty(c).toLowerCase() === countyLower);
     if (!fullCounty) return;
     const countySlug = toSlug(fullCounty);
+    const cityIndexable = !_countyOnlyIndexCounties.has(key);
     urls.push(`${BASE}/${stateSlug}/${countySlug}/`);
     ANIMALS.forEach(a => {
       urls.push(`${BASE}/${stateSlug}/${countySlug}/${a.slug}/`);
+      if (!cityIndexable) return;
       const cities = getCitiesForCounty(state, fullCounty);
       cities.forEach(city => {
         urls.push(`${BASE}/${stateSlug}/${countySlug}/${toSlug(city)}/`);
@@ -265,7 +280,7 @@ app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
   // City page
   const cityName = citySlugToName(stateName, countyName, seg);
   if (cityName) {
-    const indexable = await isCountyIndexable(stateName, countyName);
+    const indexable = await isCityIndexable(stateName, countyName);
     const cityContent = getCityContent(stateName, countyName, cityName);
     return res.render('city', {
       stateName, countyName, cityName, stateInfo, embedScript, cityContent,
@@ -292,7 +307,7 @@ app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug/', async (req, res) => {
 
   const stateInfo = stateContent[stateName] || null;
   const animalRegionNote = getAnimalRegionContent(stateName, req.params.animalSlug);
-  const indexable = await isCountyIndexable(stateName, countyName);
+  const indexable = await isCityIndexable(stateName, countyName);
   const cityAnimalContent = getCityAnimalContent(stateName, countyName, cityName, req.params.animalSlug);
   res.render('city-animal', {
     stateName, countyName, cityName, animal, stateInfo, animalRegionNote, embedScript, cityAnimalContent,
