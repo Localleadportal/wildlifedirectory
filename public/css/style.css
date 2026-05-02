@@ -526,6 +526,5 @@ footer a:hover { color: #fff; }
   .states-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
   .header-nav { display: none; }
   .trust-bar-inner { gap: 20px; }
-  .trust-item:nth-child(2),
-  .trust-item:nth-child(3) { display: none; }
+  .trust-item:nth-child(n+2) { display: none; }
 }
