@@ -362,10 +362,14 @@ header {
   z-index: 1;
 }
 .service-card--photo > *:not(.card-bg-img) { position: relative; z-index: 2; }
-.service-card--photo h3 { color: #fff; }
+.service-card--photo h3 {
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+}
 .service-card--photo > p {
   color: #fff;
   font-weight: 500;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
 .service-card--photo .card-list li { color: #fff; }
 .service-card--photo .card-list li::before { color: #fff; }
