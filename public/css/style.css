@@ -293,6 +293,29 @@ header {
   color: var(--muted);
   margin-bottom: 40px;
 }
+.section-photo-banner {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--radius);
+  overflow: hidden;
+  padding: 72px 32px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.section-photo-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+.section-photo-banner h2,
+.section-photo-banner .section-sub {
+  position: relative;
+  color: #fff;
+  margin-bottom: 0;
+}
+.section-photo-banner h2 { margin-bottom: 12px; }
 .service-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

@@ -225,8 +225,15 @@
 
     <section class="services-section">
       <div class="container">
+        <% if (animal.slug === 'opossum-removal') { %>
+        <div class="section-photo-banner" style="background-image: url('/images/hero11.jpg');">
+          <h2><%= animal.name %> Services in <%= countyName %></h2>
+          <p class="section-sub"><%= animal.urgency %></p>
+        </div>
+        <% } else { %>
         <h2><%= animal.name %> Services in <%= countyName %></h2>
         <p class="section-sub"><%= animal.urgency %></p>
+        <% } %>
         <div class="service-cards">
           <div class="service-card featured">
             <span class="card-badge">Signs You Have <%= animal.plural %></span>
