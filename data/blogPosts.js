@@ -19,7 +19,8 @@ const BLOG_POSTS = [
     excerpt: 'Yes — bats in your attic are genuinely dangerous, and waiting makes it worse. A breakdown of the health risks, property damage, legal restrictions, and why DIY removal often makes things much worse.',
     datePublished: '2026-05-02',
     dateModified: '2026-05-02',
-    author: 'RemoveWildlifeNow Editorial',
+    author: 'Brandon Turley',
+    authorBio: 'Brandon Turley is the owner and lead technician at Total Animal Control, a licensed wildlife removal operation serving the Atlanta metro and surrounding Georgia counties. He has handled hundreds of bat exclusion jobs across residential and commercial properties.',
     category: 'Health & Safety',
     tags: ['bat', 'attic', 'health', 'histoplasmosis', 'rabies', 'safety'],
     body: `
@@ -109,6 +110,35 @@ const BLOG_POSTS = [
   <li><strong>Strong ammonia smell</strong> in upstairs rooms or attic, especially in summer heat</li>
   <li><strong>Visible bats at dusk</strong> — emerging from your roofline is the most reliable sign of a colony</li>
 </ul>
+
+<h2>Where Bats Actually Get In: The Gable Vent Problem</h2>
+<p>In our experience inspecting attic bat colonies across the Atlanta metro, the single most common entry point isn't a hole in the soffit, a damaged ridge cap, or a gap around a chimney — it's the <strong>gable vent</strong>.</p>
+
+<p>Gable vents are the louvered vents you see on the upper triangular section of a home's exterior wall, just under the peak of the roof. They're round, rectangular, or triangular in shape and they exist for attic ventilation. From the inside, they're almost always backed by nothing more than a thin metal mesh screen that bats can squeeze through, push past, or work loose over time.</p>
+
+<blockquote style="border-left:4px solid var(--primary);background:#f8fafc;margin:24px 0;padding:16px 20px;border-radius:0 8px 8px 0;">
+  <p style="margin:0 0 8px;font-style:italic;color:#1e293b;">"The most common place we find bats is the gable vent. The biggest indicator besides going up into the attic and looking is staining on the vent itself and guano collecting on the ground below it. Those are tell-tale signs bats have started roosting in your vent — and it should be addressed by a licensed wildlife professional before the colony grows."</p>
+  <p style="margin:0;font-size:0.9rem;color:#64748b;font-weight:600;">— Brandon Turley, Total Animal Control</p>
+</blockquote>
+
+<h3>How to Spot Gable Vent Bat Activity From the Outside</h3>
+<p>You don't need to climb into the attic to confirm bat roosting. Here's what to look for from the ground:</p>
+<ul>
+  <li><strong>Greasy brown or black staining around the vent louvers.</strong> This is rub marks from bats squeezing through the same entry point repeatedly. The staining is from oils on their fur and from urine on the surrounding wood or vinyl.</li>
+  <li><strong>Guano on the ground below the vent.</strong> Look at the foundation, mulch, deck, or pavement directly beneath the gable end. Bat guano looks like dark grain-of-rice pellets and crumbles to powder when crushed (this is how to distinguish it from rodent droppings, which stay firm).</li>
+  <li><strong>Visible bats emerging at dusk.</strong> Stand outside about 20–30 minutes before sunset on a warm evening and watch the gable vent. If you have a colony, you'll see them.</li>
+  <li><strong>Damaged or pushed-out vent screen.</strong> Up close, you may see where the mesh has been worked loose at corners or where slats have separated.</li>
+</ul>
+
+<h3>Why Gable Vents Are So Often the Entry</h3>
+<p>Three reasons gable vents are bat magnets:</p>
+<ol>
+  <li><strong>The mesh behind the vent is usually inadequate.</strong> Most builder-grade vents use a thin aluminum or fiberglass screen that bats — and especially their persistent gnawing/pushing — can defeat.</li>
+  <li><strong>They're high and warm.</strong> Gable vents sit at the warmest part of the attic, which is exactly where bats want to roost (especially maternity colonies, which need consistent heat for pups).</li>
+  <li><strong>They're rarely inspected.</strong> Homeowners look at their roof, their foundation, their windows — but almost nobody examines their gable vents up close until something goes wrong.</li>
+</ol>
+
+<p>If you have any of the visual signs above, don't try to seal the vent yourself. Sealing an active gable vent traps bats inside the attic — see the next section for why this is a serious mistake.</p>
 
 <h2>Why DIY Bat Removal Almost Always Makes Things Worse</h2>
 <p>Of all wildlife removal jobs, bats are the one where DIY attempts most consistently backfire. Here's why:</p>
@@ -210,7 +240,8 @@ const BLOG_POSTS = [
     excerpt: 'A breakdown of what licensed wildlife removal actually costs in 2026 — by animal, by region, and by job complexity. No surprises.',
     datePublished: '2026-05-02',
     dateModified: '2026-05-02',
-    author: 'RemoveWildlifeNow Editorial',
+    author: 'Brandon Turley',
+    authorBio: 'Brandon Turley is the owner and lead technician at Total Animal Control, a licensed wildlife removal operation serving the Atlanta metro and surrounding Georgia counties. He has handled thousands of wildlife jobs across residential and commercial properties.',
     category: 'Pricing',
     tags: ['cost', 'pricing', 'raccoon', 'squirrel', 'bat', 'rat'],
     body: `

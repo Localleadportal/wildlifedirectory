@@ -23,7 +23,12 @@
       "url": pageUrl,
       "datePublished": post.datePublished,
       "dateModified": post.dateModified,
-      "author": { "@type": "Organization", "name": post.author, "url": "https://www.removewildlifenow.com/" },
+      "author": post.authorBio ? {
+        "@type": "Person",
+        "name": post.author,
+        "description": post.authorBio,
+        "worksFor": { "@type": "Organization", "name": "Total Animal Control" }
+      } : { "@type": "Organization", "name": post.author, "url": "https://www.removewildlifenow.com/" },
       "publisher": { "@id": "https://www.removewildlifenow.com/#organization" },
       "mainEntityOfPage": { "@type": "WebPage", "@id": pageUrl },
       "image": ogImage,
@@ -88,7 +93,7 @@
   </div>
   <h1 style="font-size:2.1rem;line-height:1.2;margin:0 0 20px;color:#0f172a;">${post.title}</h1>
   <p style="color:#475569;font-size:1.1rem;line-height:1.6;margin:0 0 8px;">${post.excerpt}</p>
-  <p style="color:#9ca3af;font-size:0.9rem;margin:0 0 32px;">By ${post.author}</p>
+  <p style="color:#6b7280;font-size:0.95rem;margin:0 0 32px;">By <strong style="color:#1e293b;">${post.author}</strong></p>
 </article>
 
 <article style="max-width:780px;margin:0 auto;padding:0 20px 32px;font-size:1.02rem;line-height:1.75;color:#1f2937;">
@@ -124,6 +129,21 @@
     </div>
   </div>
 </section>
+
+${post.authorBio ? `
+<section class="county-content">
+  <div class="container">
+    <div style="max-width:780px;margin:0 auto;border:1px solid #e5e7eb;border-radius:12px;padding:24px;background:#fff;display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap;">
+      <div style="flex-shrink:0;width:64px;height:64px;border-radius:50%;background:var(--primary);color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.5rem;font-weight:700;">${post.author.split(' ').map(n => n[0]).join('').slice(0,2)}</div>
+      <div style="flex:1;min-width:240px;">
+        <p style="margin:0 0 6px;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.5px;color:#6b7280;font-weight:600;">About the Author</p>
+        <h3 style="margin:0 0 8px;font-size:1.15rem;color:#0f172a;">${post.author}</h3>
+        <p style="margin:0;color:#475569;line-height:1.6;font-size:0.95rem;">${post.authorBio}</p>
+      </div>
+    </div>
+  </div>
+</section>
+` : ''}
 
 ${post.faqs && post.faqs.length ? `
 <section class="county-content" style="background:#f8fafc;">
