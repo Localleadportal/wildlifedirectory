@@ -11,7 +11,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
     'raccoon-removal': [
       {
         q: `How much does raccoon removal cost in ${location}, ${stateName}?`,
-        a: `Raccoon removal in ${stateName} typically costs $200–$600+ for trapping and relocation. If raccoons have been living in your attic, full remediation including cleanup, decontamination, and entry point sealing generally runs $800–$2,500+ depending on colony size and insulation damage. Call for a free estimate specific to your ${location} property.`
+        a: `Raccoon removal in ${stateName} typically costs $200–$600+ for trapping and relocation. If raccoons have been living in your attic, full remediation including cleanup, decontamination, and entry point sealing generally runs $800–$2,500+ depending on colony size and insulation damage. Call for an estimate specific to your ${location} property.`
       },
       {
         q: `Does homeowners insurance cover raccoon damage in ${stateName}?`,
