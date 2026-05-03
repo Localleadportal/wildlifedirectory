@@ -43,11 +43,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 68px;
+  height: 76px;
   gap: 16px;
 }
 .logo {
-  font-size: 1.25rem;
+  font-size: 1.55rem;
   font-weight: 800;
   color: var(--green);
   text-decoration: none;
@@ -59,7 +59,7 @@ header {
 .header-nav a {
   color: var(--text);
   text-decoration: none;
-  font-size: 0.92rem;
+  font-size: 1.08rem;
   font-weight: 500;
 }
 .header-nav a:hover { color: var(--green); }
@@ -69,10 +69,10 @@ header {
   gap: 8px;
   background: var(--orange);
   color: #fff !important;
-  padding: 10px 20px;
+  padding: 12px 24px;
   border-radius: 50px;
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   text-decoration: none !important;
   transition: background 0.15s;
   white-space: nowrap;
