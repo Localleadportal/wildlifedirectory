@@ -29,7 +29,7 @@ const ANIMALS = [
     plural: 'Rats',
     emoji: '🐀',
     shortDesc: 'Rats nest in walls, attics, and crawlspaces — gnawing wiring, contaminating insulation and food, and spreading disease.',
-    signs: ['Droppings along baseboards or in attic insulation', 'Gnaw marks on wood, plastic, or wiring', 'Scratching or scurrying noises in walls at night', 'Greasy rub marks along travel routes', 'Nests of shredded material in walls or attic'],
+    signs: ['Droppings along baseboards or in attic insulation', 'Gnaw marks on wood, plastic, or wiring', 'Scurrying or scratching noises in attic or walls at night', 'Greasy rub marks along travel routes', 'Nests of shredded material in walls or attic'],
     services: ['Inspection and entry-point identification', 'Snap and bait trap deployment', 'Permanent exclusion services', 'Sanitation and decontamination', 'Insulation replacement when contaminated'],
     urgency: 'Rats reproduce rapidly and chew electrical wiring — a real fire risk in older homes. Populations double in months without intervention.',
     season: 'Rats are active year-round but populations spike in fall as outdoor food becomes scarce and they move indoors for warmth.',
