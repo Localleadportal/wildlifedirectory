@@ -1,0 +1,570 @@
+{
+  "Atlanta": {
+    "population_tier": "large",
+    "housing_era": "Atlanta's housing stock spans the widest era range in metro Atlanta — from pre-1860 antebellum survivors and 1880s-1920s Victorian/Craftsman intown housing in Inman Park, Old Fourth Ward, West End, and Cabbagetown, through 1920s-1940s tudor and bungalow stock in Buckhead, Morningside, and Virginia-Highland, to 1950s-1970s mid-century in Adamsville, Cascade, and Sylvan Hills, and recent 2000s+ infill in the BeltLine corridor and Old Fourth Ward.",
+    "geographic_features": [
+      "Chattahoochee River (western boundary)",
+      "Atlanta BeltLine — 22-mile loop along former rail right-of-way (Ponce City Market, Krog Street Market commercial nodes)",
+      "Piedmont Park, Grant Park, Centennial Olympic Park, and the urban park network",
+      "Continuous mature oak-hickory canopy (one of the most heavily forested major U.S. cities)",
+      "Peachtree Creek, Nancy Creek, and Proctor Creek tributary system"
+    ],
+    "neighborhoods": [
+      "Buckhead (Buckhead Village, Garden Hills, Brookwood Hills, Tuxedo Park)",
+      "Midtown (Midtown Park, Atlantic Station, Ansley Park)",
+      "Inman Park, Old Fourth Ward, Cabbagetown, Reynoldstown (BeltLine corridor)",
+      "West End, Adair Park, Pittsburgh, Mechanicsville (intown south of I-20)",
+      "Adamsville, Cascade, Sylvan Hills, Mozley Park (mid-century)"
+    ],
+    "wildlife_intro": "Wildlife removal in Atlanta is the highest-pressure call market in Georgia by absolute volume — and the reason is the combination of pre-1940 historic housing, continuous mature canopy, the Atlanta BeltLine corridor, and dense year-round food subsidy from the urban environment. <strong>Buckhead</strong>'s older estate areas, the West End historic district, Cabbagetown's row houses, Old Fourth Ward, and the streets around the State Capitol all sit under 80-130+ year-old oak-hickory canopy with original masonry chimneys, deteriorated wood soffits, and multi-entry profiles that wildlife (raccoons, squirrels, bats, flying squirrels) have been using for generations. <strong>Norway rats</strong> dominate the commercial corridors and BeltLine-adjacent residential blocks at densities significantly above the metro suburban average. Big brown bat colonies in pre-1940 chimneys routinely span 30-60+ years of continuous occupation because daughters return to natal roosts to whelp. The single most common Atlanta call type is raccoon kit-season intrusion (late February through May) into historic-home chimney chases. Atlanta also has the metro's highest residential rat-pressure mix because of the BeltLine corridor's commercial dumpster ecology — properties within a quarter mile of the corridor see consistent Norway rat pressure. Typical Atlanta wildlife removal runs $400 to $2,000+ depending on housing era, contamination scope, and species. The contractor handling Atlanta is licensed under Georgia DNR Wildlife Resources Division and follows federal protocols for protected species (bats, native birds, tricolored bats along the Chattahoochee corridor).",
+    "faqs": [
+      {
+        "q": "What's the most common wildlife problem in Atlanta homes?",
+        "a": "Raccoons in attics and chimneys top the call volume, especially during kit season (late February through May) when female raccoons enter pre-1940 masonry chimneys to whelp. Eastern gray squirrels in attics are second-most-common across every Atlanta neighborhood with mature canopy. Norway rats dominate basements and crawlspaces in BeltLine-adjacent and commercial-corridor blocks. Big brown bats in chimney chases are common in pre-1940 historic housing — Buckhead, West End, Cabbagetown, Inman Park. Flying squirrels appear with notable frequency in older Atlanta intown housing."
+      },
+      {
+        "q": "Why are Atlanta intown wildlife jobs more expensive than suburban Cobb or Cherokee?",
+        "a": "Three reasons: pre-1940 housing routinely has 4-5+ entry points (vs 1-2 in newer suburban construction), historic-district decontamination scope is larger because attic insulation absorbs years of urine and droppings, and lath-and-plaster wall construction makes wall-cavity dead-animal recoveries more complex and expensive than modern drywall. Buckhead, West End, Cabbagetown, and Old Fourth Ward jobs frequently include licensed-electrician follow-up for chewed wiring on 60-100+ year-old Romex. Multi-decade <em>Baylisascaris procyonis</em>-contaminated insulation also drives remediation costs higher than suburban work."
+      },
+      {
+        "q": "Is the Atlanta BeltLine making rat problems worse for nearby homes?",
+        "a": "Yes, demonstrably for properties within about a quarter-mile of the corridor. The BeltLine's dumpster ecology at commercial nodes (Ponce City Market, Krog Street Market) plus the continuous travel route the corridor provides between neighborhoods has driven measurable Norway rat-pressure increases in adjacent residential blocks since the BeltLine opened. Properties along the corridor often need expanded-perimeter exclusion plans rather than standard single-property treatment, plus ongoing maintenance contracts."
+      },
+      {
+        "q": "Are flying squirrels really a common Atlanta intown problem?",
+        "a": "Yes — Southern flying squirrels (<em>Glaucomys volans</em>) appear with notable frequency in older Atlanta intown housing, particularly in Buckhead's older estates, the West End historic district, Cabbagetown's Fulton-side blocks, the streets around the State Capitol, and along the Atlanta BeltLine corridor. They're nocturnal, smaller than gray squirrels, often appear colonially, and use entry openings under 1 inch. Visual inspection at dusk often reveals flying squirrels gliding from tree to roofline. Confirmation requires contractor inspection because exclusion approach differs significantly between flying squirrels and rats."
+      },
+      {
+        "q": "How long have the bats been in my Atlanta historic-home chimney?",
+        "a": "Atlanta intown pre-1940 chimney bat colonies are routinely 30-60+ years old by the time homeowners first notice activity. Big brown bat daughters return to their natal roosts to whelp, so colony memory is multigenerational and persists across changes in property ownership. The first noticeable sign is typically guano accumulation on siding below an entry point, a single bat appearing in living space, or summer-time odor from the attic. Buckhead, West End, Cabbagetown, and the older blocks around the State Capitol all support continuously-occupied multi-decade colonies that require Georgia DNR-compliant exclusion calendars (April or September-October only)."
+      },
+      {
+        "q": "Do you handle wildlife removal in all Atlanta neighborhoods?",
+        "a": "Yes — full Atlanta coverage from Buckhead, Midtown, and the BeltLine corridor (Inman Park, Old Fourth Ward, Cabbagetown, Reynoldstown) through historic intown south of I-20 (West End, Adair Park, Pittsburgh, Mechanicsville) and the mid-century neighborhoods (Adamsville, Cascade, Sylvan Hills, Mozley Park). Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division and follows all federal protected-species protocols."
+      }
+    ]
+  },
+  "Sandy Springs": {
+    "population_tier": "large",
+    "housing_era": "Sandy Springs housing is dominated by 1950s-1980s ranch and split-level construction with substantial 1990s-2010s+ infill in the Roswell Road / Hammond Drive corridor and luxury infill along the Chattahoochee River. Original wood soffit returns, aluminum gable vents that have aged through, and brick-veneer chimney chase separations are the defining wildlife entry profile.",
+    "geographic_features": [
+      "Chattahoochee River (eastern boundary, with Cochran Shoals, Powers Island, and Island Ford NPS units)",
+      "Marsh Creek and Mountain Creek corridors",
+      "Sandy Springs Circle / GA-400 office park district",
+      "Mature canopy across older subdivisions north of Hammond Drive"
+    ],
+    "neighborhoods": [
+      "Riverside (Chattahoochee River corridor)",
+      "North Springs / Hammond Drive corridor",
+      "Sandy Springs Circle / I-285 area",
+      "Glenridge, North Sandy Springs, Spalding Drive corridor"
+    ],
+    "wildlife_intro": "Sandy Springs wildlife removal is dominated by north-Fulton patterns: roof rats overhead via continuous tree-to-roof canopy bridges, bats in mid-century chimney systems, and persistent raccoon and squirrel pressure from properties bordering the Chattahoochee River. The <strong>Chattahoochee River National Recreation Area</strong> units (Cochran Shoals, Powers Island, Island Ford) sustain a continuous source population that disperses outward into riverside subdivisions every fall. Roof rats (<em>Rattus rattus</em>) — which moved up the GA-400 corridor from peninsular Florida over the 2000s and 2010s — now dominate Sandy Springs ceiling cavities and overhead utility-line travel routes. Big brown bat colonies use 1950s-1980s chimney chases at densities that match Marietta historic-district patterns; multi-decade colony establishment is documented in the older Riverside and Glenridge neighborhoods. Properties along Marsh Creek and the GA-400 office corridor see chronic mixed-species pressure. Sandy Springs is also one of the metro's heaviest-pressure markets for residential solar-panel pigeon roosts as solar adoption increases. Snake encounters (especially copperheads) are common in wooded yards backing up to the river corridor. Typical Sandy Springs wildlife removal runs $400-$1,500 with same-day humane service.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in Sandy Springs homes?",
+        "a": "Roof rats in attics and ceiling cavities are the highest-volume call type, driven by continuous mature canopy across most subdivisions. Raccoons in attics and chimneys are second-most-common, especially during kit season (late February through May) and along Chattahoochee River corridor properties. Eastern gray squirrels are widespread; bats in chimney chases are common in 1950s-1980s housing. Solar-panel pigeon roosts are the fastest-growing call category, and copperhead encounters are common in wooded yards backing up to the river or Marsh Creek."
+      },
+      {
+        "q": "Why do Sandy Springs properties along the Chattahoochee see more wildlife pressure?",
+        "a": "The <strong>Chattahoochee River National Recreation Area</strong> units (Cochran Shoals, Powers Island, Island Ford) immediately border eastern Sandy Springs and sustain a continuous source population of raccoons, squirrels, opossums, skunks, and snakes that disperses outward into riverside subdivisions every fall. Properties within a quarter-mile of the river corridor take heaviest dispersal pressure and often need wider-perimeter exclusion than standard single-property treatment. Big Creek and Marsh Creek tributaries reinforce the pressure across the rest of Sandy Springs."
+      },
+      {
+        "q": "Are roof rats a problem in Sandy Springs?",
+        "a": "Yes — Sandy Springs is one of the heaviest roof rat markets in north Fulton because of three factors: continuous mature canopy provides unbroken tree-to-roof bridges across most neighborhoods (roof rats use overhead branches and utility lines to move between properties without ground contact), wooded subdivision edges back up to river/creek corridors, and year-round food subsidy from bird feeders, gardens, and pet food. Treatment requires attic exclusion plus tree-trim/utility-line review, not just trapping."
+      },
+      {
+        "q": "Why are pigeons nesting under my Sandy Springs solar panels?",
+        "a": "This is the fastest-growing bird-pest call type in north Fulton. Solar arrays installed without exclusion mesh provide an ideal sheltered roost; pigeons accumulate inches of droppings on the roof under the panels, damage roofing membrane, and dropping load can short electrical components. The fix is HEPA-equipped droppings remediation followed by stainless-steel mesh exclusion installed around the perimeter of the array. Typical cost $500-$900 for a residential array. Without exclusion, pigeons return within weeks."
+      },
+      {
+        "q": "When are bats most active in Sandy Springs attics?",
+        "a": "Big brown bat colonies in Sandy Springs chimney chases are active March through October, with peak attic activity during the maternity season (May through August). Georgia DNR regulations restrict exclusion during the maternity season — work must be done in April or September through mid-October. Inspection and planning can happen any time of year. Tricolored bat encounters along the Chattahoochee corridor require additional federal-status protocol because the species is proposed for ESA listing."
+      },
+      {
+        "q": "Do you handle wildlife removal across all Sandy Springs neighborhoods?",
+        "a": "Yes — full Sandy Springs coverage including Riverside, North Springs, Hammond Drive corridor, Sandy Springs Circle, Glenridge, North Sandy Springs, and the Spalding Drive corridor. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division (Region 2) and works the entire city plus surrounding north-Fulton communities."
+      }
+    ]
+  },
+  "Roswell": {
+    "population_tier": "large",
+    "housing_era": "Roswell has the widest housing-era range in north Fulton — from pre-1900 mill-village historic housing in the Vickery Creek / Roswell Mill historic district, through 1950s-1970s ranch and mid-century in inner Roswell along the Holcomb Bridge corridor, to 1980s-2000s+ subdivision construction in east Roswell toward the Alpharetta border.",
+    "geographic_features": [
+      "Chattahoochee River (southern boundary)",
+      "Vickery Creek and Roswell Mill / Roswell Mill Park",
+      "Big Creek (eastern Roswell)",
+      "Continuous mature canopy through historic district and adjacent neighborhoods"
+    ],
+    "neighborhoods": [
+      "Roswell Historic District (Canton Street, Bulloch Hall area, Roswell Square)",
+      "Vickery Creek corridor",
+      "Inner Roswell mid-century (Holcomb Bridge corridor, Crabapple area)",
+      "East Roswell subdivisions (toward Alpharetta border)"
+    ],
+    "wildlife_intro": "Roswell wildlife removal splits sharply by housing era and submarket. The <strong>Roswell Historic District</strong> — the pre-1900 mill village along Vickery Creek anchored by Canton Street and Bulloch Hall — follows Atlanta intown patterns: multi-entry profiles, masonry chimney access without modern caps, original wood soffits, deteriorated fascia. Structurally similar to Marietta and Canton historic districts, this submarket produces multi-decade bat-colony establishment in chimney chases, persistent raccoon kit-season intrusions (late February through May), and complex multi-species exclusion work. Inner Roswell mid-century housing (1950s-1970s ranches and split-levels along the Holcomb Bridge corridor) sees standard north-Fulton entry profiles. East Roswell subdivisions toward the Alpharetta border match the 1980s-2000s+ vinyl-soffit / chase-cap pattern. The <strong>Vickery Creek</strong> corridor and <strong>Big Creek</strong> tributary system feed continuous wildlife dispersal pressure into adjacent residential areas. Roof rats dominate the ceiling cavities of newer subdivisions; raccoons and squirrels cluster in the historic district's chimney systems; flying squirrels appear in older Vickery Creek properties. Typical Roswell wildlife removal runs $400-$1,800 depending on submarket and historic-district scope.",
+    "faqs": [
+      {
+        "q": "Is wildlife pressure higher in the Roswell Historic District or newer east-Roswell subdivisions?",
+        "a": "Per-property pressure is higher in the Roswell Historic District because pre-1900 mill-village housing has multi-entry profiles (4-5+ viable entry points per property is common) versus 1-2 in newer subdivisions. Historic-district bat colonies routinely span 30-60+ years of continuous occupation, raccoon kit-season intrusions are concentrated, and remediation scope is larger. East Roswell subdivisions see higher absolute call volume because of larger residential footprints but easier per-property scope."
+      },
+      {
+        "q": "Are Roswell historic-mill homes more expensive to treat than newer construction?",
+        "a": "Yes, typically 30-60% more expensive. Pre-1900 mill housing has multi-entry profiles, original wood soffit construction, masonry chimneys without modern caps, and lath-and-plaster wall construction that complicates wall-cavity work. Multi-decade contamination (Baylisascaris in raccoon attics, decades of bat guano in chimneys) requires HEPA-equipped remediation. Historic-district preservation requirements also restrict exterior modifications, requiring more skilled exclusion work."
+      },
+      {
+        "q": "Do you handle wildlife removal in the Vickery Creek / Roswell Mill area?",
+        "a": "Yes — the Vickery Creek corridor and the Roswell Mill historic district are core service areas. The continuous wildlife corridor along Vickery Creek (which feeds into the Chattahoochee) sustains constant dispersal pressure into adjacent residential properties; Roswell Mill area homes routinely have 4-5+ wildlife entry points. Same-day inspections usually available."
+      },
+      {
+        "q": "What wildlife is most common along Big Creek in Roswell?",
+        "a": "Big Creek properties see the heaviest north-Roswell wildlife pressure: raccoons (with peak kit-season intrusion late February through May), opossums, skunks denning under decks/sheds, copperhead encounters in wooded yards, roof rats overhead in canopy-dense subdivisions, and Eastern gray squirrels in attics. Properties backing directly up to Big Creek Greenway take continuous source-population pressure."
+      },
+      {
+        "q": "When are kits most likely in Roswell attic raccoon intrusions?",
+        "a": "Female raccoons in Roswell whelp <strong>late February through early May</strong>, with peak intrusion during the first three weeks of March. Atlanta-area mild winters and the Vickery Creek / Big Creek source-population pressure mean Roswell sees consistent kit-season activity. Trapping or excluding the mother before kits are mobile leaves kits to die in the attic — a guaranteed dead-animal callback within 2 weeks. Right approach during kit season is one-way doors deployed only after kits are mobile, or den-side hand recovery if kits are very young."
+      },
+      {
+        "q": "Are flying squirrels in Roswell historic homes a problem?",
+        "a": "Yes — Southern flying squirrels (<em>Glaucomys volans</em>) appear in older Roswell historic-district housing along Vickery Creek and adjacent streets, similar in pattern to Atlanta intown. They're nocturnal, smaller than gray squirrels, often appear colonially, and use entry openings under 1 inch. Often mistaken for rats. Visual inspection at dusk reveals flying squirrels gliding from tree to roofline. Confirmation requires contractor inspection because exclusion approach differs significantly between flying squirrels and rats."
+      }
+    ]
+  },
+  "Johns Creek": {
+    "population_tier": "medium",
+    "housing_era": "Johns Creek is dominated by 1990s-2010s subdivision construction with extensive mature-canopy growth over the past 25-30 years. Older housing stock is rare; most calls involve vinyl-soffit chew-throughs, builder-grade chimney chase caps, attic-fan housings with degraded gaskets, and modern subdivision entry profiles.",
+    "geographic_features": [
+      "Chattahoochee River (western boundary)",
+      "Johns Creek tributary system",
+      "Newtown Park and Autrey Mill Nature Preserve",
+      "Continuous canopy across 1990s+ subdivision developments"
+    ],
+    "neighborhoods": [
+      "Bell's Ferry / Medlock Bridge corridor",
+      "Newtown Park area",
+      "Autrey Mill Nature Preserve corridor",
+      "North Johns Creek (toward Suwanee border)"
+    ],
+    "wildlife_intro": "Johns Creek wildlife removal is dominated by north-Fulton subdivision patterns: 1990s-2010s construction with vinyl-soffit chew-throughs at outside corners, builder-grade chimney chase caps that loosen and lift, attic-fan housings with degraded gaskets, and soffit-fascia separation at roof-slope transitions. Roof rats (<em>Rattus rattus</em>) dominate ceiling cavities thanks to continuous tree-to-roof canopy bridges across nearly every neighborhood. The <strong>Chattahoochee River corridor</strong> along the western edge of Johns Creek and the <strong>Autrey Mill Nature Preserve</strong> corridor sustain continuous source populations of raccoons, squirrels, opossums, and skunks. Properties backing up to nature preserve, river greenway, or undeveloped wooded edges take heaviest fall dispersal pressure. Solar-panel pigeon roosts are the fastest-growing call type as residential solar adoption increases. Bat colonies in 1990s+ chimney chases tend to be smaller and easier to exclude than Atlanta historic-home colonies. Snake encounters (especially copperheads) are common in yards along the river corridor and nature preserve. Typical Johns Creek wildlife removal runs $300-$1,200 with same-day humane service.",
+    "faqs": [
+      {
+        "q": "What wildlife problems are most common in Johns Creek subdivisions?",
+        "a": "Roof rats in attics top the call volume because of continuous canopy across 1990s+ subdivisions. Eastern gray squirrels in attics via vinyl-soffit chew-throughs are second-most-common. Raccoons concentrate around the Chattahoochee corridor and Autrey Mill Nature Preserve. Solar-panel pigeon roosts are the fastest-growing call category. Copperhead encounters are common in wooded yards. Bats in chimney chases are documented but smaller-colony than Atlanta historic homes."
+      },
+      {
+        "q": "Are roof rats a problem in Johns Creek?",
+        "a": "Yes — Johns Creek is one of the highest-pressure roof rat markets in north Fulton. Continuous mature canopy across 1990s-2010s subdivisions provides unbroken tree-to-roof bridges; roof rats use overhead branches and utility lines to move between properties without ground contact. Wooded subdivision edges (Autrey Mill Nature Preserve, Chattahoochee River corridor) sustain continuous source populations. Treatment requires attic exclusion plus tree-trim and utility-line review."
+      },
+      {
+        "q": "Why are raccoons getting into Johns Creek attics through soffit corners?",
+        "a": "1990s-2010s subdivision construction in Johns Creek used vinyl soffit material at outside corners that vinyl-rated wildlife (raccoons especially) chew through to access the attic — particularly during fall dispersal and spring kit-season pressure. The chew-through is small initially (3-4 inches) but expands quickly. Once excluded, repair requires hardware-cloth backing plus rebuilt soffit panel. Other typical Johns Creek entry routes: chimney chase caps that loosen, attic-fan housing gaskets, soffit-fascia gaps at roof-slope transitions."
+      },
+      {
+        "q": "Do you handle wildlife removal near the Chattahoochee River in Johns Creek?",
+        "a": "Yes — properties along the Chattahoochee corridor in Johns Creek see the heaviest wildlife pressure in the city because the river corridor sustains a continuous source population of raccoons, opossums, skunks, snakes, and waterfowl. Typical Chattahoochee-corridor calls involve mixed-species treatment plans and wider-perimeter exclusion. Same-day inspection usually available."
+      },
+      {
+        "q": "When are wildlife calls highest in Johns Creek?",
+        "a": "Three peaks per year. <strong>Late February through May</strong> for raccoon kit season (peak intrusion first three weeks of March). <strong>August through September</strong> for the second squirrel breeding cycle. <strong>October through December</strong> for rat intrusion as outdoor food sources disappear and rats move indoors aggressively. Bat exclusion windows are narrow (April or September-October only) because of state and federal protections."
+      },
+      {
+        "q": "Do you handle wildlife removal across all Johns Creek neighborhoods?",
+        "a": "Yes — full Johns Creek coverage including Bell's Ferry / Medlock Bridge corridor, Newtown Park area, Autrey Mill Nature Preserve corridor, and north Johns Creek toward the Suwanee border. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division (Region 2) and works the entire city."
+      }
+    ]
+  },
+  "Alpharetta": {
+    "population_tier": "medium",
+    "housing_era": "Alpharetta has a small historic-district footprint (downtown Alpharetta around Main Street, with some pre-1900 mill housing) but is dominated by 1980s-2010s+ subdivision construction. Mature canopy growth over established subdivisions creates roof rat pressure and raccoon dispersal corridors.",
+    "geographic_features": [
+      "Big Creek and Big Creek Greenway",
+      "Tech-corridor commercial development (GA-400 / Old Milton Parkway)",
+      "Wills Park and Webb Bridge Park",
+      "Mature canopy across 1980s-1990s subdivisions"
+    ],
+    "neighborhoods": [
+      "Downtown Alpharetta / Main Street historic district",
+      "Big Creek Greenway corridor",
+      "Webb Bridge / Old Milton Parkway corridor",
+      "North Alpharetta (toward Milton border)"
+    ],
+    "wildlife_intro": "Alpharetta wildlife removal splits by submarket: the small <strong>downtown Alpharetta historic district</strong> (pre-1900 mill-village housing around Main Street and Wills Park area) follows Roswell historic-district patterns — multi-entry profiles, original wood soffit construction, chimney access without modern caps. The dominant 1980s-2010s+ subdivisions follow standard north-Fulton patterns: vinyl-soffit chew-throughs at outside corners, builder-grade chase caps that loosen, attic-fan housings with degraded gaskets. The <strong>Big Creek</strong> and <strong>Big Creek Greenway</strong> corridor sustains continuous wildlife dispersal pressure across the city, with roof rats dominating ceiling cavities and raccoons concentrating around the greenway corridor. The <strong>tech-corridor commercial development</strong> along GA-400 produces additional commercial-property wildlife work — pigeon abatement on commercial buildings, Norway rat work in restaurant corridors, starling vent infestations in office complexes. Solar-panel pigeon roosts on residential properties are common modern Alpharetta calls. Snake encounters (especially copperheads) are common in wooded yards backing up to greenway. Typical Alpharetta wildlife removal runs $300-$1,200 with same-day humane service.",
+    "faqs": [
+      {
+        "q": "Is wildlife pressure different between downtown Alpharetta and the newer subdivisions?",
+        "a": "Yes. Downtown Alpharetta historic-district homes (pre-1900 mill housing around Main Street) have multi-entry profiles similar to Roswell historic district — masonry chimneys without modern caps, original wood soffits, deteriorated fascia. Multi-decade bat-colony establishment is documented in some downtown chimneys. Newer 1980s-2010s+ subdivisions across most of Alpharetta follow standard north-Fulton patterns: vinyl-soffit chew-throughs, builder-grade chase caps, easier per-property exclusion scope."
+      },
+      {
+        "q": "What wildlife is most common in Alpharetta's tech-corridor neighborhoods?",
+        "a": "Subdivision residential calls are dominated by roof rats in attics, gray squirrels in attics, raccoons in chimneys/attics, and starlings in dryer vents. The tech-corridor commercial component along GA-400 adds pigeon abatement on office buildings and parking decks, Norway rat work along restaurant corridors, and starling/sparrow nest work on commercial signage and building eaves."
+      },
+      {
+        "q": "Do you handle wildlife removal along the Big Creek Greenway in Alpharetta?",
+        "a": "Yes — properties along Big Creek and the Big Creek Greenway in Alpharetta see the heaviest residential wildlife pressure in the city. The greenway corridor sustains a continuous source population of raccoons, opossums, skunks, copperheads, and waterfowl that disperses outward into adjacent residential properties. Typical greenway-adjacent calls require mixed-species treatment plans and wider-perimeter exclusion."
+      },
+      {
+        "q": "Are bats common in downtown Alpharetta historic homes?",
+        "a": "Yes — pre-1900 mill housing in the downtown Alpharetta historic district has masonry chimneys without modern caps that big brown bats use for maternity roosting. Multi-decade colony establishment is documented in some downtown chimneys. Georgia DNR regulations restrict exclusion during the maternity season (May through August) — work must be done in April or September through mid-October. Inspection and planning can happen any time of year."
+      },
+      {
+        "q": "When are wildlife calls highest in Alpharetta?",
+        "a": "Three peak periods. <strong>Late February through May</strong> for raccoon kit-season intrusions in chimneys and attics. <strong>August through September</strong> for the second squirrel breeding cycle. <strong>October through December</strong> for rat intrusion as outdoor food sources disappear. Solar-panel pigeon-roost calls peak in spring as nesting begins. Snake encounters cluster May-September with peaks in juvenile-dispersal August-September."
+      },
+      {
+        "q": "Do you handle wildlife removal across all Alpharetta neighborhoods?",
+        "a": "Yes — full Alpharetta coverage including downtown Alpharetta / Main Street historic district, the Big Creek Greenway corridor, the Webb Bridge / Old Milton Parkway corridor, and north Alpharetta toward the Milton border. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division (Region 2) and works the entire city plus surrounding north-Fulton communities."
+      }
+    ]
+  },
+  "Milton": {
+    "population_tier": "small",
+    "housing_era": "Milton is the most recently incorporated Fulton city (2006) and is dominated by large-lot luxury subdivision construction (1990s-2010s+) with significant equestrian and rural-estate properties. Multi-structure properties (main house + barn + pool house + outbuildings) are the defining Milton wildlife-call characteristic.",
+    "geographic_features": [
+      "Chicken Creek and Cooper Sandy Creek tributaries",
+      "Equestrian and pasture properties (Milton's defining land use pattern)",
+      "Large-lot zoning (1+ acre minimum across most of the city)",
+      "Mature canopy across older subdivision sections"
+    ],
+    "neighborhoods": [
+      "Downtown Milton / Crabapple area",
+      "Birmingham Highway / Highway 9 corridor",
+      "Equestrian estate properties (eastern Milton)",
+      "Cooper Sandy Creek corridor (western Milton)"
+    ],
+    "wildlife_intro": "Milton wildlife removal reflects the city's defining large-lot, multi-structure character: most jobs involve <strong>main house plus outbuildings</strong> (barns, pool houses, detached garages, equestrian structures), and a single property often hosts multiple wildlife problems simultaneously across multiple structures. Roof rat pressure from continuous canopy is high but spread across larger lots than typical north-Fulton subdivisions. Bat colonies frequently occupy multiple structures on equestrian properties — main house chimney plus barn loft is a typical Milton bat call requiring multi-structure exclusion within the narrow Georgia DNR-compliant calendar (April or September-October only). Skunks, opossums, and groundhogs den under decks, sheds, and barn outbuildings. Raccoons concentrate around <strong>Chicken Creek</strong> and <strong>Cooper Sandy Creek</strong> tributaries. Snake encounters (copperheads especially) are higher per-property than typical north-Fulton because of the rural-residential land-use mix. Pigeon and starling problems on horse-property barn structures are routine. Coyote presence is documented in undeveloped Milton acreage with associated dead-livestock and dead-pet calls. Typical Milton wildlife removal runs $400-$2,500 because of multi-structure scope and rural complexity.",
+    "faqs": [
+      {
+        "q": "Why are Milton wildlife jobs often more complex than Sandy Springs or Roswell?",
+        "a": "Three reasons: large-lot zoning produces multi-structure properties (main house + barns + pool houses + equestrian outbuildings) that often host wildlife in multiple buildings simultaneously, the rural-residential mix produces higher per-property snake encounter rates (copperheads especially), and equestrian / pasture properties produce additional barn-pigeon, barn-starling, barn-bat, and feed-storage rat work that suburban properties don't have. Milton wildlife jobs frequently require coordinated multi-day visits."
+      },
+      {
+        "q": "Do you handle bat removal on Milton equestrian properties with barns?",
+        "a": "Yes — multi-structure bat work on equestrian properties is a Milton specialty. Big brown bat colonies routinely occupy main-house chimneys and barn lofts simultaneously, sometimes in pool houses or detached garages as well. Exclusion must be coordinated across all structures within the narrow Georgia DNR-compliant calendar (April or September through mid-October only) and follow federal protected-species protocols. Tricolored bat encounters in Milton's wooded acreage require additional federal-status protocol because the species is proposed for ESA listing."
+      },
+      {
+        "q": "Are copperheads common in Milton yards?",
+        "a": "Yes — copperhead encounters are higher per-property in Milton than in typical north-Fulton subdivisions because of the rural-residential land-use mix. Wooded acreage, equestrian pasture edges, woodpiles, brush piles, and dense ornamental landscaping all provide ideal copperhead habitat. Peak encounter season is April through October with two peaks: May-June (mating) and August-September (juvenile dispersal). Pet exposure is real — dogs especially. Take a photo from a safe distance and call for ID before approaching any unfamiliar snake."
+      },
+      {
+        "q": "What wildlife is most common in Milton's equestrian neighborhoods?",
+        "a": "Equestrian-property wildlife splits across structures: main-house attic raccoon and squirrel intrusions, barn pigeon/starling/sparrow nesting, barn-loft and outbuilding bat colonies, feed-storage rat populations, deck/shed skunk and opossum denning, copperhead encounters in pasture-edge brush, groundhog burrows under barn slabs and equipment sheds, and dead-livestock and dead-pet recovery from coyote and disease incidents. Multi-day coordinated service is common."
+      },
+      {
+        "q": "Do you handle wildlife removal across all Milton properties?",
+        "a": "Yes — full Milton coverage including downtown Milton / Crabapple area, the Birmingham Highway / Highway 9 corridor, the eastern Milton equestrian estate properties, and the Cooper Sandy Creek corridor in western Milton. Multi-structure rural and equestrian properties are a Milton specialty. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division (Region 2)."
+      }
+    ]
+  },
+  "East Point": {
+    "population_tier": "medium",
+    "housing_era": "East Point housing is primarily 1920s-1960s — Craftsman bungalows, mid-century ranches, and pre-WWII brick housing. Older Atlanta-style intown construction near the Atlanta border transitions to mid-century in the south and west of the city.",
+    "geographic_features": [
+      "Hartsfield-Jackson Atlanta International Airport (immediately south)",
+      "MARTA East Point and West End stations",
+      "Sweetwater Creek tributary system",
+      "Industrial corridor along Cleveland Avenue and Camp Creek Parkway"
+    ],
+    "neighborhoods": [
+      "Historic East Point (around the East Point MARTA station)",
+      "College Park-adjacent (along Main Street)",
+      "Sweetwater Creek corridor",
+      "Camp Creek Parkway industrial corridor"
+    ],
+    "wildlife_intro": "East Point wildlife removal mixes Atlanta intown housing patterns with industrial-corridor and airport-adjacent commercial work. The 1920s-1960s residential housing has multi-entry profiles similar to Atlanta intown — original wood soffits, deteriorated fascia, masonry chimneys without modern caps, brick foundation gaps. <strong>Norway rats</strong> dominate at ground level — basements, crawlspaces, and around foundations — driven by aging municipal infrastructure and proximity to commercial dumpster ecology along Cleveland Avenue and Camp Creek Parkway. <strong>Roof rats</strong> overlap in the wooded older neighborhoods, producing common mixed-species treatment plans. Pigeon work concentrates around Hartsfield-Jackson Airport-adjacent properties and the MARTA East Point station area. Bats appear in older brick housing chimneys with multi-decade colony patterns matching Atlanta intown. Raccoons concentrate in the Sweetwater Creek corridor and densely-canopied older neighborhoods; opossums and skunks den in older garages, under porches, and in crawlspaces with foundation gaps. Typical East Point wildlife removal runs $400-$1,500 with same-day humane service.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in East Point homes?",
+        "a": "Norway rats in basements and crawlspaces top the call volume because of aging municipal infrastructure and proximity to commercial dumpster ecology along Cleveland Avenue and Camp Creek Parkway. Roof rats overlap in wooded older neighborhoods, producing mixed-species treatment plans. Raccoons in attics and chimneys are common in 1920s-1960s housing. Bats in pre-1960 chimneys are documented. Opossums and skunks den under porches and in crawlspaces."
+      },
+      {
+        "q": "Are East Point homes prone to mixed Norway rat / roof rat problems?",
+        "a": "Yes — East Point sits at the urban-suburban transition where both species overlap. Norway rats dominate ground-level (basements, crawlspaces, foundations) driven by Atlanta-pattern commercial corridors and aging infrastructure. Roof rats overlap in wooded older neighborhoods using overhead canopy travel. Diagnostic: pointed half-inch droppings indicate roof rats; blunt 3/4-inch droppings indicate Norway rats. Mixed-species properties need both attic exclusion (for roof rats) and crawlspace/foundation exclusion (for Norway rats)."
+      },
+      {
+        "q": "Do you handle wildlife removal near the Hartsfield-Jackson Airport area?",
+        "a": "Yes — East Point's airport-adjacent residential and commercial properties are a core service area. Pigeon work concentrates around airport-adjacent commercial buildings and the MARTA East Point station. Norway rat pressure is elevated near the Camp Creek Parkway industrial corridor. Residential calls in airport-adjacent neighborhoods follow standard East Point patterns plus additional pigeon-roost work."
+      },
+      {
+        "q": "Are bats common in East Point pre-1960 brick housing?",
+        "a": "Yes — pre-1960 East Point brick housing has masonry chimneys without modern caps that big brown bats use for maternity roosting. Colony establishment in some older East Point chimneys spans multiple decades, similar to Atlanta intown patterns. Georgia DNR regulations restrict exclusion during the maternity season (May through August) — work must be done in April or September through mid-October."
+      },
+      {
+        "q": "Do you handle wildlife removal across all East Point neighborhoods?",
+        "a": "Yes — full East Point coverage including Historic East Point around the MARTA station, College Park-adjacent neighborhoods along Main Street, the Sweetwater Creek corridor, and the Camp Creek Parkway industrial corridor. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division (Region 4)."
+      }
+    ]
+  },
+  "College Park": {
+    "population_tier": "small",
+    "housing_era": "College Park housing is primarily 1900s-1950s — pre-WWI Craftsman, 1920s-1940s tudor and bungalow stock, plus 1950s mid-century. Significant historic-district designation around the original Main Street corridor.",
+    "geographic_features": [
+      "Hartsfield-Jackson Atlanta International Airport (immediately south)",
+      "MARTA College Park station",
+      "Princeton Lakes",
+      "Camp Creek Parkway commercial corridor"
+    ],
+    "neighborhoods": [
+      "College Park Historic District (Main Street corridor)",
+      "Princeton Lakes area",
+      "Old National Highway corridor",
+      "Industrial / commercial east College Park"
+    ],
+    "wildlife_intro": "College Park wildlife removal centers on the city's pre-1960 historic housing stock — Craftsman bungalows, 1920s-1940s tudor, and mid-century brick homes all with multi-entry profiles common to Atlanta-pattern older housing. <strong>Norway rats</strong> dominate ground-level intrusions, driven by airport-adjacent commercial ecology and aging municipal infrastructure. Bat colonies in chimney chases are common because the housing era matches Atlanta historic stock; multi-decade colony establishment is documented in the College Park Historic District around Main Street. Pigeon work concentrates around the College Park MARTA station, Camp Creek Parkway commercial corridor, and Hartsfield-Jackson airport-adjacent properties. Raccoons and opossums den in older garages, under porches, and in crawlspaces with foundation gaps. Roof rats overlap with Norway rats in the wooded older neighborhoods. Typical College Park wildlife removal runs $400-$1,500 with same-day humane service.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in College Park homes?",
+        "a": "Norway rats in basements and crawlspaces top the call volume because of aging municipal infrastructure and airport-adjacent commercial ecology. Raccoons in attics and chimneys are common in 1900s-1950s housing. Bats in pre-1950 chimneys are documented in the historic district. Opossums and skunks den under porches and in crawlspaces. Pigeon work concentrates around the MARTA station and commercial corridors."
+      },
+      {
+        "q": "Are bats common in College Park historic-district chimneys?",
+        "a": "Yes — pre-1940 College Park historic-district housing along Main Street has masonry chimneys without modern caps that big brown bats use for maternity roosting. Multi-decade colony establishment is documented. Georgia DNR regulations restrict exclusion during the maternity season (May through August) — work must be done in April or September through mid-October. Tricolored bat encounters in the broader area require additional federal-status protocol."
+      },
+      {
+        "q": "Do you handle wildlife removal near Hartsfield-Jackson Airport in College Park?",
+        "a": "Yes — College Park's airport-adjacent residential and commercial properties are a core service area. Pigeon work concentrates around airport-adjacent buildings and the MARTA College Park station; Norway rat pressure is elevated near the Camp Creek Parkway commercial corridor. Residential calls in airport-adjacent neighborhoods follow standard College Park patterns plus additional pigeon-roost work."
+      },
+      {
+        "q": "Are Norway rats a problem in College Park?",
+        "a": "Yes — College Park has elevated Norway rat pressure because of aging municipal sewer/stormwater infrastructure, pre-1940 housing with hand-laid brick foundations and original masonry vents without hardware-cloth backing, and proximity to airport-adjacent commercial dumpster ecology. Treatment requires structural exclusion (foundation gap sealing, hardware-cloth vent backing) plus baited trap programs, not just trapping alone."
+      },
+      {
+        "q": "Do you handle wildlife removal across all College Park neighborhoods?",
+        "a": "Yes — full College Park coverage including the Main Street historic district, Princeton Lakes area, Old National Highway corridor, and the industrial / commercial east College Park area. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division (Region 4)."
+      }
+    ]
+  },
+  "South Fulton": {
+    "population_tier": "medium",
+    "housing_era": "South Fulton (incorporated 2017 from unincorporated south Fulton County) has a wide housing-era range — from pre-1960 properties in the established communities to 1990s-2010s subdivision construction. Includes significant rural and semi-rural acreage alongside dense residential pockets.",
+    "geographic_features": [
+      "Cochran Mill Park and the Bear Creek tributary system",
+      "Chattahoochee River (eastern edge)",
+      "Mixed semi-rural and suburban land use",
+      "Significant wooded-edge subdivisions"
+    ],
+    "neighborhoods": [
+      "Cliftondale / Old National corridor",
+      "Cochran Mill Park area",
+      "Stonewall Tell Road corridor",
+      "Welcome All Park area"
+    ],
+    "wildlife_intro": "South Fulton wildlife removal reflects the city's mixed semi-rural and suburban character: subdivision pockets follow standard north-Fulton patterns (vinyl-soffit chew-throughs, chase-cap gaps, attic-fan housings), while semi-rural properties along the <strong>Cochran Mill Park</strong> corridor and <strong>Bear Creek</strong> tributaries see chronic raccoon, opossum, skunk, and groundhog pressure. Multi-structure jobs (main house plus outbuildings) are common on larger lots. Snake encounters — including copperheads and occasional cottonmouth near the Chattahoochee — are higher per-property than typical north-Fulton because of the woodland edge and creek systems. Bat work appears in older properties with established chimney colonies, particularly along the Cliftondale / Old National corridor. Roof rats dominate ceiling cavities in canopy-dense subdivisions. Coyote presence is documented in undeveloped southern South Fulton acreage with associated dead-pet calls. Typical South Fulton wildlife removal runs $300-$1,500 with same-day humane service.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in South Fulton homes?",
+        "a": "Subdivision properties: roof rats in attics, raccoons via soffit and chase-cap gaps, gray squirrels in attics, opossums under decks. Semi-rural properties: raccoons concentrating near Cochran Mill Park and Bear Creek corridors, skunks denning under outbuildings, groundhog burrows under porches and sheds, copperhead encounters in wooded yards, dead-pet recovery in coyote-active areas. Bat work appears in older properties along established corridors."
+      },
+      {
+        "q": "Do you handle wildlife removal on semi-rural South Fulton properties?",
+        "a": "Yes — semi-rural and rural South Fulton properties are a core service area. Multi-structure jobs (main house + barns + sheds + outbuildings) are common, with wildlife often denning across multiple structures simultaneously. Properties along the Cochran Mill Park, Bear Creek, and Chattahoochee corridors see continuous source-population pressure that often requires expanded-perimeter exclusion plans rather than standard single-property treatment."
+      },
+      {
+        "q": "Are snakes (especially copperheads) common in South Fulton yards?",
+        "a": "Yes — copperhead encounters are higher per-property in South Fulton than in typical north-Fulton subdivisions because of the semi-rural land-use mix and woodland edge. Cottonmouths appear near the Chattahoochee River edge and in wet/marshy tributary areas. Peak encounter season is April through October with two peaks: May-June (mating) and August-September (juvenile dispersal). Take a photo from a safe distance and call for ID before approaching any unfamiliar snake."
+      },
+      {
+        "q": "Are bats common in older South Fulton homes?",
+        "a": "Yes — pre-1960 South Fulton housing has masonry chimneys without modern caps that big brown bats use for maternity roosting. Multi-decade colony establishment is documented in the older Cliftondale / Old National corridor properties. Georgia DNR regulations restrict exclusion during the maternity season (May through August); work must be done in April or September through mid-October."
+      },
+      {
+        "q": "Do you handle wildlife removal across all South Fulton neighborhoods?",
+        "a": "Yes — full South Fulton coverage including Cliftondale / Old National corridor, Cochran Mill Park area, Stonewall Tell Road corridor, and Welcome All Park area, plus all semi-rural and rural acreage in between. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division (Region 4)."
+      }
+    ]
+  },
+  "Union City": {
+    "population_tier": "small",
+    "housing_era": "Union City housing is primarily 1960s-2000s — older mid-century pockets near the original downtown plus extensive 1980s-2000s subdivision growth. Significant industrial/warehouse development along I-85 and Roosevelt Highway.",
+    "geographic_features": [
+      "I-85 corridor (industrial/warehouse development)",
+      "Bear Creek tributary system",
+      "Camp Creek Parkway extension",
+      "Mixed residential, commercial, and industrial land use"
+    ],
+    "neighborhoods": [
+      "Old Union City (Roosevelt Highway corridor)",
+      "Camp Creek extension subdivisions",
+      "Shannon Mall area (former mall site, now mixed-use)",
+      "Bear Creek corridor"
+    ],
+    "wildlife_intro": "Union City wildlife removal mixes residential subdivision work with industrial/commercial property calls. Subdivision wildlife pressure follows standard south-Fulton patterns — roof rats overhead in ceiling cavities, raccoons via soffit and chase-cap gaps, skunks and opossums denning under decks and porches, gray squirrels in attics. Industrial-corridor properties along <strong>I-85</strong> and Roosevelt Highway produce significant commercial pigeon and Norway rat work because of dumpster ecology and warehouse-loading-dock activity. The <strong>Bear Creek</strong> corridor sustains continuous wildlife dispersal into residential subdivisions. Snake encounters cluster around wooded-edge properties; copperheads are documented in semi-rural Union City sections. Bat colonies in older Roosevelt Highway corridor housing are routine. Typical Union City wildlife removal runs $300-$1,200 with same-day humane service.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in Union City homes?",
+        "a": "Subdivision properties: roof rats in attics, raccoons in chimneys/attics, gray squirrels via soffit chew-throughs, opossums under decks, skunks under sheds. Industrial-corridor properties: Norway rats around dumpsters and loading docks, pigeons on warehouse and commercial buildings, starlings in commercial vents. Semi-rural sections add copperhead encounters and groundhog burrows."
+      },
+      {
+        "q": "Do you handle commercial pigeon and rat work in Union City warehouses?",
+        "a": "Yes — commercial pigeon abatement and Norway rat work along the I-85 industrial/warehouse corridor and Roosevelt Highway commercial properties is a core service area. Commercial pigeon work typically involves HEPA-equipped droppings remediation followed by exclusion (netting, spikes, electrified deterrents) tailored to the property type. Commercial rat work uses bait-station programs combined with structural exclusion."
+      },
+      {
+        "q": "Are raccoons common in Union City subdivisions?",
+        "a": "Yes — Union City subdivisions see raccoon pressure from the Bear Creek corridor and adjacent wooded edges. Peak intrusion is during kit season (late February through May) with female raccoons entering attics through soffit chew-throughs and chimney-chase cap gaps. Trapping the mother before kits are mobile leaves kits to die in the attic — requires same-day kit-season expertise to avoid dead-animal callbacks."
+      },
+      {
+        "q": "Do you handle wildlife removal in all Union City neighborhoods?",
+        "a": "Yes — full Union City coverage including Old Union City (Roosevelt Highway corridor), Camp Creek extension subdivisions, Shannon Mall area (former mall site, now mixed-use), and the Bear Creek corridor, plus the I-85 industrial/warehouse properties. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division (Region 4)."
+      },
+      {
+        "q": "When are wildlife calls highest in Union City?",
+        "a": "Three peaks per year. <strong>Late February through May</strong> for raccoon kit season. <strong>August through September</strong> for the second squirrel breeding cycle and snake juvenile dispersal. <strong>October through December</strong> for rat intrusion as outdoor food sources disappear and rats move indoors aggressively. Commercial pigeon work peaks in spring as nesting begins."
+      }
+    ]
+  },
+  "Fairburn": {
+    "population_tier": "small",
+    "housing_era": "Fairburn housing splits between historic downtown Fairburn (pre-1940 brick and frame construction) and 1990s-2010s+ subdivision expansion. Significant rural-to-suburban transition with farms, equestrian properties, and recent subdivision growth.",
+    "geographic_features": [
+      "Bear Creek tributary system",
+      "I-85 corridor (commercial development)",
+      "Equestrian and farm properties (eastern Fairburn)",
+      "Wooded-edge subdivisions"
+    ],
+    "neighborhoods": [
+      "Historic Downtown Fairburn",
+      "Bohannon Road corridor",
+      "Ronald Reagan Parkway subdivisions",
+      "Eastern Fairburn equestrian area"
+    ],
+    "wildlife_intro": "Fairburn wildlife removal spans the wide rural-to-suburban range: <strong>historic downtown Fairburn</strong> (pre-1940 housing) follows Atlanta-pattern multi-entry profiles with bat colonies in chimney chases and multi-decade raccoon use of older masonry, while 1990s-2010s+ subdivisions follow standard south-metro patterns (vinyl-soffit chew-throughs, builder-grade chase caps). Multi-structure jobs on equestrian and farm properties are routine — main house plus barns and outbuildings, often with multiple wildlife species simultaneously. Snake encounters (copperheads especially) are higher per-property than typical metro-Atlanta because of the rural-suburban edge. Skunks, groundhogs, and opossums den under decks, sheds, and barn outbuildings. Raccoons concentrate in <strong>Bear Creek</strong> corridor and wooded-edge properties. Coyote presence is documented in undeveloped eastern Fairburn acreage. Pigeon and starling work appears on commercial properties along the I-85 corridor and on horse-property barn structures. Typical Fairburn wildlife removal runs $300-$2,000 because of multi-structure scope.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in Fairburn homes?",
+        "a": "Historic downtown homes: raccoons and bats in chimneys, gray squirrels in attics, multi-entry profiles with multi-decade colony establishment. Newer subdivisions: roof rats overhead, raccoons via soffit chew-throughs, opossums under decks. Equestrian and farm properties: multi-structure work covering main house plus barns, with copperheads, groundhogs, skunks, and barn-pigeon work routine."
+      },
+      {
+        "q": "Do you handle wildlife removal on Fairburn farm and equestrian properties?",
+        "a": "Yes — multi-structure rural and equestrian wildlife work is a Fairburn specialty. Properties typically have main house plus barns, sheds, equipment outbuildings, and pasture-edge structures, with wildlife often denning across multiple buildings simultaneously. Same-day inspection usually available; multi-day coordinated service is common for full multi-structure exclusion."
+      },
+      {
+        "q": "Are copperheads common in Fairburn yards?",
+        "a": "Yes — copperhead encounters are higher per-property in Fairburn than in typical metro-Atlanta subdivisions because of the rural-suburban land-use mix. Wooded acreage, equestrian pasture edges, woodpiles, brush piles, and dense ornamental landscaping all provide ideal copperhead habitat. Peak encounter season is April through October. Pet exposure (especially dogs) is real. Take a photo from a safe distance and call for ID before approaching."
+      },
+      {
+        "q": "Are bats common in historic downtown Fairburn homes?",
+        "a": "Yes — pre-1940 downtown Fairburn housing has masonry chimneys without modern caps that big brown bats use for maternity roosting. Multi-decade colony establishment is documented in some downtown chimneys. Georgia DNR regulations restrict exclusion during the maternity season (May through August); work must be done in April or September through mid-October."
+      },
+      {
+        "q": "Do you handle wildlife removal across all Fairburn properties?",
+        "a": "Yes — full Fairburn coverage including Historic Downtown Fairburn, the Bohannon Road corridor, Ronald Reagan Parkway subdivisions, and the eastern Fairburn equestrian area, plus all rural and farm acreage. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division (Region 4)."
+      }
+    ]
+  },
+  "Hapeville": {
+    "population_tier": "small",
+    "housing_era": "Hapeville housing is primarily 1920s-1950s — pre-WWII brick and frame, plus 1940s-1950s mid-century. Most of the city's residential stock predates 1960 with significant historic character.",
+    "geographic_features": [
+      "Hartsfield-Jackson Atlanta International Airport (immediately west and south)",
+      "Delta Air Lines headquarters and Atlanta hospital district",
+      "Aerospace/aviation industrial corridor",
+      "Constrained land area (city footprint heavily impacted by airport expansion)"
+    ],
+    "neighborhoods": [
+      "Downtown Hapeville",
+      "Airport-adjacent residential",
+      "South Central Avenue corridor",
+      "Hapeville Historic District"
+    ],
+    "wildlife_intro": "Hapeville wildlife removal centers on the city's pre-1960 housing stock and proximity to <strong>Hartsfield-Jackson Atlanta International Airport</strong>. Most residential calls involve Atlanta-pattern multi-entry profiles in 1920s-1950s housing — original wood soffits, masonry chimneys without modern caps, brick foundation gaps. <strong>Norway rats</strong> dominate ground-level intrusions, driven by aging municipal infrastructure and proximity to airport-adjacent commercial ecology. Pigeon abatement work is significant because of the airport, Delta Air Lines headquarters, and the surrounding aerospace/aviation industrial corridor. Bat colonies in chimney chases follow Atlanta historic patterns with multi-decade establishment in some downtown Hapeville chimneys. Raccoons and opossums den in older garages and crawlspaces; gray squirrels use mature canopy across older neighborhoods. Roof rats overlap with Norway rats in wooded older blocks. Typical Hapeville wildlife removal runs $400-$1,500 with same-day humane service.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in Hapeville homes?",
+        "a": "Norway rats in basements and crawlspaces top the call volume because of aging municipal infrastructure and airport-adjacent commercial ecology. Raccoons in attics and chimneys are common in 1920s-1950s housing. Bats in pre-1950 chimneys are documented. Opossums and skunks den under porches and in crawlspaces. Pigeon work concentrates around Delta Air Lines headquarters, the airport, and the aerospace/aviation industrial corridor."
+      },
+      {
+        "q": "Do you handle pigeon abatement on Hapeville commercial properties?",
+        "a": "Yes — commercial pigeon abatement is a Hapeville specialty because of the airport, Delta Air Lines headquarters, and the surrounding aerospace/aviation industrial corridor. Commercial pigeon work typically involves HEPA-equipped droppings remediation followed by exclusion (netting, spikes, electrified deterrents) tailored to the property type. Histoplasmosis exposure during cleanup of significant pigeon-droppings accumulations is a real risk that drives professional remediation."
+      },
+      {
+        "q": "Are bats common in Hapeville pre-1950 historic homes?",
+        "a": "Yes — pre-1950 Hapeville housing has masonry chimneys without modern caps that big brown bats use for maternity roosting. Multi-decade colony establishment is documented in some downtown Hapeville chimneys. Georgia DNR regulations restrict exclusion during the maternity season (May through August); work must be done in April or September through mid-October. Inspection and planning can happen any time of year."
+      },
+      {
+        "q": "Are Norway rats a problem in Hapeville?",
+        "a": "Yes — Hapeville has elevated Norway rat pressure because of aging municipal sewer/stormwater infrastructure, pre-1940 housing with hand-laid brick foundations and original masonry vents, and proximity to airport-adjacent commercial dumpster ecology. Treatment requires structural exclusion (foundation gap sealing, hardware-cloth vent backing) plus baited trap programs."
+      },
+      {
+        "q": "Do you handle wildlife removal across all Hapeville neighborhoods?",
+        "a": "Yes — full Hapeville coverage including downtown Hapeville, airport-adjacent residential, the South Central Avenue corridor, and the Hapeville Historic District. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division (Region 4)."
+      }
+    ]
+  },
+  "Palmetto": {
+    "population_tier": "small",
+    "housing_era": "Palmetto housing splits between historic downtown Palmetto (pre-1940 brick and frame) and 2000s-2010s subdivision expansion. Heavily rural character with farm and acreage properties dominant outside the small downtown.",
+    "geographic_features": [
+      "Cedar Creek tributary system",
+      "Chattahoochee River (eastern edge)",
+      "Rural and semi-rural farm properties",
+      "Atlanta Motor Speedway nearby (adjacent county)"
+    ],
+    "neighborhoods": [
+      "Historic Downtown Palmetto",
+      "Highway 29 corridor",
+      "Rural/farm acreage areas",
+      "Cedar Creek corridor"
+    ],
+    "wildlife_intro": "Palmetto wildlife removal reflects the city's predominantly rural character: most residential calls involve farm and acreage properties with multi-structure scope (main house + barns + outbuildings). <strong>Snake encounters</strong> — including copperheads and occasional cottonmouths near Chattahoochee tributaries — are higher per-property than anywhere else in metro Fulton. Skunks, raccoons, opossums, and groundhogs den under outbuildings and decks. Bat work appears in historic downtown Palmetto chimneys and barn structures on rural properties. <strong>Coyote presence</strong> is documented in undeveloped southern Palmetto areas, with associated dead-livestock and dead-pet calls. Roof rats are less dominant here than in canopy-dense north Fulton — Norway rats appear around outbuildings, grain storage, and farm equipment buildings. Pigeon and starling work appears on commercial properties along Highway 29 and on horse-property barn structures. Typical Palmetto wildlife removal runs $300-$2,000 because of multi-structure rural scope.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in Palmetto homes and properties?",
+        "a": "Rural and farm properties: copperhead encounters, occasional cottonmouth near Chattahoochee tributaries, skunks under outbuildings, raccoons and opossums in barns and under decks, groundhogs under sheds and porches, Norway rats in feed/grain storage, barn-pigeon and barn-starling work. Historic downtown homes: bats in chimneys, raccoons in older masonry, gray squirrels in attics. Coyote-related calls (dead pets, dead livestock) in undeveloped acreage."
+      },
+      {
+        "q": "Do you handle wildlife removal on Palmetto farms and acreage?",
+        "a": "Yes — multi-structure rural and farm wildlife work is a Palmetto specialty. Properties typically have main house plus barns, sheds, equipment outbuildings, grain storage, and pasture-edge structures, with wildlife often denning across multiple buildings simultaneously. Same-day inspection usually available; multi-day coordinated service is common for full multi-structure exclusion."
+      },
+      {
+        "q": "Are copperheads or cottonmouths common in Palmetto yards?",
+        "a": "Yes — copperhead encounters are very common per-property in rural Palmetto because of the abundant woodland edge, brush piles, and outbuilding cover. Cottonmouths appear near Chattahoochee tributaries, ponds, and wet/marshy areas. Peak encounter season is April through October. Pet exposure is real, especially for dogs. Take a photo from a safe distance and call for ID before approaching any unfamiliar snake."
+      },
+      {
+        "q": "Are bats common in historic downtown Palmetto?",
+        "a": "Yes — pre-1940 downtown Palmetto housing has masonry chimneys without modern caps that big brown bats use for maternity roosting. Multi-decade colony establishment is documented. Georgia DNR regulations restrict exclusion during the maternity season (May through August); work must be done in April or September through mid-October."
+      },
+      {
+        "q": "Do you handle wildlife removal across all Palmetto properties?",
+        "a": "Yes — full Palmetto coverage including Historic Downtown Palmetto, the Highway 29 corridor, Cedar Creek corridor, and all rural and farm acreage. Multi-structure rural work is a specialty. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division (Region 4)."
+      }
+    ]
+  },
+  "Chattahoochee Hills": {
+    "population_tier": "small",
+    "housing_era": "Chattahoochee Hills (incorporated 2007) is a planned conservation community with low-density rural development. Housing is primarily 2000s+ construction on multi-acre lots, with significant equestrian, farm, and conservation easement properties. The Serenbe planned community is the city's most-recognized neighborhood.",
+    "geographic_features": [
+      "Chattahoochee River (eastern boundary)",
+      "Cochran Creek and Cedar Creek tributaries",
+      "Cochran Mill Park (immediately adjacent)",
+      "Conservation-easement land use across most of the city"
+    ],
+    "neighborhoods": [
+      "Serenbe (planned conservation community)",
+      "Rico Road / Atlanta Newnan Road corridor",
+      "Cedar Creek corridor",
+      "Conservation acreage and equestrian properties"
+    ],
+    "wildlife_intro": "Chattahoochee Hills wildlife removal is the most rural/conservation-character work in Fulton County. Properties are multi-acre with extensive equestrian and farm components, and residences sit immediately adjacent to undeveloped <strong>Chattahoochee River</strong> corridor and <strong>Cochran Mill Park</strong> conservation areas. Multi-structure jobs (main house + barns + pool houses + equestrian outbuildings) are standard. <strong>Snake encounters</strong> — copperheads, cottonmouths near river tributaries, occasional timber rattlesnake in undeveloped acreage — are higher per-property than anywhere else in Fulton. Skunks, raccoons, opossums, groundhogs, and coyotes are all documented year-round. Bat work covers main-house chimneys plus barn-loft colonies, with tricolored bat (federally proposed for ESA listing) encounters along the Chattahoochee corridor requiring federal-status protocol. Roof rats are less dominant here than in canopy-dense north Fulton — Norway rats appear around outbuildings and grain storage. Coyote presence is well-documented in undeveloped acreage with associated dead-livestock and dead-pet calls. Typical Chattahoochee Hills wildlife removal runs $400-$2,500 because of multi-structure rural scope and conservation-area complexity.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in Chattahoochee Hills properties?",
+        "a": "Multi-structure rural calls dominate: main house + barn + pool house + equestrian outbuildings often host wildlife simultaneously. Common species: raccoons (multiple structures), opossums, skunks under decks/sheds, groundhogs under porches and barn slabs, big brown bats in chimneys and barn lofts, copperheads in wooded areas, cottonmouths near Chattahoochee tributaries, occasional timber rattlesnake in undeveloped acreage, coyote-related dead-livestock and dead-pet recovery."
+      },
+      {
+        "q": "Do you handle wildlife removal on Chattahoochee Hills equestrian and farm properties?",
+        "a": "Yes — multi-structure rural and equestrian wildlife work is a Chattahoochee Hills core service. Properties typically span 5-50+ acres with main house plus barns, sheds, equipment outbuildings, run-in shelters, and conservation-area edges, with wildlife often denning across multiple buildings simultaneously. Same-day inspection usually available; multi-day coordinated service is the norm for full exclusion."
+      },
+      {
+        "q": "Are venomous snakes (copperheads, cottonmouths, timber rattlesnakes) common in Chattahoochee Hills?",
+        "a": "Yes — Chattahoochee Hills has the highest per-property venomous snake encounter rate in Fulton County because of conservation-area land use, wooded acreage, and the Chattahoochee River corridor. Copperheads are widespread across all property types. Cottonmouths appear near river tributaries, ponds, and wet/marshy areas. Timber rattlesnakes are documented in undeveloped acreage but rare. Pet exposure is real. Take a photo from a safe distance and call for ID before approaching any unfamiliar snake. ER evaluation is mandatory for any confirmed or suspected venomous bite."
+      },
+      {
+        "q": "Are coyotes a documented problem in Chattahoochee Hills?",
+        "a": "Yes — coyote presence is well-documented in undeveloped Chattahoochee Hills acreage with associated dead-livestock and dead-pet recovery calls. Free-roaming pets (cats especially, small dogs in some cases) are at real risk in conservation-area-adjacent properties. Coyote behavioral changes (daytime activity, lack of fear of humans, approaching pets/livestock) warrant immediate contractor consultation. Tricolored bat presence along the Chattahoochee corridor also requires federal-status protocol."
+      },
+      {
+        "q": "Do you handle wildlife removal in Serenbe and surrounding conservation areas?",
+        "a": "Yes — Serenbe and the surrounding Chattahoochee Hills conservation acreage are core service areas. Conservation-area-adjacent properties require additional protocols around protected species (tricolored bats, native birds under MBTA, occasional federally-listed encounters), wider-perimeter exclusion (because surrounding source populations are dense), and coordinated multi-structure work. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division (Region 4) and follows all federal protected-species protocols."
+      }
+    ]
+  }
+}

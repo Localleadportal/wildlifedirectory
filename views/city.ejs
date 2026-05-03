@@ -123,7 +123,7 @@
       <div class="container">
         <h2>Wildlife Problems in <%= cityName %>, <%= stateName %></h2>
         <% if (cityContent && cityContent.wildlife_intro) { %>
-        <p><%= cityContent.wildlife_intro %></p>
+        <p><%- cityContent.wildlife_intro %></p>
         <% if (stateInfo) { %>
         <p>The contractor serving <%= cityName %> is licensed by the <strong><%= stateInfo.agency %></strong> and knows the specific wildlife patterns, local regulations, and most effective removal methods for your area.</p>
         <% } %>
@@ -152,7 +152,7 @@
         <% cityContent.faqs.forEach(function(faq) { %>
         <details class="faq-item">
           <summary><%= faq.q %></summary>
-          <p><%= faq.a %></p>
+          <p><%- faq.a %></p>
         </details>
         <% }); %>
       </div>
