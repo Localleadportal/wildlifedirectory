@@ -573,7 +573,7 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'How much does wildlife removal cost in Fulton County?',
-        a: 'Pricing varies by species, the extent of intrusion, and exclusion scope. Atlanta intown pre-1940 historic-district raccoon jobs run $700-$1,800 because of multi-entry-point profiles. Long-established Atlanta bat colonies run $2,500-$6,000+ once full guano remediation is included. North-Fulton suburban roof-rat jobs typically run $400-$1,000. Multi-structure Milton estate jobs run higher because each outbuilding represents a separate exclusion target. The variable is exclusion scope and remediation, not trapping itself. A Fulton-licensed contractor will quote the property-specific cost during inspection.'
+        a: 'Pricing varies by species, the extent of intrusion, and exclusion scope. Atlanta intown pre-1940 historic-district raccoon jobs run $700-$1,800+ because of multi-entry-point profiles. Long-established Atlanta bat colonies run $2,500-$6,000+ once full guano remediation is included. North-Fulton suburban roof-rat jobs typically run $400-$1,000+. Multi-structure Milton estate jobs run higher because each outbuilding represents a separate exclusion target. The variable is exclusion scope and remediation, not trapping itself. A Fulton-licensed contractor will quote the property-specific cost during inspection.'
       },
       {
         q: 'Are there protected species in Fulton County I should be aware of?',
@@ -669,7 +669,7 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'How much does wildlife removal cost in Cherokee County?',
-        a: 'Pricing varies by species and exclusion scope. Pre-1900 Canton historic-district raccoon jobs run $700-$1,800 because of multi-entry-point profiles. Long-established Canton bat colonies run $2,500-$5,000+ once full guano remediation is included. Suburban Woodstock and Holly Springs roof-rat jobs typically run $400-$1,000. Single-animal squirrel trap-and-release at one-entry-point homes is the floor. The variable is exclusion scope and remediation, not trapping itself. A Cherokee-licensed contractor will quote the property-specific cost during inspection.'
+        a: 'Pricing varies by species and exclusion scope. Pre-1900 Canton historic-district raccoon jobs run $700-$1,800+ because of multi-entry-point profiles. Long-established Canton bat colonies run $2,500-$5,000+ once full guano remediation is included. Suburban Woodstock and Holly Springs roof-rat jobs typically run $400-$1,000+. Single-animal squirrel trap-and-release at one-entry-point homes is the floor. The variable is exclusion scope and remediation, not trapping itself. A Cherokee-licensed contractor will quote the property-specific cost during inspection.'
       },
       {
         q: 'Are there protected species in Cherokee County I should be aware of?',
@@ -765,7 +765,7 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'How much does wildlife removal cost in Bartow County?',
-        a: 'Pricing varies by species and exclusion scope. Pre-1940 Cartersville mill-housing raccoon jobs run $700-$1,800 because of multi-entry-point profiles. Long-established Cartersville and Adairsville bat colonies run $2,500-$5,000+ once full guano remediation is included. Euharlee lakefront multi-structure jobs (main house plus boathouse plus detached garage) frequently run $3,000-$6,000+. Newer southern Bartow subdivision roof-rat jobs typically run $400-$900. The variable is exclusion scope and remediation.'
+        a: 'Pricing varies by species and exclusion scope. Pre-1940 Cartersville mill-housing raccoon jobs run $700-$1,800+ because of multi-entry-point profiles. Long-established Cartersville and Adairsville bat colonies run $2,500-$5,000+ once full guano remediation is included. Euharlee lakefront multi-structure jobs (main house plus boathouse plus detached garage) frequently run $3,000-$6,000+. Newer southern Bartow subdivision roof-rat jobs typically run $400-$900+. The variable is exclusion scope and remediation.'
       },
       {
         q: 'Are there protected species in Bartow County I should be aware of?',
@@ -849,7 +849,7 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'How much does wildlife removal cost in Coweta County?',
-        a: 'Pre-1860 Newnan "City of Homes" historic-district raccoon jobs run $700-$1,800 because of multi-entry-point profiles. Long-established Newnan and Senoia bat colonies run $2,500-$5,000+ once full guano remediation is included. Suburban roof-rat jobs in southern Coweta subdivisions typically run $400-$900. Single-animal squirrel trap-and-release at one-entry-point homes is the floor.'
+        a: 'Pre-1860 Newnan "City of Homes" historic-district raccoon jobs run $700-$1,800+ because of multi-entry-point profiles. Long-established Newnan and Senoia bat colonies run $2,500-$5,000+ once full guano remediation is included. Suburban roof-rat jobs in southern Coweta subdivisions typically run $400-$900+. Single-animal squirrel trap-and-release at one-entry-point homes is the floor.'
       },
       {
         q: 'Is wildlife removal regulated in Coweta County?',
@@ -940,7 +940,7 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'How much does wildlife removal cost in Fayette County?',
-        a: 'Pricing varies by species and exclusion scope. Pre-1900 Fayetteville historic-downtown raccoon jobs run $700-$1,800 because of multi-entry-point profiles. Long-established Fayetteville bat colonies run $2,500-$5,000+ once full guano remediation is included. Peachtree City lakefront properties with multi-structure colonies (main house plus boathouse) frequently run $3,000-$6,000+. Suburban Peachtree City roof-rat jobs typically run $400-$1,000.'
+        a: 'Pricing varies by species and exclusion scope. Pre-1900 Fayetteville historic-downtown raccoon jobs run $700-$1,800+ because of multi-entry-point profiles. Long-established Fayetteville bat colonies run $2,500-$5,000+ once full guano remediation is included. Peachtree City lakefront properties with multi-structure colonies (main house plus boathouse) frequently run $3,000-$6,000+. Suburban Peachtree City roof-rat jobs typically run $400-$1,000+.'
       },
       {
         q: 'Is wildlife removal regulated in Fayette County?',
@@ -1039,7 +1039,7 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'How much does wildlife removal cost in Gwinnett County?',
-        a: 'Pricing varies by species and exclusion scope. Pre-1900 Lawrenceville historic-square and Norcross historic-downtown raccoon jobs run $700-$1,800 because of multi-entry-point profiles. Long-established Lawrenceville and Norcross bat colonies run $2,500-$5,000+ once full guano remediation is included. Buford Highway-adjacent Norway rat work with expanded-perimeter exclusion runs $1,500-$3,000+. Suburban roof-rat jobs in Sugar Hill, Suwanee, Peachtree Corners, and Dacula typically run $400-$1,000. Single-animal squirrel trap-and-release at one-entry-point homes is the floor.'
+        a: 'Pricing varies by species and exclusion scope. Pre-1900 Lawrenceville historic-square and Norcross historic-downtown raccoon jobs run $700-$1,800+ because of multi-entry-point profiles. Long-established Lawrenceville and Norcross bat colonies run $2,500-$5,000+ once full guano remediation is included. Buford Highway-adjacent Norway rat work with expanded-perimeter exclusion runs $1,500-$3,000+. Suburban roof-rat jobs in Sugar Hill, Suwanee, Peachtree Corners, and Dacula typically run $400-$1,000+. Single-animal squirrel trap-and-release at one-entry-point homes is the floor.'
       },
       {
         q: 'Are there protected species in Gwinnett County I should be aware of?',
@@ -1138,7 +1138,7 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'How much does wildlife removal cost in DeKalb County?',
-        a: 'Pricing varies significantly with species and exclusion scope. Pre-WWII Decatur and Druid Hills raccoon work runs $400-$1,200 because of the multi-entry-point profiles typical in century-old housing. Long-established big brown bat colonies in historic intown chimneys run $1,200-$3,000+ once full guano remediation is included. Mixed-species roof-rat-plus-Norway-rat work in older intown housing runs $800-$2,500. Flying squirrel colony remediation typically runs $700-$1,800 because of the larger contaminated insulation footprint. Squirrel and routine raccoon work in newer Stonecrest, Lithonia, and Dunwoody construction runs at the lower end. Estimates are property-specific and free.'
+        a: 'Pricing varies significantly with species and exclusion scope. Pre-WWII Decatur and Druid Hills raccoon work runs $400-$1,200+ because of the multi-entry-point profiles typical in century-old housing. Long-established big brown bat colonies in historic intown chimneys run $1,200-$3,000+ once full guano remediation is included. Mixed-species roof-rat-plus-Norway-rat work in older intown housing runs $800-$2,500+. Flying squirrel colony remediation typically runs $700-$1,800+ because of the larger contaminated insulation footprint. Squirrel and routine raccoon work in newer Stonecrest, Lithonia, and Dunwoody construction runs at the lower end. Estimates are property-specific and free.'
       },
       {
         q: 'When is the best time to handle wildlife exclusion in DeKalb?',
@@ -1238,7 +1238,7 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'How much does wildlife removal cost in Chatham County?',
-        a: 'Pricing varies significantly with species and the scope of exclusion work. Historic District raccoon and squirrel work runs $500-$1,500 because of the multi-entry-point profiles typical in 1700s-1800s housing. Long-established big brown and Brazilian free-tailed bat colonies in historic structures run $1,500-$4,000+ once full guano remediation is included; multi-decade colonies in church steeples or historic cupolas can run higher. Roof rat work in the Historic District tourism corridor runs $800-$2,500. Alligator removal is priced separately and may be referred to Georgia DNR. Snake calls are typically a flat per-visit charge. Estimates are property-specific and free.'
+        a: 'Pricing varies significantly with species and the scope of exclusion work. Historic District raccoon and squirrel work runs $500-$1,500+ because of the multi-entry-point profiles typical in 1700s-1800s housing. Long-established big brown and Brazilian free-tailed bat colonies in historic structures run $1,500-$4,000+ once full guano remediation is included; multi-decade colonies in church steeples or historic cupolas can run higher. Roof rat work in the Historic District tourism corridor runs $800-$2,500+. Alligator removal is priced separately and may be referred to Georgia DNR. Snake calls are typically a flat per-visit charge. Estimates are property-specific and free.'
       },
       {
         q: 'When is the best time to handle wildlife exclusion in Chatham?',

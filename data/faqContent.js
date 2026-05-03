@@ -11,7 +11,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
     'raccoon-removal': [
       {
         q: `How much does raccoon removal cost in ${location}, ${stateName}?`,
-        a: `Raccoon removal in ${stateName} typically costs $200–$600 for trapping and relocation. If raccoons have been living in your attic, full remediation including cleanup, decontamination, and entry point sealing generally runs $800–$2,500 depending on colony size and insulation damage. Call for a free estimate specific to your ${location} property.`
+        a: `Raccoon removal in ${stateName} typically costs $200–$600+ for trapping and relocation. If raccoons have been living in your attic, full remediation including cleanup, decontamination, and entry point sealing generally runs $800–$2,500+ depending on colony size and insulation damage. Call for a free estimate specific to your ${location} property.`
       },
       {
         q: `Does homeowners insurance cover raccoon damage in ${stateName}?`,
@@ -34,7 +34,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
     'squirrel-removal': [
       {
         q: `How much does squirrel removal cost in ${location}, ${stateName}?`,
-        a: `Squirrel removal in ${stateName} typically costs $200–$500 for trapping. Full exclusion — sealing every entry point with chew-proof materials — adds $300–$900 depending on your ${location} home's size and the number of access points. Attic insulation replacement due to squirrel damage can add $1,000–$3,000.`
+        a: `Squirrel removal in ${stateName} typically costs $200–$500+ for trapping. Full exclusion — sealing every entry point with chew-proof materials — adds $300–$900+ depending on your ${location} home's size and the number of access points. Attic insulation replacement due to squirrel damage can add $1,000–$3,000+.`
       },
       {
         q: `Why are squirrels in my attic dangerous in ${location}?`,
@@ -57,7 +57,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
     'bat-removal': [
       {
         q: `How much does bat removal cost in ${location}, ${stateName}?`,
-        a: `Bat exclusion in ${stateName} typically costs $400–$1,500 for the exclusion work itself. Guano cleanup and attic decontamination — required to eliminate the health risk from Histoplasma-contaminated material — adds $1,500–$8,000 or more depending on colony size. ${location} properties with large, long-established colonies are at the higher end of this range.`
+        a: `Bat exclusion in ${stateName} typically costs $400–$1,500+ for the exclusion work itself. Guano cleanup and attic decontamination — required to eliminate the health risk from Histoplasma-contaminated material — adds $1,500–$8,000+ or more depending on colony size. ${location} properties with large, long-established colonies are at the higher end of this range.`
       },
       {
         q: `Are there legal restrictions on bat removal in ${stateName}?`,
@@ -80,7 +80,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
     'snake-removal': [
       {
         q: `How much does snake removal cost in ${location}, ${stateName}?`,
-        a: `A single snake removal visit in ${stateName} typically costs $100–$300. Full property inspection and exclusion to prevent snakes from re-entering structures runs $300–$900. Ongoing seasonal snake control programs are available for ${location} properties with persistent pressure from surrounding habitat.`
+        a: `A single snake removal visit in ${stateName} typically costs $100–$300+. Full property inspection and exclusion to prevent snakes from re-entering structures runs $300–$900+. Ongoing seasonal snake control programs are available for ${location} properties with persistent pressure from surrounding habitat.`
       },
       {
         q: `What venomous snakes should I watch for in ${location}, ${stateName}?`,
@@ -103,7 +103,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
     'groundhog-removal': [
       {
         q: `How much does groundhog removal cost in ${location}, ${stateName}?`,
-        a: `Groundhog trapping and removal in ${stateName} typically costs $150–$400. If burrows have undermined a deck, shed, or foundation in ${location}, exclusion to prevent re-burrowing adds $200–$600. Extensive foundation repair from burrow damage should be assessed by a contractor after removal is complete.`
+        a: `Groundhog trapping and removal in ${stateName} typically costs $150–$400+. If burrows have undermined a deck, shed, or foundation in ${location}, exclusion to prevent re-burrowing adds $200–$600+. Extensive foundation repair from burrow damage should be assessed by a contractor after removal is complete.`
       },
       {
         q: `How do I know if a groundhog is under my deck in ${location}?`,
@@ -126,7 +126,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
     'bird-removal': [
       {
         q: `How much does bird removal cost in ${location}, ${stateName}?`,
-        a: `Bird removal and exclusion in ${stateName} ranges from $200–$600 for basic nest removal and vent guarding to $1,500 or more for chimney swift management or large rooftop flock dispersal. The cost depends on the species and the extent of the infestation at your ${location} property.`
+        a: `Bird removal and exclusion in ${stateName} ranges from $200–$600+ for basic nest removal and vent guarding to $1,500+ or more for chimney swift management or large rooftop flock dispersal. The cost depends on the species and the extent of the infestation at your ${location} property.`
       },
       {
         q: `Are birds nesting in my ${location} home protected by law?`,
@@ -149,7 +149,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
     'skunk-removal': [
       {
         q: `How much does skunk removal cost in ${location}, ${stateName}?`,
-        a: `Skunk trapping and removal in ${stateName} typically costs $200–$500. Deodorization of a sprayed area under a deck or inside a crawlspace adds $150–$400. Exclusion to prevent skunks from returning to the same den site under your ${location} structure adds $200–$500.`
+        a: `Skunk trapping and removal in ${stateName} typically costs $200–$500+. Deodorization of a sprayed area under a deck or inside a crawlspace adds $150–$400+. Exclusion to prevent skunks from returning to the same den site under your ${location} structure adds $200–$500+.`
       },
       {
         q: `Are skunks in ${stateName} dangerous?`,
@@ -172,7 +172,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
     'opossum-removal': [
       {
         q: `How much does opossum removal cost in ${location}, ${stateName}?`,
-        a: `Opossum trapping and removal in ${stateName} typically costs $150–$400. Sealing the entry point where opossums access your ${location} crawlspace or deck adds $150–$400. Long-term contamination cleanup in areas where opossums have been living adds additional cost depending on how long the animal was present.`
+        a: `Opossum trapping and removal in ${stateName} typically costs $150–$400+. Sealing the entry point where opossums access your ${location} crawlspace or deck adds $150–$400+. Long-term contamination cleanup in areas where opossums have been living adds additional cost depending on how long the animal was present.`
       },
       {
         q: `Are opossums in ${stateName} dangerous?`,
@@ -195,7 +195,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
     'mole-removal': [
       {
         q: `How much does mole removal cost in ${location}, ${stateName}?`,
-        a: `Professional mole trapping in ${stateName} typically costs $200–$600 for an initial treatment. Ongoing seasonal mole control programs — recommended for ${location} properties with persistent pressure — run $100–$300 per month. The cost is usually justified by what repeated mole damage to turf, sod, and landscaping would cost to repair.`
+        a: `Professional mole trapping in ${stateName} typically costs $200–$600+ for an initial treatment. Ongoing seasonal mole control programs — recommended for ${location} properties with persistent pressure — run $100–$300+ per month. The cost is usually justified by what repeated mole damage to turf, sod, and landscaping would cost to repair.`
       },
       {
         q: `Why do I have so many moles in my ${location} yard?`,
@@ -218,7 +218,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
     'dead-animal-removal': [
       {
         q: `How much does dead animal removal cost in ${location}, ${stateName}?`,
-        a: `Dead animal removal in ${stateName} typically costs $150–$500 depending on the species, location, and accessibility. Animals in accessible outdoor areas are at the lower end. Animals inside ${location} walls, crawlspaces with limited access, or deep in attic insulation are at the higher end due to the time required to locate and extract them.`
+        a: `Dead animal removal in ${stateName} typically costs $150–$500+ depending on the species, location, and accessibility. Animals in accessible outdoor areas are at the lower end. Animals inside ${location} walls, crawlspaces with limited access, or deep in attic insulation are at the higher end due to the time required to locate and extract them.`
       },
       {
         q: `How do I find a dead animal in my walls in ${location}?`,
