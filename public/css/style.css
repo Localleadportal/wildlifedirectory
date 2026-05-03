@@ -499,8 +499,8 @@ header {
 .map-section { padding: 40px 0 24px; }
 .map-hint { text-align: center; color: var(--muted); font-size: 0.88rem; margin-top: 10px; }
 #us-map { width: 100%; cursor: pointer; }
-.state { fill: var(--green-light); stroke: #fff; stroke-width: 0.5; transition: fill 0.15s; }
-.state:hover { fill: var(--green-mid); }
+.state { fill: var(--green); stroke: #fff; stroke-width: 1; transition: fill 0.15s; }
+.state:hover { fill: #60a5fa; }
 .state-border { fill: none; stroke: #fff; stroke-width: 1; pointer-events: none; }
 .map-tooltip {
   display: none;
