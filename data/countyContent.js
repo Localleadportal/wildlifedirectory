@@ -6,6 +6,7 @@ const newHampshireData  = require('./states/new-hampshire/counties.json');
 const vermontData       = require('./states/vermont/counties.json');
 const rhodeIslandData   = require('./states/rhode-island/counties.json');
 const georgiaData       = require('./states/georgia/counties.json');
+const tennesseeData     = require('./states/tennessee/counties.json');
 
 // Registry: state name → county data file
 const stateRegistry = {
@@ -15,6 +16,7 @@ const stateRegistry = {
   'Vermont':       vermontData,
   'Rhode Island':  rhodeIslandData,
   'Georgia':       georgiaData,
+  'Tennessee':     tennesseeData,
 };
 
 // ---- helpers ----
@@ -1355,6 +1357,128 @@ function georgiaContent(countyName, county, s) {
   return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, extendedBody, faqs, neighboringCounties, geo, sameAs };
 }
 
+// ---- Tennessee county content ----
+function tennesseeContent(countyName, county, s) {
+  const top4cities = county.largest_cities.slice(0, 4).join(', ');
+
+  let blockA, blockB, blockC, metaTitle, metaDescription;
+  let extendedBody = null;
+  let faqs = null;
+  let neighboringCounties = null;
+  let geo = null;
+  let sameAs = null;
+
+  if (countyName === 'Williamson County') {
+    blockA = `Williamson County sits in the heart of Middle Tennessee's Nashville Basin, immediately south of Davidson County and the city of Nashville, with downtown Nashville about 20 miles north of the county seat in Franklin. With a population of ${county.population.toLocaleString()} — and consistently ranking among the wealthiest counties in the United States by median household income — Williamson runs from the affluent post-1990s subdivisions of Brentwood at the Davidson County line, through the historic Civil War-era core of downtown Franklin, the rapidly growing Cool Springs and Berry Farms commercial-residential corridors, and out into the rural Leiper's Fork, College Grove, Arrington, and Bethesda horse-country valleys, with Spring Hill, Thompson's Station, Nolensville, and Fairview filling the suburban edges. Established in ${county.established} and named for Founding Father Hugh Williamson, the county combines the Battle of Franklin's preserved 1864 battlefield landscape, antebellum farms in the western rural townships, and three decades of explosive suburban growth into one of the most distinctive residential wildlife removal markets in the Southeast.`;
+    blockB = `${cap(county.regional_wildlife)}. Virginia opossums shelter under decks, porches, and crawl spaces across the older Brentwood and Franklin housing stock, and dead-animal calls run year-round given Williamson's near-continuous wildlife activity. Striped skunks are persistent under sheds and outbuildings throughout the rural and suburban-edge properties, and red and gray foxes routinely den under porches and storage buildings on the larger Leiper's Fork and Arrington properties. Snake calls beyond copperheads — primarily Eastern rat snakes (frequently mistaken for venomous), garter snakes, and brown watersnakes along the Harpeth corridor — concentrate in spring and fall around the wooded properties throughout the county. ${cap(county.absent_or_rare)}.`;
+    blockC = `Coverage spans all of Williamson County including ${top4cities}, plus Thompson's Station, Fairview, Arrington, College Grove, Leiper's Fork, and the unincorporated Bethesda, Triune, Grassland, and Cool Springs communities. The county's mix of high-end Brentwood subdivisions, the historic Franklin downtown core, the rapidly growing Cool Springs and Berry Farms commercial-residential districts, and the rural horse-country valleys of Leiper's Fork and College Grove — combined with the year-round wildlife activity that defines middle Tennessee's mild-winter climate — means contractors here handle a continuous mix of attic exclusion, copperhead and bat colony work, beaver flooding along the Harpeth, and aggressive coyote-management calls in the suburban greenways.`;
+    metaTitle = `Williamson County Wildlife Removal — Franklin, Brentwood, Spring Hill TN`;
+    metaDescription = `Licensed wildlife removal in Williamson County, TN — Franklin, Brentwood, Spring Hill, Nolensville & Fairview. Bats, coyotes, copperheads, raccoons. Same-day service.`;
+
+    geo = { lat: 35.92, lon: -86.87 };
+    sameAs = [
+      'https://en.wikipedia.org/wiki/Williamson_County,_Tennessee',
+    ];
+
+    neighboringCounties = [
+      { name: 'Davidson County',  slug: 'davidson-county',  anchor: 'Wildlife removal in Davidson County',  blurb: 'directly to the north — the city of Nashville and Metro Nashville suburbs' },
+      { name: 'Rutherford County', slug: 'rutherford-county', anchor: 'Rutherford County wildlife services',  blurb: 'to the east, anchored by Murfreesboro' },
+      { name: 'Maury County',     slug: 'maury-county',     anchor: 'Maury County animal removal',           blurb: 'to the south, sharing the rapidly growing Spring Hill corridor' },
+      { name: 'Hickman County',   slug: 'hickman-county',   anchor: 'Hickman County wildlife removal',       blurb: 'to the west, the rural Western Highland Rim' },
+      { name: 'Cheatham County',  slug: 'cheatham-county',  anchor: 'Cheatham County wildlife services',     blurb: 'to the northwest, along the lower Harpeth River' },
+    ];
+
+    extendedBody = `
+      <h2>Williamson County's Geography Shapes Its Wildlife Activity</h2>
+      <p>Williamson County sits squarely in the <strong>Nashville Basin</strong> — the limestone-floored interior lowland of Middle Tennessee — with the <strong>Western Highland Rim</strong> rising along the western edge of the county toward Hickman and the <strong>Harpeth River</strong> cutting from southeast to northwest directly through Franklin and Brentwood. The Harpeth is a designated Tennessee state scenic river, and its corridor — together with the smaller <strong>West Harpeth</strong> and <strong>Little Harpeth</strong> tributaries — is the dominant ecological feature of the county's residential landscape. Cedar-glade limestone outcrops along the Harpeth bluffs and the rugged hillsides of Leiper's Fork support the kind of rocky, brushy habitat that copperheads and timber rattlesnakes use, and the mature oak-hickory forest covering Brentwood's hill country and the rural western valleys produces the dense canopy that drives Williamson's heavy raccoon, squirrel, and bat call volume.</p>
+      <p>Within or directly bordering the county sit several major public conservation lands and corridors: <strong>Timberland Park</strong> on the Natchez Trace Parkway, the <strong>Natchez Trace Parkway</strong> federal scenic byway across the southwest portion of the county, the <strong>Harpeth River State Park</strong> units strung along the river corridor (including Hidden Lake, Narrows of the Harpeth, and Newsom's Mill in adjacent Cheatham), and the city of Franklin's <strong>Pinkerton Park</strong> and <strong>Bicentennial Park</strong> green corridors along the Harpeth. The Civil War battlefield landscape of <strong>Carnton</strong>, the <strong>Carter House</strong>, and the preserved Franklin battlefield acreage adds another layer of wooded, low-density habitat directly inside the city limits — habitat that pushes wildlife squarely into the surrounding residential blocks.</p>
+
+      <h3>Waterways That Move Wildlife Through the County</h3>
+      <p>The Harpeth corridor is the dominant wildlife travel route, but Williamson is also drained by <strong>Spencer Creek</strong>, <strong>Murfree Branch</strong>, <strong>Mill Creek</strong> (headwaters), <strong>Wilson Creek</strong>, <strong>Brown's Creek</strong>, and <strong>Flat Creek</strong> — every one of which functions as a wildlife travel corridor connecting the rural western valleys to the dense suburban interior. <strong>Beavers</strong> move through these tributaries and routinely flood storm-detention ponds, walking-path culverts, and low-lying yards in the Brentwood subdivisions along the Little Harpeth and in the Cool Springs basin. River otters use the Harpeth corridor and the lower Harpeth tributaries. The Harpeth's clear-water riffle stretches and the cedar-glade pools along the river support a regionally significant freshwater mussel and darter fauna, and several of those species are federally listed — meaning any in-stream or bank work near the river corridor is subject to additional federal habitat protections.</p>
+
+      <h2>Wildlife Species Present in Williamson County</h2>
+      <p>Williamson residents most frequently call about animals that have moved from these natural corridors into the residential edge:</p>
+      <ul class="tips-list">
+        <li><strong>Raccoons</strong> — the dominant attic and chimney intruder across Brentwood, Franklin, and the suburban subdivisions</li>
+        <li><strong>Eastern gray squirrels</strong> — constant pressure across the mature oak-hickory canopy in Brentwood, the older Franklin neighborhoods, and the Cool Springs subdivisions</li>
+        <li><strong>Big brown bats, Mexican (Brazilian) free-tailed bats, and evening bats</strong> — maternity colonies in older brick housing in downtown Franklin and the original 1950s-1970s Brentwood subdivisions, plus Mexican free-tailed colonies in larger Cool Springs commercial structures</li>
+        <li><strong>Eastern coyotes</strong> — now firmly established in every subdivision from Brentwood through Franklin and Cool Springs, using the greenways, golf courses, and creek corridors as travel routes and den sites</li>
+        <li><strong>Copperheads</strong> — the dominant venomous snake call, concentrated in Leiper's Fork, the wooded Brentwood hillsides off Old Hickory Boulevard and Concord Road, and the Harpeth River bluff properties</li>
+        <li><strong>Beavers and river otters</strong> in the Harpeth and Little Harpeth tributaries</li>
+        <li><strong>Woodchucks (groundhogs)</strong> — burrow damage to lawns, foundation plantings, and equestrian outbuildings across the rural-edge properties of Leiper's Fork, College Grove, and Arrington</li>
+        <li><strong>Striped skunks, red foxes, and gray foxes</strong> — denning under porches, sheds, and storage buildings throughout the rural and suburban-edge properties</li>
+        <li><strong>Norway rats</strong> — persistent in the older commercial corridors of downtown Franklin and the food-service blocks of Cool Springs</li>
+        <li><strong>White-tailed deer</strong> — exceptionally high density across the wooded subdivisions and rural valleys; vehicle-collision rates rank among the highest in middle Tennessee, but deer fall under TWRA management rather than the private removal industry</li>
+        <li>Snakes encountered residentially are dominated by the <strong>Eastern rat snake</strong> (frequently mistaken for venomous), the <strong>northern copperhead</strong>, <strong>brown watersnakes</strong> along the Harpeth, and common <strong>garter snakes</strong>. <strong>Timber rattlesnakes</strong> occur but are essentially restricted to the rugged ridgeline habitat on the western edge of the county — encounters at residential properties are uncommon.</li>
+      </ul>
+
+      <h2>Common Wildlife Issues That Define the Williamson Job Mix</h2>
+      <p>Several patterns in Williamson's call volume are distinctive enough to call out:</p>
+
+      <h3>Coyote management in Brentwood and Franklin greenways</h3>
+      <p>Coyote sightings now occur in nearly every subdivision in the county, with the heaviest call density in Brentwood east of I-65, the Cool Springs basin, and the Franklin subdivisions along the Harpeth greenway system. Most calls are driven by missing cats, daytime sightings near schools and parks, or visible den activity in the stormwater easements that thread between developments. Coyotes are using the city of Brentwood's extensive greenway network, the Cool Springs creek corridors, and the wooded edges of the Carnton and Carter House battlefield landscape as travel routes and den sites. Removal is rarely lethal — most resolutions involve hazing, exclusion of food sources (pet food left out, accessible trash, fallen fruit), and disturbance of confirmed den sites. A licensed contractor can also work the food-source side of the problem at neighboring properties when the issue is community-wide.</p>
+
+      <h3>Bats in historic downtown Franklin and original Brentwood subdivisions</h3>
+      <p>The pre-1970s housing stock in <strong>downtown Franklin's historic district</strong>, the original Brentwood subdivisions along Old Hickory Boulevard and Granny White Pike, and the older Cool Springs farmhouse remnants is the classic substrate for big brown bat maternity colonies — louvered gable vents, original wood-shake roofing, and decades of unmaintained soffits. Mexican free-tailed bats form larger colonies (sometimes 100-500 individuals) in larger commercial structures and historic public buildings throughout downtown Franklin and the Cool Springs corridor, and the guano accumulation in long-occupied roosts can be substantial. TWRA restricts active exclusion during the bat maternity period (roughly mid-May through early August) to protect non-volant pups, so most exclusion work is scheduled outside that window.</p>
+
+      <h3>Copperhead removal in Leiper's Fork and Harpeth bluff properties</h3>
+      <p>Copperhead encounters are routine in the wooded properties of Leiper's Fork, the Brentwood hillside subdivisions backing onto the Harpeth bluffs, and the limestone-outcrop edges along the river corridor — terrain that produces the rocky, brushy habitat copperheads use. Encounters peak in spring and early fall when daytime temperatures drive snakes to bask on warm surfaces (rock retaining walls, brick patios, mulch beds, paved walkways). A licensed contractor will identify the species before handling — the Eastern rat snake is the most frequently mis-identified non-venomous species in this county — and coordinate with local emergency services for any envenomation concern.</p>
+
+      <h3>Beaver flooding along the Harpeth tributaries</h3>
+      <p>Subdivisions along the Little Harpeth, Spencer Creek, and the smaller Brentwood and Cool Springs tributaries see recurring beaver-related flooding of yards, walking paths, greenway culverts, and storm-detention ponds. Most resolutions involve some combination of trapping and the installation of dam-leveler devices to manage water levels rather than full beaver removal. Work in or directly adjacent to the Harpeth main stem may require coordination with TWRA and the Tennessee Department of Environment and Conservation given the river's state scenic designation and the federally listed mussel and darter species that occur in the system.</p>
+
+      <h3>Groundhog damage on the Leiper's Fork and College Grove estates</h3>
+      <p>Woodchucks (groundhogs) burrow under outbuildings, equestrian sheds, foundation plantings, and the manicured turf of the larger residential estates throughout the rural western half of the county. The resulting holes are an active liability on horse-property and pasture work — a stepped-in groundhog burrow can lame a horse or break an ankle. Most management involves trapping and burrow exclusion rather than relocation.</p>
+
+      <h2>Federally Protected Species in the Williamson Watersheds</h2>
+      <p>The Harpeth River and its tributaries support several federally protected aquatic species that affect any in-stream or bank work in the county. The <strong>Nashville crayfish</strong> (federally endangered) is documented in several Mill Creek-system tributaries on the eastern edge of Williamson, and several federally listed <strong>freshwater mussels and darters</strong> occur in the Harpeth proper. The <strong>gray bat</strong> (federally endangered) and <strong>Indiana bat</strong> (federally endangered) have documented summer feeding flights over the Harpeth and may roost in caves on the western edge of the county — bat handling near these populations requires TWRA and U.S. Fish & Wildlife Service coordination. The <strong>tricolored bat</strong> (<em>Perimyotis subflavus</em>) is federally proposed for listing and is documented in middle Tennessee. <strong>Bald eagles</strong> remain protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act and are nesting at increasing density on the larger Tennessee impoundments within driving range. None of this affects most residential work — but contractors operating in the county are required to know which species can be handled directly and which require state or federal coordination.</p>
+
+      <h2>Local Authorities and Regulations</h2>
+      <p><strong>Williamson County Animal Center</strong> handles domestic-animal complaints — stray dogs, cat colonies, bite reports — but does not respond to most nuisance wildlife calls. Raccoons, squirrels, bats, snakes, beavers, coyotes, groundhogs, and similar species are referred to private licensed wildlife control operators. State-level oversight comes from the <strong>Tennessee Wildlife Resources Agency (TWRA) Region II — Nashville office</strong>, which administers the Nuisance Wildlife Control Operator (NWCO) certification required of commercial operators and enforces species-specific handling and disposition rules. Federal protections apply to bats during maternity periods, all migratory birds (Canada geese, owls, hawks, woodpeckers), and the federally listed bats, mussels, darters, and crayfish in the local watersheds. The cities of Franklin and Brentwood maintain their own municipal codes that affect wildlife work — particularly around discharge of firearms and trapping inside city limits — and the historic districts of downtown Franklin require coordination with city historic-preservation review for any visible structural changes during exclusion work. Every contractor in this directory operating in Williamson County is required to hold the applicable state and federal credentials.</p>
+    `;
+
+    faqs = [
+      {
+        q: 'What wildlife is most common in Williamson County, Tennessee?',
+        a: 'In residential calls across Williamson County, raccoons, Eastern gray squirrels, Virginia opossums, big brown bats, and woodchucks (groundhogs) make up the bulk of attic and yard intrusions. Snake calls — primarily Eastern rat snakes and northern copperheads — concentrate around the wooded properties of Leiper\'s Fork, the Brentwood hillside subdivisions, and the Harpeth River bluffs. Coyotes are now firmly established across Brentwood, Franklin, and the Cool Springs corridor. Beavers drive most of the water-related complaints in the Brentwood and Cool Springs subdivisions along the Harpeth tributaries. Mexican free-tailed bat colonies in larger commercial structures throughout Cool Springs and downtown Franklin are a regionally distinctive call type. Larger species — white-tailed deer, the occasional black bear that wanders through the western Hickman County edge, and migratory waterfowl — fall under direct TWRA management rather than the private removal industry.'
+      },
+      {
+        q: 'Are coyotes a problem in Brentwood and Franklin?',
+        a: 'Yes — coyote sightings are now routine across nearly every subdivision in Brentwood, Franklin, and the Cool Springs corridor, with the heaviest activity in the greenway-adjacent neighborhoods east of I-65 and the Cool Springs basin. Coyotes use the city of Brentwood\'s greenway network, the Cool Springs creek corridors, and the wooded battlefield landscape around Carnton and the Carter House as travel routes and den sites. The most common reasons residents call are missing cats, daytime sightings near schools and parks, and visible den activity in stormwater easements. Resolutions are rarely lethal — they typically involve hazing, removing food sources (pet food left out, accessible trash, fallen fruit), and disrupting confirmed den sites. A licensed contractor can also work the food-source side of the problem at neighboring properties when the issue is community-wide.'
+      },
+      {
+        q: 'What should I do about bats in my Franklin or Brentwood attic?',
+        a: 'Don\'t try to handle a bat colony yourself. Bats in Tennessee carry rabies risk, are protected by state and federal regulations during the maternity period, and require specialized exclusion technique to remove without sealing pups inside the structure. Williamson\'s pre-1970s housing stock — downtown Franklin\'s historic district, the original Brentwood subdivisions along Old Hickory Boulevard and Granny White Pike, and the older Cool Springs farmhouse remnants — is the classic substrate for big brown bat maternity colonies forming in louvered gable vents and original wood-shake roofing. Mexican free-tailed bat colonies in larger commercial structures can produce substantial guano accumulation that requires HEPA-equipped decontamination after exclusion. TWRA restricts active exclusion during the maternity period (roughly mid-May through early August) to protect non-volant pups. A licensed contractor will typically schedule work for August through April, install one-way exit devices, and seal the structure once the colony has been confirmed to have left.'
+      },
+      {
+        q: 'How do I handle a copperhead at my Leiper\'s Fork or Brentwood property?',
+        a: 'Copperhead encounters are routine in the wooded properties of Leiper\'s Fork, the Brentwood hillside subdivisions backing onto the Harpeth bluffs, and the limestone-outcrop edges along the river — terrain that produces the rocky, brushy habitat copperheads use. Stay back, keep pets and children well away, and call a licensed wildlife contractor for identification and removal. The Eastern rat snake is by far the most frequently mis-identified non-venomous species in this county and accounts for many calls that turn out to be harmless. A licensed contractor will identify the species before handling. If a bite has occurred, treat it as a medical emergency — call 911 and get to a hospital with antivenom availability. Do not attempt cut-and-suck treatments, tourniquets, or self-relocation.'
+      },
+      {
+        q: 'Is wildlife removal regulated in Williamson County?',
+        a: 'Yes. Wildlife removal in Williamson County operates under three layers of regulation. State-level oversight comes from the Tennessee Wildlife Resources Agency (TWRA) Region II, Nashville office, which administers the Nuisance Wildlife Control Operator (NWCO) certification required for commercial operators and enforces species-specific handling and disposition rules. Federal protections apply to bats, all migratory birds (Canada geese, owls, hawks, woodpeckers), and the federally listed bats, mussels, darters, and crayfish in the local watersheds. The cities of Franklin and Brentwood maintain their own municipal codes that affect trapping and firearm discharge within city limits, and historic-district work in downtown Franklin requires coordination with city historic-preservation review for any visible structural changes. Williamson County Animal Center handles domestic-animal calls but does not respond to most nuisance wildlife — those calls are referred to licensed private operators. Every contractor in this directory holds the applicable state and federal credentials.'
+      },
+      {
+        q: 'How much does wildlife removal cost in Williamson County?',
+        a: 'Pricing varies significantly with the species, the extent of the intrusion, and how much exclusion work is needed to keep the animal out. A single squirrel or raccoon removal on a clean attic typically runs a few hundred dollars; a full bat colony exclusion with attic remediation, sanitization, and sealed entry points can run several thousand. Long-established Mexican free-tailed bat colonies in larger commercial structures, with full guano remediation, run higher. Beaver and coyote work is priced by trap-set count and visit frequency, and copperhead removal is typically a flat per-visit charge. Historic-district work in downtown Franklin can run higher because of the multi-entry-point profiles typical in pre-1900s housing and the coordination required with city historic-preservation review. The most accurate way to get a number is a free phone consult with a Williamson-based contractor — most quote at no cost over the phone once they understand the species and the property.'
+      },
+      {
+        q: 'When is the best time to handle wildlife exclusion in Tennessee?',
+        a: 'For most species in Williamson County, the best window for exclusion work is late summer through early spring — roughly August through April. Bat exclusion in particular must be scheduled outside the maternity period (roughly mid-May through early August) to avoid trapping non-volant pups inside the structure. Squirrel and raccoon exclusion is best handled outside their main denning seasons (February through April for both species in middle Tennessee), though urgent intrusions can be addressed any time of year using one-way doors that allow animals to exit but not return. Snake calls and emergency removals run year-round; copperhead activity peaks in spring (April-June) and again in early fall. Tennessee\'s mild winters keep wildlife active twelve months a year across the Nashville Basin.'
+      },
+      {
+        q: 'Are there protected species in Williamson County I should be aware of?',
+        a: 'Yes. The Harpeth River and its tributaries support several federally protected aquatic species including federally listed freshwater mussels, darters, and the Nashville crayfish (in the eastern Mill Creek tributaries). The federally endangered gray bat and Indiana bat have documented summer feeding flights over the Harpeth corridor and may roost in caves on the county\'s western edge — any bat handling near these populations requires TWRA and U.S. Fish & Wildlife Service coordination. The tricolored bat is federally proposed for listing and is documented in middle Tennessee. Bald eagles are protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act. All bats are protected by TWRA regulations during maternity season. Migratory birds (Canada geese, owls, hawks, woodpeckers, herons) require federal Migratory Bird Treaty Act permits for any active take. Licensed contractors are required to know which species can be handled directly and which require specific federal or state permitting.'
+      }
+    ];
+  }
+
+  const blockD = `Wildlife intrusion in ${countyName} follows Tennessee's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
+  const blockE = `All commercial wildlife removal in Tennessee is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds the applicable TWRA certification and operates within ${s.agency_short} guidelines on species-specific handling and relocation.`;
+
+  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, extendedBody, faqs, neighboringCounties, geo, sameAs };
+}
+
 // ---- main dispatcher ----
 function getCountyContent(stateName, countyName) {
   const stateData = stateRegistry[stateName];
@@ -1371,6 +1495,7 @@ function getCountyContent(stateName, countyName) {
   if (stateName === 'Vermont')       return vermontContent(countyName, county, s);
   if (stateName === 'Rhode Island')  return rhodeIslandContent(countyName, county, s);
   if (stateName === 'Georgia')       return georgiaContent(countyName, county, s);
+  if (stateName === 'Tennessee')     return tennesseeContent(countyName, county, s);
 
   return null;
 }

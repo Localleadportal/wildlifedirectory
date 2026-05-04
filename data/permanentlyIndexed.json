@@ -12,7 +12,8 @@
     "Georgia|Douglas",
     "Georgia|Fayette",
     "Georgia|Fulton",
-    "Georgia|Gwinnett"
+    "Georgia|Gwinnett",
+    "Tennessee|Williamson"
   ],
   "countiesWithCountyOnlyIndex": [
     "Georgia|DeKalb",
@@ -20,7 +21,8 @@
     "Georgia|Fayette"
   ],
   "countiesWithHubOnlyIndex": [
-    "Georgia|Chatham"
+    "Georgia|Chatham",
+    "Tennessee|Williamson"
   ],
   "states": [
     "Georgia"

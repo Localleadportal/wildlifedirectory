@@ -40,7 +40,10 @@
   <meta name="twitter:image" content="<%= ogImage %>">
 
   <!-- Geo -->
-  <meta name="geo.region" content="US-<%= stateName === 'Georgia' ? 'GA' : '' %>">
+  <%
+    const _stateAbbr = { 'Georgia': 'GA', 'Tennessee': 'TN', 'Connecticut': 'CT', 'Delaware': 'DE', 'New Hampshire': 'NH', 'Vermont': 'VT', 'Rhode Island': 'RI' };
+  %>
+  <meta name="geo.region" content="US-<%= _stateAbbr[stateName] || '' %>">
   <meta name="geo.placename" content="<%= countyName %>, <%= stateName %>">
   <meta name="geo.position" content="<%= countyContent.geo.lat %>;<%= countyContent.geo.lon %>">
   <meta name="ICBM" content="<%= countyContent.geo.lat %>, <%= countyContent.geo.lon %>">

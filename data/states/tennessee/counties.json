@@ -1,0 +1,57 @@
+{
+  "state": {
+    "name": "Tennessee",
+    "agency": "Tennessee Wildlife Resources Agency",
+    "agency_short": "TWRA",
+    "peak_intrusion_season": "February through April for raccoon and squirrel denning, May through August for bat maternity colonies in attics, and a sustained year-round pressure across middle and west Tennessee where mild winters keep wildlife active and breeding cycles overlap",
+    "climate_factor": "Tennessee's humid subtropical climate and mild winters allow many nuisance species — raccoons, squirrels, opossums, rats, skunks, and coyotes — to remain active twelve months a year and breed multiple times per year, particularly across the Nashville Basin and the Mississippi River bottomlands of west Tennessee where call volume rarely drops off",
+    "permit_note": "TWRA requires commercial wildlife operators to hold a Nuisance Wildlife Control Operator (NWCO) certification and to follow species-specific handling and disposition rules; bats and migratory birds carry additional federal handling restrictions, and large game species including white-tailed deer, black bears, wild turkey, and migratory waterfowl fall under direct TWRA management rather than the private wildlife removal industry"
+  },
+  "counties": {
+    "Williamson County": {
+      "county_seat": "Franklin",
+      "population": 247726,
+      "established": 1799,
+      "region": "the heart of Middle Tennessee's Nashville Basin, immediately south of Davidson County and the city of Nashville, anchored by the historic city of Franklin and including the affluent suburban communities of Brentwood, Nolensville, Spring Hill, Thompson's Station, and Fairview",
+      "largest_cities": [
+        "Franklin",
+        "Brentwood",
+        "Spring Hill",
+        "Nolensville",
+        "Fairview",
+        "Thompson's Station"
+      ],
+      "nearest_metro": "Nashville (downtown is about 20 miles north of Franklin)",
+      "natural_features": [
+        "Harpeth River (state scenic river, runs through Franklin and Brentwood)",
+        "West Harpeth River",
+        "Little Harpeth River",
+        "Natchez Trace Parkway (federal scenic byway, southwest portion of county)",
+        "Timberland Park (Tennessee state park, on the Natchez Trace)",
+        "Pinkerton Park and Bicentennial Park (city of Franklin)",
+        "Carnton Battlefield and Carter House Civil War sites",
+        "Cedar-glade limestone outcrops along the Harpeth bluffs",
+        "Old Natchez Trace and Leiper's Fork rural valleys"
+      ],
+      "habitat_type": "Nashville Basin rolling hills with cedar-glade limestone outcrops and dense oak-hickory forest along the Harpeth River corridor, affluent post-1990s subdivisions with mature canopy in Brentwood, the rapidly growing Cool Springs and Berry Farms commercial-residential districts, the historic Civil War-era core of downtown Franklin, and the rural Leiper's Fork, College Grove, Arrington, and Bethesda horse-country valleys",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Virginia opossums",
+        "big brown bats",
+        "Mexican (Brazilian) free-tailed bats",
+        "evening bats",
+        "tricolored bats (federally proposed for listing)",
+        "striped skunks",
+        "woodchucks (groundhogs)",
+        "red and gray foxes",
+        "Eastern coyotes",
+        "Norway rats",
+        "beavers",
+        "snakes (copperhead, Eastern rat snake, garter snake, brown watersnake)"
+      ],
+      "regional_wildlife": "Williamson County's wildlife profile is shaped by the Nashville Basin's cedar-glade limestone outcrops and the Harpeth River corridor cutting directly through the heart of Franklin and Brentwood. Big brown bat maternity colonies routinely form in the older brick housing stock of downtown Franklin's historic district and the original 1950s-1970s subdivisions of Brentwood, and Mexican free-tailed bat colonies appear in larger commercial structures throughout the Cool Springs corridor. Copperhead encounters are the dominant venomous snake call, concentrated around the wooded properties of Leiper's Fork, Brentwood's hillside subdivisions off Old Hickory Boulevard and Concord Road, and the limestone-outcrop edges of the Harpeth River bluffs. Coyote sightings are now routine across every subdivision from Brentwood through Franklin and the Cool Springs corridor, driven by the mature greenways, golf courses, and creek corridors that thread between developments. Beavers cause regular flooding of yards, walking paths, and stormwater culverts along the Harpeth and Little Harpeth tributaries. Groundhog burrow damage to lawns and foundation plantings is a consistent call source across the county's affluent residential housing stock, where manicured turf runs up against wooded edges. Eastern gray squirrel intrusions are constant in the mature canopy of Brentwood and the older Franklin neighborhoods, and Norway rats are persistent in the older commercial corridors of downtown Franklin and the food-service blocks of Cool Springs",
+      "absent_or_rare": "white-tailed deer are abundant throughout Williamson's wooded subdivisions and the Leiper's Fork, College Grove, and Arrington rural areas — driving high vehicle-collision rates but falling under TWRA management rather than the private wildlife removal industry, black bears occasionally pass through the western edge of the county along the Hickman County line, the federally endangered gray bat and Indiana bat have documented summer feeding flights over the Harpeth River corridor and may roost in caves on the county's western edge — any bat handling near these populations requires TWRA and U.S. Fish & Wildlife Service coordination, and timber rattlesnakes are present at very low density on the most rugged wooded ridgelines but are uncommon at residential properties"
+    }
+  }
+}
