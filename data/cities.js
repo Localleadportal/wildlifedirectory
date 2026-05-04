@@ -41,6 +41,7 @@ const CITY_OVERRIDES = {
   'Georgia|Fayette': ['Peachtree City', 'Fayetteville', 'Tyrone', 'Brooks', 'Woolsey'],
   'Georgia|DeKalb': ['Decatur', 'Brookhaven', 'Dunwoody', 'Tucker', 'Stone Mountain', 'Chamblee', 'Doraville', 'Lithonia', 'Clarkston', 'Avondale Estates', 'Pine Lake', 'Stonecrest'],
   'Georgia|Chatham': ['Savannah', 'Pooler', 'Garden City', 'Port Wentworth', 'Tybee Island', 'Thunderbolt', 'Bloomingdale'],
+  'Georgia|Douglas': ['Douglasville', 'Lithia Springs', 'Austell', 'Villa Rica', 'Winston', 'Mount Carmel'],
 };
 
 // Get cities for a county (matches "Cobb County" -> county key "Cobb")
