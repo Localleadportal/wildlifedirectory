@@ -4723,6 +4723,181 @@
         { "q": "Do you handle bat removal on Palmetto farm barn structures?", "a": "Yes — multi-structure bat work on rural and farm properties is a Palmetto specialty. Main house chimney plus barn loft colonies are routine." },
         { "q": "Why can't I do bat removal myself?", "a": "Georgia DNR regulations restrict exclusion during May-August maternity season. All exclusion uses one-way valves, not trapping." }
       ]
+    },
+    "snake-removal": {
+      "metaTitle": "Snake Removal Palmetto, GA | Copperhead + Cottonmouth | 24/7",
+      "metaDescription": "24/7 snake removal Palmetto, GA — copperhead + cottonmouth ID on rural farm acreage, Cedar Creek edges. $150-$700.",
+      "geo": { "lat": 33.5187, "lon": -84.6699 },
+      "sameAs": ["https://en.wikipedia.org/wiki/Palmetto,_Georgia","https://en.wikipedia.org/wiki/Agkistrodon_contortrix","https://en.wikipedia.org/wiki/Agkistrodon_piscivorus"],
+      "intro": "Snake removal calls in Palmetto run April-October. Copperheads (<em>Agkistrodon contortrix</em>) are very common per-property because of rural land use. Cottonmouths (<em>Agkistrodon piscivorus</em>) appear near Chattahoochee tributaries and farm ponds. Highest pressure: Cedar Creek corridor, farm outbuildings, woodpiles around barns. Typical Palmetto snake removal runs $150-$700.",
+      "extendedBody": "<h2>Where Snakes Show Up in Palmetto</h2>\n      <ul><li><strong>Rural farm acreage</strong> — copperheads in pasture-edge brush, woodpiles, barn-area cover.</li><li><strong>Cedar Creek corridor + farm ponds</strong> — copperheads plus possible cottonmouths near water.</li><li><strong>Historic Downtown Palmetto yards</strong> — copperheads in dense ground cover.</li><li><strong>Highway 29 corridor</strong> — black rat snakes hunting commercial-edge rodents.</li></ul>\n      <h2>Venomous ID + Equine Risk</h2>\n      <p>Copperhead: coppery-tan with hourglass crossbands, triangular head, 2-3 feet typical. Cottonmouth: heavy-bodied dark olive-to-black, gapes white interior of mouth defensively, near water. Photo from 10+ feet for ID. Horses can be bitten on the muzzle while grazing — vet evaluation required for any equine snake bite. Cost: $150-$250 non-venomous, $250-$500 copperhead, $300-$600 cottonmouth, $500-$1,200 multi-snake or property survey.</p>",
+      "relatedLinks": [
+        { "anchor": "Palmetto raccoon removal", "href": "/georgia/fulton-county/palmetto/raccoon-removal/" },
+        { "anchor": "Palmetto rat removal", "href": "/georgia/fulton-county/palmetto/rat-removal/" },
+        { "anchor": "Palmetto skunk removal", "href": "/georgia/fulton-county/palmetto/skunk-removal/" },
+        { "anchor": "Palmetto dead animal removal", "href": "/georgia/fulton-county/palmetto/dead-animal-removal/" },
+        { "anchor": "Chattahoochee Hills snake services", "href": "/georgia/fulton-county/chattahoochee-hills/snake-removal/" },
+        { "anchor": "Fairburn snake removal", "href": "/georgia/fulton-county/fairburn/snake-removal/" },
+        { "anchor": "Fulton County snake removal hub", "href": "/georgia/fulton-county/snake-removal/" },
+        { "anchor": "Palmetto wildlife services", "href": "/georgia/fulton-county/palmetto/" }
+      ],
+      "faqs": [
+        { "q": "How much does snake removal cost in Palmetto?", "a": "$150-$700. Single non-venomous $150-$250. Copperhead $250-$500. Cottonmouth $300-$600. Multi-snake or property survey $500-$1,200." },
+        { "q": "Are copperheads or cottonmouths common in Palmetto?", "a": "Copperheads very common per-property because of rural land use. Cottonmouths appear near Chattahoochee tributaries, ponds, wet/marshy areas. Take a photo from 10+ feet for ID." },
+        { "q": "What if my horse gets bitten by a copperhead in Palmetto?", "a": "Equine snake bites require immediate veterinary evaluation. Horse muzzles are common bite sites during grazing." },
+        { "q": "I just got bitten by a snake in Palmetto — what do I do?", "a": "ER immediately. Atlanta-area ERs stock antivenom. Do NOT apply ice, cut, suck venom, tourniquet." },
+        { "q": "Do snake repellents work?", "a": "No. Only habitat modification works (clearing brush, removing woodpiles, securing hay storage)." }
+      ]
+    },
+    "groundhog-removal": {
+      "metaTitle": "Groundhog Removal Palmetto, GA | Burrow Damage | 24/7",
+      "metaDescription": "24/7 groundhog removal Palmetto, GA — under-deck/barn burrows on rural farm properties. Multi-structure. $250-$1,500.",
+      "geo": { "lat": 33.5187, "lon": -84.6699 },
+      "sameAs": ["https://en.wikipedia.org/wiki/Palmetto,_Georgia","https://en.wikipedia.org/wiki/Groundhog"],
+      "intro": "Groundhog removal calls in Palmetto run April-August. Groundhogs den under decks, barn outbuildings, garage slabs across Palmetto's predominantly rural farm properties. Multi-burrow scenarios common on farm acreage. Typical Palmetto groundhog removal runs $250-$1,500.",
+      "extendedBody": "<h2>Groundhog Burrow ID on Palmetto Farm Properties</h2>\n      <ul><li>Burrow entrance 8-12 inches with fan-shaped fresh dirt mound.</li><li>Common Palmetto locations: under barn outbuildings, equipment sheds, run-in shelters, farm porches.</li><li>Adult groundhog: 16-26 inches, 5-13 lbs.</li><li>Garden + crop damage: clean-cut bites of beans, peas, lettuce, vegetable rows.</li></ul>\n      <h2>Multi-Structure Cost</h2>\n      <p>Female groundhogs whelp April-May; kits dependent until late July/early August. Cost: $250-$400 single accessible burrow, $400-$700 kit-season hand recovery, $700-$1,500 multi-burrow farm property (main house + barns + outbuildings). Burrow remediation $200-$600 per system.</p>",
+      "relatedLinks": [
+        { "anchor": "Palmetto raccoon removal", "href": "/georgia/fulton-county/palmetto/raccoon-removal/" },
+        { "anchor": "Palmetto skunk removal", "href": "/georgia/fulton-county/palmetto/skunk-removal/" },
+        { "anchor": "Palmetto mole removal", "href": "/georgia/fulton-county/palmetto/mole-removal/" },
+        { "anchor": "Palmetto dead animal removal", "href": "/georgia/fulton-county/palmetto/dead-animal-removal/" },
+        { "anchor": "Chattahoochee Hills groundhog services", "href": "/georgia/fulton-county/chattahoochee-hills/groundhog-removal/" },
+        { "anchor": "Fairburn groundhog removal", "href": "/georgia/fulton-county/fairburn/groundhog-removal/" },
+        { "anchor": "Fulton County groundhog removal hub", "href": "/georgia/fulton-county/groundhog-removal/" },
+        { "anchor": "Palmetto wildlife services", "href": "/georgia/fulton-county/palmetto/" }
+      ],
+      "faqs": [
+        { "q": "How much does groundhog removal cost in Palmetto?", "a": "$250-$1,500. Single accessible burrow $250-$400. Kit-season hand recovery $400-$700. Multi-burrow farm property (main house + barns + outbuildings) $700-$1,500." },
+        { "q": "Will a groundhog burrow damage my Palmetto barn or shed?", "a": "Yes within 1-3 years. Tunnel systems run 25-30 feet long; excavation removes soil supporting barn slabs and equipment-shed foundations. Repair $500-$5,000+." },
+        { "q": "When do groundhogs have babies in Palmetto?", "a": "April-May. Litters 2-6 kits; dependent until late July/early August. Kit-season hand recovery required." },
+        { "q": "How do I keep groundhogs out of my Palmetto garden?", "a": "Heavy-gauge welded-wire fencing extending 12 inches below grade and 36 inches above grade, top loose-bent outward." },
+        { "q": "Are groundhogs protected by Georgia law?", "a": "Not protected as game species. Commercial trapping requires Georgia DNR Trapping License." }
+      ]
+    },
+    "bird-removal": {
+      "metaTitle": "Bird Removal Palmetto, GA | Pigeon + Barn Property | 24/7",
+      "metaDescription": "24/7 bird removal Palmetto, GA — barn-property pigeons + starlings, residential vents. $400-$5,000.",
+      "geo": { "lat": 33.5187, "lon": -84.6699 },
+      "sameAs": ["https://en.wikipedia.org/wiki/Palmetto,_Georgia","https://en.wikipedia.org/wiki/Rock_dove","https://en.wikipedia.org/wiki/Migratory_Bird_Treaty_Act_of_1918"],
+      "intro": "Bird removal in Palmetto focuses on barn-property pigeon and starling work on rural farm properties, plus residential starling vent nests. Pigeons, starlings, sparrows are non-native and not MBTA-protected. Typical Palmetto bird removal runs $400-$5,000.",
+      "extendedBody": "<h2>Palmetto Bird Pest Pattern</h2>\n      <ul><li>Barn-property pigeons (feed access concentrates them).</li><li>Barn-property starlings (rafters, vent systems, hayloft).</li><li>Residential starling vent nests.</li><li>MBTA-protected native species require federal permit.</li></ul>\n      <h2>Cost</h2>\n      <p>$400-$600 single residential nest, $1,500-$3,000 barn-property pigeon abatement (residential equestrian/farm), $3,000-$5,000+ large commercial barn abatement with full HEPA droppings remediation.</p>",
+      "relatedLinks": [
+        { "anchor": "Palmetto bat removal", "href": "/georgia/fulton-county/palmetto/bat-removal/" },
+        { "anchor": "Palmetto rat removal", "href": "/georgia/fulton-county/palmetto/rat-removal/" },
+        { "anchor": "Palmetto squirrel removal", "href": "/georgia/fulton-county/palmetto/squirrel-removal/" },
+        { "anchor": "Palmetto dead animal removal", "href": "/georgia/fulton-county/palmetto/dead-animal-removal/" },
+        { "anchor": "Chattahoochee Hills bird services", "href": "/georgia/fulton-county/chattahoochee-hills/bird-removal/" },
+        { "anchor": "Fairburn bird removal", "href": "/georgia/fulton-county/fairburn/bird-removal/" },
+        { "anchor": "Fulton County bird removal hub", "href": "/georgia/fulton-county/bird-removal/" },
+        { "anchor": "Palmetto wildlife services", "href": "/georgia/fulton-county/palmetto/" }
+      ],
+      "faqs": [
+        { "q": "How much does bird removal cost in Palmetto?", "a": "$400-$5,000. Single residential nest $400-$600. Barn-property pigeon abatement $1,500-$3,000. Large commercial barn $3,000-$5,000+." },
+        { "q": "Are pigeons protected by federal law?", "a": "No. Rock pigeons, starlings, sparrows are non-native and NOT MBTA-protected." },
+        { "q": "Pigeons are roosting in my Palmetto barn — what do I do?", "a": "HEPA droppings remediation + exclusion (netting in rafters, spikes, blocking access points). $1,500-$3,000 typical." },
+        { "q": "How do I get rid of starlings in my dryer vent?", "a": "Remove nest material, install vent guard with louvered cap, treat droppings. $400-$600." },
+        { "q": "Are bird droppings on my Palmetto barn dangerous?", "a": "Yes with significant accumulation. Histoplasmosis exposure during cleanup. Professional HEPA-equipped remediation mandatory." }
+      ]
+    },
+    "skunk-removal": {
+      "metaTitle": "Skunk Removal Palmetto, GA | Spray-Free Trapping | 24/7",
+      "metaDescription": "24/7 skunk removal Palmetto, GA — under-deck/barn dens on rural farm properties. Rabies vector. $300-$1,000.",
+      "geo": { "lat": 33.5187, "lon": -84.6699 },
+      "sameAs": ["https://en.wikipedia.org/wiki/Palmetto,_Georgia","https://en.wikipedia.org/wiki/Striped_skunk","https://en.wikipedia.org/wiki/Rabies"],
+      "intro": "Skunk removal calls in Palmetto run February-July. Striped skunks den under decks, barn outbuildings, sheds on Palmetto rural properties. Skunks are <strong>rabies-vector species</strong>. Multi-structure denning common. Typical Palmetto skunk removal runs $300-$1,000.",
+      "extendedBody": "<h2>Multi-Structure Skunk Denning in Palmetto</h2>\n      <ul><li>Persistent musky odor under decks, barn outbuildings, sheds.</li><li>Burrow entrance 6-8 inches.</li><li>Cone-shaped lawn or pasture digs.</li><li>Skunk visible at dawn or dusk.</li></ul>\n      <p>Rabies signs: daytime activity, tame behavior, circling, drooling. Bite/scratch/saliva exposure requires physician evaluation within 24 hours. Pet exposure (dogs, barn cats) requires immediate vet evaluation.</p>\n      <h2>Cost</h2>\n      <p>Spray formula: 1 quart 3% hydrogen peroxide + 1/4 cup baking soda + 1 teaspoon dish soap. Cost: $300-$450 single live-trap, $450-$700 multi-skunk family with kit-season hand recovery, $700-$1,000 multi-burrow farm property (main house + barn + outbuildings), $200-$800 spray remediation separate.</p>",
+      "relatedLinks": [
+        { "anchor": "Palmetto raccoon removal", "href": "/georgia/fulton-county/palmetto/raccoon-removal/" },
+        { "anchor": "Palmetto opossum services", "href": "/georgia/fulton-county/palmetto/opossum-removal/" },
+        { "anchor": "Palmetto groundhog services", "href": "/georgia/fulton-county/palmetto/groundhog-removal/" },
+        { "anchor": "Palmetto snake removal", "href": "/georgia/fulton-county/palmetto/snake-removal/" },
+        { "anchor": "Palmetto dead animal removal", "href": "/georgia/fulton-county/palmetto/dead-animal-removal/" },
+        { "anchor": "Chattahoochee Hills skunk services", "href": "/georgia/fulton-county/chattahoochee-hills/skunk-removal/" },
+        { "anchor": "Fulton County skunk removal hub", "href": "/georgia/fulton-county/skunk-removal/" },
+        { "anchor": "Palmetto wildlife services", "href": "/georgia/fulton-county/palmetto/" }
+      ],
+      "faqs": [
+        { "q": "How much does skunk removal cost in Palmetto?", "a": "$300-$1,000. Single live-trap $300-$450. Multi-skunk with kit-season hand recovery $450-$700. Multi-burrow farm property $700-$1,000. Spray remediation $200-$800 separate." },
+        { "q": "How do I get skunk smell out of my dog?", "a": "1 quart 3% hydrogen peroxide + 1/4 cup baking soda + 1 teaspoon dish soap. Apply fresh, work 5 min, rinse." },
+        { "q": "Is the skunk on my Palmetto property rabid?", "a": "Possibly — Georgia is rabies-endemic. Daytime activity, tame behavior, circling, drooling are warning signs." },
+        { "q": "There are baby skunks under my Palmetto barn — what do I do?", "a": "Baby skunk season April-July. DO NOT seal the den. Den-side hand recovery for kits, then trap mother." },
+        { "q": "Can I trap a skunk myself?", "a": "Strongly not recommended. Spray triggers easily. Bite/scratch risk is real." }
+      ]
+    },
+    "opossum-removal": {
+      "metaTitle": "Opossum Removal Palmetto, GA | Humane Same-Day | 24/7",
+      "metaDescription": "24/7 opossum removal Palmetto, GA — barn outbuildings, garages, decks. Low rabies. $200-$700.",
+      "geo": { "lat": 33.5187, "lon": -84.6699 },
+      "sameAs": ["https://en.wikipedia.org/wiki/Palmetto,_Georgia","https://en.wikipedia.org/wiki/Virginia_opossum"],
+      "intro": "Opossum removal calls in Palmetto run year-round. Virginia opossums (<em>Didelphis virginiana</em>) are well-established across Palmetto rural properties. Body temperature (94-97°F) is below rabies-optimal range. Typical Palmetto opossum removal runs $200-$700.",
+      "extendedBody": "<h2>Opossum Sightings on Palmetto Farm Properties</h2>\n      <ul><li>Common locations: under porches/decks, in barn outbuildings, in garages, eating barn-cat food.</li><li>Behavior: nocturnal, slow, plays dead.</li><li>Property damage: scattered trash, eaten pet/barn-cat food, flea/tick concentrations.</li></ul>\n      <h2>Cost</h2>\n      <p>$200-$300 single live-trap, $300-$500 mother + joeys (6-13), $500-$1,000 multi-opossum + flea/tick remediation, $300-$700 dead opossum recovery from barn or under-house.</p>",
+      "relatedLinks": [
+        { "anchor": "Palmetto raccoon removal", "href": "/georgia/fulton-county/palmetto/raccoon-removal/" },
+        { "anchor": "Palmetto skunk removal", "href": "/georgia/fulton-county/palmetto/skunk-removal/" },
+        { "anchor": "Palmetto groundhog services", "href": "/georgia/fulton-county/palmetto/groundhog-removal/" },
+        { "anchor": "Palmetto snake removal", "href": "/georgia/fulton-county/palmetto/snake-removal/" },
+        { "anchor": "Palmetto dead animal removal", "href": "/georgia/fulton-county/palmetto/dead-animal-removal/" },
+        { "anchor": "Chattahoochee Hills opossum services", "href": "/georgia/fulton-county/chattahoochee-hills/opossum-removal/" },
+        { "anchor": "Fulton County opossum removal hub", "href": "/georgia/fulton-county/opossum-removal/" },
+        { "anchor": "Palmetto wildlife services", "href": "/georgia/fulton-county/palmetto/" }
+      ],
+      "faqs": [
+        { "q": "How much does opossum removal cost in Palmetto?", "a": "$200-$700. Single live-trap $200-$300. Mother + joeys $300-$500. Multi-opossum $500-$1,000. Dead opossum recovery $300-$700." },
+        { "q": "Do opossums carry rabies?", "a": "Very rarely. Body temperature below rabies-optimal range. CDC treats opossum bites as low-risk." },
+        { "q": "There's an opossum in my Palmetto barn — how do I get it out?", "a": "Open the barn door fully at dusk, turn off lights, leave area, check back in 30-60 minutes. Usually leaves on its own." },
+        { "q": "How do I keep opossums away from my Palmetto property?", "a": "Eliminate outdoor pet food, secure barn-cat food, secure garbage, close garage/barn doors at night." },
+        { "q": "Is there a dead opossum smell in my Palmetto barn?", "a": "Common Palmetto call. Recovery from barn or under-house spaces $300-$700." }
+      ]
+    },
+    "mole-removal": {
+      "metaTitle": "Mole Removal Palmetto, GA | Lawn + Pasture Trapping | 24/7",
+      "metaDescription": "24/7 mole removal Palmetto, GA — large-lot lawn + pasture tunneling. Trapping-based. $200-$1,000.",
+      "geo": { "lat": 33.5187, "lon": -84.6699 },
+      "sameAs": ["https://en.wikipedia.org/wiki/Palmetto,_Georgia","https://en.wikipedia.org/wiki/Eastern_mole"],
+      "intro": "Mole removal calls in Palmetto peak in spring and fall. Eastern moles tunnel through Palmetto lawns and pastures. Typical Palmetto mole removal runs $200-$1,000.",
+      "extendedBody": "<h2>Mole vs Vole ID</h2>\n      <ul><li>Mole: raised tunnel ridges PLUS volcano-shaped molehills. Doesn't eat plants.</li><li>Vole: surface runways PLUS chewed shrub bark.</li></ul>\n      <h2>Cost</h2>\n      <p>Sonic stakes, castor oil, mothballs do NOT work. Only trapping in active tunnels works. Cost: $200-$350 single mole, $350-$700 multi-mole, $700-$1,000 multi-acre farm with ongoing trap-and-monitor.</p>",
+      "relatedLinks": [
+        { "anchor": "Palmetto groundhog services", "href": "/georgia/fulton-county/palmetto/groundhog-removal/" },
+        { "anchor": "Palmetto squirrel removal", "href": "/georgia/fulton-county/palmetto/squirrel-removal/" },
+        { "anchor": "Palmetto rat removal", "href": "/georgia/fulton-county/palmetto/rat-removal/" },
+        { "anchor": "Palmetto opossum services", "href": "/georgia/fulton-county/palmetto/opossum-removal/" },
+        { "anchor": "Palmetto dead animal removal", "href": "/georgia/fulton-county/palmetto/dead-animal-removal/" },
+        { "anchor": "Chattahoochee Hills mole services", "href": "/georgia/fulton-county/chattahoochee-hills/mole-removal/" },
+        { "anchor": "Fulton County mole removal hub", "href": "/georgia/fulton-county/mole-removal/" },
+        { "anchor": "Palmetto wildlife services", "href": "/georgia/fulton-county/palmetto/" }
+      ],
+      "faqs": [
+        { "q": "How much does mole removal cost in Palmetto?", "a": "$200-$1,000. Single-mole $200-$350. Multi-mole $350-$700. Multi-acre farm with ongoing service $700-$1,000." },
+        { "q": "How do I tell mole damage from vole damage?", "a": "Moles: raised tunnel ridges PLUS cone soil mounds. Voles: flattened surface tracks PLUS chewed shrub bark." },
+        { "q": "Do mole repellents work?", "a": "No. Only trapping works." },
+        { "q": "How long does mole removal take on a Palmetto farm?", "a": "1-3 visits over 1-2 weeks for residential. Multi-acre farm properties may need ongoing trap-and-monitor service." },
+        { "q": "Are moles dangerous to horses or livestock?", "a": "No. Don't bite, don't carry significant zoonotic disease, don't damage pasture grass directly." }
+      ]
+    },
+    "dead-animal-removal": {
+      "metaTitle": "Dead Animal Removal Palmetto, GA | Same-Day | 24/7",
+      "metaDescription": "24/7 dead animal removal Palmetto, GA — attic, barn, under-house carcass + dead-livestock disposal. $200-$1,500.",
+      "geo": { "lat": 33.5187, "lon": -84.6699 },
+      "sameAs": ["https://en.wikipedia.org/wiki/Palmetto,_Georgia","https://en.wikipedia.org/wiki/Decomposition"],
+      "intro": "Dead animal removal in Palmetto spans residential attic recovery to barn carcass work and dead-livestock disposal on rural properties. Coyote-related dead-pet recovery is also common. Typical Palmetto dead animal removal runs $200-$1,500+.",
+      "extendedBody": "<h2>Locating the Dead Animal on Palmetto Farm Properties</h2>\n      <ul><li>Walk each room slowly, sniffing low at baseboards, ceiling height, near HVAC vents.</li><li>Check attic, crawlspace, barn lofts, equipment outbuildings.</li><li>Listen for blowflies — buzzing in walls = active maggot activity.</li></ul>\n      <h2>Cost</h2>\n      <p>$200-$350 accessible carcass, $350-$700 wall-cavity recovery, $700-$1,500 multi-animal die-off or under-house/barn recovery, $1,500-$5,000+ full structural remediation. Dead-livestock disposal on Palmetto farms is a separate service.</p>",
+      "relatedLinks": [
+        { "anchor": "Palmetto raccoon removal", "href": "/georgia/fulton-county/palmetto/raccoon-removal/" },
+        { "anchor": "Palmetto squirrel removal", "href": "/georgia/fulton-county/palmetto/squirrel-removal/" },
+        { "anchor": "Palmetto rat removal", "href": "/georgia/fulton-county/palmetto/rat-removal/" },
+        { "anchor": "Palmetto bat removal", "href": "/georgia/fulton-county/palmetto/bat-removal/" },
+        { "anchor": "Palmetto opossum services", "href": "/georgia/fulton-county/palmetto/opossum-removal/" },
+        { "anchor": "Chattahoochee Hills carcass services", "href": "/georgia/fulton-county/chattahoochee-hills/dead-animal-removal/" },
+        { "anchor": "Fulton County dead animal removal hub", "href": "/georgia/fulton-county/dead-animal-removal/" },
+        { "anchor": "Palmetto wildlife services", "href": "/georgia/fulton-county/palmetto/" }
+      ],
+      "faqs": [
+        { "q": "How much does dead animal removal cost in Palmetto?", "a": "$200-$1,500+. Accessible $200-$350. Wall-cavity $350-$700. Multi-animal die-off or under-house/barn recovery $700-$1,500. Full structural remediation $1,500-$5,000+." },
+        { "q": "Do you handle dead-livestock disposal in Palmetto?", "a": "Yes — dead-livestock disposal on Palmetto farms is offered as a separate service. Coyote-related dead-pet recovery on Palmetto acreage is also covered." },
+        { "q": "How do I find the dead animal smell in my Palmetto home?", "a": "Walk each room sniffing low at baseboards, ceiling height. Smell strongest at wall closest to carcass. Listen for blowflies." },
+        { "q": "How long does dead animal smell last?", "a": "Severe odor 7-14 days. Decomposition-fluid saturation produces residual odor 1-6 months." },
+        { "q": "Can I just leave the dead animal?", "a": "Decomposes in 3-6 weeks but waiting costs much more in odor, flies, drywall replacement. Same-day removal is dramatically cheaper." }
+      ]
     }
   },
   "Chattahoochee Hills": {
@@ -4828,6 +5003,181 @@
         { "q": "When can bat exclusion be done in Chattahoochee Hills?", "a": "April or September through mid-October only. May-August is maternity season — exclusion traps non-flying pups." },
         { "q": "Are tricolored bats in Chattahoochee Hills really federally protected?", "a": "Yes — <em>Perimyotis subflavus</em> is federally proposed for ESA listing. Tricolored bats appear along the Chattahoochee Hills corridor at higher density than anywhere else in Fulton, requiring species-specific federal-status protocol on any encounter." },
         { "q": "Do you handle bat removal on Chattahoochee Hills barn structures?", "a": "Yes — multi-structure bat work on rural and equestrian properties is a Chattahoochee Hills specialty. Main house chimney plus barn loft colonies are routine." }
+      ]
+    },
+    "snake-removal": {
+      "metaTitle": "Snake Removal Chattahoochee Hills, GA | Venomous Pros | 24/7",
+      "metaDescription": "24/7 snake removal Chattahoochee Hills, GA — copperhead, cottonmouth, timber rattler ID. Conservation acreage. $150-$1,000.",
+      "geo": { "lat": 33.5604, "lon": -84.7449 },
+      "sameAs": ["https://en.wikipedia.org/wiki/Chattahoochee_Hills,_Georgia","https://en.wikipedia.org/wiki/Agkistrodon_contortrix","https://en.wikipedia.org/wiki/Agkistrodon_piscivorus","https://en.wikipedia.org/wiki/Crotalus_horridus"],
+      "intro": "Snake removal calls in Chattahoochee Hills run April-October and have the highest per-property venomous snake encounter rate in Fulton County because of conservation-area land use. Copperheads (<em>Agkistrodon contortrix</em>) are widespread; cottonmouths (<em>Agkistrodon piscivorus</em>) appear near Chattahoochee River and Cedar Creek tributaries; timber rattlesnakes (<em>Crotalus horridus</em>) are documented in undeveloped acreage. Typical Chattahoochee Hills snake removal runs $150-$1,000.",
+      "extendedBody": "<h2>Where Venomous Snakes Show Up in Chattahoochee Hills</h2>\n      <ul><li><strong>Conservation easement properties</strong> — copperheads in any wooded edge.</li><li><strong>Chattahoochee River + Cedar Creek tributaries</strong> — cottonmouths near water, ponds, marshy areas.</li><li><strong>Undeveloped multi-acre tracts</strong> — possible timber rattlesnake.</li><li><strong>Equestrian pastures</strong> — copperheads in pasture-edge brush, woodpiles, hay storage.</li><li><strong>Serenbe planned community common areas</strong> — copperheads in mature ground cover.</li></ul>\n      <h2>Three-Species ID + Equine Risk</h2>\n      <p>Copperhead: coppery-tan with hourglass crossbands. Cottonmouth: heavy-bodied dark olive-to-black, gapes white interior of mouth, near water. Timber rattler: large (3-5 feet), gray-tan with dark V-shaped crossbands, rattle. Photo from 10+ feet for ID. Horses can be bitten on the muzzle while grazing — vet evaluation required for any equine snake bite. Cost: $150-$250 non-venomous, $250-$500 copperhead, $300-$600 cottonmouth, $400-$800 timber rattler, $500-$1,200 multi-snake or property survey.</p>",
+      "relatedLinks": [
+        { "anchor": "Chattahoochee Hills raccoon services", "href": "/georgia/fulton-county/chattahoochee-hills/raccoon-removal/" },
+        { "anchor": "Chattahoochee Hills rat services", "href": "/georgia/fulton-county/chattahoochee-hills/rat-removal/" },
+        { "anchor": "Chattahoochee Hills skunk services", "href": "/georgia/fulton-county/chattahoochee-hills/skunk-removal/" },
+        { "anchor": "Chattahoochee Hills carcass services", "href": "/georgia/fulton-county/chattahoochee-hills/dead-animal-removal/" },
+        { "anchor": "Palmetto snake removal", "href": "/georgia/fulton-county/palmetto/snake-removal/" },
+        { "anchor": "Fairburn snake removal", "href": "/georgia/fulton-county/fairburn/snake-removal/" },
+        { "anchor": "Fulton County snake removal hub", "href": "/georgia/fulton-county/snake-removal/" },
+        { "anchor": "Chattahoochee Hills wildlife services", "href": "/georgia/fulton-county/chattahoochee-hills/" }
+      ],
+      "faqs": [
+        { "q": "How much does snake removal cost in Chattahoochee Hills?", "a": "$150-$1,000. Single non-venomous $150-$250. Copperhead $250-$500. Cottonmouth $300-$600. Timber rattler $400-$800. Multi-snake or multi-acre property survey $500-$1,200." },
+        { "q": "Are venomous snakes really common in Chattahoochee Hills?", "a": "Yes — Chattahoochee Hills has the highest per-property venomous snake encounter rate in Fulton County because of conservation-area land use, wooded acreage, and the Chattahoochee River corridor. Copperheads widespread; cottonmouths near water; timber rattlesnakes in undeveloped acreage." },
+        { "q": "What if my horse gets bitten by a venomous snake in Chattahoochee Hills?", "a": "Equine snake bites require immediate veterinary evaluation. Horse muzzles are common bite sites during grazing. Antivenom guidelines for horses differ from human protocols." },
+        { "q": "I just got bitten by a snake in Chattahoochee Hills — what do I do?", "a": "ER immediately. Atlanta-area ERs stock antivenom. Do NOT apply ice, cut, suck venom, tourniquet. Take photo of snake from a safe distance for ID — species ID guides antivenom dosing." },
+        { "q": "Do snake repellents work?", "a": "No. Mothballs, sulfur, sonic stakes, predator urine — none reliably deter snakes. Only habitat modification works." }
+      ]
+    },
+    "groundhog-removal": {
+      "metaTitle": "Groundhog Removal Chattahoochee Hills, GA | Burrow Damage | 24/7",
+      "metaDescription": "24/7 groundhog removal Chattahoochee Hills, GA — under-deck/barn burrows on conservation-area estates. $250-$1,500.",
+      "geo": { "lat": 33.5604, "lon": -84.7449 },
+      "sameAs": ["https://en.wikipedia.org/wiki/Chattahoochee_Hills,_Georgia","https://en.wikipedia.org/wiki/Groundhog"],
+      "intro": "Groundhog removal calls in Chattahoochee Hills run April-August. Groundhogs den under decks, barn outbuildings, equipment sheds, pool houses on multi-acre conservation-character properties. Multi-burrow scenarios on equestrian/farm properties common. Typical Chattahoochee Hills groundhog removal runs $250-$1,500.",
+      "extendedBody": "<h2>Groundhog Burrow ID on Chattahoochee Hills Estates</h2>\n      <ul><li>Burrow entrance 8-12 inches with fan-shaped fresh dirt mound.</li><li>Common locations: under decks/barns/equipment sheds/pool houses on multi-acre estates.</li><li>Adult groundhog: 16-26 inches, 5-13 lbs.</li></ul>\n      <h2>Multi-Structure Cost</h2>\n      <p>Female groundhogs whelp April-May. Cost: $250-$400 single accessible burrow, $400-$700 kit-season hand recovery, $700-$1,500 multi-burrow estate (main house + barn + outbuildings + pool house). Burrow remediation $200-$600 per system separate.</p>",
+      "relatedLinks": [
+        { "anchor": "Chattahoochee Hills raccoon services", "href": "/georgia/fulton-county/chattahoochee-hills/raccoon-removal/" },
+        { "anchor": "Chattahoochee Hills skunk services", "href": "/georgia/fulton-county/chattahoochee-hills/skunk-removal/" },
+        { "anchor": "Chattahoochee Hills mole services", "href": "/georgia/fulton-county/chattahoochee-hills/mole-removal/" },
+        { "anchor": "Chattahoochee Hills carcass services", "href": "/georgia/fulton-county/chattahoochee-hills/dead-animal-removal/" },
+        { "anchor": "Palmetto groundhog services", "href": "/georgia/fulton-county/palmetto/groundhog-removal/" },
+        { "anchor": "Fairburn groundhog removal", "href": "/georgia/fulton-county/fairburn/groundhog-removal/" },
+        { "anchor": "Fulton County groundhog removal hub", "href": "/georgia/fulton-county/groundhog-removal/" },
+        { "anchor": "Chattahoochee Hills wildlife services", "href": "/georgia/fulton-county/chattahoochee-hills/" }
+      ],
+      "faqs": [
+        { "q": "How much does groundhog removal cost in Chattahoochee Hills?", "a": "$250-$1,500. Single accessible burrow $250-$400. Kit-season hand recovery $400-$700. Multi-burrow estate (main house + barn + outbuildings + pool house) $700-$1,500." },
+        { "q": "Will a groundhog burrow damage my Chattahoochee Hills barn or pool house?", "a": "Yes within 1-3 years. Tunnel systems run 25-30 feet long. Repair after removal $500-$5,000+." },
+        { "q": "When do groundhogs have babies?", "a": "April-May. Litters 2-6 kits; dependent until late July/early August." },
+        { "q": "How do I keep groundhogs out of my Chattahoochee Hills garden?", "a": "Heavy-gauge welded-wire fencing extending 12 inches below grade, top loose-bent outward." },
+        { "q": "Are groundhogs protected by Georgia law?", "a": "Not protected as game species. Commercial trapping requires Georgia DNR Trapping License." }
+      ]
+    },
+    "bird-removal": {
+      "metaTitle": "Bird Removal Chattahoochee Hills, GA | Barn + Residential | 24/7",
+      "metaDescription": "24/7 bird removal Chattahoochee Hills, GA — barn-property pigeons, residential starlings, Serenbe area. $400-$5,000.",
+      "geo": { "lat": 33.5604, "lon": -84.7449 },
+      "sameAs": ["https://en.wikipedia.org/wiki/Chattahoochee_Hills,_Georgia","https://en.wikipedia.org/wiki/Rock_dove","https://en.wikipedia.org/wiki/Migratory_Bird_Treaty_Act_of_1918"],
+      "intro": "Bird removal in Chattahoochee Hills focuses on barn-property pigeon and starling work on equestrian/farm properties, plus residential starling vent nests in Serenbe area homes. Pigeons, starlings, sparrows are non-native and not MBTA-protected. Conservation-area native species require federal depredation permits. Typical Chattahoochee Hills bird removal runs $400-$5,000.",
+      "extendedBody": "<h2>Chattahoochee Hills Bird Pest Pattern</h2>\n      <ul><li>Barn-property pigeons (feed access concentrates them).</li><li>Barn-property starlings (rafters, vent systems).</li><li>Residential starling vent nests in Serenbe + estate homes.</li><li>MBTA-protected native species (extensive in conservation-area habitat) require federal permit.</li></ul>\n      <h2>Cost</h2>\n      <p>$400-$600 single residential nest, $1,500-$3,000 barn-property pigeon abatement, $3,000-$5,000+ large multi-barn commercial abatement with full HEPA droppings remediation.</p>",
+      "relatedLinks": [
+        { "anchor": "Chattahoochee Hills bat exclusion", "href": "/georgia/fulton-county/chattahoochee-hills/bat-removal/" },
+        { "anchor": "Chattahoochee Hills rat services", "href": "/georgia/fulton-county/chattahoochee-hills/rat-removal/" },
+        { "anchor": "Chattahoochee Hills squirrel services", "href": "/georgia/fulton-county/chattahoochee-hills/squirrel-removal/" },
+        { "anchor": "Chattahoochee Hills carcass services", "href": "/georgia/fulton-county/chattahoochee-hills/dead-animal-removal/" },
+        { "anchor": "Palmetto bird removal", "href": "/georgia/fulton-county/palmetto/bird-removal/" },
+        { "anchor": "Fairburn bird removal", "href": "/georgia/fulton-county/fairburn/bird-removal/" },
+        { "anchor": "Fulton County bird removal hub", "href": "/georgia/fulton-county/bird-removal/" },
+        { "anchor": "Chattahoochee Hills wildlife services", "href": "/georgia/fulton-county/chattahoochee-hills/" }
+      ],
+      "faqs": [
+        { "q": "How much does bird removal cost in Chattahoochee Hills?", "a": "$400-$5,000. Single residential nest $400-$600. Barn-property pigeon abatement $1,500-$3,000. Large multi-barn commercial $3,000-$5,000+." },
+        { "q": "Are pigeons protected by federal law?", "a": "No. Rock pigeons, starlings, sparrows are non-native and NOT MBTA-protected. Conservation-area native species ARE MBTA-protected and require federal depredation permits." },
+        { "q": "Pigeons are roosting in my Chattahoochee Hills barn — what do I do?", "a": "HEPA droppings remediation + exclusion (netting in rafters, spikes, blocking access points). $1,500-$3,000 typical." },
+        { "q": "How do I get rid of starlings in my Serenbe-area dryer vent?", "a": "Remove nest material, install vent guard with louvered cap, treat droppings. $400-$600." },
+        { "q": "Are bird droppings on my barn dangerous?", "a": "Yes with significant accumulation. Histoplasmosis exposure during cleanup. Professional HEPA-equipped remediation mandatory." }
+      ]
+    },
+    "skunk-removal": {
+      "metaTitle": "Skunk Removal Chattahoochee Hills, GA | Spray-Free | 24/7",
+      "metaDescription": "24/7 skunk removal Chattahoochee Hills, GA — under-deck/barn dens on conservation-area estates. Rabies vector. $300-$1,500.",
+      "geo": { "lat": 33.5604, "lon": -84.7449 },
+      "sameAs": ["https://en.wikipedia.org/wiki/Chattahoochee_Hills,_Georgia","https://en.wikipedia.org/wiki/Striped_skunk","https://en.wikipedia.org/wiki/Rabies"],
+      "intro": "Skunk removal calls in Chattahoochee Hills run February-July. Striped skunks den under decks, barn outbuildings, sheds, pool houses on multi-acre estates. Skunks are <strong>rabies-vector species</strong>. Multi-structure denning is the norm. Typical Chattahoochee Hills skunk removal runs $300-$1,500.",
+      "extendedBody": "<h2>Multi-Structure Skunk Denning in Chattahoochee Hills</h2>\n      <ul><li>Persistent musky odor under decks, barn outbuildings, sheds, pool houses.</li><li>Burrow entrance 6-8 inches.</li><li>Cone-shaped lawn or pasture digs.</li><li>Skunk visible at dawn or dusk.</li></ul>\n      <p>Rabies signs: daytime activity, tame behavior, circling, drooling. Bite/scratch/saliva exposure requires physician evaluation within 24 hours.</p>\n      <h2>Cost</h2>\n      <p>Spray formula: 1 quart 3% hydrogen peroxide + 1/4 cup baking soda + 1 teaspoon dish soap. Cost: $300-$450 single live-trap, $450-$700 multi-skunk family with kit-season hand recovery, $700-$1,500 multi-burrow estate (main house + barn + outbuildings + pool house), $200-$800 spray remediation separate.</p>",
+      "relatedLinks": [
+        { "anchor": "Chattahoochee Hills raccoon services", "href": "/georgia/fulton-county/chattahoochee-hills/raccoon-removal/" },
+        { "anchor": "Chattahoochee Hills opossum services", "href": "/georgia/fulton-county/chattahoochee-hills/opossum-removal/" },
+        { "anchor": "Chattahoochee Hills groundhog services", "href": "/georgia/fulton-county/chattahoochee-hills/groundhog-removal/" },
+        { "anchor": "Chattahoochee Hills snake services", "href": "/georgia/fulton-county/chattahoochee-hills/snake-removal/" },
+        { "anchor": "Chattahoochee Hills carcass services", "href": "/georgia/fulton-county/chattahoochee-hills/dead-animal-removal/" },
+        { "anchor": "Palmetto skunk removal", "href": "/georgia/fulton-county/palmetto/skunk-removal/" },
+        { "anchor": "Fulton County skunk removal hub", "href": "/georgia/fulton-county/skunk-removal/" },
+        { "anchor": "Chattahoochee Hills wildlife services", "href": "/georgia/fulton-county/chattahoochee-hills/" }
+      ],
+      "faqs": [
+        { "q": "How much does skunk removal cost in Chattahoochee Hills?", "a": "$300-$1,500. Single live-trap $300-$450. Multi-skunk with kit-season hand recovery $450-$700. Multi-burrow estate $700-$1,500. Spray remediation $200-$800 separate." },
+        { "q": "How do I get skunk smell out of my dog?", "a": "1 quart 3% hydrogen peroxide + 1/4 cup baking soda + 1 teaspoon dish soap. Apply fresh, work 5 min, rinse." },
+        { "q": "Is the skunk on my Chattahoochee Hills property rabid?", "a": "Possibly — Georgia is rabies-endemic. Daytime activity, tame behavior, circling, drooling are warning signs." },
+        { "q": "There are baby skunks under my Chattahoochee Hills barn — what do I do?", "a": "Baby skunk season April-July. DO NOT seal the den. Den-side hand recovery for kits, then trap mother." },
+        { "q": "Can I trap a skunk myself?", "a": "Strongly not recommended. Spray triggers easily. Bite/scratch risk is real." }
+      ]
+    },
+    "opossum-removal": {
+      "metaTitle": "Opossum Removal Chattahoochee Hills, GA | Humane | 24/7",
+      "metaDescription": "24/7 opossum removal Chattahoochee Hills, GA — barn outbuildings, garages, decks. Low rabies. $200-$700.",
+      "geo": { "lat": 33.5604, "lon": -84.7449 },
+      "sameAs": ["https://en.wikipedia.org/wiki/Chattahoochee_Hills,_Georgia","https://en.wikipedia.org/wiki/Virginia_opossum"],
+      "intro": "Opossum removal calls in Chattahoochee Hills run year-round. Virginia opossums (<em>Didelphis virginiana</em>) are well-established across the city's conservation-area properties and equestrian estates. Body temperature (94-97°F) is below rabies-optimal range. Typical Chattahoochee Hills opossum removal runs $200-$700.",
+      "extendedBody": "<h2>Opossum Sightings on Chattahoochee Hills Estates</h2>\n      <ul><li>Common locations: under porches/decks, in barn outbuildings, in garages, eating barn-cat food.</li><li>Behavior: nocturnal, slow, plays dead.</li><li>Property damage: scattered trash, eaten pet/barn-cat food, flea/tick concentrations under multi-year denning.</li></ul>\n      <h2>Cost</h2>\n      <p>$200-$300 single live-trap, $300-$500 mother + joeys (6-13), $500-$1,000 multi-opossum + flea/tick remediation, $300-$700 dead opossum recovery from barn or under-house.</p>",
+      "relatedLinks": [
+        { "anchor": "Chattahoochee Hills raccoon services", "href": "/georgia/fulton-county/chattahoochee-hills/raccoon-removal/" },
+        { "anchor": "Chattahoochee Hills skunk services", "href": "/georgia/fulton-county/chattahoochee-hills/skunk-removal/" },
+        { "anchor": "Chattahoochee Hills groundhog services", "href": "/georgia/fulton-county/chattahoochee-hills/groundhog-removal/" },
+        { "anchor": "Chattahoochee Hills snake services", "href": "/georgia/fulton-county/chattahoochee-hills/snake-removal/" },
+        { "anchor": "Chattahoochee Hills carcass services", "href": "/georgia/fulton-county/chattahoochee-hills/dead-animal-removal/" },
+        { "anchor": "Palmetto opossum services", "href": "/georgia/fulton-county/palmetto/opossum-removal/" },
+        { "anchor": "Fulton County opossum removal hub", "href": "/georgia/fulton-county/opossum-removal/" },
+        { "anchor": "Chattahoochee Hills wildlife services", "href": "/georgia/fulton-county/chattahoochee-hills/" }
+      ],
+      "faqs": [
+        { "q": "How much does opossum removal cost in Chattahoochee Hills?", "a": "$200-$700. Single live-trap $200-$300. Mother + joeys $300-$500. Multi-opossum + flea/tick $500-$1,000. Dead opossum recovery $300-$700." },
+        { "q": "Do opossums carry rabies?", "a": "Very rarely. Body temperature below rabies-optimal range. CDC treats opossum bites as low-risk." },
+        { "q": "There's an opossum in my Chattahoochee Hills barn — how do I get it out?", "a": "Open the door fully at dusk, turn off lights, leave area, check back in 30-60 minutes. Usually leaves on its own." },
+        { "q": "How do I keep opossums away from my Chattahoochee Hills property?", "a": "Eliminate outdoor pet food, secure barn-cat food, secure garbage, close garage/barn doors at night, seal accessible crawlspaces." },
+        { "q": "Is there a dead opossum smell in my Chattahoochee Hills barn?", "a": "Common call. Recovery from barn or under-house spaces $300-$700." }
+      ]
+    },
+    "mole-removal": {
+      "metaTitle": "Mole Removal Chattahoochee Hills, GA | Lawn + Pasture | 24/7",
+      "metaDescription": "24/7 mole removal Chattahoochee Hills, GA — multi-acre lawn + pasture tunneling. Trapping-based. $200-$1,500.",
+      "geo": { "lat": 33.5604, "lon": -84.7449 },
+      "sameAs": ["https://en.wikipedia.org/wiki/Chattahoochee_Hills,_Georgia","https://en.wikipedia.org/wiki/Eastern_mole"],
+      "intro": "Mole removal calls in Chattahoochee Hills peak in spring and fall. Eastern moles tunnel through Chattahoochee Hills lawns and pastures. Multi-acre conservation-area properties often need ongoing trap-and-monitor service. Typical Chattahoochee Hills mole removal runs $200-$1,500.",
+      "extendedBody": "<h2>Mole vs Vole on Conservation-Area Properties</h2>\n      <ul><li>Mole: raised tunnel ridges PLUS volcano-shaped molehills. Doesn't eat plants.</li><li>Vole: surface runways PLUS chewed shrub bark.</li></ul>\n      <h2>Cost on Multi-Acre Properties</h2>\n      <p>Sonic stakes, castor oil, mothballs do NOT work. Only trapping in active tunnels works. Cost: $200-$350 single mole, $350-$700 multi-mole on larger lawn, $700-$1,500 multi-acre with ongoing trap-and-monitor (typical Chattahoochee Hills estate scope).</p>",
+      "relatedLinks": [
+        { "anchor": "Chattahoochee Hills groundhog services", "href": "/georgia/fulton-county/chattahoochee-hills/groundhog-removal/" },
+        { "anchor": "Chattahoochee Hills squirrel services", "href": "/georgia/fulton-county/chattahoochee-hills/squirrel-removal/" },
+        { "anchor": "Chattahoochee Hills rat services", "href": "/georgia/fulton-county/chattahoochee-hills/rat-removal/" },
+        { "anchor": "Chattahoochee Hills opossum services", "href": "/georgia/fulton-county/chattahoochee-hills/opossum-removal/" },
+        { "anchor": "Chattahoochee Hills carcass services", "href": "/georgia/fulton-county/chattahoochee-hills/dead-animal-removal/" },
+        { "anchor": "Palmetto mole removal", "href": "/georgia/fulton-county/palmetto/mole-removal/" },
+        { "anchor": "Fulton County mole removal hub", "href": "/georgia/fulton-county/mole-removal/" },
+        { "anchor": "Chattahoochee Hills wildlife services", "href": "/georgia/fulton-county/chattahoochee-hills/" }
+      ],
+      "faqs": [
+        { "q": "How much does mole removal cost in Chattahoochee Hills?", "a": "$200-$1,500. Single-mole $200-$350. Multi-mole on larger lawn $350-$700. Multi-acre conservation-area with ongoing trap-and-monitor $700-$1,500." },
+        { "q": "How do I tell mole damage from vole damage?", "a": "Moles: raised tunnel ridges PLUS cone soil mounds. Voles: flattened surface tracks PLUS chewed shrub bark." },
+        { "q": "Do mole repellents work?", "a": "No. Only trapping works." },
+        { "q": "How long does mole removal take on a Chattahoochee Hills estate?", "a": "Single-mole removal takes 1-3 visits over 1-2 weeks. Multi-acre estate properties may need ongoing trap-and-monitor service for several months." },
+        { "q": "Are moles dangerous to horses or livestock?", "a": "No. Don't bite, don't carry significant zoonotic disease, don't damage pasture grass directly." }
+      ]
+    },
+    "dead-animal-removal": {
+      "metaTitle": "Dead Animal Removal Chattahoochee Hills, GA | Same-Day | 24/7",
+      "metaDescription": "24/7 dead animal removal Chattahoochee Hills, GA — attic, barn, dead-livestock, coyote-related dead pets. $200-$1,500.",
+      "geo": { "lat": 33.5604, "lon": -84.7449 },
+      "sameAs": ["https://en.wikipedia.org/wiki/Chattahoochee_Hills,_Georgia","https://en.wikipedia.org/wiki/Decomposition"],
+      "intro": "Dead animal removal in Chattahoochee Hills spans residential attic recovery to barn carcass work, dead-livestock disposal, and coyote-related dead-pet recovery on conservation-area properties. Typical Chattahoochee Hills dead animal removal runs $200-$1,500+, with same-day service standard.",
+      "extendedBody": "<h2>Locating the Dead Animal on Chattahoochee Hills Multi-Structure Properties</h2>\n      <ul><li>Walk each room slowly, sniffing low at baseboards, ceiling height, near HVAC vents.</li><li>Check attic, crawlspace, barn lofts, equipment outbuildings, run-in shelters.</li><li>Listen for blowflies — buzzing in walls = active maggot activity.</li></ul>\n      <h2>Cost + Coyote-Related Recovery</h2>\n      <p>$200-$350 accessible carcass, $350-$700 wall-cavity recovery, $700-$1,500 multi-animal die-off or under-house/barn recovery, $1,500-$5,000+ full structural remediation. Dead-livestock disposal on Chattahoochee Hills farms and coyote-related dead-pet recovery on acreage are separate services.</p>",
+      "relatedLinks": [
+        { "anchor": "Chattahoochee Hills raccoon services", "href": "/georgia/fulton-county/chattahoochee-hills/raccoon-removal/" },
+        { "anchor": "Chattahoochee Hills squirrel services", "href": "/georgia/fulton-county/chattahoochee-hills/squirrel-removal/" },
+        { "anchor": "Chattahoochee Hills rat services", "href": "/georgia/fulton-county/chattahoochee-hills/rat-removal/" },
+        { "anchor": "Chattahoochee Hills bat exclusion", "href": "/georgia/fulton-county/chattahoochee-hills/bat-removal/" },
+        { "anchor": "Chattahoochee Hills opossum services", "href": "/georgia/fulton-county/chattahoochee-hills/opossum-removal/" },
+        { "anchor": "Palmetto dead animal removal", "href": "/georgia/fulton-county/palmetto/dead-animal-removal/" },
+        { "anchor": "Fulton County dead animal removal hub", "href": "/georgia/fulton-county/dead-animal-removal/" },
+        { "anchor": "Chattahoochee Hills wildlife services", "href": "/georgia/fulton-county/chattahoochee-hills/" }
+      ],
+      "faqs": [
+        { "q": "How much does dead animal removal cost in Chattahoochee Hills?", "a": "$200-$1,500+. Accessible $200-$350. Wall-cavity $350-$700. Multi-animal die-off or under-house/barn recovery $700-$1,500. Full structural remediation $1,500-$5,000+." },
+        { "q": "Do you handle dead-livestock disposal in Chattahoochee Hills?", "a": "Yes — dead-livestock disposal on Chattahoochee Hills farms is offered as a separate service. Coyote-related dead-pet recovery on conservation acreage is also covered." },
+        { "q": "How do I find the dead animal smell in my Chattahoochee Hills home?", "a": "Walk each room sniffing low at baseboards, ceiling height. Smell strongest at wall closest to carcass. Listen for blowflies." },
+        { "q": "How long does dead animal smell last?", "a": "Severe odor 7-14 days. Decomposition-fluid saturation produces residual odor 1-6 months." },
+        { "q": "Can I just leave the dead animal?", "a": "Decomposes in 3-6 weeks but waiting costs much more. Same-day removal is dramatically cheaper." }
       ]
     }
   }
