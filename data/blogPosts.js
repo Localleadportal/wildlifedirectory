@@ -12,6 +12,92 @@
 
 const BLOG_POSTS = [
   {
+    slug: 'bats-in-douglasville-ga',
+    title: 'Bats in Douglasville, GA — A Wildlife Pro\'s Honest Guide',
+    metaTitle: 'Bats in Douglasville, GA: Local Removal Expert\'s Guide',
+    metaDescription: 'A Douglasville wildlife pro with 11 years in the field walks through how bats get into homes, why DIY fails, and what proper exclusion actually looks like.',
+    excerpt: 'Eleven years ago, my first bat removal was in Douglasville. Here\'s the honest version of what I tell every homeowner who calls about bats — how they get in, why timing matters, and what proper exclusion actually looks like.',
+    datePublished: '2026-05-03',
+    dateModified: '2026-05-03',
+    author: 'Justin McCalvin',
+    authorBio: 'Justin McCalvin works with Local Wildlife Experts, a family-run wildlife removal company that has served Douglasville and Douglas County for over a decade. He has spent 11 years in the field — his first bat removal was a single bat from a home in Douglasville\'s Historic Downtown — and is licensed under Georgia DNR Wildlife Resources Division.',
+    category: 'Bat Removal',
+    tags: ['bat', 'douglasville', 'douglas county', 'georgia', 'attic', 'exclusion', 'big brown bat', 'histoplasmosis'],
+    body: `
+<p class="lead">The first bat I ever removed from inside a home was in Douglasville. A homeowner near Bowden Street called us about a single bat that had ended up in their living room. We caught it carefully, walked it out to the back yard, and released it into the trees. That was 11 years ago, and I've been doing wildlife work in Douglasville my whole career — Local Wildlife Experts is a family business, and Douglasville is our home turf.</p>
+
+<p>This post is the version of the bat conversation I have with homeowners who call us. There are a lot of bad articles online about how to "get rid of bats," and most of them are wrong in ways that can make the situation worse. Below is the licensed-contractor version: how bats actually get into Douglasville homes, why timing is the single biggest variable, and what proper exclusion looks like.</p>
+
+<h2>Why Douglasville Has More Bats Than You'd Think</h2>
+<p>Two things drive nearly every bat call I run in Douglasville.</p>
+
+<p>The first is <strong>Historic Downtown Douglasville</strong>. The pre-WWII residential blocks around Bowden Street, Broad Street, and Price Avenue have housing stock with original masonry chimneys without modern caps, hand-laid brick foundations with pointing failures, and pre-modern gable louvers without screen backing. To a colony of <strong>big brown bats</strong> (<em>Eptesicus fuscus</em>), an old uncapped chimney reads the way a hollow tree would in nature — protected, dark, the right temperature, and undisturbed for decades. Some Historic Downtown colonies span <strong>30 to 50+ years</strong> of continuous occupation, because daughter bats return to their natal roost to whelp generation after generation.</p>
+
+<p>The second source is the <strong>Sweetwater Creek corridor</strong>, including Sweetwater Creek State Park's 2,500+ acres on Douglas County's southern edge. Bats forage along the creek and roost in mature canopy, then test rooflines on the way back. Subdivisions like Mirror Lake, Tributary, and Stewart Mill Estates aren't old enough to be classic colony habitat themselves, but they sit close enough to source habitat that intrusions are routine, especially in late summer.</p>
+
+<p>One detail that catches almost every homeowner off guard: bats only need a <strong>3/8-inch gap</strong> to get inside. That's about the diameter of a dime.</p>
+
+<h2>How to Tell If You Actually Have Bats</h2>
+<p>Bats sound and behave differently from rodents and squirrels, and the signs are specific:</p>
+<ul>
+  <li><strong>Chirping at dusk and just before dawn</strong> — high-pitched, almost like baby birds. Bats are most vocal as they leave the roost to forage and as they return.</li>
+  <li><strong>A whoosh sound at sunset</strong> — the colony emerging. Stand outside and watch the gable end or chimney; you may actually see them.</li>
+  <li><strong>Silence during the day</strong> — bats roost during daylight. If you only hear noise at night, bats move higher on the suspect list.</li>
+  <li><strong>Dark oil staining below the entry point</strong> — bat fur leaves a stain on siding, brick, or trim, usually a foot or two below the active gap.</li>
+  <li><strong>Guano</strong> — small, dry, dark pellets piled below the entry. Mouse droppings stay solid; bat guano crumbles to dust. Don't test that without gloves and a mask — more on that below.</li>
+  <li><strong>An ammonia smell from the attic</strong> in summer, when the colony is most active.</li>
+  <li><strong>A bat in your living space</strong> — even one. From a public-health standpoint, an unsupervised bat in a room where someone was sleeping is a possible rabies exposure event.</li>
+</ul>
+
+<h2>Why You Can't Just Evict Them in Summer</h2>
+<p>This is the part homeowners are most surprised by, and it's where most online articles fall apart.</p>
+
+<p>In Georgia, <strong>bat maternity season runs roughly May through August</strong>. During those months, female bats are nursing pups that can't yet fly. Performing exclusion during the maternity period seals the mothers out and traps the pups inside the wall void. The pups die there, and you now have a far worse problem than when you started — smell, blowflies, and a sanitation situation that means opening drywall.</p>
+
+<p>The <strong>Georgia DNR Wildlife Resources Division</strong> restricts active bat exclusion during maternity months. A licensed contractor will not do exclusion work in those months. Any company that offers to "evict" your bats in June is either uninformed or cutting a corner that's going to come back on you in July. The two windows when exclusion is legally and ethically appropriate are <strong>April</strong> (before pups are born) and <strong>September through mid-October</strong> (after pups are flying).</p>
+
+<p>Federal law layers on top of state law. The <strong>Endangered Species Act</strong> protects the <strong>tricolored bat</strong> (<em>Perimyotis subflavus</em>), a species documented along the Chattahoochee River corridor on Douglas County's eastern boundary. If a tricolored bat is part of the colony, federal protocols apply on top of the state ones.</p>
+
+<p>Bat work is the most regulated wildlife work I do. It's also why timing — not technique — is usually the biggest variable in a job.</p>
+
+<h2>What Proper Bat Exclusion Looks Like</h2>
+<p>Real bat exclusion is a process, not a single visit. The standard sequence:</p>
+
+<p><strong>Inspection.</strong> Every inch of the exterior — roofline, gable vents, chimney chase, soffit returns, fascia, brick joints. I'm looking for the active entry (typically marked by bat oil staining and guano below) and every other 3/8-inch-or-larger opening. Historic Downtown houses usually have 4-6 viable openings. Newer subdivision homes usually have 1-3.</p>
+
+<p><strong>One-way exclusion devices.</strong> Once we have a confirmed active entry and we're in a legal exclusion window, we install one-way valves over it. Bats can leave to forage but can't get back in. Over 4 to 14 days, the colony exits voluntarily.</p>
+
+<p><strong>Verification.</strong> I monitor at dusk over multiple evenings to confirm no bats are emerging. This is the step DIYers skip and pay for.</p>
+
+<p><strong>Sealing every entry point.</strong> Once the colony is gone, every viable opening gets sealed — not just the one they were using. Bats remember roosts. Sealing only the active entry sends them straight to the next opening within weeks.</p>
+
+<p><strong>Guano remediation.</strong> Where droppings have accumulated, contaminated insulation has to be removed and replaced. <em>Histoplasma capsulatum</em> — the fungus that causes histoplasmosis — grows in bat droppings and becomes airborne when disturbed. Proper remediation is HEPA-equipped, with respiratory protection. This is also where bat-exclusion jobs get expensive on long-established Historic Downtown colonies.</p>
+
+<p>End-to-end, a real exclusion takes <strong>1 to 4 weeks</strong>. Anyone who tells you it's a one-day job is selling something else.</p>
+
+<h2>Why DIY Bat Removal Almost Always Fails</h2>
+<p>Every year I get callbacks from Douglasville homeowners who tried to handle it themselves. Two problems show up consistently:</p>
+
+<p><strong>Sealing pups inside the wall.</strong> A homeowner watches a few bats fly out at dusk, climbs up with a tube of caulk, seals the entry. Two weeks later, the smell starts. We're now doing wall-cavity dead-animal recovery — cutting drywall — instead of clean exclusion. It's the most preventable bat-removal mistake, and it's also the most common.</p>
+
+<p><strong>Bites that go unnoticed.</strong> Bat teeth are very small. A bite can leave a wound smaller than a pinprick — many people don't realize they were bitten. The CDC treats any unsupervised bat in a sleeping area as a potential rabies exposure event. Anyone who handled a bat with bare hands, or who slept in a room with a loose bat, should contact the Georgia Department of Public Health, West Central Health District, about post-exposure protocol.</p>
+
+<p>For the record: moth balls don't work. Ultrasonic devices don't work. Spray foam in the gap doesn't work — bats just use it as nesting material. The only humane, effective method is one-way exclusion done inside the right legal window.</p>
+
+<h2>When to Call</h2>
+<p>Call us when you're hearing chirping or fluttering above the ceiling at dusk, watching bats emerge from your roofline or chimney at sunset, smelling ammonia from the attic in summer, finding guano or oil staining below an entry point on the exterior, or finding a bat in your living space — even just one.</p>
+
+<p>Same-day inspections are usually available across Douglasville and Douglas County. If you'd like to see how we handle the work, here's our <a href="/georgia/douglas-county/douglasville/bat-removal/">Douglasville bat removal page</a> and the broader <a href="/georgia/douglas-county/bat-removal/">Douglas County bat work hub</a>. For a deeper read on the health side of bat colonies in any home, our <a href="/blog/bats-in-attic-dangers/">guide to the dangers of bats in the attic</a> covers the rabies and histoplasmosis details.</p>
+
+<h2>The Reason I Still Do This Work</h2>
+<p>Eleven years later, that first bat in Douglasville still sticks with me. Bats are valuable wildlife. They eat enormous numbers of insects, and the population is already under pressure from white-nose syndrome and habitat loss. The goal isn't to kill them. The goal is to get them out of your house, sealed out for good, without harming the colony. Done right, that's exactly what proper exclusion accomplishes.</p>
+
+<p>If you've got bats in Douglasville, you don't have to live with them — but you do have to handle it correctly. That means timing, technique, and somebody who knows what they're doing. Call <strong>(844) 544-3498</strong> and we'll get an inspection on the calendar.</p>
+
+<p>— Justin McCalvin, Local Wildlife Experts</p>
+`
+  },
+  {
     slug: 'bats-in-attic-dangers',
     title: 'Are Bats in Your Attic Dangerous? What Every Homeowner Needs to Know',
     metaTitle: 'Are Bats in Attic Dangerous? Health Risks, Damage & What to Do',
