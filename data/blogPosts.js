@@ -24,9 +24,9 @@ const BLOG_POSTS = [
     category: 'Squirrel Removal',
     tags: ['squirrel', 'baby squirrels', 'fayetteville', 'fayette county', 'georgia', 'attic', 'exclusion', 'eastern gray squirrel', 'spring'],
     body: `
-<p class="lead">Every February my phone starts ringing in Fayetteville. Sometime around mid-month, homeowners begin hearing the same sound from the attic — fast, light scampering across the ceiling in the late afternoon, often accompanied by what sounds like wood being chewed. The Eastern gray squirrels (<em>Sciurus carolinensis</em>) are settling into nest sites, and within a few weeks, a new generation of pups will be born above somebody's bedroom.</p>
+<p class="lead">Every February my phone starts ringing in Fayetteville. About mid-month, homeowners start hearing the same thing — fast, light running across the ceiling in the late afternoon, plus a sound like somebody up there with a Dremel. That's Eastern gray squirrels (<em>Sciurus carolinensis</em>) settling into nest sites. A few weeks after that, somebody's got pups born above their bedroom.</p>
 
-<p>I've been doing wildlife work in Fayette and the surrounding counties for 11 years. Local Wildlife Experts is a family business, and squirrel work is the single most common call we run from February through early May, then again from August through October. The timing of what you do next is everything — and it's the part most homeowners get wrong.</p>
+<p>I've been doing wildlife work around Fayette County for 11 years. Local Wildlife Experts is our family business, and from February through May — then again August through October — squirrel calls fill the schedule. What you do in the next few days after you start hearing them matters. A lot of homeowners get it wrong, and it costs them.</p>
 
 <h2>Why Fayetteville Has More Squirrels Than You Notice</h2>
 <p>Fayetteville's residential canopy is one of the most mature in south-metro Atlanta. The pre-1900 historic-downtown blocks around the <strong>Fayette County Courthouse</strong> have housing stock with original soffits, gable louvers without screen backing, and oak-hickory canopy that has been growing for 80-plus years. The mid-century neighborhoods between downtown and the South Fayette schools follow a similar pattern at smaller scale. Even newer subdivisions on Fayetteville's northern and eastern edges have reached canopy maturity that supports continuous gray squirrel populations.</p>
@@ -43,12 +43,12 @@ const BLOG_POSTS = [
 </ul>
 <p>That schedule produces twin call peaks every year. February through May is the spring peak — the calls I'm getting right now. August through November is the fall peak.</p>
 
-<p>What homeowners need to understand is that the "do something now" instinct is exactly the wrong move during the kit period. From the moment pups are born until they're mobile is a 6-to-8-week window where any exclusion work — sealing the entry, deploying one-way doors, even disturbing the nest — separates the mother from immobile pups. The pups die in the wall void. We are no longer doing exclusion. We are cutting drywall, removing carcasses, replacing insulation, and decontaminating.</p>
+<p>Here's where it goes wrong. The do-something-now instinct kicks in, and that instinct is exactly the wrong call during the kit period. From the moment pups are born until they can move on their own is a 6-to-8-week window. Any exclusion work in that window — sealing the entry, deploying one-way doors, even disturbing the nest — cuts the mother off from immobile pups. The pups die in the wall void. Now we're not doing squirrel exclusion in Fayetteville anymore. We're cutting drywall, pulling out carcasses, replacing insulation, and decontaminating.</p>
 
-<p>It's the most preventable wildlife-removal disaster I see, and every single spring in Fayetteville I run two or three of these recovery jobs because somebody didn't wait.</p>
+<p>I see this every spring. Every single one of these is preventable. Two or three times a year I get called to a Fayetteville house where somebody didn't wait, and now they've got a much bigger problem.</p>
 
-<h2>How to Tell Mom Has Whelped in Your Attic</h2>
-<p>The signs that a mother gray squirrel has set up a nursery in your attic are specific:</p>
+<h2>How to Tell You Have Baby Squirrels in Your Fayetteville Attic</h2>
+<p>Here's what to listen and look for:</p>
 <ul>
   <li><strong>Scampering at dawn and late afternoon</strong> — gray squirrels are diurnal. Daytime activity overhead is a much stronger squirrel signal than nighttime activity.</li>
   <li><strong>Quick, light footfall sounds</strong> — much lighter than raccoons, faster than rats. Homeowners often describe it as "running."</li>
@@ -65,19 +65,19 @@ const BLOG_POSTS = [
 
 <p>About two weeks later, the smell starts.</p>
 
-<p>What happened is straightforward. The adult was a nursing mother, and her four-to-five pups were inside the attic, nested behind insulation. Once the entry was sealed, the mother could not return to feed them. The pups starved over a few days, died in the nest, and decomposition began. Blowflies arrive within 24-48 hours of death and lay eggs that hatch into maggot infestations. Within a week, the smell penetrates ceiling drywall.</p>
+<p>The adult was a nursing mother. Her four-to-five pups were already inside the attic, nested behind insulation. Once the entry was sealed, the mother couldn't get back in to feed them. The pups starved over a few days, died in the nest, and decomposition started. Blowflies show up within 24-48 hours of death and lay eggs that hatch into maggot infestations. Within a week the smell is coming through the ceiling drywall into the bedroom below.</p>
 
-<p>Now the job is dead-animal recovery: locating the carcasses (often by following the smell through the drywall), cutting the ceiling open, removing the nest and pups, decontaminating contaminated insulation, and patching everything. Every spring. In every Atlanta-metro suburb. Including Fayetteville.</p>
+<p>So now we're doing dead-animal recovery in a Fayetteville home — locating the carcasses by following the smell through the ceiling, cutting drywall open, pulling the nest and the pups, decontaminating insulation, and patching everything back. I see this every spring across Fayetteville and the rest of the Atlanta-metro suburbs. It's the most preventable mistake in baby squirrel season, and it's also the most common.</p>
 
-<h2>The Two Safe Eviction Windows</h2>
-<p>Effective gray-squirrel exclusion in Fayetteville happens in two narrow windows each year:</p>
+<h2>The Two Safe Windows for Squirrel Removal in Fayetteville</h2>
+<p>Squirrel exclusion only really works in two narrow windows each year:</p>
 <ul>
-  <li><strong>Late May through early June</strong> — after first-litter pups have dispersed. By that point the young squirrels are out moving on their own. One-way doors deployed during this window let any remaining squirrels exit and prevent re-entry; structural exclusion follows.</li>
+  <li><strong>Late May through early June</strong> — after first-litter pups have dispersed. By that point the young squirrels are out moving on their own. One-way doors go in during this window, and structural sealing follows once we've confirmed everyone is out.</li>
   <li><strong>Late October through November</strong> — after second-litter pups have dispersed.</li>
 </ul>
-<p>Inspections and entry-point identification can happen any time of year — and that's what we usually do during kit season. We map every viable entry on the property, document the active entry, and schedule the actual exclusion work for the next safe window. That way the homeowner is not waiting blind, and we have a complete plan ready to deploy the moment the window opens.</p>
+<p>Inspection and entry-point identification can happen any time. That's what we usually do during kit season — get out to the Fayetteville property, map every viable entry, document the active one, and put the actual exclusion work on the calendar for the next safe window. Homeowner isn't waiting blind, and we've got a plan ready to go the day the window opens.</p>
 
-<p>The other thing we do during kit season is check the property for chewed wiring. We want to know what we are dealing with before pups emerge — not after.</p>
+<p>The other thing we do during kit season is check the property for chewed wiring. I'd rather know about chewed Romex before pups emerge than find it after.</p>
 
 <h2>Chewed Wires — The Real Hidden Risk</h2>
 <p>Squirrels chew wires reflexively. They aren't targeting the wiring — they're filing their incisors, which grow continuously. But Romex is right there, and they cannot tell the difference between wire jackets and structural wood.</p>
@@ -91,10 +91,10 @@ const BLOG_POSTS = [
 
 <p>Same-day inspections are usually available across Fayetteville, Peachtree City, Tyrone, and the rest of Fayette County. If you'd like to see how we handle the work, here's our <a href="/georgia/fayette-county/fayetteville/squirrel-removal/">Fayetteville squirrel removal page</a> and the broader <a href="/georgia/fayette-county/squirrel-removal/">Fayette County squirrel work hub</a>. For another seasonal-timing read, our <a href="/blog/bats-in-douglasville-ga/">Douglasville bat exclusion guide</a> covers the same calendar logic for a different species.</p>
 
-<h2>The Bottom Line on Baby Squirrel Season</h2>
-<p>After 11 years of squirrel work, the lesson is the same one I give every Fayetteville homeowner who calls during the spring rush: do not seal the entry yet. Inspect now, plan now, and do the actual exclusion in the right window. Squirrels are removable, attics are repairable, chewed wires can be replaced. Pups starving in your wall void is the one outcome we cannot undo.</p>
+<h2>What I Tell Every Fayetteville Homeowner Who Calls During Baby Squirrel Season</h2>
+<p>Eleven years in, the message hasn't changed: do not seal the entry yet. Get an inspection, get a plan, and do the actual exclusion in the right window. We can pull squirrels out of an attic. We can repair the attic. We can replace chewed wiring. The one thing we can't undo is pups starving inside your wall.</p>
 
-<p>If you've got squirrels in your Fayetteville attic, call <strong>(844) 544-3498</strong> and we'll get an inspection on the calendar.</p>
+<p>If you've got squirrels in your Fayetteville attic — or you think you might — call <strong>(844) 544-3498</strong> and we'll get out there.</p>
 
 <p>— Justin McCalvin, Local Wildlife Experts</p>
 `
