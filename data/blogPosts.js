@@ -121,6 +121,11 @@ const BLOG_POSTS = [
 
 <p>This post is the version of the bat conversation I have with homeowners who call us. There are a lot of bad articles online about how to "get rid of bats," and most of them are wrong in ways that can make the situation worse. Below is the licensed-contractor version: how bats actually get into Douglasville homes, why timing is the single biggest variable, and what proper exclusion looks like.</p>
 
+<figure style="margin:28px 0;">
+  <img src="/images/big-brown-bat-douglasville.jpg" alt="Big brown bat (Eptesicus fuscus) safely handled with a leather work glove during a Douglasville bat exclusion job — wings fully extended, showing the species' forearm structure" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
+  <figcaption style="font-size:0.88rem;color:#6b7280;margin-top:10px;text-align:center;font-style:italic;line-height:1.5;">A big brown bat (<em>Eptesicus fuscus</em>) from a recent Douglasville bat removal — handled with proper leather protective gloves and released to suitable wild habitat once the colony had been excluded from the homeowner's structure.</figcaption>
+</figure>
+
 <h2>Why Douglasville Has More Bats Than You'd Think</h2>
 <p>Two things drive nearly every bat call I run in Douglasville.</p>
 
