@@ -12,6 +12,85 @@
 
 const BLOG_POSTS = [
   {
+    slug: 'armadillos-in-newnan-ga',
+    title: 'Armadillos in Newnan, GA — A Wildlife Pro\'s Field Guide',
+    metaTitle: 'Armadillos in Newnan, GA — North Georgia Wildlife Pro\'s Guide',
+    metaDescription: 'A north Georgia wildlife pro on armadillos in Newnan — why they\'re here, the lawn damage, the leprosy risk, and what proper armadillo removal looks like.',
+    excerpt: 'Armadillos showed up in Newnan over the past decade. Now they\'re firmly established. Here\'s what to know about the lawn damage, the leprosy risk, and why DIY armadillo removal almost always fails.',
+    datePublished: '2026-05-04',
+    dateModified: '2026-05-04',
+    author: 'Justin McCalvin',
+    authorBio: 'Justin McCalvin works with Local Wildlife Experts, a family-run wildlife removal company that covers all of north Georgia. He has spent 11 years in the field and is licensed under Georgia DNR Wildlife Resources Division.',
+    category: 'Wildlife Removal',
+    tags: ['armadillo', 'newnan', 'coweta county', 'georgia', 'lawn damage', 'leprosy', 'nine-banded armadillo'],
+    body: `
+<p class="lead">Armadillos weren't part of the Newnan job mix when I started in this work. They've shown up in the past decade. In 11 years across north Georgia, I've watched the nine-banded armadillo (<em>Dasypus novemcinctus</em>) push steadily northward into Coweta and the surrounding suburban-and-rural counties — and Newnan is now firmly inside the established range. If you're a Newnan homeowner staring at strange cone-shaped holes in your lawn, or you've noticed your foundation plantings rooted up overnight, there's a very good chance an armadillo is the cause. This is the licensed-contractor version of what's happening, what to do about it, and why DIY armadillo removal almost always fails.</p>
+
+<h2>Why Armadillos Showed Up in Newnan in the Last Decade</h2>
+<p>Nine-banded armadillos are not native to Georgia. Their historical range was Mexico, Central America, and the southwestern United States. They began expanding northward through Texas in the early 1900s, hit Louisiana and Alabama by mid-century, and started moving into south Georgia in the 1970s and 1980s. Over the past two decades they've worked their way through the Atlanta metro suburbs.</p>
+
+<p>A few things drove the expansion. Georgia's relatively mild winters let armadillos establish — they don't tolerate sustained hard freezes well, but the freezes that historically wiped out a population are now rare in this part of the state. The state's high earthworm and grub densities give them an unlimited food supply. The combination of suburban irrigated lawns and rural-residential pasture and woodland edges creates ideal habitat. Newnan and Coweta County in general — sitting in the southern metro Atlanta exurban arc with a mix of pre-1860 historic-housing yards, 1990s-2010s I-85 corridor subdivisions, and rural-edge acreage — have been a particularly good fit for the species.</p>
+
+<p>The result: armadillo calls in Newnan have gone from rare to routine in the past decade.</p>
+
+<h2>How to Identify an Armadillo Problem (vs. Moles, Groundhogs, or Skunks)</h2>
+<p>Armadillo damage looks different from the other species that produce lawn damage:</p>
+<ul>
+  <li><strong>Shallow cone-shaped divots, 4-6 inches across and 2-3 inches deep</strong> — the armadillo signature, scattered across a lawn or flowerbed in random patterns. They dig these while hunting grubs and earthworms by smell.</li>
+  <li><strong>Foundation plantings disrupted</strong> — armadillos root up shallow ornamental plantings while hunting. Rose beds, hosta beds, and azalea borders are common targets in Newnan historic-district yards.</li>
+  <li><strong>Burrow entrances 7-10 inches across</strong> — usually angled into a slope or under a structure. Armadillos prefer to den under decks, sheds, and porches.</li>
+  <li><strong>Tracks</strong> — a distinct three-toed front print and four-toed rear print, with claw marks visible in soft soil.</li>
+</ul>
+<p>Compare to other species: <strong>moles</strong> produce raised surface tunnels, not cone-shaped divots. <strong>Groundhogs</strong> dig single large burrow systems with multiple entrances under structures, and they're diurnal — visible during the day. <strong>Skunks</strong> dig cone-shaped divots too, but smaller (1-3 inches) and usually concentrated rather than scattered. If the pattern is widespread and scattered and the divots are 4-6 inches across, it's almost certainly armadillo.</p>
+
+<h2>The Leprosy Thing — Yes, It's Real</h2>
+<p>Nine-banded armadillos are the <strong>only known non-human reservoir of <em>Mycobacterium leprae</em></strong>, the bacterium that causes leprosy (Hansen's disease). The CDC has documented zoonotic transmission cases in the southern United States, primarily in Texas, Louisiana, and Florida. As the species expands northward, the geographic risk profile expands with it.</p>
+
+<p>For Newnan homeowners, the practical implications:</p>
+<ul>
+  <li><strong>Don't handle armadillos with bare hands.</strong> Use thick leather gloves at minimum, and never grab one that appears injured or unusually slow.</li>
+  <li><strong>Don't eat armadillo meat</strong> — some hunters in the southern U.S. still do, and it's been documented as a transmission route.</li>
+  <li><strong>Pet exposure is generally low-risk</strong> — domestic dogs and cats engaging an armadillo aren't typically infected because the transmission requires sustained contact, but a bite from an armadillo to a pet should still be evaluated by a veterinarian.</li>
+</ul>
+<p>The actual transmission risk to a typical Newnan homeowner who calls a contractor is essentially zero — but it's why we wear PPE on every armadillo job, and why DIY armadillo removal isn't recommended.</p>
+
+<h2>Why DIY Armadillo Removal Almost Always Fails</h2>
+<p>Most "armadillo solutions" sold at hardware stores don't work. Specifically:</p>
+<ul>
+  <li><strong>Repellents</strong> (mothballs, ammonia, predator-urine products, ultrasonic devices) have no proven efficacy in independent testing. Some homeowners report short-term improvement, but armadillos resume normal foraging within days.</li>
+  <li><strong>Filling the burrow</strong> doesn't help — armadillos just dig a new one. Without trapping, the underlying population doesn't change.</li>
+  <li><strong>Box-store live traps</strong> work, but only with armadillo-specific placement. Funnel-style barriers (logs, boards, or temporary fencing) along the run are essential to direct movement into the trap. Most homeowners place traps without barriers and catch nothing.</li>
+  <li><strong>"Just leaving them alone"</strong> — armadillos return to productive feeding areas night after night until the food source is depleted. On Newnan's irrigated lawns and watered foundation plantings, that doesn't happen on any useful timeline.</li>
+</ul>
+<p>Effective armadillo control combines targeted live trapping with grub-population management plus hardware-cloth burial-grade exclusion around vulnerable structures.</p>
+
+<h2>What Proper Armadillo Control Looks Like in Newnan</h2>
+<p>A standard Newnan armadillo job runs through this sequence:</p>
+
+<p><strong>Inspection.</strong> I walk the property identifying active burrows (often under decks, sheds, or porches), the divot-damage zones, and the runs the armadillo uses between cover and feeding areas. Armadillos are creatures of routine — they tend to use the same paths every night.</p>
+
+<p><strong>Live trapping.</strong> Armadillo-specific live traps deployed along the runs, with funnel-style barriers (logs, boards, or temporary fencing) directing movement into the trap. Standard residential armadillo trapping runs 3-7 days for a single resident animal, longer for multi-armadillo properties.</p>
+
+<p><strong>Hardware-cloth burial-grade exclusion.</strong> Around any vulnerable structure (deck, shed, porch foundation), buried at least 12 inches deep with an outward-facing apron at the bottom. Surface-only fencing fails because armadillos dig under it readily.</p>
+
+<p><strong>Grub-population management.</strong> Without addressing the food source, more armadillos move in to fill the niche. Seasonal grub-control treatment in spring and fall is part of an integrated long-term approach.</p>
+
+<p>Standard Newnan armadillo jobs run $300-$800+ for trapping and removal. Burial-grade exclusion adds $300-$1,000+. Multi-armadillo or multi-property situations run higher. Each contractor provides property-specific estimates.</p>
+
+<h2>When to Call</h2>
+<p>Call us when you're seeing scattered cone-shaped divots across your Newnan lawn, foundation plantings disrupted overnight, visible burrows under decks or sheds, or pet-exposure incidents involving an armadillo. Same-day inspections are usually available across Newnan, Senoia, Sharpsburg, Grantville, and the rest of Coweta County.</p>
+
+<p>If you'd like to see how we handle the work, here's our <a href="/georgia/coweta-county/newnan/">Newnan wildlife coverage</a> and the broader <a href="/georgia/coweta-county/">Coweta County wildlife services hub</a>. For another seasonal-timing read on a different species, our <a href="/blog/baby-squirrel-season-fayetteville-ga/">Fayetteville baby squirrel guide</a> covers similar calendar logic for the spring squirrel rush.</p>
+
+<h2>The Bottom Line on Armadillos in Newnan</h2>
+<p>Eleven years in, the armadillo problem in north Georgia has gone from a curiosity I read about to a routine call type. Coweta County and Newnan in particular have been on the leading edge of the species' northward push, and that's not reversing. If your lawn looks like somebody took a coring tool to it overnight, or your hostas got rooted out of the bed last week, you've probably got an armadillo.</p>
+
+<p>Call <strong>(844) 544-3498</strong> and we'll come take a look.</p>
+
+<p>— Justin McCalvin, Local Wildlife Experts</p>
+`
+  },
+  {
     slug: 'baby-squirrel-season-fayetteville-ga',
     title: 'Baby Squirrel Season in Fayetteville, GA — A Wildlife Pro\'s Guide',
     metaTitle: 'Baby Squirrels in Fayetteville GA — Spring Attic Guide',
