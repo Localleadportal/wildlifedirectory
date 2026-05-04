@@ -1150,6 +1150,102 @@ function georgiaContent(countyName, county, s) {
       }
     ];
 
+  } else if (countyName === 'Douglas County') {
+    blockA = `Douglas County sits in the western metropolitan Atlanta suburban arc, about 25 miles west of downtown along the I-20 corridor, with the Chattahoochee River forming its eastern boundary and Sweetwater Creek cutting through the county center. With a population of ${county.population.toLocaleString()} residents, Douglas runs from the I-20 corridor and Douglasville's historic downtown south through Sweetwater Creek State Park to the Carroll County line, and includes Lithia Springs, the Douglas portions of Austell and Villa Rica, plus the smaller Winston and Mount Carmel CDPs. Established in ${county.established}, Douglas is predominantly a middle-class suburban county with housing stock dominated by 1980s-2010s subdivisions, a smaller pre-WWII inventory concentrated in Douglasville's Historic Downtown, and significant wooded acreage anchored by Sweetwater Creek State Park.`;
+    blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across Douglas's suburban canopy, with twin breeding-cycle peaks in February-March and August-September. Virginia opossums shelter under decks and porches across the older Historic Downtown Douglasville housing and the 1980s-1990s subdivision stock. Striped skunks are persistent under sheds and crawl spaces in the wooded subdivisions along the Sweetwater corridor, and snake calls — primarily eastern rat snakes and the occasional copperhead — concentrate around the wooded properties along Sweetwater Creek, Annewakee Creek, and the Chattahoochee edge. ${cap(county.absent_or_rare)}.`;
+    blockC = `Coverage spans all of Douglas County including ${top4cities}, plus Winston and Mount Carmel and the unincorporated subdivisions across Mirror Lake, Tributary, Chapel Hill, Anneewakee Forest, Stewart Mill Estates, and the New Manchester area. The county's mix of Historic Downtown Douglasville pre-WWII housing, dense 1980s-2010s I-20 corridor subdivisions, the wooded Sweetwater Creek State Park edge, and the Chattahoochee River corridor — combined with the year-round wildlife activity that defines metro Atlanta — means contractors here handle a continuous mix of suburban roof-rat exclusion, raccoon kit-season chimney work, and steady gray squirrel attic intrusions.`;
+    metaTitle = `Douglas County Wildlife Removal — Douglasville, Lithia Springs GA`;
+    metaDescription = `Licensed wildlife removal in Douglas County, GA — Douglasville, Lithia Springs, Austell, Villa Rica & Winston. Sweetwater Creek coverage. Same-day service.`;
+
+    geo = { lat: 33.7515, lon: -84.7677 };
+    sameAs = [
+      'https://en.wikipedia.org/wiki/Douglas_County,_Georgia',
+    ];
+
+    neighboringCounties = [
+      { name: 'Cobb County',     slug: 'cobb-county',     anchor: 'Cobb County wildlife removal',        blurb: 'directly to the north' },
+      { name: 'Fulton County',   slug: 'fulton-county',   anchor: 'Fulton County wildlife services',     blurb: 'to the east, across the Chattahoochee River' },
+      { name: 'Carroll County',  slug: 'carroll-county',  anchor: 'Carroll County animal removal',       blurb: 'to the west' },
+      { name: 'Coweta County',   slug: 'coweta-county',   anchor: 'Coweta County wildlife removal',      blurb: 'to the south' },
+      { name: 'Paulding County', slug: 'paulding-county', anchor: 'Wildlife removal in Paulding County', blurb: 'to the northwest' },
+    ];
+
+    extendedBody = `
+      <h2>Douglas County's Geography Shapes Wildlife Activity</h2>
+      <p>Douglas sits in the rolling Piedmont uplands of west-metro Atlanta, hemmed in by the <strong>Chattahoochee River</strong> along its eastern boundary against Fulton County and traversed by <strong>Sweetwater Creek</strong>, which cuts diagonally through the county on its way to the Chattahoochee. <strong>Sweetwater Creek State Park</strong> — the 2,500+ acre state park surrounding the New Manchester Mill ruins — is the county's signature natural feature and functions as the dominant regional wildlife corridor. Additional creek systems (<strong>Dog River</strong> and <strong>Dog River Reservoir</strong>, <strong>Annewakee Creek</strong>, and <strong>Bear Creek</strong>) reinforce wildlife travel routes throughout the county.</p>
+      <p>The <strong>I-20 corridor</strong> bisects the county east-to-west and drives the residential-development pattern: 1980s-2010s subdivisions cluster along the corridor between Lithia Springs and the Carroll County line, with the Mirror Lake, Tributary, Chapel Hill, and Anneewakee Forest neighborhoods filling the spaces between Sweetwater Creek State Park and the Chattahoochee. Douglasville's Historic Downtown anchors the older housing stock — the only substantial pre-WWII inventory in the county — while Stewart Mill Estates, New Manchester, and the smaller CDPs of Winston and Mount Carmel round out the residential landscape.</p>
+
+      <h2>Wildlife Species Present in Douglas County</h2>
+      <p>Douglas residents most frequently call about animals that have moved from the Sweetwater Creek corridor, the Chattahoochee edge, or the wooded subdivision interiors into residential structures:</p>
+      <ul class="tips-list">
+        <li><strong>Raccoons</strong> — heaviest densities along Sweetwater Creek and the Chattahoochee corridor; female raccoons whelp in suburban attics and the older Historic Downtown chimneys February through April every year</li>
+        <li><strong>Eastern gray squirrels</strong> — constant across Douglas's mature suburban canopy, with twin breeding-cycle peaks (February-March, August-September)</li>
+        <li><strong>Roof rats</strong> — establishing in 2000s-era I-20 corridor subdivisions; younger establishment than Fulton because of less commercial density</li>
+        <li><strong>Norway rats</strong> — concentrated in the older Historic Downtown Douglasville commercial blocks and around aging municipal infrastructure in Lithia Springs</li>
+        <li><strong>Big brown bats</strong> — colonies in pre-WWII Historic Downtown Douglasville chimneys; smaller-colony presence in 1990s-era housing chimney chases</li>
+        <li><strong>Evening bats</strong> in older Historic Downtown housing</li>
+        <li><strong>Tricolored bats</strong> (federally proposed for listing) along the Chattahoochee corridor</li>
+        <li><strong>Virginia opossums</strong>, <strong>striped skunks</strong>, <strong>armadillos</strong> (encroaching from Carroll County), <strong>groundhogs</strong></li>
+        <li><strong>Coyotes</strong> — firmly established along Sweetwater Creek and the Chattahoochee corridor; routine across the county</li>
+        <li>Snakes encountered residentially are dominated by the <strong>eastern rat snake</strong> with the occasional <strong>northern copperhead</strong>; <strong>brown watersnakes</strong> along Sweetwater Creek and the Chattahoochee</li>
+      </ul>
+
+      <h2>Common Wildlife Issues That Define the Douglas Job Mix</h2>
+      <p>Several patterns in Douglas's call volume are distinctive enough to call out:</p>
+
+      <h3>Sweetwater Creek State Park edge raccoon and opossum dispersal</h3>
+      <p>The 2,500+ acre Sweetwater Creek State Park sustains one of west-metro Atlanta's largest residential wildlife source populations. The Mirror Lake, Tributary, and New Manchester subdivisions adjacent to the park boundary take continuous fall dispersal pressure (September-November) and steady year-round raccoon and opossum activity. Properties within a half-mile of the park boundary frequently need wider-perimeter exclusion than typical Douglas suburban work.</p>
+
+      <h3>I-20 corridor 2000s-subdivision roof rat establishment</h3>
+      <p>The 1990s-2010s subdivision growth along I-20 between Lithia Springs and the Carroll County line occurred during exactly the period when roof rats moved up the I-20 and I-285 corridors from peninsular Florida and metro Atlanta. The result is now-mature subdivision canopy connected by overhead utility runs — exactly the infrastructure roof rats need. Establishment here is younger than Fulton's, but the trajectory is similar: ceiling-cavity activity through soffit-corner chew-throughs and chase-cap gaps.</p>
+
+      <h3>Historic Downtown Douglasville pre-WWII bat and raccoon work</h3>
+      <p>The pre-WWII housing concentrated in Historic Downtown Douglasville — the only substantial pre-1940 inventory in Douglas — produces a small but distinct submarket of multi-entry historic-attic work. Original masonry chimneys, hand-laid brick foundations, and original wood soffits all support multi-decade raccoon and bat use. The historic-downtown block is far smaller than Marietta or Cartersville's, but the structural patterns match.</p>
+
+      <h3>Coyote management along Sweetwater and the Chattahoochee</h3>
+      <p>Coyote sightings are now routine in subdivisions backing up to Sweetwater Creek State Park, the Annewakee Creek corridor, and the Chattahoochee edge. Most calls are driven by missing cats, daytime sightings near schools in Mirror Lake and Chapel Hill, and den activity in stormwater easements. Resolutions typically combine hazing, food-source removal, and den-site disturbance.</p>
+
+      <h2>Federally Protected Species in Douglas's Watersheds</h2>
+      <p>The <strong>tricolored bat</strong> (<em>Perimyotis subflavus</em>) is federally proposed for listing under the Endangered Species Act and appears along the Chattahoochee corridor; any encounter requires careful protocol. <strong>Bald eagles</strong> remain protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act and occasionally appear along the Chattahoochee. <strong>Migratory birds</strong> including hawks, owls, and woodpeckers are protected under the Migratory Bird Treaty Act and require federal permits for any active take.</p>
+
+      <h2>Local Authorities and Regulations</h2>
+      <p>Public-health authority for Douglas County rabies-vector exposure runs through the <strong>West Central Health District</strong>; <strong>Douglas County Animal Services</strong> handles domestic-animal complaints but does not respond to most nuisance wildlife. Sweetwater Creek State Park is administered by the <strong>Georgia State Parks division of Georgia DNR</strong>, and any wildlife-related work within the park boundary coordinates through that authority. Commercial wildlife removal in Georgia operates under <strong>Georgia DNR Wildlife Resources Division Region 1</strong> (Armuchee office). Federal protections apply to bats during maternity periods (May-August exclusion restrictions), all migratory birds, and the federally proposed tricolored bat. Every contractor in this directory operating in Douglas County holds the applicable state and federal credentials.`;
+
+    faqs = [
+      {
+        q: 'What wildlife is most common in Douglas County, Georgia?',
+        a: 'In residential calls across Douglas County, eastern gray squirrels, raccoons, Virginia opossums, and big brown bats make up the bulk of attic and yard intrusions. Roof rats are establishing in the 2000s-era I-20 corridor subdivisions; Norway rats remain concentrated in the older Historic Downtown Douglasville commercial blocks. Coyotes are firmly established along the Sweetwater Creek and Chattahoochee corridors. Armadillos are encroaching from Carroll County and now turn up routinely in western Douglas yards. Snake calls — primarily eastern rat snakes and the occasional copperhead — concentrate along Sweetwater Creek, Annewakee Creek, and the Chattahoochee edge.'
+      },
+      {
+        q: 'Why do Sweetwater Creek State Park properties see heavier wildlife pressure?',
+        a: 'The 2,500+ acre Sweetwater Creek State Park sustains one of west-metro Atlanta\'s largest residential wildlife source populations — raccoons, opossums, gray squirrels, bats, skunks, and snakes all use the park\'s wooded watershed as continuous habitat. Adjacent Mirror Lake, Tributary, and New Manchester subdivisions take continuous fall dispersal pressure (September-November) and steady year-round activity. Properties within a half-mile of the park boundary frequently need wider-perimeter exclusion plans rather than standard single-property treatment because the surrounding source population fills any sealed entry point within weeks.'
+      },
+      {
+        q: 'Is roof rat pressure new to Douglas County?',
+        a: 'Relatively. Roof rats moved up the I-20 and I-285 corridors during the 2000s-2010s and are now establishing in the I-20 corridor subdivisions between Lithia Springs and the Carroll County line. Establishment here is younger than in Fulton or Cobb because Douglas has less commercial-corridor density to sustain mature populations. Properties are seeing roof rat presence for the first time, often without homeowners recognizing the species — they assume the activity is squirrels. Diagnostic: pointed half-inch droppings (not blunt 3/4-inch Norway droppings) and overhead activity in attics and ceiling cavities.'
+      },
+      {
+        q: 'When can I evict raccoons from my Douglas County attic?',
+        a: 'Female raccoons in Douglas County whelp late February through early May, and kits are immobile and dependent until roughly 8-10 weeks of age. Performing exclusion during that window risks separating mother from kits and trapping kits inside the structure — a guaranteed dead-animal callback within 1-2 weeks. Right approach during kit season is one-way doors that let the family exit but not re-enter, deployed once kits are mobile. Inspections and entry-point identification can happen any time of year. Sweetwater Creek-adjacent properties may need wider perimeter exclusion than typical because of the continuous source-population pressure from the state park.'
+      },
+      {
+        q: 'Are coyotes a problem in Douglasville and the Mirror Lake area?',
+        a: 'Yes — coyote sightings are now routine in Douglas subdivisions backing up to Sweetwater Creek State Park, the Annewakee Creek corridor, and the Chattahoochee edge. Mirror Lake, Chapel Hill, and Tributary all report regular activity. Most calls are driven by missing cats, daytime sightings near schools, and den activity in stormwater easements. Resolutions typically combine hazing, removing food sources (pet food left out, accessible trash, fallen fruit), and disrupting den sites rather than lethal control. A licensed contractor can also work the food-source side of the problem at neighboring properties.'
+      },
+      {
+        q: 'What are the legal restrictions on bat removal in Douglas County?',
+        a: 'Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — typically May through August — when non-flying pups are present and would be trapped inside the structure to die if exclusion went forward. All bat exclusion in Georgia must use one-way valves, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations. Tricolored bat encounters along the Chattahoochee corridor carry additional federal-status concerns because the species is proposed for ESA listing. Douglas contractors hold the required Georgia DNR Region 1 licensing and follow the legal April or September-October exclusion calendar.'
+      },
+      {
+        q: 'How much does wildlife removal cost in Douglas County?',
+        a: 'Pricing varies by species and exclusion scope. Suburban subdivision raccoon jobs (Mirror Lake, Tributary, Chapel Hill 1990s-2010s housing) typically run $400-$1,200+. Roof rat work in I-20 corridor subdivisions runs $400-$1,000+. Historic Downtown Douglasville pre-WWII multi-entry raccoon and bat work runs $700-$1,800+. Long-established bat colony remediation in older chimneys can run $2,000-$4,000+ once full guano removal is included. Multi-structure jobs on rural and semi-rural Douglas properties (main house plus barns or outbuildings) run higher. The variable is exclusion scope and remediation, not trapping itself. A Douglas-licensed contractor will quote the property-specific cost during inspection.'
+      },
+      {
+        q: 'Are there protected species in Douglas County I should be aware of?',
+        a: 'Yes. The federally proposed tricolored bat (Perimyotis subflavus) appears along the Chattahoochee corridor and any encounter requires careful protocol because of the federal status. Bald eagles are protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act. All bats are protected by Georgia DNR regulations during maternity season (May-August). Migratory birds (hawks, owls, woodpeckers, Canada geese) require federal Migratory Bird Treaty Act permits for any active take. Sweetwater Creek State Park, administered by Georgia State Parks, has its own internal wildlife protocols for any work within the park boundary.'
+      }
+    ];
+
   } else if (countyName === 'Chatham County') {
     blockA = `Chatham County sits at the mouth of the Savannah River where Georgia meets the Atlantic Ocean, anchored by the historic city of Savannah — one of the oldest and most architecturally significant cities in the American South. With a population of ${county.population.toLocaleString()}, Chatham runs from the Savannah River along its northern boundary down through the Historic District, Ardsley Park, and the inner-city neighborhoods, out to the suburban developments of Pooler and Garden City near the airport, across the islands of Wilmington, Whitemarsh, Skidaway, and Tybee, and south to the Ogeechee River boundary. Established in ${county.established} as one of the original eight Georgia counties and named for William Pitt, 1st Earl of Chatham, the county combines the 1700s-1800s historic-district housing stock under Savannah's iconic live oak canopy with Atlantic coastal salt marsh, tidal creek systems, barrier-island maritime forest, and the suburban-industrial corridor along I-95.`;
     blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across Savannah's Historic District and the older Ardsley Park / Chatham Crescent neighborhoods where mature live oaks touch rooflines, and Virginia opossums shelter under decks and porches across the older inner-city housing stock. Snake calls in Chatham are unlike anything inland Georgia counties handle — the salt marsh edge, tidal creek banks, and waterfront properties produce a steady volume of cottonmouth (water moccasin) encounters that Atlanta-metro counties never see, alongside the rat snake and copperhead calls common across the state. Striped skunks are persistent under sheds and crawl spaces in the suburban-edge subdivisions, and dead-animal calls run year-round given Chatham's near-continuous coastal wildlife activity. ${cap(county.absent_or_rare)}.`;

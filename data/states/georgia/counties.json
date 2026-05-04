@@ -280,6 +280,47 @@
       "regional_wildlife": "DeKalb has metro Atlanta's densest concentration of pre-WWII intown housing — Decatur, Druid Hills, Avondale Estates, Oakhurst, Candler Park, Kirkwood, Lake Claire, and East Atlanta — and that 1900s-1940s housing stock sustains long-established big-brown-bat maternity colonies, persistent flying squirrel colonies in the older attic spaces, and exceptional roof rat pressure feeding off the Decatur Square, Avondale Estates, East Atlanta Village, and Brookhaven Village restaurant districts. The Olmsted-designed canopy through Druid Hills and the mature oak-hickory cover across Decatur produce some of the metro's highest gray squirrel densities. Stone Mountain Park functions as a major regional wildlife source population, with raccoons, gray squirrels, and bats dispersing into surrounding Tucker and Stone Mountain neighborhoods",
       "absent_or_rare": "white-tailed deer are abundant in Stone Mountain Park and the wooded edges of Tucker and Stonecrest, urban coyotes are firmly established in Druid Hills, Decatur, and along the South Fork Peachtree Creek corridor, the federally proposed-for-listing tricolored bat is documented in the Stone Mountain and Arabia Mountain area, and the occasional black bear passes through the Stone Mountain ridgeline"
     },
+    "Douglas County": {
+      "county_seat": "Douglasville",
+      "population": 144237,
+      "established": 1870,
+      "region": "the western metropolitan Atlanta suburban arc, about 25 miles west of downtown Atlanta along the I-20 corridor, with the Chattahoochee River along its eastern boundary and Sweetwater Creek cutting through the county",
+      "largest_cities": [
+        "Douglasville",
+        "Lithia Springs",
+        "Austell",
+        "Villa Rica",
+        "Winston",
+        "Mount Carmel"
+      ],
+      "nearest_metro": "Atlanta (downtown is about 25 miles east of Douglasville via I-20)",
+      "natural_features": [
+        "Sweetwater Creek and Sweetwater Creek State Park",
+        "Chattahoochee River (eastern boundary)",
+        "Dog River and Dog River Reservoir",
+        "Annewakee Creek",
+        "Bear Creek",
+        "I-20 corridor",
+        "New Manchester Mill ruins (within Sweetwater Creek State Park)"
+      ],
+      "habitat_type": "Piedmont upland transitioning toward the western Georgia foothills, with the Sweetwater Creek corridor and Sweetwater Creek State Park anchoring a major wildlife travel route, the Chattahoochee River along the eastern boundary, the Dog River reservoir watershed, and a residential housing stock dominated by 1980s-2010s suburban subdivisions along the I-20 corridor with a smaller pre-WWII inventory in Douglasville's historic downtown",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Virginia opossums",
+        "roof rats",
+        "Norway rats",
+        "big brown bats",
+        "evening bats",
+        "tricolored bats (federally proposed for listing)",
+        "striped skunks",
+        "armadillos",
+        "groundhogs",
+        "snakes (rat snakes, copperheads)"
+      ],
+      "regional_wildlife": "Douglas County's wildlife pressure runs through the Sweetwater Creek and Chattahoochee corridors more than through any historic-housing concentration. Sweetwater Creek State Park and the surrounding wooded watershed sustain a continuous year-round source population of raccoons, opossums, and bats that disperses outward into adjacent Mirror Lake, Tributary, and New Manchester-area subdivisions. Roof rats moved into 2000s-era I-20 corridor subdivisions during the 2010s — a younger Norway rat establishment than Fulton because Douglas has far less commercial-corridor density. Eastern gray squirrels drive constant call volume from suburban canopy across Chapel Hill, Mirror Lake, Tributary, and Stewart Mill Estates. Coyotes are firmly established along the Sweetwater and Chattahoochee corridors. Armadillos are encroaching from the Carroll County direction and now turn up routinely in western Douglas yards",
+      "absent_or_rare": "white-tailed deer are abundant along the Sweetwater Creek corridor and Chattahoochee edge, coyotes are routine across the county and increasingly bold in suburban subdivisions, the federally proposed tricolored bat appears along the Chattahoochee corridor, and federally protected migratory bird species (hawks, owls, woodpeckers) are present throughout the county under Migratory Bird Treaty Act protocols"
+    },
     "Chatham County": {
       "county_seat": "Savannah",
       "population": 303025,
