@@ -28,6 +28,11 @@ const BLOG_POSTS = [
 
 <p>I've been doing wildlife work around Fayette County for 11 years. Local Wildlife Experts is our family business, and from February through May — then again August through October — squirrel calls fill the schedule. What you do in the next few days after you start hearing them matters. A lot of homeowners get it wrong, and it costs them.</p>
 
+<figure style="margin:28px 0;">
+  <img src="/images/baby-squirrels-fayetteville.jpg" alt="Two juvenile Eastern gray squirrels safely caught in a humane live trap during baby squirrel season — Local Wildlife Experts removal in Fayetteville, GA" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
+  <figcaption style="font-size:0.88rem;color:#6b7280;margin-top:10px;text-align:center;font-style:italic;line-height:1.5;">Two juvenile Eastern gray squirrels (<em>Sciurus carolinensis</em>) in a humane live trap from a Fayetteville baby squirrel removal — both released back to suitable wild habitat once the family was safely excluded from the homeowner's attic.</figcaption>
+</figure>
+
 <h2>Why Fayetteville Has More Squirrels Than You Notice</h2>
 <p>Fayetteville's residential canopy is one of the most mature in south-metro Atlanta. The pre-1900 historic-downtown blocks around the <strong>Fayette County Courthouse</strong> have housing stock with original soffits, gable louvers without screen backing, and oak-hickory canopy that has been growing for 80-plus years. The mid-century neighborhoods between downtown and the South Fayette schools follow a similar pattern at smaller scale. Even newer subdivisions on Fayetteville's northern and eastern edges have reached canopy maturity that supports continuous gray squirrel populations.</p>
 
