@@ -495,6 +495,7 @@ function georgiaContent(countyName, county, s) {
       { name: 'Cherokee County', slug: 'cherokee-county', anchor: 'Cherokee County animal removal',      blurb: 'to the north' },
       { name: 'Forsyth County',  slug: 'forsyth-county',  anchor: 'Forsyth County wildlife removal',     blurb: 'to the northeast' },
       { name: 'Clayton County',  slug: 'clayton-county',  anchor: 'Wildlife removal in Clayton County',  blurb: 'to the south' },
+      { name: 'Douglas County',  slug: 'douglas-county',  anchor: 'Douglas County wildlife removal',     blurb: 'to the southwest, across the Chattahoochee River' },
     ];
 
     extendedBody = `
@@ -787,6 +788,7 @@ function georgiaContent(countyName, county, s) {
 
     neighboringCounties = [
       { name: 'Fulton County',     slug: 'fulton-county',     anchor: 'Fulton County wildlife removal',      blurb: 'directly to the north' },
+      { name: 'Douglas County',    slug: 'douglas-county',    anchor: 'Douglas County wildlife services',    blurb: 'to the northwest' },
       { name: 'Fayette County',    slug: 'fayette-county',    anchor: 'Fayette County wildlife services',    blurb: 'to the east' },
       { name: 'Carroll County',    slug: 'carroll-county',    anchor: 'Carroll County animal removal',       blurb: 'to the west' },
       { name: 'Heard County',      slug: 'heard-county',      anchor: 'Heard County wildlife removal',       blurb: 'to the southwest' },
