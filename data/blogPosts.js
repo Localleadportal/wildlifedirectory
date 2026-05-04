@@ -20,13 +20,13 @@ const BLOG_POSTS = [
     datePublished: '2026-05-03',
     dateModified: '2026-05-03',
     author: 'Justin McCalvin',
-    authorBio: 'Justin McCalvin works with Local Wildlife Experts, a family-run wildlife removal company that has served Fayette County and the broader west and south Atlanta metro for over a decade. He has spent 11 years in the field and is licensed under Georgia DNR Wildlife Resources Division.',
+    authorBio: 'Justin McCalvin works with Local Wildlife Experts, a family-run wildlife removal company that covers all of north Georgia. He has spent 11 years in the field and is licensed under Georgia DNR Wildlife Resources Division.',
     category: 'Squirrel Removal',
     tags: ['squirrel', 'baby squirrels', 'fayetteville', 'fayette county', 'georgia', 'attic', 'exclusion', 'eastern gray squirrel', 'spring'],
     body: `
 <p class="lead">Every February my phone starts ringing in Fayetteville. About mid-month, homeowners start hearing the same thing — fast, light running across the ceiling in the late afternoon, plus a sound like somebody up there with a Dremel. That's Eastern gray squirrels (<em>Sciurus carolinensis</em>) settling into nest sites. A few weeks after that, somebody's got pups born above their bedroom.</p>
 
-<p>I've been doing wildlife work around Fayette County for 11 years. Local Wildlife Experts is our family business, and from February through May — then again August through October — squirrel calls fill the schedule. What you do in the next few days after you start hearing them matters. A lot of homeowners get it wrong, and it costs them.</p>
+<p>I've been doing wildlife work across north Georgia for 11 years, and Fayette County is part of that coverage. Local Wildlife Experts is our family business, and from February through May — then again August through October — squirrel calls fill the schedule. What you do in the next few days after you start hearing them matters. A lot of homeowners get it wrong, and it costs them.</p>
 
 <figure style="margin:28px 0;">
   <img src="/images/baby-squirrels-fayetteville.jpg" alt="Two juvenile Eastern gray squirrels safely caught in a humane live trap during baby squirrel season — Local Wildlife Experts removal in Fayetteville, GA" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
@@ -113,11 +113,11 @@ const BLOG_POSTS = [
     datePublished: '2026-05-03',
     dateModified: '2026-05-03',
     author: 'Justin McCalvin',
-    authorBio: 'Justin McCalvin works with Local Wildlife Experts, a family-run wildlife removal company that has served Douglasville and Douglas County for over a decade. He has spent 11 years in the field — his first bat removal was a single bat from a home in Douglasville\'s Historic Downtown — and is licensed under Georgia DNR Wildlife Resources Division.',
+    authorBio: 'Justin McCalvin works with Local Wildlife Experts, a family-run wildlife removal company that covers all of north Georgia. He has spent 11 years in the field — his first bat removal was a single bat from a home in Douglasville\'s Historic Downtown — and is licensed under Georgia DNR Wildlife Resources Division.',
     category: 'Bat Removal',
     tags: ['bat', 'douglasville', 'douglas county', 'georgia', 'attic', 'exclusion', 'big brown bat', 'histoplasmosis'],
     body: `
-<p class="lead">The first bat I ever removed from inside a home was in Douglasville. A homeowner near Bowden Street called us about a single bat that had ended up in their living room. We caught it carefully, walked it out to the back yard, and released it into the trees. That was 11 years ago, and I've been doing wildlife work in Douglasville my whole career — Local Wildlife Experts is a family business, and Douglasville is our home turf.</p>
+<p class="lead">The first bat I ever removed from inside a home was in Douglasville. A homeowner near Bowden Street called us about a single bat that had ended up in their living room. We caught it carefully, walked it out to the back yard, and released it into the trees. That was 11 years ago. Local Wildlife Experts is a family business, and we've covered all of north Georgia ever since — Douglasville included.</p>
 
 <p>This post is the version of the bat conversation I have with homeowners who call us. There are a lot of bad articles online about how to "get rid of bats," and most of them are wrong in ways that can make the situation worse. Below is the licensed-contractor version: how bats actually get into Douglasville homes, why timing is the single biggest variable, and what proper exclusion looks like.</p>
 
