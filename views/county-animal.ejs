@@ -96,12 +96,22 @@
     "name": animal.name + " in " + countyName,
     "description": animal.shortDesc + " Serving all of " + countyName + ", " + stateName + ".",
     "url": pageUrl,
+    "telephone": "+1-844-544-3498",
+    "image": "https://www.removewildlifenow.com/images/og-default.jpg",
+    "priceRange": "$$",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": countyName + ", " + stateName
     },
     "serviceType": animal.name,
     "openingHours": "Mo-Su 00:00-23:59",
+    ...(seoEnhanced ? {
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": countyAnimalContent.geo.lat,
+        "longitude": countyAnimalContent.geo.lon
+      }
+    } : {}),
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": animal.name + " Services",
@@ -113,21 +123,52 @@
   </script>
 
   <% if (seoEnhanced) { %>
-  <!-- Service (richer, linked to LocalBusiness) -->
+  <!-- Services (animal-specific + Wildlife Removal, Animal Exclusion, Wildlife Remediation) -->
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": pageUrl + "#service",
-    "name": animal.name + " in " + countyName + ", " + stateName,
-    "serviceType": animal.name,
-    "provider": { "@id": pageUrl + "#business" },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": countyName + ", " + stateName,
-      ...(countyAnimalContent.sameAs && countyAnimalContent.sameAs.length ? { "sameAs": countyAnimalContent.sameAs } : {})
-    },
-    "description": pageDesc
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": pageUrl + "#service",
+        "name": animal.name + " in " + countyName + ", " + stateName,
+        "serviceType": animal.name,
+        "provider": { "@id": pageUrl + "#business" },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": countyName + ", " + stateName,
+          ...(countyAnimalContent.sameAs && countyAnimalContent.sameAs.length ? { "sameAs": countyAnimalContent.sameAs } : {})
+        },
+        "description": pageDesc
+      },
+      {
+        "@type": "Service",
+        "@id": pageUrl + "#service-removal",
+        "name": "Wildlife Removal in " + countyName,
+        "serviceType": "Wildlife Removal",
+        "provider": { "@id": pageUrl + "#business" },
+        "areaServed": { "@type": "AdministrativeArea", "name": countyName + ", " + stateName },
+        "description": "Trained licensed contractors safely remove raccoons, squirrels, bats, snakes, rats, and other nuisance wildlife from homes and structures across " + countyName + ", " + stateName + " using high-capture trapping and humane removal techniques."
+      },
+      {
+        "@type": "Service",
+        "@id": pageUrl + "#service-exclusion",
+        "name": "Animal Exclusion in " + countyName,
+        "serviceType": "Animal Exclusion",
+        "provider": { "@id": pageUrl + "#business" },
+        "areaServed": { "@type": "AdministrativeArea", "name": countyName + ", " + stateName },
+        "description": "Permanent structural sealing of every entry point — soffit returns, gable vents, ridge caps, chimney chases, and foundation gaps — using galvanized steel mesh and code-appropriate flashing to keep wildlife out for good. One-year guarantee."
+      },
+      {
+        "@type": "Service",
+        "@id": pageUrl + "#service-remediation",
+        "name": "Wildlife Remediation in " + countyName,
+        "serviceType": "Wildlife Remediation",
+        "provider": { "@id": pageUrl + "#business" },
+        "areaServed": { "@type": "AdministrativeArea", "name": countyName + ", " + stateName },
+        "description": "Full attic and crawlspace decontamination after wildlife removal — contaminated insulation removal, HEPA-equipped sanitization, deodorization, and damage repair to restore the affected area."
+      }
+    ]
   }) %>
   </script>
   <% } %>

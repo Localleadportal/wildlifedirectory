@@ -58,12 +58,22 @@
     "name": "Wildlife Removal in " + countyName,
     "description": "Licensed wildlife removal in " + countyName + ", " + stateName + ". Expert removal of raccoons, squirrels, bats, snakes and more. Humane methods, same-day service available.",
     "url": pageUrl,
+    "telephone": "+1-844-544-3498",
+    "image": "https://www.removewildlifenow.com/images/og-default.jpg",
+    "priceRange": "$$",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": countyName + ", " + stateName
     },
     "serviceType": "Wildlife Removal",
     "openingHours": "Mo-Su 00:00-23:59",
+    ...(seoEnhanced ? {
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": countyContent.geo.lat,
+        "longitude": countyContent.geo.lon
+      }
+    } : {}),
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Wildlife Removal Services",
@@ -106,20 +116,39 @@
   }) %>
   </script>
 
-  <!-- Service -->
+  <!-- Services (Wildlife Removal, Animal Exclusion, Wildlife Remediation) -->
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": pageUrl + "#service",
-    "name": "Wildlife Removal in " + countyName,
-    "serviceType": "Wildlife Removal",
-    "provider": { "@id": pageUrl + "#business" },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": countyName + ", " + stateName
-    },
-    "description": "Licensed nuisance wildlife removal, exclusion, and remediation throughout " + countyName + ", " + stateName + "."
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": pageUrl + "#service-removal",
+        "name": "Wildlife Removal in " + countyName,
+        "serviceType": "Wildlife Removal",
+        "provider": { "@id": pageUrl + "#business" },
+        "areaServed": { "@type": "AdministrativeArea", "name": countyName + ", " + stateName },
+        "description": "Trained licensed contractors safely remove raccoons, squirrels, bats, snakes, rats, and other nuisance wildlife from homes and structures across " + countyName + ", " + stateName + " using high-capture trapping and humane removal techniques."
+      },
+      {
+        "@type": "Service",
+        "@id": pageUrl + "#service-exclusion",
+        "name": "Animal Exclusion in " + countyName,
+        "serviceType": "Animal Exclusion",
+        "provider": { "@id": pageUrl + "#business" },
+        "areaServed": { "@type": "AdministrativeArea", "name": countyName + ", " + stateName },
+        "description": "Permanent structural sealing of every entry point — soffit returns, gable vents, ridge caps, chimney chases, and foundation gaps — using galvanized steel mesh and code-appropriate flashing to keep wildlife out for good. One-year guarantee."
+      },
+      {
+        "@type": "Service",
+        "@id": pageUrl + "#service-remediation",
+        "name": "Wildlife Remediation in " + countyName,
+        "serviceType": "Wildlife Remediation",
+        "provider": { "@id": pageUrl + "#business" },
+        "areaServed": { "@type": "AdministrativeArea", "name": countyName + ", " + stateName },
+        "description": "Full attic and crawlspace decontamination after wildlife removal — contaminated insulation removal, HEPA-equipped sanitization, deodorization, and damage repair to restore the affected area."
+      }
+    ]
   }) %>
   </script>
 
