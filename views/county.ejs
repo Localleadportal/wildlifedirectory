@@ -350,6 +350,25 @@
       </div>
     </section>
 
+    <% if (seoEnhanced) { %>
+    <section class="county-content">
+      <div class="container">
+        <h2><%= countyName %>, <%= stateName %> — Service Area Map</h2>
+        <p>Coverage spans the full <%= countyName %> footprint. Tap the map to open directions in Google Maps.</p>
+        <div style="position:relative;width:100%;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.08);margin:20px 0 12px;">
+          <iframe
+            src="https://maps.google.com/maps?q=<%= encodeURIComponent(countyName + ', ' + stateName) %>&z=10&output=embed"
+            width="100%" height="450" style="border:0;display:block;"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Map of <%= countyName %>, <%= stateName %>"></iframe>
+        </div>
+        <p style="margin-top:8px;">
+          <a href="https://www.google.com/maps/search/?api=1&query=<%= encodeURIComponent(countyName + ', ' + stateName) %>" target="_blank" rel="noopener" class="btn-outline">View <%= countyName %> on Google Maps</a>
+        </p>
+      </div>
+    </section>
+    <% } %>
+
     <% if (countyContent.faqs && countyContent.faqs.length) { %>
     <section class="county-content">
       <div class="container">
