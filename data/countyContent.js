@@ -1620,12 +1620,23 @@ function georgiaContent(countyName, county, s) {
 function tennesseeContent(countyName, county, s) {
   const top4cities = county.largest_cities.slice(0, 4).join(', ');
 
+  // testimonials shape — paste real customer reviews when collected. Schema:
+  //   testimonials = [
+  //     { author: 'Sarah M.', location: 'Brentwood, TN', rating: 5,
+  //       date: '2025-09-15', text: 'They came out same-day and ...' },
+  //     ...
+  //   ]
+  // Adding entries automatically lights up both the visual testimonial section
+  // and the AggregateRating + Review JSON-LD on the county hub and every
+  // indexable county-animal hub. Do NOT populate with fabricated reviews —
+  // Google's review policies require schema reviews to match real on-page content.
   let blockA, blockB, blockC, metaTitle, metaDescription, heroIntro;
   let extendedBody = null;
   let faqs = null;
   let neighboringCounties = null;
   let geo = null;
   let sameAs = null;
+  let testimonials = null;
 
   if (countyName === 'Williamson County') {
     blockA = `Williamson County sits in the heart of Middle Tennessee's Nashville Basin, immediately south of Davidson County and the city of Nashville, with downtown Nashville about 20 miles north of the county seat in Franklin. With a population of ${county.population.toLocaleString()} — and consistently ranking among the wealthiest counties in the United States by median household income — Williamson runs from the affluent post-1990s subdivisions of Brentwood at the Davidson County line, through the historic Civil War-era core of downtown Franklin, the rapidly growing Cool Springs and Berry Farms commercial-residential corridors, and out into the rural Leiper's Fork, College Grove, Arrington, and Bethesda horse-country valleys, with Spring Hill, Thompson's Station, Nolensville, and Fairview filling the suburban edges. Established in ${county.established} and named for Founding Father Hugh Williamson, the county combines the Battle of Franklin's preserved 1864 battlefield landscape, antebellum farms in the western rural townships, and three decades of explosive suburban growth into one of the most distinctive residential wildlife removal markets in the Southeast.`;
@@ -1736,7 +1747,7 @@ function tennesseeContent(countyName, county, s) {
   const blockD = `Wildlife intrusion in ${countyName} follows Tennessee's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
   const blockE = `All commercial wildlife removal in Tennessee is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds the applicable TWRA certification and operates within ${s.agency_short} guidelines on species-specific handling and relocation.`;
 
-  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, heroIntro, extendedBody, faqs, neighboringCounties, geo, sameAs };
+  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, heroIntro, extendedBody, faqs, neighboringCounties, geo, sameAs, testimonials };
 }
 
 // ---- main dispatcher ----

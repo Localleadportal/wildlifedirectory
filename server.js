@@ -325,9 +325,10 @@ app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
     const animalRegionNote = getAnimalRegionContent(stateName, seg);
     const indexable = await isCountyAnimalIndexable(stateName, countyName, seg);
     const countyAnimalContent = getCountyAnimalContent(stateName, countyName, seg);
+    const countyContent = getCountyContent(stateName, countyName);
     return res.render('county-animal', {
       stateName, countyName, animal, cities, stateInfo, animalRegionNote, embedScript,
-      indexable, countyAnimalContent,
+      indexable, countyAnimalContent, countyContent,
       faqs: (countyAnimalContent && countyAnimalContent.faqs) || getAnimalFaqs(seg, { countyName, stateName, stateInfo }),
       seasonal: getSeasonalContent(seg),
       stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, toSlug, ANIMALS,
