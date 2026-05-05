@@ -1,0 +1,166 @@
+{
+  "Athens": {
+    "population_tier": "large",
+    "housing_era": "Athens housing combines a substantial pre-1860 antebellum-and-Victorian historic core (concentrated in Cobbham, Boulevard, Bloomfield, Five Points, and along Milledge Avenue) with the University of Georgia campus's continuous mature canopy, pre-1900 mill-village stock in East Athens and Whitehall, mid-century Five Points and Normaltown construction, and 1990s-2010s subdivision growth on the eastern and northern edges of the city.",
+    "geographic_features": [
+      "Pre-1860 Historic Districts (Cobbham, Boulevard, Bloomfield, Five Points, Milledge Avenue corridor)",
+      "University of Georgia campus mature canopy (oldest portions 100+ years)",
+      "North Oconee River and Middle Oconee River (merge to form the Oconee just south of central Athens)",
+      "Sandy Creek and Sandy Creek Park (preserved canopy source habitat)",
+      "State Botanical Garden of Georgia (UGA installation, southwestern Athens)",
+      "Memorial Park and Bear Hollow Wildlife Trail",
+      "Downtown Athens commercial corridor (heavy Norway rat habitat)"
+    ],
+    "neighborhoods": [
+      "Cobbham, Boulevard, Bloomfield (pre-1860 antebellum / Victorian historic core)",
+      "Milledge Avenue corridor (pre-1860 Greek-Revival fraternity / sorority houses)",
+      "Five Points and Normaltown (mid-century)",
+      "East Athens and Whitehall (pre-1900 mill-village historic stock)",
+      "UGA campus and immediate-adjacent housing",
+      "Eastern and northern subdivisions (1990s-2010s growth)"
+    ],
+    "wildlife_intro": "Athens is the dominant city of Clarke County and the geographic, economic, and demographic anchor of all of northeast Georgia. The wildlife pressure profile is unique in the state because of how the city combines one of Georgia's deepest pre-1860 antebellum and Victorian historic-residential cores with the University of Georgia campus's continuous mature canopy, pre-1900 mill-village housing, and modern subdivision growth — all within roughly 124 square miles. <strong>Pre-1860 Athens chimney stock</strong> — Cobbham, Boulevard, Bloomfield, the Milledge Avenue corridor, and the older sections of Five Points — hosts long-established <strong>big brown bat</strong> (<em>Eptesicus fuscus</em>) maternity colonies, with many spanning 50-100+ years of continuous occupation, among the longest-established residential bat colonies in north Georgia. <strong>Norway rats</strong> dominate the downtown Athens commercial corridor and UGA campus-adjacent food-service blocks. <strong>Eastern gray squirrels</strong> drive constant call volume from the mature oak-hickory canopy. <strong>Roof rats</strong> are establishing in 1990s-2010s subdivisions on Athens's eastern and northern edges. Raccoons concentrate along the North Oconee, Middle Oconee, and Sandy Creek corridors. Typical Athens wildlife removal runs $400-$2,000+ depending on housing era and remediation scope.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in Athens homes?",
+        "a": "Eastern gray squirrels in attics top the call volume because of the continuous mature canopy across Cobbham, Boulevard, Bloomfield, Five Points, the UGA campus, and the older mid-century neighborhoods. Bats follow — pre-1860 antebellum-and-Victorian chimneys host multi-decade big brown bat maternity colonies, sometimes spanning 50-100+ years of continuous occupation. Raccoons concentrate along the North Oconee corridor and in pre-1860 chimney stock during kit season (late February through May). Norway rats dominate the downtown Athens commercial corridor and UGA campus-adjacent food-service areas. Roof rats are establishing in 1990s-2010s subdivisions on eastern and northern Athens edges."
+      },
+      {
+        "q": "Are bats really common in Cobbham, Boulevard, and the Milledge Avenue corridor?",
+        "a": "Yes. Pre-1860 antebellum and Victorian Athens housing — particularly the residential blocks in Cobbham, Boulevard, Bloomfield, along Milledge Avenue, and the older sections of Five Points — has masonry chimneys without modern caps that big brown bats use for maternity roosting. Multi-decade colony establishment spanning 50-100+ years is documented in some Athens historic chimneys; daughter bats return to natal roosts to whelp generation after generation. These colonies are among the longest-established residential bat colonies in north Georgia. Georgia DNR regulations restrict exclusion during the maternity season (May-August); work has to happen in April or September through mid-October."
+      },
+      {
+        "q": "Why are wildlife jobs in Athens historic districts more expensive than suburban Athens?",
+        "a": "Three reasons. Pre-1860 Athens housing routinely has 4-6+ entry points per property (vs 1-2 in newer 1990s-2010s subdivisions), historic-district attic decontamination scope is larger because insulation absorbs years of urine and droppings, and lath-and-plaster wall construction in the oldest Cobbham and Milledge Avenue stock makes wall-cavity dead-animal recoveries more complex and expensive than modern drywall recoveries. Athens historic-district properties also frequently have aged Romex (60-100+ years old in some cases) that shows chew damage and triggers licensed-electrician follow-up before final exclusion sealing."
+      },
+      {
+        "q": "Do you handle commercial Norway rat work in downtown Athens and around UGA?",
+        "a": "Yes — commercial Norway rat work in the downtown Athens commercial corridor and the UGA campus-adjacent food-service blocks is a Clarke County core service area. Restaurant and dumpster ecology in these zones sustains continuous Norway rat populations year-round. Commercial scope typically involves bait-station programs combined with structural exclusion at loading docks and dumpster enclosures, plus HEPA-equipped droppings remediation where accumulation is significant. Multi-property programs across adjacent commercial parcels are available where pressure is shared across multiple buildings."
+      },
+      {
+        "q": "When are wildlife calls highest in Athens?",
+        "a": "Three peak periods. Late February through May for raccoon kit-season intrusions in pre-1860 chimneys and mid-century attics (peak first three weeks of March) and the first squirrel breeding cycle. August through September for the second squirrel breeding cycle and roof rat ramp-up in eastern Athens subdivisions. October through December for rat intrusion as outdoor food sources disappear. Bat exclusion windows are narrow (April or September through mid-October only) because of state and federal protections."
+      },
+      {
+        "q": "Do you handle wildlife removal across all Athens neighborhoods?",
+        "a": "Yes — full Athens coverage including Cobbham, Boulevard, Bloomfield, Five Points, the Milledge Avenue corridor, Normaltown, East Athens, Whitehall, the UGA campus-adjacent housing, and the eastern and northern subdivisions. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 2 (Gainesville office), which covers Clarke and the broader Northeast Georgia Piedmont region."
+      }
+    ]
+  },
+  "Winterville": {
+    "population_tier": "small",
+    "housing_era": "Winterville (~1,200) is a small incorporated city in eastern Clarke County, distinct from Athens but inside the unified Athens-Clarke County footprint. Housing is a mix of late-1800s historic stock around the original Winterville train depot, mid-century rural-suburban construction, and limited 2000s subdivision growth on the city edges.",
+    "geographic_features": [
+      "Historic Winterville train depot and surrounding pre-1900 commercial blocks",
+      "GA-72 corridor",
+      "Eastern Clarke wooded acreage and small-acreage residential",
+      "Connection to Athens via the eastern Clarke-Oglethorpe boundary"
+    ],
+    "neighborhoods": [
+      "Historic Winterville town center (around the train depot)",
+      "Mid-century Winterville rural-suburban residential",
+      "GA-72 corridor properties",
+      "Limited subdivision development on eastern Clarke edges"
+    ],
+    "wildlife_intro": "Winterville is small-town eastern Clarke — a distinct community within the unified Athens-Clarke County footprint, with a pre-1900 historic train-depot core and surrounding mid-century rural-suburban residential. Wildlife pressure here mixes suburban subdivision patterns (gray squirrels in attics, roof rats in ceiling cavities, raccoons via soffit chew-throughs, opossums under decks) with semi-rural acreage patterns (multi-structure work covering main house plus barns or outbuildings, higher per-property snake encounter rates, occasional groundhog burrow damage). The wooded eastern Clarke acreage along the Oglethorpe County boundary reinforces source-population pressure for raccoons and opossums. Mid-century housing stock shows aluminum gable-vent screens that have aged through and brick-veneer separation at chimney chases; older scattered residential blocks may have original chimney stacks without modern caps. Bat work is occasional in older historic train-depot-era housing. Typical Winterville wildlife removal runs $400-$1,500+.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in Winterville homes?",
+        "a": "Mid-century residential properties: gray squirrels in attics, raccoons via soffit chew-throughs and chase-cap gaps, roof rats in ceiling cavities, opossums under decks. Semi-rural eastern Clarke acreage along the Oglethorpe boundary: multi-structure work covering main house plus barns and outbuildings, with skunks under sheds, groundhog burrows under porches, and copperhead encounters in wooded yards. Bats appear occasionally in older historic train-depot-era residential housing. Coyote presence in undeveloped acreage adds dead-pet calls."
+      },
+      {
+        "q": "How much does wildlife removal cost in Winterville?",
+        "a": "Standard Winterville residential wildlife jobs run $400-$1,200+ for trapping, exclusion, and entry-point sealing. Multi-structure semi-rural farmstead jobs (main house plus barns plus sheds plus outbuildings) trend higher — $500-$1,800+ — because of the multi-structure inspection and exclusion scope. Bat work in older Winterville historic-area chimney stock runs higher because of multi-decade colony sizes and guano remediation scope. Each contractor provides property-specific estimates."
+      },
+      {
+        "q": "Are copperheads common in Winterville yards?",
+        "a": "Encounters are higher per-property in semi-rural Winterville than in central Athens because of the rural-residential land-use mix along the Oglethorpe boundary. Wooded acreage, woodpiles, brush piles, dense ornamental landscaping, and pasture-edge habitat all provide ideal copperhead habitat. Peak encounter season is April through October. Eastern rat snakes are by far the most common snake species and are routinely mistaken for copperheads. Take a photo from a safe distance and call for ID before approaching any unfamiliar snake."
+      },
+      {
+        "q": "Do you cover Winterville as part of Athens-Clarke County service?",
+        "a": "Yes — Winterville is fully covered as part of the unified Athens-Clarke County footprint. The contractor handles Winterville, Athens, the UGA campus-adjacent areas, Bogart, and Whitehall as a single coordinated Clarke County service area. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 2 (Gainesville office)."
+      },
+      {
+        "q": "Do you handle wildlife removal across all Winterville properties?",
+        "a": "Yes — full Winterville coverage including the historic train-depot town center, mid-century rural-suburban residential, the GA-72 corridor, the eastern Clarke wooded acreage along the Oglethorpe County boundary, and the limited subdivision development on the city edges. Multi-structure rural work is part of the coverage. Same-day inspections usually available."
+      }
+    ]
+  },
+  "Bogart": {
+    "population_tier": "small",
+    "housing_era": "Bogart is a small city straddling the Oconee-Clarke county boundary, with most of the city in Oconee County and a smaller portion in southwestern Clarke. Housing in the Clarke-side portion is primarily 1990s-2010s suburban subdivisions with scattered older mid-century stock and limited rural-residential acreage.",
+    "geographic_features": [
+      "Clarke-Oconee county boundary",
+      "GA-316 corridor",
+      "Suburban subdivision residential character",
+      "Connection to Athens via the western Clarke boundary"
+    ],
+    "neighborhoods": [
+      "Clarke-side Bogart suburbs",
+      "1990s-2010s subdivision growth",
+      "GA-316 corridor edge"
+    ],
+    "wildlife_intro": "The Clarke County portion of Bogart is small — most of the city sits across the line in Oconee County — but the Clarke-side residential wildlife profile is distinctive because of the proximity to the GA-316 corridor and the western Clarke subdivision growth. Suburban subdivision wildlife pressure follows standard Athens-area patterns: gray squirrels driving constant call volume from the mature canopy, roof rats in attics overhead, raccoons via soffit chew-throughs and chase-cap gaps, opossums and skunks under decks. The GA-316 corridor along the western boundary adds occasional commercial-property pigeon and Norway rat work. Snake encounters concentrate in wooded yards along the western Clarke boundary. Bat work is occasional in older mid-century stock. Typical Bogart-Clarke wildlife removal runs $400-$1,200+ with same-day humane service.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in the Clarke County portion of Bogart?",
+        "a": "Gray squirrels in attics top the call volume because of continuous suburban canopy. Raccoons via soffit chew-throughs and chase-cap gaps are second-most-common. Roof rats are establishing in newer 2000s-era subdivisions because of canopy-bridge habitat. Opossums and skunks den under decks and in crawlspaces. Bats appear occasionally in older mid-century stock. Snake encounters concentrate in wooded yards along the western Clarke boundary."
+      },
+      {
+        "q": "Do you cover both the Oconee and Clarke portions of Bogart?",
+        "a": "Yes — the contractor handles wildlife work across both the Clarke County portion and the Oconee County portion of Bogart as a coordinated service area, since the city straddles the county boundary. The Oconee portion is the dominant footprint, but the Clarke-side has its own profile (GA-316 corridor edge, western Clarke subdivision growth). Same-day inspections usually available."
+      },
+      {
+        "q": "How much does raccoon removal cost in Bogart-Clarke?",
+        "a": "Standard Bogart-Clarke residential raccoon jobs run $400-$1,200+ for trapping, exclusion, and entry-point sealing. Multi-structure properties or wooded-edge properties along the western Clarke boundary may trend higher because of additional inspection scope. Each contractor provides property-specific estimates."
+      },
+      {
+        "q": "When are raccoon kits in Bogart-Clarke attics?",
+        "a": "Female raccoons in Bogart-Clarke whelp late February through early May, with peak intrusion during the first three weeks of March. Kits are immobile and dependent until 8-10 weeks of age. Performing exclusion during that window risks separating mother from kits and trapping kits inside. Right approach during kit season is one-way doors deployed once kits are mobile."
+      },
+      {
+        "q": "Do you handle wildlife removal in all Bogart-Clarke neighborhoods?",
+        "a": "Yes — full coverage of the Clarke County portion of Bogart including the Clarke-side suburbs, the 1990s-2010s subdivision growth, and the GA-316 corridor edge. Same-day inspections usually available. Coordination with the Oconee County portion of Bogart is seamless since the same contractor covers both."
+      }
+    ]
+  },
+  "Whitehall": {
+    "population_tier": "small",
+    "housing_era": "Whitehall is a small CDP (Census-Designated Place) in southwestern Clarke County, just south of central Athens. Housing is a mix of pre-1900 mill-village historic stock (Whitehall has a real pre-1900 industrial-era footprint) and surrounding mid-century residential.",
+    "geographic_features": [
+      "Pre-1900 Whitehall mill-village historic core",
+      "Middle Oconee River corridor (just east)",
+      "State Botanical Garden of Georgia (immediately north)",
+      "Mid-century surrounding residential"
+    ],
+    "neighborhoods": [
+      "Historic Whitehall mill-village core",
+      "Mid-century surrounding residential",
+      "Middle Oconee River-adjacent properties",
+      "State Botanical Garden boundary properties"
+    ],
+    "wildlife_intro": "Whitehall is a small but distinct historic mill-village community in southwestern Clarke County, with a pre-1900 industrial-era housing core and a wildlife profile that mixes historic-stock patterns (similar to East Athens) with proximity to the State Botanical Garden of Georgia and the Middle Oconee River corridor. The pre-1900 mill-village housing has structural features that produce reliable wildlife entry profiles — original masonry chimneys without modern caps, hand-laid brick foundations, deteriorated wood soffits. <strong>Big brown bat</strong> colonies are documented in some Whitehall historic chimney stock. Raccoons concentrate along the Middle Oconee corridor and in the State Botanical Garden boundary properties — the Garden's preserved canopy functions as continuous source habitat. Eastern gray squirrels drive year-round call volume; opossums and skunks den under decks across mid-century housing. Typical Whitehall wildlife removal runs $400-$1,500+ with same-day humane service.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in Whitehall homes?",
+        "a": "Pre-1900 mill-village historic residential: bats in chimney stock, raccoons in masonry chimneys, gray squirrels via roof gaps. Mid-century surrounding residential: standard suburban patterns — gray squirrels in attics, roof rats in ceiling cavities, raccoons via soffit chew-throughs. Middle Oconee corridor and State Botanical Garden boundary properties: heavy raccoon pressure from preserved-canopy source population. Opossums and skunks den under decks across all eras of housing."
+      },
+      {
+        "q": "Are bats really common in Whitehall's historic mill-village homes?",
+        "a": "Yes — pre-1900 Whitehall mill-village historic housing has masonry chimneys without modern caps that big brown bats use for maternity roosting. Multi-decade colony establishment is documented in some Whitehall historic chimneys, similar in pattern to East Athens mill-village stock. Georgia DNR regulations restrict exclusion during the maternity season (May-August); work has to happen in April or September through mid-October. Pre-1900 historic-district preservation considerations apply to any visible exterior work."
+      },
+      {
+        "q": "Why are State Botanical Garden-adjacent Whitehall properties getting hit hard by raccoons?",
+        "a": "The State Botanical Garden of Georgia (a UGA installation) sustains a continuous wooded canopy preserve that drives raccoon source-population dispersal into adjacent residential properties year-round. Properties within a half-mile of the Garden boundary take continuous raccoon pressure rather than seasonal-only dispersal. Standard single-property exclusion frequently fails on Garden-adjacent homes because the surrounding source population fills any sealed entry within weeks. Wider-perimeter exclusion plans work better."
+      },
+      {
+        "q": "How much does wildlife removal cost in Whitehall?",
+        "a": "Standard Whitehall residential wildlife jobs run $400-$1,200+ for mid-century or newer construction. Pre-1900 mill-village historic properties trend $700-$1,800+ because of multi-entry profiles and original masonry chimney work. Bat work in pre-1900 chimney stock with multi-decade colonies runs significantly higher because of guano remediation scope. State Botanical Garden boundary properties may trend higher because of wider-perimeter exclusion needs. Each contractor provides estimates."
+      },
+      {
+        "q": "Do you cover Whitehall as part of Athens-Clarke County service?",
+        "a": "Yes — Whitehall is fully covered as part of the unified Athens-Clarke County footprint. The contractor handles Whitehall, Athens, Winterville, and the Bogart Clarke-portion as a single coordinated Clarke County service area. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 2 (Gainesville office)."
+      }
+    ]
+  }
+}

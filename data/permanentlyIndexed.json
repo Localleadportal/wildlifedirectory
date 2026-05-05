@@ -6,6 +6,7 @@
     "Georgia|Bartow",
     "Georgia|Chatham",
     "Georgia|Cherokee",
+    "Georgia|Clarke",
     "Georgia|Cobb",
     "Georgia|Coweta",
     "Georgia|DeKalb",
@@ -16,6 +17,7 @@
     "Tennessee|Williamson"
   ],
   "countiesWithCountyOnlyIndex": [
+    "Georgia|Clarke",
     "Georgia|Coweta",
     "Georgia|DeKalb",
     "Georgia|Douglas",

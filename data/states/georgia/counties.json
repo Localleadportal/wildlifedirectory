@@ -169,6 +169,43 @@
       "regional_wildlife": "Bartow has the largest Lake Allatoona shoreline footprint of any county and the wooded shoreline forest sustains one of the densest year-round raccoon source populations in north Georgia. Pre-1940 Cartersville mill housing and the 1840s-era Adairsville historic downtown around the Train Depot host long-established big-brown-bat colonies — many spanning 30-50+ years. Roof rats moved up the I-75 corridor during the 2010s and are now establishing throughout southern Bartow; Norway rats remain dominant in the older Cartersville and Adairsville commercial corridors. The Etowah River corridor and Pumpkinvine Creek tributary system sustain continuous year-round wildlife travel habitat",
       "absent_or_rare": "white-tailed deer are abundant throughout Bartow's rural and rural-suburban edges, black bears occasionally pass through the more remote northern parts of the county, the occasional alligator turns up along the Etowah River corridor, and federally listed Cherokee darter and Etowah darter populations occur in the Etowah and Allatoona Creek systems"
     },
+    "Clarke County": {
+      "county_seat": "Athens",
+      "population": 128331,
+      "established": 1801,
+      "region": "the northeastern Georgia Piedmont, about 70 miles east of Atlanta along the I-85 corridor, anchored by the University of Georgia in Athens — the state's flagship research university and the dominant economic, cultural, and demographic driver of the county",
+      "largest_cities": [
+        "Athens",
+        "Winterville",
+        "Bogart",
+        "Whitehall"
+      ],
+      "nearest_metro": "Atlanta (downtown is about 70 miles west of Athens via GA-316 / I-85)",
+      "natural_features": [
+        "North Oconee River",
+        "Middle Oconee River (the two rivers merge to form the Oconee just south of Athens)",
+        "Sandy Creek and Sandy Creek Park",
+        "State Botanical Garden of Georgia (UGA)",
+        "UGA Campus mature canopy",
+        "Athens Historic District (Cobbham, Boulevard, Bloomfield, Five Points)",
+        "Memorial Park / Bear Hollow Wildlife Trail"
+      ],
+      "habitat_type": "dense urban Athens core with substantial pre-1860 antebellum and Victorian historic housing in Cobbham, Boulevard, Bloomfield, and along Milledge Avenue, plus the UGA campus mature canopy, pre-1900 mill villages in East Athens and Whitehall, mid-century Five Points and Normaltown neighborhoods, and 1990s-2010s subdivision growth on the eastern and northern edges of the county. Athens-Clarke County operates as a unified city-county government (since 1991), and the county is one of the smallest by area in Georgia at roughly 124 square miles",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Southern flying squirrels",
+        "Virginia opossums",
+        "Norway rats",
+        "roof rats",
+        "big brown bats",
+        "evening bats",
+        "striped skunks",
+        "snakes (rat snakes, copperheads)"
+      ],
+      "regional_wildlife": "Clarke combines Athens's exceptional density of pre-1860 antebellum and Victorian historic housing (concentrated in Cobbham, Boulevard, Bloomfield, Five Points, and along Milledge Avenue) with the UGA campus's continuous mature oak-hickory canopy and the mill-village historic stock of East Athens and Whitehall. Pre-1860 antebellum Athens chimney stock hosts long-established big-brown-bat (Eptesicus fuscus) maternity colonies — many of these colonies are documented to span 50-100+ years of continuous occupation, among the longest-established residential bat colonies in north Georgia. Norway rats dominate the downtown Athens commercial corridor and UGA campus-adjacent food-service areas; roof rats are establishing in 1990s-2010s subdivisions along the eastern and northern Clarke edges. The North Oconee River and Middle Oconee River corridors and the Sandy Creek tributary system sustain continuous year-round wildlife travel habitat, with the State Botanical Garden of Georgia and Sandy Creek Park functioning as preserved-canopy source habitat",
+      "absent_or_rare": "white-tailed deer reach high densities at the edges of Sandy Creek Park and along the North Oconee corridor, coyotes are documented across undeveloped Clarke acreage and along the Madison and Oglethorpe county boundaries, and federally protected migratory bird species (hawks, owls, woodpeckers) are present throughout the county under Migratory Bird Treaty Act protocols"
+    },
     "Coweta County": {
       "county_seat": "Newnan",
       "population": 153526,

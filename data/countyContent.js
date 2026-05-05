@@ -776,6 +776,89 @@ function georgiaContent(countyName, county, s) {
       }
     ];
 
+  } else if (countyName === 'Clarke County') {
+    blockA = `Clarke County sits in the northeastern Georgia Piedmont about 70 miles east of Atlanta, anchored by the University of Georgia and the city of Athens — Georgia's flagship university and the dominant economic, cultural, and demographic driver of the entire county. With a population of ${county.population.toLocaleString()} residents, Clarke is one of Georgia's smallest counties by area at about 124 square miles, but its concentration of pre-1860 antebellum and Victorian historic housing — particularly in the Cobbham, Boulevard, Bloomfield, and Five Points neighborhoods, and along Milledge Avenue — gives it one of the deepest historic-residential footprints in the state. Established in ${county.established}, Clarke combines that pre-1860 Athens historic core with the UGA campus's continuous mature canopy, pre-1900 mill-village housing in East Athens and Whitehall, mid-century Five Points and Normaltown construction, and 1990s-2010s subdivision growth on the eastern and northern edges of the county.`;
+    blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across Athens's mature oak-hickory canopy, with twin breeding-cycle peaks in February-March and August-September driving twin call peaks. Southern flying squirrels appear with notable frequency in pre-1860 Athens historic housing — Cobbham, Boulevard, Bloomfield, and the Milledge Avenue corridor in particular. Virginia opossums shelter under decks and porches across the older mid-century Five Points and Normaltown housing. Striped skunks are persistent under sheds and crawl spaces in the suburban-and-rural-edge sections of eastern and northern Clarke, and snake calls — primarily eastern rat snakes and the occasional copperhead — concentrate along the North Oconee, Middle Oconee, and Sandy Creek corridors. ${cap(county.absent_or_rare)}.`;
+    blockC = `Coverage spans all of Clarke County including ${top4cities}, plus the unified Athens-Clarke County footprint. The county's mix of pre-1860 antebellum and Victorian historic housing in Cobbham, Boulevard, Bloomfield, Five Points, and along Milledge Avenue, the UGA campus mature canopy, pre-1900 mill-village housing in East Athens and Whitehall, mid-century Five Points and Normaltown neighborhoods, and 1990s-2010s subdivision growth on the eastern and northern edges — combined with the North Oconee River and Middle Oconee River corridors and the Sandy Creek tributary system — means contractors here handle a uniquely mixed call profile spanning multi-decade historic-chimney bat colonies, urban Norway rat work in the downtown commercial corridor and UGA campus area, and continuous suburban raccoon-and-squirrel residential pressure.`;
+    metaTitle = `Clarke County Wildlife Removal — Athens, Winterville GA`;
+    metaDescription = `Licensed wildlife removal in Clarke County, GA — Athens, Winterville, Bogart & Whitehall. UGA-area historic housing coverage. Same-day humane service.`;
+
+    geo = { lat: 33.9519, lon: -83.3576 };
+    sameAs = [
+      'https://en.wikipedia.org/wiki/Clarke_County,_Georgia',
+      'https://en.wikipedia.org/wiki/Athens,_Georgia'
+    ];
+
+    neighboringCounties = [
+      { name: 'Madison County',     slug: 'madison-county',     anchor: 'Madison County wildlife removal',     blurb: 'directly to the north' },
+      { name: 'Oglethorpe County',  slug: 'oglethorpe-county',  anchor: 'Oglethorpe County wildlife services', blurb: 'to the east' },
+      { name: 'Oconee County',      slug: 'oconee-county',      anchor: 'Oconee County animal removal',        blurb: 'directly to the south and west, sharing the Oconee River' },
+      { name: 'Jackson County',     slug: 'jackson-county',     anchor: 'Jackson County wildlife removal',     blurb: 'to the northwest' },
+    ];
+
+    extendedBody = `
+      <h2>Clarke County's Geography Shapes Athens-Area Wildlife Activity</h2>
+      <p>Clarke County is unique in Georgia because of how its housing-and-habitat range stretches from one of the state's densest pre-1860 antebellum and Victorian historic-residential cores through a continuous-canopy university campus and out to suburban-and-rural-edge subdivisions — all within a single 124-square-mile county. The <strong>North Oconee River</strong> and <strong>Middle Oconee River</strong> meet just south of Athens to form the Oconee River; the wooded river corridors function as continuous wildlife travel routes through the county. <strong>Sandy Creek</strong> and the <strong>Sandy Creek Park</strong> preserve give east-central Clarke a substantial preserved-canopy source habitat. The <strong>State Botanical Garden of Georgia</strong> — a UGA installation on the southwestern edge of Athens — is another major preserved-canopy zone that drives wildlife dispersal pressure into adjacent neighborhoods.</p>
+      <p>The result is a county where Athens's pre-1860 historic-housing density, the UGA campus canopy, the river-corridor source populations, and the eastern-and-northern subdivision growth all combine to produce continuous year-round residential wildlife call volume. Clarke has the highest residential-wildlife call density per capita in northeast Georgia.</p>
+
+      <h2>Pre-1860 Athens Historic Housing and Multi-Decade Bat Colonies</h2>
+      <p>The pre-1860 antebellum and Victorian residential blocks of <strong>Cobbham</strong>, <strong>Boulevard</strong>, <strong>Bloomfield</strong>, the streets along <strong>Milledge Avenue</strong>, and the older sections of <strong>Five Points</strong> are the most concentrated multi-decade big-brown-bat (<em>Eptesicus fuscus</em>) maternity habitat in northeast Georgia. Original masonry chimneys without modern caps, hand-laid brick foundations with pointing failures, original wood soffits with corner separation, and pre-modern gable louvers without screen backing all support continuous colony occupation spanning <strong>50-100+ years</strong>. Pre-1860 Athens wiring runs (knob-and-tube remnants, early Romex, undersized neutrals) are particularly vulnerable to chew damage, making chewed-Romex fire risk a more urgent concern in Athens historic housing than in suburban-edge subdivisions.</p>
+
+      <h2>Wildlife Species Present in Clarke County</h2>
+      <p>Clarke residents most frequently call about animals that have moved from the river corridors, the UGA campus canopy, the Sandy Creek Park area, or the eastern Clarke wooded subdivisions into residential structures:</p>
+      <ul class="tips-list">
+        <li><strong>Raccoons</strong> — heaviest densities along the North Oconee and Middle Oconee corridors and Sandy Creek; female raccoons whelp in pre-1860 Athens chimneys and mid-century attics from late February through May every year</li>
+        <li><strong>Eastern gray squirrels</strong> — constant across Athens's mature oak-hickory canopy and the UGA campus, with twin breeding-cycle peaks (February-March, August-September)</li>
+        <li><strong>Southern flying squirrels</strong> — appear with notable frequency in pre-1860 Cobbham, Boulevard, Bloomfield, and Milledge Avenue housing</li>
+        <li><strong>Big brown bats and evening bats</strong> — established multi-decade colonies in pre-1860 Athens chimney stock</li>
+        <li><strong>Norway rats</strong> — dominant in the downtown Athens commercial corridor and UGA campus-adjacent food-service areas</li>
+        <li><strong>Roof rats</strong> — establishing in 1990s-2010s subdivisions on eastern and northern Clarke edges</li>
+        <li><strong>Virginia opossums</strong> — under decks and in crawlspaces across mid-century Five Points and Normaltown housing</li>
+        <li><strong>Striped skunks</strong> — under sheds, crawl spaces, and outbuildings across suburban-and-rural-edge Clarke</li>
+        <li><strong>Snakes</strong> — eastern rat snakes county-wide; copperheads concentrated along North Oconee, Middle Oconee, and Sandy Creek corridors</li>
+      </ul>
+
+      <h2>Common Wildlife Issues That Define the Clarke Job Mix</h2>
+
+      <h3>Multi-decade pre-1860 Athens chimney bat colonies</h3>
+      <p>Athens pre-1860 antebellum and Victorian chimney stock — Cobbham, Boulevard, Bloomfield, Milledge Avenue, older Five Points — hosts some of the longest-established residential bat colonies in north Georgia. Daughter bats return to natal roosts to whelp, and individual chimneys host colonies that span 50-100+ years across changes in property ownership. Georgia DNR maternity-season restrictions (May-August) plus federal Endangered Species Act protections (tricolored bats are documented in the broader Northeast Georgia Piedmont region) make Clarke bat work the most regulated wildlife work in the county.</p>
+
+      <h3>Downtown Athens and UGA campus Norway rat density</h3>
+      <p>Downtown Athens's commercial corridor and the food-service blocks adjacent to UGA campus sustain year-round Norway rat populations driven by restaurant and dumpster ecology. Properties within a quarter mile of the downtown corridor or the campus food-service blocks see consistent Norway rat pressure that frequently requires expanded-perimeter exclusion plans rather than standard single-property treatment.</p>
+
+      <h3>Roof rat establishment in eastern and northern Clarke subdivisions</h3>
+      <p>Roof rats moved up the I-85 / GA-316 corridor from the Atlanta metro and are now establishing in 1990s-2010s subdivisions on the eastern and northern edges of Clarke. Continuous canopy along the North Oconee and Middle Oconee river corridors reinforces tree-to-roof bridge habitat. Treatment requires both attic exclusion and tree-trim review (4+ feet of clearance from roofline) plus utility-line inspection.</p>
+
+      <h3>Coyote presence in undeveloped Clarke acreage</h3>
+      <p>Coyote sightings are routine across undeveloped Clarke acreage and along the Madison and Oglethorpe county boundaries. Most calls are driven by missing cats, daytime sightings near schools, or den activity in stormwater easements and along the river corridors. Resolutions typically combine hazing, food-source removal, and den-site disturbance.</p>
+
+      <h2>Clarke Wildlife Regulations — State and Federal</h2>
+      <p>Public-health authority for Clarke County rabies-vector exposure runs through the <strong>Northeast Health District</strong> of the Georgia Department of Public Health. Athens-Clarke County Animal Services handles domestic-animal complaints (stray dogs, bite reports, animal cruelty) and licensing/vaccination compliance, but does not respond to most nuisance wildlife situations — those are referred to private licensed wildlife removal contractors. Commercial wildlife removal in Georgia operates under <strong>Georgia DNR Wildlife Resources Division</strong> licensing — Region 2 (Gainesville office) handles Clarke County. Federal protections apply to bats during maternity periods (May-August exclusion restrictions), all migratory birds, and the federally proposed tricolored bat. Every contractor in this directory operating in Clarke County holds the applicable state and federal credentials.</p>
+    `;
+
+    faqs = [
+      {
+        q: 'What wildlife is most common in Clarke County, Georgia?',
+        a: 'Eastern gray squirrels in attics top the call volume because of the continuous mature oak-hickory canopy across Athens, the UGA campus, and the older mid-century neighborhoods. Raccoons in attics and pre-1860 chimneys are second-most-common, especially during kit season (late February through May). Big brown bat colonies in pre-1860 Athens historic chimney stock — Cobbham, Boulevard, Bloomfield, Milledge Avenue — produce a distinctive Athens call profile, with multi-decade colonies routinely spanning 50-100+ years. Norway rats dominate downtown Athens commercial blocks and UGA campus-adjacent food-service areas; roof rats are establishing in 1990s-2010s subdivisions on the eastern and northern Clarke edges.'
+      },
+      {
+        q: 'Why are Athens historic-district wildlife jobs more expensive than typical suburban work?',
+        a: 'Three reasons. Pre-1860 Athens housing routinely has 4-6+ entry points per property (vs 1-2 in newer suburban construction), historic-district decontamination scope is larger because attic insulation absorbs years of urine and droppings, and lath-and-plaster wall construction in the oldest stock makes wall-cavity dead-animal recoveries more complex and expensive than modern drywall recoveries. Pre-1860 antebellum and Victorian chimney work — particularly when multi-decade big-brown-bat colonies are involved — frequently requires substantial guano remediation. Historic-district preservation considerations apply to any visible exterior work in the recognized Athens historic districts.'
+      },
+      {
+        q: 'How do I get rid of bats in my Athens chimney without hurting them?',
+        a: 'Don\'t try to handle a bat colony yourself. Bats in Georgia carry rabies risk, are protected by federal law during the maternity period, and require specialized exclusion technique to remove without sealing pups inside the structure. Pre-1860 Athens housing — Cobbham, Boulevard, Bloomfield, and the Milledge Avenue corridor — is the classic substrate for big brown bat maternity colonies forming in masonry chimneys. Georgia DNR restricts active exclusion during the maternity period (May through August). A licensed contractor will typically schedule work for April or September through mid-October, install one-way exit devices, and seal the structure once the colony has left. Long-established Athens colonies (50-100+ years in the same chimney) can produce substantial guano accumulation that requires HEPA-equipped decontamination after exclusion.'
+      },
+      {
+        q: 'How much does wildlife removal cost in Clarke County?',
+        a: 'Standard Athens suburban-area wildlife jobs run $400-$1,500+ for trapping, exclusion, and entry-point sealing. Pre-1860 Athens historic-district properties trend $700-$2,000+ because of multi-entry profiles and original masonry chimney work. Commercial Norway rat work in the downtown Athens corridor and UGA campus-adjacent food-service areas runs $500-$3,000+ depending on scope. Bat exclusion in pre-1860 Athens chimney stock with multi-decade colonies runs $1,000-$5,000+ because of larger colony sizes, more entry points, and substantial guano remediation. Each contractor provides property-specific estimates.'
+      },
+      {
+        q: 'Are there protected species in Clarke County I should be aware of?',
+        a: 'Yes. All bats are protected by Georgia DNR regulations during maternity season (May-August), and the federally proposed tricolored bat (Perimyotis subflavus) is documented in the broader Northeast Georgia Piedmont region — pre-1860 Athens housing colonies should be evaluated for tricolored presence before exclusion. Migratory birds (woodpeckers, swallows, chimney swifts, hawks, owls) are federally protected under the Migratory Bird Treaty Act and require non-lethal deterrents or USDA depredation permits. The North Oconee and Middle Oconee River systems are protected stream corridors with state and federal habitat regulations.'
+      }
+    ];
+
   } else if (countyName === 'Coweta County') {
     blockA = `Coweta County sits in the southwestern metropolitan Atlanta exurban arc, with the Chattahoochee River along its western boundary and I-85 cutting north-south through the county center. With a population of ${county.population.toLocaleString()} residents, Coweta runs from the historic Newnan downtown core (locally known as the "City of Homes" for its exceptional density of antebellum and Victorian residences) through the surrounding 1990s-2010s subdivision growth corridor and out to Senoia's pre-1900 brick storefronts (used as a filming location for The Walking Dead). Established in ${county.established}, the county combines pre-1860 Newnan historic housing, mid-century Senoia and rural-edge construction, and the explosive I-85 corridor subdivision growth from the past 30 years.`;
     blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across Coweta's mature canopy, with twin breeding-cycle peaks driving twin call peaks. Southern flying squirrels appear with notable frequency in older Newnan and Senoia historic-district housing. Virginia opossums shelter under decks and porches across the older inner-Newnan housing stock. Striped skunks are persistent under sheds and crawl spaces in the rural-edge subdivisions, and snake calls — primarily eastern rat snakes and the occasional copperhead — concentrate around the wooded properties along the Chattahoochee River corridor. ${cap(county.absent_or_rare)}.`;
