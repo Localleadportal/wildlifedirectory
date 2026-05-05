@@ -127,6 +127,55 @@
       "regional_wildlife": "Cherokee's wide construction range — from pre-1900 mill housing in the Canton historic district through 1960s-1970s small-town infill in Ball Ground and Waleska to the massive 1990s-2010s subdivision growth across Woodstock and Holly Springs — produces a wide range of residential wildlife pressure profiles. The Etowah River corridor sustains federally listed darter populations (Cherokee darter, Etowah darter) and a continuous year-round raccoon source population. Lake Allatoona's wooded shoreline forest contributes to the bat-source population along the southern boundary. Roof rats moved up the I-575 corridor over the past two decades and now drive most suburban call volume in Woodstock and the Hwy 92 corridor",
       "absent_or_rare": "white-tailed deer reach high densities in the wooded subdivisions backing up to Sharp Mountain and along the Etowah corridor, black bears occasionally appear in the northern parts of the county near the Pickens border, and the federally listed Cherokee darter and Etowah darter remain protected under the Endangered Species Act in their respective river systems"
     },
+    "Bibb County": {
+      "county_seat": "Macon",
+      "population": 157346,
+      "established": 1822,
+      "region": "central Georgia at the geological Fall Line where the Piedmont meets the Coastal Plain, with the Ocmulgee River bisecting the county and I-75 cutting north-south through the Macon urban core, about 85 miles south of Atlanta",
+      "largest_cities": [
+        "Macon",
+        "Payne"
+      ],
+      "nearest_metro": "Atlanta is the nearest major metro at about 85 miles north via I-75; Macon-Bibb is its own regional anchor for central Georgia",
+      "natural_features": [
+        "Ocmulgee River (bisects the county)",
+        "Ocmulgee Mounds National Historical Park (federal protected pre-Columbian mound complex)",
+        "Lake Tobesofkee",
+        "Amerson River Park",
+        "Tobesofkee Creek and Walnut Creek tributary corridors",
+        "the Fall Line geological boundary",
+        "Vineville Historic District",
+        "In-Town Historic District",
+        "Beall's Hill Historic District",
+        "Pleasant Hill Historic District (one of the country's oldest African-American neighborhoods)",
+        "Hay House (National Historic Landmark, antebellum)",
+        "Cannonball House (Civil War-era)",
+        "Sidney Lanier Cottage",
+        "Mercer University campus and Tattnall Square",
+        "Wesleyan College campus (founded 1836)",
+        "Middle Georgia State University Macon campus"
+      ],
+      "habitat_type": "central Georgia urban-and-suburban landscape sitting on the Fall Line, with the Ocmulgee River corridor producing the dominant wildlife travel route, an exceptionally dense pre-1860 antebellum housing inventory across Macon's Vineville, In-Town, and Beall's Hill historic districts, the pre-1900 Pleasant Hill Historic District (one of the country's oldest African-American neighborhoods), the Mercer University, Wesleyan College, and Middle Georgia State University student-housing districts, mid-century post-WWII residential housing in Shirley Hills and Ingleside, and 1980s-2010s subdivision growth on the northern and western edges of Macon-Bibb. Macon-Bibb has operated as a consolidated city-county government since 2014, the largest such consolidated government in Georgia by population",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "fox squirrels",
+        "Southern flying squirrels",
+        "Virginia opossums",
+        "Norway rats",
+        "roof rats",
+        "big brown bats",
+        "evening bats",
+        "Brazilian free-tailed bats",
+        "striped skunks",
+        "armadillos",
+        "coyotes",
+        "beavers",
+        "snakes (rat snakes, copperheads, occasional cottonmouth along Ocmulgee)"
+      ],
+      "regional_wildlife": "Bibb County's Fall Line position produces a transitional wildlife profile that mixes Piedmont species common across metro Atlanta with Coastal Plain species rarely seen north of the line. Fox squirrels (Sciurus niger) reach densities here unusual for Georgia counties further north and routinely appear in residential calls alongside the Eastern gray squirrels that dominate metro Atlanta. Brazilian free-tailed bats (Tadarida brasiliensis) form colonies in central Georgia commercial buildings and bridges that are rare in north Georgia, and they sometimes appear in Macon residential roosts in addition to the more common big brown and evening bats. Pre-1860 Vineville, In-Town, and Beall's Hill historic-district housing hosts long-established big-brown-bat colonies in original masonry chimneys — many spanning 50-100+ years of continuous occupation, putting Macon's antebellum-housing colony establishment ahead of any north Georgia metro county. Roof rats arrived in Bibb decades earlier than in metro Atlanta because central Georgia warmth supports year-round breeding cycles that sustain population growth. Norway rats are concentrated in the Mulberry Street and Cherry Street historic-downtown commercial corridors. The Ocmulgee River corridor and Ocmulgee Mounds National Historical Park sustain a continuous source population for raccoons, opossums, and Virginia rat snakes that disperses west and south into adjacent residential housing. Lake Tobesofkee shoreline forest and the Tobesofkee Creek tributary system reinforce wildlife travel habitat across western Bibb. Armadillos are firmly established countywide and have been for considerably longer than in metro-fringe counties further north — Macon-area armadillo establishment dates to at least the 1980s. Coyotes are routine across the county, particularly in the wooded subdivision edges of Shirley Hills and Ingleside. The 350,000-plus Yoshino cherry trees planted across Macon for the annual Cherry Blossom Festival create a distinctive late-March feeding ecology that produces a measurable spike in squirrel-and-bird residential pressure during bloom",
+      "absent_or_rare": "white-tailed deer reach high densities throughout the wooded subdivision edges and along the Ocmulgee corridor, the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in central Georgia and may appear in pre-1860 antebellum Macon chimney colonies, American alligators occur in the lower Ocmulgee River and its slack-water reaches and any encounter over 4 feet should be referred to Georgia DNR rather than handled privately, and federally protected migratory bird species (hawks, owls, woodpeckers, chimney swifts) are present throughout the county under Migratory Bird Treaty Act protocols"
+    },
     "Bartow County": {
       "county_seat": "Cartersville",
       "population": 113486,

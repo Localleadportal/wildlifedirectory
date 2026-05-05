@@ -4,6 +4,7 @@
   "_hubOnlyIndexComment": "Counties listed here have an enriched bare county hub (/state/county/) but per-animal hubs (/state/county/{animal}-removal/) AND city + city-animal pages should remain noindex (typically because only the bare hub content has been authored). The county itself must also be in the 'counties' array. Remove from this list once per-animal-hub content meets the SEO template.",
   "counties": [
     "Georgia|Bartow",
+    "Georgia|Bibb",
     "Georgia|Carroll",
     "Georgia|Chatham",
     "Georgia|Cherokee",
@@ -18,6 +19,7 @@
     "Tennessee|Williamson"
   ],
   "countiesWithCountyOnlyIndex": [
+    "Georgia|Bibb",
     "Georgia|Carroll",
     "Georgia|Clarke",
     "Georgia|Coweta",
