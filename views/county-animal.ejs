@@ -320,20 +320,35 @@
     <% } %>
 
     <% if (seoEnhanced) { %>
+    <%
+      // Static map: Mapbox Static Images API when MAPBOX_TOKEN is set on the server
+      // (free tier 50k loads/month, public-by-design tokens — sign up at
+      // https://account.mapbox.com/auth/signup/). Falls back to a styled service-area
+      // card otherwise. Either way the whole element is a clickable link to Google
+      // Maps for directions, and the JSON-LD geo on this page covers the location
+      // signal for crawlers regardless of which path renders.
+      const _mapAlt = animal.name + ' in ' + countyName + ', ' + stateName + ' — service area map';
+      const _mapsUrl = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(countyName + ', ' + stateName);
+      const _mapboxUrl = mapboxToken
+        ? 'https://api.mapbox.com/styles/v1/mapbox/streets-v12/static/pin-l+e74c3c(' + countyAnimalContent.geo.lon + ',' + countyAnimalContent.geo.lat + ')/' + countyAnimalContent.geo.lon + ',' + countyAnimalContent.geo.lat + ',9,0/800x450@2x?access_token=' + mapboxToken
+        : '';
+    %>
     <section class="county-content" style="background:#f8fafc;">
       <div class="container">
         <h2><%= animal.name %> in <%= countyName %> — Service Area Map</h2>
         <p>Our licensed contractor handles <%= animal.name.toLowerCase() %> across the full <%= countyName %> footprint. Tap the map to open directions in Google Maps.</p>
-        <div style="position:relative;width:100%;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.08);margin:20px 0 12px;">
-          <iframe
-            src="https://maps.google.com/maps?q=<%= encodeURIComponent(countyName + ', ' + stateName) %>&z=10&output=embed"
-            width="100%" height="450" style="border:0;display:block;"
-            loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-            title="Map of <%= countyName %>, <%= stateName %>"></iframe>
-        </div>
-        <p style="margin-top:8px;">
-          <a href="https://www.google.com/maps/search/?api=1&query=<%= encodeURIComponent(countyName + ', ' + stateName) %>" target="_blank" rel="noopener" class="btn-outline">View <%= countyName %> on Google Maps</a>
-        </p>
+        <a href="<%= _mapsUrl %>" target="_blank" rel="noopener" aria-label="<%= _mapAlt %> — open in Google Maps" style="display:block;text-decoration:none;color:inherit;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.08);margin:20px 0 12px;">
+          <% if (_mapboxUrl) { %>
+          <img src="<%= _mapboxUrl %>" alt="<%= _mapAlt %>" width="800" height="450" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;">
+          <% } else { %>
+          <div style="background:linear-gradient(135deg,#c8e6c9 0%,#a5d6a7 45%,#b3e5fc 100%);padding:56px 32px;text-align:center;color:#1b5e20;">
+            <div style="font-size:2.5rem;margin-bottom:8px;">📍</div>
+            <h3 style="margin:0 0 6px;color:#1b5e20;font-size:1.5rem;font-weight:700;"><%= countyName %>, <%= stateName %></h3>
+            <p style="margin:0 0 18px;color:#2e7d32;font-size:0.95rem;">Service Area · <%= countyAnimalContent.geo.lat %>, <%= countyAnimalContent.geo.lon %></p>
+            <span style="display:inline-block;padding:10px 22px;background:white;border-radius:8px;font-weight:600;color:#2e7d32;box-shadow:0 2px 6px rgba(0,0,0,0.06);">View on Google Maps →</span>
+          </div>
+          <% } %>
+        </a>
       </div>
     </section>
     <% } %>

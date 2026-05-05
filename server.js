@@ -266,7 +266,8 @@ app.get('/:stateSlug/:countySlug/', async (req, res) => {
     stateName, countyName, embedScript, cities, stateInfo, countyContent,
     indexable,
     stateSlug: req.params.stateSlug,
-    toSlug, ANIMALS
+    toSlug, ANIMALS,
+    mapboxToken: process.env.MAPBOX_TOKEN || ''
   });
 });
 
@@ -329,7 +330,8 @@ app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
       indexable, countyAnimalContent,
       faqs: (countyAnimalContent && countyAnimalContent.faqs) || getAnimalFaqs(seg, { countyName, stateName, stateInfo }),
       seasonal: getSeasonalContent(seg),
-      stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, toSlug, ANIMALS
+      stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, toSlug, ANIMALS,
+      mapboxToken: process.env.MAPBOX_TOKEN || ''
     });
   }
 
