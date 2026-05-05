@@ -169,6 +169,53 @@
       "regional_wildlife": "Bartow has the largest Lake Allatoona shoreline footprint of any county and the wooded shoreline forest sustains one of the densest year-round raccoon source populations in north Georgia. Pre-1940 Cartersville mill housing and the 1840s-era Adairsville historic downtown around the Train Depot host long-established big-brown-bat colonies — many spanning 30-50+ years. Roof rats moved up the I-75 corridor during the 2010s and are now establishing throughout southern Bartow; Norway rats remain dominant in the older Cartersville and Adairsville commercial corridors. The Etowah River corridor and Pumpkinvine Creek tributary system sustain continuous year-round wildlife travel habitat",
       "absent_or_rare": "white-tailed deer are abundant throughout Bartow's rural and rural-suburban edges, black bears occasionally pass through the more remote northern parts of the county, the occasional alligator turns up along the Etowah River corridor, and federally listed Cherokee darter and Etowah darter populations occur in the Etowah and Allatoona Creek systems"
     },
+    "Carroll County": {
+      "county_seat": "Carrollton",
+      "population": 128650,
+      "established": 1826,
+      "region": "the far western metropolitan Atlanta exurban arc, on the Alabama border west of the Chattahoochee River, with I-20 cutting through the northern portion of the county",
+      "largest_cities": [
+        "Carrollton",
+        "Villa Rica",
+        "Bowdon",
+        "Temple",
+        "Whitesburg",
+        "Mount Zion",
+        "Roopville"
+      ],
+      "nearest_metro": "Atlanta (downtown is about 50 miles east of Carrollton via I-20)",
+      "natural_features": [
+        "Chattahoochee River (eastern boundary)",
+        "Little Tallapoosa River",
+        "Tallapoosa River basin (western Carroll)",
+        "John Tanner State Park",
+        "McIntosh Reserve Park",
+        "Carrollton GreenBelt (18-mile loop trail)",
+        "Buffalo Creek",
+        "Snake Creek",
+        "Maple Street Historic District (Carrollton)",
+        "Bowdon Historic District",
+        "Whitesburg Historic District"
+      ],
+      "habitat_type": "rural-to-exurban West Georgia Piedmont with substantial pre-1860 antebellum and Victorian historic housing in Carrollton's Maple Street Historic District, the 1850s-era Bowdon historic core, the pre-1900 Whitesburg cotton-mill town housing, the University of West Georgia campus mature canopy, the Chattahoochee River corridor along the eastern boundary, the Little Tallapoosa River cutting through the county center, the Tallapoosa River basin draining western Carroll into Alabama, and a residential housing stock that runs from antebellum Carrollton historic-district homes through mid-century rural-suburban housing to 1990s-2010s subdivision growth along the I-20 corridor between Villa Rica and Temple",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Southern flying squirrels",
+        "Virginia opossums",
+        "Norway rats",
+        "roof rats",
+        "big brown bats",
+        "evening bats",
+        "striped skunks",
+        "armadillos",
+        "coyotes",
+        "beavers",
+        "snakes (rat snakes, copperheads)"
+      ],
+      "regional_wildlife": "Carroll County is the established source for armadillo dispersal across north Georgia — the species has been firmly established here for decades and continues to expand eastward into Douglas, northward into Paulding, and northwestward into Haralson and Polk. Pre-1860 Maple Street Historic District housing in Carrollton hosts long-established big-brown-bat colonies in original masonry chimneys, with many spanning 30-50+ years of continuous occupation; the 1850s Bowdon historic-core housing and the pre-1900 Whitesburg cotton-mill town housing host similar colonies. Roof rats are establishing along the I-20 corridor between Villa Rica and Temple, with Norway rats remaining dominant in the older Carrollton, Bowdon, and Whitesburg historic-downtown commercial blocks. The Chattahoochee River corridor along the eastern boundary sustains a year-round raccoon source population that disperses west into adjacent Whitesburg, Banning, and rural east-Carroll properties. The Tallapoosa River basin in western Carroll sustains substantial beaver populations that produce regular dam-and-flooding calls at rural roads, agricultural drainage, and lakefront properties throughout the western half of the county. Coyotes are firmly established countywide and routinely show up at rural homesteads, agricultural outbuildings, and the wooded subdivision edges. The University of West Georgia campus and the surrounding student-housing district produce a distinctive year-round bat and squirrel exclusion call profile centered on aging dormitory and rental-housing stock",
+      "absent_or_rare": "white-tailed deer reach high densities throughout Carroll's rural and rural-edge areas (Carroll has one of the largest deer populations in metro-fringe Georgia), the occasional black bear passes through the western parts of the county dispersing from Alabama's Talladega National Forest source population, feral hogs occur in the more remote western and southern rural portions of the county, and federally protected migratory bird species (hawks, owls, woodpeckers) are present throughout the county under Migratory Bird Treaty Act protocols"
+    },
     "Clarke County": {
       "county_seat": "Athens",
       "population": 128331,

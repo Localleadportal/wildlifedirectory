@@ -859,6 +859,104 @@ function georgiaContent(countyName, county, s) {
       }
     ];
 
+  } else if (countyName === 'Carroll County') {
+    blockA = `Carroll County sits in the far western metropolitan Atlanta exurban arc, on the Alabama border west of the Chattahoochee River, with I-20 cutting east-west through the northern portion of the county. With a population of ${county.population.toLocaleString()} residents, Carroll runs from Carrollton's antebellum and Victorian Maple Street Historic District core (anchored by the University of West Georgia) through the 1850s-era Bowdon historic core, the pre-1900 Whitesburg cotton-mill town, and the explosive I-20 corridor subdivision growth between Villa Rica and Temple, out to the rural agricultural and Tallapoosa River basin landscape of southern and western Carroll. Established in ${county.established}, the county combines pre-1860 Carrollton historic housing, the 1850s Bowdon and pre-1900 Whitesburg cotton-mill town housing, mid-century rural housing, and the I-20 corridor subdivision growth from the past 30 years.`;
+    blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across Carroll's mature canopy and the University of West Georgia campus area. Southern flying squirrels appear with notable frequency in older Maple Street Historic District housing. Virginia opossums shelter under decks and porches across the older inner-Carrollton, Bowdon, and Whitesburg housing stock. Armadillos are firmly established countywide and routinely root up lawns, undermine foundations, and damage landscaping — Carroll has been the established source for armadillo dispersal across north Georgia for decades. Striped skunks are persistent under sheds, crawl spaces, and agricultural outbuildings in the rural-edge subdivisions and farm properties, and snake calls — primarily eastern rat snakes and the occasional copperhead — concentrate around the wooded properties along the Chattahoochee River corridor and Little Tallapoosa River. ${cap(county.absent_or_rare)}.`;
+    blockC = `Coverage spans all of Carroll County including ${top4cities}, plus Whitesburg, Mount Zion, and Roopville, and the unincorporated rural areas throughout the county. The county's mix of pre-1860 Carrollton Maple Street Historic District antebellum and Victorian housing, the 1850s Bowdon and pre-1900 Whitesburg historic-mill cores, the University of West Georgia student-housing district, mid-century rural housing, the I-20 corridor subdivision growth, and the substantial rural-agricultural acreage — combined with the Chattahoochee and Tallapoosa river-corridor source populations and Carroll's exceptional armadillo establishment — means contractors here handle a uniquely mixed call profile of historic-district multi-entry-point exclusion, armadillo trapping, suburban roof-rat work, rural beaver dam management, and continuous raccoon-and-squirrel residential pressure.`;
+    metaTitle = `Carroll County Wildlife Removal — Carrollton, Villa Rica GA`;
+    metaDescription = `Licensed wildlife removal in Carroll County, GA — Carrollton, Villa Rica, Bowdon & Temple. Armadillo, raccoon, bat & beaver service. Same-day humane response.`;
+
+    geo = { lat: 33.5805, lon: -85.0766 };
+    sameAs = [
+      'https://en.wikipedia.org/wiki/Carroll_County,_Georgia',
+      'https://en.wikipedia.org/wiki/Carrollton,_Georgia',
+    ];
+
+    neighboringCounties = [
+      { name: 'Douglas County',   slug: 'douglas-county',   anchor: 'Douglas County wildlife removal',     blurb: 'directly to the east' },
+      { name: 'Paulding County',  slug: 'paulding-county',  anchor: 'Paulding County wildlife services',   blurb: 'to the northeast' },
+      { name: 'Haralson County',  slug: 'haralson-county',  anchor: 'Haralson County animal removal',      blurb: 'to the north' },
+      { name: 'Coweta County',    slug: 'coweta-county',    anchor: 'Coweta County wildlife removal',      blurb: 'to the southeast' },
+      { name: 'Heard County',     slug: 'heard-county',     anchor: 'Heard County wildlife removal',       blurb: 'to the south' },
+    ];
+
+    extendedBody = `
+      <h2>Carroll County's Geography Shapes Wildlife Activity</h2>
+      <p>Carroll sits at the far western edge of metro Atlanta's commuter belt — about 50 miles west of downtown via I-20, with the Alabama state line forming the western boundary and the <strong>Chattahoochee River</strong> forming the eastern boundary that separates Carroll from Douglas and Coweta. <strong>I-20</strong> cuts east-west through the northern portion of the county and drives the residential-development pattern: 1990s-2010s subdivisions cluster along the corridor between Villa Rica and Temple, with substantial rural-agricultural acreage filling the southern and western portions of the county.</p>
+      <p>Carrollton (the county seat) anchors the county's most concentrated historic-housing inventory. The <strong>Maple Street Historic District</strong> — antebellum and Victorian residences clustered around the streets radiating from the original courthouse square — has one of west Georgia's highest concentrations of pre-1860 substantially-built housing. The <strong>University of West Georgia</strong> (UWG) campus and the surrounding student-housing district are immediately adjacent and contribute their own distinctive year-round wildlife exclusion call profile. Beyond Carrollton, the 1850s-era <strong>Bowdon historic core</strong> in southwestern Carroll and the pre-1900 <strong>Whitesburg cotton-mill town</strong> in southeastern Carroll provide additional pre-1900 brick storefront and worker housing. The <strong>Little Tallapoosa River</strong> cuts through the county center; the <strong>Tallapoosa River basin</strong> drains the western half of the county into Alabama; and the <strong>Carrollton GreenBelt</strong> 18-mile loop trail circles the city through preserved greenspace.</p>
+
+      <h2>Wildlife Species Present in Carroll County</h2>
+      <p>Carroll residents most frequently call about animals that have moved from the Chattahoochee corridor, the Little Tallapoosa River, the Tallapoosa basin, or the Maple Street Historic District into residential structures:</p>
+      <ul class="tips-list">
+        <li><strong>Armadillos</strong> — Carroll is the established source for armadillo dispersal across north Georgia; densities here are higher than anywhere else in the metro-Atlanta fringe, and lawn-rooting damage is the single highest-volume seasonal call category</li>
+        <li><strong>Raccoons</strong> — heaviest densities along the Chattahoochee corridor on the eastern boundary and the Little Tallapoosa River; female raccoons whelp in Maple Street Historic District antebellum-era masonry chimneys February through April every year</li>
+        <li><strong>Eastern gray squirrels</strong> — constant across the county's mature canopy and the UWG campus area; <strong>Southern flying squirrels</strong> in older Maple Street Historic District housing and rural barn structures</li>
+        <li><strong>Roof rats</strong> — establishing along the I-20 corridor between Villa Rica and Temple as the species expands westward from metro Atlanta</li>
+        <li><strong>Norway rats</strong> — concentrated in pre-1860 Carrollton historic-square commercial blocks, the Bowdon historic-downtown, and Whitesburg historic-downtown</li>
+        <li><strong>Big brown bats</strong> — long-established colonies in pre-1860 Maple Street Historic District antebellum chimneys (some 30-50+ years of continuous occupation), the 1850s Bowdon historic-core housing, and pre-1900 Whitesburg cotton-mill town housing</li>
+        <li><strong>Evening bats</strong> in older Carrollton, Bowdon, and Whitesburg housing</li>
+        <li><strong>Virginia opossums</strong>, <strong>striped skunks</strong> across residential, rural-edge, and agricultural-outbuilding areas</li>
+        <li><strong>Beavers</strong> — substantial populations throughout the Tallapoosa River basin in western Carroll, producing regular dam-and-flooding calls at rural roads, agricultural drainage, and lakefront properties</li>
+        <li><strong>Coyotes</strong> firmly established countywide; routine at rural homesteads, agricultural outbuildings, and wooded subdivision edges</li>
+        <li>Snakes encountered residentially are dominated by the <strong>eastern rat snake</strong> with the occasional <strong>northern copperhead</strong>; <strong>brown watersnakes</strong> along the Chattahoochee and Little Tallapoosa corridors</li>
+      </ul>
+
+      <h2>Common Wildlife Issues That Define the Carroll Job Mix</h2>
+      <p>Several patterns in Carroll's call volume are distinctive enough to call out:</p>
+
+      <h3>Armadillo lawn-rooting and foundation damage</h3>
+      <p>Carroll is the established armadillo capital of north Georgia. The species has been firmly established in Carroll for decades and continues to disperse eastward into Douglas, northward into Paulding, and northwestward into Haralson and Polk. Within Carroll itself, armadillo damage is the single highest-volume seasonal call category — extensive lawn rooting (turf flipped over in 6-12 inch divots searching for grubs and earthworms), foundation undermining where they burrow next to slabs and crawl-space walls, and damage to landscape plantings. Trap-and-relocate is the standard resolution; structural exclusion of foundation gaps is the long-term fix.</p>
+
+      <h3>Maple Street Historic District antebellum and Victorian multi-entry-point work</h3>
+      <p>Carrollton's Maple Street Historic District housing has structural features — original masonry chimneys without modern caps, hand-laid brick foundations with pointing failures, original wood soffits, pre-modern gable louvers without screen backing — that produce 4-5+ raccoon, bat, and squirrel entry points per property. Custom-fabricated stainless-steel chimney caps for pre-1860 chimneys are typical scope items, and licensed-electrician follow-up is required where chewed wiring is found on the older Romex.</p>
+
+      <h3>Bowdon and Whitesburg historic-mill town bat and Norway rat work</h3>
+      <p>The 1850s Bowdon historic core and the pre-1900 Whitesburg cotton-mill town housing host long-established big-brown-bat colonies and persistent Norway rat populations. The historic-district housing-and-commercial mix produces the same multi-decade colony profile as Carrollton's Maple Street historic core.</p>
+
+      <h3>Tallapoosa River basin beaver dam management</h3>
+      <p>Beavers maintain substantial populations throughout the Tallapoosa River basin in western Carroll, producing recurring dam-and-flooding calls at rural roads, agricultural drainage culverts, and lakefront properties. Resolutions typically combine dam removal, deterrent fencing of preferred vegetation, and pond-leveler installations where flooding affects critical infrastructure.</p>
+
+      <h3>I-20 corridor roof-rat establishment</h3>
+      <p>Subdivisions along the I-20 corridor between Villa Rica and Temple are at the leading western edge of roof rat range expansion as the species moves westward from metro Atlanta. Properties along the corridor are seeing roof-rat establishment in 1990s-2010s subdivision construction, often without homeowners recognizing the species — they assume the activity is squirrels.</p>
+
+      <h2>Local Authorities and Regulations</h2>
+      <p>Public-health authority for Carroll County rabies-vector exposure runs through the <strong>Carroll County Health Department</strong> (West Central Health District); <strong>Carroll County Animal Services</strong> handles domestic-animal complaints but does not respond to most nuisance wildlife. Commercial wildlife removal in Georgia operates under <strong>Georgia DNR Wildlife Resources Division Region 4</strong> (Fort Valley office). Federal protections apply to bats during maternity periods (May-August exclusion restrictions) and all migratory birds.`;
+
+    faqs = [
+      {
+        q: 'What wildlife is most common in Carroll County, Georgia?',
+        a: "In residential calls across Carroll County, armadillos drive the highest seasonal call volume — Carroll is the established armadillo source for north Georgia and the species is firmly entrenched countywide. Eastern gray squirrels, raccoons, Virginia opossums, and big brown bats make up the bulk of attic and yard intrusions. Pre-1860 Carrollton Maple Street Historic District housing hosts long-established big-brown-bat colonies in original masonry chimneys; the 1850s Bowdon historic-core and pre-1900 Whitesburg cotton-mill town housing host similar colonies. Roof rats are establishing along the I-20 corridor between Villa Rica and Temple. Beavers in the Tallapoosa basin produce regular dam-management calls in western Carroll."
+      },
+      {
+        q: 'Why is the armadillo population so heavy in Carroll County?',
+        a: "Carroll has been the established armadillo source for north Georgia for decades. Nine-banded armadillos (Dasypus novemcinctus) expanded northward from Florida and the Gulf Coast through the 20th century, and west Georgia's mild winters and sandy-loam soils gave them ideal conditions for permanent establishment ahead of the surrounding counties. From Carroll the species has continued dispersing eastward into Douglas, northward into Paulding, and northwestward into Haralson and Polk. Within Carroll, lawn-rooting and foundation undermining are the dominant complaints — armadillo activity here is far heavier and more persistent than in any neighboring county."
+      },
+      {
+        q: 'How old are the bat colonies in Carrollton historic homes?',
+        a: 'Maple Street Historic District antebellum-era chimney colonies are routinely 30-50+ years old by the time homeowners first notice activity. Big brown bat daughters return to their natal roosts to whelp, so colony memory is multigenerational and persists across changes in property ownership. Bowdon and Whitesburg historic-district colonies span similar timeframes. Long-established colonies produce inches of accumulated guano, requiring HEPA-equipped decontamination after exclusion is complete.'
+      },
+      {
+        q: 'Are roof rats new to Carroll County?',
+        a: 'Relatively. Roof rats moved westward along the I-20 corridor from metro Atlanta during the 2010s and are now establishing in I-20 corridor subdivisions between Villa Rica and Temple. Properties here are seeing roof-rat presence for the first time, often without homeowners recognizing the species — they assume the activity is squirrels or Norway rats. The defining diagnostic is pointed-end half-inch droppings (versus blunt 3/4-inch Norway droppings) and overhead activity in attics and ceiling cavities.'
+      },
+      {
+        q: 'When can I evict raccoons from my Carroll County attic?',
+        a: 'Female raccoons in Carroll County whelp late February through early May, and kits are immobile and dependent until roughly 8-10 weeks of age. Performing exclusion during that window risks separating mother from kits and trapping kits inside the structure. Right approach during kit season is one-way doors that let the family exit but not re-enter, deployed once kits are mobile. Inspections and entry-point identification can happen any time of year.'
+      },
+      {
+        q: 'Do contractors handle beaver problems in western Carroll?',
+        a: 'Yes. The Tallapoosa River basin and its tributary creeks throughout western Carroll sustain substantial beaver populations, and dam-and-flooding calls at rural roads, agricultural drainage culverts, and lakefront properties are a routine part of the contractor workload. Resolutions typically combine dam removal, deterrent fencing of preferred vegetation (cottonwood, willow, alder), and pond-leveler installation where flooding affects critical infrastructure. Beavers are protected under Georgia DNR trapping-season regulations; commercial nuisance work is handled under Nuisance Wildlife Control Permits.'
+      },
+      {
+        q: 'How much does wildlife removal cost in Carroll County?',
+        a: 'Pricing varies by species and exclusion scope. Armadillo trap-and-relocate runs $250-$600+ per yard depending on burrow count and foundation-exclusion needs. Pre-1860 Maple Street Historic District raccoon jobs run $700-$1,800+ because of multi-entry-point profiles. Long-established Carrollton, Bowdon, and Whitesburg bat colonies run $2,500-$5,000+ once full guano remediation is included. Suburban I-20-corridor roof-rat jobs typically run $400-$900+. Beaver dam removal and pond-leveler installation in western Carroll runs $800-$3,500+ depending on access and scope.'
+      },
+      {
+        q: 'Is wildlife removal regulated in Carroll County?',
+        a: 'Yes. State-level oversight comes from the Georgia DNR Wildlife Resources Division (Region 4, Fort Valley office), which issues the Trapping License and Nuisance Wildlife Control Permit required for commercial operators. Federal protections apply to bats during maternity periods (May-August exclusion restrictions) and all migratory birds (Canada geese, owls, hawks, woodpeckers). Carroll County Animal Services handles domestic-animal calls but does not respond to most nuisance wildlife — those calls are referred to licensed private operators.'
+      }
+    ];
+
   } else if (countyName === 'Coweta County') {
     blockA = `Coweta County sits in the southwestern metropolitan Atlanta exurban arc, with the Chattahoochee River along its western boundary and I-85 cutting north-south through the county center. With a population of ${county.population.toLocaleString()} residents, Coweta runs from the historic Newnan downtown core (locally known as the "City of Homes" for its exceptional density of antebellum and Victorian residences) through the surrounding 1990s-2010s subdivision growth corridor and out to Senoia's pre-1900 brick storefronts (used as a filming location for The Walking Dead). Established in ${county.established}, the county combines pre-1860 Newnan historic housing, mid-century Senoia and rural-edge construction, and the explosive I-85 corridor subdivision growth from the past 30 years.`;
     blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across Coweta's mature canopy, with twin breeding-cycle peaks driving twin call peaks. Southern flying squirrels appear with notable frequency in older Newnan and Senoia historic-district housing. Virginia opossums shelter under decks and porches across the older inner-Newnan housing stock. Striped skunks are persistent under sheds and crawl spaces in the rural-edge subdivisions, and snake calls — primarily eastern rat snakes and the occasional copperhead — concentrate around the wooded properties along the Chattahoochee River corridor. ${cap(county.absent_or_rare)}.`;
