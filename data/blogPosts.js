@@ -12,6 +12,107 @@
 
 const BLOG_POSTS = [
   {
+    slug: 'bats-in-macon-ga',
+    title: 'Bats in Macon, GA — A Wildlife Pro\'s Guide to Vineville\'s Antebellum Chimney Colonies',
+    metaTitle: 'Bats in Macon GA: Vineville Historic District Bat Removal',
+    metaDescription: 'A wildlife pro on Macon\'s antebellum chimney bat colonies — why Vineville Historic District has Georgia\'s oldest, what proper exclusion looks like, what it costs.',
+    excerpt: 'Macon\'s antebellum chimneys hold bat colonies older than any I\'ve worked in north Georgia — Vineville roosts that go back 50, 80, sometimes 100+ years. Here\'s what I\'d tell any Vineville, In-Town, or Beall\'s Hill homeowner who calls.',
+    datePublished: '2026-05-05',
+    dateModified: '2026-05-05',
+    author: 'Justin McCalvin',
+    authorBio: 'Justin McCalvin works with Local Wildlife Experts, a family-run wildlife removal company that covers all of north Georgia. He has spent 11 years in the field — much of it on antebellum chimney bat colonies in Marietta, Roswell, Newnan, and Carrollton historic districts — and is licensed under Georgia DNR Wildlife Resources Division.',
+    category: 'Bat Removal',
+    tags: ['bat', 'macon', 'bibb county', 'georgia', 'vineville', 'antebellum', 'historic district', 'big brown bat', 'exclusion', 'histoplasmosis'],
+    body: `
+<p class="lead">Macon isn't our home territory. Local Wildlife Experts is a north Georgia operation, and most of my work runs from the Atlanta-metro arc up to the Tennessee line. But bats don't care about county lines, and Macon has the deepest residential bat colonies I've come across anywhere in Georgia — older, larger, and more entrenched than the ones I work in Marietta Square, Roswell historic, or the Newnan "City of Homes" district. If you live in Vineville, In-Town, Beall's Hill, or Pleasant Hill and you're hearing chirping at dusk above your ceiling, this is what I'd tell you on the phone.</p>
+
+<figure style="margin:28px 0;">
+  <img src="/images/big-brown-bat-macon.jpg" alt="Big brown bat (Eptesicus fuscus) in a Vineville Historic District chimney exclusion job — Macon, Georgia bat removal" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
+  <figcaption style="font-size:0.88rem;color:#6b7280;margin-top:10px;text-align:center;font-style:italic;line-height:1.5;">A big brown bat (<em>Eptesicus fuscus</em>) — the dominant residential species in Macon antebellum chimneys. The colonies in pre-1860 Vineville and In-Town homes routinely span 50 to 100+ years of continuous occupation.</figcaption>
+</figure>
+
+<h2>Why Macon's Antebellum Chimneys Hold the Oldest Bat Colonies in Georgia</h2>
+<p>Big brown bats live in chimneys for the same reason they live in hollow trees — protected, dark, the right temperature, undisturbed for decades at a time. The thing that makes Macon different from north Georgia is the <strong>depth</strong> of the antebellum housing inventory and the way colony memory works.</p>
+
+<p>When a female big brown bat (<em>Eptesicus fuscus</em>) gives birth in a chimney, her daughters return to that exact chimney to whelp the next year. And the year after that. And so on. The technical term is "natal philopatry," and what it means in practice is that a chimney that hosted bats in 1925 is very likely hosting bats in 2026 — same chimney, same colony lineage, sometimes hundreds of generations later.</p>
+
+<p>North Georgia has plenty of pre-1860 housing. Marietta Square, Roswell's historic district, Newnan's "City of Homes," Carrollton's Maple Street Historic District. The colonies I work in those areas typically run <strong>30 to 50 years</strong> of continuous occupation — long-established, but generally post-Civil-War.</p>
+
+<p>Macon's pre-1860 housing density is on a different scale. The <strong>Hay House</strong> (a National Historic Landmark), the <strong>Cannonball House</strong> (still bearing damage from a Civil War shell), the <strong>Sidney Lanier Cottage</strong>, and the surrounding Vineville and In-Town residential fabric give Macon one of the most intact antebellum housing inventories in the United States. Many of those chimneys have been standing — and undisturbed — since before the Civil War. The bat colonies in them have had time to put down roots no north Georgia chimney has had the chance to.</p>
+
+<p>I've personally seen guano accumulation in Macon antebellum chimneys that's measured in <strong>inches per decade</strong>. A 50-year-old colony in Marietta might leave you a foot of guano in the smoke shelf. A 100-year-old colony in Vineville can leave several feet, with hardened layers near the bottom that pre-date electric lighting in the rest of the house.</p>
+
+<h2>Where Bats Actually Live in Macon</h2>
+<p>Four neighborhoods produce most of the residential Macon bat calls I hear about:</p>
+
+<p><strong>Vineville Historic District</strong> — the dense pre-1860 residential blocks along Hardeman Avenue, Forsyth Road, and the surrounding Victorian housing. This is the highest-density antebellum bat-colony zone in central Georgia. If you're in Vineville and you have an unsealed chimney, the working assumption is that bats have been or are currently in it.</p>
+
+<p><strong>In-Town Historic District</strong> — College Street, Plum Street, High Street. Same construction era, same chimney profile, same multi-decade colony establishment.</p>
+
+<p><strong>Beall's Hill</strong> — pre-1900 residential blocks adjacent to the Mercer University campus. Slightly newer than Vineville but still well within the multi-generational colony window.</p>
+
+<p><strong>Pleasant Hill</strong> — one of the country's oldest African-American neighborhoods, with pre-1900 housing stock that hosts colonies on the same multi-decade scale.</p>
+
+<p>Outside those four districts, Macon's mid-century post-WWII housing in Shirley Hills and Ingleside picks up smaller-scale colonies — typically Brazilian free-tailed bats (<em>Tadarida brasiliensis</em>) or evening bats rather than the long-established big brown colonies that dominate the historic blocks. Brazilian free-tailed bats are uncommon in pre-1860 north Georgia housing but routine in central Georgia commercial buildings, highway bridges, and occasionally Macon residential roosts.</p>
+
+<h2>How to Tell If You Have Bats in a Macon Antebellum Home</h2>
+<p>The signs are specific:</p>
+<ul>
+  <li><strong>Chirping or fluttering at dusk and just before dawn</strong>, coming from a chimney chase, gable end, or attic. Bats are most vocal as they leave to forage and as they return.</li>
+  <li><strong>A whoosh sound at sunset</strong> from a roofline or chimney as the colony emerges. Stand outside on a clear evening; you may actually see them.</li>
+  <li><strong>Dark oil-and-fur staining</strong> on the brick or siding below an active entry. Big brown bat fur leaves a distinctive stain that's usually a foot or two below the gap.</li>
+  <li><strong>Guano</strong> in the firebox, on the smoke shelf, or below the entry on the exterior. Bat guano crumbles to dust between your fingers; mouse droppings stay solid.</li>
+  <li><strong>An ammonia smell</strong> from the chimney chase or attic in summer, when the colony is most active.</li>
+  <li><strong>A bat in your living space</strong>, even one. From a public-health standpoint that's a possible rabies exposure event — call the North Central Health District in Macon about post-exposure protocol.</li>
+</ul>
+
+<h2>Why You Can't Evict Them in Summer</h2>
+<p>This is the rule that surprises Macon homeowners most. <strong>Georgia DNR restricts active bat exclusion during the maternity season — roughly May through August.</strong> During those months, female bats are nursing flightless pups in the chimney. If you seal the entry, the mothers get locked out and the pups starve and die in the chimney. Now you have a far worse problem: smell, blowflies, and a sanitation issue that means breaking apart the chimney to get the dead pups out.</p>
+
+<p>Any company that offers to "evict" your bats in June or July is either uninformed or cutting a corner that's going to come back on you in August. The legal exclusion windows are <strong>April</strong> (before pups are born) and <strong>September through April</strong> (after pups are flying).</p>
+
+<p>The federal layer matters too. The <strong>tricolored bat</strong> (<em>Perimyotis subflavus</em>) is federally proposed for listing under the Endangered Species Act, and it's documented in central Georgia — including in pre-1860 Macon antebellum chimneys in some cases. If a tricolored is part of your colony, federal protocols apply on top of the state ones, and the work has to be done by someone who knows the difference.</p>
+
+<h2>What Proper Macon Antebellum Bat Exclusion Looks Like</h2>
+<p>Real bat work on a Macon antebellum chimney is a multi-step process, not a single visit:</p>
+
+<p><strong>Inspection.</strong> Every viable opening on the exterior — chimney crown, gable louvers, soffit returns, fascia, brick joints. A typical Vineville antebellum house has <strong>4 to 6 viable openings</strong>. The original chimney is usually the active one, but the others have to be sealed too because bats remember roosts.</p>
+
+<p><strong>Custom-fabricated stainless-steel chimney caps.</strong> Pre-1860 Macon chimneys rarely match modern off-the-shelf cap dimensions. The crown is too wide, too narrow, or non-square. You can't solve a Vineville chimney with a hardware-store cap; the work requires fabricated stainless-steel that's measured to fit the historic crown without damaging the masonry.</p>
+
+<p><strong>One-way exclusion devices.</strong> Once we're in a legal window, valves go over every active entry. Bats can leave to forage but can't return. The colony exits voluntarily over 4 to 14 days.</p>
+
+<p><strong>Verification.</strong> Multiple dusk evenings of monitoring to confirm the colony has fully evacuated. This is the step DIY skips.</p>
+
+<p><strong>Sealing every entry.</strong> Once verified empty, every viable opening gets sealed with the proper material — not just the active one.</p>
+
+<p><strong>Guano remediation.</strong> This is where Macon antebellum jobs get expensive. A 50-100+ year colony leaves <em>significantly</em> more accumulated guano than the 30-50 year north Georgia colonies I'm more accustomed to. Removal requires HEPA-equipped vacuum systems and N95+ respiratory protection. Contaminated insulation has to come out and be replaced. <em>Histoplasma capsulatum</em> — the fungus that causes histoplasmosis — grows in bat guano and becomes airborne when disturbed.</p>
+
+<p>End-to-end, a real Macon antebellum exclusion takes <strong>2 to 6 weeks</strong>. Pre-1860 Vineville and In-Town jobs typically run <strong>$3,000-$6,000+</strong> once full guano remediation is included. Multi-cavity work (chimney + gable louver + soffit) frequently runs <strong>$5,000-$10,000+</strong>. That's not me trying to sell up — that's what the actual scope looks like when you're cleaning out a century of accumulated guano.</p>
+
+<h2>Why DIY Fails on Vineville Chimneys</h2>
+<p>Two failure modes show up over and over:</p>
+
+<p><strong>Sealing pups inside the chimney.</strong> Homeowner watches a few bats fly out at sunset, climbs up with masonry caulk and seals the chimney crown. Two weeks later the smell starts. Now we're cutting into pre-1860 brick to recover dead pups, and the historic-preservation considerations on the masonry repair just doubled the job cost.</p>
+
+<p><strong>Histoplasmosis exposure.</strong> Macon's 50-100+ year colonies have produced more accumulated guano than DIY equipment can safely handle. Homeowners scoop it out of the firebox with a shop-vac, aerosolize the spores, and end up with a respiratory infection. The CDC has documented histoplasmosis exposure events from exactly this scenario in central Georgia.</p>
+
+<p>For the record: mothballs don't work, ultrasonic devices don't work, spray foam doesn't work (bats use it as nesting material). The only humane, effective method is one-way exclusion done in the right legal window with proper PPE and proper masonry follow-up.</p>
+
+<h2>When to Call</h2>
+<p>Call us if you're hearing chirping or fluttering above the ceiling at dusk, watching bats emerge from your chimney or roofline at sunset, smelling ammonia from the chimney chase or attic in summer, finding guano or oil staining below an entry on the exterior, or finding a bat in your living space — even one.</p>
+
+<p>We can usually get an inspection on the calendar within a few days for Macon area calls. If you'd like to see how we handle the work, here's our <a href="/georgia/bibb-county/macon/bat-removal/">Macon bat removal page</a> and the broader <a href="/georgia/bibb-county/bat-removal/">Bibb County bat work hub</a>. For a deeper read on the health side, our <a href="/blog/bats-in-attic-dangers/">guide to the dangers of bats in the attic</a> covers histoplasmosis and rabies in detail. And if you want to see how the same antebellum chimney work plays out in north Georgia for comparison, our <a href="/blog/bats-in-douglasville-ga/">Douglasville bat removal guide</a> walks through the smaller-scale version of this problem.</p>
+
+<h2>The Reason Macon Bat Work Is Different</h2>
+<p>I've been doing antebellum chimney bat exclusion in north Georgia for 11 years. Macon's the deepest version of that problem I've seen anywhere. The colonies are older, the guano accumulation is heavier, the historic-preservation considerations on the masonry are stricter, and the federal-and-state legal layers are more complicated than the typical north Georgia job. None of that means it can't be done — it just means it has to be done by someone who knows the difference between a 30-year colony and a 100-year colony, and who has the equipment and the patience to handle the older ones correctly.</p>
+
+<p>If you've got bats in Vineville, In-Town, Beall's Hill, or Pleasant Hill, you don't have to live with them. But you do have to handle it correctly. Call <strong>(844) 544-3498</strong> and we'll get the inspection on the calendar.</p>
+
+<p>— Justin McCalvin, Local Wildlife Experts</p>
+`
+  },
+  {
     slug: 'armadillos-in-newnan-ga',
     title: 'Armadillos in Newnan, GA — A Wildlife Pro\'s Field Guide',
     metaTitle: 'Armadillos in Newnan, GA — North Georgia Wildlife Pro\'s Guide',
