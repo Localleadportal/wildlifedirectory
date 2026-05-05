@@ -10,6 +10,7 @@
   // Same opt-in gating as county.ejs: only fire enriched scaffolding when this (county, animal) pair has its own content block.
   const seoEnhanced = !!(countyAnimalContent && countyAnimalContent.geo);
   const stateRegion = stateName === 'Georgia' ? 'GA'
+    : stateName === 'Tennessee' ? 'TN'
     : stateName === 'Delaware' ? 'DE'
     : stateName === 'Connecticut' ? 'CT'
     : stateName === 'New Hampshire' ? 'NH'
