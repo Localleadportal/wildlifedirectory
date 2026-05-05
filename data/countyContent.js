@@ -1620,7 +1620,7 @@ function georgiaContent(countyName, county, s) {
 function tennesseeContent(countyName, county, s) {
   const top4cities = county.largest_cities.slice(0, 4).join(', ');
 
-  let blockA, blockB, blockC, metaTitle, metaDescription;
+  let blockA, blockB, blockC, metaTitle, metaDescription, heroIntro;
   let extendedBody = null;
   let faqs = null;
   let neighboringCounties = null;
@@ -1633,6 +1633,7 @@ function tennesseeContent(countyName, county, s) {
     blockC = `Coverage spans all of Williamson County including ${top4cities}, plus Thompson's Station, Fairview, Arrington, College Grove, Leiper's Fork, and the unincorporated Bethesda, Triune, Grassland, and Cool Springs communities. The county's mix of high-end Brentwood subdivisions, the historic Franklin downtown core, the rapidly growing Cool Springs and Berry Farms commercial-residential districts, and the rural horse-country valleys of Leiper's Fork and College Grove — combined with the year-round wildlife activity that defines middle Tennessee's mild-winter climate — means contractors here handle a continuous mix of attic exclusion, copperhead and bat colony work, beaver flooding along the Harpeth, and aggressive coyote-management calls in the suburban greenways.`;
     metaTitle = `Williamson County Wildlife Removal — Franklin, Brentwood, Spring Hill TN`;
     metaDescription = `Licensed wildlife removal in Williamson County, TN — Franklin, Brentwood, Spring Hill, Nolensville & Fairview. Bats, coyotes, copperheads, raccoons. Same-day service.`;
+    heroIntro = `Serving homeowners across <strong>Franklin</strong>, <strong>Brentwood</strong>, <strong>Spring Hill</strong>, <strong>Nolensville</strong>, and the <strong>Cool Springs</strong> corridor — same-day wildlife removal, exclusion, and attic remediation by licensed Tennessee contractors.`;
 
     geo = { lat: 35.92, lon: -86.87 };
     sameAs = [
@@ -1735,7 +1736,7 @@ function tennesseeContent(countyName, county, s) {
   const blockD = `Wildlife intrusion in ${countyName} follows Tennessee's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
   const blockE = `All commercial wildlife removal in Tennessee is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds the applicable TWRA certification and operates within ${s.agency_short} guidelines on species-specific handling and relocation.`;
 
-  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, extendedBody, faqs, neighboringCounties, geo, sameAs };
+  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, heroIntro, extendedBody, faqs, neighboringCounties, geo, sameAs };
 }
 
 // ---- main dispatcher ----

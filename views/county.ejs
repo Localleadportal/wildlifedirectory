@@ -224,7 +224,11 @@
       <div class="container">
         <div class="hero-badge">Serving <%= countyName %>, <%= stateName %></div>
         <h1>Wildlife Removal in <%= countyName %></h1>
+        <% if (countyContent && countyContent.heroIntro) { %>
+        <p><%- countyContent.heroIntro %></p>
+        <% } else { %>
         <p>Local licensed experts ready to remove, exclude, and remediate — fast.</p>
+        <% } %>
       </div>
     </section>
 
