@@ -26,6 +26,11 @@ const BLOG_POSTS = [
     body: `
 <p class="lead">Armadillos weren't part of the Newnan job mix when I started in this work. They've shown up in the past decade. In 11 years across north Georgia, I've watched the nine-banded armadillo (<em>Dasypus novemcinctus</em>) push steadily northward into Coweta and the surrounding suburban-and-rural counties — and Newnan is now firmly inside the established range. If you're a Newnan homeowner staring at strange cone-shaped holes in your lawn, or you've noticed your foundation plantings rooted up overnight, there's a very good chance an armadillo is the cause. This is the licensed-contractor version of what's happening, what to do about it, and why DIY armadillo removal almost always fails.</p>
 
+<figure style="margin:28px 0;">
+  <img src="/images/armadillo-newnan-ga.jpg" alt="Nine-banded armadillo (Dasypus novemcinctus) caught in a humane live trap during a Newnan, GA armadillo removal job — Local Wildlife Experts" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
+  <figcaption style="font-size:0.88rem;color:#6b7280;margin-top:10px;text-align:center;font-style:italic;line-height:1.5;">A nine-banded armadillo (<em>Dasypus novemcinctus</em>) caught in a humane live trap during a Local Wildlife Experts removal job in Newnan, GA. All handling uses PPE per the <em>Mycobacterium leprae</em> protocols covered later in this post.</figcaption>
+</figure>
+
 <h2>Why Armadillos Showed Up in Newnan in the Last Decade</h2>
 <p>Nine-banded armadillos are not native to Georgia. Their historical range was Mexico, Central America, and the southwestern United States. They began expanding northward through Texas in the early 1900s, hit Louisiana and Alabama by mid-century, and started moving into south Georgia in the 1970s and 1980s. Over the past two decades they've worked their way through the Atlanta metro suburbs.</p>
 
