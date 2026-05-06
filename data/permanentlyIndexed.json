@@ -16,6 +16,7 @@
     "Georgia|Fayette",
     "Georgia|Fulton",
     "Georgia|Gwinnett",
+    "Tennessee|Franklin",
     "Tennessee|Williamson"
   ],
   "countiesWithCountyOnlyIndex": [
@@ -29,6 +30,7 @@
   ],
   "countiesWithHubOnlyIndex": [
     "Georgia|Chatham",
+    "Tennessee|Franklin",
     "Tennessee|Williamson"
   ],
   "states": [

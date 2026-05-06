@@ -52,6 +52,54 @@
       ],
       "regional_wildlife": "Williamson County's wildlife profile is shaped by the Nashville Basin's cedar-glade limestone outcrops and the Harpeth River corridor cutting directly through the heart of Franklin and Brentwood. Big brown bat maternity colonies routinely form in the older brick housing stock of downtown Franklin's historic district and the original 1950s-1970s subdivisions of Brentwood, and Mexican free-tailed bat colonies appear in larger commercial structures throughout the Cool Springs corridor. Copperhead encounters are the dominant venomous snake call, concentrated around the wooded properties of Leiper's Fork, Brentwood's hillside subdivisions off Old Hickory Boulevard and Concord Road, and the limestone-outcrop edges of the Harpeth River bluffs. Coyote sightings are now routine across every subdivision from Brentwood through Franklin and the Cool Springs corridor, driven by the mature greenways, golf courses, and creek corridors that thread between developments. Beavers cause regular flooding of yards, walking paths, and stormwater culverts along the Harpeth and Little Harpeth tributaries. Groundhog burrow damage to lawns and foundation plantings is a consistent call source across the county's affluent residential housing stock, where manicured turf runs up against wooded edges. Eastern gray squirrel intrusions are constant in the mature canopy of Brentwood and the older Franklin neighborhoods, and Norway rats are persistent in the older commercial corridors of downtown Franklin and the food-service blocks of Cool Springs",
       "absent_or_rare": "white-tailed deer are abundant throughout Williamson's wooded subdivisions and the Leiper's Fork, College Grove, and Arrington rural areas — driving high vehicle-collision rates but falling under TWRA management rather than the private wildlife removal industry, black bears occasionally pass through the western edge of the county along the Hickman County line, the federally endangered gray bat and Indiana bat have documented summer feeding flights over the Harpeth River corridor and may roost in caves on the county's western edge — any bat handling near these populations requires TWRA and U.S. Fish & Wildlife Service coordination, and timber rattlesnakes are present at very low density on the most rugged wooded ridgelines but are uncommon at residential properties"
+    },
+    "Franklin County": {
+      "county_seat": "Winchester",
+      "population": 42734,
+      "established": 1807,
+      "region": "south-central Tennessee along the Alabama state line, where the rolling Highland Rim farmland of the Elk River valley rises sharply onto the western Cumberland Plateau escarpment at Sewanee — placing the county across two distinctly different physiographic provinces, with the Tims Ford Lake basin anchoring the lowland half and the University of the South's 13,000-acre Sewanee Domain anchoring the plateau half",
+      "largest_cities": [
+        "Winchester",
+        "Sewanee",
+        "Estill Springs",
+        "Decherd",
+        "Cowan",
+        "Huntland",
+        "Belvidere"
+      ],
+      "nearest_metro": "Chattanooga (about 70 miles southeast of Winchester) and Huntsville, Alabama (about 55 miles south); Nashville is roughly 90 miles north",
+      "natural_features": [
+        "Tims Ford Lake (Tennessee Valley Authority impoundment of the Elk River, 10,700 acres)",
+        "Tims Ford State Park",
+        "Elk River (state scenic river segments below Tims Ford Dam)",
+        "Cumberland Plateau / Sewanee escarpment",
+        "Sewanee Domain (University of the South, 13,000-acre forested campus)",
+        "Sewanee Natural Bridge (state natural area)",
+        "Lost Cove and the Sewanee Perimeter Trail bluffs",
+        "Boiling Fork Creek and the Cowan railroad tunnel cut",
+        "Bean's Creek and Carroll Creek tributaries",
+        "Franklin State Forest (eastern plateau)",
+        "Rutledge Falls (Crumpton Creek)"
+      ],
+      "habitat_type": "Highland Rim farmland and Elk River bottomland surrounding Tims Ford Lake on the western half of the county, transitioning across the Cumberland Plateau escarpment at Cowan and Sewanee into mature plateau-top oak-hickory and mixed mesophytic forest, with the deeply incised coves and sandstone bluffs of the Sewanee Perimeter and Lost Cove forming a regionally significant cave-and-cliff habitat zone",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Virginia opossums",
+        "big brown bats",
+        "tricolored bats (federally proposed for listing)",
+        "gray bats (federally endangered, documented in Franklin County caves)",
+        "striped skunks",
+        "woodchucks (groundhogs)",
+        "red and gray foxes",
+        "Eastern coyotes",
+        "beavers",
+        "river otters",
+        "Norway rats",
+        "snakes (copperhead, timber rattlesnake, Eastern rat snake, garter snake, northern watersnake)"
+      ],
+      "regional_wildlife": "Franklin County's wildlife profile is split sharply between the lowland Tims Ford Lake basin and the Cumberland Plateau bluff country at Sewanee, Cowan, and Lost Cove. Big brown bat maternity colonies form in the older brick housing stock of downtown Winchester, the historic stone and timber buildings of the Sewanee Domain, and the original 1900s-1950s farmhouse stock across the Elk River valley. The plateau coves and sandstone bluffs above Cowan and Sewanee contain documented gray bat (federally endangered) and tricolored bat populations — meaning any bat exclusion in the eastern half of the county requires species verification before active work begins. Copperhead encounters are routine across the Sewanee Perimeter, the bluff-edge properties along the Lost Cove rim, and the wooded lots throughout Monteagle-adjacent communities, and timber rattlesnakes are present at meaningful density across the rocky plateau-edge habitat — a notable contrast with middle Tennessee's basin counties where timber rattlers are uncommon. Beavers cause routine flooding along the Elk River tributaries, Bean's Creek, and the smaller streams feeding into Tims Ford Lake, and their dam activity around lakefront subdivisions and TVA shoreline access points generates steady water-management calls. Coyote pressure is established across both the Winchester city edge and the rural farmland of the Elk River valley, with regular livestock-predation calls from the small-farm and hobby-livestock landscape. Eastern gray squirrel intrusions are constant in the mature canopy of Sewanee, Winchester, and the older Decherd and Cowan neighborhoods. Norway rats are persistent in the older commercial corridors of downtown Winchester and Decherd's railroad-corridor blocks",
+      "absent_or_rare": "white-tailed deer are abundant across the Highland Rim farmland and the plateau-edge wood lots — driving high vehicle-collision rates but falling under TWRA management rather than the private wildlife removal industry, black bears are increasingly documented on the Cumberland Plateau across the eastern half of the county and into adjacent Marion and Grundy counties — TWRA handles bear conflict response rather than private operators, the federally endangered gray bat and federally endangered Indiana bat both have documented populations in the plateau caves of Franklin County and the surrounding South Cumberland region — any bat handling in the Sewanee, Cowan, or Lost Cove area requires TWRA and U.S. Fish & Wildlife Service coordination, and bald eagles nest at Tims Ford Lake and along the Elk River corridor and remain protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act"
     }
   }
 }
