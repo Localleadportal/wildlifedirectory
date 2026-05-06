@@ -10,7 +10,9 @@
     : (cityContent
         ? ('Licensed wildlife removal in ' + cityName + ', ' + stateName + '. Raccoons, squirrels, bats, snakes, armadillos and more. Same-day service from local ' + countyName + ' contractors.')
         : ('Find a licensed wildlife removal contractor in ' + cityName + ', ' + stateName + '. Local experts serving ' + cityName + ' for raccoon, squirrel, bat, snake removal and more.'));
-  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
+  const ogImage = (cityContent && cityContent.ogImage)
+    ? cityContent.ogImage
+    : 'https://www.removewildlifenow.com/images/hero1.jpg';
   const seoEnhanced = !!(cityContent && cityContent.geo);
   const stateRegion = stateName === 'Georgia' ? 'GA'
     : stateName === 'Tennessee' ? 'TN'
@@ -278,7 +280,7 @@
         <% } %>
 
         <% if (cityContent && cityContent.neighborhoods && cityContent.neighborhoods.length) { %>
-        <h3>Brentwood Neighborhoods We Serve</h3>
+        <h3><%= cityName %> Neighborhoods We Serve</h3>
         <p>The local contractor handles wildlife removal calls across every neighborhood and corridor in <%= cityName %>, including:</p>
         <ul class="tips-list">
           <% cityContent.neighborhoods.forEach(function(n) { %>
