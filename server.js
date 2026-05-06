@@ -165,12 +165,17 @@ app.get('/sitemap.xml', async (req, res) => {
     });
 
     ANIMALS.forEach(a => {
-      // County-animal hub URL — in hub-only mode, only sitemap animals with enriched content
+      // County-animal hub URL — in hub-only mode, only sitemap animals with enriched content.
+      // Skipping the county-animal URL must NOT skip enriched city-animal URLs underneath
+      // (a city can have rat-removal content even when the county-animal hub is still bare).
+      let emitCountyAnimal = true;
       if (hubOnly) {
         const cAnimal = getCountyAnimalContent(state, fullCounty, a.slug);
-        if (!cAnimal || !cAnimal.extendedBody) return;
+        if (!cAnimal || !cAnimal.extendedBody) emitCountyAnimal = false;
       }
-      urls.push(`${BASE}/${stateSlug}/${countySlug}/${a.slug}/`);
+      if (emitCountyAnimal) {
+        urls.push(`${BASE}/${stateSlug}/${countySlug}/${a.slug}/`);
+      }
 
       // City-animal URLs — in selective mode, only include those with enriched content
       cities.forEach(city => {
