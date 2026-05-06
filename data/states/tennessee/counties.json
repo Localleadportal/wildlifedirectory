@@ -8,6 +8,61 @@
     "permit_note": "TWRA requires commercial wildlife operators to hold a Nuisance Wildlife Control Operator (NWCO) certification and to follow species-specific handling and disposition rules; bats and migratory birds carry additional federal handling restrictions, and large game species including white-tailed deer, black bears, wild turkey, and migratory waterfowl fall under direct TWRA management rather than the private wildlife removal industry"
   },
   "counties": {
+    "Davidson County": {
+      "county_seat": "Nashville",
+      "population": 715884,
+      "established": 1783,
+      "region": "the heart of Middle Tennessee's Nashville Basin along the Cumberland River, where Tennessee's state capital and largest urban core consolidated with the surrounding county in 1963 to form the Metropolitan Government of Nashville and Davidson County — the densest, most economically active, and most architecturally varied wildlife removal market in the state, anchored by downtown Nashville and ringed by the historic neighborhoods of East Nashville, Germantown, Sylvan Park, Belmont-Hillsboro, Green Hills, Donelson, Hermitage, Antioch, Bellevue, Madison, and Inglewood",
+      "largest_cities": [
+        "Nashville",
+        "Belle Meade",
+        "Berry Hill",
+        "Forest Hills",
+        "Goodlettsville",
+        "Oak Hill"
+      ],
+      "nearest_metro": "Nashville is itself the regional metro — the next major metros are Memphis (about 210 miles west), Knoxville (about 180 miles east), and Louisville, KY (about 175 miles north)",
+      "natural_features": [
+        "Cumberland River (runs the length of the county and bisects downtown)",
+        "Stones River (joins the Cumberland near Donelson and forms the southern arm of J. Percy Priest Lake)",
+        "Mill Creek (federally endangered Nashville crayfish habitat)",
+        "Browns Creek and Whites Creek tributaries",
+        "Richland Creek (West Nashville)",
+        "J. Percy Priest Lake (US Army Corps of Engineers impoundment, eastern Davidson)",
+        "Old Hickory Lake (partial, northeast Davidson on the Cumberland)",
+        "Radnor Lake State Park and State Natural Area (Class II Natural Area, south Nashville)",
+        "Edwin and Percy Warner Parks (Nashville's largest municipal forest reserve, west Nashville)",
+        "Beaman Park (rugged northwest Davidson highland-rim terrain)",
+        "Shelby Bottoms Greenway and Nature Park (Cumberland River floodplain)",
+        "Bells Bend Park and Outdoor Center (rural Cumberland River meander, west Davidson)",
+        "Long Hunter State Park (partial, Percy Priest peninsula)",
+        "Couchville Cedar Glade State Natural Area",
+        "Cornelia Fort Airpark and the East Nashville greenway corridor"
+      ],
+      "habitat_type": "Nashville Basin urban-and-suburban core with the Cumberland River cutting directly through downtown, dense pre-1900s and early-1900s brick housing stock across East Nashville, Germantown, Edgehill, Hillsboro Village, Belmont, 12 South, and Sylvan Park, mid-century ranch and split-level subdivisions ringing the inner city through Donelson, Madison, Inglewood, Crieve Hall, and Antioch, the affluent mature-canopy neighborhoods of Belle Meade, Forest Hills, Oak Hill, and Green Hills with their cedar-glade limestone outcrops and old-growth oak-hickory remnants, the rugged Western Highland Rim terrain of Bellevue and Bells Bend, and a regionally significant urban greenway-and-park network anchored by Warner Parks, Radnor Lake, Beaman Park, Shelby Bottoms, and the Cumberland River floodplain corridor",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Virginia opossums",
+        "big brown bats",
+        "Mexican (Brazilian) free-tailed bats",
+        "evening bats",
+        "tricolored bats (federally proposed for listing)",
+        "striped skunks",
+        "woodchucks (groundhogs)",
+        "red and gray foxes",
+        "Eastern coyotes",
+        "Norway rats",
+        "roof rats (documented in older Nashville commercial corridors)",
+        "house mice",
+        "beavers",
+        "river otters",
+        "Nashville crayfish (federally endangered, Mill Creek system)",
+        "snakes (copperhead, Eastern rat snake, garter snake, northern watersnake, brown watersnake)"
+      ],
+      "regional_wildlife": "Davidson County's wildlife profile is shaped by the collision of a fast-growing urban core, the Cumberland River corridor cutting through the heart of the city, and a regionally significant network of urban parks and natural areas — Warner Parks, Radnor Lake, Beaman Park, Bells Bend, and Shelby Bottoms — that push wildlife directly into the surrounding residential blocks. Norway rats are a dominant urban call source across downtown's Lower Broadway entertainment district, the Gulch, Germantown, the older commercial blocks of East Nashville and Five Points, the Music Row corridor, and the food-service zones of Hillsboro Village, 12 South, and the Nations — the densest Norway rat pressure in middle Tennessee. Big brown bat and Mexican free-tailed bat maternity colonies form heavily in the pre-1920s brick housing stock of East Nashville (Edgefield, Lockeland Springs, Inglewood), Germantown, the Belmont-Hillsboro and Music Row historic districts, and the original Belle Meade, Forest Hills, and Green Hills estates, with larger Mexican free-tailed colonies in commercial structures throughout downtown, the Music City Center area, and the older Donelson and Madison commercial corridors. Coyote sightings are now routine across every Nashville neighborhood from Belle Meade and Sylvan Park through Donelson, Bellevue, and Antioch, driven by the greenway network, the Warner Parks corridor, the Cumberland River floodplain, and the J. Percy Priest shoreline. Beavers cause routine flooding along Mill Creek, Browns Creek, Whites Creek, Richland Creek, and the smaller tributaries throughout the county. Copperhead encounters are concentrated in the wooded properties of Belle Meade, Forest Hills, Oak Hill, the Radnor Lake and Warner Parks bluff edges, the Bells Bend rural west side, and the Beaman Park-adjacent Joelton properties. Eastern gray squirrel intrusions are constant across the mature canopy of the historic neighborhoods, and groundhog burrow damage is a steady call source on the larger Belle Meade and Forest Hills lots. Striped skunks shelter under porches and decks across the pre-1950s housing stock countywide. The Mill Creek system is the only documented habitat in the world for the federally endangered Nashville crayfish — meaning any in-stream or bank work in the eastern Davidson Mill Creek tributaries is subject to direct U.S. Fish & Wildlife Service consultation",
+      "absent_or_rare": "white-tailed deer are abundant across the wooded west Davidson neighborhoods (Belle Meade, Forest Hills, Bellevue, Bells Bend) and the Percy Priest greenbelt — driving high vehicle-collision rates but falling under TWRA management rather than the private wildlife removal industry, black bears are very rarely documented passing through the western edge of the county along the Cheatham line, the federally endangered gray bat and Indiana bat have documented summer feeding flights over the Cumberland River corridor and the Mill Creek system and may roost in caves on the county's western and southern edges — any bat handling near these populations requires TWRA and U.S. Fish & Wildlife Service coordination, the federally endangered Nashville crayfish is endemic to the Mill Creek watershed and any in-stream or bank work along Mill Creek requires direct federal consultation, and timber rattlesnakes are present at very low density on the most rugged wooded ridgelines of the western and southern edges of the county but are uncommon at residential properties"
+    },
     "Williamson County": {
       "county_seat": "Franklin",
       "population": 247726,
