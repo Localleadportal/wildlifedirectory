@@ -253,7 +253,7 @@
         <p class="section-sub">Our <%= countyName %> contractor serves all of <%= cityName %> — the same licensed professional handles every job in your area.</p>
         <ul class="counties-grid">
           <% ANIMALS.forEach(a => { %>
-          <li><a href="/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/<%= a.slug %>/"><%= a.emoji %> <%= a.name %></a></li>
+          <li><a href="/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/<%= a.slug %>/" title="<%= a.plural %> in <%= cityName %>, <%= stateName %>"><%= a.emoji %> <%= a.name %> in <%= cityName %></a></li>
           <% }); %>
         </ul>
       </div>
