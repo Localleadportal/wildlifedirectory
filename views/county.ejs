@@ -7,6 +7,9 @@
   // behind data-presence so this rollout is scoped to one county at a time. Other counties render
   // exactly as they did before until they get their own enriched countyContent block.
   const seoEnhanced = !!(countyContent && countyContent.geo);
+  // State abbreviation — used for H1 disambiguation (25+ "Franklin Counties" exist nationally)
+  // and for LocalBusiness PostalAddress.addressRegion.
+  const stateAbbr = ({ 'Georgia': 'GA', 'Tennessee': 'TN', 'Connecticut': 'CT', 'Delaware': 'DE', 'New Hampshire': 'NH', 'Vermont': 'VT', 'Rhode Island': 'RI' })[stateName] || '';
 %>
 <!DOCTYPE html>
 <html lang="en">
@@ -40,10 +43,7 @@
   <meta name="twitter:image" content="<%= ogImage %>">
 
   <!-- Geo -->
-  <%
-    const _stateAbbr = { 'Georgia': 'GA', 'Tennessee': 'TN', 'Connecticut': 'CT', 'Delaware': 'DE', 'New Hampshire': 'NH', 'Vermont': 'VT', 'Rhode Island': 'RI' };
-  %>
-  <meta name="geo.region" content="US-<%= _stateAbbr[stateName] || '' %>">
+  <meta name="geo.region" content="US-<%= stateAbbr %>">
   <meta name="geo.placename" content="<%= countyName %>, <%= stateName %>">
   <meta name="geo.position" content="<%= countyContent.geo.lat %>;<%= countyContent.geo.lon %>">
   <meta name="ICBM" content="<%= countyContent.geo.lat %>, <%= countyContent.geo.lon %>">
@@ -70,6 +70,12 @@
     "telephone": "+1-844-544-3498",
     "image": "https://www.removewildlifenow.com/images/og-default.jpg",
     "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": countyName,
+      "addressRegion": stateAbbr,
+      "addressCountry": "US"
+    },
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": countyName + ", " + stateName
@@ -253,7 +259,7 @@
     <section class="page-hero">
       <div class="container">
         <div class="hero-badge">Serving <%= countyName %>, <%= stateName %></div>
-        <h1>Wildlife Removal in <%= countyName %></h1>
+        <h1>Wildlife Removal in <%= countyName %><% if (stateAbbr) { %>, <%= stateAbbr %><% } %></h1>
         <% if (countyContent && countyContent.heroIntro) { %>
         <p><%- countyContent.heroIntro %></p>
         <% } else { %>
