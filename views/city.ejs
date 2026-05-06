@@ -1,25 +1,141 @@
+<%
+  const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + countySlug + '/' + citySlug + '/';
+  const pageTitle = (cityContent && cityContent.metaTitle)
+    ? cityContent.metaTitle
+    : (cityContent
+        ? ('Wildlife Removal in ' + cityName + ', ' + stateName + ' — Licensed Local Contractors')
+        : ('Wildlife Removal in ' + cityName + ', ' + stateName + ' | RemoveWildlifeNow.com'));
+  const pageDesc = (cityContent && cityContent.metaDescription)
+    ? cityContent.metaDescription
+    : (cityContent
+        ? ('Licensed wildlife removal in ' + cityName + ', ' + stateName + '. Raccoons, squirrels, bats, snakes, armadillos and more. Same-day service from local ' + countyName + ' contractors.')
+        : ('Find a licensed wildlife removal contractor in ' + cityName + ', ' + stateName + '. Local experts serving ' + cityName + ' for raccoon, squirrel, bat, snake removal and more.'));
+  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
+  const seoEnhanced = !!(cityContent && cityContent.geo);
+  const stateRegion = stateName === 'Georgia' ? 'GA'
+    : stateName === 'Tennessee' ? 'TN'
+    : stateName === 'Delaware' ? 'DE'
+    : stateName === 'Connecticut' ? 'CT'
+    : stateName === 'New Hampshire' ? 'NH'
+    : stateName === 'Vermont' ? 'VT'
+    : stateName === 'Rhode Island' ? 'RI' : '';
+%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= cityContent ? `Wildlife Removal in ${cityName}, ${stateName} — Licensed Local Contractors` : `Wildlife Removal in ${cityName}, ${stateName} | RemoveWildlifeNow.com` %></title>
-  <meta name="description" content="<%= cityContent ? `Licensed wildlife removal in ${cityName}, ${stateName}. Raccoons, squirrels, bats, snakes, armadillos and more. Same-day service from local ${countyName} contractors.` : `Find a licensed wildlife removal contractor in ${cityName}, ${stateName}. Local experts serving ${cityName} for raccoon, squirrel, bat, snake removal and more.` %>">
-  <link rel="canonical" href="https://www.removewildlifenow.com/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/">
+  <title><%= pageTitle %></title>
+  <meta name="description" content="<%= pageDesc %>">
+  <link rel="canonical" href="<%= pageUrl %>">
   <link rel="stylesheet" href="/css/style.css">
-  <% if (!indexable) { %><meta name="robots" content="noindex, follow"><% } %>
-  <% if (cityContent && cityContent.faqs && cityContent.faqs.length) { %>
+  <% if (!indexable) { %>
+  <meta name="robots" content="noindex, follow">
+  <% } else if (seoEnhanced) { %>
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <% } %>
+
+  <% if (seoEnhanced) { %>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="RemoveWildlifeNow.com">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="<%= pageUrl %>">
+  <meta property="og:title" content="<%= pageTitle %>">
+  <meta property="og:description" content="<%= pageDesc %>">
+  <meta property="og:image" content="<%= ogImage %>">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="<%= pageTitle %>">
+  <meta name="twitter:description" content="<%= pageDesc %>">
+  <meta name="twitter:image" content="<%= ogImage %>">
+
+  <!-- Geo -->
+  <meta name="geo.region" content="US-<%= stateRegion %>">
+  <meta name="geo.placename" content="<%= cityName %>, <%= stateName %>">
+  <meta name="geo.position" content="<%= cityContent.geo.lat %>;<%= cityContent.geo.lon %>">
+  <meta name="ICBM" content="<%= cityContent.geo.lat %>, <%= cityContent.geo.lon %>">
+
+  <!-- BreadcrumbList -->
   <script type="application/ld+json">
-  <%- JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": cityContent.faqs.map(function(f){ return { "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }; }) }) %>
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": pageUrl + "#breadcrumb",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.removewildlifenow.com/" },
+      { "@type": "ListItem", "position": 2, "name": stateName, "item": "https://www.removewildlifenow.com/" + stateSlug + "/" },
+      { "@type": "ListItem", "position": 3, "name": countyName, "item": "https://www.removewildlifenow.com/" + stateSlug + "/" + countySlug + "/" },
+      { "@type": "ListItem", "position": 4, "name": cityName }
+    ]
+  }) %>
+  </script>
+
+  <!-- WebPage -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": pageUrl + "#webpage",
+    "url": pageUrl,
+    "name": pageTitle,
+    "description": pageDesc,
+    "isPartOf": { "@id": "https://www.removewildlifenow.com/#website" },
+    "breadcrumb": { "@id": pageUrl + "#breadcrumb" },
+    "inLanguage": "en-US",
+    "about": { "@id": pageUrl + "#business" },
+    "primaryImageOfPage": ogImage
+  }) %>
+  </script>
+
+  <!-- Place -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Place",
+    "@id": pageUrl + "#place",
+    "name": cityName + ", " + stateName,
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": cityName,
+      "addressRegion": stateRegion,
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": cityContent.geo.lat,
+      "longitude": cityContent.geo.lon
+    },
+    ...(cityContent.sameAs && cityContent.sameAs.length ? { "sameAs": cityContent.sameAs } : {})
+  }) %>
   </script>
   <% } %>
+
+  <!-- LocalBusiness / ProfessionalService -->
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "ProfessionalService"],
+    ...(seoEnhanced ? { "@id": pageUrl + "#business" } : {}),
     "name": "Wildlife Removal in " + cityName,
-    "description": "Licensed wildlife removal in " + cityName + ", " + stateName + ". Local experts serving " + cityName + " for raccoon, squirrel, bat, snake removal and more.",
-    "url": "https://www.removewildlifenow.com/" + stateSlug + "/" + countySlug + "/" + citySlug + "/",
+    "description": pageDesc,
+    "url": pageUrl,
+    "telephone": "+1-844-544-3498",
+    "priceRange": "$$",
+    ...(seoEnhanced ? {
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": cityName,
+        "addressRegion": stateRegion,
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": cityContent.geo.lat,
+        "longitude": cityContent.geo.lon
+      }
+    } : {}),
     "areaServed": [
       { "@type": "City", "name": cityName + ", " + stateName },
       { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
@@ -30,13 +146,35 @@
       "@type": "OfferCatalog",
       "name": "Wildlife Removal Services",
       "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Animal Exclusion" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Remediation" } }
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Raccoon Removal" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Squirrel Removal" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bat Removal & Exclusion" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Snake Removal" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Opossum Removal" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Skunk Removal" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Armadillo Removal" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Coyote Control" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Attic Decontamination & Remediation" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Animal Exclusion & Entry-Point Sealing" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dead Animal Removal" } }
       ]
     }
   }) %>
   </script>
+
+  <% if (cityContent && cityContent.faqs && cityContent.faqs.length) { %>
+  <!-- FAQPage -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    ...(seoEnhanced ? { "@id": pageUrl + "#faq" } : {}),
+    "mainEntity": cityContent.faqs.map(function(f){
+      return { "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } };
+    })
+  }) %>
+  </script>
+  <% } %>
 </head>
 <body>
   <header>
@@ -123,7 +261,11 @@
       <div class="container">
         <h2>Wildlife Problems in <%= cityName %>, <%= stateName %></h2>
         <% if (cityContent && cityContent.wildlife_intro) { %>
+        <% if (cityContent.wildlife_intro.trim().charAt(0) === '<') { %>
+        <%- cityContent.wildlife_intro %>
+        <% } else { %>
         <p><%- cityContent.wildlife_intro %></p>
+        <% } %>
         <% if (stateInfo) { %>
         <p>The contractor serving <%= cityName %> is licensed by the <strong><%= stateInfo.agency %></strong> and knows the specific wildlife patterns, local regulations, and most effective removal methods for your area.</p>
         <% } %>
@@ -133,6 +275,26 @@
         <% } else { %>
         <p>Homeowners in <%= cityName %> deal with many of the same wildlife issues found throughout <%= countyName %>. Raccoons, squirrels, bats, and snakes are among the most common — often entering through damaged soffits, vents, and rooflines in residential neighborhoods.</p>
         <p>The contractor serving <%= cityName %> is based in <%= countyName %> and knows the specific wildlife patterns, local regulations, and most effective removal methods for your area.</p>
+        <% } %>
+
+        <% if (cityContent && cityContent.neighborhoods && cityContent.neighborhoods.length) { %>
+        <h3>Brentwood Neighborhoods We Serve</h3>
+        <p>The local contractor handles wildlife removal calls across every neighborhood and corridor in <%= cityName %>, including:</p>
+        <ul class="tips-list">
+          <% cityContent.neighborhoods.forEach(function(n) { %>
+          <li><%= n %></li>
+          <% }); %>
+        </ul>
+        <% } %>
+
+        <% if (cityContent && cityContent.geographic_features && cityContent.geographic_features.length) { %>
+        <h3>Local Geography Driving Wildlife Pressure</h3>
+        <p><%= cityName %>'s wildlife corridors and natural features include:</p>
+        <ul class="tips-list">
+          <% cityContent.geographic_features.forEach(function(g) { %>
+          <li><%= g %></li>
+          <% }); %>
+        </ul>
         <% } %>
 
         <h3>Why Use a Local <%= cityName %> Contractor?</h3>
