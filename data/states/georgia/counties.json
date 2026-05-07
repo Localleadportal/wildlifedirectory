@@ -127,6 +127,50 @@
       "regional_wildlife": "Cherokee's wide construction range — from pre-1900 mill housing in the Canton historic district through 1960s-1970s small-town infill in Ball Ground and Waleska to the massive 1990s-2010s subdivision growth across Woodstock and Holly Springs — produces a wide range of residential wildlife pressure profiles. The Etowah River corridor sustains federally listed darter populations (Cherokee darter, Etowah darter) and a continuous year-round raccoon source population. Lake Allatoona's wooded shoreline forest contributes to the bat-source population along the southern boundary. Roof rats moved up the I-575 corridor over the past two decades and now drive most suburban call volume in Woodstock and the Hwy 92 corridor",
       "absent_or_rare": "white-tailed deer reach high densities in the wooded subdivisions backing up to Sharp Mountain and along the Etowah corridor, black bears occasionally appear in the northern parts of the county near the Pickens border, and the federally listed Cherokee darter and Etowah darter remain protected under the Endangered Species Act in their respective river systems"
     },
+    "Paulding County": {
+      "county_seat": "Dallas",
+      "population": 178000,
+      "established": 1832,
+      "region": "the northwestern metropolitan Atlanta exurban arc directly west of Cobb County, with the Silver Comet Trail running east-west through the county and the Paulding Forest Wildlife Management Area dominating the western half",
+      "largest_cities": [
+        "Dallas",
+        "Hiram",
+        "Braswell",
+        "Yorkville"
+      ],
+      "nearest_metro": "Atlanta (downtown is about 35 miles east of Dallas via Highway 278 and I-20)",
+      "natural_features": [
+        "Paulding Forest Wildlife Management Area (~25,000 acres in western Paulding)",
+        "Sheffield Wildlife Management Area (adjacent to Paulding Forest WMA)",
+        "Silver Comet Trail (61.5-mile rail-trail running east-west through Hiram)",
+        "Pickett's Mill Battlefield State Historic Site",
+        "Pumpkinvine Creek corridor",
+        "Sweetwater Creek tributary system (north Paulding, distinct from south Cobb/Douglas)",
+        "Pine Mountain monadnock (southern Paulding border with Bartow)",
+        "Etowah River tributary system",
+        "Dallas historic downtown courthouse square",
+        "Hiram-Sudderth Road retail corridor",
+        "Paulding Northwest Atlanta Airport"
+      ],
+      "habitat_type": "northwestern metro Atlanta exurban arc with the 25,000-plus acre Paulding Forest Wildlife Management Area and Sheffield WMA dominating the western and northwestern portions of the county, the Silver Comet Trail rail-trail providing a continuous east-west wildlife corridor through Hiram, mature oak-hickory canopy across older Dallas neighborhoods, the pre-1900 Dallas historic downtown courthouse square, the Hiram-Sudderth Road retail concentration along Highway 92, the Pumpkinvine Creek and Sweetwater Creek tributary corridors, the Pine Mountain monadnock on the southern Bartow boundary, and the explosive 2000s-2020s subdivision growth that has made Paulding one of the fastest-growing counties in Georgia for two decades running",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Southern flying squirrels",
+        "Virginia opossums",
+        "Norway rats",
+        "roof rats",
+        "big brown bats",
+        "evening bats",
+        "striped skunks",
+        "armadillos",
+        "coyotes",
+        "beavers",
+        "snakes (rat snakes, copperheads)"
+      ],
+      "regional_wildlife": "Paulding's wildlife profile is shaped by the unusual combination of a 25,000-acre state-managed Wildlife Management Area sitting next door to one of the fastest-growing suburban-subdivision corridors in the southeast. The Paulding Forest WMA and adjacent Sheffield WMA together form one of the densest source populations of raccoons, white-tailed deer, opossums, and coyotes in the metro Atlanta exurban arc — and the species disperse continuously into the residential subdivisions that have grown up along the WMA's eastern and southern edges over the past 20 years. The Silver Comet Trail, a 61.5-mile rail-trail running east-west through Hiram, functions as a continuous wildlife dispersal corridor connecting source habitats in Polk and Haralson counties through Paulding and into Cobb. Bats, raccoons, gray squirrels, and roof rats all use the trail's mature canopy and historic rail-line embankment to move laterally between residential subdivisions without ground contact. Pre-1900 Dallas historic-downtown courthouse-square commercial blocks sustain established Norway rat populations; the Hiram-Sudderth Road retail corridor along Highway 92 produces the highest-volume Norway rat work in the county thanks to the concentrated grocery-restaurant-dumpster ecology. Roof rats moved up the I-20 and Highway 278 corridors into Paulding during the 2010s and are now firmly establishing in 2000s-2020s subdivision construction throughout the county. Armadillos are encroaching from Carroll County and routinely turn up in southern Paulding yards. Pickett's Mill Battlefield's protected bottomland hardwood forest provides a smaller secondary source habitat",
+      "absent_or_rare": "white-tailed deer reach exceptional densities in the wooded subdivision edges backing up to Paulding Forest WMA — population overflow from the WMA produces some of the highest residential deer pressure in metro Atlanta, federally listed Etowah darter populations occur in the Etowah River tributary system draining northern Paulding, the federally proposed-for-listing tricolored bat is documented in the broader Pumpkinvine Creek corridor, and federally protected migratory bird species (hawks, owls, woodpeckers, chimney swifts) are present throughout the county under Migratory Bird Treaty Act protocols"
+    },
     "Bibb County": {
       "county_seat": "Macon",
       "population": 157346,

@@ -758,6 +758,105 @@ function georgiaContent(countyName, county, s) {
       }
     ];
 
+  } else if (countyName === 'Paulding County') {
+    blockA = `Paulding County sits in the northwestern metropolitan Atlanta exurban arc directly west of Cobb County, with the 25,000-acre Paulding Forest Wildlife Management Area dominating the western half and the 61.5-mile Silver Comet Trail rail-trail running east-west through Hiram. With a population of ${county.population.toLocaleString()} residents, Paulding has been one of the fastest-growing counties in Georgia for two decades — what was rural farmland in the 1990s is now full suburban subdivision growth from Dallas through Hiram out to the Cobb boundary. Established in ${county.established}, the county combines pre-1900 Dallas historic-downtown courthouse-square housing, mid-century rural farmsteads now surrounded by subdivision growth, the explosive 2000s-2020s subdivision development along Highway 92 and Highway 278, and the dense state-managed forest of the Paulding Forest WMA holding the western edge.`;
+    blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across the maturing canopy of 2000s-era subdivisions. Southern flying squirrels appear with notable frequency in older Dallas historic-district housing. Virginia opossums shelter under decks, porches, and the deteriorating original lattice of older Dallas housing. Striped skunks are persistent under sheds and outbuildings in the rural-edge subdivisions backing up to Paulding Forest WMA, and snake calls — primarily eastern rat snakes and the occasional copperhead — concentrate around the wooded properties along Pumpkinvine Creek and the WMA boundary. White-tailed deer reach population densities driven by overflow from the WMA that aren't seen in any north Georgia county that doesn't share a border with state-managed protected forest. ${cap(county.absent_or_rare)}.`;
+    blockC = `Coverage spans all of Paulding County including ${top4cities}, plus the unincorporated subdivisions throughout the county. The county's mix of Paulding Forest WMA's source-population pressure, the Silver Comet Trail's east-west wildlife corridor running through Hiram, the pre-1900 Dallas historic downtown, and the 2000s-2020s subdivision construction maturing into established roof rat and squirrel territory — combined with the Hiram-Sudderth Road retail corridor's Norway rat ecology — produces a job mix unlike most metro Atlanta exurban counties.`;
+    metaTitle = `Paulding County Wildlife Removal — Dallas, Hiram GA`;
+    metaDescription = `Licensed wildlife removal in Paulding County, GA — Dallas, Hiram, Braswell, Yorkville. Paulding Forest WMA + Silver Comet corridor specialists. Same-day inspection.`;
+
+    geo = { lat: 33.9237, lon: -84.8400 };
+    sameAs = [
+      'https://en.wikipedia.org/wiki/Paulding_County,_Georgia',
+      'https://en.wikipedia.org/wiki/Dallas,_Georgia',
+    ];
+
+    neighboringCounties = [
+      { name: 'Cobb County',     slug: 'cobb-county',     anchor: 'Cobb County wildlife removal',        blurb: 'directly to the east' },
+      { name: 'Bartow County',   slug: 'bartow-county',   anchor: 'Bartow County wildlife services',     blurb: 'to the north' },
+      { name: 'Polk County',     slug: 'polk-county',     anchor: 'Polk County animal removal',          blurb: 'to the west' },
+      { name: 'Haralson County', slug: 'haralson-county', anchor: 'Haralson County wildlife removal',    blurb: 'to the southwest' },
+      { name: 'Carroll County',  slug: 'carroll-county',  anchor: 'Carroll County wildlife removal',     blurb: 'to the south' },
+      { name: 'Douglas County',  slug: 'douglas-county',  anchor: 'Douglas County wildlife removal',     blurb: 'to the southeast' },
+    ];
+
+    extendedBody = `
+      <h2>Paulding Forest WMA and the Source-Population Effect</h2>
+      <p>Paulding's defining wildlife feature is the <strong>Paulding Forest Wildlife Management Area</strong> — roughly 25,000 acres of state-managed protected forest dominating the western and northwestern parts of the county, with the adjacent <strong>Sheffield Wildlife Management Area</strong> extending the protected footprint. Together they form one of the densest source populations of raccoons, white-tailed deer, opossums, coyotes, foxes, and Virginia rat snakes in the metro Atlanta exurban arc. The species disperse continuously into the residential subdivisions that have grown up along the WMA's eastern and southern edges over the past two decades.</p>
+      <p>From a wildlife-removal standpoint, the WMA edge effect is what makes Paulding work different from neighboring Cobb or Bartow. Subdivisions backing directly onto WMA habitat — particularly the developments along Cartersville Highway, Brownsville Road, and the Hiram-Sudderth corridor — take continuous fall dispersal pressure during the September-November window and again during spring whelping. Every year, female raccoons whelp in subdivision attic spaces sourced from the WMA breeding population.</p>
+
+      <h2>The Silver Comet Trail as a Wildlife Dispersal Corridor</h2>
+      <p>The <strong>Silver Comet Trail</strong> — a 61.5-mile rail-trail running east-west through Hiram, built on the abandoned Seaboard Air Line Railroad bed — connects Smyrna in Cobb County all the way out to the Alabama state line. Through Paulding, the trail runs along a continuous canopy of mature trees flanking the historic rail embankment. From a wildlife-corridor perspective, this functions as a continuous lateral dispersal route that doesn't exist in counties without a comparable rail-trail.</p>
+      <p>Bats forage along the trail's canopy and roost in adjacent residential structures. Eastern gray squirrels and roof rats use the connected canopy to move between subdivisions without ever touching the ground. Raccoons travel the trail at night using it as a highway between neighborhoods. The trail's adjacency to the Hiram-Sudderth Road retail corridor produces a particularly distinctive call pattern — Norway rats establishing in commercial dumpsters then migrating along the trail into residential subdivisions east and west.</p>
+
+      <h2>Wildlife Species Present in Paulding County</h2>
+      <p>Paulding residents most frequently call about animals that have moved from the WMA, the Silver Comet corridor, or the Pumpkinvine Creek tributary system into residential structures:</p>
+      <ul class="tips-list">
+        <li><strong>Raccoons</strong> — heaviest densities along the Paulding Forest WMA edge subdivisions and Pumpkinvine Creek; whelping in subdivision attics February through April every year</li>
+        <li><strong>Eastern gray squirrels</strong> — constant across the now-mature 2000s-era subdivision canopy; <strong>Southern flying squirrels</strong> in older Dallas historic-district housing</li>
+        <li><strong>Roof rats</strong> — firmly establishing in 2000s-2020s subdivisions throughout Paulding as the species moves up the I-20 and Highway 278 corridors</li>
+        <li><strong>Norway rats</strong> — concentrated in pre-1900 Dallas historic-downtown courthouse-square commercial blocks and the Hiram-Sudderth Road retail corridor along Highway 92</li>
+        <li><strong>Big brown bats</strong> — long-established colonies in pre-1900 Dallas historic-downtown housing; smaller emerging colonies in maturing 2000s subdivisions</li>
+        <li><strong>Evening bats</strong> in older Dallas housing</li>
+        <li><strong>Virginia opossums</strong>, <strong>striped skunks</strong>, <strong>armadillos</strong> across residential and rural-edge areas; armadillos encroaching from Carroll County into southern Paulding</li>
+        <li><strong>White-tailed deer</strong> at exceptional densities along the WMA edge — population overflow produces some of the highest residential deer pressure in metro Atlanta</li>
+        <li><strong>Coyotes</strong> firmly established countywide, with WMA-source individuals routinely appearing in subdivision yards</li>
+        <li>Snakes encountered residentially are dominated by the <strong>eastern rat snake</strong> with the occasional <strong>northern copperhead</strong>; <strong>brown watersnakes</strong> along Pumpkinvine Creek</li>
+      </ul>
+
+      <h2>Common Wildlife Issues That Define the Paulding Job Mix</h2>
+      <p>Several patterns in Paulding's call volume are distinctive:</p>
+
+      <h3>WMA-edge subdivision raccoon work</h3>
+      <p>Subdivisions backing directly onto Paulding Forest WMA take a different scope of raccoon work than subdivisions further from the protected boundary. The continuous source-population pressure means single-property exclusion fails predictably — a colony excluded from one home migrates to the next house up the street within weeks. Effective WMA-edge work plans for ongoing maintenance and prevention rather than one-shot removal.</p>
+
+      <h3>Silver Comet Trail wildlife-corridor exclusion</h3>
+      <p>Properties adjacent to the Silver Comet Trail through Hiram and out to the Cobb boundary take continuous lateral wildlife pressure from the trail's canopy. Bats, gray squirrels, and roof rats all use the trail to move between properties. Trail-adjacent residential exclusion has to address this lateral pressure, not just the property-specific entry points.</p>
+
+      <h3>Hiram-Sudderth retail-corridor Norway rat work</h3>
+      <p>The grocery, restaurant, and big-box retail concentration along Hiram-Sudderth Road (Highway 92) produces the highest-volume Norway rat work in Paulding. Dumpster ecology behind the retail blocks sustains established colonies; the proximity to the Silver Comet Trail and adjacent residential subdivisions produces commercial-to-residential rat migration that's distinct from the more contained Norway rat ecology in older historic-downtown commercial blocks.</p>
+
+      <h3>2000s-2020s subdivision roof-rat establishment</h3>
+      <p>Paulding's explosive 2000s-2020s subdivision growth has now matured into the canopy phase that supports roof rat populations. Subdivisions that were brand-new construction in 2008 are now mature-canopy properties with established roof rat activity — the species moved up the I-20 and Highway 278 corridors and is now firmly established countywide.</p>
+
+      <h2>Local Authorities and Regulations</h2>
+      <p>Public-health authority for Paulding County rabies-vector exposure runs through the <strong>Paulding County Health Department</strong> (Cobb-Douglas Health District). <strong>Paulding County Animal Control</strong> handles domestic-animal complaints but does not respond to most nuisance wildlife. Commercial wildlife removal in Georgia operates under <strong>Georgia DNR Wildlife Resources Division Region 1</strong> (Armuchee office). Federal protections apply to bats during maternity periods (May-August exclusion restrictions), the federally listed Etowah darter populations in the Etowah tributary system draining northern Paulding, and all migratory birds.`;
+
+    faqs = [
+      {
+        q: 'What wildlife is most common in Paulding County, Georgia?',
+        a: "In residential calls across Paulding County, eastern gray squirrels, raccoons, Virginia opossums, and big brown bats make up the bulk of attic and yard intrusions. Subdivisions backing onto the 25,000-acre Paulding Forest Wildlife Management Area take heavy raccoon and white-tailed deer pressure from the WMA source population. Roof rats are firmly established in 2000s-2020s subdivisions throughout the county. Norway rats concentrate in the pre-1900 Dallas historic-downtown commercial blocks and along the Hiram-Sudderth Road retail corridor. Coyotes are routine in WMA-edge subdivisions. Armadillos are encroaching from Carroll County and turn up in southern Paulding yards."
+      },
+      {
+        q: 'Why is wildlife pressure so high in subdivisions near Paulding Forest WMA?',
+        a: "The Paulding Forest WMA and adjacent Sheffield WMA together cover roughly 25,000 acres of state-managed protected forest in western and northwestern Paulding. The protected habitat sustains one of the densest source populations of raccoons, white-tailed deer, opossums, and coyotes in the metro Atlanta exurban arc — and the species disperse continuously into adjacent residential subdivisions. Subdivisions along Cartersville Highway, Brownsville Road, and the Hiram-Sudderth corridor backing onto the WMA see continuous fall dispersal pressure and spring whelping pressure that simply doesn't happen in subdivisions further from the protected boundary."
+      },
+      {
+        q: 'How does the Silver Comet Trail affect wildlife in Paulding?',
+        a: "The Silver Comet Trail is a 61.5-mile rail-trail running east-west through Hiram, built on the abandoned Seaboard Air Line Railroad bed. The trail's continuous canopy and historic rail-line embankment effectively function as a wildlife dispersal corridor connecting source habitats in Polk and Haralson counties through Paulding into Cobb. Bats forage along the trail; gray squirrels and roof rats use the connected canopy to move laterally between subdivisions; raccoons travel the corridor at night. Properties adjacent to the trail take lateral wildlife pressure that's distinct from subdivisions away from the corridor."
+      },
+      {
+        q: 'When can I evict raccoons from my Paulding County attic?',
+        a: "Paulding-area raccoon whelping runs <strong>late February through early May</strong>. Kits are immobile and milk-dependent for roughly 8-10 weeks after birth. Sealing entry points during that window separates the female from her kits and traps the kits inside the structure — both an animal-welfare problem and a near-certain decomposition cleanup if not caught early. The Paulding-specific approach during whelping season uses staged one-way exits installed only after kits are confirmed mobile and following the mother out — typically late April for early-cycle litters and mid-June for late-cycle ones. Inspection and entry-point mapping can proceed at any point in the year."
+      },
+      {
+        q: 'Are roof rats new to Paulding County?',
+        a: "Roof rats moved up the I-20 and Highway 278 corridors from metro Atlanta during the 2010s and are now firmly established in 2000s-2020s subdivision construction throughout Paulding. The county's rapid suburban growth produced the perfect conditions: 2000s-era subdivisions that were brand-new construction at the time the species was migrating northward have now reached the mature-canopy phase that supports established roof rat populations. Paulding homeowners commonly mistake initial roof-rat activity for squirrels — the diagnostic difference is overhead nighttime sounds (rats) versus daytime activity (squirrels) plus pointed half-inch droppings."
+      },
+      {
+        q: 'How much does wildlife removal cost in Paulding County?',
+        a: "Pricing varies by species and exclusion scope. Pre-1900 Dallas historic-downtown raccoon and bat work runs $700-$1,800+ for raccoons and $2,500-$5,000+ for long-established bat colonies. WMA-edge subdivision raccoon work runs $500-$1,200+ but often requires ongoing maintenance contracts because of continuous source-population pressure. Suburban roof-rat exclusion in 2000s-2020s subdivisions runs $400-$900+. Hiram-Sudderth retail corridor commercial Norway rat work runs $800-$2,500+ when foundation-level masonry exclusion and dumpster-area runway disruption are included. Armadillo trap-and-relocate in southern Paulding runs $250-$600+ per yard."
+      },
+      {
+        q: 'Are there protected species in Paulding County I should know about?',
+        a: "Yes. The federally listed Etowah darter occurs in the Etowah River tributary system draining northern Paulding — any work along these stream corridors is subject to federal habitat protections under the Endangered Species Act. The federally proposed-for-listing tricolored bat is documented in the broader Pumpkinvine Creek corridor — pre-1900 Dallas historic-downtown bat colonies should be evaluated for tricolored presence before exclusion. All bats are protected by Georgia DNR regulations during maternity season (May-August). Migratory birds (chimney swifts, hawks, owls, woodpeckers) are federally protected under the Migratory Bird Treaty Act."
+      },
+      {
+        q: 'Is wildlife removal regulated in Paulding County?',
+        a: "Yes. State-level oversight comes from the Georgia DNR Wildlife Resources Division (Region 1, Armuchee office), which issues the Trapping License and Nuisance Wildlife Control Permit required for commercial operators. Federal protections apply to bats during maternity periods (May-August exclusion restrictions), the Etowah darter in northern Paulding stream corridors, the federally proposed-for-listing tricolored bat, and all migratory birds. Paulding County Animal Control handles domestic-animal calls but does not respond to most nuisance wildlife — those calls are referred to licensed private operators."
+      }
+    ];
+
   } else if (countyName === 'Bartow County') {
     blockA = `Bartow County sits in the northwestern metropolitan Atlanta exurban arc, with Lake Allatoona's main basin along its eastern boundary and the Etowah River cutting through the county center. With a population of ${county.population.toLocaleString()} residents, Bartow runs from the Lake Allatoona shoreline through Cartersville (the county seat) down to the Etowah Indian Mounds State Historic Site and out to the historic 1840s-era Adairsville downtown around the Train Depot. Established in ${county.established}, the county combines pre-1940 Cartersville mill housing, the 1840s-era Adairsville historic-downtown, mid-century rural-suburban housing, and 1990s-2010s subdivision growth in southern Bartow toward the Cobb boundary. Pine Mountain and Red Top Mountain State Park anchor the eastern boundary along Lake Allatoona.`;
     blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant across Bartow's mature canopy. Southern flying squirrels appear with notable frequency in older Cartersville mill housing and along Pine Mountain's wooded ridges. Virginia opossums shelter under decks and porches across the older Cartersville and Adairsville inner-town housing. Striped skunks are persistent under sheds and crawl spaces in the rural-edge subdivisions, and snake calls concentrate around the wooded properties along the Etowah River corridor and the Pumpkinvine Creek tributary system. ${cap(county.absent_or_rare)}.`;

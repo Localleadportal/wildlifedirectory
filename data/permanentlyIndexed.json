@@ -16,6 +16,7 @@
     "Georgia|Fayette",
     "Georgia|Fulton",
     "Georgia|Gwinnett",
+    "Georgia|Paulding",
     "Tennessee|Davidson",
     "Tennessee|Franklin",
     "Tennessee|Williamson"
@@ -27,7 +28,8 @@
     "Georgia|Coweta",
     "Georgia|DeKalb",
     "Georgia|Douglas",
-    "Georgia|Fayette"
+    "Georgia|Fayette",
+    "Georgia|Paulding"
   ],
   "countiesWithHubOnlyIndex": [
     "Georgia|Chatham",
