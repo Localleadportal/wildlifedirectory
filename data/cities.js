@@ -48,6 +48,8 @@ const CITY_OVERRIDES = {
   'Georgia|Douglas': ['Douglasville', 'Lithia Springs', 'Austell', 'Villa Rica', 'Winston', 'Mount Carmel'],
   'Tennessee|Williamson': ['Franklin', 'Brentwood', 'Spring Hill', 'Nolensville', 'Fairview', 'Thompson\'s Station', 'Arrington', 'College Grove', 'Leiper\'s Fork'],
   'Tennessee|Franklin': ['Winchester', 'Sewanee', 'Estill Springs', 'Decherd', 'Cowan', 'Huntland', 'Belvidere', 'Sherwood'],
+  'Tennessee|Davidson': ['Nashville', 'Antioch', 'Belle Meade', 'Bellevue', 'Berry Hill', 'Donelson', 'Forest Hills', 'Goodlettsville', 'Hermitage', 'Joelton', 'Madison', 'Oak Hill', 'Old Hickory', 'Whites Creek'],
+  'Tennessee|Shelby': ['Memphis', 'Bartlett', 'Collierville', 'Germantown', 'Arlington', 'Millington', 'Lakeland', 'Cordova', 'Eads'],
 };
 
 // Get cities for a county (matches "Cobb County" -> county key "Cobb")

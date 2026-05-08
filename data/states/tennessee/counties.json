@@ -108,6 +108,58 @@
       "regional_wildlife": "Williamson County's wildlife profile is shaped by the Nashville Basin's cedar-glade limestone outcrops and the Harpeth River corridor cutting directly through the heart of Franklin and Brentwood. Big brown bat maternity colonies routinely form in the older brick housing stock of downtown Franklin's historic district and the original 1950s-1970s subdivisions of Brentwood, and Mexican free-tailed bat colonies appear in larger commercial structures throughout the Cool Springs corridor. Copperhead encounters are the dominant venomous snake call, concentrated around the wooded properties of Leiper's Fork, Brentwood's hillside subdivisions off Old Hickory Boulevard and Concord Road, and the limestone-outcrop edges of the Harpeth River bluffs. Coyote sightings are now routine across every subdivision from Brentwood through Franklin and the Cool Springs corridor, driven by the mature greenways, golf courses, and creek corridors that thread between developments. Beavers cause regular flooding of yards, walking paths, and stormwater culverts along the Harpeth and Little Harpeth tributaries. Groundhog burrow damage to lawns and foundation plantings is a consistent call source across the county's affluent residential housing stock, where manicured turf runs up against wooded edges. Eastern gray squirrel intrusions are constant in the mature canopy of Brentwood and the older Franklin neighborhoods, and Norway rats are persistent in the older commercial corridors of downtown Franklin and the food-service blocks of Cool Springs",
       "absent_or_rare": "white-tailed deer are abundant throughout Williamson's wooded subdivisions and the Leiper's Fork, College Grove, and Arrington rural areas — driving high vehicle-collision rates but falling under TWRA management rather than the private wildlife removal industry, black bears occasionally pass through the western edge of the county along the Hickman County line, the federally endangered gray bat and Indiana bat have documented summer feeding flights over the Harpeth River corridor and may roost in caves on the county's western edge — any bat handling near these populations requires TWRA and U.S. Fish & Wildlife Service coordination, and timber rattlesnakes are present at very low density on the most rugged wooded ridgelines but are uncommon at residential properties"
     },
+    "Shelby County": {
+      "county_seat": "Memphis",
+      "population": 910530,
+      "established": 1819,
+      "region": "the Mississippi River bluffs of southwest Tennessee, where the city of Memphis sits on the fourth Chickasaw Bluff above the river and the rest of the county runs east across the Mississippi alluvial plain into the Wolf River, Loosahatchie River, and Nonconnah Creek bottomlands — making Shelby the only Tennessee county that fronts the Mississippi River, the largest county in the state by population, and a regionally distinctive wildlife removal market shaped by river-bottom habitat, a deep urban core, and rapidly growing eastern suburbs",
+      "largest_cities": [
+        "Memphis",
+        "Bartlett",
+        "Collierville",
+        "Germantown",
+        "Arlington",
+        "Millington",
+        "Lakeland"
+      ],
+      "nearest_metro": "Memphis is itself the regional metro and the largest urban area within several hundred miles in any direction — Nashville is roughly 210 miles east, Little Rock about 135 miles west, Jackson, MS about 210 miles south, and St. Louis about 285 miles north",
+      "natural_features": [
+        "Mississippi River (forms the western boundary of the county and the state)",
+        "Wolf River and the Wolf River Greenway corridor (runs from Collierville and Germantown across central Shelby into the Mississippi at the Wolf River Harbor)",
+        "Loosahatchie River (runs across northern Shelby through Millington and Bartlett)",
+        "Nonconnah Creek (runs across southern Shelby through Whitehaven, Hickory Hill, and South Memphis)",
+        "Shelby Farms Park (4,500+ acres — one of the largest urban parks in the United States, anchoring the geographic center of the county)",
+        "Overton Park (342 acres of mature old-growth forest in Midtown Memphis, including the Old Forest State Natural Area)",
+        "Meeman-Shelby Forest State Park (12,500+ acres of Mississippi River bottomland forest in northwest Shelby)",
+        "T.O. Fuller State Park (the second state park ever opened to African American visitors in the United States, on the southwest river-bluff edge)",
+        "the Mississippi River bluffs and the Chickasaw Bluffs escarpment running through downtown and South Memphis",
+        "Wolf River Wildlife Management Area (TWRA-managed bottomland east of Collierville)",
+        "Shelby Forest, Lucius Burch State Natural Area, and the Mississippi River floodplain wetlands",
+        "Memphis riverfront and the Wolf River Harbor / Mud Island"
+      ],
+      "habitat_type": "Mississippi River bluff and bottomland habitat on the western edge of the county, with the city of Memphis sitting on the fourth Chickasaw Bluff above the river; mature urban canopy and pre-1920s housing across Midtown (Cooper-Young, Central Gardens, Evergreen, Vollintine-Evergreen) and Victorian/Queen Anne South Bluffs; mid-century ranch-and-split-level subdivisions across East Memphis, Frayser, Whitehaven, Raleigh, and Hickory Hill; rapidly growing 1990s-2020s subdivisions across Cordova, Bartlett, Collierville, Germantown, Arlington, and Lakeland; the Wolf, Loosahatchie, and Nonconnah river-bottom corridors threading through the residential interior; and a regionally significant urban-park anchor in Shelby Farms (4,500+ acres in the geographic center of the county) that pushes wildlife pressure directly into the surrounding suburbs",
+      "common_wildlife": [
+        "Norway rats",
+        "roof rats",
+        "raccoons",
+        "Eastern gray squirrels",
+        "Virginia opossums",
+        "big brown bats",
+        "Mexican (Brazilian) free-tailed bats",
+        "evening bats",
+        "tricolored bats (federally proposed for listing)",
+        "striped skunks",
+        "woodchucks (groundhogs)",
+        "red and gray foxes",
+        "Eastern coyotes",
+        "beavers",
+        "river otters",
+        "nine-banded armadillos",
+        "snakes (cottonmouth in river bottoms, copperhead on uplands, Eastern rat snake, garter snake, Mississippi green watersnake, diamondback and broad-banded watersnakes)"
+      ],
+      "regional_wildlife": "Shelby County's wildlife profile is shaped by three forces no other Tennessee county shares simultaneously: the Mississippi River corridor on the west, a deep and aging urban housing stock across Memphis and the inner-ring neighborhoods (Frayser, Whitehaven, Raleigh, Hickory Hill, Cordova), and the Wolf River, Loosahatchie River, and Nonconnah Creek bottomlands cutting through the residential interior. Norway rats are the single highest-volume call species in the metro — concentrated along the Beale Street and South Main entertainment corridor, the Cooper-Young and Overton Square food-service blocks, the Madison Avenue restaurant strip, the older South Memphis and Frayser commercial corridors, and the Highland Strip near the University of Memphis — driven by a humid subtropical climate that keeps rat reproduction active year-round, the dense pre-1900s combined sewer infrastructure beneath downtown, and the Mississippi River and Wolf River Harbor edge that supports a continuous waterfront rat population. Roof rats are documented across the older Midtown housing belt (Cooper-Young, Central Gardens, Evergreen, Vollintine-Evergreen) and have been spreading aggressively over the past decade, requiring different bait-and-exclusion approaches than Norway rats. Big brown bat and Mexican free-tailed bat maternity colonies form heavily in the pre-1920s brick housing of Central Gardens, Cooper-Young, Evergreen, the Pinch District, the South Bluffs Victorian belt, and the original 1950s East Memphis ranches — and Mexican free-tailed colonies in larger commercial structures throughout downtown, the Pyramid area, the Medical Center, and the older South Memphis warehouse blocks can run into the thousands of individuals. Raccoon attic and chimney calls run year-round across the historic Midtown and East Memphis housing stock, the Whitehaven and Frayser post-war ranches, and the Cordova, Bartlett, Collierville, and Germantown subdivisions — driven by the Wolf River Greenway corridor, the Shelby Farms Park edge, and the Nonconnah Creek bottomland that push raccoons directly into the surrounding residential blocks. Cottonmouths (Western cottonmouth, Agkistrodon piscivorus leucostoma) are the dominant venomous snake call along the Wolf River, Loosahatchie River, and Nonconnah Creek bottomlands, the Mississippi River floodplain at Meeman-Shelby Forest, and the lakefront edges of T.O. Fuller State Park — making Shelby distinct from the Nashville Basin counties to the east where copperheads dominate venomous snake calls. Copperheads are present in the wooded uplands of east Shelby (Collierville, Germantown, Cordova, Lakeland, Arlington) and the bluff-edge properties along the Mississippi River escarpment. Coyote sightings are now routine across every Shelby suburb from Whitehaven and Frayser through East Memphis, Cordova, Bartlett, Collierville, and Germantown, driven by the Wolf River Greenway, Shelby Farms Park, the Nonconnah Creek corridor, and the Loosahatchie River corridor. Beavers cause routine flooding along the Wolf River tributaries, the Nonconnah Creek system, and the smaller drainages feeding Shelby Farms. Nine-banded armadillos have moved aggressively north into Shelby over the past 15 years and now generate sustained call volume across the irrigated lawns of East Memphis, Germantown, Collierville, and Cordova. Eastern gray squirrel intrusions are constant across the mature Midtown canopy and the older East Memphis subdivisions. Striped skunks shelter under porches and decks across the post-war Frayser, Whitehaven, and Raleigh housing stock and the Cordova/Bartlett 1990s subdivisions",
+      "absent_or_rare": "white-tailed deer are abundant across Meeman-Shelby Forest, the Wolf River bottomland, the Loosahatchie River corridor, and the Nonconnah greenbelts — driving substantial vehicle-collision rates but falling under TWRA management rather than the private wildlife removal industry, black bears are very rare in Shelby though occasional dispersal sightings occur from the Mississippi bottomland and the Arkansas side of the river, the federally endangered Indiana bat has been historically documented in West Tennessee bottomland forest and any work involving suspected Indiana bat presence requires elevated federal protocol, the federally proposed tricolored bat is present across the Mississippi bottomland forest at Meeman-Shelby and the Wolf River corridor, bald eagles nest at increasing density along the Mississippi River and at Meeman-Shelby Forest and remain protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act, alligator snapping turtles and several federally listed freshwater mussels occur in the Wolf River and Mississippi River systems and any in-stream work requires federal coordination, and timber rattlesnakes are rare but documented in the most rugged wooded ridge habitat at Meeman-Shelby Forest"
+    },
     "Franklin County": {
       "county_seat": "Winchester",
       "population": 42734,
