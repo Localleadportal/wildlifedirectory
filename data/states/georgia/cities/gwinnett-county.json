@@ -1,0 +1,575 @@
+{
+  "Lawrenceville": {
+    "population_tier": "medium-large",
+    "housing_era": "Lawrenceville (~32,000) is the Gwinnett County seat and home to the 1885 Gwinnett Historic Courthouse and the pre-1900 antebellum residential blocks fanning out from the square. Housing combines the historic-square district, mid-century 1950s-1980s ranches and split-levels along Hurricane Shoals Road and Old Norcross Road, and 1990s-2010s subdivision growth on the eastern and northern edges.",
+    "geographic_features": [
+      "Pre-1900 Gwinnett Historic Courthouse Square (1885 courthouse, surrounding antebellum housing)",
+      "Pre-1900 historic-downtown commercial blocks (Crogan Street, Pike Street, Perry Street)",
+      "Hurricane Shoals Road corridor mid-century residential",
+      "1990s-2010s subdivision growth (eastern and northern Lawrenceville)",
+      "Yellow River tributary system to the south"
+    ],
+    "neighborhoods": [
+      "Historic Lawrenceville Square (around the 1885 courthouse)",
+      "Old Norcross Road / Hurricane Shoals corridor mid-century",
+      "Eastern Lawrenceville 1990s-2010s subdivisions",
+      "Northern Lawrenceville subdivisions toward Sugar Hill",
+      "Pre-1900 historic-square residential blocks"
+    ],
+    "wildlife_intro": "Lawrenceville carries the deepest historic-housing footprint in Gwinnett County. The <strong>pre-1900 Lawrenceville Historic Square</strong> — the antebellum residential blocks surrounding the 1885 Gwinnett Historic Courthouse along Crogan, Pike, and Perry Streets — has the construction profile that supports established multi-decade wildlife colonies: original masonry chimneys without modern caps, hand-laid brick foundations with century-plus pointing failures, weathered original wood soffits, and pre-modern gable louvers without screen backing. <strong>Big brown bat</strong> maternity colonies in pre-1900 Lawrenceville chimneys routinely span 30 to 50+ years of continuous occupation. The mid-century Hurricane Shoals and Old Norcross Road residential ring around the historic core follows a smaller-scale similar pattern. The 1990s-2010s subdivision growth pushing into eastern and northern Lawrenceville has now reached the canopy-maturity threshold that supports established Eastern gray squirrel and roof rat populations — many Lawrenceville homeowners are calling about residential wildlife pressure for the first time in homes that had no detectable activity when they were built. <strong>Norway rats</strong> concentrate in the pre-1900 historic-downtown commercial blocks. The Yellow River tributary system south of downtown adds raccoon and copperhead corridor pressure. Typical Lawrenceville wildlife removal runs $400-$1,800+.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in Lawrenceville homes?",
+        "a": "Eastern gray squirrels in attics drive the highest call volume across both the pre-1900 historic-square housing and the 1990s-2010s subdivision growth. Bats follow — pre-1900 Lawrenceville chimneys host multi-decade big brown bat maternity colonies, frequently spanning 30 to 50+ years. Raccoons concentrate in historic-square chimney stock and along the Yellow River tributary corridors. Roof rats are firmly established in eastern and northern Lawrenceville subdivisions. Norway rats persist in the pre-1900 historic-downtown commercial blocks. Opossums and skunks den under decks across all eras of housing."
+      },
+      {
+        "q": "Are bats really common in Lawrenceville pre-1900 historic-square homes?",
+        "a": "Yes. The antebellum and Victorian housing fanning out from the 1885 Gwinnett Historic Courthouse has structural features that make it disproportionately attractive to big brown bat maternity colonies — original masonry chimneys without modern caps, pre-modern gable louvers without screen backing, hand-laid brick foundations with pointing failures. Female big brown bats return to the chimney where they were born to give birth themselves year after year, which is why a Lawrenceville chimney that hosted bats decades ago is very likely still hosting them today. Multi-decade colony establishment spanning 30 to 50+ years is documented in many Lawrenceville pre-1900 chimneys."
+      },
+      {
+        "q": "Why am I just now seeing wildlife in a 2008 Lawrenceville subdivision?",
+        "a": "Subdivisions built in eastern and northern Lawrenceville between roughly 2003 and 2012 started as low-canopy environments without enough mature tree cover to sustain established Eastern gray squirrel or roof-rat populations. Two decades later, the planted and natural canopy has matured to the height and continuity that supports colonies — and the species arrived from the Yellow River tributary system and the broader Gwinnett canopy to fill it. The phenomenon is broadly visible across eastern Lawrenceville right now."
+      },
+      {
+        "q": "Do you handle wildlife in Lawrenceville pre-1900 historic-square homes?",
+        "a": "Yes — the pre-1900 Lawrenceville Historic Square is core service territory. The historic housing has multi-entry profiles (4-6+ viable wildlife entry points per property is common), original masonry chimneys with multi-decade bat-colony establishment, and historic-preservation considerations on any visible exterior masonry work. Pre-1900 chimney exclusion typically requires custom-fabricated stainless-steel caps engineered to fit historic chimney crowns, since stock cap sizes don't match the period masonry."
+      },
+      {
+        "q": "When are wildlife calls highest in Lawrenceville?",
+        "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions in pre-1900 Lawrenceville chimneys and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up in eastern and northern Lawrenceville subdivisions. October through December covers the indoor-rodent shift. Bat exclusion across all of Lawrenceville falls inside the September-through-April Georgia DNR legal window."
+      }
+    ]
+  },
+  "Duluth": {
+    "population_tier": "large",
+    "housing_era": "Duluth (~32,000) sits along the Buford Highway commercial corridor and is anchored by one of the densest Korean and Asian restaurant rows in the metro Southeast. Housing combines pre-1900 historic-downtown blocks around the original train depot, mid-century 1960s-1980s ranches, and extensive 1990s-2010s subdivision growth along the Pleasant Hill Road and Peachtree Industrial Boulevard corridors.",
+    "geographic_features": [
+      "Buford Highway commercial corridor (Korean, Vietnamese, Mexican, Chinese, Indian, Ethiopian restaurant rows)",
+      "Pre-1900 historic downtown (train-depot area, Main Street)",
+      "Pleasant Hill Road retail-and-restaurant concentration",
+      "Peachtree Industrial Boulevard 1990s-2010s subdivision growth",
+      "Chattahoochee River boundary (Jones Bridge and Holcomb Bridge units of the National Recreation Area)"
+    ],
+    "neighborhoods": [
+      "Pre-1900 historic-downtown blocks (Main Street, train-depot area)",
+      "Buford Highway commercial-corridor adjacent residential",
+      "Pleasant Hill Road 1990s-2010s subdivisions",
+      "Peachtree Industrial Boulevard subdivision growth",
+      "Chattahoochee River-edge residential (Jones Bridge area)"
+    ],
+    "wildlife_intro": "Duluth's wildlife pressure is shaped by two distinctive features. The <strong>Buford Highway commercial corridor</strong> through Duluth is one of the densest restaurant-and-dumpster concentrations in metro Atlanta, with one of the most ethnically diverse restaurant rows in the southeast (Korean, Vietnamese, Mexican, Chinese, Indian, Ethiopian, and Latin American restaurants). The dumpster ecology behind these restaurants sustains year-round <strong>Norway rat</strong> populations at densities significantly above the suburban-Georgia average; adjacent residential blocks within a quarter-mile take consistent rat dispersal pressure. The <strong>Chattahoochee River corridor</strong> along Duluth's western boundary, particularly around the Jones Bridge and Holcomb Bridge units of the Chattahoochee River National Recreation Area, sustains a continuous shoreline-forest source population of raccoons, bats, and opossums. The pre-1900 Duluth historic-downtown area around the original train depot hosts smaller-scale long-established big brown bat colonies. Roof rats are firmly established in 1990s-2010s Pleasant Hill Road and Peachtree Industrial subdivisions. Typical Duluth wildlife removal runs $400-$1,700+.",
+    "faqs": [
+      {
+        "q": "Why is rat pressure so heavy in Duluth?",
+        "a": "Buford Highway through Duluth is one of the densest restaurant-and-dumpster concentrations in metro Atlanta. The corridor's diverse restaurant ecology (Korean, Vietnamese, Mexican, Chinese, Indian, Ethiopian, Latin American) sustains year-round Norway rat populations at densities significantly above the suburban-Georgia average. Residential blocks within a quarter-mile of the corridor take consistent dispersal pressure. Pleasant Hill Road and Peachtree Industrial subdivisions have separately seen roof-rat establishment over the past 15 years as the 1990s-2010s canopy matured."
+      },
+      {
+        "q": "What wildlife is most common in Duluth homes?",
+        "a": "Norway rats lead Duluth's call volume because of the Buford Highway corridor restaurant-dumpster ecology. Roof rats dominate the Pleasant Hill Road and Peachtree Industrial subdivision attics — pointed half-inch droppings, overhead nighttime activity. Raccoons disperse from the Chattahoochee River corridor (Jones Bridge and Holcomb Bridge units) into adjacent residential properties. Eastern gray squirrels drive constant year-round attic activity across the mature Duluth canopy. Bats appear in the pre-1900 historic-downtown chimneys."
+      },
+      {
+        "q": "How does the Chattahoochee River affect Duluth wildlife pressure?",
+        "a": "The Chattahoochee River corridor along Duluth's western boundary, particularly around the Jones Bridge and Holcomb Bridge units of the Chattahoochee River National Recreation Area, sustains continuous shoreline-forest source populations. Properties within a half-mile of the river take year-round dispersal pressure from raccoons, opossums, and big brown bats. Tricolored bats (federally proposed for listing) appear along the corridor with notable regularity — any encounter requires careful protocol because of the federal status."
+      },
+      {
+        "q": "Do you handle Buford Highway-adjacent residential properties in Duluth?",
+        "a": "Yes — Buford Highway-adjacent residential exclusion is a routine Duluth service area. The work has to address the corridor's commercial-to-residential rat migration pattern, not just property-specific entry points. Effective Buford Highway-adjacent exclusion typically includes broader perimeter sealing combined with dumpster-area runway disruption at the commercial source where feasible."
+      },
+      {
+        "q": "When are wildlife calls highest in Duluth?",
+        "a": "Norway rat call volume along the Buford Highway corridor runs continuously regardless of season because of the persistent dumpster food subsidy. Roof rat activity in Pleasant Hill Road and Peachtree Industrial subdivisions peaks October through December. Raccoon kit season runs late February through early May. Squirrel breeding cycles drive twin February-March and August-September peaks. Bat exclusion across all of Duluth falls inside the September-through-April legal window."
+      }
+    ]
+  },
+  "Peachtree Corners": {
+    "population_tier": "large",
+    "housing_era": "Peachtree Corners (~45,000) is metro Atlanta's largest planned community and home to the Peachtree Corners tech-and-biotech business district. Housing combines 1970s-1990s ranches and split-levels (the original planned-community housing stock), 1990s-2010s upmarket subdivisions, and limited 2010s-2020s newer construction. The Chattahoochee River forms the western boundary.",
+    "geographic_features": [
+      "Peachtree Corners tech-and-biotech corridor (Technology Park)",
+      "1970s-1990s planned-community housing stock",
+      "1990s-2010s upmarket subdivisions",
+      "Chattahoochee River western boundary",
+      "Holcomb Bridge / Jones Bridge National Recreation Area units"
+    ],
+    "neighborhoods": [
+      "Technology Park / Peachtree Corners business district",
+      "1970s-1990s planned-community ranches and split-levels",
+      "1990s-2010s upmarket subdivisions",
+      "Chattahoochee River-edge residential",
+      "Holcomb Bridge Road corridor"
+    ],
+    "wildlife_intro": "Peachtree Corners' wildlife profile reflects metro Atlanta's largest planned-community housing inventory paired with adjacency to the Chattahoochee River National Recreation Area. The <strong>1970s-1990s planned-community housing</strong> has now reached the 30-50 year canopy-maturity threshold that supports established Eastern gray squirrel and big brown bat populations. Most squirrel and bat colonies in this housing stock are 10-25 years old by the time homeowners notice. The <strong>1990s-2010s upmarket subdivisions</strong> show typical roof-rat establishment patterns — pointed half-inch droppings, overhead nighttime activity, chew marks on vinyl-soffit corners and chimney chase caps. The <strong>Chattahoochee River corridor</strong> and the <strong>Jones Bridge / Holcomb Bridge National Recreation Area units</strong> sustain a continuous shoreline-forest source population that disperses into adjacent residential properties year-round. The <strong>Peachtree Corners Technology Park</strong> commercial buildings host pigeon populations on their decorative cornices and parapets. Tricolored bats (federally proposed for listing) appear along the Chattahoochee corridor with notable regularity. Typical Peachtree Corners wildlife removal runs $500-$2,200+.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in Peachtree Corners homes?",
+        "a": "Eastern gray squirrels in attics top the call volume because the 1970s-1990s planned-community canopy is now fully mature. Bats follow — big brown bat colonies in 30-50 year-old planned-community chimneys are routine. Roof rats are firmly established in 1990s-2010s upmarket subdivisions. Raccoons disperse from the Chattahoochee River corridor and the National Recreation Area units. Tricolored bats (federally proposed for listing) appear in the Chattahoochee corridor and require federal-protocol evaluation before exclusion."
+      },
+      {
+        "q": "Why are bat colonies so common in 1970s Peachtree Corners homes?",
+        "a": "The 1970s-1990s planned-community housing has now had 30-50 years for big brown bat colonies to establish in original chimney chase caps that have aged through, soffit-fascia gaps that widened with house settling, and gable-vent screening that's no longer intact. Female big brown bats return year after year to the chimney where they were born to give birth themselves, so colony memory carries across decades. Many Peachtree Corners planned-community homes have colonies that pre-date the current homeowners' tenure."
+      },
+      {
+        "q": "Is the tricolored bat present in Peachtree Corners?",
+        "a": "Yes — the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented along the Chattahoochee River corridor through Peachtree Corners. Pre-1980 Peachtree Corners bat colonies near the Chattahoochee should be evaluated for tricolored presence before exclusion. Confirming a tricolored colony triggers federal Endangered Species Act protocols on top of the standard Georgia DNR maternity-season restrictions."
+      },
+      {
+        "q": "Do you handle Chattahoochee corridor-adjacent properties in Peachtree Corners?",
+        "a": "Yes. Chattahoochee River-adjacent residential exclusion is a routine Peachtree Corners service area. Properties within a half-mile of the Jones Bridge and Holcomb Bridge National Recreation Area units take continuous year-round wildlife pressure from the protected shoreline forest, and trail-adjacent exclusion has to account for that ongoing source pressure rather than treating each property as isolated."
+      },
+      {
+        "q": "When are wildlife calls highest in Peachtree Corners?",
+        "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up in the upmarket subdivisions. October through December covers the indoor-rodent shift. Bat exclusion is locked to September through April under Georgia DNR rules and federal tricolored-bat protocols add timing constraints to Chattahoochee-corridor colonies."
+      }
+    ]
+  },
+  "Snellville": {
+    "population_tier": "medium",
+    "housing_era": "Snellville (~21,000) is a southern Gwinnett residential city anchored by 1970s-1990s ranches and split-levels along Highway 78. Housing combines the original 1970s subdivision growth, 1990s-2010s newer construction, and the Yellow River corridor properties to the southeast. Snellville sits at the Highway 78 / Highway 124 commercial intersection.",
+    "geographic_features": [
+      "1970s-1990s ranch-and-split-level residential stock",
+      "Highway 78 commercial corridor (mid-county Gwinnett retail)",
+      "Yellow River corridor to the southeast",
+      "1990s-2010s newer construction subdivisions",
+      "Briscoe Park (regional park, mature canopy)"
+    ],
+    "neighborhoods": [
+      "1970s-1980s Snellville ranch-and-split-level neighborhoods",
+      "1990s-2010s newer subdivisions on the eastern edge",
+      "Highway 78 corridor commercial-adjacent residential",
+      "Yellow River-edge wooded residential",
+      "Briscoe Park area mature-canopy neighborhoods"
+    ],
+    "wildlife_intro": "Snellville's wildlife pressure is concentrated in the 1970s-1990s ranch-and-split-level housing stock that dominates the city. These homes have reached the 30-50 year mark where <strong>aluminum gable-vent screens have aged through</strong>, soffit-fascia separation provides entry, and ridge-vent caps have weathered open. <strong>Eastern gray squirrels</strong> drive constant year-round attic activity across Snellville's mature canopy. The <strong>Yellow River corridor</strong> to the southeast brings raccoon, copperhead, and beaver pressure into adjacent residential properties. <strong>Roof rats</strong> have moved into 1990s-2010s newer-construction subdivisions on Snellville's eastern edge. The Highway 78 retail corridor through Snellville produces smaller-scale Norway rat ecology behind the commercial blocks. <strong>Briscoe Park</strong>'s mature canopy provides a regional wildlife corridor connecting residential neighborhoods to the broader Yellow River system. Typical Snellville wildlife removal runs $400-$1,500+.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in Snellville homes?",
+        "a": "Eastern gray squirrels in attics top the call volume because Snellville's 1970s-1990s subdivision canopy has reached full maturity. Raccoons concentrate in the Yellow River-corridor properties and the Briscoe Park-area neighborhoods. Roof rats are firmly established in 1990s-2010s newer-construction subdivisions on Snellville's eastern edge. Norway rats appear along the Highway 78 commercial corridor. Opossums and skunks den under decks and sheds across all eras of housing. Snake calls — primarily Eastern rat snakes with occasional copperheads near the Yellow River — are a regular Snellville call category."
+      },
+      {
+        "q": "Are copperheads a concern in Snellville?",
+        "a": "Yes, along the Yellow River corridor and at Briscoe Park-adjacent properties with wooded leaf-litter cover. Northern copperheads are habitat specialists favoring leaf-litter cover near water, and the Yellow River through southeastern Snellville matches that habitat preference. Most encounters happen during yard cleanup, woodpile work, or evening foot-traffic on wooded paths within a quarter-mile of the river."
+      },
+      {
+        "q": "Why are wildlife calls increasing in 1990s Snellville subdivisions?",
+        "a": "The 1990s-2010s subdivisions on Snellville's eastern edge have now reached the canopy-maturity threshold that supports established Eastern gray squirrel and roof rat populations. Subdivisions that were brand-new construction in 2000 now have continuous mature oak-hickory canopy connected by overhead utility runs — exactly the infrastructure these species need to spread laterally between properties."
+      },
+      {
+        "q": "Do you handle wildlife in 1970s Snellville ranch homes?",
+        "a": "Yes — 1970s-1990s Snellville ranch-and-split-level housing is core service territory. The 30-50 year-old construction has predictable entry-point patterns: aluminum gable-vent screens that have aged through, soffit-to-fascia separation, ridge-vent caps, original wood-soffit return corners. Most Snellville ranch jobs identify 2-3 viable entry points per property."
+      },
+      {
+        "q": "When are wildlife calls highest in Snellville?",
+        "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up in 1990s-2010s subdivisions. October through December covers the indoor-rodent shift. Snake calls run April through October. Bat exclusion is restricted to September through April."
+      }
+    ]
+  },
+  "Sugar Hill": {
+    "population_tier": "medium",
+    "housing_era": "Sugar Hill (~25,000) sits in north Gwinnett within a mile of Lake Lanier's southern shoreline. Housing is dominated by 1990s-2010s upmarket subdivisions built during the explosive Lake Lanier-adjacent suburban growth. The Buford Dam at the southern end of Lake Lanier is the major regional landmark, and the surrounding lake-corridor forest sustains continuous wildlife source pressure.",
+    "geographic_features": [
+      "Lake Lanier southern shoreline proximity (within 1-3 miles)",
+      "Buford Dam regional landmark and adjacent recreation areas",
+      "1990s-2010s upmarket subdivision growth",
+      "E.E. Robinson Park (mature canopy)",
+      "Sugar Hill Greenway trail system"
+    ],
+    "neighborhoods": [
+      "1990s-2010s upmarket subdivisions",
+      "Lake Lanier-adjacent residential (within 1-3 miles of shoreline)",
+      "Buford Dam-area neighborhoods",
+      "E.E. Robinson Park-adjacent residential",
+      "Sugar Hill Greenway-adjacent residential"
+    ],
+    "wildlife_intro": "Sugar Hill takes some of the heaviest wildlife pressure in Gwinnett County because of its proximity to Lake Lanier's southern shoreline. The <strong>Lake Lanier shoreline forest</strong> sustains one of the densest source populations of raccoons, big brown bats, and Canada geese in north Georgia, and Sugar Hill subdivisions within 1-3 miles of the lake take continuous overflow pressure throughout the year. <strong>Year-round protein subsidy from shoreline foraging produces measurably heavier adult raccoons</strong> in Sugar Hill properties than in inland Gwinnett subdivisions — 15-25+ pound adults are routinely captured in Sugar Hill attics. The <strong>Buford Dam</strong> at the southern end of Lake Lanier and the adjacent recreation areas concentrate wildlife along the lake-edge habitat. <strong>Roof rats</strong> are firmly established in the now-mature 1990s-2010s upmarket subdivision construction. <strong>Tricolored bats</strong> (federally proposed for listing) appear along the Lake Lanier shoreline with notable regularity. Typical Sugar Hill wildlife removal runs $500-$2,500+.",
+    "faqs": [
+      {
+        "q": "Why is wildlife pressure heavier in Sugar Hill than other Gwinnett cities?",
+        "a": "Sugar Hill sits within 1-3 miles of Lake Lanier's southern shoreline. The lake's shoreline forest sustains one of the densest source populations of raccoons, big brown bats, and Canada geese in north Georgia. Year-round protein subsidy from shoreline foraging supports higher residential wildlife densities in Sugar Hill than in inland Gwinnett subdivisions. Buford Dam and the adjacent recreation areas concentrate wildlife along the lake-edge habitat."
+      },
+      {
+        "q": "Are raccoons really larger in Sugar Hill properties?",
+        "a": "Measurably, yes. Sugar Hill raccoons benefit from year-round protein subsidy from Lake Lanier shoreline foraging — fish, crayfish, mollusks, shoreline invertebrates. The shoreline diet produces 15-25+ pound adults routinely, noticeably heavier than the 10-15 pound adults typical of inland-subdivision raccoons. Female lake-corridor raccoons specifically select Sugar Hill residential attics over natural den sites during spring whelping."
+      },
+      {
+        "q": "Is the tricolored bat present in Sugar Hill?",
+        "a": "Yes — the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented along the Lake Lanier shoreline through Sugar Hill. Pre-1980 Sugar Hill bat colonies near the lake should be evaluated for tricolored presence before exclusion. Confirming a tricolored colony triggers federal Endangered Species Act protocols on top of Georgia DNR maternity-season restrictions."
+      },
+      {
+        "q": "Why are wildlife calls increasing in newer Sugar Hill subdivisions?",
+        "a": "The 1990s-2010s upmarket subdivisions in Sugar Hill have now reached the canopy-maturity threshold that supports established Eastern gray squirrel and roof rat populations. The Lake Lanier source-population overflow pressure provides continuous animal influx that subdivisions further from the lake don't experience. Subdivisions adjacent to E.E. Robinson Park, the Sugar Hill Greenway, or the lake-corridor forest take the heaviest sustained pressure."
+      },
+      {
+        "q": "When are wildlife calls highest in Sugar Hill?",
+        "a": "Year-round elevated, with three sharper peaks. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up. October through December covers the indoor-rodent shift. Lake Lanier wildlife pressure peaks during the September-November fall dispersal window — a Sugar Hill-specific spike on top of the general Gwinnett calendar."
+      }
+    ]
+  },
+  "Suwanee": {
+    "population_tier": "medium",
+    "housing_era": "Suwanee (~21,000) sits along Lake Lanier's southern shoreline in north Gwinnett and is anchored by Suwanee Town Center and the family-oriented planned-community housing built between 1995 and 2015. Housing combines the Town Center walkable district, surrounding subdivision growth, and Lake Lanier-edge waterfront properties.",
+    "geographic_features": [
+      "Lake Lanier southern shoreline (direct shoreline access)",
+      "Suwanee Town Center (planned walkable district)",
+      "1995-2015 planned-community subdivision growth",
+      "Suwanee Creek tributary system",
+      "George Pierce Park (regional park, mature canopy)"
+    ],
+    "neighborhoods": [
+      "Suwanee Town Center area",
+      "1995-2015 planned-community subdivisions",
+      "Lake Lanier-edge waterfront properties",
+      "Suwanee Creek-adjacent residential",
+      "George Pierce Park area"
+    ],
+    "wildlife_intro": "Suwanee takes among the heaviest wildlife pressure in Gwinnett because of its direct Lake Lanier shoreline access. <strong>Waterfront properties</strong> with boathouses, dock-side sheds, and detached lakefront garages take multi-structure raccoon and bat pressure — every structure on the property represents a separate possible wildlife access route. <strong>Suwanee Creek</strong> running through the city's western portions provides a secondary wildlife corridor connecting Lake Lanier source habitat to inland subdivisions. The 1995-2015 planned-community subdivisions around Suwanee Town Center have now reached the canopy-maturity threshold that supports established Eastern gray squirrel and roof rat populations. <strong>Big brown bat</strong> colonies form in chimney chase caps that have aged through after 15-20 years, soffit-fascia gaps, and gable-vent screening that's no longer intact. <strong>Tricolored bats</strong> (federally proposed for listing) appear along the Lake Lanier shoreline. <strong>George Pierce Park</strong>'s mature canopy adds a regional source-population zone. Typical Suwanee wildlife removal runs $500-$2,500+ for general residential, $3,000-$6,000+ for multi-structure lakefront properties.",
+    "faqs": [
+      {
+        "q": "Why is wildlife pressure so heavy on Lake Lanier waterfront properties in Suwanee?",
+        "a": "Lake Lanier waterfront properties are different from typical residential. Boathouses, dock-side sheds, and detached lakefront garages each represent separate possible wildlife access routes — a colony excluded from the main house frequently relocates to one of the outbuildings within weeks. Year-round protein subsidy from shoreline foraging produces 15-25+ pound adult raccoons that specifically select lakefront attics over natural den sites during spring whelping. Multi-structure exclusion is the standard scope for Suwanee waterfront work."
+      },
+      {
+        "q": "What wildlife is most common in Suwanee Town Center planned-community homes?",
+        "a": "Eastern gray squirrels in attics drive the most calls. Bats follow — big brown bat colonies form in chimney chase caps that have aged through after 15-20 years of weathering. Roof rats are firmly established in the now-mature 1995-2015 subdivision construction. Raccoons disperse from Suwanee Creek and the broader Lake Lanier shoreline forest. Opossums den under decks. Snake calls (Eastern rat snake, occasional copperhead) concentrate along Suwanee Creek-adjacent properties."
+      },
+      {
+        "q": "Do you handle multi-structure lakefront properties in Suwanee?",
+        "a": "Yes — multi-structure lakefront exclusion is core Suwanee service territory. Effective lakefront work inspects every structure on the property (main house, boathouse, detached garage, dock-side shed) because a colony excluded from one structure routinely relocates to another within weeks. Multi-structure exclusion plans address all viable entry points across the property as a unified scope, typically running $3,000-$6,000+ for full lakefront work."
+      },
+      {
+        "q": "Is the tricolored bat a concern in Suwanee?",
+        "a": "Yes — the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented along the Lake Lanier shoreline through Suwanee. Pre-1980 Suwanee bat colonies near the lake should be evaluated for tricolored presence before exclusion. Confirming a tricolored colony triggers federal Endangered Species Act protocols on top of Georgia DNR maternity-season restrictions."
+      },
+      {
+        "q": "When are wildlife calls highest in Suwanee?",
+        "a": "Lake Lanier wildlife pressure peaks during the September-November fall dispersal window. Within that, three Gwinnett-wide peak periods apply: late February through early May (raccoon kit season + first squirrel cycle), August through September (second squirrel cycle + roof-rat fall ramp-up), and October through December (indoor-rodent shift). Suwanee's Lake Lanier proximity amplifies all three windows beyond typical inland-subdivision pressure."
+      }
+    ]
+  },
+  "Norcross": {
+    "population_tier": "medium",
+    "housing_era": "Norcross (~17,000) was established in 1870 and contains one of metro Atlanta's most intact pre-1900 historic-downtown footprints. Housing combines the pre-1900 historic core, mid-century 1950s-1980s housing, the Buford Highway commercial corridor influence, and 1990s-2010s subdivision growth on the city edges. The Norcross historic-downtown has been used as a filming location for multiple period productions.",
+    "geographic_features": [
+      "Pre-1900 Norcross historic-downtown (1870 establishment, brick storefronts)",
+      "Buford Highway commercial corridor (restaurant-and-dumpster ecology)",
+      "Mid-century 1950s-1980s residential housing",
+      "1990s-2010s edge subdivision growth",
+      "Lillian Webb Park (mature canopy in city core)"
+    ],
+    "neighborhoods": [
+      "Pre-1900 historic-downtown (Holcomb Bridge Road, Main Street, Jones Street)",
+      "Mid-century 1950s-1980s neighborhoods around the historic core",
+      "Buford Highway commercial-corridor adjacent residential",
+      "1990s-2010s edge subdivisions",
+      "Lillian Webb Park area"
+    ],
+    "wildlife_intro": "Norcross's pre-1900 historic-downtown contains some of metro Atlanta's most intact 1870-era brick storefront and adjacent residential housing. The <strong>pre-1900 Norcross historic-downtown</strong> hosts long-established big brown bat colonies in original masonry chimneys — many spanning 50+ years of continuous occupation in original brick storefronts and adjacent housing. <strong>Norway rats</strong> concentrate in the historic-downtown commercial blocks where pre-modern foundation construction, basement coal-chute remnants, and adjacent dumpster ecology from the dining corridor sustain multi-decade colonies. The <strong>Buford Highway commercial corridor</strong> influence amplifies Norway rat pressure on adjacent residential blocks. <strong>Roof rats</strong> are firmly established in 1990s-2010s edge subdivisions. <strong>Eastern gray squirrels</strong> drive year-round attic activity across Norcross's mature canopy, particularly in the historic-downtown and mid-century neighborhoods. Multi-decade flying-squirrel colonies appear in pre-1900 historic-downtown housing. Typical Norcross wildlife removal runs $500-$2,200+ for general residential, $2,500-$5,000+ for full pre-1900 historic-district bat remediation.",
+    "faqs": [
+      {
+        "q": "Are bats really common in Norcross pre-1900 historic-downtown?",
+        "a": "Yes. The 1870-established Norcross historic-downtown has structural features that make it disproportionately attractive to big brown bat maternity colonies — original masonry chimneys without modern caps, pre-modern gable louvers without screen backing, hand-laid brick foundations with pointing failures, original brick storefronts with upper-story residential cavities. Multi-decade colony establishment spanning 50+ years is documented in many Norcross pre-1900 chimneys."
+      },
+      {
+        "q": "Why is rat pressure heavy in Norcross historic-downtown?",
+        "a": "Pre-1900 Norcross historic-downtown commercial blocks have pre-modern foundation construction with hand-laid brick weep holes, basement coal-chute remnants from when downtown buildings burned coal for winter heat, and continuous block-to-block burrow infrastructure under original brick alleys. Combined with adjacent dumpster ecology behind the historic-downtown restaurant rows and the broader Buford Highway corridor influence, these conditions support multi-decade Norway rat colonies."
+      },
+      {
+        "q": "What wildlife is most common in Norcross homes?",
+        "a": "Bats lead Norcross's call volume because of the 1870-era historic-downtown chimney colonies — many 50+ years old. Norway rats follow in the historic-downtown commercial blocks and Buford Highway-influenced residential. Eastern gray squirrels drive constant year-round attic activity, particularly in mid-century neighborhoods. Raccoons concentrate in pre-1900 chimney stock and along the Lillian Webb Park-area mature canopy. Roof rats are firmly established in 1990s-2010s edge subdivisions."
+      },
+      {
+        "q": "Do you handle Norcross pre-1900 historic-downtown homes?",
+        "a": "Yes — pre-1900 Norcross historic-downtown is core service territory. The 1870-era housing has multi-entry profiles (4-6+ viable wildlife entry points per property is common), original masonry chimneys with 50+ year bat-colony establishment, and historic-preservation considerations on visible exterior masonry work. Custom-fabricated stainless-steel chimney caps engineered to fit historic chimney crowns are typical scope items."
+      },
+      {
+        "q": "When are wildlife calls highest in Norcross?",
+        "a": "Norway rat call volume in the historic-downtown commercial blocks runs continuously regardless of season because of persistent dumpster food subsidy. Three additional peaks apply across residential: late February through early May (raccoon kit season + first squirrel cycle), August through September (second squirrel cycle), and October through December (indoor-rodent shift). Bat exclusion across all of Norcross falls inside the September-through-April Georgia DNR legal window."
+      }
+    ]
+  },
+  "Buford": {
+    "population_tier": "medium",
+    "housing_era": "Buford (~17,000) sits at the southern end of Lake Lanier and is partially in Hall County. The city is anchored by Buford Dam and the adjacent Lake Lanier shoreline recreation areas, with housing combining pre-1900 historic-downtown brick storefronts (Main Street), mid-century housing along Buford Drive, and 1990s-2010s subdivision growth in the Mall of Georgia retail-corridor area.",
+    "geographic_features": [
+      "Lake Lanier southern shoreline + Buford Dam",
+      "Pre-1900 historic Main Street brick storefronts",
+      "Mall of Georgia retail corridor (one of metro Atlanta's largest)",
+      "1990s-2010s subdivision growth along Mall corridor",
+      "Hall County boundary (city partially in Hall)"
+    ],
+    "neighborhoods": [
+      "Pre-1900 Buford historic Main Street",
+      "Lake Lanier southern shoreline-adjacent residential",
+      "Buford Dam area neighborhoods",
+      "Mall of Georgia corridor 1990s-2010s subdivisions",
+      "Buford Drive corridor mid-century residential"
+    ],
+    "wildlife_intro": "Buford's wildlife pressure is shaped by two distinctive features. The <strong>Lake Lanier southern shoreline and Buford Dam</strong> concentrate wildlife along the lake-edge habitat at densities matching Suwanee and Sugar Hill — raccoons, big brown bats, Canada geese, and beavers all use the shoreline as continuous source habitat. The pre-1900 <strong>Buford historic Main Street</strong> brick storefronts and adjacent housing host long-established big brown bat colonies in original chimneys. The <strong>Mall of Georgia retail corridor</strong> — one of metro Atlanta's largest commercial concentrations — produces concentrated Norway rat ecology behind the retail blocks and adjacent restaurant dumpster zones; residential subdivisions within a quarter-mile of the Mall corridor take consistent dispersal pressure. <strong>Tricolored bats</strong> (federally proposed for listing) appear along the Lake Lanier shoreline. The Mall corridor 1990s-2010s subdivisions have now reached the canopy maturity that supports established <strong>roof rat</strong> populations. Typical Buford wildlife removal runs $500-$2,500+.",
+    "faqs": [
+      {
+        "q": "Why is wildlife pressure heavy on Lake Lanier-adjacent Buford properties?",
+        "a": "Buford sits at the southern end of Lake Lanier, and the Buford Dam plus the adjacent recreation areas concentrate wildlife along the lake-edge habitat. The Lake Lanier shoreline forest sustains one of the densest source populations of raccoons, big brown bats, and Canada geese in north Georgia. Year-round protein subsidy from shoreline foraging produces 15-25+ pound adult raccoons in lake-edge Buford properties — noticeably heavier than inland-subdivision raccoons."
+      },
+      {
+        "q": "How does the Mall of Georgia corridor affect Buford wildlife pressure?",
+        "a": "The Mall of Georgia retail corridor is one of metro Atlanta's largest commercial concentrations. The restaurant-and-dumpster ecology behind the retail blocks sustains year-round Norway rat populations at densities significantly above the suburban-Georgia average. Residential subdivisions within a quarter-mile of the corridor take consistent rat dispersal pressure that subdivisions further from the corridor don't experience."
+      },
+      {
+        "q": "What wildlife is most common in Buford homes?",
+        "a": "Eastern gray squirrels in attics drive year-round call volume across the mature Buford canopy. Bats follow — pre-1900 historic Main Street chimneys host long-established big brown bat colonies. Raccoons concentrate in Lake Lanier shoreline-adjacent properties and pre-1900 historic-downtown chimney stock. Norway rats appear in the Mall of Georgia corridor and adjacent residential blocks. Roof rats are firmly established in 1990s-2010s Mall-corridor subdivisions. Tricolored bats appear along the Lake Lanier shoreline."
+      },
+      {
+        "q": "Do you handle Buford properties on both the Gwinnett and Hall County sides?",
+        "a": "Yes — Buford straddles the Gwinnett-Hall County line and full Buford city coverage is core service territory regardless of which county side a specific property sits on. The Lake Lanier shoreline and Buford Dam zones span both counties, and wildlife pressure doesn't respect the county boundary."
+      },
+      {
+        "q": "When are wildlife calls highest in Buford?",
+        "a": "Year-round elevated near Lake Lanier, with peaks during the September-November fall dispersal window from the shoreline source population. Three additional Gwinnett-wide peaks: late February through early May (raccoon kit season + first squirrel cycle), August through September (second squirrel cycle), and October through December (indoor-rodent shift). Mall of Georgia corridor Norway rat pressure runs continuously regardless of season."
+      }
+    ]
+  },
+  "Lilburn": {
+    "population_tier": "medium",
+    "housing_era": "Lilburn (~14,000) is a southern Gwinnett residential city with housing dominated by 1960s-1980s ranches and split-levels — some of the oldest mid-century suburban housing in Gwinnett. The Yellow River cuts through Lilburn's center, and the city sits at the Highway 29 / Highway 124 commercial intersection.",
+    "geographic_features": [
+      "1960s-1980s mid-century ranch-and-split-level housing",
+      "Yellow River corridor through city center",
+      "Highway 29 commercial corridor",
+      "Lilburn City Park (mature canopy in city core)",
+      "Older Norcross-area boundary residential"
+    ],
+    "neighborhoods": [
+      "1960s-1980s Lilburn ranch neighborhoods",
+      "Yellow River corridor wooded residential",
+      "Highway 29 corridor commercial-adjacent residential",
+      "Lilburn City Park area",
+      "Norcross-boundary mid-century residential"
+    ],
+    "wildlife_intro": "Lilburn's wildlife pressure is shaped by the city's 1960s-1980s mid-century housing stock — some of the oldest mid-century suburban housing in Gwinnett. These homes have <strong>50-65 year-old construction</strong> with aluminum gable-vent screens that have aged through, original wood-soffit returns with corner separation, weathered fascia and ridge-vent caps, and pre-modern wiring runs (older Romex, undersized neutrals). The <strong>Yellow River</strong> cuts through Lilburn's center and brings copperhead pressure into adjacent properties along with raccoon and beaver activity. <strong>Eastern gray squirrels</strong> drive constant year-round attic activity across Lilburn's fully-mature canopy. <strong>Chewed-Romex fire risk</strong> in older Lilburn housing is amplified because of the 50-65 year-old wiring runs throughout the city. Typical Lilburn wildlife removal runs $400-$1,500+.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in Lilburn homes?",
+        "a": "Eastern gray squirrels in attics top the call volume because Lilburn's 1960s-1980s mid-century canopy is fully mature and the housing has 50-65 year-old entry points (gable-vent screens, soffit returns, ridge-vent caps). Raccoons concentrate in Yellow River corridor properties. Roof rats are establishing in newer-construction subdivisions. Norway rats appear along the Highway 29 commercial corridor. Snake calls (Eastern rat snake, occasional copperhead near the Yellow River) are routine."
+      },
+      {
+        "q": "Are copperheads a concern in Lilburn?",
+        "a": "Yes, along the Yellow River corridor through the city center. Northern copperheads are habitat specialists favoring leaf-litter cover near water, and the Yellow River through Lilburn matches that habitat preference. Most encounters happen during yard cleanup, woodpile work, or evening foot-traffic on wooded paths within a quarter-mile of the river. The Lilburn City Park-adjacent residential blocks see additional copperhead pressure."
+      },
+      {
+        "q": "Are squirrels really a fire risk in older Lilburn homes?",
+        "a": "Yes — chewed Romex wiring is documented as a leading cause of attic-origin residential fires. Lilburn's 1960s-1980s mid-century housing has wiring runs 50-65 years old (early Romex, undersized neutrals, in some cases knob-and-tube remnants) particularly vulnerable to chew damage. Most Lilburn-area exclusion jobs in older housing include licensed-electrician follow-up on chewed wiring discovered during the attic decontamination phase."
+      },
+      {
+        "q": "Do you handle 1960s Lilburn ranch homes?",
+        "a": "Yes — 1960s-1980s Lilburn mid-century housing is core service territory. The 50-65 year-old construction has predictable entry-point patterns: aluminum gable-vent screens that have aged through, soffit-to-fascia separation, ridge-vent caps, original wood-soffit return corners. Most Lilburn ranch jobs identify 2-3 viable entry points per property. Chewed-wire follow-up is routine."
+      },
+      {
+        "q": "When are wildlife calls highest in Lilburn?",
+        "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up. October through December covers the indoor-rodent shift. Snake calls run April through October, concentrated along the Yellow River and Lilburn City Park areas. Bat exclusion is restricted to September through April."
+      }
+    ]
+  },
+  "Dacula": {
+    "population_tier": "small",
+    "housing_era": "Dacula (~7,000) sits in eastern Gwinnett near the Walton County boundary. Housing combines 1990s-2010s subdivision growth that's been Dacula's main story, limited older mid-century housing along Highway 124, and rural-edge properties on the city's eastern fringe. The 2000s and 2010s saw explosive Dacula growth driven by I-85 commuter access.",
+    "geographic_features": [
+      "1990s-2010s subdivision growth (the dominant Dacula housing era)",
+      "Highway 124 corridor older mid-century residential",
+      "Eastern rural-edge properties toward Walton County",
+      "Hog Mountain Road corridor 2000s-era subdivisions",
+      "Apalachee River tributary system (eastern edge)"
+    ],
+    "neighborhoods": [
+      "1990s-2010s subdivision growth (most of Dacula's housing)",
+      "Highway 124 corridor older residential",
+      "Eastern Dacula rural-edge properties",
+      "Hog Mountain Road corridor subdivisions",
+      "Apalachee River-edge wooded residential"
+    ],
+    "wildlife_intro": "Dacula's wildlife pressure is shaped by the city's explosive 1990s-2010s growth — most Dacula homes are 15-30 years old now. The subdivision canopy has reached the maturity threshold that supports established <strong>Eastern gray squirrel</strong> and <strong>roof rat</strong> populations across the Hog Mountain Road and Highway 124 corridors. Many Dacula homeowners are experiencing residential wildlife pressure for the first time in homes that had no detectable activity when they were built. The <strong>Apalachee River tributary system</strong> on Dacula's eastern edge brings raccoon and snake corridor pressure into adjacent residential properties. <strong>Coyotes</strong> are routine in Dacula's eastern rural-edge properties toward Walton County. The 1990s-2010s subdivision construction has standard entry-point patterns: vinyl-soffit chew-throughs at corners, builder-grade chimney chase caps that aged through after 15-20 years, attic-fan housing penetrations. Typical Dacula wildlife removal runs $400-$1,400+.",
+    "faqs": [
+      {
+        "q": "Why am I just now seeing wildlife in my 2005 Dacula subdivision?",
+        "a": "Subdivisions built across Dacula between roughly 2000 and 2012 started as low-canopy environments without enough mature tree cover to sustain established Eastern gray squirrel or roof rat populations. Two decades later, the planted and natural canopy has matured to the height and continuity that supports colonies — and the species arrived from the Apalachee River tributary system and the broader Gwinnett canopy to fill it."
+      },
+      {
+        "q": "What wildlife is most common in Dacula homes?",
+        "a": "Eastern gray squirrels in attics top the call volume because Dacula's 1990s-2010s subdivision canopy has reached full maturity. Roof rats are firmly established in the Hog Mountain Road and Highway 124 corridor subdivisions. Raccoons disperse from the Apalachee River tributary system into adjacent residential properties. Coyotes appear in eastern rural-edge Dacula. Opossums and skunks den under decks. Snake calls (Eastern rat snake, occasional copperhead) concentrate along the Apalachee tributaries."
+      },
+      {
+        "q": "Are coyotes a problem in Dacula?",
+        "a": "Yes — coyotes are firmly established throughout eastern Dacula and the surrounding rural-edge properties toward Walton County. Pup-rearing season (April through July) drives the heaviest livestock-pen, chicken-coop, and outdoor-pet pressure. Resolutions typically combine welded-wire pen reinforcement, motion-activated hazing, and tightening of feed-storage and trash containment on the property."
+      },
+      {
+        "q": "Do you handle rural eastern Dacula agricultural properties?",
+        "a": "Yes — eastern Dacula and the rural-edge agricultural properties toward the Walton County boundary are core service territory. Barn rebuilds, chicken-coop fortification, agricultural outbuilding access-door work, and rural coyote management at livestock-pen perimeters are routine scope items."
+      },
+      {
+        "q": "When are wildlife calls highest in Dacula?",
+        "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up in the now-mature 2000s-era subdivisions. October through December covers the indoor-rodent shift. Coyote livestock-pen pressure peaks April through July."
+      }
+    ]
+  },
+  "Grayson": {
+    "population_tier": "small",
+    "housing_era": "Grayson (~5,000) sits in southeastern Gwinnett near the Walton County boundary. Housing combines older mid-century housing along Highway 84, 2000s-2010s subdivision growth, and rural-edge properties on the city's southern fringe. Grayson retains more rural character than the inner-Gwinnett cities.",
+    "geographic_features": [
+      "Highway 84 corridor mid-century residential",
+      "2000s-2010s subdivision growth",
+      "Southern rural-edge properties toward Walton County",
+      "Bay Creek Park (mature canopy)",
+      "Big Haynes Creek tributary system"
+    ],
+    "neighborhoods": [
+      "Highway 84 corridor older residential",
+      "2000s-2010s subdivision growth",
+      "Southern rural-edge Grayson",
+      "Bay Creek Park area mature canopy",
+      "Big Haynes Creek-edge wooded residential"
+    ],
+    "wildlife_intro": "Grayson's rural-suburban transition character produces a wildlife call mix that's distinct from inner-Gwinnett cities. The city's 2000s-2010s subdivision growth has now reached the canopy-maturity threshold that supports established <strong>Eastern gray squirrel</strong> populations and emerging <strong>roof rat</strong> activity. The <strong>Big Haynes Creek tributary system</strong> through Grayson brings raccoon, copperhead, and beaver corridor pressure into adjacent residential properties. <strong>Coyotes</strong> are routine in Grayson's southern rural-edge sections — pup-rearing season (April through July) drives heavy livestock-pen and chicken-coop pressure. Snake calls — primarily Eastern rat snakes with occasional copperheads near Big Haynes Creek — are regular. <strong>Bay Creek Park</strong>'s mature canopy provides a regional wildlife corridor. Typical Grayson wildlife removal runs $300-$1,200+.",
+    "faqs": [
+      {
+        "q": "What wildlife is most common in Grayson homes?",
+        "a": "Eastern gray squirrels in attics drive year-round call volume across Grayson's mature canopy. Raccoons concentrate along Big Haynes Creek and the Bay Creek Park area. Coyotes are routine in southern rural-edge Grayson. Roof rats are establishing in 2000s-2010s subdivisions. Opossums den under decks. Snake calls (Eastern rat snake, occasional copperhead near Big Haynes Creek) are regular."
+      },
+      {
+        "q": "Are coyotes a problem in Grayson?",
+        "a": "Yes — coyotes are firmly established in southern Grayson and the surrounding rural-edge properties. Pup-rearing season (April through July) drives the heaviest livestock-pen, chicken-coop, and outdoor-pet pressure. Resolutions typically combine welded-wire pen reinforcement, motion-activated hazing, and tightening of feed-storage and trash containment on the property."
+      },
+      {
+        "q": "Do you handle rural southern Grayson properties?",
+        "a": "Yes — southern Grayson and the surrounding rural-edge properties toward the Walton County boundary are core service territory. Barn rebuilds, chicken-coop fortification, agricultural outbuilding access-door work, and rural coyote management at livestock-pen perimeters are routine scope items."
+      },
+      {
+        "q": "Why are wildlife calls increasing in Grayson 2000s subdivisions?",
+        "a": "The 2000s-2010s subdivisions in Grayson have now reached the canopy-maturity threshold that supports established Eastern gray squirrel and roof rat populations. Subdivisions that were brand-new construction in 2005 now have continuous mature oak-hickory canopy connected by overhead utility runs — exactly the infrastructure these species need to spread laterally between properties."
+      },
+      {
+        "q": "When are wildlife calls highest in Grayson?",
+        "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle. October through December covers the indoor-rodent shift. Coyote livestock-pen pressure peaks April through July. Snake calls run April through October."
+      }
+    ]
+  },
+  "Berkeley Lake": {
+    "population_tier": "very-small",
+    "housing_era": "Berkeley Lake (~2,000) is a tiny lakeside enclave in western Gwinnett organized around a 90-acre private lake. Housing is dominated by 1960s-1990s single-family homes on lake-adjacent lots, with mature canopy throughout the city. Berkeley Lake's geographic isolation as a small lakeside community produces a distinctive wildlife pressure profile.",
+    "geographic_features": [
+      "Berkeley Lake (90-acre private lake)",
+      "1960s-1990s lake-adjacent single-family housing",
+      "Mature canopy throughout the city",
+      "Chattahoochee River corridor proximity (1-2 miles west)",
+      "Berkeley Lake Park (city-owned)"
+    ],
+    "neighborhoods": [
+      "Berkeley Lake shoreline-adjacent residential",
+      "1960s-1990s Berkeley Lake single-family housing",
+      "Berkeley Lake Park area",
+      "Western Berkeley Lake (toward Chattahoochee corridor)"
+    ],
+    "wildlife_intro": "Berkeley Lake's tiny lakeside character produces a distinctive wildlife pressure profile that's different from any other Gwinnett city. The <strong>90-acre Berkeley Lake</strong> provides a continuous lake-corridor source habitat for raccoons, big brown bats, and Canada geese within the city limits. The <strong>Chattahoochee River corridor</strong> 1-2 miles to the west adds a secondary source-population zone. The 1960s-1990s single-family housing has reached the 30-60 year mark where mid-century entry points (gable-vent screens, soffit returns, fascia, ridge-vent caps) have weathered open. <strong>Eastern gray squirrels</strong> dominate attic activity. <strong>Multi-decade big brown bat</strong> colonies appear in the older Berkeley Lake chimneys. <strong>Tricolored bats</strong> (federally proposed for listing) appear along the Chattahoochee corridor with notable regularity. Typical Berkeley Lake wildlife removal runs $400-$2,000+.",
+    "faqs": [
+      {
+        "q": "Why is wildlife pressure unique in Berkeley Lake?",
+        "a": "Berkeley Lake's tiny lakeside character produces a distinctive pressure profile. The 90-acre private lake provides continuous lake-corridor source habitat within the city limits, and the Chattahoochee River corridor 1-2 miles west adds a secondary source zone. Properties along the lake shoreline take continuous raccoon and bat pressure from the lake-edge source population, plus typical Gwinnett squirrel and roof rat activity from the mature canopy."
+      },
+      {
+        "q": "What wildlife is most common in Berkeley Lake homes?",
+        "a": "Eastern gray squirrels in attics drive year-round call volume across Berkeley Lake's fully-mature canopy. Raccoons concentrate in lake-shoreline properties. Big brown bat colonies appear in pre-1980 Berkeley Lake chimneys (older mid-century housing). Tricolored bats appear along the Chattahoochee corridor 1-2 miles to the west. Roof rats are establishing in the older mid-century housing as the canopy has matured."
+      },
+      {
+        "q": "Are tricolored bats a concern in Berkeley Lake?",
+        "a": "Yes — the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented along the Chattahoochee River corridor that runs 1-2 miles west of Berkeley Lake. Pre-1980 Berkeley Lake bat colonies should be evaluated for tricolored presence before exclusion. Confirming a tricolored colony triggers federal Endangered Species Act protocols on top of Georgia DNR maternity-season restrictions."
+      },
+      {
+        "q": "Do you handle Berkeley Lake shoreline properties?",
+        "a": "Yes — Berkeley Lake shoreline-adjacent residential exclusion is core service territory. The 90-acre lake's shoreline source population provides continuous wildlife pressure that subdivisions away from the lake-edge don't experience. Lake-adjacent exclusion typically requires broader perimeter sealing to address the ongoing source pressure."
+      },
+      {
+        "q": "When are wildlife calls highest in Berkeley Lake?",
+        "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle. October through December covers the indoor-rodent shift. Bat exclusion is restricted to September through April under Georgia DNR rules, with federal tricolored-bat protocols on top for Chattahoochee-corridor colonies."
+      }
+    ]
+  },
+  "Loganville": {
+    "population_tier": "small",
+    "housing_era": "Loganville (~13,000) sits on the Gwinnett-Walton County line in southeastern Gwinnett. Housing combines older mid-century housing along Highway 78, 2000s-2010s subdivision growth driven by I-20 / Highway 78 commuter access, and rural-edge properties on the Walton County side. The city is split between the two counties, with about 70% in Gwinnett.",
+    "geographic_features": [
+      "Highway 78 corridor (Gwinnett-Walton commercial-and-commuter route)",
+      "2000s-2010s subdivision growth",
+      "Mid-century older residential along Highway 78",
+      "Brand Park (mature canopy)",
+      "Loganville-Walton County rural-edge boundary"
+    ],
+    "neighborhoods": [
+      "Highway 78 corridor older residential",
+      "2000s-2010s subdivision growth on both Gwinnett and Walton sides",
+      "Brand Park area mature canopy",
+      "Loganville historic-downtown core",
+      "Walton-side rural-edge properties"
+    ],
+    "wildlife_intro": "Loganville's wildlife pressure is shaped by the city's split between Gwinnett and Walton counties and the dominant 2000s-2010s subdivision growth driven by Highway 78 / I-20 commuter access. The Highway 78 retail corridor produces smaller-scale Norway rat ecology behind the commercial blocks. <strong>Eastern gray squirrels</strong> drive constant year-round attic activity across Loganville's mature canopy, particularly in the older mid-century Highway 78 corridor housing and Brand Park-area neighborhoods. <strong>Roof rats</strong> are firmly established in 2000s-2010s subdivisions. The Walton-side rural-edge properties bring coyote, fox, and snake corridor pressure. <strong>Snake calls</strong> — primarily Eastern rat snakes with occasional copperheads — concentrate in wooded properties along the city's rural-edge boundaries. Typical Loganville wildlife removal runs $400-$1,300+.",
+    "faqs": [
+      {
+        "q": "Do you serve Loganville on both the Gwinnett and Walton sides?",
+        "a": "Yes — full Loganville city coverage regardless of which county side a specific property sits on. The city is split between Gwinnett and Walton with about 70% on the Gwinnett side. Wildlife pressure doesn't respect the county boundary, and routine service work covers both sides identically."
+      },
+      {
+        "q": "What wildlife is most common in Loganville homes?",
+        "a": "Eastern gray squirrels in attics drive year-round call volume across Loganville's mature canopy. Raccoons concentrate in older Highway 78 corridor properties and Brand Park-area neighborhoods. Roof rats are firmly established in 2000s-2010s subdivisions. Norway rats appear along the Highway 78 commercial corridor. Coyotes appear in Walton-side rural-edge properties. Snake calls (Eastern rat snake, occasional copperhead) are routine in wooded properties."
+      },
+      {
+        "q": "Why are wildlife calls increasing in 2005 Loganville subdivisions?",
+        "a": "Subdivisions built across Loganville between roughly 2000 and 2012 started as low-canopy environments without enough mature tree cover to sustain established Eastern gray squirrel or roof rat populations. Two decades later, the planted and natural canopy has matured to the height and continuity that supports colonies — and the species arrived from the broader Gwinnett-Walton canopy to fill it."
+      },
+      {
+        "q": "Do you handle rural-edge Loganville properties on the Walton side?",
+        "a": "Yes — Walton-side rural-edge Loganville is core service territory. Barn rebuilds, chicken-coop fortification, agricultural outbuilding access-door work, and rural coyote management at livestock-pen perimeters are routine scope items. Pup-rearing season (April-July) drives the heaviest rural coyote pressure."
+      },
+      {
+        "q": "When are wildlife calls highest in Loganville?",
+        "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up in 2000s-2010s subdivisions. October through December covers the indoor-rodent shift. Coyote livestock-pen pressure peaks April through July."
+      }
+    ]
+  },
+  "Auburn": {
+    "population_tier": "small",
+    "housing_era": "Auburn (~10,000) sits on the Gwinnett-Barrow County line in northeastern Gwinnett. The city is mostly in Barrow County with a small portion in Gwinnett. Housing combines older mid-century housing along the Highway 29 corridor, 2000s-2010s subdivision growth driven by I-85 commuter access, and rural-edge properties on the Barrow side.",
+    "geographic_features": [
+      "Highway 29 corridor (Gwinnett-Barrow commuter route)",
+      "2000s-2010s subdivision growth driven by I-85 access",
+      "Mid-century older residential along Highway 29",
+      "Mulberry Park (mature canopy)",
+      "Auburn-Barrow County rural-edge boundary"
+    ],
+    "neighborhoods": [
+      "Highway 29 corridor older residential",
+      "2000s-2010s subdivision growth on both Gwinnett and Barrow sides",
+      "Mulberry Park area",
+      "Auburn historic-downtown core",
+      "Barrow-side rural-edge properties"
+    ],
+    "wildlife_intro": "Auburn's wildlife pressure is shaped by the city's split between Gwinnett and Barrow counties and the 2000s-2010s subdivision growth driven by Highway 29 / I-85 commuter access. Most of Auburn sits on the Barrow County side, with a smaller portion in Gwinnett. <strong>Eastern gray squirrels</strong> drive constant year-round attic activity across Auburn's mature canopy, particularly in the older mid-century Highway 29 corridor housing and Mulberry Park-area neighborhoods. <strong>Roof rats</strong> are establishing in 2000s-2010s subdivisions as the canopy has matured. The Barrow-side rural-edge properties bring coyote and snake corridor pressure. <strong>Snake calls</strong> — primarily Eastern rat snakes with occasional copperheads — concentrate in wooded rural-edge properties. Typical Auburn wildlife removal runs $400-$1,200+.",
+    "faqs": [
+      {
+        "q": "Do you serve Auburn on both the Gwinnett and Barrow sides?",
+        "a": "Yes — full Auburn city coverage regardless of which county side a specific property sits on. The city straddles the Gwinnett-Barrow County line, with most of Auburn on the Barrow side and a smaller portion in Gwinnett. Routine service work covers both sides identically — wildlife pressure doesn't respect the county boundary."
+      },
+      {
+        "q": "What wildlife is most common in Auburn homes?",
+        "a": "Eastern gray squirrels in attics drive year-round call volume across Auburn's mature canopy. Raccoons concentrate in older Highway 29 corridor properties and Mulberry Park-area neighborhoods. Roof rats are establishing in 2000s-2010s subdivisions. Coyotes appear in Barrow-side rural-edge properties. Opossums and skunks den under decks. Snake calls (Eastern rat snake, occasional copperhead) are regular in wooded rural-edge properties."
+      },
+      {
+        "q": "Are coyotes a problem in Auburn?",
+        "a": "Yes — coyotes are firmly established in rural-edge Auburn, particularly on the Barrow-side properties. Pup-rearing season (April through July) drives the heaviest livestock-pen, chicken-coop, and outdoor-pet pressure. Resolutions typically combine welded-wire pen reinforcement, motion-activated hazing, and tightening of feed-storage and trash containment."
+      },
+      {
+        "q": "Do you handle rural Auburn agricultural properties?",
+        "a": "Yes — Barrow-side rural-edge Auburn and the surrounding agricultural properties are core service territory. Barn rebuilds, chicken-coop fortification, agricultural outbuilding access-door work, and rural coyote management at livestock-pen perimeters are routine scope items."
+      },
+      {
+        "q": "When are wildlife calls highest in Auburn?",
+        "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up in 2000s-2010s subdivisions. October through December covers the indoor-rodent shift. Coyote livestock-pen pressure peaks April through July."
+      }
+    ]
+  }
+}
