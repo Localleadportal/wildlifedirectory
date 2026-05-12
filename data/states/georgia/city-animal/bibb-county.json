@@ -1,9 +1,12 @@
 {
   "Macon": {
     "raccoon-removal": {
-      "metaTitle": "Raccoon Removal in Macon, GA | Antebellum Specialists",
-      "metaDescription": "Licensed Macon raccoon removal — Vineville, In-Town, Beall's Hill antebellum chimney exclusion plus Ocmulgee corridor work. Same-day humane response.",
-      "geo": { "lat": 32.8407, "lon": -83.6324 },
+      "metaTitle": "Raccoons in Attic | Macon, GA — Licensed Removal",
+      "metaDescription": "Raccoons in your Macon attic? Vineville, In-Town, Beall's Hill antebellum chimney exclusion plus Ocmulgee corridor work. Same-day humane response.",
+      "geo": {
+        "lat": 32.8407,
+        "lon": -83.6324
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Macon,_Georgia",
         "https://en.wikipedia.org/wiki/Raccoon"
@@ -31,9 +34,12 @@
       ]
     },
     "squirrel-removal": {
-      "metaTitle": "Squirrel Removal in Macon, GA | Eastern Gray + Fox Squirrels",
-      "metaDescription": "Licensed squirrel removal in Macon, GA. Eastern gray, fox squirrel, and Southern flying squirrel exclusion. Cherry Blossom canopy specialists.",
-      "geo": { "lat": 32.8407, "lon": -83.6324 },
+      "metaTitle": "Squirrels in Attic | Macon, GA — Removal & Exclusion",
+      "metaDescription": "Squirrels in your Macon attic? Eastern gray, fox squirrel, and Southern flying squirrel exclusion. Cherry Blossom canopy specialists.",
+      "geo": {
+        "lat": 32.8407,
+        "lon": -83.6324
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Macon,_Georgia",
         "https://en.wikipedia.org/wiki/Fox_squirrel"
@@ -61,9 +67,12 @@
       ]
     },
     "rat-removal": {
-      "metaTitle": "Rat Removal in Macon, GA | Mulberry Street Norway Rats",
-      "metaDescription": "Licensed Macon rat removal — Mulberry & Cherry Street Norway rats plus long-established roof rats in older intown housing. Same-day inspection.",
-      "geo": { "lat": 32.8407, "lon": -83.6324 },
+      "metaTitle": "Rats in Attic | Macon, GA — Roof + Norway Rat Pros",
+      "metaDescription": "Rats in your Macon attic or walls? Mulberry & Cherry Street Norway rats plus long-established roof rats in older intown housing. Same-day inspection.",
+      "geo": {
+        "lat": 32.8407,
+        "lon": -83.6324
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Macon,_Georgia",
         "https://en.wikipedia.org/wiki/Brown_rat",
@@ -92,9 +101,12 @@
       ]
     },
     "bat-removal": {
-      "metaTitle": "Bat Removal in Macon, GA | 50-100 Year Antebellum Colonies",
-      "metaDescription": "Licensed bat removal in Macon, GA. 50-100+ year colonies in pre-1860 Vineville, In-Town, Beall's Hill chimneys. Brazilian free-tailed specialists.",
-      "geo": { "lat": 32.8407, "lon": -83.6324 },
+      "metaTitle": "Bats in Attic | Macon, GA — Licensed Exclusion",
+      "metaDescription": "Bats in your Macon attic or chimney? 50-100+ year colonies in pre-1860 Vineville, In-Town, Beall's Hill chimneys. Brazilian free-tailed specialists.",
+      "geo": {
+        "lat": 32.8407,
+        "lon": -83.6324
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Macon,_Georgia",
         "https://en.wikipedia.org/wiki/Big_brown_bat"
@@ -124,7 +136,10 @@
     "snake-removal": {
       "metaTitle": "Snake Removal in Macon, GA | Ocmulgee + Fall Line Species",
       "metaDescription": "Licensed snake removal in Macon, GA. Eastern rat snakes, copperheads, occasional cottonmouths along the Ocmulgee. Same-day humane service.",
-      "geo": { "lat": 32.8407, "lon": -83.6324 },
+      "geo": {
+        "lat": 32.8407,
+        "lon": -83.6324
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Macon,_Georgia",
         "https://en.wikipedia.org/wiki/Pantherophis_alleghaniensis"
@@ -154,7 +169,10 @@
     "opossum-removal": {
       "metaTitle": "Opossum Removal in Macon, GA | Pleasant Hill + Vineville",
       "metaDescription": "Licensed opossum removal in Macon, GA. Crawl-space removal in Vineville, In-Town, Beall's Hill, Pleasant Hill. Same-day humane service.",
-      "geo": { "lat": 32.8407, "lon": -83.6324 },
+      "geo": {
+        "lat": 32.8407,
+        "lon": -83.6324
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Macon,_Georgia",
         "https://en.wikipedia.org/wiki/Virginia_opossum"
@@ -184,9 +202,12 @@
   },
   "Payne": {
     "raccoon-removal": {
-      "metaTitle": "Raccoon Removal in Payne, GA | Rural Bibb Trappers",
-      "metaDescription": "Licensed Payne raccoon removal — rural southern Bibb agricultural-edge work, lower Ocmulgee tributary corridor. Same-day humane response.",
-      "geo": { "lat": 32.7250, "lon": -83.6500 },
+      "metaTitle": "Raccoons in Attic | Payne, GA — Licensed Removal",
+      "metaDescription": "Raccoons in your Payne attic? Rural southern Bibb agricultural-edge work, lower Ocmulgee tributary corridor. Same-day humane response.",
+      "geo": {
+        "lat": 32.725,
+        "lon": -83.65
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Bibb_County,_Georgia",
         "https://en.wikipedia.org/wiki/Raccoon"
@@ -214,9 +235,12 @@
       ]
     },
     "squirrel-removal": {
-      "metaTitle": "Squirrel Removal in Payne, GA | Eastern Gray + Fox Squirrels",
-      "metaDescription": "Licensed Payne squirrel removal — Eastern gray plus fox squirrel exclusion in rural southern Bibb residential and agricultural buildings. Same-day service.",
-      "geo": { "lat": 32.7250, "lon": -83.6500 },
+      "metaTitle": "Squirrels in Attic | Payne, GA — Removal & Exclusion",
+      "metaDescription": "Squirrels in your Payne attic? Eastern gray plus fox squirrel exclusion in rural southern Bibb residential and agricultural buildings. Same-day service.",
+      "geo": {
+        "lat": 32.725,
+        "lon": -83.65
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Bibb_County,_Georgia",
         "https://en.wikipedia.org/wiki/Fox_squirrel"
@@ -244,9 +268,12 @@
       ]
     },
     "rat-removal": {
-      "metaTitle": "Rat Removal in Payne, GA | Roof Rat + Norway Rat",
-      "metaDescription": "Licensed Payne rat removal — long-established roof rats and Norway rats in southern Bibb agricultural outbuildings and residences. Same-day inspection.",
-      "geo": { "lat": 32.7250, "lon": -83.6500 },
+      "metaTitle": "Rats in Attic | Payne, GA — Roof + Norway Rat Pros",
+      "metaDescription": "Rats in your Payne attic or walls? Long-established roof rats and Norway rats in southern Bibb agricultural outbuildings and residences. Same-day inspection.",
+      "geo": {
+        "lat": 32.725,
+        "lon": -83.65
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Bibb_County,_Georgia",
         "https://en.wikipedia.org/wiki/Brown_rat"

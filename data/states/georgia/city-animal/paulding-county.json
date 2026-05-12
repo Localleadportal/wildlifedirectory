@@ -1,9 +1,12 @@
 {
   "Dallas": {
     "raccoon-removal": {
-      "metaTitle": "Raccoon Removal in Dallas, GA | Pre-1900 Courthouse Pros",
-      "metaDescription": "Licensed Dallas raccoon removal — pre-1900 courthouse-square chimney exclusion plus 2000s subdivision work. Same-day humane response.",
-      "geo": { "lat": 33.9237, "lon": -84.8400 },
+      "metaTitle": "Raccoons in Attic | Dallas, GA — Licensed Removal",
+      "metaDescription": "Raccoons in your Dallas attic? Pre-1900 courthouse-square chimney exclusion plus 2000s subdivision work. Same-day humane response.",
+      "geo": {
+        "lat": 33.9237,
+        "lon": -84.84
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Dallas,_Georgia",
         "https://en.wikipedia.org/wiki/Raccoon"
@@ -31,9 +34,12 @@
       ]
     },
     "squirrel-removal": {
-      "metaTitle": "Squirrel Removal in Dallas, GA | Same-Day Trapping",
-      "metaDescription": "Licensed Dallas squirrel removal — pre-1900 historic-square exclusion plus 2000s-era subdivision work. Chewed Romex repair on older wiring.",
-      "geo": { "lat": 33.9237, "lon": -84.8400 },
+      "metaTitle": "Squirrels in Attic | Dallas, GA — Removal & Exclusion",
+      "metaDescription": "Squirrels in your Dallas attic? Pre-1900 historic-square exclusion plus 2000s-era subdivision work. Chewed Romex repair on older wiring.",
+      "geo": {
+        "lat": 33.9237,
+        "lon": -84.84
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Dallas,_Georgia",
         "https://en.wikipedia.org/wiki/Eastern_gray_squirrel"
@@ -61,9 +67,12 @@
       ]
     },
     "rat-removal": {
-      "metaTitle": "Rat Removal in Dallas, GA | Roof + Norway Rat Pros",
-      "metaDescription": "Licensed Dallas rat removal — pre-1900 courthouse-square Norway rats and 2000s-era Highway 92 subdivision roof rats. Same-day inspection.",
-      "geo": { "lat": 33.9237, "lon": -84.8400 },
+      "metaTitle": "Rats in Attic | Dallas, GA — Roof + Norway Rat Pros",
+      "metaDescription": "Rats in your Dallas attic or walls? Pre-1900 courthouse-square Norway rats and 2000s-era Highway 92 subdivision roof rats. Same-day inspection.",
+      "geo": {
+        "lat": 33.9237,
+        "lon": -84.84
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Dallas,_Georgia",
         "https://en.wikipedia.org/wiki/Brown_rat",
@@ -92,9 +101,12 @@
       ]
     },
     "bat-removal": {
-      "metaTitle": "Bat Removal in Dallas, GA | Pre-1900 Courthouse Specialists",
-      "metaDescription": "Licensed Dallas bat removal — 30-60+ year colonies in pre-1900 courthouse-square chimneys. HEPA-grade decontamination, custom historic caps.",
-      "geo": { "lat": 33.9237, "lon": -84.8400 },
+      "metaTitle": "Bats in Attic | Dallas, GA — Licensed Exclusion",
+      "metaDescription": "Bats in your Dallas attic or chimney? 30-60+ year colonies in pre-1900 courthouse-square chimneys. HEPA-grade decontamination, custom historic caps.",
+      "geo": {
+        "lat": 33.9237,
+        "lon": -84.84
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Dallas,_Georgia",
         "https://en.wikipedia.org/wiki/Big_brown_bat"
@@ -124,9 +136,12 @@
   },
   "Hiram": {
     "raccoon-removal": {
-      "metaTitle": "Raccoon Removal in Hiram, GA | Silver Comet + WMA Pros",
-      "metaDescription": "Licensed Hiram raccoon removal — Silver Comet Trail corridor work plus 2000s subdivision exclusion. Same-day humane response.",
-      "geo": { "lat": 33.8731, "lon": -84.7591 },
+      "metaTitle": "Raccoons in Attic | Hiram, GA — Licensed Removal",
+      "metaDescription": "Raccoons in your Hiram attic? Silver Comet Trail corridor work plus 2000s subdivision exclusion. Same-day humane response. Same-day humane response, licensed un",
+      "geo": {
+        "lat": 33.8731,
+        "lon": -84.7591
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Hiram,_Georgia",
         "https://en.wikipedia.org/wiki/Raccoon"
@@ -154,9 +169,12 @@
       ]
     },
     "squirrel-removal": {
-      "metaTitle": "Squirrel Removal in Hiram, GA | Silver Comet Corridor Pros",
-      "metaDescription": "Licensed Hiram squirrel removal — Silver Comet Trail corridor exclusion in 2000s-era subdivisions. Same-day inspection. Call now.",
-      "geo": { "lat": 33.8731, "lon": -84.7591 },
+      "metaTitle": "Squirrels in Attic | Hiram, GA — Removal & Exclusion",
+      "metaDescription": "Squirrels in your Hiram attic? Silver Comet Trail corridor exclusion in 2000s-era subdivisions. Same-day inspection. Call now. Twin breeding-cycle timing, licen",
+      "geo": {
+        "lat": 33.8731,
+        "lon": -84.7591
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Hiram,_Georgia",
         "https://en.wikipedia.org/wiki/Eastern_gray_squirrel"
@@ -184,9 +202,12 @@
       ]
     },
     "rat-removal": {
-      "metaTitle": "Rat Removal in Hiram, GA | Hwy 92 Retail + Roof Rats",
-      "metaDescription": "Licensed Hiram rat removal — Hiram-Sudderth retail corridor Norway rats, 2000s subdivision roof rats. Same-day inspection.",
-      "geo": { "lat": 33.8731, "lon": -84.7591 },
+      "metaTitle": "Rats in Attic | Hiram, GA — Roof + Norway Rat Pros",
+      "metaDescription": "Rats in your Hiram attic or walls? Hiram-Sudderth retail corridor Norway rats, 2000s subdivision roof rats. Same-day inspection. Roof rat + Norway rat licensed",
+      "geo": {
+        "lat": 33.8731,
+        "lon": -84.7591
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Hiram,_Georgia",
         "https://en.wikipedia.org/wiki/Brown_rat",
@@ -215,9 +236,12 @@
       ]
     },
     "bat-removal": {
-      "metaTitle": "Bat Removal in Hiram, GA | Pre-1900 Historic Pros",
-      "metaDescription": "Licensed Hiram bat removal — pre-1900 historic-downtown chimney exclusion. HEPA-grade decontamination, custom historic caps. Same-day inspection.",
-      "geo": { "lat": 33.8731, "lon": -84.7591 },
+      "metaTitle": "Bats in Attic | Hiram, GA — Licensed Exclusion",
+      "metaDescription": "Bats in your Hiram attic or chimney? Pre-1900 historic-downtown chimney exclusion. HEPA-grade decontamination, custom historic caps. Same-day inspection.",
+      "geo": {
+        "lat": 33.8731,
+        "lon": -84.7591
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Hiram,_Georgia",
         "https://en.wikipedia.org/wiki/Big_brown_bat"
@@ -247,9 +271,12 @@
   },
   "Braswell": {
     "raccoon-removal": {
-      "metaTitle": "Raccoon Removal in Braswell, GA | Rural Pine Mountain Pros",
-      "metaDescription": "Licensed Braswell raccoon removal — Pine Mountain area rural-edge work, Etowah tributary corridors. Same-day humane response.",
-      "geo": { "lat": 33.9979, "lon": -84.9846 },
+      "metaTitle": "Raccoons in Attic | Braswell, GA — Licensed Removal",
+      "metaDescription": "Raccoons in your Braswell attic? Pine Mountain area rural-edge work, Etowah tributary corridors. Same-day humane response. Same-day humane response, licensed un",
+      "geo": {
+        "lat": 33.9979,
+        "lon": -84.9846
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Paulding_County,_Georgia",
         "https://en.wikipedia.org/wiki/Raccoon"
@@ -277,9 +304,12 @@
       ]
     },
     "squirrel-removal": {
-      "metaTitle": "Squirrel Removal in Braswell, GA | Rural-Edge Specialists",
-      "metaDescription": "Licensed Braswell squirrel removal — Eastern gray squirrel exclusion in mid-century rural housing and Pine Mountain area. Same-day service.",
-      "geo": { "lat": 33.9979, "lon": -84.9846 },
+      "metaTitle": "Squirrels in Attic | Braswell, GA — Removal & Exclusion",
+      "metaDescription": "Squirrels in your Braswell attic? Eastern gray squirrel exclusion in mid-century rural housing and Pine Mountain area. Same-day service.",
+      "geo": {
+        "lat": 33.9979,
+        "lon": -84.9846
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Paulding_County,_Georgia",
         "https://en.wikipedia.org/wiki/Eastern_gray_squirrel"
@@ -307,9 +337,12 @@
       ]
     },
     "rat-removal": {
-      "metaTitle": "Rat Removal in Braswell, GA | Rural Norway Rat Pros",
-      "metaDescription": "Licensed Braswell rat removal — Norway rats in agricultural outbuildings and rural feed-storage structures. Same-day inspection.",
-      "geo": { "lat": 33.9979, "lon": -84.9846 },
+      "metaTitle": "Rats in Attic | Braswell, GA — Roof + Norway Rat Pros",
+      "metaDescription": "Rats in your Braswell attic or walls? Norway rats in agricultural outbuildings and rural feed-storage structures. Same-day inspection.",
+      "geo": {
+        "lat": 33.9979,
+        "lon": -84.9846
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Paulding_County,_Georgia",
         "https://en.wikipedia.org/wiki/Brown_rat"
@@ -339,9 +372,12 @@
   },
   "Yorkville": {
     "raccoon-removal": {
-      "metaTitle": "Raccoon Removal in Yorkville, GA | WMA-Edge Specialists",
-      "metaDescription": "Licensed Yorkville raccoon removal — Paulding Forest WMA western-edge work, continuous source pressure. Same-day humane response.",
-      "geo": { "lat": 33.9293, "lon": -84.9691 },
+      "metaTitle": "Raccoons in Attic | Yorkville, GA — Licensed Removal",
+      "metaDescription": "Raccoons in your Yorkville attic? Paulding Forest WMA western-edge work, continuous source pressure. Same-day humane response. Same-day humane response, license",
+      "geo": {
+        "lat": 33.9293,
+        "lon": -84.9691
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Paulding_County,_Georgia",
         "https://en.wikipedia.org/wiki/Raccoon"
@@ -369,9 +405,12 @@
       ]
     },
     "squirrel-removal": {
-      "metaTitle": "Squirrel Removal in Yorkville, GA | WMA-Edge Pros",
-      "metaDescription": "Licensed Yorkville squirrel removal — Paulding Forest WMA-edge mature canopy and rural farmhouse exclusion. Same-day inspection.",
-      "geo": { "lat": 33.9293, "lon": -84.9691 },
+      "metaTitle": "Squirrels in Attic | Yorkville, GA — Removal & Exclusion",
+      "metaDescription": "Squirrels in your Yorkville attic? Paulding Forest WMA-edge mature canopy and rural farmhouse exclusion. Same-day inspection. Twin breeding-cycle timing, licens",
+      "geo": {
+        "lat": 33.9293,
+        "lon": -84.9691
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Paulding_County,_Georgia",
         "https://en.wikipedia.org/wiki/Eastern_gray_squirrel"
@@ -399,9 +438,12 @@
       ]
     },
     "rat-removal": {
-      "metaTitle": "Rat Removal in Yorkville, GA | Rural Norway Rat Pros",
-      "metaDescription": "Licensed Yorkville rat removal — Norway rats in agricultural outbuildings and rural feed-storage. WMA-edge work. Same-day inspection.",
-      "geo": { "lat": 33.9293, "lon": -84.9691 },
+      "metaTitle": "Rats in Attic | Yorkville, GA — Roof + Norway Rat Pros",
+      "metaDescription": "Rats in your Yorkville attic or walls? Norway rats in agricultural outbuildings and rural feed-storage. WMA-edge work. Same-day inspection.",
+      "geo": {
+        "lat": 33.9293,
+        "lon": -84.9691
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Paulding_County,_Georgia",
         "https://en.wikipedia.org/wiki/Brown_rat"

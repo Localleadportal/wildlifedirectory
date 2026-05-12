@@ -1,9 +1,12 @@
 {
   "Carrollton": {
     "raccoon-removal": {
-      "metaTitle": "Raccoon Removal in Carrollton, GA | Local Trappers",
-      "metaDescription": "Licensed raccoon removal in Carrollton, GA. Maple Street Historic District attic exclusion. Same-day humane service.",
-      "geo": { "lat": 33.5805, "lon": -85.0766 },
+      "metaTitle": "Raccoons in Attic | Carrollton, GA — Licensed Removal",
+      "metaDescription": "Raccoons in your Carrollton attic? Maple Street Historic District attic exclusion. Same-day humane service. Same-day humane response, licensed under Georgia DNR",
+      "geo": {
+        "lat": 33.5805,
+        "lon": -85.0766
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Carrollton,_Georgia",
         "https://en.wikipedia.org/wiki/Raccoon"
@@ -31,9 +34,12 @@
       ]
     },
     "squirrel-removal": {
-      "metaTitle": "Squirrel Removal in Carrollton, GA | Same-Day Trapping",
-      "metaDescription": "Licensed squirrel removal in Carrollton, GA. Maple Street District exclusion and chewed-wire repair. Carroll County service.",
-      "geo": { "lat": 33.5805, "lon": -85.0766 },
+      "metaTitle": "Squirrels in Attic | Carrollton, GA — Removal & Exclusion",
+      "metaDescription": "Squirrels in your Carrollton attic? Maple Street District exclusion and chewed-wire repair. Carroll County service. Twin breeding-cycle timing, licensed under G",
+      "geo": {
+        "lat": 33.5805,
+        "lon": -85.0766
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Carrollton,_Georgia",
         "https://en.wikipedia.org/wiki/Eastern_gray_squirrel"
@@ -61,9 +67,12 @@
       ]
     },
     "rat-removal": {
-      "metaTitle": "Rat Removal in Carrollton, GA | Roof & Norway Rat Pros",
-      "metaDescription": "Licensed rat removal in Carrollton, GA. Crawlspace exclusion, attic roof-rat control. Carroll County service.",
-      "geo": { "lat": 33.5805, "lon": -85.0766 },
+      "metaTitle": "Rats in Attic | Carrollton, GA — Roof + Norway Rat Pros",
+      "metaDescription": "Rats in your Carrollton attic or walls? Crawlspace exclusion, attic roof-rat control. Carroll County service. Roof rat + Norway rat licensed exclusion under Geo",
+      "geo": {
+        "lat": 33.5805,
+        "lon": -85.0766
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Carrollton,_Georgia",
         "https://en.wikipedia.org/wiki/Brown_rat",
@@ -92,9 +101,12 @@
       ]
     },
     "bat-removal": {
-      "metaTitle": "Bat Removal in Carrollton, GA | Maple Street District Pros",
-      "metaDescription": "Licensed bat removal in Carrollton, GA. 30-50+ year colonies in pre-1860 Maple Street District chimneys. Carroll County service.",
-      "geo": { "lat": 33.5805, "lon": -85.0766 },
+      "metaTitle": "Bats in Attic | Carrollton, GA — Licensed Exclusion",
+      "metaDescription": "Bats in your Carrollton attic or chimney? 30-50+ year colonies in pre-1860 Maple Street District chimneys. Carroll County service.",
+      "geo": {
+        "lat": 33.5805,
+        "lon": -85.0766
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Carrollton,_Georgia",
         "https://en.wikipedia.org/wiki/Big_brown_bat"
@@ -124,9 +136,12 @@
   },
   "Villa Rica": {
     "raccoon-removal": {
-      "metaTitle": "Raccoon Removal in Villa Rica, GA | Local Trappers",
-      "metaDescription": "Licensed raccoon removal in Villa Rica, GA. I-20 corridor subdivision exclusion. Same-day humane service.",
-      "geo": { "lat": 33.7321, "lon": -84.9183 },
+      "metaTitle": "Raccoons in Attic | Villa Rica GA — Carroll Co Removal",
+      "metaDescription": "Raccoons in your Villa Rica attic? I-20 corridor subdivision exclusion. Same-day humane service. Same-day humane response, licensed under Georgia DNR.",
+      "geo": {
+        "lat": 33.7321,
+        "lon": -84.9183
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Villa_Rica,_Georgia",
         "https://en.wikipedia.org/wiki/Raccoon"
@@ -154,9 +169,12 @@
       ]
     },
     "squirrel-removal": {
-      "metaTitle": "Squirrel Removal in Villa Rica, GA | Same-Day Trapping",
-      "metaDescription": "Licensed squirrel removal in Villa Rica, GA. I-20 corridor exclusion and chewed-wire repair. Carroll County service.",
-      "geo": { "lat": 33.7321, "lon": -84.9183 },
+      "metaTitle": "Squirrels in Attic | Villa Rica GA — Carroll Co Exclusion",
+      "metaDescription": "Squirrels in your Villa Rica attic? I-20 corridor exclusion and chewed-wire repair. Carroll County service. Twin breeding-cycle timing, licensed under Georgia D",
+      "geo": {
+        "lat": 33.7321,
+        "lon": -84.9183
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Villa_Rica,_Georgia",
         "https://en.wikipedia.org/wiki/Eastern_gray_squirrel"
@@ -184,9 +202,12 @@
       ]
     },
     "rat-removal": {
-      "metaTitle": "Rat Removal in Villa Rica, GA | Roof Rat I-20 Corridor",
-      "metaDescription": "Licensed rat removal in Villa Rica, GA. Roof rat I-20 corridor establishment. Carroll County service.",
-      "geo": { "lat": 33.7321, "lon": -84.9183 },
+      "metaTitle": "Rats in Attic | Villa Rica GA — Carroll Co Rat Pros",
+      "metaDescription": "Rats in your Villa Rica attic or walls? Roof rat I-20 corridor establishment. Carroll County service. Roof rat + Norway rat licensed exclusion under Georgia DNR",
+      "geo": {
+        "lat": 33.7321,
+        "lon": -84.9183
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Villa_Rica,_Georgia",
         "https://en.wikipedia.org/wiki/Black_rat"
@@ -216,9 +237,12 @@
   },
   "Bowdon": {
     "raccoon-removal": {
-      "metaTitle": "Raccoon Removal in Bowdon, GA | Historic-Core Trappers",
-      "metaDescription": "Licensed raccoon removal in Bowdon, GA. 1850s historic-core chimney exclusion. Carroll County service.",
-      "geo": { "lat": 33.5371, "lon": -85.2535 },
+      "metaTitle": "Raccoons in Attic | Bowdon, GA — Licensed Removal",
+      "metaDescription": "Raccoons in your Bowdon attic? 1850s historic-core chimney exclusion. Carroll County service. Same-day humane response, licensed under Georgia DNR.",
+      "geo": {
+        "lat": 33.5371,
+        "lon": -85.2535
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Bowdon,_Georgia",
         "https://en.wikipedia.org/wiki/Raccoon"
@@ -246,9 +270,12 @@
       ]
     },
     "squirrel-removal": {
-      "metaTitle": "Squirrel Removal in Bowdon, GA | Same-Day Trapping",
-      "metaDescription": "Licensed squirrel removal in Bowdon, GA. 1850s historic-core exclusion and chewed-wire repair. Carroll County service.",
-      "geo": { "lat": 33.5371, "lon": -85.2535 },
+      "metaTitle": "Squirrels in Attic | Bowdon, GA — Removal & Exclusion",
+      "metaDescription": "Squirrels in your Bowdon attic? 1850s historic-core exclusion and chewed-wire repair. Carroll County service. Twin breeding-cycle timing, licensed under Georgia",
+      "geo": {
+        "lat": 33.5371,
+        "lon": -85.2535
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Bowdon,_Georgia",
         "https://en.wikipedia.org/wiki/Eastern_gray_squirrel"
@@ -276,9 +303,12 @@
       ]
     },
     "rat-removal": {
-      "metaTitle": "Rat Removal in Bowdon, GA | Norway Rat Historic Core",
-      "metaDescription": "Licensed rat removal in Bowdon, GA. Norway rat 1850s historic-downtown crawlspaces. Carroll County service.",
-      "geo": { "lat": 33.5371, "lon": -85.2535 },
+      "metaTitle": "Rats in Attic | Bowdon, GA — Roof + Norway Rat Pros",
+      "metaDescription": "Rats in your Bowdon attic or walls? Norway rat 1850s historic-downtown crawlspaces. Carroll County service. Roof rat + Norway rat licensed exclusion under Georg",
+      "geo": {
+        "lat": 33.5371,
+        "lon": -85.2535
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Bowdon,_Georgia",
         "https://en.wikipedia.org/wiki/Brown_rat"
@@ -306,9 +336,12 @@
       ]
     },
     "bat-removal": {
-      "metaTitle": "Bat Removal in Bowdon, GA | 1850s Historic Core Pros",
-      "metaDescription": "Licensed bat removal in Bowdon, GA. 30-50+ year colonies in 1850s historic-core chimneys. Carroll County service.",
-      "geo": { "lat": 33.5371, "lon": -85.2535 },
+      "metaTitle": "Bats in Attic | Bowdon, GA — Licensed Exclusion",
+      "metaDescription": "Bats in your Bowdon attic or chimney? 30-50+ year colonies in 1850s historic-core chimneys. Carroll County service. Maternity-aware exclusion under Georgia DNR",
+      "geo": {
+        "lat": 33.5371,
+        "lon": -85.2535
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Bowdon,_Georgia",
         "https://en.wikipedia.org/wiki/Big_brown_bat"
@@ -338,9 +371,12 @@
   },
   "Temple": {
     "raccoon-removal": {
-      "metaTitle": "Raccoon Removal in Temple, GA | I-20 Corridor Trappers",
-      "metaDescription": "Licensed raccoon removal in Temple, GA. I-20 corridor subdivision exclusion. Same-day humane service.",
-      "geo": { "lat": 33.7373, "lon": -85.0327 },
+      "metaTitle": "Raccoons in Attic | Temple, GA — Licensed Removal",
+      "metaDescription": "Raccoons in your Temple attic? I-20 corridor subdivision exclusion. Same-day humane service. Same-day humane response, licensed under Georgia DNR.",
+      "geo": {
+        "lat": 33.7373,
+        "lon": -85.0327
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Temple,_Georgia",
         "https://en.wikipedia.org/wiki/Raccoon"
@@ -368,9 +404,12 @@
       ]
     },
     "squirrel-removal": {
-      "metaTitle": "Squirrel Removal in Temple, GA | Same-Day Trapping",
-      "metaDescription": "Licensed squirrel removal in Temple, GA. I-20 corridor exclusion and chewed-wire repair. Carroll County service.",
-      "geo": { "lat": 33.7373, "lon": -85.0327 },
+      "metaTitle": "Squirrels in Attic | Temple, GA — Removal & Exclusion",
+      "metaDescription": "Squirrels in your Temple attic? I-20 corridor exclusion and chewed-wire repair. Carroll County service. Twin breeding-cycle timing, licensed under Georgia DNR.",
+      "geo": {
+        "lat": 33.7373,
+        "lon": -85.0327
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Temple,_Georgia",
         "https://en.wikipedia.org/wiki/Eastern_gray_squirrel"
@@ -398,9 +437,12 @@
       ]
     },
     "rat-removal": {
-      "metaTitle": "Rat Removal in Temple, GA | Roof Rat I-20 Corridor",
-      "metaDescription": "Licensed rat removal in Temple, GA. Roof rat I-20 corridor establishment. Carroll County service.",
-      "geo": { "lat": 33.7373, "lon": -85.0327 },
+      "metaTitle": "Rats in Attic | Temple, GA — Roof + Norway Rat Pros",
+      "metaDescription": "Rats in your Temple attic or walls? Roof rat I-20 corridor establishment. Carroll County service. Roof rat + Norway rat licensed exclusion under Georgia DNR.",
+      "geo": {
+        "lat": 33.7373,
+        "lon": -85.0327
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Temple,_Georgia",
         "https://en.wikipedia.org/wiki/Black_rat"
