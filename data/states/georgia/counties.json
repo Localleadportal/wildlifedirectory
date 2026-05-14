@@ -633,6 +633,50 @@
       ],
       "regional_wildlife": "Peach County's wildlife profile is shaped by an unusual feature for residential pest work: the county's thousands of acres of commercial peach orchards produce a distinctive seasonal pressure spike during the May-August peach harvest window. Raccoons, opossums, fox squirrels, and birds all feed heavily on dropped and damaged peach fruit during harvest, sustaining elevated population densities that disperse into adjacent residential blocks. Fort Valley historic-district and Byron residential properties absorb measurable orchard-driven wildlife pressure each summer. Peach also sits firmly south of the Fall Line on the Coastal Plain, supporting fox squirrels (Sciurus niger) routinely in residential calls, Brazilian free-tailed bat (Tadarida brasiliensis) colonies in I-75 corridor commercial structures and Fort Valley's older masonry buildings, and a long-established armadillo population that has been firmly in place for decades. Fort Valley's pre-1900 historic-downtown courthouse-square housing hosts long-established big-brown-bat colonies in original masonry chimneys — many spanning 50-80+ years of continuous occupation, similar to Perry's antebellum-housing colony establishment timeline. Byron's I-75 corridor produces a separate commercial-driven Norway rat profile concentrated in the restaurant-and-retail clusters at the Byron exits. Fort Valley State University's campus (founded 1895) sustains a mature oak-hickory canopy and student-housing inventory that produces a distinctive year-round wildlife exclusion profile centered on aging dormitory and rental-housing stock",
       "absent_or_rare": "white-tailed deer reach high densities in the rural peach-orchard buffer acreage and along the Echeconnee and Big Indian Creek corridors, feral hogs occur in the rural southern Peach acreage and damage peach orchards seasonally (orchard owners pursue active hog control under Georgia DNR rules), the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in middle Georgia and may appear in Fort Valley pre-1900 chimney colonies, gopher tortoises (state-listed) persist in southern Peach sandhill remnants and are protected under Georgia state law, and federally protected migratory bird species are present throughout the county under Migratory Bird Treaty Act protocols"
+    },
+    "Crawford County": {
+      "county_seat": "Knoxville",
+      "population": 12130,
+      "established": 1822,
+      "region": "middle Georgia sitting directly on the geological Fall Line where the Piedmont gives way to the Coastal Plain, anchored by the small county seat of Knoxville and the larger town of Roberta, with the Flint River along the western boundary and the Echeconnee Creek along the eastern boundary with Peach County",
+      "largest_cities": [
+        "Roberta",
+        "Knoxville"
+      ],
+      "nearest_metro": "Macon-Bibb is the nearest major metro at about 20 miles east of Roberta; Atlanta is roughly 95 miles north",
+      "natural_features": [
+        "Flint River (western boundary)",
+        "Echeconnee Creek (eastern boundary with Peach County)",
+        "the Fall Line geological boundary cutting across the county",
+        "Knoxville Historic Downtown (one of Georgia's oldest county seats)",
+        "Knoxville Historic Courthouse (pre-Civil War)",
+        "Old Knoxville Jail (historic landmark)",
+        "Roberta Historic Downtown",
+        "US 80 corridor through Roberta and Knoxville",
+        "Sandhill / longleaf-pine remnants across southern Crawford",
+        "Pine-hardwood mature forest covering most of the rural county acreage"
+      ],
+      "habitat_type": "rural-agricultural middle Georgia county sitting directly on the geological Fall Line, with the Piedmont uplands on the northern half transitioning to Coastal Plain sandhills on the southern half. Most of the county is undeveloped pine-hardwood forest, agricultural land, hunting acreage, and small-town residential. Knoxville (~300 population, the county seat) and Roberta (~700) are both small historic communities along the US 80 corridor with a mix of pre-1900 historic-downtown housing and a small inventory of 1950s-2000s rural-residential housing on the city edges and surrounding acreage",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "fox squirrels",
+        "Southern flying squirrels",
+        "Virginia opossums",
+        "Norway rats",
+        "roof rats",
+        "big brown bats",
+        "evening bats",
+        "Brazilian free-tailed bats",
+        "striped skunks",
+        "armadillos",
+        "coyotes",
+        "beavers",
+        "Eastern cottontail rabbits",
+        "snakes (rat snakes, copperheads, cottonmouths along the Flint)"
+      ],
+      "regional_wildlife": "Crawford County's wildlife profile is shaped by its position directly on the geological Fall Line — the county runs from Piedmont uplands on the north through the Fall Line transition to Coastal Plain sandhills on the south, producing a wildlife species mix that crosses both ecologies in a single county. Fox squirrels (Sciurus niger) are routine residential calls across Crawford because of the county's heavy pine-hardwood and longleaf-pine remnant inventory. The Flint River corridor along the western boundary sustains a continuous source population of raccoons, opossums, beavers, rat snakes, and cottonmouths (Agkistrodon piscivorus) — cottonmouth presence is heavier in Crawford's Flint River reaches than in adjacent middle-Georgia counties because the Flint corridor preserves the slack-water habitat cottonmouths prefer. Knoxville's pre-Civil War historic courthouse and the surrounding pre-1900 small-town housing host long-established big-brown bat colonies in original masonry chimneys; Roberta's older historic-downtown housing shows similar but smaller bat-colony tenure. Armadillos are firmly established countywide. Coyotes are abundant across Crawford's substantial undeveloped acreage and routinely turn up at rural homesteads and small-town residential edges — coyote density per unit of human population is higher in Crawford than in most middle-Georgia counties because of the county's low population and large rural land base. Roof rats moved up the I-75 corridor through middle Georgia during the 2000s-2010s and now appear in Crawford's residential housing primarily along the US 80 corridor between Roberta and the Bibb-Peach boundary. Brazilian free-tailed bats (Tadarida brasiliensis) appear in some Crawford commercial buildings and US 80 corridor structures. White-tailed deer and feral hog populations are exceptionally high because of the county's large undeveloped land base — Crawford is a significant deer-and-hog hunting county",
+      "absent_or_rare": "white-tailed deer reach exceptional densities across Crawford's rural acreage and along the Flint River corridor — Crawford is among the densest residential-deer counties in middle Georgia per unit of human population, feral hogs are firmly established across the rural southern and western Crawford acreage and damage agricultural land seasonally, the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in middle Georgia and may appear in pre-1900 Knoxville chimney colonies, American alligators occasionally appear in the lower Flint River reaches and any encounter over 4 feet should be referred to Georgia DNR rather than handled privately, gopher tortoises (state-listed) persist in southern Crawford sandhill remnants and are protected under Georgia state law, and federally protected migratory bird species are present throughout the county under Migratory Bird Treaty Act protocols"
     }
   }
 }
