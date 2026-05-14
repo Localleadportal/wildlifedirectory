@@ -591,6 +591,48 @@
       ],
       "regional_wildlife": "Houston County sits firmly south of the Fall Line and shows a Coastal Plain wildlife profile distinct from metro Atlanta. Fox squirrels (Sciurus niger) are routine residential calls across Perry, southern Warner Robins, and the rural Kathleen acreage — the larger, slower, more colorful cousin of the Eastern gray squirrel persists in Houston's longleaf-pine and pine-hardwood remnants. Brazilian free-tailed bats (Tadarida brasiliensis) form colonies in Warner Robins commercial buildings, Robins Air Force Base hangar-and-warehouse structures, and the I-75 corridor highway bridges, in addition to the more typical big brown and evening bat species. Armadillos have been firmly established in Houston County for decades — long before they reached metro Atlanta — and are routine residential calls for lawn rooting and foundation-planting damage across every Houston city. The Robins Air Force Base buffer acreage in central Houston (the base occupies roughly 7,000 acres of mostly undeveloped pine forest on the south side of Warner Robins) functions as one of the largest contiguous undeveloped wildlife source habitats in middle Georgia, dispersing raccoons, opossums, coyotes, and fox squirrels into the surrounding Warner Robins and Centerville neighborhoods. Perry's antebellum and Victorian housing core around the courthouse square hosts long-established big-brown-bat colonies in original masonry chimneys — many spanning 50-100+ years of continuous occupation, similar to Macon-Bibb's antebellum colony establishment timeline. Warner Robins's housing stock is overwhelmingly post-1942 (the city was effectively built around Robins AFB during WWII) so the bat-colony profile differs sharply between Warner Robins and Perry. Roof rats are firmly established along the I-75 corridor and in Warner Robins commercial-corridor subdivisions; Norway rats dominate the Perry historic-downtown and Warner Robins Watson Boulevard restaurant-and-retail concentration. Houston Lake (Bonaire / Centerville area) sustains lakeshore raccoon and bat foraging populations. The Ocmulgee River corridor along the eastern boundary sustains a year-round source population for raccoons, opossums, rat snakes, and an occasional cottonmouth in the slack-water reaches",
       "absent_or_rare": "white-tailed deer reach high densities throughout the wooded rural areas and along the Ocmulgee corridor, feral hogs occur in the rural southern Houston acreage and along the Ocmulgee floodplain, the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in middle Georgia and may appear in pre-1860 Perry chimney colonies, American alligators occasionally appear in the lower Ocmulgee River and any encounter over 4 feet should be referred to Georgia DNR rather than handled privately, gopher tortoises (state-listed) persist in the southern Houston sandhill remnants and are protected under Georgia state law, and federally protected migratory bird species (hawks, owls, woodpeckers, chimney swifts) are present throughout the county under Migratory Bird Treaty Act protocols"
+    },
+    "Peach County": {
+      "county_seat": "Fort Valley",
+      "population": 28072,
+      "established": 1924,
+      "region": "middle Georgia south of the Fall Line in the Coastal Plain, the heart of Georgia's commercial peach industry, with Fort Valley anchoring the county seat and Byron sitting along the I-75 corridor northeast of Fort Valley",
+      "largest_cities": [
+        "Fort Valley",
+        "Byron"
+      ],
+      "nearest_metro": "Macon-Bibb is the nearest major metro at about 25 miles northeast of Fort Valley; Atlanta is roughly 110 miles north",
+      "natural_features": [
+        "Commercial peach orchards (Lane Southern Orchards, Pearson Farm, Dickey Farms, plus smaller family operations)",
+        "Fort Valley State University campus (HBCU, est. 1895, mature canopy)",
+        "Massee Lane Gardens (American Camellia Society headquarters, 9 acres of camellia gardens)",
+        "Big Indian Creek and Echeconnee Creek tributary corridors",
+        "Fort Valley Historic Downtown courthouse square",
+        "Byron Historic Downtown",
+        "I-75 corridor (through Byron and northeast Peach)",
+        "Sandhill / longleaf-pine remnants across southern and western Peach",
+        "Blue Bird Body Company manufacturing site (Fort Valley)"
+      ],
+      "habitat_type": "middle Georgia Coastal Plain south of the Fall Line, defined by the commercial peach industry that has shaped the county's identity for over a century — thousands of acres of working peach orchards interspersed with sandhill / longleaf-pine remnants, pine-and-hardwood remnant forest, and the residential and commercial cores of Fort Valley and Byron. Fort Valley has the older housing stock (pre-1900 historic-downtown courthouse square plus 1920s-1960s neighborhoods around Fort Valley State University); Byron is mostly 1980s-2010s I-75 corridor commercial and residential growth",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "fox squirrels",
+        "Southern flying squirrels",
+        "Virginia opossums",
+        "Norway rats",
+        "roof rats",
+        "big brown bats",
+        "evening bats",
+        "Brazilian free-tailed bats",
+        "striped skunks",
+        "armadillos",
+        "coyotes",
+        "Eastern cottontail rabbits",
+        "snakes (rat snakes, copperheads, occasional cottonmouth)"
+      ],
+      "regional_wildlife": "Peach County's wildlife profile is shaped by an unusual feature for residential pest work: the county's thousands of acres of commercial peach orchards produce a distinctive seasonal pressure spike during the May-August peach harvest window. Raccoons, opossums, fox squirrels, and birds all feed heavily on dropped and damaged peach fruit during harvest, sustaining elevated population densities that disperse into adjacent residential blocks. Fort Valley historic-district and Byron residential properties absorb measurable orchard-driven wildlife pressure each summer. Peach also sits firmly south of the Fall Line on the Coastal Plain, supporting fox squirrels (Sciurus niger) routinely in residential calls, Brazilian free-tailed bat (Tadarida brasiliensis) colonies in I-75 corridor commercial structures and Fort Valley's older masonry buildings, and a long-established armadillo population that has been firmly in place for decades. Fort Valley's pre-1900 historic-downtown courthouse-square housing hosts long-established big-brown-bat colonies in original masonry chimneys — many spanning 50-80+ years of continuous occupation, similar to Perry's antebellum-housing colony establishment timeline. Byron's I-75 corridor produces a separate commercial-driven Norway rat profile concentrated in the restaurant-and-retail clusters at the Byron exits. Fort Valley State University's campus (founded 1895) sustains a mature oak-hickory canopy and student-housing inventory that produces a distinctive year-round wildlife exclusion profile centered on aging dormitory and rental-housing stock",
+      "absent_or_rare": "white-tailed deer reach high densities in the rural peach-orchard buffer acreage and along the Echeconnee and Big Indian Creek corridors, feral hogs occur in the rural southern Peach acreage and damage peach orchards seasonally (orchard owners pursue active hog control under Georgia DNR rules), the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in middle Georgia and may appear in Fort Valley pre-1900 chimney colonies, gopher tortoises (state-listed) persist in southern Peach sandhill remnants and are protected under Georgia state law, and federally protected migratory bird species are present throughout the county under Migratory Bird Treaty Act protocols"
     }
   }
 }

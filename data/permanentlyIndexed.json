@@ -18,6 +18,7 @@
     "Georgia|Gwinnett",
     "Georgia|Houston",
     "Georgia|Paulding",
+    "Georgia|Peach",
     "Tennessee|Davidson",
     "Tennessee|Franklin",
     "Tennessee|Shelby",
@@ -33,7 +34,8 @@
     "Georgia|Fayette",
     "Georgia|Gwinnett",
     "Georgia|Houston",
-    "Georgia|Paulding"
+    "Georgia|Paulding",
+    "Georgia|Peach"
   ],
   "countiesWithHubOnlyIndex": [
     "Georgia|Chatham",
