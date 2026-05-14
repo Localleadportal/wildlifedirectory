@@ -543,6 +543,54 @@
       ],
       "regional_wildlife": "Chatham's wildlife profile is unlike any inland Georgia county because of the coastal geography. American alligators are present in any standing water across the county — golf course ponds, retention basins, drainage ditches, tidal creek banks, and even residential pools after storm flooding. Roof rat pressure in the Savannah Historic District is among the highest in the Southeast, sustained by tourism-district food density and 1700s-1800s housing stock with extensive structural entry-point inventory. Big brown bat and Brazilian free-tailed bat maternity colonies are routine in the historic downtown's brick row houses, attic cupolas, and church steeples. Cottonmouths (water moccasins) drive a distinctive snake call profile in waterfront and tidal-edge properties — a regional risk that Atlanta-metro counties don't share. Fox squirrels, larger and more habitat-specialized than gray squirrels, persist on the barrier-island and longleaf-pine fragments",
       "absent_or_rare": "American alligators are abundant and protected — encounters of any animal over 4 feet should be referred to Georgia DNR rather than handled privately, white-tailed deer are common in the suburban edges and barrier islands, sea turtles nest on Tybee and Wassaw under federal Endangered Species Act protection, the Eastern diamondback rattlesnake (the largest venomous snake in North America) is present at lower density and is treated as a serious encounter, and feral hogs occur in the western rural portions of the county"
+    },
+    "Houston County": {
+      "county_seat": "Perry",
+      "population": 165059,
+      "established": 1821,
+      "region": "middle Georgia south of the Fall Line in the Coastal Plain, anchored by Warner Robins (Robins Air Force Base) on the northern half of the county and the antebellum county seat of Perry on the southern half, with the Ocmulgee River along the eastern boundary and I-75 cutting north-south through the county center",
+      "largest_cities": [
+        "Warner Robins",
+        "Perry",
+        "Centerville",
+        "Bonaire",
+        "Kathleen"
+      ],
+      "nearest_metro": "Macon-Bibb is the nearest major metro at about 20 miles north of Warner Robins via I-75; Atlanta is roughly 105 miles north",
+      "natural_features": [
+        "Ocmulgee River (eastern boundary)",
+        "Big Indian Creek",
+        "Mossy Creek",
+        "Echeconnee Creek (northern boundary with Bibb and Peach)",
+        "Houston Lake (Bonaire / Centerville area)",
+        "Robins Air Force Base (large undeveloped buffer acreage)",
+        "Perry Historic Downtown courthouse square",
+        "Massee Lane Gardens (American Camellia Society headquarters, Fort Valley line)",
+        "Sandhill / longleaf-pine remnants across southern Houston",
+        "Georgia National Fairgrounds (Perry)",
+        "Houston Lake Country Club"
+      ],
+      "habitat_type": "middle Georgia Coastal Plain south of the geological Fall Line, with sandy soils, longleaf-and-loblolly pine remnants, mixed pine-hardwood across the rural southern half, the Ocmulgee River bottomland corridor along the eastern boundary, the Robins Air Force Base buffer acreage producing a large undeveloped wildlife source zone in the center of the county, and a residential housing stock that splits sharply between Warner Robins (almost entirely post-1942 housing built around Robins AFB) and Perry (antebellum and Victorian historic-downtown stock around the Perry courthouse square with 1990s-2010s subdivision growth on the city edges)",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "fox squirrels",
+        "Southern flying squirrels",
+        "Virginia opossums",
+        "Norway rats",
+        "roof rats",
+        "big brown bats",
+        "evening bats",
+        "Brazilian free-tailed bats",
+        "striped skunks",
+        "armadillos",
+        "coyotes",
+        "beavers",
+        "Eastern cottontail rabbits",
+        "snakes (rat snakes, copperheads, occasional cottonmouth along Ocmulgee)"
+      ],
+      "regional_wildlife": "Houston County sits firmly south of the Fall Line and shows a Coastal Plain wildlife profile distinct from metro Atlanta. Fox squirrels (Sciurus niger) are routine residential calls across Perry, southern Warner Robins, and the rural Kathleen acreage — the larger, slower, more colorful cousin of the Eastern gray squirrel persists in Houston's longleaf-pine and pine-hardwood remnants. Brazilian free-tailed bats (Tadarida brasiliensis) form colonies in Warner Robins commercial buildings, Robins Air Force Base hangar-and-warehouse structures, and the I-75 corridor highway bridges, in addition to the more typical big brown and evening bat species. Armadillos have been firmly established in Houston County for decades — long before they reached metro Atlanta — and are routine residential calls for lawn rooting and foundation-planting damage across every Houston city. The Robins Air Force Base buffer acreage in central Houston (the base occupies roughly 7,000 acres of mostly undeveloped pine forest on the south side of Warner Robins) functions as one of the largest contiguous undeveloped wildlife source habitats in middle Georgia, dispersing raccoons, opossums, coyotes, and fox squirrels into the surrounding Warner Robins and Centerville neighborhoods. Perry's antebellum and Victorian housing core around the courthouse square hosts long-established big-brown-bat colonies in original masonry chimneys — many spanning 50-100+ years of continuous occupation, similar to Macon-Bibb's antebellum colony establishment timeline. Warner Robins's housing stock is overwhelmingly post-1942 (the city was effectively built around Robins AFB during WWII) so the bat-colony profile differs sharply between Warner Robins and Perry. Roof rats are firmly established along the I-75 corridor and in Warner Robins commercial-corridor subdivisions; Norway rats dominate the Perry historic-downtown and Warner Robins Watson Boulevard restaurant-and-retail concentration. Houston Lake (Bonaire / Centerville area) sustains lakeshore raccoon and bat foraging populations. The Ocmulgee River corridor along the eastern boundary sustains a year-round source population for raccoons, opossums, rat snakes, and an occasional cottonmouth in the slack-water reaches",
+      "absent_or_rare": "white-tailed deer reach high densities throughout the wooded rural areas and along the Ocmulgee corridor, feral hogs occur in the rural southern Houston acreage and along the Ocmulgee floodplain, the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in middle Georgia and may appear in pre-1860 Perry chimney colonies, American alligators occasionally appear in the lower Ocmulgee River and any encounter over 4 feet should be referred to Georgia DNR rather than handled privately, gopher tortoises (state-listed) persist in the southern Houston sandhill remnants and are protected under Georgia state law, and federally protected migratory bird species (hawks, owls, woodpeckers, chimney swifts) are present throughout the county under Migratory Bird Treaty Act protocols"
     }
   }
 }
