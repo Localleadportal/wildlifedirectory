@@ -721,6 +721,52 @@
       ],
       "regional_wildlife": "Jasper County's wildlife profile is unusual for Georgia because of how thoroughly state-managed wildlife management areas and federal forest acreage dominate the county footprint. The Charlie Elliott Wildlife Center alone covers approximately 6,400 acres under Georgia DNR Wildlife Resources Division management, with Cedar Creek WMA adding more contiguous preserved acreage. Oconee National Forest acreage covers substantial southern and eastern Jasper. Combined with Lake Jackson's western shoreline and the Ocmulgee River corridor, Jasper has one of the highest ratios of state-managed-and-undeveloped land to human population of any Georgia county. The wildlife consequences are distinctive: white-tailed deer reach exceptional densities across the rural acreage, feral hogs are firmly established throughout the WMA-adjacent properties, and the source populations for raccoons, opossums, fox squirrels, coyotes, and bats are unusually large per unit of human population. Monticello's pre-1900 antebellum and Victorian historic-downtown housing around the Jasper County Courthouse square hosts long-established big-brown-bat (Eptesicus fuscus) colonies in original masonry chimneys — many spanning 50-100+ years of continuous occupation, comparable to Macon-Bibb's antebellum-housing colony establishment timeline. Norway rats appear in the small Monticello commercial-corridor inventory; roof rats are less firmly established here than in middle Georgia south of the Fall Line — Jasper sits squarely on the Piedmont side and the species establishment is sparser. Fox squirrels (Sciurus niger) appear in Jasper residential calls because of the substantial pine-hardwood remnant acreage. Coyote densities are among the highest residential-call rates of any metro-fringe Georgia county per unit of human population because of the surrounding WMA and Oconee National Forest source habitat",
       "absent_or_rare": "white-tailed deer densities are among the highest residential-pressure rates in metro-Atlanta-fringe Georgia because of the surrounding WMA-and-forest source habitat — Jasper is a premier deer-hunting county, feral hogs are firmly established across rural Jasper acreage and damage agricultural land and lawns, the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in central Georgia and may appear in Monticello pre-1900 chimney colonies, black bears occasionally pass through the Oconee National Forest acreage in southern Jasper, federally protected migratory bird species (hawks, owls, woodpeckers, chimney swifts) are present throughout the county under Migratory Bird Treaty Act protocols, and the federally endangered red-cockaded woodpecker (Picoides borealis) has documented occurrences in the longleaf-pine remnants of southern Jasper / Oconee National Forest acreage"
+    },
+    "Butts County": {
+      "county_seat": "Jackson",
+      "population": 25132,
+      "established": 1825,
+      "region": "the central Georgia Piedmont uplands midway between Atlanta and Macon, anchored by the small antebellum county seat of Jackson, with the I-75 corridor cutting through the county center and Lake Jackson along the eastern boundary",
+      "largest_cities": [
+        "Jackson",
+        "Flovilla",
+        "Jenkinsburg"
+      ],
+      "nearest_metro": "Atlanta is the nearest major metro at about 45 miles north of Jackson; Macon-Bibb is about 40 miles south",
+      "natural_features": [
+        "Indian Springs State Park (oldest state park in the United States, founded 1825 — same year as the county)",
+        "Lake Jackson (eastern boundary, shared with Newton and Jasper)",
+        "Towaliga River (runs through Indian Springs State Park into Lake Jackson)",
+        "Ocmulgee River drainage (formed by the Yellow River and South River meeting at Lake Jackson)",
+        "I-75 corridor through Jackson and the Jackson exits",
+        "Jackson Historic Downtown courthouse square (1825-founded)",
+        "Butts County Courthouse (Jackson, pre-1900)",
+        "Crawford W. Long birthplace (Jackson — pioneer of anesthetic ether use)",
+        "High Falls State Park (just south of Butts in Monroe County, drives Butts visitor traffic)",
+        "Piedmont rolling-hill agricultural and forest land"
+      ],
+      "habitat_type": "central Georgia Piedmont uplands midway between Atlanta and Macon, anchored by the antebellum county seat of Jackson with its pre-1900 historic-downtown courthouse square. The I-75 corridor produces a commercial-and-rest-stop concentration at the Jackson exits; Indian Springs State Park (the oldest state park in the United States, founded 1825) preserves substantial Towaliga River corridor habitat in southern Butts; Lake Jackson along the eastern boundary supports a substantial shoreline forest and seasonal-residential lakefront housing inventory. The Ocmulgee River drainage forms at Lake Jackson where the Yellow River and South River meet. Residential housing is concentrated in Jackson, the smaller Flovilla and Jenkinsburg communities, and substantial rural-residential and agricultural acreage across the rest of the county",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "fox squirrels",
+        "Southern flying squirrels",
+        "Virginia opossums",
+        "Norway rats",
+        "roof rats",
+        "big brown bats",
+        "evening bats",
+        "striped skunks",
+        "armadillos",
+        "coyotes",
+        "beavers",
+        "Eastern cottontail rabbits",
+        "white-tailed deer",
+        "feral hogs (established)",
+        "snakes (rat snakes, copperheads)"
+      ],
+      "regional_wildlife": "Butts County's wildlife profile is shaped by three distinctive geographic features that together produce a residential-pest profile unusual for a county its size. Indian Springs State Park — the oldest state park in the United States, founded 1825 alongside Butts County itself — preserves substantial Towaliga River corridor habitat that sustains continuous source populations of raccoons, opossums, bats, white-tailed deer, and snakes in southern Butts. Lake Jackson along the eastern boundary supports a substantial wooded shoreline forest plus a seasonal-residential lakefront housing inventory; lakeshore raccoons commonly reach 18-22+ lb because of waterfront foraging access. The I-75 corridor produces a commercial-and-rest-stop dispersal vector for Norway rats around the Jackson exits — restaurant dumpsters, hotel waste streams, and the surrounding gas station / fast-food clusters sustain heavy Norway rat populations year-round. Jackson's pre-1900 historic-downtown courthouse-square housing hosts long-established big-brown-bat (Eptesicus fuscus) colonies in original masonry chimneys — many spanning 50-100+ years of continuous occupation. Roof rats moved up the I-75 corridor through central Georgia during the 2000s-2010s and are firmly established in Butts subdivision canopy along the corridor. Fox squirrels (Sciurus niger) appear in residential calls because of the substantial pine-hardwood remnant acreage. Coyote densities are high across the county because of the surrounding rural and state-park source habitat",
+      "absent_or_rare": "white-tailed deer reach high densities throughout the wooded rural-residential edges and along the Indian Springs State Park and Lake Jackson corridors, feral hogs are established across rural Butts acreage and damage agricultural land seasonally, the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in central Georgia and may appear in pre-1900 Jackson chimney colonies, black bears occasionally pass through the more remote rural Butts edges, federally protected migratory bird species (hawks, owls, woodpeckers, chimney swifts) are present throughout the county under Migratory Bird Treaty Act protocols, and American alligators occasionally appear in the lower Ocmulgee River reaches and any encounter over 4 feet should be referred to Georgia DNR rather than handled privately"
     }
   }
 }

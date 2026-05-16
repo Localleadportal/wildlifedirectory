@@ -5,6 +5,7 @@
   "counties": [
     "Georgia|Bartow",
     "Georgia|Bibb",
+    "Georgia|Butts",
     "Georgia|Carroll",
     "Georgia|Chatham",
     "Georgia|Cherokee",
@@ -27,6 +28,7 @@
     "Tennessee|Williamson"
   ],
   "countiesWithCountyOnlyIndex": [
+    "Georgia|Butts",
     "Georgia|Carroll",
     "Georgia|Clarke",
     "Georgia|Coweta",
