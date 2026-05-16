@@ -897,6 +897,49 @@
       ],
       "regional_wildlife": "Upson County's wildlife profile combines Thomaston's antebellum-and-mill-village housing density with the substantial rural-agricultural character of the surrounding county. Thomaston's pre-1900 historic-downtown housing around the 1824-founded Upson County Courthouse square hosts long-established big-brown-bat (Eptesicus fuscus) colonies in original masonry chimneys — many spanning 50-100+ years of continuous occupation, comparable to Macon-Bibb's antebellum-housing colony establishment timeline. The pre-1900 mill-village housing inventory around the historic Thomaston Mills textile site adds a secondary housing tier with its own structural-failure profile (different from antebellum housing but distinct from modern subdivision construction). The Flint River corridor along the western boundary sustains a continuous source population of raccoons, opossums, beavers, rat snakes, and cottonmouths (Agkistrodon piscivorus) — cottonmouth presence in southern Upson Flint River reaches is documented, distinct from Piedmont counties further north where the species is absent. Sprewell Bluff State Park preserves substantial Flint River corridor habitat that contributes additional source pressure. Fox squirrels (Sciurus niger) appear routinely in residential calls because of Upson's substantial pine-hardwood remnant acreage. Coyote densities are high across the county's rural land base. Roof rats are establishing along the US 19 corridor through Thomaston (slower than I-75 corridor counties because of lower commercial density). Brazilian free-tailed bats may appear in the older Thomaston commercial-building inventory",
       "absent_or_rare": "white-tailed deer reach high densities throughout the wooded rural-residential edges and along the Flint River and Sprewell Bluff State Park corridors, feral hogs are established across rural southern Upson acreage and damage agricultural land seasonally, the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in central Georgia and may appear in pre-1900 Thomaston chimney colonies, American alligators occasionally appear in the lower Flint River reaches and any encounter over 4 feet should be referred to Georgia DNR rather than handled privately, gopher tortoises (state-listed) may persist in southern Upson sandhill remnants, and federally protected migratory bird species (hawks, owls, woodpeckers, chimney swifts) are present throughout the county under Migratory Bird Treaty Act protocols"
+    },
+    "Pike County": {
+      "county_seat": "Zebulon",
+      "population": 18715,
+      "established": 1822,
+      "region": "the southern metropolitan Atlanta exurban arc, anchored by the small antebellum county seat of Zebulon, with the US 19 corridor cutting north-south through the county and substantial rural-agricultural acreage spread across most of the county footprint",
+      "largest_cities": [
+        "Zebulon",
+        "Molena",
+        "Williamson",
+        "Concord",
+        "Meansville"
+      ],
+      "nearest_metro": "Atlanta is the nearest major metro at about 55 miles north of Zebulon via US 19; Macon-Bibb is about 65 miles east",
+      "natural_features": [
+        "Pike County Courthouse and Zebulon Historic Downtown courthouse square (1822-founded)",
+        "US 19 corridor through Zebulon",
+        "Flint River corridor (western boundary with Meriwether County)",
+        "Pike County agricultural acreage (peach orchards, blueberry operations, rural-residential)",
+        "Pine-hardwood and longleaf-pine remnants on rural acreage",
+        "Elkins Creek and Beaver Creek tributary corridors",
+        "Pre-1900 small-community historic-downtown cores in Zebulon, Molena, Williamson, Concord, and Meansville"
+      ],
+      "habitat_type": "southern metropolitan Atlanta exurban arc Piedmont county defined by Zebulon's small pre-1900 historic-downtown core around the 1822-founded Pike County Courthouse square plus substantial rural-agricultural acreage spread across the county footprint. Pike is one of the more rural counties in the metro-Atlanta exurban arc — population density is low, residential housing is overwhelmingly rural-residential and small-community, and agricultural operations (peach orchards, blueberry operations, broader rural agriculture) cover substantial acreage. The five incorporated cities (Zebulon, Molena, Williamson, Concord, Meansville) are all small communities with pre-1900 historic-downtown cores",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "fox squirrels",
+        "Southern flying squirrels",
+        "Virginia opossums",
+        "Norway rats",
+        "big brown bats",
+        "evening bats",
+        "striped skunks",
+        "armadillos",
+        "coyotes",
+        "Eastern cottontail rabbits",
+        "white-tailed deer (high densities)",
+        "feral hogs",
+        "snakes (rat snakes, copperheads, cottonmouths along the Flint)"
+      ],
+      "regional_wildlife": "Pike County's wildlife profile reflects the county's deeply rural-agricultural character. Pike has one of the highest ratios of rural-agricultural acreage to human population in the southern Atlanta exurban arc — most residential property absorbs continuous source pressure from surrounding rural land. Zebulon's small pre-1900 historic-downtown core around the 1822-founded Pike County Courthouse square hosts long-established big-brown-bat (Eptesicus fuscus) colonies in original masonry chimneys — many spanning 50-100+ years of continuous occupation. The pre-1900 small-community historic cores in Molena, Williamson, Concord, and Meansville add secondary multi-decade bat-colony work scope. Fox squirrels (Sciurus niger) are routine residential calls across Pike because of the substantial pine-hardwood and longleaf-pine remnants. The Flint River corridor along the western boundary sustains a continuous source population of raccoons, opossums, rat snakes, and cottonmouths (Agkistrodon piscivorus) — cottonmouth presence in western Pike Flint River reaches is documented. Peach orchards in Pike produce a May-August seasonal pressure spike for raccoons, opossums, fox squirrels, and birds — similar to Peach County's commercial peach operation pattern but at smaller scale. Coyote densities are exceptionally high across Pike's rural land base. White-tailed deer reach high residential densities. Roof rats are establishing along the US 19 corridor but at lower density than I-75 corridor counties because of Pike's lower commercial concentration",
+      "absent_or_rare": "white-tailed deer reach exceptional residential-pressure densities across Pike's rural-agricultural acreage — Pike is a premier deer-hunting county per unit of human population, feral hogs are firmly established across rural Pike acreage and damage agricultural land seasonally, the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in central Georgia and may appear in pre-1900 Zebulon and small-community chimney colonies, American alligators occasionally appear in the lower Flint River reaches and any encounter over 4 feet should be referred to Georgia DNR rather than handled privately, and federally protected migratory bird species (hawks, owls, woodpeckers, chimney swifts) are present throughout the county under Migratory Bird Treaty Act protocols"
     }
   }
 }
