@@ -767,6 +767,50 @@
       ],
       "regional_wildlife": "Butts County's wildlife profile is shaped by three distinctive geographic features that together produce a residential-pest profile unusual for a county its size. Indian Springs State Park — the oldest state park in the United States, founded 1825 alongside Butts County itself — preserves substantial Towaliga River corridor habitat that sustains continuous source populations of raccoons, opossums, bats, white-tailed deer, and snakes in southern Butts. Lake Jackson along the eastern boundary supports a substantial wooded shoreline forest plus a seasonal-residential lakefront housing inventory; lakeshore raccoons commonly reach 18-22+ lb because of waterfront foraging access. The I-75 corridor produces a commercial-and-rest-stop dispersal vector for Norway rats around the Jackson exits — restaurant dumpsters, hotel waste streams, and the surrounding gas station / fast-food clusters sustain heavy Norway rat populations year-round. Jackson's pre-1900 historic-downtown courthouse-square housing hosts long-established big-brown-bat (Eptesicus fuscus) colonies in original masonry chimneys — many spanning 50-100+ years of continuous occupation. Roof rats moved up the I-75 corridor through central Georgia during the 2000s-2010s and are firmly established in Butts subdivision canopy along the corridor. Fox squirrels (Sciurus niger) appear in residential calls because of the substantial pine-hardwood remnant acreage. Coyote densities are high across the county because of the surrounding rural and state-park source habitat",
       "absent_or_rare": "white-tailed deer reach high densities throughout the wooded rural-residential edges and along the Indian Springs State Park and Lake Jackson corridors, feral hogs are established across rural Butts acreage and damage agricultural land seasonally, the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in central Georgia and may appear in pre-1900 Jackson chimney colonies, black bears occasionally pass through the more remote rural Butts edges, federally protected migratory bird species (hawks, owls, woodpeckers, chimney swifts) are present throughout the county under Migratory Bird Treaty Act protocols, and American alligators occasionally appear in the lower Ocmulgee River reaches and any encounter over 4 feet should be referred to Georgia DNR rather than handled privately"
+    },
+    "Henry County": {
+      "county_seat": "McDonough",
+      "population": 240712,
+      "established": 1821,
+      "region": "the south metropolitan Atlanta suburban-to-exurban arc, one of metro Atlanta's fastest-growing counties for two decades, with the I-75 corridor cutting north-south through Stockbridge, McDonough, and Locust Grove, and Hampton (home of Atlanta Motor Speedway) on the western side of the county",
+      "largest_cities": [
+        "McDonough",
+        "Stockbridge",
+        "Hampton",
+        "Locust Grove"
+      ],
+      "nearest_metro": "Atlanta is the nearest major metro at about 30 miles north of McDonough; Henry sits directly in the south Atlanta suburban arc",
+      "natural_features": [
+        "I-75 corridor through Stockbridge, McDonough, and Locust Grove (multi-exit dense commercial-and-retail concentration)",
+        "Atlanta Motor Speedway (Hampton — major NASCAR venue driving event-week commercial pressure)",
+        "Tanger Outlets at Locust Grove (large I-75 retail destination)",
+        "Panola Mountain State Park (northwestern Henry shared with Rockdale)",
+        "Heritage Park (Hampton — county-managed greenspace)",
+        "Cubihatcha Outdoor Education Center (south Henry)",
+        "South River corridor (eastern Henry)",
+        "Walnut Creek tributary system",
+        "McDonough Historic Downtown courthouse square (1823-founded)",
+        "Henry County Courthouse (McDonough, pre-1900)",
+        "Big Cotton Indian Creek and Tussahaw Creek tributaries"
+      ],
+      "habitat_type": "south metropolitan Atlanta suburban-to-exurban arc dominated by 1990s-2020s subdivision growth — Henry has been one of metro Atlanta's fastest-growing counties for two decades. The I-75 corridor cuts north-south through Stockbridge, McDonough, and Locust Grove, producing a dense I-75 commercial-and-retail concentration at multiple exits. Atlanta Motor Speedway on the western side of the county at Hampton drives major event-week commercial pressure. McDonough maintains a small pre-1900 historic-downtown core around the Henry County Courthouse square (1823-founded), though most of the county's residential footprint is much newer subdivision growth. Panola Mountain State Park along the northwestern boundary, Heritage Park and Cubihatcha Outdoor Education Center in the south, and the South River corridor along the east contribute remaining wildlife source habitat",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Southern flying squirrels",
+        "Virginia opossums",
+        "Norway rats",
+        "roof rats",
+        "big brown bats",
+        "evening bats",
+        "striped skunks",
+        "armadillos",
+        "coyotes",
+        "Eastern cottontail rabbits",
+        "snakes (rat snakes, copperheads)"
+      ],
+      "regional_wildlife": "Henry County's wildlife profile is defined by the rapid 1990s-2020s subdivision growth that converted former rural Piedmont land into one of metro Atlanta's fastest-growing suburban arcs. The I-75 corridor produces three major commercial-cluster Norway rat dispersal vectors — the Stockbridge exits (Exit 224, Exit 222), the McDonough exits (Exit 218, Exit 216), and the Locust Grove exits (Exit 212, Exit 210) — each concentrating restaurant dumpsters, hotel waste streams, and retail food-service in dense clusters that disperse outward into adjacent residential blocks. The Tanger Outlets retail concentration at Locust Grove adds a significant year-round commercial-cluster pressure point. Atlanta Motor Speedway at Hampton drives sharp event-week commercial pressure spikes during NASCAR race weekends — restaurant, hotel, and event-area waste streams produce documented Norway rat population spikes. Roof rats moved up the I-75 corridor through metro Atlanta during the 2000s-2010s and are firmly established in Henry subdivision canopy. McDonough's smaller pre-1900 historic-downtown housing inventory hosts established big-brown-bat (Eptesicus fuscus) colonies in original masonry chimneys, with some colonies running 50-80+ years of continuous occupation. Henry's rapid subdivision growth has displaced former rural-acreage source habitat; coyote densities are exceptionally high in Henry residential subdivisions because the species has adapted to suburban infill faster than most other former-rural wildlife. Armadillos are firmly established across rural-edge Henry properties. Panola Mountain State Park on the northwestern boundary and the South River corridor on the east contribute remaining bat / raccoon / opossum source pressure",
+      "absent_or_rare": "white-tailed deer remain abundant in the wooded subdivision edges and along the Panola Mountain SP and South River corridors despite Henry's rapid suburban growth, urban coyotes are exceptionally well-established in Henry subdivisions because of the species's adaptation to suburban infill, the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in metro Atlanta and may appear in pre-1900 McDonough chimney colonies, federally protected migratory bird species (hawks, owls, woodpeckers, chimney swifts) are present throughout the county under Migratory Bird Treaty Act protocols, and feral hogs occur in rural-edge southern Henry acreage adjacent to Butts and Spalding county boundaries"
     }
   }
 }
