@@ -24,6 +24,7 @@
     "Georgia|Paulding",
     "Georgia|Peach",
     "Georgia|Spalding",
+    "Georgia|Upson",
     "Tennessee|Davidson",
     "Tennessee|Franklin",
     "Tennessee|Shelby",
@@ -44,7 +45,8 @@
     "Georgia|Jasper",
     "Georgia|Paulding",
     "Georgia|Peach",
-    "Georgia|Spalding"
+    "Georgia|Spalding",
+    "Georgia|Upson"
   ],
   "countiesWithHubOnlyIndex": [
     "Georgia|Chatham",

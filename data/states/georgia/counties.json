@@ -854,6 +854,49 @@
       ],
       "regional_wildlife": "Spalding County's wildlife profile combines Griffin's substantial pre-1900 historic-downtown housing density (Griffin was established 1851 and maintains a more intact antebellum-and-Victorian residential inventory than many south-metro Atlanta communities) with the agricultural-research-and-education character of the University of Georgia Griffin Campus. Griffin's pre-1900 antebellum and Victorian chimney stock around the Spalding County Courthouse square hosts long-established big-brown-bat (Eptesicus fuscus) colonies in original masonry chimneys — many spanning 50-100+ years of continuous occupation, comparable to Macon-Bibb's antebellum-housing colony establishment timeline. The UGA Griffin Campus research-and-education-center acreage (turfgrass plots, peach research orchards, blueberry research, mature canopy across the campus) preserves substantial wildlife habitat that supports raccoon, opossum, squirrel, and bat source populations dispersing into adjacent Griffin residential blocks. Northern Spalding properties absorb spillover Atlanta Motor Speedway race-week commercial pressure from the immediately-adjacent Hampton AMS facility — Norway rat and raccoon activity spikes during NASCAR race weekends. Southern Spalding's remaining peach orchard, blueberry, and agricultural operations support continuous rural-acreage source populations. Roof rats are firmly established along the US 19/41 corridor (slower establishment than I-75 corridor counties because of lower commercial density, but present). Fox squirrels (Sciurus niger) appear in southern Spalding's pine-hardwood remnant agricultural acreage. Armadillos are firmly established across rural-edge Spalding properties",
       "absent_or_rare": "white-tailed deer reach high densities along the Cabin Creek and Towaliga River drainage corridors plus the UGA Griffin Campus mature canopy, feral hogs occur in rural southern Spalding agricultural acreage and damage peach orchards and blueberry operations seasonally, the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in central Georgia and may appear in pre-1900 Griffin chimney colonies, federally protected migratory bird species (hawks, owls, woodpeckers, chimney swifts) are present throughout the county under Migratory Bird Treaty Act protocols, and AMS race-week pressure spikes spill over into northern Spalding residential blocks during NASCAR race weekends"
+    },
+    "Upson County": {
+      "county_seat": "Thomaston",
+      "population": 25884,
+      "established": 1824,
+      "region": "the southwestern Atlanta exurban arc on the Flint River, anchored by the antebellum textile-mill town of Thomaston, with Sprewell Bluff State Park along the Flint River western boundary and substantial rural-agricultural acreage across the county",
+      "largest_cities": [
+        "Thomaston",
+        "Yatesville"
+      ],
+      "nearest_metro": "Atlanta is the nearest major metro at about 75 miles north of Thomaston; Macon-Bibb is about 45 miles east",
+      "natural_features": [
+        "Flint River (western boundary)",
+        "Sprewell Bluff State Park (Flint River corridor, southwestern Upson)",
+        "Cabin Creek tributary",
+        "Thomaston Historic Downtown courthouse square (1824-founded)",
+        "Upson County Courthouse (Thomaston, pre-1900)",
+        "Thomaston Mills (historic textile manufacturing site — defining 20th-century industry of the county)",
+        "Pre-1900 mill-village housing inventory around the Thomaston Mills site",
+        "US 19 corridor through Thomaston",
+        "Piedmont rolling-hill agricultural and forest land"
+      ],
+      "habitat_type": "southwestern Atlanta exurban arc Piedmont county defined by Thomaston's substantial pre-1900 historic-downtown and textile-mill-era housing inventory plus the Flint River corridor along the western boundary. Thomaston combines the pre-1900 courthouse-square antebellum and Victorian residential blocks with the surrounding mill-village housing that supported the Thomaston Mills textile operation — the defining 20th-century industry of the county. The county is otherwise overwhelmingly rural-agricultural with substantial pine-hardwood acreage, scattered rural-residential properties, and Sprewell Bluff State Park preserving Flint River corridor habitat in southwestern Upson",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "fox squirrels",
+        "Southern flying squirrels",
+        "Virginia opossums",
+        "Norway rats",
+        "roof rats",
+        "big brown bats",
+        "evening bats",
+        "striped skunks",
+        "armadillos",
+        "coyotes",
+        "beavers",
+        "Eastern cottontail rabbits",
+        "white-tailed deer",
+        "snakes (rat snakes, copperheads, cottonmouths along the Flint)"
+      ],
+      "regional_wildlife": "Upson County's wildlife profile combines Thomaston's antebellum-and-mill-village housing density with the substantial rural-agricultural character of the surrounding county. Thomaston's pre-1900 historic-downtown housing around the 1824-founded Upson County Courthouse square hosts long-established big-brown-bat (Eptesicus fuscus) colonies in original masonry chimneys — many spanning 50-100+ years of continuous occupation, comparable to Macon-Bibb's antebellum-housing colony establishment timeline. The pre-1900 mill-village housing inventory around the historic Thomaston Mills textile site adds a secondary housing tier with its own structural-failure profile (different from antebellum housing but distinct from modern subdivision construction). The Flint River corridor along the western boundary sustains a continuous source population of raccoons, opossums, beavers, rat snakes, and cottonmouths (Agkistrodon piscivorus) — cottonmouth presence in southern Upson Flint River reaches is documented, distinct from Piedmont counties further north where the species is absent. Sprewell Bluff State Park preserves substantial Flint River corridor habitat that contributes additional source pressure. Fox squirrels (Sciurus niger) appear routinely in residential calls because of Upson's substantial pine-hardwood remnant acreage. Coyote densities are high across the county's rural land base. Roof rats are establishing along the US 19 corridor through Thomaston (slower than I-75 corridor counties because of lower commercial density). Brazilian free-tailed bats may appear in the older Thomaston commercial-building inventory",
+      "absent_or_rare": "white-tailed deer reach high densities throughout the wooded rural-residential edges and along the Flint River and Sprewell Bluff State Park corridors, feral hogs are established across rural southern Upson acreage and damage agricultural land seasonally, the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in central Georgia and may appear in pre-1900 Thomaston chimney colonies, American alligators occasionally appear in the lower Flint River reaches and any encounter over 4 feet should be referred to Georgia DNR rather than handled privately, gopher tortoises (state-listed) may persist in southern Upson sandhill remnants, and federally protected migratory bird species (hawks, owls, woodpeckers, chimney swifts) are present throughout the county under Migratory Bird Treaty Act protocols"
     }
   }
 }
