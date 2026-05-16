@@ -23,6 +23,7 @@
     "Georgia|Jasper",
     "Georgia|Paulding",
     "Georgia|Peach",
+    "Georgia|Spalding",
     "Tennessee|Davidson",
     "Tennessee|Franklin",
     "Tennessee|Shelby",
@@ -42,7 +43,8 @@
     "Georgia|Houston",
     "Georgia|Jasper",
     "Georgia|Paulding",
-    "Georgia|Peach"
+    "Georgia|Peach",
+    "Georgia|Spalding"
   ],
   "countiesWithHubOnlyIndex": [
     "Georgia|Chatham",
