@@ -1,0 +1,90 @@
+<%
+  const title = 'List Your Wildlife Removal Business | Exclusive County Leads | RemoveWildlifeNow.com';
+  const metaDesc = 'Run a licensed wildlife removal company? Get exclusive county-level phone leads from this directory for $15 per real call. No monthly fees, no shared leads, dispute bad calls.';
+  const canonical = '/list-your-business/';
+
+  const schema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.removewildlifenow.com/list-your-business/",
+        "url": "https://www.removewildlifenow.com/list-your-business/",
+        "name": "List Your Wildlife Removal Business",
+        "description": metaDesc,
+        "isPartOf": { "@id": "https://www.removewildlifenow.com/#organization" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.removewildlifenow.com/" },
+          { "@type": "ListItem", "position": 2, "name": "List Your Business", "item": "https://www.removewildlifenow.com/list-your-business/" }
+        ]
+      }
+    ]
+  });
+
+  const body = `
+    <section style="padding:64px 0 32px;background:linear-gradient(135deg,#0f172a,#1e3a8a);color:#fff;">
+      <div class="container" style="max-width:860px;text-align:center;">
+        <div style="display:inline-block;background:rgba(255,255,255,0.1);color:#dbeafe;padding:6px 14px;border-radius:20px;font-size:0.8rem;font-weight:600;letter-spacing:0.5px;margin-bottom:18px;">FOR WILDLIFE REMOVAL PROFESSIONALS</div>
+        <h1 style="font-size:2.4rem;line-height:1.15;margin:0 0 18px;color:#fff;">Get Listed in Your County. Take Real Calls.</h1>
+        <p style="font-size:1.1rem;color:#cbd5e1;line-height:1.6;max-width:680px;margin:0 auto 28px;">
+          This directory ranks on Google for wildlife removal searches across the country. If you're a licensed pro, claim your county and we'll route every inbound call straight to your phone.
+        </p>
+        <a href="https://localleadportal.com/wildlife.html" style="display:inline-block;background:#f97316;color:#fff;padding:14px 32px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1.05rem;">Claim Your County →</a>
+        <p style="margin-top:16px;font-size:0.85rem;color:#94a3b8;">No setup fee. No contracts. $15 per real call only.</p>
+      </div>
+    </section>
+
+    <section style="padding:48px 0;">
+      <div class="container" style="max-width:860px;">
+        <h2 style="font-size:1.6rem;margin:0 0 24px;">How It Works</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;">
+          <div style="padding:22px;border:1px solid #e5e7eb;border-radius:12px;background:#fff;">
+            <div style="font-size:0.78rem;color:#f97316;font-weight:700;letter-spacing:0.5px;">STEP 1</div>
+            <h3 style="font-size:1.05rem;margin:6px 0 8px;">Claim your county</h3>
+            <p style="margin:0;color:#475569;font-size:0.92rem;line-height:1.55;">One wildlife company per county. First come, first served. Adjacent counties available where they're open.</p>
+          </div>
+          <div style="padding:22px;border:1px solid #e5e7eb;border-radius:12px;background:#fff;">
+            <div style="font-size:0.78rem;color:#f97316;font-weight:700;letter-spacing:0.5px;">STEP 2</div>
+            <h3 style="font-size:1.05rem;margin:6px 0 8px;">We rank on Google</h3>
+            <p style="margin:0;color:#475569;font-size:0.92rem;line-height:1.55;">This directory is built specifically for wildlife removal SEO. Homeowners find it when they search — and they call.</p>
+          </div>
+          <div style="padding:22px;border:1px solid #e5e7eb;border-radius:12px;background:#fff;">
+            <div style="font-size:0.78rem;color:#f97316;font-weight:700;letter-spacing:0.5px;">STEP 3</div>
+            <h3 style="font-size:1.05rem;margin:6px 0 8px;">Calls go to your phone</h3>
+            <p style="margin:0;color:#475569;font-size:0.92rem;line-height:1.55;">A tracked forwarding number on the listing routes every call straight through to you. Your real number stays private.</p>
+          </div>
+          <div style="padding:22px;border:1px solid #e5e7eb;border-radius:12px;background:#fff;">
+            <div style="font-size:0.78rem;color:#f97316;font-weight:700;letter-spacing:0.5px;">STEP 4</div>
+            <h3 style="font-size:1.05rem;margin:6px 0 8px;">Pay per real call</h3>
+            <p style="margin:0;color:#475569;font-size:0.92rem;line-height:1.55;">$15 per real call. Bad call (wrong number, spam, out of area)? Dispute it through the portal — no charge.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding:48px 0;background:#f9fafb;border-top:1px solid #e5e7eb;border-bottom:1px solid #e5e7eb;">
+      <div class="container" style="max-width:860px;">
+        <h2 style="font-size:1.6rem;margin:0 0 18px;">Why This Beats the Big Lead Companies</h2>
+        <ul style="margin:0;padding:0;list-style:none;font-size:1rem;line-height:1.75;color:#1e293b;">
+          <li style="padding:8px 0;border-bottom:1px solid #e5e7eb;"><strong style="color:#16a34a;">✓ Exclusive territory.</strong> One pro per county. You don't bid against 3 competitors for the same lead.</li>
+          <li style="padding:8px 0;border-bottom:1px solid #e5e7eb;"><strong style="color:#16a34a;">✓ Real phone calls, not form fills.</strong> A homeowner with an animal in their wall picks up the phone — you talk to them live.</li>
+          <li style="padding:8px 0;border-bottom:1px solid #e5e7eb;"><strong style="color:#16a34a;">✓ Pay only for what's real.</strong> $15 vs the $50–$100 the big directories charge per shared lead.</li>
+          <li style="padding:8px 0;border-bottom:1px solid #e5e7eb;"><strong style="color:#16a34a;">✓ Dispute protection.</strong> AI scores every call. Junk gets credited automatically; you can dispute anything else.</li>
+          <li style="padding:8px 0;"><strong style="color:#16a34a;">✓ No contracts, no monthly fees.</strong> If it's not working, walk away.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section style="padding:56px 0;text-align:center;">
+      <div class="container" style="max-width:680px;">
+        <h2 style="font-size:1.6rem;margin:0 0 12px;">Ready to Take Real Wildlife Calls?</h2>
+        <p style="color:#475569;font-size:1rem;margin:0 0 24px;">Counties fill up first-come, first-served. Once yours is claimed, it's locked.</p>
+        <a href="https://localleadportal.com/wildlife.html" style="display:inline-block;background:#f97316;color:#fff;padding:14px 32px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1.05rem;">List My Business →</a>
+        <p style="margin-top:14px;font-size:0.85rem;color:#94a3b8;">Sign up in under 5 minutes. No card required until calls start coming in.</p>
+      </div>
+    </section>
+  `;
+%><%- include('layout', { title, metaDesc, canonical, schema, body }) %>

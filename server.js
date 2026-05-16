@@ -124,7 +124,7 @@ app.get('/robots.txt', (req, res) => {
 // (homepage, services, blog).
 app.get('/sitemap.xml', async (req, res) => {
   const BASE = 'https://www.removewildlifenow.com';
-  const urls = [`${BASE}/`, `${BASE}/contact/`];
+  const urls = [`${BASE}/`, `${BASE}/contact/`, `${BASE}/list-your-business/`];
 
   // National per-animal landing pages (only those with content authored)
   const { NATIONAL_CONTENT } = require('./data/animalNationalContent');
@@ -202,6 +202,13 @@ app.get('/sitemap.xml', async (req, res) => {
 app.get('/', (req, res) => {
   res.render('index');
 });
+
+// List Your Business — contractor pitch page that backlinks to localleadportal.com.
+// Must be before /:stateSlug/ wildcard.
+app.get('/list-your-business/', (req, res) => {
+  res.render('list-your-business');
+});
+app.get('/list-your-business', (req, res) => res.redirect(301, '/list-your-business/'));
 
 // Contact page — must be before /:stateSlug/ wildcard
 app.get('/contact/', (req, res) => {
