@@ -940,6 +940,49 @@
       ],
       "regional_wildlife": "Pike County's wildlife profile reflects the county's deeply rural-agricultural character. Pike has one of the highest ratios of rural-agricultural acreage to human population in the southern Atlanta exurban arc — most residential property absorbs continuous source pressure from surrounding rural land. Zebulon's small pre-1900 historic-downtown core around the 1822-founded Pike County Courthouse square hosts long-established big-brown-bat (Eptesicus fuscus) colonies in original masonry chimneys — many spanning 50-100+ years of continuous occupation. The pre-1900 small-community historic cores in Molena, Williamson, Concord, and Meansville add secondary multi-decade bat-colony work scope. Fox squirrels (Sciurus niger) are routine residential calls across Pike because of the substantial pine-hardwood and longleaf-pine remnants. The Flint River corridor along the western boundary sustains a continuous source population of raccoons, opossums, rat snakes, and cottonmouths (Agkistrodon piscivorus) — cottonmouth presence in western Pike Flint River reaches is documented. Peach orchards in Pike produce a May-August seasonal pressure spike for raccoons, opossums, fox squirrels, and birds — similar to Peach County's commercial peach operation pattern but at smaller scale. Coyote densities are exceptionally high across Pike's rural land base. White-tailed deer reach high residential densities. Roof rats are establishing along the US 19 corridor but at lower density than I-75 corridor counties because of Pike's lower commercial concentration",
       "absent_or_rare": "white-tailed deer reach exceptional residential-pressure densities across Pike's rural-agricultural acreage — Pike is a premier deer-hunting county per unit of human population, feral hogs are firmly established across rural Pike acreage and damage agricultural land seasonally, the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in central Georgia and may appear in pre-1900 Zebulon and small-community chimney colonies, American alligators occasionally appear in the lower Flint River reaches and any encounter over 4 feet should be referred to Georgia DNR rather than handled privately, and federally protected migratory bird species (hawks, owls, woodpeckers, chimney swifts) are present throughout the county under Migratory Bird Treaty Act protocols"
+    },
+    "Lamar County": {
+      "county_seat": "Barnesville",
+      "population": 18602,
+      "established": 1920,
+      "region": "the southern metropolitan Atlanta exurban arc, anchored by the historic antebellum city of Barnesville — the 'Buggy Capital of the South' — with Gordon State College in Barnesville and the Towaliga River cutting through the county",
+      "largest_cities": [
+        "Barnesville",
+        "Milner",
+        "Aldora"
+      ],
+      "nearest_metro": "Atlanta is the nearest major metro at about 60 miles north of Barnesville via I-75; Macon-Bibb is about 40 miles southeast",
+      "natural_features": [
+        "Lamar County Courthouse and Barnesville Historic Downtown courthouse square (Barnesville incorporated 1854)",
+        "Gordon State College (Barnesville — public state college, mature campus canopy)",
+        "Towaliga River corridor (runs through Lamar)",
+        "Proximity to High Falls State Park (Towaliga River, just over the Monroe County boundary)",
+        "Buggy Capital of the South historic district (Barnesville's 19th-century carriage/buggy manufacturing heritage)",
+        "US 41 corridor through Barnesville",
+        "I-75 corridor through eastern Lamar (Exit 198 / Aldora area)",
+        "Pre-1900 Barnesville antebellum and Victorian housing inventory",
+        "Pre-1900 Milner small-community historic core"
+      ],
+      "habitat_type": "southern metropolitan Atlanta exurban arc Piedmont county defined by Barnesville's substantial pre-1900 historic-downtown core (the 'Buggy Capital of the South' — Barnesville was a major 19th-century carriage and buggy manufacturing center, producing one of central Georgia's more intact pre-1900 antebellum and Victorian housing inventories). Gordon State College in Barnesville maintains a substantial mature-canopy campus that contributes to wildlife habitat. The Towaliga River corridor cuts through Lamar, with High Falls State Park just over the Monroe County boundary. Lamar's residential housing splits between Barnesville's pre-1900 historic-downtown core, Gordon State College-area residential, 1900s-1980s small-town residential, and substantial rural-residential / rural-agricultural acreage across the rest of the county. Aldora is a very small community along the I-75 corridor in eastern Lamar",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "fox squirrels",
+        "Southern flying squirrels",
+        "Virginia opossums",
+        "Norway rats",
+        "roof rats",
+        "big brown bats",
+        "evening bats",
+        "striped skunks",
+        "armadillos",
+        "coyotes",
+        "Eastern cottontail rabbits",
+        "white-tailed deer",
+        "snakes (rat snakes, copperheads)"
+      ],
+      "regional_wildlife": "Lamar County's wildlife profile is shaped by Barnesville's substantial pre-1900 historic-downtown housing density — Barnesville was the 'Buggy Capital of the South' in the 19th century, producing one of central Georgia's more intact pre-1900 antebellum and Victorian housing inventories for a community of its size. The pre-1900 chimney stock around the Lamar County Courthouse square and the surrounding Barnesville historic-district residential blocks hosts long-established big-brown-bat (Eptesicus fuscus) colonies — many spanning 50-100+ years of continuous occupation, comparable to Macon-Bibb's antebellum-housing colony establishment timeline. Gordon State College's substantial mature campus canopy on the south side of Barnesville supports a dedicated raccoon, opossum, squirrel, and bat source population that disperses into adjacent residential blocks. The Towaliga River corridor through Lamar contributes additional source pressure. Lamar's I-75 corridor through eastern Lamar (Aldora area) produces a smaller I-75 commercial-cluster Norway rat pressure point than higher-volume I-75 counties. Fox squirrels (Sciurus niger) are routine in rural-acreage residential calls because of Lamar's substantial pine-hardwood remnants. Coyote densities are high across Lamar's rural land base. Roof rats are establishing along the I-75 and US 41 corridors but at lower density than I-75 corridor counties further north",
+      "absent_or_rare": "white-tailed deer reach high densities along the Towaliga River corridor and rural-residential edges, the federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in central Georgia and may appear in pre-1900 Barnesville chimney colonies, feral hogs occur in rural Lamar acreage and damage agricultural land seasonally, federally protected migratory bird species (hawks, owls, woodpeckers, chimney swifts) are present throughout the county under Migratory Bird Treaty Act protocols, and the High Falls State Park area (just over the Monroe County boundary) contributes wildlife source pressure to northeastern Lamar properties"
     }
   }
 }
