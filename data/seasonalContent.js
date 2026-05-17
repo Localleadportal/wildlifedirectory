@@ -16,16 +16,24 @@ const animalSeasons = {
   ],
 
   'squirrel-removal': [
-    { months: [0, 1], title: 'Winter Nesting Season', level: 'high',
-      msg: 'Squirrels are sheltering in attics and walls through the coldest months. Electrical wiring damage and insulation destruction are actively occurring. Do not delay removal.' },
-    { months: [2, 3, 4], title: 'Spring Breeding Season', level: 'high',
-      msg: 'Squirrels are raising their first litter of the year right now. Females are highly active entering and exiting nest sites. This is one of the two peak seasons for squirrel intrusion calls.' },
-    { months: [5, 6, 7], title: 'Juvenile Dispersal', level: 'low',
-      msg: 'Young squirrels from the spring litter are dispersing. Activity near structures is moderate. A good time to inspect your roofline and soffit for new chew damage before fall.' },
-    { months: [8, 9, 10], title: 'Fall Stocking Season — High Activity', level: 'high',
-      msg: 'This is the busiest season for squirrel intrusions. Squirrels are actively seeking winter shelter and foraging intensely. Attic entry calls spike significantly from September through November.' },
-    { months: [11], title: 'Early Winter Nesting', level: 'high',
-      msg: 'Squirrels that entered your attic in fall are now settled in for winter. Damage accelerates as the cold weather keeps them confined inside your walls and attic space.' }
+    // Calibrated to actual gray/fox squirrel breeding cycles in the southeastern US:
+    // winter mating Jan–Feb, spring kits Mar–Apr, summer mating Jun–Jul, late-summer
+    // kits Aug–Sep, peak juvenile dispersal Oct–Nov. May and December are the two
+    // low-pressure scheduling windows. The body content on each page mirrors this schedule.
+    { months: [11], title: 'Low-Pressure Window — Schedule Proactive Exclusion', level: 'low',
+      msg: 'December is the lowest-pressure squirrel month and the best window for proactive exclusion before the winter mating spike begins in January. Soffit, ridge-vent, and gable-vent work scheduled now prevents the February attic-establishment wave that follows the breeding peak.' },
+    { months: [0, 1], title: 'Winter Mating Peak', level: 'high',
+      msg: 'Adult squirrels are at peak mating-related territorial activity. Males chase across rooftops and through tree canopy; females scout attics for natal sites. Attic intrusion calls spike from January through February.' },
+    { months: [2, 3], title: 'Spring Kit Season — Exclusion Restricted', level: 'high',
+      msg: 'Non-volant squirrel kits from the winter breeding cycle are present in attics through March and April. Direct exclusion of mothers is restricted — kit-aware protocols are required. Either let the mother relocate kits voluntarily (3–7 days) or arrange supervised hand recovery for outdoor reunion before sealing entry points.' },
+    { months: [4], title: 'Low-Pressure Window — Schedule Exclusion Now', level: 'low',
+      msg: 'May is the lowest-pressure squirrel month before the summer mating peak. Spring kits have dispersed; summer breeding has not started. This is the highest-leverage window of the year for full structural exclusion before the next attic-establishment wave.' },
+    { months: [5, 6], title: 'Summer Mating Peak', level: 'high',
+      msg: 'The second of the two annual squirrel breeding cycles. Adult-female attic intrusion calls climb again from June through July as mothers scout for natal sites ahead of the August kit season.' },
+    { months: [7, 8], title: 'Late-Summer Kit Season', level: 'high',
+      msg: 'Non-volant kits from the summer breeding peak are present in attics through August and September. Same kit-aware exclusion protocol as spring — voluntary relocation or supervised hand recovery before sealing.' },
+    { months: [9, 10], title: 'Peak Juvenile Dispersal — Highest Annual Call Volume', level: 'high',
+      msg: 'October and November are the absolute peak for squirrel attic calls. Both annual broods of juveniles seek new territory simultaneously, and homes with even small exclusion gaps see new intrusions within days. Same-day inspection strongly recommended once activity is detected.' }
   ],
 
   'bat-removal': [
