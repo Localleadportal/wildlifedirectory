@@ -218,7 +218,7 @@
     "mainEntity": countyContent.faqs.map(f => ({
       "@type": "Question",
       "name": f.q,
-      "acceptedAnswer": { "@type": "Answer", "text": f.a }
+      "acceptedAnswer": { "@type": "Answer", "text": f.aText || f.a }
     }))
   }) %>
   </script>
@@ -308,7 +308,11 @@
     <section class="cta-section">
       <div class="container">
         <div class="cta-box">
+          <% if (countyContent && countyContent.contractor) { %>
           <h2>Your Local <%= countyName %> Expert</h2>
+          <% } else { %>
+          <h2>Get Matched with a <%= countyName %> Wildlife Pro</h2>
+          <% } %>
           <p class="llp-company-name company-name" style="display:none;"></p>
           <p class="cta-sub">Licensed, insured &amp; local. Available for same-day and emergency service.</p>
           <div class="phone-wrap">
@@ -590,6 +594,6 @@
     </div>
   </footer>
 
-  <script src="<%- embedScript %>"></script>
+  <script defer src="<%- embedScript %>"></script>
 </body>
 </html>
