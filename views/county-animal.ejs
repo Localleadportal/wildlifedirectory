@@ -6,6 +6,9 @@
   const pageDesc = (countyAnimalContent && countyAnimalContent.metaDescription)
     ? countyAnimalContent.metaDescription
     : (animal.name + ' in ' + countyName + ', ' + stateName + '. ' + (animal.costRange ? 'Typical cost ' + animal.costRange + '. ' : '') + 'Licensed local contractor — humane methods, same-day service available. ' + (seasonal ? seasonal.title + '.' : ''));
+  // Twitter description can be optionally differentiated from the meta description
+  // for a more conversational social-audience tone. Falls back to pageDesc when unset.
+  const twitterDesc = (countyAnimalContent && countyAnimalContent.twitterDescription) || pageDesc;
   const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
   // Same opt-in gating as county.ejs: only fire enriched scaffolding when this (county, animal) pair has its own content block.
   const seoEnhanced = !!(countyAnimalContent && countyAnimalContent.geo);
@@ -45,7 +48,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="<%= pageTitle %>">
-  <meta name="twitter:description" content="<%= pageDesc %>">
+  <meta name="twitter:description" content="<%= twitterDesc %>">
   <meta name="twitter:image" content="<%= ogImage %>">
 
   <!-- Geo -->
@@ -300,7 +303,7 @@
     <section class="page-hero">
       <div class="container">
         <div class="hero-badge"><%= countyName %>, <%= stateName %></div>
-        <h1><%= animal.emoji %> <%= animal.name %> in <%= countyName %></h1>
+        <h1><span aria-hidden="true"><%= animal.emoji %></span> <%= animal.name %> in <%= countyName %></h1>
         <p><%= animal.shortDesc %></p>
       </div>
     </section>
@@ -514,7 +517,8 @@
     </section>
     <% } %>
 
-    <% if (animal.costRange) { %>
+    <% if (animal.costRange && !(countyAnimalContent && countyAnimalContent.pricing && countyAnimalContent.pricing.length)) { %>
+    <%# Generic national-level cost block. Suppressed when this (county, animal) pair has its own detailed pricing array — that local table is the canonical source of truth and shows in the extendedBody. %>
     <section class="county-content" style="background:#f8fafc;">
       <div class="container">
         <h2><%= animal.name %> Cost in <%= stateName %></h2>

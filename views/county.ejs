@@ -2,6 +2,9 @@
   const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + toSlug(countyName) + '/';
   const pageTitle = countyContent ? countyContent.metaTitle : 'Wildlife Removal in ' + countyName + ', ' + stateName + ' | RemoveWildlifeNow.com';
   const pageDesc = countyContent ? countyContent.metaDescription : 'Find a licensed wildlife removal contractor in ' + countyName + ', ' + stateName + '. Local experts for raccoon, squirrel, bat, snake removal and full exclusion service.';
+  // Twitter description can be optionally differentiated from the meta description
+  // for a more conversational social-audience tone. Falls back to pageDesc when unset.
+  const twitterDesc = (countyContent && countyContent.twitterDescription) || pageDesc;
   const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
   // Gate enhanced SEO scaffolding (OG, Twitter, geo meta, additional schemas, FAQ section, neighbors)
   // behind data-presence so this rollout is scoped to one county at a time. Other counties render
@@ -39,7 +42,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="<%= pageTitle %>">
-  <meta name="twitter:description" content="<%= pageDesc %>">
+  <meta name="twitter:description" content="<%= twitterDesc %>">
   <meta name="twitter:image" content="<%= ogImage %>">
 
   <!-- Geo -->
