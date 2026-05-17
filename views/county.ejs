@@ -49,6 +49,40 @@
   <meta name="ICBM" content="<%= countyContent.geo.lat %>, <%= countyContent.geo.lon %>">
   <% } %>
 
+  <!-- Organization (site-wide directory operator) -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://www.removewildlifenow.com/#organization",
+    "name": "RemoveWildlifeNow.com",
+    "url": "https://www.removewildlifenow.com/",
+    "logo": "https://www.removewildlifenow.com/images/logo.png",
+    "description": "Nationwide directory of licensed wildlife removal contractors. Connecting homeowners with local professionals for raccoons, squirrels, rats, bats, snakes, and more.",
+    "areaServed": { "@type": "Country", "name": "United States" },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-844-544-3498",
+      "contactType": "customer service",
+      "areaServed": "US",
+      "availableLanguage": "English"
+    }
+  }) %>
+  </script>
+
+  <!-- WebSite (site-wide; resolves the #website @id referenced by WebPage.isPartOf below) -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://www.removewildlifenow.com/#website",
+    "url": "https://www.removewildlifenow.com/",
+    "name": "RemoveWildlifeNow.com",
+    "description": "Find licensed wildlife removal contractors near you.",
+    "publisher": { "@id": "https://www.removewildlifenow.com/#organization" }
+  }) %>
+  </script>
+
   <%
     // Aggregate testimonials → AggregateRating fields. When testimonials are added,
     // both the visual section (later in the page) and these schema fields light up.
