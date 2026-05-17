@@ -376,6 +376,9 @@ function georgiaContent(countyName, county, s) {
   let neighboringCounties = null;
   let geo = null;
   let sameAs = null;
+  let heroIntro = null;
+  let lastUpdated = null;
+  let contractor = null;
 
   if (countyName === 'Cobb County') {
     blockA = `Cobb County sits in the northwestern Atlanta metro area immediately north of the Chattahoochee River, with downtown Atlanta about 20 miles southeast of the county seat in Marietta. With a population of ${county.population.toLocaleString()} — making it one of Georgia's largest counties — Cobb runs from the older inner-ring neighborhoods of Smyrna, Marietta, and Vinings out through the dense suburban corridors of East Cobb, Kennesaw, and Acworth, with the Kennesaw Mountain National Battlefield Park anchoring the county's center and the Chattahoochee River corridor forming the southern boundary. Established in ${county.established}, the county combines Civil War-era historic districts, post-war ranch suburbs, and late-20th-century subdivisions under heavy oak-hickory canopy.`;
@@ -682,7 +685,17 @@ function georgiaContent(countyName, county, s) {
 
   } else if (countyName === 'Bibb County') {
     blockA = `Bibb County sits in central Georgia at the geological Fall Line — the boundary where the rolling Piedmont meets the flatter Coastal Plain — about 85 miles south of Atlanta on I-75. The Ocmulgee River bisects the county, and Macon-Bibb's consolidated city-county government (consolidated in 2014, the largest such unified government in Georgia by population) operates as the regional hub for central Georgia rather than as a metro Atlanta suburb. With a population of ${county.population.toLocaleString()}, Bibb concentrates an unusually deep pre-1860 antebellum housing inventory across Macon's Vineville, In-Town, Beall's Hill, and Pleasant Hill historic districts, plus the campuses of Mercer University, Wesleyan College (founded 1836, one of the oldest women's colleges in the U.S.), and Middle Georgia State University. Established in ${county.established}, Bibb's wildlife profile is shaped less by metro-Atlanta dispersal patterns than by the Fall Line ecological transition that sets central Georgia apart from north Georgia.`;
-    blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrels share Bibb's residential canopy with notable populations of fox squirrels (Sciurus niger) — a Coastal Plain species that's far more visible in Macon residential calls than anywhere in metro Atlanta. Southern flying squirrels turn up in older Vineville Victorians and the pre-1900 Pleasant Hill stock. Brazilian free-tailed bat colonies form in central-Georgia commercial buildings, bridges, and occasionally in pre-1860 Macon residential roosts — a species rarely seen in pre-1860 housing further north. Norway rats are persistent in Macon's Mulberry Street and Cherry Street historic-downtown commercial corridors. ${cap(county.absent_or_rare)}.`;
+    blockB = `<h3>Squirrel mix: fox squirrels alongside Eastern grays</h3>
+      <p>Bibb's Fall Line position puts <strong>fox squirrels</strong> (<em>Sciurus niger</em>) into the residential call profile at densities rarely seen in north Georgia. The larger, slower, more colorful Coastal Plain cousin of the Eastern gray squirrel routinely appears in attic-entry and chimney-cap calls across Macon, particularly in Shirley Hills and Ingleside where mature pine-and-hardwood canopy matches the species's preferred habitat. Eastern gray squirrels remain heavy as well across the Vineville, In-Town, and intown historic districts. <strong>Southern flying squirrels</strong> turn up in older Vineville Victorians and the pre-1900 Pleasant Hill stock, where original soffit-and-vent inventory and large attic volumes match flying-squirrel den-site preferences. Squirrel pressure spikes in late March during peak Cherry Blossom Festival bloom, when the 350,000+ Yoshino cherry trees flowering across Macon produce a measurable feeding-and-attic-entry uptick.</p>
+
+      <h3>Bat colonies and antebellum chimneys</h3>
+      <p>Pre-1860 antebellum housing across the Vineville, In-Town, and Beall's Hill historic districts hosts long-established <strong>big-brown-bat</strong> maternity colonies — many spanning 50-100+ years of continuous occupation in original masonry chimneys. Multigenerational colony memory persists across changes in property ownership: bat daughters return to their natal roosts to whelp every year, so the same chimney that hosted bats in 1920 is very likely hosting them today. <strong>Brazilian free-tailed bats</strong> (<em>Tadarida brasiliensis</em>) form colonies in central Georgia commercial buildings and highway bridges that are rare in north Georgia, and occasionally appear in pre-1860 Macon residential roosts alongside the more common big brown and evening bats. The <strong>tricolored bat</strong> (<em>Perimyotis subflavus</em>) — federally proposed for endangered listing — is documented in central Georgia and may appear in pre-1860 antebellum Macon chimney colonies, so pre-removal species verification is a routine part of any historic-district bat job here.</p>
+
+      <h3>Rats and the historic commercial corridors</h3>
+      <p><strong>Norway rats</strong> are persistent in the <strong>Mulberry Street</strong> and <strong>Cherry Street</strong> historic-downtown commercial corridors, where restaurant alley-and-loading-dock infrastructure, older retail-pad dumpster geometry, and pre-1900 brick-foundation ecology sustain a steady-state population that periodically pushes into adjacent residential blocks. <strong>Roof rats</strong> arrived in Bibb decades earlier than in metro Atlanta — central Georgia warmth supports year-round breeding cycles that sustain population growth — and are now firmly established countywide. Suburban subdivision roof-rat work is a heavy-volume call category across Shirley Hills, Ingleside, and the post-WWII housing belt, where long-tenured infestations on 1950s-70s housing commonly involve multi-entry attic-cavity work as original construction ages out of integrity.</p>
+
+      <h3>Ocmulgee corridor dispersal: raccoons, opossums, snakes</h3>
+      <p>The <strong>Ocmulgee River</strong> bisects Bibb County, and the federally protected <strong>Ocmulgee Mounds National Historical Park</strong> on the eastern bank concentrates pre-Columbian Mississippian mounds within several hundred acres of protected wetland and bottomland hardwood forest. The protected habitat sustains a continuous year-round source population of raccoons, Virginia opossums, beavers, and Eastern rat snakes that disperses west across the river into adjacent Bibb residential neighborhoods. Vineville-area properties and the older intown housing west of the river take continuous fall dispersal pressure during the September-November window. <strong>Armadillos</strong> were established in Macon by the 1980s — decades before they reached metro Atlanta — and are now routine residential trap-and-relocate calls. <strong>American alligators</strong> occur in the lower Ocmulgee and its slack-water reaches at densities above any north Georgia waterway; encounters of any animal over 4 feet should be referred directly to Georgia DNR rather than handled through commercial wildlife services. White-tailed deer reach high densities along the river corridor and the wooded subdivision edges of Shirley Hills and Ingleside.</p>`;
     blockC = `Coverage spans the entire Macon-Bibb consolidated government footprint, including the Vineville, In-Town, Beall's Hill, Pleasant Hill, Shirley Hills, Ingleside, and Tattnall Square neighborhoods, the Mercer University and Wesleyan College campus districts, the Lake Tobesofkee shoreline, the Ocmulgee River corridor, and the unincorporated areas along with the Payne CDP. Macon-Bibb's mix of pre-1860 antebellum housing, pre-1900 Pleasant Hill mill-village stock, post-WWII Shirley Hills and Ingleside ranches, three university student-housing districts, and the Ocmulgee corridor's continuous wildlife-source pressure produces a job mix unlike any north Georgia county.`;
     metaTitle = `Macon-Bibb Wildlife Removal — Vineville, Ocmulgee Pros`;
     metaDescription = `Licensed Macon-Bibb wildlife removal — Vineville antebellum chimney bat colonies, Ocmulgee raccoon work, Mercer-area student rentals. Same-day inspection.`;
@@ -692,6 +705,20 @@ function georgiaContent(countyName, county, s) {
       'https://en.wikipedia.org/wiki/Bibb_County,_Georgia',
       'https://en.wikipedia.org/wiki/Macon,_Georgia',
     ];
+    lastUpdated = '2026-05-17';
+    // When the Bibb County contractor is assigned, populate this object to emit
+    // the PestControl LocalBusiness schema. Leave null until a real contractor
+    // is assigned — schema must not declare a fake entity.
+    //   contractor = {
+    //     name: 'Real Business Name',
+    //     telephone: '+14785551234',
+    //     streetAddress: '123 Cherry St',  // optional
+    //     addressLocality: 'Macon',        // optional, defaults to countyName
+    //     postalCode: '31201',             // optional
+    //     image: 'https://...',            // optional logo or storefront photo
+    //     priceRange: '$$',                // optional, defaults to '$$'
+    //     geo: { lat: 32.84, lon: -83.63 } // optional
+    //   };
 
     neighboringCounties = [
       { name: 'Jones County',     slug: 'jones-county',     anchor: 'Jones County wildlife removal',       blurb: 'directly to the north' },
@@ -721,7 +748,15 @@ function georgiaContent(countyName, county, s) {
       <p>Macon plants and maintains 350,000+ Yoshino cherry trees across the city — the largest concentration in any U.S. city — and the annual Cherry Blossom Festival in late March draws hundreds of thousands of visitors. From a wildlife perspective, the cherry tree concentration produces a measurable late-March feeding ecology: squirrels and birds (cedar waxwings, robins) feed heavily on the early-season blossoms and flower nectar, with Eastern gray squirrels in particular producing a noticeable spike in attic-and-gutter activity coinciding with peak bloom. The post-bloom period (early April) drives a residential-call uptick as the squirrels that fed in the cherry canopy seek interior denning sites for the spring breeding cycle.</p>
 
       <h2>Local Authorities and Regulations</h2>
-      <p>Public-health authority for Macon-Bibb rabies-vector exposure runs through the <strong>North Central Health District</strong> based in Macon. <strong>Macon-Bibb County Animal Welfare</strong> handles domestic-animal complaints but does not respond to most nuisance wildlife. Commercial wildlife removal operates under <strong>Georgia DNR Wildlife Resources Division Region 5</strong> (Fort Valley office). Federal protections apply to bats during maternity periods (May-August exclusion restrictions), all migratory birds, and American alligators in the lower Ocmulgee.`;
+      <p>Public-health authority for Macon-Bibb rabies-vector exposure runs through the <strong>North Central Health District</strong> based in Macon. <strong>Macon-Bibb County Animal Welfare</strong> handles domestic-animal complaints but does not respond to most nuisance wildlife. Commercial wildlife removal operates under <strong>Georgia DNR Wildlife Resources Division Region 5</strong> (Fort Valley office). Federal protections apply to bats during maternity periods (May-August exclusion restrictions), all migratory birds, and American alligators in the lower Ocmulgee.</p>
+
+      <h2>Authority Resources for Bibb County Wildlife</h2>
+      <ul class="tips-list">
+        <li><a href="https://georgiawildlife.com/" target="_blank" rel="noopener">Georgia DNR Wildlife Resources Division</a> &mdash; state wildlife agency that licenses nuisance wildlife operators and publishes Georgia's seasonal and species-specific removal regulations.</li>
+        <li><a href="https://www.nps.gov/ocmu/index.htm" target="_blank" rel="noopener">Ocmulgee Mounds National Historical Park (NPS)</a> &mdash; the federally protected park east of Macon whose bottomland-forest source population drives much of Bibb's raccoon, opossum, and rat snake dispersal pressure.</li>
+        <li><a href="https://www.northcentralhealthdistrict.org/" target="_blank" rel="noopener">North Central Health District</a> &mdash; Macon-based public-health authority for rabies-vector exposure reporting across Macon-Bibb.</li>
+        <li><a href="https://www.fws.gov/species/tricolored-bat-perimyotis-subflavus" target="_blank" rel="noopener">U.S. Fish &amp; Wildlife Service &mdash; tricolored bat (<em>Perimyotis subflavus</em>)</a> &mdash; federal Endangered Species Act information for the federally proposed tricolored bat documented in central Georgia chimney colonies.</li>
+      </ul>`;
 
     faqs = [
       {
@@ -750,7 +785,7 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'How much does wildlife removal cost in Macon-Bibb?',
-        a: "Pricing varies by species and exclusion scope. Pre-1860 Vineville, In-Town, and Beall's Hill antebellum-housing raccoon jobs run $700-$2,000+ because of multi-entry-point profiles. Long-established Macon historic-district bat colonies — many of them 50-100+ years old — run $3,000-$6,000+ once full guano remediation is included. Pleasant Hill historic-district work runs similarly. Norway rat work in the Mulberry Street and Cherry Street historic-downtown commercial corridors runs $700-$1,800+. Suburban subdivision roof-rat exclusion runs $400-$900+. Armadillo trap-and-relocate (a heavy-volume Bibb call category) runs $250-$600+ per yard."
+        a: "Pricing varies by species and exclusion scope. Typical Bibb County ranges:<table style='width:100%;border-collapse:collapse;margin:14px 0 4px;font-size:0.92rem;'><thead style='background:#f1f5f9;'><tr><th style='text-align:left;padding:8px 10px;border-bottom:2px solid #cbd5e1;'>Service</th><th style='text-align:left;padding:8px 10px;border-bottom:2px solid #cbd5e1;'>Scope</th><th style='text-align:left;padding:8px 10px;border-bottom:2px solid #cbd5e1;'>Price Range</th></tr></thead><tbody><tr><td style='padding:8px 10px;border-bottom:1px solid #e2e8f0;'>Antebellum raccoon removal</td><td style='padding:8px 10px;border-bottom:1px solid #e2e8f0;'>Vineville/In-Town/Beall's Hill multi-entry</td><td style='padding:8px 10px;border-bottom:1px solid #e2e8f0;white-space:nowrap;'>$700–$2,000+</td></tr><tr><td style='padding:8px 10px;border-bottom:1px solid #e2e8f0;'>Historic-district bat colony</td><td style='padding:8px 10px;border-bottom:1px solid #e2e8f0;'>50–100+ year colony, full guano remediation</td><td style='padding:8px 10px;border-bottom:1px solid #e2e8f0;white-space:nowrap;'>$3,000–$6,000+</td></tr><tr><td style='padding:8px 10px;border-bottom:1px solid #e2e8f0;'>Norway rat — commercial corridor</td><td style='padding:8px 10px;border-bottom:1px solid #e2e8f0;'>Mulberry/Cherry Street historic downtown</td><td style='padding:8px 10px;border-bottom:1px solid #e2e8f0;white-space:nowrap;'>$700–$1,800+</td></tr><tr><td style='padding:8px 10px;border-bottom:1px solid #e2e8f0;'>Roof rat exclusion</td><td style='padding:8px 10px;border-bottom:1px solid #e2e8f0;'>Suburban subdivision</td><td style='padding:8px 10px;border-bottom:1px solid #e2e8f0;white-space:nowrap;'>$400–$900+</td></tr><tr><td style='padding:8px 10px;'>Armadillo trap-and-relocate</td><td style='padding:8px 10px;'>Per yard</td><td style='padding:8px 10px;white-space:nowrap;'>$250–$600+</td></tr></tbody></table>"
       },
       {
         q: 'Are there protected species in Bibb County I should know about?',
@@ -1707,12 +1742,152 @@ function georgiaContent(countyName, county, s) {
         a: 'Yes — more than any inland Georgia county. Sea turtles (loggerhead, green, leatherback, Kemp\'s ridley) nest on Tybee Island, Wassaw, and the other barrier islands under federal Endangered Species Act protection; nest disturbance is a federal offense. Wood storks are federally threatened. Bald eagles are protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act. The federally proposed tricolored bat is documented in the coastal Georgia bat community. Piping plovers and other migratory shorebirds use the barrier-island beach habitat. American alligators are protected under state law and federal ESA similarity-of-appearance provisions. All bats are protected by Georgia DNR regulations during maternity season. Migratory birds (Canada geese, owls, hawks, woodpeckers, herons, egrets) require federal Migratory Bird Treaty Act permits for any active take. Licensed contractors are required to know which species can be handled directly and which require specific federal or state permitting.'
       }
     ];
+
+  } else if (countyName === 'Butts County') {
+    heroIntro = `Same-day Jackson wildlife removal across Butts County — including Flovilla, Jenkinsburg, Indian Springs, and the Lake Jackson shoreline communities. Licensed under Georgia DNR.`;
+
+    blockA = `Butts County sits in the central Georgia Piedmont uplands roughly midway between Atlanta and Macon, directly on the I-75 corridor. The county seat — <strong>Jackson</strong> (population ~5,300) — was founded in ${county.established} alongside the county itself and was named for U.S. President Andrew Jackson. With a county population of ${county.population.toLocaleString()}, Butts combines Jackson's pre-1900 historic-downtown courthouse square (Third Street, Mulberry Street, Holly Street, and the surrounding antebellum and Victorian residential blocks), the smaller incorporated communities of <strong>Flovilla</strong> and <strong>Jenkinsburg</strong>, the unincorporated village of <strong>Indian Springs</strong>, and substantial rural-residential and agricultural acreage on the surrounding Piedmont rolling-hill landscape. Jackson is also the birthplace of <strong>Crawford W. Long</strong>, the physician who pioneered the use of anesthetic ether. Jackson wildlife removal demand is shaped by three distinctive geographic features that few other counties this size share: <strong>Indian Springs State Park</strong> (the oldest state park in the United States, founded 1825 — the same year as the county), <strong>Lake Jackson</strong> along the eastern boundary, and the <strong>I-75 corridor</strong> commercial cluster at the Jackson exits.`;
+
+    blockB = `${cap(county.regional_wildlife)}. Eastern gray squirrel intrusions are constant in Jackson's pre-1900 courthouse-square neighborhoods where the mature pecan and hardwood canopy touches original wood soffits, and Virginia opossums shelter under porches across the pre-Civil War and Victorian residential blocks along Third Street, Mulberry Street, and Holly Street. Snake calls — primarily Eastern rat snakes and the occasional copperhead — concentrate along the <strong>Towaliga River</strong> corridor through Indian Springs State Park and on Lake Jackson shoreline properties, particularly in spring and fall. Striped skunks are persistent under sheds in the smaller Flovilla and Jenkinsburg communities, and dead-animal calls run year-round given Butts County's near-continuous Piedmont wildlife activity. ${cap(county.absent_or_rare)}.`;
+
+    blockC = `Jackson wildlife removal coverage spans all of Butts County including ${top4cities}, plus the unincorporated communities of Indian Springs, Iron Springs Crossroads, Pepperton, Stark, Worthville, Cork, Fincherville, and McMichael Crossroads. The combination of Jackson's pre-1900 historic-downtown housing, the Lake Jackson lakefront housing inventory, the substantial pine-hardwood acreage surrounding Indian Springs State Park, and the I-75 corridor commercial pressure at Exits 198, 201, and 205 — combined with the year-round wildlife activity that defines central Georgia — means contractors here handle a continuous mix of historic-attic bat exclusion, lakeshore raccoon work, I-75-corridor Norway rat control, and rural-acreage coyote and feral hog calls.`;
+
+    metaTitle = `Wildlife Removal in Jackson & Butts County, GA | RemoveWildlifeNow`;
+    metaDescription = `Licensed Jackson wildlife removal across Butts County, GA — raccoons, squirrels, bats, snakes, and full exclusion service. Serving Jackson, Flovilla, Jenkinsburg, Indian Springs & Lake Jackson. Same-day available.`;
+
+    geo = { lat: 33.2949, lon: -83.9659 };
+    sameAs = [
+      'https://en.wikipedia.org/wiki/Butts_County,_Georgia',
+      'https://en.wikipedia.org/wiki/Jackson,_Georgia',
+    ];
+    lastUpdated = '2026-05-17';
+
+    neighboringCounties = [
+      { name: 'Henry County',    slug: 'henry-county',    anchor: 'Wildlife removal in Henry County',    blurb: 'directly to the north, along the I-75 corridor toward McDonough' },
+      { name: 'Newton County',   slug: 'newton-county',   anchor: 'Newton County wildlife services',     blurb: 'to the northeast, sharing the Lake Jackson shoreline' },
+      { name: 'Jasper County',   slug: 'jasper-county',   anchor: 'Jasper County animal removal',        blurb: 'to the east, sharing the Ocmulgee River drainage' },
+      { name: 'Monroe County',   slug: 'monroe-county',   anchor: 'Monroe County wildlife removal',      blurb: 'to the south, including High Falls State Park' },
+      { name: 'Lamar County',    slug: 'lamar-county',    anchor: 'Lamar County wildlife services',      blurb: 'to the southwest, along the Towaliga River corridor' },
+      { name: 'Spalding County', slug: 'spalding-county', anchor: 'Spalding County animal removal',      blurb: 'to the west, toward Griffin' },
+    ];
+
+    extendedBody = `
+      <h2>Butts County Geography Shapes Jackson-Area Wildlife Activity</h2>
+      <p>Butts County occupies a transitional position in the central Georgia <strong>Piedmont uplands</strong>, sitting squarely between the southern fringe of metro Atlanta and the Macon-Bibb metro to the south. The county is part of the <strong>Ocmulgee River basin</strong> — a 6,180-square-mile watershed that drains across the center of Georgia and forms at the eastern edge of the county where the Yellow River and South River meet to create <strong>Lake Jackson</strong> and the headwaters of the Ocmulgee proper. The <strong>Towaliga River</strong> runs through southern Butts and is the dominant water feature inside <a href="https://gastateparks.org/IndianSprings" target="_blank" rel="noopener"><strong>Indian Springs State Park</strong></a>, the oldest state park in the United States, established in 1825 — the same year the county itself was created. The I-75 corridor cuts through the county center and produces a concentrated commercial-and-rest-stop cluster at the Jackson exits that has a direct effect on the local rodent population profile.</p>
+
+      <p>Within or directly adjacent to the county sit several public lands and ecological features that drive residential wildlife pressure: Indian Springs State Park (528 acres), the Lake Jackson shoreline, the Towaliga River corridor, <strong>Dauset Trails Nature Center</strong> (adjacent to Indian Springs, with a Towaliga River waterfall), and — just across the southern county line in Monroe County — <strong>High Falls State Park</strong>, whose Towaliga River cascades draw heavy visitor traffic through Butts. The result is a small Piedmont county where protected and semi-protected habitat sits directly against historic Jackson neighborhoods, lakefront subdivisions, and rural-residential acreage — and that interface drives the local Jackson wildlife removal call profile.</p>
+
+      <h3>Lake Jackson and the Ocmulgee Headwaters</h3>
+      <p>Lake Jackson — a 4,750-acre reservoir formed where the Yellow and South Rivers meet at the eastern Butts boundary — supports a wooded shoreline forest plus a substantial inventory of seasonal-residential and full-time lakefront housing. <strong>Lakeshore raccoons routinely reach 18-22+ pounds</strong> because of waterfront foraging access and continuous food subsidy from dock-and-deck areas; multi-generational raccoon den re-use in lakefront chimney stacks and outbuilding lofts is the rule rather than the exception. The Ocmulgee River drainage forms here and continues south through Jasper, Jones, and Bibb counties — supporting the watershed-wide biodiversity described by the <a href="https://rivercenter.uga.edu/resources/river-basins-of-georgia/ocmulgee/" target="_blank" rel="noopener">UGA River Basin Center</a>.</p>
+
+      <h2>Wildlife Species Present in Butts County</h2>
+      <p>Butts residents most frequently call about animals that have moved from Indian Springs State Park, the Lake Jackson shoreline, or the surrounding rural acreage into residential structures:</p>
+      <ul class="tips-list">
+        <li><strong>Raccoons</strong> (<em>Procyon lotor</em>) — heaviest densities along the Lake Jackson shoreline; 18-22+ lb adults common in waterfront-adjacent properties</li>
+        <li><strong>Eastern gray squirrels</strong> (<em>Sciurus carolinensis</em>) — constant across Jackson's pre-1900 courthouse-square housing and the suburban canopy</li>
+        <li><strong>Fox squirrels</strong> (<em>Sciurus niger</em>) — appear in residential calls because of the substantial pine-hardwood remnant acreage surrounding Indian Springs State Park</li>
+        <li><strong>Southern flying squirrels</strong> in older Jackson housing</li>
+        <li><strong>Big brown bats</strong> (<em>Eptesicus fuscus</em>) — long-established colonies in original masonry chimneys around the Butts County Courthouse square, many spanning 50-100+ years of continuous occupation</li>
+        <li><strong>Evening bats</strong> (<em>Nycticeius humeralis</em>) in older Jackson and Flovilla housing</li>
+        <li><strong>Tricolored bats</strong> (<em>Perimyotis subflavus</em>) — federally proposed for listing; documented in central Georgia and may appear in pre-1900 Jackson chimney colonies</li>
+        <li><strong>Norway rats</strong> (<em>Rattus norvegicus</em>) — concentrated in pre-1900 historic-downtown commercial blocks and the I-75 commercial cluster at the Jackson exits</li>
+        <li><strong>Roof rats</strong> (<em>Rattus rattus</em>) — moved up the I-75 corridor through central Georgia during the 2000s-2010s and are firmly established in Jackson and Jenkinsburg subdivision canopy</li>
+        <li><strong>Virginia opossums</strong>, <strong>striped skunks</strong>, <strong>Eastern cottontail rabbits</strong>, <strong>nine-banded armadillos</strong> (rapidly expanding north through central Georgia)</li>
+        <li><strong>Coyotes</strong> — high densities across the county because of surrounding rural and state-park source habitat</li>
+        <li><strong>Beavers</strong> along Towaliga River tributaries and Lake Jackson coves</li>
+        <li><strong>White-tailed deer</strong> — exceptional densities along the Indian Springs State Park and Lake Jackson corridors</li>
+        <li><strong>Feral hogs</strong> — established across rural Butts acreage; agricultural damage seasonal</li>
+        <li>Snakes — <strong>Eastern rat snake</strong> (frequently mistaken for venomous), <strong>copperhead</strong> (along wooded edges and the Towaliga corridor), and the occasional <strong>brown watersnake</strong> on lakefront properties</li>
+        <li><strong>American alligators</strong> appear occasionally in the lower Ocmulgee River reaches — any encounter over 4 feet should be referred to Georgia DNR rather than handled privately</li>
+      </ul>
+
+      <h2>Common Wildlife Issues That Define the Butts Job Mix</h2>
+      <p>Several patterns in Butts County's call volume are distinctive enough to call out:</p>
+
+      <h3>Pre-1900 chimney bat colonies in Jackson's courthouse-square neighborhoods</h3>
+      <p>Jackson's pre-1900 historic-downtown housing around the <strong>Butts County Courthouse</strong> (rebuilt in 1898 after Union General William T. Sherman's troops burned the original during the March to the Sea in 1864) hosts long-established big-brown-bat maternity colonies in original masonry chimneys — many spanning <strong>50-100+ years of continuous occupation</strong>. Daughters return to natal roosts to whelp, so colony memory is multigenerational and persists across changes in property ownership. Pre-1900 chimney bat work additionally requires federal tricolored-bat ESA-compliance documentation given the species's documented presence in central Georgia.</p>
+
+      <h3>Lake Jackson lakefront raccoon and chimney work</h3>
+      <p>The 4,750-acre Lake Jackson shoreline produces a distinct call submarket: oversized lakefront raccoons (18-22+ lb is routine), multi-generational chimney den re-use in lakefront homes, and continuous source pressure from the wooded shoreline forest. Most lakefront Butts jobs involve full chimney-cap installation plus crawlspace and outbuilding sealing — single-entry exclusion rarely holds on a shoreline property because the source population is permanent.</p>
+
+      <h3>I-75 corridor Norway rat pressure at the Jackson exits</h3>
+      <p>The I-75 commercial cluster at Exits 198 (Jackson), 201, and 205 — restaurant dumpsters, hotel waste streams, gas station and fast-food clusters — sustains heavy Norway rat populations year-round. Properties within roughly a quarter-mile of these exits see consistent dispersal pressure into adjacent residential blocks; durable resolution typically requires expanded-perimeter exclusion rather than single-property work.</p>
+
+      <h3>Indian Springs State Park edge wildlife in Flovilla</h3>
+      <p>Flovilla (~700 residents) sits directly adjacent to Indian Springs State Park, and the source-population density per resident exceeds nearly any other Butts-area community. Continuous pressure from the immediately adjacent state-park acreage produces year-round raccoon, opossum, fox squirrel, bat, coyote, and snake calls on Flovilla residential blocks. Multi-structure rural-residential properties with detached barns, sheds, and equipment buildings are the rule; effective Flovilla exclusion plans inspect every structure.</p>
+
+      <h3>Rural feral hog damage and coyote pressure</h3>
+      <p>Feral hogs are established across rural Butts County acreage and cause seasonal agricultural and pasture damage. Coyote densities are high countywide given the surrounding rural and state-park source habitat. Both species are managed under Georgia DNR Wildlife Resources Division protocols and frequently require landowner-coordinated trapping rather than single-property work.</p>
+
+      <h2>Federally Protected Species in the Butts County Watersheds</h2>
+      <p>The <strong>tricolored bat</strong> (<em>Perimyotis subflavus</em>) is federally proposed for listing under the Endangered Species Act and is documented in central Georgia — encounters in pre-1900 Jackson chimney colonies require careful protocol. <strong>Bald eagles</strong> remain protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act; nesting pairs occur at Lake Jackson. <strong>Migratory birds</strong> — including Canada geese, hawks, owls, woodpeckers, and chimney swifts — are protected under the Migratory Bird Treaty Act and require federal permits for any active take. American alligators in the lower Ocmulgee reaches are protected under state law and federal ESA similarity-of-appearance provisions.</p>
+
+      <h2>Typical Wildlife Removal Pricing in Butts County</h2>
+      <p>Pricing varies with species, property complexity, and the scope of exclusion work — these ranges reflect what most homeowners in the Jackson and Lake Jackson submarkets pay for completed work. Free phone estimates are standard once species and structure are identified.</p>
+      <table class="pricing-table" style="width:100%;border-collapse:collapse;margin:18px 0;font-size:0.95rem;">
+        <thead>
+          <tr style="background:#f1f5f9;text-align:left;">
+            <th style="padding:10px 12px;border:1px solid #e5e7eb;">Service</th>
+            <th style="padding:10px 12px;border:1px solid #e5e7eb;">Typical Range</th>
+            <th style="padding:10px 12px;border:1px solid #e5e7eb;">Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Raccoon trapping &amp; removal</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$300–$650</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Lakefront properties often run higher because of multi-entry chimney access</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Squirrel removal &amp; exclusion</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$250–$550</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Includes one-way doors and sealing of identified entry points</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Bat colony exclusion (historic chimney)</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$1,200–$3,500+</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Pre-1900 Jackson chimneys; legal windows are April and September–mid-October</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Snake identification &amp; removal</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$150–$350 per visit</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Higher for confirmed venomous species (copperhead)</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Rodent (Norway/roof rat) control</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$400–$1,200</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">I-75-corridor properties often need expanded-perimeter plans</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Attic decontamination &amp; remediation</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$1,000–$4,500</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Insulation removal, HEPA sanitization, damage repair</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Full home exclusion (multi-entry)</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$1,500–$4,000+</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Galvanized steel mesh, 1-year guarantee</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Local Authorities and Regulations</h2>
+      <p><strong><a href="https://buttscountyga.com/" target="_blank" rel="noopener">Butts County government</a></strong> handles county-level services but does not respond to most nuisance wildlife calls — raccoons, squirrels, bats, snakes, beavers, coyotes, and similar species are referred to private licensed wildlife control operators. State-level oversight comes from the <strong><a href="https://georgiawildlife.com/" target="_blank" rel="noopener">Georgia Department of Natural Resources, Wildlife Resources Division</a></strong> — Butts County falls within Georgia DNR Region 1 (Northeast) given its Piedmont position north of the Fall Line. Georgia DNR issues the Trapping License and Nuisance Wildlife Control Permit required for commercial operators. Federal protections apply to bats during maternity periods (May–August exclusion restrictions), all migratory birds, and the federally proposed tricolored bat. American alligators in the lower Ocmulgee reaches and any encounter over 4 feet require Georgia DNR coordination. Every contractor in this directory operating in Butts County is required to hold the applicable state and federal credentials.</p>
+    `;
+
+    faqs = [
+      {
+        q: 'What wildlife is most common in Butts County, Georgia?',
+        a: 'In Jackson wildlife removal calls across Butts County, raccoons, Eastern gray squirrels, Virginia opossums, big brown bats, Norway rats (in the I-75 commercial cluster and pre-1900 downtown blocks), and roof rats (in 1990s-2010s subdivisions along the I-75 corridor) make up the bulk of attic and yard intrusions. Snake calls — primarily Eastern rat snakes and the occasional copperhead — concentrate along the Towaliga River corridor through Indian Springs State Park and on Lake Jackson shoreline properties. Coyotes are firmly established countywide because of the surrounding rural and state-park source habitat. Larger species — white-tailed deer, feral hogs in rural acreage, the occasional black bear passing through the more remote edges, and American alligators in the lower Ocmulgee reaches — fall under direct Georgia DNR Wildlife Resources Division management rather than the private wildlife removal industry.'
+      },
+      {
+        q: 'Why are pre-1900 Jackson homes around the courthouse square so wildlife-prone?',
+        a: 'Jackson\'s pre-1900 housing — particularly the antebellum and Victorian residential blocks along Third Street, Mulberry Street, Holly Street, and the surrounding Butts County Courthouse square — features original masonry chimneys without modern caps, hand-laid brick foundations with pointing failures, pre-modern wood soffits with corner separation, and brick-veneer separation where mortar has aged out. Multi-entry profiles (4-5 separate access points per property) are the rule on courthouse-square historic properties, not the exception. Big brown bat maternity colonies in original masonry chimneys are routinely 50-100+ years old by the time a homeowner first notices activity — daughters return to natal roosts to whelp, so colony memory is multigenerational and persists across decades of property ownership.'
+      },
+      {
+        q: 'How does Lake Jackson affect wildlife pressure on lakefront properties?',
+        a: 'Lake Jackson — the 4,750-acre reservoir at the eastern Butts County boundary — sustains a wooded shoreline forest plus a permanent source population of raccoons, opossums, bats, and snakes. Lakefront raccoons routinely reach 18-22+ pounds because of waterfront foraging access and continuous food subsidy from dock-and-deck areas. Multi-generational raccoon den re-use in lakefront chimney stacks and outbuilding lofts is the rule. Most lakefront jobs require full chimney-cap installation plus crawlspace and outbuilding sealing — single-entry exclusion rarely holds because the source population is permanent. Beaver activity along Lake Jackson coves and Towaliga River tributaries also generates seasonal calls.'
+      },
+      {
+        q: 'Is wildlife removal regulated in Butts County?',
+        a: 'Yes. All commercial wildlife removal in Butts County operates under Georgia DNR Wildlife Resources Division licensing — the county falls within Region 1 (Northeast) given its Piedmont position north of the Fall Line. Georgia DNR requires every commercial wildlife trapper to hold a Trapping License, and for properties using lethal control, a Nuisance Wildlife Control Permit. Federal protections apply to bats during maternity periods (May–August), all migratory birds (Canada geese, owls, hawks, woodpeckers, chimney swifts), and the federally proposed-for-listing tricolored bat documented in central Georgia. Large game species — white-tailed deer, black bears, alligators, and feral hogs — fall under direct Georgia DNR management rather than the private removal industry. Every contractor in this directory operating in Butts County holds the applicable state and federal credentials.'
+      },
+      {
+        q: 'When is the best time to handle wildlife exclusion in Butts County?',
+        a: 'For most species in central Georgia, the best window for exclusion work is late summer through early spring — roughly August through April. Bat exclusion in particular must be scheduled outside the maternity period (May through August) to avoid trapping non-volant pups inside; the two legal windows in Georgia are April and September through mid-October. Squirrel and raccoon exclusion is best handled outside their main denning seasons (February through April for both species in central Georgia), though urgent intrusions can be addressed any time of year using one-way doors. Snake and rodent calls run year-round. Central Georgia\'s mild winters keep wildlife active twelve months a year — call volume here never fully drops off the way it does in northern states.'
+      },
+      {
+        q: 'How much does wildlife removal cost in Jackson and Butts County?',
+        a: 'Pricing varies significantly with species, property complexity, and the scope of exclusion work. A standard raccoon trapping-and-removal job runs $300-$650; lakefront properties on Lake Jackson often run higher because of multi-entry chimney access. Squirrel removal with exclusion runs $250-$550. Pre-1900 Jackson chimney bat colony exclusion — including federal tricolored-bat compliance — runs $1,200-$3,500+. Norway and roof rat control runs $400-$1,200; I-75-corridor properties often need expanded-perimeter plans rather than single-property treatment. Full home exclusion with galvanized steel mesh and a 1-year guarantee runs $1,500-$4,000+. Attic decontamination after a long-established colony can add $1,000-$4,500. The most accurate way to get a number is a free phone consult — most contractors quote at no cost once species and structure are identified.'
+      },
+      {
+        q: 'What should I do if I see an alligator near the Ocmulgee River in Butts County?',
+        a: 'American alligators occasionally appear in the lower Ocmulgee River reaches as the watershed extends south from Lake Jackson. Any encounter with an alligator over 4 feet should be referred to Georgia DNR Wildlife Resources Division rather than handled privately — alligators are protected under state law and the federal Endangered Species Act\'s similarity-of-appearance provisions, and self-attempts at handling or relocation are illegal and dangerous. Keep a safe distance, do not feed or approach the animal, and contact a licensed contractor or Georgia DNR for triage. Sub-4-foot encounters can sometimes be handled by a private licensed operator in coordination with DNR.'
+      },
+      {
+        q: 'Does Indian Springs State Park affect wildlife pressure in Flovilla?',
+        a: 'Yes — significantly. Flovilla (~700 residents) sits directly adjacent to Indian Springs State Park, the oldest state park in the United States. The source-population density per Flovilla resident exceeds nearly any other community in Butts County. Continuous pressure from the immediately adjacent 528-acre state-park acreage and the Towaliga River corridor produces year-round residential calls for raccoons, opossums, fox squirrels, bats, coyotes, and snakes. Most Flovilla wildlife work involves multi-structure rural-residential properties with detached barns, sheds, and equipment buildings — effective exclusion plans here inspect every structure rather than treating only the main house.'
+      }
+    ];
+
   }
 
   const blockD = `Wildlife intrusion in ${countyName} follows Georgia's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
   const blockE = `All commercial wildlife removal in Georgia is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds the applicable Georgia DNR licensing and operates within Wildlife Resources Division guidelines on species-specific handling and relocation.`;
 
-  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, extendedBody, faqs, neighboringCounties, geo, sameAs };
+  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, heroIntro, extendedBody, faqs, neighboringCounties, geo, sameAs, lastUpdated, contractor };
 }
 
 // ---- Tennessee county content ----
@@ -1736,6 +1911,8 @@ function tennesseeContent(countyName, county, s) {
   let geo = null;
   let sameAs = null;
   let testimonials = null;
+  let lastUpdated = null;
+  let contractor = null;
 
   if (countyName === 'Davidson County') {
     blockA = `Davidson County sits in the heart of Middle Tennessee's Nashville Basin along the Cumberland River, where Tennessee's state capital and largest urban core consolidated with the surrounding county in 1963 to form the <strong>Metropolitan Government of Nashville and Davidson County</strong> — the densest, most economically active, and most architecturally varied wildlife removal market in the state. With a population of ${county.population.toLocaleString()} across the consolidated Nashville-Davidson footprint, the county runs from the pre-1900s brick row houses and early-1900s shotgun stock of East Nashville and Germantown, through downtown's Lower Broadway and Music Row, the affluent mature-canopy neighborhoods of Belle Meade, Forest Hills, Oak Hill, and Green Hills, the mid-century suburbs of Donelson, Madison, Inglewood, Crieve Hall, and Antioch, and out into the rugged Western Highland Rim terrain of Bellevue, Bells Bend, and Joelton. Established in ${county.established} and named for Revolutionary War general William Lee Davidson, the county is also home to six satellite cities — Belle Meade, Berry Hill, Forest Hills, Goodlettsville, Oak Hill, and the partially-Davidson Goodlettsville — that maintain separate municipal services inside Metro's borders, plus a regionally significant urban greenway-and-park network anchored by Warner Parks, Radnor Lake, Beaman Park, Bells Bend, and the Cumberland River floodplain corridor that defines Nashville's distinctive urban-wildlife profile.`;
@@ -2177,7 +2354,7 @@ function tennesseeContent(countyName, county, s) {
   const blockD = `Wildlife intrusion in ${countyName} follows Tennessee's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
   const blockE = `All commercial wildlife removal in Tennessee is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds the applicable TWRA certification and operates within ${s.agency_short} guidelines on species-specific handling and relocation.`;
 
-  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, heroIntro, extendedBody, faqs, neighboringCounties, geo, sameAs, testimonials };
+  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, heroIntro, extendedBody, faqs, neighboringCounties, geo, sameAs, testimonials, lastUpdated, contractor };
 }
 
 // ---- main dispatcher ----

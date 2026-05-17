@@ -223,6 +223,40 @@
   }) %>
   </script>
     <% } %>
+
+    <% if (countyContent.contractor) { %>
+  <!-- PestControl LocalBusiness — assigned local contractor for this county -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "PestControl",
+    "@id": pageUrl + "#contractor",
+    "name": countyContent.contractor.name,
+    "telephone": countyContent.contractor.telephone,
+    "url": pageUrl,
+    "priceRange": countyContent.contractor.priceRange || "$$",
+    "areaServed": { "@type": "AdministrativeArea", "name": countyName + ", " + stateName },
+    "serviceType": "Wildlife Removal",
+    "openingHours": "Mo-Su 00:00-23:59",
+    ...(countyContent.contractor.image ? { "image": countyContent.contractor.image } : {}),
+    "address": {
+      "@type": "PostalAddress",
+      ...(countyContent.contractor.streetAddress ? { "streetAddress": countyContent.contractor.streetAddress } : {}),
+      "addressLocality": countyContent.contractor.addressLocality || countyName,
+      "addressRegion": stateAbbr,
+      ...(countyContent.contractor.postalCode ? { "postalCode": countyContent.contractor.postalCode } : {}),
+      "addressCountry": "US"
+    },
+    ...(countyContent.contractor.geo ? {
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": countyContent.contractor.geo.lat,
+        "longitude": countyContent.contractor.geo.lon
+      }
+    } : {})
+  }) %>
+  </script>
+    <% } %>
   <% } %>
 </head>
 <body>
@@ -264,6 +298,9 @@
         <p><%- countyContent.heroIntro %></p>
         <% } else { %>
         <p>Local licensed experts ready to remove, exclude, and remediate — fast.</p>
+        <% } %>
+        <% if (countyContent && countyContent.lastUpdated) { %>
+        <p class="last-updated" style="font-size:0.85rem;color:#475569;margin-top:8px;opacity:0.85;">Last updated: <time datetime="<%= countyContent.lastUpdated %>"><%= new Date(countyContent.lastUpdated + 'T00:00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) %></time></p>
         <% } %>
       </div>
     </section>
@@ -414,7 +451,11 @@
     <section class="county-content" style="background:#f8fafc;">
       <div class="container">
         <h2>Wildlife Common to <%= countyName %></h2>
+        <% if (countyContent.blockB && countyContent.blockB.trim().startsWith('<')) { %>
+        <%- countyContent.blockB %>
+        <% } else { %>
         <p><%- countyContent.blockB %></p>
+        <% } %>
       </div>
     </section>
 
@@ -489,7 +530,7 @@
           <% countyContent.faqs.forEach((f, i) => { %>
           <details class="faq-item"<% if (i === 0) { %> open<% } %>>
             <summary><%= f.q %></summary>
-            <p><%= f.a %></p>
+            <div class="faq-answer"><%- f.a %></div>
           </details>
           <% }); %>
         </div>
@@ -543,6 +584,7 @@
 
   <footer>
     <div class="container">
+      <p class="directory-disclosure" style="margin:0 0 10px;font-size:0.85rem;opacity:0.85;max-width:720px;">RemoveWildlifeNow.com is a wildlife removal <strong>directory</strong>. Calls and form submissions from this page route to one assigned, licensed wildlife removal contractor serving <%= countyName %>, <%= stateName %>. We are not the contractor — we connect homeowners with the local pro covering their county.</p>
       <p style="margin:0 0 6px;">Wildlife removal company? <a href="/list-your-business/" style="color:inherit;text-decoration:underline;">List your business</a> for exclusive county leads.</p>
       <p>&copy; <%= new Date().getFullYear() %> RemoveWildlifeNow.com &mdash; Connecting homeowners with licensed wildlife removal professionals nationwide.</p>
     </div>
