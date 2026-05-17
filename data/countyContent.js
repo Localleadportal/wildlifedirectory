@@ -379,6 +379,7 @@ function georgiaContent(countyName, county, s) {
   let heroIntro = null;
   let lastUpdated = null;
   let contractor = null;
+  let pricing = null;
 
   if (countyName === 'Cobb County') {
     blockA = `Cobb County sits in the northwestern Atlanta metro area immediately north of the Chattahoochee River, with downtown Atlanta about 20 miles southeast of the county seat in Marietta. With a population of ${county.population.toLocaleString()} — making it one of Georgia's largest counties — Cobb runs from the older inner-ring neighborhoods of Smyrna, Marietta, and Vinings out through the dense suburban corridors of East Cobb, Kennesaw, and Acworth, with the Kennesaw Mountain National Battlefield Park anchoring the county's center and the Chattahoochee River corridor forming the southern boundary. Established in ${county.established}, the county combines Civil War-era historic districts, post-war ranch suburbs, and late-20th-century subdivisions under heavy oak-hickory canopy.`;
@@ -1760,7 +1761,7 @@ function georgiaContent(countyName, county, s) {
     blockC = `Service coverage spans all of Butts County including ${top4cities}, plus the unincorporated communities of Indian Springs, Iron Springs Crossroads, Pepperton, Stark, Worthville, Cork, Fincherville, and McMichael Crossroads. The combination of Jackson's pre-1900 historic-downtown housing, the Lake Jackson lakefront housing inventory, the substantial pine-hardwood acreage surrounding Indian Springs State Park, and the I-75 corridor commercial pressure at Exits 198, 201, and 205 — combined with the year-round wildlife activity that defines central Georgia — means contractors here handle a continuous mix of historic-attic bat exclusion, lakeshore raccoon work, I-75 corridor rodent control, and rural-acreage coyote and feral hog mitigation.`;
 
     metaTitle = `Butts County Wildlife Removal, GA | Humane & Same-Day`;
-    metaDescription = `Licensed Butts County wildlife removal in Georgia — humane raccoon, squirrel, bat, snake, and rodent control plus full attic exclusion. Serving Jackson, Flovilla, Jenkinsburg, Indian Springs, and Lake Jackson with same-day service.`;
+    metaDescription = `Licensed Jackson wildlife removal across Butts County, GA. Raccoons, bats, snakes, full exclusion. Same-day service.`;
 
     geo = { lat: 33.2949, lon: -83.9659 };
     sameAs = [
@@ -1768,6 +1769,21 @@ function georgiaContent(countyName, county, s) {
       'https://en.wikipedia.org/wiki/Jackson,_Georgia',
     ];
     lastUpdated = '2026-05-17';
+
+    // Priced service offerings. Mirrors the visible pricing table in extendedBody —
+    // when set, the county template emits Offer / PriceSpecification structured data
+    // inside the LocalBusiness hasOfferCatalog so search engines and AI engines can
+    // surface price information. minPrice / maxPrice are numeric; visible table may
+    // append "+" for open-ended ranges (e.g. $3,500+) — schema uses the stated number.
+    pricing = [
+      { name: 'Raccoon trapping & removal',                minPrice: 300,  maxPrice: 650,  notes: 'Lakefront properties often run higher because of multi-entry chimney access' },
+      { name: 'Squirrel removal & exclusion',              minPrice: 250,  maxPrice: 550,  notes: 'Includes one-way doors and sealing of identified entry points' },
+      { name: 'Bat colony exclusion (historic chimney)',   minPrice: 1200, maxPrice: 3500, notes: 'Pre-1900 Jackson chimneys; legal windows are April and September–mid-October' },
+      { name: 'Snake identification & removal',            minPrice: 150,  maxPrice: 350,  notes: 'Higher for confirmed venomous species (copperhead)' },
+      { name: 'Rodent (Norway / roof rat) control',        minPrice: 400,  maxPrice: 1200, notes: 'I-75-corridor properties often need expanded-perimeter plans' },
+      { name: 'Attic decontamination & remediation',       minPrice: 1000, maxPrice: 4500, notes: 'Insulation removal, HEPA sanitization, damage repair' },
+      { name: 'Full home exclusion (multi-entry)',         minPrice: 1500, maxPrice: 4000, notes: 'Galvanized steel mesh, 1-year guarantee' },
+    ];
 
     neighboringCounties = [
       { name: 'Henry County',    slug: 'henry-county',    anchor: 'Wildlife removal in Henry County',    blurb: 'directly to the north, along the I-75 corridor toward McDonough' },
@@ -1781,7 +1797,7 @@ function georgiaContent(countyName, county, s) {
     extendedBody = `
       <aside class="answer-box" style="background:#f1f5f9;border-left:4px solid #2e7d32;padding:18px 22px;margin:0 0 28px;border-radius:0 8px 8px 0;">
         <h3 style="margin:0 0 10px;font-size:1.1rem;color:#1b5e20;">Quick Answer — Wildlife Removal in Butts County, GA</h3>
-        <p style="margin:0;font-size:0.95rem;line-height:1.55;">Butts County wildlife removal is handled by one licensed contractor serving <a href="/georgia/butts-county/jackson/">Jackson</a>, <a href="/georgia/butts-county/flovilla/">Flovilla</a>, <a href="/georgia/butts-county/jenkinsburg/">Jenkinsburg</a>, Indian Springs, and the Lake Jackson shoreline. Core services include <a href="/georgia/butts-county/raccoon-removal/">raccoon removal</a>, <a href="/georgia/butts-county/squirrel-removal/">squirrel removal</a>, <a href="/georgia/butts-county/bat-removal/">bat exclusion</a>, <a href="/georgia/butts-county/snake-removal/">snake removal</a>, <a href="/georgia/butts-county/rat-removal/">rodent control</a>, attic remediation, and humane trapping. All work is licensed under Georgia DNR Region IV (Fort Valley) and typically scheduled same-day. Jackson — the county seat — generates the highest call volume because of its pre-1900 historic-downtown housing stock and Lake Jackson lakefront properties.</p>
+        <p style="margin:0;font-size:0.95rem;line-height:1.55;">Butts County wildlife removal is handled by one licensed contractor serving <a href="/georgia/butts-county/jackson/">Jackson</a>, <a href="/georgia/butts-county/flovilla/">Flovilla</a>, <a href="/georgia/butts-county/jenkinsburg/">Jenkinsburg</a>, Indian Springs, and the Lake Jackson shoreline. Core services include <a href="/georgia/butts-county/raccoon-removal/">raccoon removal in Jackson</a>, <a href="/georgia/butts-county/squirrel-removal/">squirrel removal</a>, <a href="/georgia/butts-county/bat-removal/">Butts County bat exclusion</a>, <a href="/georgia/butts-county/snake-removal/">snake removal</a>, <a href="/georgia/butts-county/rat-removal/">I-75 corridor rodent control</a>, attic remediation, and humane trapping. All work is licensed under Georgia DNR Region IV (Fort Valley) and typically scheduled same-day. Jackson — the county seat — generates the highest call volume because of its pre-1900 historic-downtown housing stock and Lake Jackson lakefront properties.</p>
       </aside>
 
       <h2>Butts County Geography Shapes Jackson-Area Wildlife Activity</h2>
@@ -1876,11 +1892,11 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'Are bats protected in Georgia?',
-        a: 'Yes. All bat species in Georgia are protected by state law, and several — including the federally proposed-for-listing tricolored bat (Perimyotis subflavus) — carry additional federal protection under the Endangered Species Act. Georgia DNR restricts active bat exclusion during the maternity season (roughly May through August) to prevent non-flying pups from being trapped inside structures. The legal exclusion windows are April (pre-maternity) and September through mid-October (post-maternity). All bat work in Butts County must use one-way exit devices — trapping bats is essentially banned. A licensed humane wildlife control operator will inspect the structure, schedule exclusion in a legal window, and seal entry points only after the colony has exited.'
+        a: 'Yes. All bat species in Georgia are protected by state law, and several — including the federally proposed-for-listing tricolored bat (Perimyotis subflavus) — carry additional federal protection under the Endangered Species Act. Georgia DNR restricts active bat exclusion during the maternity season (roughly May through August) to prevent non-flying pups from being trapped inside structures. The legal exclusion windows are April (pre-maternity) and September through mid-October (post-maternity). All <a href="/georgia/butts-county/bat-removal/">bat work in Butts County</a> must use one-way exit devices — trapping bats is essentially banned. A licensed humane wildlife control operator will inspect the structure, schedule exclusion in a legal window, and seal entry points only after the colony has exited.'
       },
       {
         q: 'Do raccoons come back after removal?',
-        a: 'Yes — unless the exclusion work is complete. Trap-and-relocate without sealing entry points has a near-100% recurrence rate within weeks, because the property is still broadcasting access cues (open soffit corners, missing chimney caps, gaps in foundation vents) to neighboring raccoons. Effective Butts County raccoon work pairs trapping with structural exclusion: one-way doors on confirmed entry points, galvanized steel mesh on chimney chases, and sealed soffit returns. With full multi-entry exclusion, recurrence drops to under 10% within the first year. Lake Jackson lakefront properties are an exception — the permanent shoreline source population means even fully sealed homes see new pressure from new individuals, so annual inspection is recommended.'
+        a: 'Yes — unless the exclusion work is complete. Trap-and-relocate without sealing entry points has a near-100% recurrence rate within weeks, because the property is still broadcasting access cues (open soffit corners, missing chimney caps, gaps in foundation vents) to neighboring raccoons. Effective <a href="/georgia/butts-county/raccoon-removal/">Butts County raccoon work</a> pairs trapping with structural exclusion: one-way doors on confirmed entry points, galvanized steel mesh on chimney chases, and sealed soffit returns. With full multi-entry exclusion, recurrence drops to under 10% within the first year. Lake Jackson lakefront properties are an exception — the permanent shoreline source population means even fully sealed homes see new pressure from new individuals, so annual inspection is recommended.'
       },
       {
         q: 'What should I do if I hear scratching in my attic?',
@@ -1893,7 +1909,7 @@ function georgiaContent(countyName, county, s) {
   const blockD = `Wildlife intrusion in ${countyName} follows Georgia's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
   const blockE = `All commercial wildlife removal in Georgia is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds the applicable Georgia DNR licensing and operates within Wildlife Resources Division guidelines on species-specific handling and relocation.`;
 
-  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, heroIntro, extendedBody, faqs, neighboringCounties, geo, sameAs, lastUpdated, contractor };
+  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, heroIntro, extendedBody, faqs, neighboringCounties, geo, sameAs, lastUpdated, contractor, pricing };
 }
 
 // ---- Tennessee county content ----

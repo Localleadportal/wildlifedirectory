@@ -146,12 +146,26 @@
     } : {}),
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Wildlife Removal Services",
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Animal Exclusion" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Remediation" } }
-      ]
+      "name": "Wildlife Removal Services" + (countyContent ? " in " + countyName : ""),
+      "itemListElement": (countyContent && countyContent.pricing && countyContent.pricing.length)
+        ? countyContent.pricing.map((p, i) => ({
+            "@type": "Offer",
+            "position": i + 1,
+            "itemOffered": { "@type": "Service", "name": p.name, ...(p.notes ? { "description": p.notes } : {}) },
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": p.minPrice,
+              "maxPrice": p.maxPrice,
+              "priceCurrency": "USD"
+            },
+            "areaServed": { "@type": "AdministrativeArea", "name": countyName + ", " + stateName },
+            "availability": "https://schema.org/InStock"
+          }))
+        : [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Removal" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Animal Exclusion" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Remediation" } }
+          ]
     }
   }) %>
   </script>
@@ -406,8 +420,7 @@
         <p class="section-sub">Our local contractor handles every aspect of wildlife removal — from capture to exclusion to cleanup.</p>
         <div class="service-cards">
           <div class="service-card">
-            <span class="card-icon">🦝</span>
-            <h3>Wildlife Removal</h3>
+            <h3><span class="card-icon" aria-hidden="true">🦝</span> Wildlife Removal</h3>
             <p>Trained experts safely remove animals from your home using high-capture-rate trapping and exclusion techniques.</p>
             <ul class="card-list">
               <li>24/7 Emergency Response</li>
@@ -421,8 +434,7 @@
           <div class="service-card featured service-card--photo">
             <img src="/images/hero8.jpg" alt="Wildlife exclusion contractor sealing soffit on a brick home in <%= countyName %>" loading="lazy" class="card-bg-img">
             <span class="card-badge">Core Service</span>
-            <span class="card-icon">🛡️</span>
-            <h3>Exclusion</h3>
+            <h3><span class="card-icon" aria-hidden="true">🛡️</span> Exclusion</h3>
             <p>Ensuring your home is properly sealed is the most important service we offer. We use only the highest quality materials and industry-best methods.</p>
             <ul class="card-list">
               <li>Galvanized Steel Sealing</li>
@@ -433,8 +445,7 @@
             <a class="llp-phone card-phone" href="tel:+18445443498"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg> (844) 544-3498</a>
           </div>
           <div class="service-card">
-            <span class="card-icon">🧹</span>
-            <h3>Remediation</h3>
+            <h3><span class="card-icon" aria-hidden="true">🧹</span> Remediation</h3>
             <p>Whatever animal you had, they likely left waste and caused damage. Our team will deodorize, sanitize, and repair damaged material.</p>
             <ul class="card-list">
               <li>Complete Waste Removal</li>
