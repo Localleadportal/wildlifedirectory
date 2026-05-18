@@ -3,16 +3,21 @@
 
 const animalSeasons = {
   'raccoon-removal': [
-    { months: [11, 0, 1], title: 'Peak Denning Season', level: 'high',
-      msg: 'Female raccoons are actively seeking attic entry points right now to give birth. This is the most critical window — an unsealed home can become a nesting site within days.' },
-    { months: [2, 3], title: 'Newborn Pup Season', level: 'high',
-      msg: 'Raccoon pups are being born in attics across the region. Removal at this stage requires locating and carefully handling young — do not attempt exclusion without a professional until pups are mobile.' },
-    { months: [4, 5], title: 'Active Juvenile Season', level: 'moderate',
-      msg: 'Young raccoons are becoming mobile and exploring. Attic activity increases as juveniles learn to forage. This is a good time to seal entry points before another breeding cycle begins.' },
-    { months: [6, 7, 8], title: 'Summer Dispersal', level: 'moderate',
-      msg: 'Juvenile raccoons from spring litters are dispersing and establishing new territories. Entry point damage from earlier in the year creates ongoing intrusion risk through summer.' },
-    { months: [9, 10], title: 'Pre-Winter Foraging Season', level: 'moderate',
-      msg: 'Raccoons are feeding heavily ahead of winter and scouting den sites. Fall is an ideal time to inspect and seal your home before denning season begins in December.' }
+    // Calibrated to actual raccoon breeding cycles in the southeastern US:
+    // mating Jan–Mar (chimney scouting spike), non-volant pups Apr–May,
+    // mobile pups with mother Jun–Jul, peak juvenile dispersal Aug–Nov,
+    // December low-pressure scheduling window. The body content on each
+    // raccoon-removal page mirrors this schedule.
+    { months: [11], title: 'Low-Pressure Window — Schedule Proactive Exclusion', level: 'low',
+      msg: 'December is the lowest-pressure raccoon month and the best window for proactive exclusion before the January mating peak begins. Chimney capping, soffit work, and ridge-vent reinforcement scheduled now prevents the February–March chimney-scouting wave that follows the breeding peak.' },
+    { months: [0, 1, 2], title: 'Mating Peak — Chimney Scouting Spike', level: 'high',
+      msg: 'Adult males scout territories; females select natal dens. Chimney and attic intrusion calls spike from January through March across the southeastern US as females push into uncapped chimneys and soffit corners ahead of the April birthing window. Same-day inspection strongly recommended once activity is detected.' },
+    { months: [3, 4], title: 'Birthing Season — Exclusion Restricted', level: 'high',
+      msg: 'Non-volant raccoon pups are present in chimneys and attics through April and May. Direct trapping of mothers is restricted — kit-aware protocols are required. Either let the mother relocate her litter voluntarily (3–7 days with eviction fluid and one-way doors) or arrange supervised hand recovery for outdoor reunion before sealing entry points.' },
+    { months: [5, 6], title: 'Pup Maturation — Eviction Windows Reopen', level: 'moderate',
+      msg: 'Pups travel with the mother on nightly foraging trips from June through July. Eviction-and-exclusion windows reopen because the family can now leave together. This is a good time to schedule full structural exclusion before the August dispersal peak.' },
+    { months: [7, 8, 9, 10], title: 'Peak Juvenile Dispersal — Highest Annual Call Volume', level: 'high',
+      msg: 'August through November is the absolute peak for raccoon attic, chimney, and outbuilding calls. Juveniles leaving natal dens seek their own territories, and any home with even small exclusion gaps sees new intrusions within days. Same-day inspection strongly recommended.' }
   ],
 
   'squirrel-removal': [
