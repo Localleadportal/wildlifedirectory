@@ -303,7 +303,7 @@
     <section class="page-hero">
       <div class="container">
         <div class="hero-badge"><%= countyName %>, <%= stateName %></div>
-        <h1><span aria-hidden="true"><%= animal.emoji %></span> <%= animal.name %> in <%= countyName %></h1>
+        <h1><span aria-hidden="true"><%= animal.emoji %></span> <%= animal.name %> in <%= countyName %>, <%= stateName %></h1>
         <p><%= animal.shortDesc %></p>
       </div>
     </section>
@@ -311,7 +311,11 @@
     <section class="cta-section">
       <div class="container">
         <div class="cta-box">
-          <h2><%= animal.name %> — <%= countyName %></h2>
+          <% if (countyContent && countyContent.contractor) { %>
+          <h2>Your Local <%= countyName %> <%= animal.name.replace(' Removal', '') %> Pro</h2>
+          <% } else { %>
+          <h2>Get Matched with a <%= countyName %> <%= animal.name.replace(' Removal', '') %> Pro</h2>
+          <% } %>
           <p class="llp-company-name company-name" style="display:none;"></p>
           <p class="cta-sub">Licensed local expert. Same-day and emergency service available.</p>
           <div class="phone-wrap">
@@ -368,7 +372,7 @@
     <% if (countyAnimalContent && countyAnimalContent.leadParagraph) { %>
     <section class="county-content">
       <div class="container">
-        <h2><%= animal.name %> in <%= countyName %>, <%= stateName %></h2>
+        <h2>What Makes <%= countyName %> <%= animal.plural %> Different</h2>
         <p><%- countyAnimalContent.leadParagraph %></p>
       </div>
     </section>
@@ -379,11 +383,11 @@
         <% if (animal.slug === 'opossum-removal') { %>
         <div class="section-photo-banner">
           <img src="/images/hero11.jpg" alt="Opossum in tree near residential property — local possum trapping and exclusion in <%= countyName %>" loading="lazy" class="banner-img">
-          <h2><%= animal.name %> Services in <%= countyName %></h2>
+          <h2>Services We Provide in <%= countyName %></h2>
           <p class="section-sub"><%= animal.urgency %></p>
         </div>
         <% } else { %>
-        <h2><%= animal.name %> Services in <%= countyName %></h2>
+        <h2>Services We Provide in <%= countyName %></h2>
         <p class="section-sub"><%= animal.urgency %></p>
         <% } %>
         <div class="service-cards">
