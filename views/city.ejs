@@ -180,14 +180,19 @@
 </head>
 <body>
   <%
-    // Contractor-aware phone for every in-body anchor. When LeadPortal has
-    // an assigned contractor for this county, use that contractor's phone;
-    // otherwise fall back to the central dispatch number. formatPhone()
-    // handles E.164 input and is a no-op for already-formatted values.
+    // Contractor-aware locals for every in-body anchor and the business-name
+    // slot. When LeadPortal has an assigned contractor for this county, use
+    // that contractor's phone + name; otherwise fall back to the central
+    // dispatch number for phone and null (keeps the hidden .llp-company-name
+    // paragraph for the LeadPortal client-side injection safety net).
+    // formatPhone() handles E.164 input and is a no-op for already-formatted values.
     const _phone = (countyContent && countyContent.contractor && countyContent.contractor.telephone)
       ? countyContent.contractor.telephone
       : '+18445443498';
     const _phoneDisplay = formatPhone(_phone);
+    const _companyName = (countyContent && countyContent.contractor && countyContent.contractor.name)
+      ? countyContent.contractor.name
+      : null;
   %>
   <header>
     <div class="container header-inner">
@@ -232,7 +237,11 @@
       <div class="container">
         <div class="cta-box">
           <h2>Your <%= cityName %> Wildlife Removal Expert</h2>
+          <% if (_companyName) { %>
+          <p class="llp-company-name company-name"><%= _companyName %></p>
+          <% } else { %>
           <p class="llp-company-name company-name" style="display:none;"></p>
+          <% } %>
           <p class="cta-sub">Licensed, insured &amp; local. Same-day and emergency service available in <%= cityName %>.</p>
           <div class="phone-wrap">
             <a class="llp-phone phone-cta" href="tel:<%= _phone %>">
