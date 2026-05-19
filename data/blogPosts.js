@@ -966,11 +966,11 @@ const BLOG_POSTS = [
     datePublished: '2026-05-19',
     dateModified: '2026-05-19',
     author: 'Justin McCalvin',
-    authorBio: 'Justin McCalvin works with Local Wildlife Experts, a family-run wildlife removal company that covers all of north Georgia. He has spent 11 years in the field — much of it on antebellum chimney work in Marietta, Roswell, Newnan, and Carrollton historic districts — and is licensed under Georgia DNR Wildlife Resources Division.',
+    authorBio: 'Justin McCalvin has spent 11 years in licensed wildlife removal — much of it on antebellum chimney exclusion work in Georgia historic districts. Licensed under Georgia DNR Wildlife Resources Division.',
     category: 'Raccoon Removal',
     tags: ['raccoon', 'macon', 'bibb county', 'georgia', 'vineville', 'antebellum', 'historic district', 'chimney', 'maternity season', 'exclusion'],
     body: `
-<p class="lead">Macon isn\'t our home territory. Local Wildlife Experts is a north Georgia operation, and most of the work I do day-to-day runs from the Atlanta-metro arc up to the Tennessee line. But the antebellum chimney patterns I see in north Georgia historic districts — Marietta Square, Roswell, Newnan, Carrollton — show up in Macon at a deeper density than anywhere else in the state. If you live in Vineville, In-Town, Beall\'s Hill, or Pleasant Hill and you have been hearing thumping or chittering above your fireplace this past week or two, the most likely cause this time of year is a raccoon mother and her kits. Here is what that looks like, why your specific chimney is the way it is, and what the path to actually solving it looks like.</p>
+<p class="lead">Late May in Macon is peak raccoon-in-chimney season. Female raccoons denned in February, kits are now five to ten weeks old, and the noise is starting to drive Vineville, In-Town, Beall\'s Hill, and Pleasant Hill homeowners to pick up the phone. Macon\'s antebellum chimney inventory is the deepest in the state, which makes the seasonal pattern more concentrated here than anywhere else in Georgia. If you have been hearing thumping or chittering above your fireplace this past week or two, the most likely cause this time of year is a raccoon mother and her kits. Here is what that looks like, why your specific chimney is the way it is, and what the path to actually solving it looks like.</p>
 
 <figure style="margin:28px 0;">
   <img src="/images/hero3.jpg" alt="Two raccoons on a residential brick chimney — Macon GA Vineville historic district raccoon removal" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
@@ -1097,7 +1097,7 @@ const BLOG_POSTS = [
 
 <p>One more thing. If you actually see kits on the ground outside your house, do not try to handle them. Wear gloves, place them in a vented box, put the box near where you think the mother den is, and call a licensed operator. Healthy mother raccoons routinely retrieve kits that have fallen out of dens; the worst thing you can do is take the kits indoors or try to feed them.</p>
 
-<p>Macon is not my territory and I am not pitching for your job. The work has to be done by someone licensed and active in Bibb County. But the pattern across antebellum chimney districts is the same anywhere I have worked, and the right answers in May are the same: reunion exclusion, custom-fabricated stainless cap, post-job remediation with proper PPE, and patience with the 7-to-14-day timeline that doing it correctly actually requires.</p>
+<p>The pattern across antebellum chimney districts is consistent anywhere it shows up, and the right answers in May are the same: reunion exclusion, custom-fabricated stainless cap, post-job remediation with proper PPE, and patience with the 7-to-14-day timeline that doing it correctly actually requires. Find a Georgia DNR-licensed operator who is active in Bibb County and who specifically knows antebellum chimney work, and the problem is solvable inside two weeks.</p>
 `,
     faqs: [
       {
@@ -1125,8 +1125,8 @@ const BLOG_POSTS = [
         a: 'Raccoons produce heavy thumping, slow chittering, and dusk-and-dawn activity from a single mother — sometimes accompanied by kit squealing in late spring. Bats produce a synchronized whoosh emergence at sunset from the chimney crown, plus many small high-pitched chirps. Squirrels are diurnal, light, fast-moving, and often chewing on chimney wood. The single most reliable test is standing outside at dusk on a clear evening and watching the chimney crown: bats emerge in numbers, raccoons emerge as a single mother 30-45 minutes after sunset, and squirrels typically do not emerge at all (they are already inside for the night).'
       },
       {
-        q: 'Do you service raccoon calls in Macon?',
-        a: 'I personally do not — Local Wildlife Experts is a north Georgia operation. Macon raccoon work needs a Georgia DNR-licensed operator who is active in Bibb County (DNR Region 4) and who specifically knows antebellum chimney exclusion. If you are looking for a licensed local pro, this directory connects you with the operator who covers your county.'
+        q: 'How do I find a licensed raccoon removal pro in Macon?',
+        a: 'Macon raccoon work needs a Georgia DNR-licensed operator active in Bibb County (DNR Region 4) who specifically knows antebellum chimney exclusion. The non-negotiables: current Georgia DNR licensing, demonstrated experience with custom-fabricated stainless-steel caps for pre-1860 crowns, willingness to do proper reunion exclusion during kit season instead of a flat-rate seal-the-chimney shortcut, and PPE protocols for Baylisascaris contamination during post-exclusion cleanup. This directory connects homeowners with the licensed operator who covers Bibb County.'
       }
     ]
   }
