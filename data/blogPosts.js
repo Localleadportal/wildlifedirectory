@@ -972,6 +972,11 @@ const BLOG_POSTS = [
     body: `
 <p class="lead">Macon isn\'t our home territory. Local Wildlife Experts is a north Georgia operation, and most of the work I do day-to-day runs from the Atlanta-metro arc up to the Tennessee line. But the antebellum chimney patterns I see in north Georgia historic districts — Marietta Square, Roswell, Newnan, Carrollton — show up in Macon at a deeper density than anywhere else in the state. If you live in Vineville, In-Town, Beall\'s Hill, or Pleasant Hill and you have been hearing thumping or chittering above your fireplace this past week or two, the most likely cause this time of year is a raccoon mother and her kits. Here is what that looks like, why your specific chimney is the way it is, and what the path to actually solving it looks like.</p>
 
+<figure style="margin:28px 0;">
+  <img src="/images/hero3.jpg" alt="Two raccoons on a residential brick chimney — Macon GA Vineville historic district raccoon removal" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
+  <figcaption style="font-size:0.88rem;color:#6b7280;margin-top:10px;text-align:center;font-style:italic;line-height:1.5;">Raccoons on a residential brick chimney — exactly the pattern playing out across Macon\'s Vineville, In-Town, Beall\'s Hill, and Pleasant Hill antebellum districts in May. A mother and her now-mobile kits will use the chimney as a maternity den for 8 to 12 weeks before relocating.</figcaption>
+</figure>
+
 <h2>Why Late May Is Peak Raccoon-in-Chimney Season in Central Georgia</h2>
 <p>Female raccoons den in late winter — typically the third week of February through early April in central Georgia — and the kits are born blind, deaf, and helpless. For the first 6 to 8 weeks the kits stay in the den. They do not vocalize much, they do not move around, and the mother handles all the trips outside for food. Most homeowners during that window do not even know the den is there.</p>
 
