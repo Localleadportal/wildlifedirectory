@@ -17,13 +17,17 @@ const { getCountyAnimalContent } = require('./data/countyAnimalContent');
 const { getNationalContent } = require('./data/animalNationalContent');
 const { getAllPosts, getPostBySlug } = require('./data/blogPosts');
 const { getContractor } = require('./lib/contractor');
-const { formatPhone } = require('./lib/format');
+const { formatPhone, toTitleCase, normalizeStateRegion, normalizeUrl } = require('./lib/format');
 
 const app = express();
-// formatPhone() is exposed to every EJS template via app.locals so contractor
-// phone numbers (E.164 from LeadPortal) render as "(NNN) NNN-NNNN" without
-// each template re-inlining the regex.
+// Format helpers exposed to every EJS template via app.locals so contractor
+// data from LeadPortal (E.164 phone, mixed-case addresses, full state names,
+// bare-domain URLs) renders correctly without each template re-inlining the
+// normalization logic.
 app.locals.formatPhone = formatPhone;
+app.locals.toTitleCase = toTitleCase;
+app.locals.normalizeStateRegion = normalizeStateRegion;
+app.locals.normalizeUrl = normalizeUrl;
 const PORT = process.env.PORT || 3000;
 const LEAD_PORTAL = 'https://localleadportal-production.up.railway.app';
 const SERVICE_TYPE = 'Wildlife Removal';

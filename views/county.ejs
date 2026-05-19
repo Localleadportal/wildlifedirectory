@@ -95,7 +95,65 @@
       ? (_testimonials.reduce((s, t) => s + (t.rating || 5), 0) / _testimonials.length).toFixed(1)
       : null;
   %>
-  <!-- LocalBusiness / ProfessionalService -->
+  <%# Page-level local-business entity. One canonical entity per page:
+      PestControl when LeadPortal has an assigned contractor for this county,
+      LocalBusiness/ProfessionalService directory fallback otherwise.
+      @id stays "#business" in both branches so Service nodes that reference
+      #business resolve correctly regardless of which branch ran. %>
+  <% if (countyContent && countyContent.contractor) { %>
+  <!-- PestControl — assigned local contractor entity -->
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "PestControl",
+    ...(seoEnhanced ? { "@id": pageUrl + "#business" } : {}),
+    "name": countyContent.contractor.name,
+    "description": "Licensed wildlife removal in " + countyName + ", " + stateName + ". Expert removal of raccoons, squirrels, bats, snakes and more. Humane methods, same-day service available.",
+    "url": countyContent.contractor.url ? normalizeUrl(countyContent.contractor.url) : pageUrl,
+    "telephone": countyContent.contractor.telephone,
+    "image": countyContent.contractor.image || "https://www.removewildlifenow.com/images/og-default.jpg",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      ...(countyContent.contractor.streetAddress ? { "streetAddress": toTitleCase(countyContent.contractor.streetAddress) } : {}),
+      "addressLocality": countyContent.contractor.addressLocality ? toTitleCase(countyContent.contractor.addressLocality) : countyName,
+      "addressRegion": normalizeStateRegion(countyContent.contractor.addressRegion || stateAbbr),
+      ...(countyContent.contractor.postalCode ? { "postalCode": countyContent.contractor.postalCode } : {}),
+      "addressCountry": "US"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": countyName + ", " + stateName
+    },
+    "serviceType": "Wildlife Removal",
+    "openingHours": "Mo-Su 00:00-23:59",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Wildlife Removal Services in " + countyName,
+      "itemListElement": (countyContent && countyContent.pricing && countyContent.pricing.length)
+        ? countyContent.pricing.map((p, i) => ({
+            "@type": "Offer",
+            "position": i + 1,
+            "itemOffered": { "@type": "Service", "name": p.name, ...(p.notes ? { "description": p.notes } : {}) },
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": p.minPrice,
+              "maxPrice": p.maxPrice,
+              "priceCurrency": "USD"
+            },
+            "areaServed": { "@type": "AdministrativeArea", "name": countyName + ", " + stateName },
+            "availability": "https://schema.org/InStock"
+          }))
+        : [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Removal" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Animal Exclusion" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Remediation" } }
+          ]
+    }
+  }) %>
+  </script>
+  <% } else { %>
+  <!-- LocalBusiness / ProfessionalService — directory fallback (no contractor assigned) -->
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
@@ -172,6 +230,7 @@
     }
   }) %>
   </script>
+  <% } %>
 
   <% if (seoEnhanced) { %>
   <!-- BreadcrumbList -->
@@ -275,39 +334,6 @@
   </script>
     <% } %>
 
-    <% if (countyContent.contractor) { %>
-  <!-- PestControl LocalBusiness — assigned local contractor for this county -->
-  <script type="application/ld+json">
-  <%- JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "PestControl",
-    "@id": pageUrl + "#contractor",
-    "name": countyContent.contractor.name,
-    "telephone": countyContent.contractor.telephone,
-    "url": pageUrl,
-    "priceRange": countyContent.contractor.priceRange || "$$",
-    "areaServed": { "@type": "AdministrativeArea", "name": countyName + ", " + stateName },
-    "serviceType": "Wildlife Removal",
-    "openingHours": "Mo-Su 00:00-23:59",
-    ...(countyContent.contractor.image ? { "image": countyContent.contractor.image } : {}),
-    "address": {
-      "@type": "PostalAddress",
-      ...(countyContent.contractor.streetAddress ? { "streetAddress": countyContent.contractor.streetAddress } : {}),
-      "addressLocality": countyContent.contractor.addressLocality || countyName,
-      "addressRegion": stateAbbr,
-      ...(countyContent.contractor.postalCode ? { "postalCode": countyContent.contractor.postalCode } : {}),
-      "addressCountry": "US"
-    },
-    ...(countyContent.contractor.geo ? {
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": countyContent.contractor.geo.lat,
-        "longitude": countyContent.contractor.geo.lon
-      }
-    } : {})
-  }) %>
-  </script>
-    <% } %>
   <% } %>
 </head>
 <body>
