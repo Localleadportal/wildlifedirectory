@@ -179,6 +179,16 @@
   <% } %>
 </head>
 <body>
+  <%
+    // Contractor-aware phone for every in-body anchor. When LeadPortal has
+    // an assigned contractor for this county, use that contractor's phone;
+    // otherwise fall back to the central dispatch number. formatPhone()
+    // handles E.164 input and is a no-op for already-formatted values.
+    const _phone = (countyContent && countyContent.contractor && countyContent.contractor.telephone)
+      ? countyContent.contractor.telephone
+      : '+18445443498';
+    const _phoneDisplay = formatPhone(_phone);
+  %>
   <header>
     <div class="container header-inner">
       <a href="/" class="logo">RemoveWildlife<span>Now</span></a>
@@ -187,9 +197,9 @@
         <a href="/<%= stateSlug %>/"><%= stateName %></a>
         <a href="/<%= stateSlug %>/<%= countySlug %>/"><%= countyName %></a>
       </nav>
-      <a class="llp-phone header-phone" href="tel:+18445443498">
+      <a class="llp-phone header-phone" href="tel:<%= _phone %>">
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-        (844) 544-3498
+        <%= _phoneDisplay %>
       </a>
     </div>
   </header>
@@ -225,15 +235,15 @@
           <p class="llp-company-name company-name" style="display:none;"></p>
           <p class="cta-sub">Licensed, insured &amp; local. Same-day and emergency service available in <%= cityName %>.</p>
           <div class="phone-wrap">
-            <a class="llp-phone phone-cta" href="tel:+18445443498">
+            <a class="llp-phone phone-cta" href="tel:<%= _phone %>">
               <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-              (844) 544-3498
+              <%= _phoneDisplay %>
             </a>
           </div>
           <p class="cta-note llp-available-only">Serving <%= cityName %> and all of <%= countyName %>, <%= stateName %></p>
           <% if (!indexable) { %>
           <div class="no-contractor-section" id="no-contractor">
-            <h3><a href="tel:+18445443498" style="color:inherit;text-decoration:none;">(844) 544-3498</a></h3>
+            <h3><a href="tel:<%= _phone %>" style="color:inherit;text-decoration:none;"><%= _phoneDisplay %></a></h3>
             <p>We're expanding fast. Contact us and we'll connect you with help in <%= cityName %>.</p>
             <a href="/contact/?county=<%= encodeURIComponent(countyName) %>&state=<%= encodeURIComponent(stateName) %>" class="btn-contact">Contact Us for Help</a>
           </div>
@@ -332,5 +342,9 @@
   </footer>
 
   <script src="<%- embedScript %>"></script>
+
+  <%# Sticky mobile call CTA — reuses the top-of-body _phone / _phoneDisplay
+      that already gate every in-page anchor on the same contractor. %>
+  <%- include('_mobile-call', { phone: _phone, phoneDisplay: _phoneDisplay }) %>
 </body>
 </html>

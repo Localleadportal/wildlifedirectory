@@ -604,6 +604,78 @@ footer a:hover { color: #fff; }
 }
 .btn-contact:hover { background: var(--green-mid); }
 
+/* ── MOBILE STICKY CALL CTA ──
+   Hidden by default (desktop). On mobile, anchored to the bottom of the
+   viewport so visitors can tap-to-call without scrolling back to the header.
+   The wrapper element (.mobile-call-cta-wrap) is fixed; the inner pill
+   carries the gradient + shadow + tap target. Includes iOS safe-area
+   padding so the button clears the home indicator on newer iPhones. */
+.mobile-call-cta-wrap { display: none; }
+
+@media (max-width: 768px) {
+  .mobile-call-cta-wrap {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 90;
+    padding: 0 12px calc(12px + env(safe-area-inset-bottom, 0px));
+    pointer-events: none; /* let taps fall through the padding */
+  }
+  .mobile-call-cta {
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 13px 20px;
+    background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%);
+    color: #fff;
+    border-radius: 999px;
+    box-shadow: 0 6px 22px rgba(27, 94, 32, 0.35), 0 2px 6px rgba(0, 0, 0, 0.12);
+    text-decoration: none;
+    font-family: inherit;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .mobile-call-cta:active {
+    transform: translateY(1px);
+    box-shadow: 0 3px 12px rgba(27, 94, 32, 0.4);
+  }
+  .mobile-call-cta-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .mobile-call-cta-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+    min-width: 0;
+  }
+  .mobile-call-cta-label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    opacity: 0.92;
+  }
+  .mobile-call-cta-number {
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+  }
+  /* Push body content up by the height of the button so the footer / last
+     section can scroll fully past it and isn't permanently covered. */
+  body {
+    padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+  }
+}
+
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
   .hero h1 { font-size: 2.1rem; }

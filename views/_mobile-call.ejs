@@ -1,0 +1,23 @@
+<%
+  // Sticky mobile call-now CTA — included near </body> on every public template.
+  // Templates pass `phone` (tel: format, e.g. "+18445443498") and `phoneDisplay`
+  // (human format, e.g. "(844) 544-3498"). Both fall back to the central
+  // dispatch number so the partial is safe to include without arguments.
+  //
+  // County- and county-animal-scoped pages pass the assigned contractor's
+  // phone when one exists (countyContent.contractor.telephone), falling back
+  // to the central number when no contractor is assigned to that county yet.
+  const _phone = (typeof phone !== 'undefined' && phone) ? phone : '+18445443498';
+  const _phoneDisplay = (typeof phoneDisplay !== 'undefined' && phoneDisplay) ? phoneDisplay : '(844) 544-3498';
+%>
+<div class="mobile-call-cta-wrap" role="complementary" aria-label="Quick call">
+  <a class="mobile-call-cta" href="tel:<%= _phone %>" aria-label="Call <%= _phoneDisplay %> now">
+    <span class="mobile-call-cta-icon" aria-hidden="true">
+      <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+    </span>
+    <span class="mobile-call-cta-text">
+      <span class="mobile-call-cta-label">Call Now — 24/7</span>
+      <span class="mobile-call-cta-number"><%= _phoneDisplay %></span>
+    </span>
+  </a>
+</div>
