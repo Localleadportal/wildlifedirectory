@@ -1086,7 +1086,7 @@ const BLOG_POSTS = [
 <p>If you live in Warner Robins, Centerville, Bonaire, Kathleen, or anywhere in Houston County and you are hearing thumping or chittering above the ceiling: get a licensed wildlife operator out for an inspection this week. Make sure they are licensed under Georgia DNR Wildlife Resources Division (Houston County falls in DNR Region 4), make sure they understand AFB-buffer source dynamics and full-perimeter exclusion specifically, and make sure they are not promising to &quot;just trap the raccoon&quot; without addressing every viable entry point on the house.</p>
 
 <p>The pattern across Houston County is consistent, and the right answers in May are the same anywhere it shows up: reunion exclusion during kit season, full-perimeter sealing of every viable entry, proper Baylisascaris-aware post-job remediation, and patience with the 7-to-14-day timeline that doing it correctly actually requires. Find a Georgia DNR-licensed operator who is active in Houston County and who understands the AFB-buffer source pressure, and the problem is solvable inside two weeks.</p>
-\`,
+`,
     faqs: [
       {
         q: 'Why are raccoons in attics such a problem in Warner Robins during May?',
