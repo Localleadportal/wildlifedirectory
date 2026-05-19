@@ -958,175 +958,163 @@ const BLOG_POSTS = [
     ]
   },
   {
-    slug: 'raccoons-in-macon-ga',
-    title: 'Raccoons in Macon, GA — A Wildlife Pro\'s Late-Spring Guide to Antebellum Chimney Dens',
-    metaTitle: 'Raccoons in Macon GA: Vineville Chimney Den Guide',
-    metaDescription: 'A wildlife pro on Macon\'s late-spring raccoon problem — Vineville antebellum chimney dens, kit-season noise, what proper exclusion looks like, what it costs.',
-    excerpt: 'Late May in Macon is peak raccoon-in-chimney season. Female raccoons denned in February, kits are now five to ten weeks old, and the noise is starting to drive Vineville and In-Town homeowners to pick up the phone. Here is what is going on, why it is happening in your specific chimney, and what proper exclusion looks like.',
+    slug: 'raccoons-in-warner-robins-ga',
+    title: 'Raccoons in Warner Robins, GA — A Wildlife Pro\'s Late-Spring Attic Guide',
+    metaTitle: 'Raccoons in Warner Robins GA: Kit-Season Attic Guide',
+    metaDescription: 'A wildlife pro on the Warner Robins raccoon problem in May — Robins AFB buffer dispersal, post-WWII attic entries, kit-season noise, proper exclusion costs.',
+    excerpt: 'Late May in Warner Robins is the highest-call-volume window of the year for raccoons in attics. Robins AFB buffer feeds the source population, post-WWII housing in Wellston and Pleasant Hill gives them the entry points, and kit season pushes the noise above the ceiling. Here is what is going on and what proper exclusion looks like.',
     datePublished: '2026-05-19',
     dateModified: '2026-05-19',
     author: 'Justin McCalvin',
-    authorBio: 'Justin McCalvin has spent 11 years in licensed wildlife removal — much of it on antebellum chimney exclusion work in Georgia historic districts. Licensed under Georgia DNR Wildlife Resources Division.',
+    authorBio: 'Justin McCalvin has spent 11 years in licensed wildlife removal — much of it on attic-entry exclusion work across central and south Georgia residential housing. Licensed under Georgia DNR Wildlife Resources Division.',
     category: 'Raccoon Removal',
-    tags: ['raccoon', 'macon', 'bibb county', 'georgia', 'vineville', 'antebellum', 'historic district', 'chimney', 'maternity season', 'exclusion'],
+    tags: ['raccoon', 'warner robins', 'houston county', 'georgia', 'robins afb', 'wellston', 'pleasant hill', 'lake joy', 'attic', 'maternity season', 'exclusion'],
     body: `
-<p class="lead">Late May in Macon is peak raccoon-in-chimney season. Female raccoons denned in February, kits are now five to ten weeks old, and the noise is starting to drive Vineville, In-Town, Beall\'s Hill, and Pleasant Hill homeowners to pick up the phone. Macon\'s antebellum chimney inventory is the deepest in the state, which makes the seasonal pattern more concentrated here than anywhere else in Georgia. If you have been hearing thumping or chittering above your fireplace this past week or two, the most likely cause this time of year is a raccoon mother and her kits. Here is what that looks like, why your specific chimney is the way it is, and what the path to actually solving it looks like.</p>
+<p class="lead">Late May in Warner Robins is the highest-call-volume window of the year for raccoons in attics. Female raccoons denned in February, kits are now five to ten weeks old, and the noise is starting to push Wellston, Pleasant Hill, Lake Joy, and northern Warner Robins homeowners to pick up the phone. The Robins AFB buffer on the south side of the city is one of the largest contiguous wildlife source habitats in middle Georgia, and the post-WWII housing inventory north of the base gives raccoons exactly the entry points they need. Here is what is going on, why your specific house is the way it is, and what the path to actually solving it looks like.</p>
 
 <figure style="margin:28px 0;">
-  <img src="/images/hero3.jpg" alt="Two raccoons on a residential brick chimney — Macon GA Vineville historic district raccoon removal" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
-  <figcaption style="font-size:0.88rem;color:#6b7280;margin-top:10px;text-align:center;font-style:italic;line-height:1.5;">Raccoons on a residential brick chimney — exactly the pattern playing out across Macon\'s Vineville, In-Town, Beall\'s Hill, and Pleasant Hill antebellum districts in May. A mother and her now-mobile kits will use the chimney as a maternity den for 8 to 12 weeks before relocating.</figcaption>
+  <img src="/images/hero3.jpg" alt="Two raccoons on a residential roofline — Warner Robins GA Wellston Pleasant Hill kit-season raccoon removal" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
+  <figcaption style="font-size:0.88rem;color:#6b7280;margin-top:10px;text-align:center;font-style:italic;line-height:1.5;">A mother raccoon and her kit on residential brick. Warner Robins raccoons typically enter attics via gable louvers, soffit corners, or attic-fan housings rather than chimneys — but the underlying biology and the late-May timing are the same.</figcaption>
 </figure>
 
-<h2>Why Late May Is Peak Raccoon-in-Chimney Season in Central Georgia</h2>
-<p>Female raccoons den in late winter — typically the third week of February through early April in central Georgia — and the kits are born blind, deaf, and helpless. For the first 6 to 8 weeks the kits stay in the den. They do not vocalize much, they do not move around, and the mother handles all the trips outside for food. Most homeowners during that window do not even know the den is there.</p>
+<h2>Why Late May Is Peak Raccoon-in-Attic Season in Houston County</h2>
+<p>Female raccoons den in late winter — typically the second or third week of February through early April in the Georgia Coastal Plain — and the kits are born blind, deaf, and helpless. For the first 6 to 8 weeks the kits stay in the den. They do not vocalize much, they do not move around, and the mother handles all the trips outside for food. Most homeowners during that window do not even know the den is there.</p>
 
-<p>That changes in late May. The kits are now 5 to 10 weeks old. Their eyes are open, their ears work, they are roughly the size of a small kitten, and they have started to move. They climb on each other. They wrestle. They squeal when one of them is being a jerk to the others. That sound — high-pitched chittering and squealing, mixed with thumping — is what most Macon homeowners hear first.</p>
+<p>That changes in late May. The kits are now 5 to 10 weeks old. Their eyes are open, their ears work, they are roughly the size of a small kitten, and they have started to move. They climb on each other. They wrestle. They squeal when one of them is being a jerk to the others. That sound — high-pitched chittering and squealing, mixed with the heavier thumping of the mother — is what most Warner Robins homeowners hear first.</p>
 
-<p>If you are reading this in late May because of something you heard in your fireplace or above the ceiling near your chimney, the timing is not a coincidence. <strong>The third and fourth weeks of May are the single highest-call-volume window of the year for raccoon-in-chimney calls in the central Georgia Piedmont.</strong> You are hearing exactly what every wildlife company in the region is hearing on inbound calls right now.</p>
+<p>The Coastal Plain runs slightly warmer than the Piedmont, which means kit-season timing in Warner Robins is typically <strong>one to two weeks ahead</strong> of metro Atlanta. By the third and fourth weeks of May, Houston County is at the absolute peak of the call-volume curve. If you are reading this in late May because of something you heard above the ceiling, the timing is not a coincidence — you are hearing exactly what every wildlife company in middle Georgia is hearing on inbound calls right now.</p>
 
-<h2>Why Macon\'s Antebellum Chimneys Are the Best Raccoon Maternity Habitat in Georgia</h2>
-<p>I work pre-Civil-War housing across the Atlanta-metro arc, and I can tell you with full honesty that nothing I have inside the perimeter compares to the antebellum housing density of Macon. The <strong>Hay House</strong>, the <strong>Cannonball House</strong>, the <strong>Sidney Lanier Cottage</strong>, the dense pre-1860 residential fabric of <strong>Vineville</strong> and <strong>In-Town</strong> — Macon has one of the most intact antebellum housing inventories in the United States. From a wildlife standpoint that matters because raccoons make decisions about denning the same way bats do: based on chimney geometry, masonry weathering, and access points that have been compromised for a long time.</p>
+<h2>The Robins AFB Buffer Is the Single Biggest Wildlife Source Habitat in Middle Georgia</h2>
+<p>Warner Robins is a post-WWII city built around Robins Air Force Base starting in 1942. The base sits on the south side of the city and includes approximately <strong>7,000 acres of undeveloped pine-forest buffer</strong> around the operational footprint. That buffer is one of the largest contiguous wildlife source habitats anywhere in middle Georgia, and from a residential-raccoon standpoint it changes everything about how the city behaves.</p>
 
-<p>An antebellum chimney is the perfect raccoon maternity den. Here is why:</p>
+<p>The base buffer continuously disperses raccoons, opossums, fox squirrels, gray squirrels, armadillos, coyotes, and Brazilian free-tailed bats northward into the residential blocks of Warner Robins. Properties on the southern edge of the city — directly adjacent to the base perimeter — absorb the heaviest source pressure in Houston County. Even on the north side of Warner Robins, the AFB buffer is the dominant source population because the dispersal radius is wide.</p>
 
-<ul>
-  <li><strong>The flue is wide.</strong> Pre-1860 Macon chimneys were built for wood-burning fires, not modern gas inserts. Original flue dimensions in Vineville and In-Town homes commonly run 8 inches by 12 inches or wider. A 15-to-25-pound female raccoon fits down those flues with room to spare.</li>
-  <li><strong>The smoke shelf is deep.</strong> Pre-1860 chimneys have a flat smoke shelf above the damper that is essentially a small cave. Dark, dry, draft-protected, structurally enclosed on five sides. From a raccoon mother\'s perspective there is no better place in the residential built environment.</li>
-  <li><strong>The crown is unsealed.</strong> Pre-Civil-War chimneys were built without chimney caps. The vast majority of Macon antebellum chimneys still have no cap — partly because off-the-shelf hardware-store caps do not fit antebellum crown dimensions, and partly because historic-preservation considerations make many homeowners reluctant to alter the chimney profile.</li>
-  <li><strong>Mortar joints fail.</strong> 165 to 175 years of weather creates entry points along brick joints, crown cracks, and the flashing where the chimney meets the roof. Raccoons exploit every one of them.</li>
-  <li><strong>The colony memory effect.</strong> Raccoons are not strongly philopatric the way big brown bats are, but female raccoons do return to dens that have worked for them. A chimney that denned a raccoon mother in 2024 is statistically very likely to den one in 2025 and 2026.</li>
-</ul>
+<p>The practical consequence: Warner Robins raccoon work is rarely a one-and-done capture. Removing the raccoon mother and her kits from a Wellston attic does not solve the underlying problem if the entry point stays open, because the AFB buffer will produce a replacement raccoon within weeks. Full-perimeter exclusion is the only durable approach in this city, and operators who quote you a single-point trap-and-release without exclusion are setting you up for a callback.</p>
 
-<p>The result is that Macon\'s antebellum districts have a multi-generational raccoon-denning pattern. Vineville chimneys do not just host occasional raccoons — many of them are <em>known</em> raccoon dens in the local population, with multiple females using the same chimney across years (not at the same time, but in sequence).</p>
+<h2>Where Raccoons Actually Live in Warner Robins (and What Building Era Matters)</h2>
+<p>Unlike metro Atlanta or middle Georgia historic-district housing, Warner Robins has essentially zero pre-1900 housing inventory. Everything was built after 1942 to support Robins AFB personnel. That means residential raccoons are almost never in chimneys — they are in <strong>attics</strong>, and the entry points reflect the construction era of the house.</p>
 
-<h2>The Four Macon Neighborhoods That Generate Most Raccoon-in-Chimney Calls</h2>
-<p>From talking with peers who do work down there, four districts produce the bulk of late-spring raccoon calls:</p>
+<p><strong>Wellston and Pleasant Hill (1940s-1970s small-frame post-WWII housing).</strong> These are the older central neighborhoods between Watson Boulevard and Russell Parkway. The housing here is now 50 to 80 years old, and the entry-point profile shows it: aged-through galvanized gable vents (original galvanized has typically rusted enough to pull away from the framing), original wood soffits with corner separation at fascia-meet points, and original attic-fan housings that have settled away from their flashing. A typical Wellston home gives a 15-to-25-pound mother raccoon <strong>three to five viable entry routes</strong> by the time you actually start counting.</p>
 
-<p><strong>Vineville Historic District.</strong> This is the densest antebellum residential block in Macon — the houses along Hardeman Avenue, Forsyth Road, and the surrounding pre-1860 fabric. If you are in Vineville and your chimney is uncapped, the working assumption should be that it has either denned a raccoon recently or is currently denning one.</p>
+<p><strong>1980s-1990s mid-tier subdivisions on the eastern and southern edges.</strong> The construction here uses builder-grade vinyl soffits, ridge-vent transitions, and chase-cap details that were perfectly adequate at install but are now 35 to 45 years old. Vinyl-soffit corner separation at fascia-meet points is the dominant failure mode. Ridge-vent flashing has typically failed at one or more end caps. Attic-fan housings — if the house still has one — have aged out of their original tolerances.</p>
 
-<p><strong>In-Town Historic District.</strong> College Street, Plum Street, High Street. Same construction era as Vineville, same chimney geometry, same multi-generational denning history. The proximity to Mercer University also pushes the food-source side of the equation: dumpsters, dorm-area waste streams, and the kind of dense residential-and-commercial mix raccoons exploit hard.</p>
+<p><strong>2000s-2010s newer-construction subdivisions across northern Warner Robins.</strong> The newer stuff has fewer entry points per house (typically 1 to 2 rather than 3 to 5), but the AFB buffer source pressure pushes raccoons hard enough that even newer-construction attics see regular establishment. The exclusion approach is different — fewer points, but each one matters more because the source population is replacing animals on a 30-day cycle.</p>
 
-<p><strong>Beall\'s Hill.</strong> Pre-1900 residential blocks adjacent to Mercer. The housing is slightly newer than Vineville and In-Town (most of it post-Civil-War and pre-1900), but the chimney profile is similar enough that the denning patterns track.</p>
+<p><strong>Lake Joy and Beaverdam Creek shoreline residential (eastern Warner Robins).</strong> Houston Lake corridor and Beaverdam Creek tributary feed a secondary shoreline source population on top of the AFB buffer pressure. Lakefront properties run heavier raccoon body weights (the shoreline diet of fish carcasses and crustaceans produces 18-to-25-pound raccoons rather than the 12-to-15-pound buffer-feeders) and correspondingly larger entry damage on whatever soffit or gable they choose.</p>
 
-<p><strong>Pleasant Hill.</strong> One of the oldest African-American neighborhoods in the country, with a pre-1900 housing inventory that produces the same kinds of multi-decade denning patterns as the other three.</p>
+<p><strong>Centerville and the AFB buffer-adjacent residential (southern edge of city).</strong> Properties directly adjacent to the base perimeter absorb the heaviest source pressure in the entire county. Full-perimeter exclusion is the only realistic answer here. Single-point work fails inside of weeks.</p>
 
-<p>Outside those four districts, Macon\'s mid-century post-WWII housing in Shirley Hills, Ingleside, and the newer subdivisions on the city edges sees a lower per-chimney raccoon rate but a much higher attic-soffit-and-gable rate. If you are in a 1950s-to-1990s Macon ranch or split-level and you have raccoon sound that\'s coming from above the ceiling (not from the chimney chase), the entry point is almost certainly a soffit corner or a gable-louver failure rather than the chimney itself.</p>
-
-<h2>How to Tell If You Have Raccoons (vs. Bats, vs. Squirrels) in Your Macon Chimney</h2>
+<h2>How to Tell If You Have Raccoons (vs. Squirrels, vs. Bats) in Your Warner Robins Attic</h2>
 <p>The species ID matters because the work is different. Here is how to tell what you have:</p>
 
 <h3>Raccoon Signs</h3>
 <ul>
-  <li><strong>Thumping and scratching</strong>, usually loudest at dusk and dawn when the mother is leaving or returning. By late May, also throughout the night and intermittently during the day as kits move around.</li>
-  <li><strong>High-pitched chittering, squealing, or chirping</strong> from above the firebox. Kits sound a little bit like a bird with the volume turned up. People often describe it as &quot;crying.&quot;</li>
-  <li><strong>Heavy rustling</strong> in the smoke shelf and damper area. A 15-pound mother raccoon is not subtle. You hear weight when she moves.</li>
+  <li><strong>Thumping and scratching</strong> in the attic or above the ceiling, usually loudest at dusk and dawn when the mother is leaving or returning. By late May, also throughout the night and intermittently during the day as kits move around.</li>
+  <li><strong>High-pitched chittering, squealing, or chirping</strong> — kits sound a little bit like a bird with the volume turned up. People often describe it as &quot;crying.&quot;</li>
+  <li><strong>Heavy rustling</strong> from the attic space. A 15-pound mother raccoon is not subtle; you hear weight when she moves across the ceiling joists.</li>
   <li><strong>A musky smell</strong> — distinct from the ammonia-and-dust smell of bat guano. Raccoon urine and droppings have a more &quot;mammal&quot; smell that intensifies in warm weather.</li>
-  <li><strong>Smudge marks on the brick</strong> around the chimney crown or near the cap (if there is one) — dark stains from fur oils where the mother regularly grips on her way in and out.</li>
+  <li><strong>Smudge marks and fur oil staining</strong> on siding, brick, or trim immediately below the entry point. The mother grips the same spot on the way in and out for weeks.</li>
   <li><strong>Trash-can disruption</strong> in the yard that started 2 to 4 weeks ago. Mother raccoons forage harder in late spring because the kits are growing fast.</li>
-</ul>
-
-<h3>Bat Signs (different problem, different fix)</h3>
-<ul>
-  <li><strong>A whoosh at sunset</strong> as the colony emerges from the chimney crown — the most reliable bat-vs-raccoon discriminator. Raccoons do not produce a synchronized dusk emergence; bat colonies do.</li>
-  <li>Many small high-pitched squeaks and chirps in rapid succession (versus the slower, deeper chittering of raccoon kits).</li>
-  <li>Dark guano accumulating in the firebox that crumbles to dust between your fingers. Raccoon scat stays solid and looks more like a small dog\'s.</li>
-  <li>Ammonia smell — sharper and more chemical than the musky smell of raccoons.</li>
 </ul>
 
 <h3>Squirrel Signs</h3>
 <ul>
   <li>Scampering or running rather than thumping. Squirrels weigh 1 pound; their sound is light and fast.</li>
   <li>Daytime activity, especially mid-morning and late afternoon. Raccoons are nocturnal-crepuscular; squirrels are diurnal.</li>
-  <li>Chewing sounds — squirrels gnaw on chimney bricks and any wooden flue components. Raccoons do not chew.</li>
-  <li>Often coming from above the ceiling (attic) rather than from the chimney itself, although squirrels do sometimes fall down uncapped chimneys.</li>
+  <li>Chewing sounds — squirrels gnaw on wood framing, insulation, and electrical wire sheathing. Raccoons do not chew structurally.</li>
+  <li>Two distinct annual breeding waves: late winter (February-March kits) and late summer (July-August kits). Warner Robins has heavy gray squirrel and fox squirrel populations both seasons.</li>
 </ul>
 
-<p>If after reading all of that you still aren\'t sure what you have, the most useful single thing you can do is stand outside at sunset on a clear evening with eyes on the chimney and the roofline. Bats produce a visible dusk emergence. Raccoons produce a single mother climbing slowly out the top of the chimney crown around 30-45 minutes after sunset. Squirrels produce nothing because they are already inside for the night.</p>
+<h3>Bat Signs</h3>
+<ul>
+  <li>A whoosh at sunset as the colony emerges from a gable louver, soffit gap, or ridge vent — the most reliable bat-vs-raccoon discriminator. Raccoons do not produce a synchronized dusk emergence; bat colonies do.</li>
+  <li>Many small high-pitched squeaks in rapid succession (versus the slower, deeper chittering of raccoon kits).</li>
+  <li>Dark guano accumulating below the entry point that crumbles to dust between your fingers. Raccoon scat stays solid and looks more like a small dog\'s.</li>
+  <li>Ammonia smell — sharper and more chemical than the musky smell of raccoons.</li>
+  <li>Warner Robins bat work is more often <strong>Brazilian free-tailed bat</strong> (<em>Tadarida brasiliensis</em>) than big-brown, because the Coastal Plain climate and the AFB buffer favor free-tail establishment. Different species, different exclusion timing.</li>
+</ul>
 
-<h2>Why You Cannot Simply Evict a Macon Raccoon Mother in May</h2>
-<p>This is the rule that creates the most frustration for Macon homeowners in late May, and I have to be honest about it. <strong>If you trap or seal out the mother raccoon while kits are still in the chimney, the kits starve to death over the next 5 to 10 days.</strong></p>
+<h2>Why You Cannot Simply Trap and Remove the Mother in May</h2>
+<p>This is the rule that creates the most frustration for Warner Robins homeowners in late May, and I have to be honest about it. <strong>If you trap or seal out the mother raccoon while kits are still in the attic, the kits starve to death over the next 5 to 10 days.</strong></p>
 
-<p>What happens next is the part that gets expensive: dead kits in the smoke shelf or chimney chase. They decompose. Blowflies show up. The smell pushes through the house. Recovery means either opening the chimney from the exterior (which on a pre-1860 Vineville chimney is a significant masonry undertaking) or running a flexible recovery tool down from the top to fish them out one by one. The job that should have been a $700 humane reunion-and-exclusion turns into a $2,500-$4,500 dead-animal-and-masonry remediation job.</p>
+<p>What happens next is the part that gets expensive: dead kits in the attic. They decompose. In a Coastal Plain late-May climate that is already 80+ degrees during the day and over 95 in attic spaces, decomposition is fast. Blowflies show up. The smell pushes through the house, especially around HVAC return vents. Recovery means cutting into ceilings or attic floor decking to find the kits one by one, sometimes hidden in soffit boxes or behind insulation. The job that should have been a $700 humane reunion-and-exclusion turns into a $2,500-$5,000 dead-animal-and-drywall remediation job.</p>
 
-<p>The right approach in late May is what we call <strong>reunion exclusion</strong>:</p>
+<p>The right approach in late May is <strong>reunion exclusion</strong>:</p>
 
 <ol>
-  <li>Identify all the kits in the chimney. Typically 3 to 5 kits per litter. The smoke shelf and damper area is where they will be.</li>
-  <li>Carefully extract the kits using protective gloves and a soft container. They do not bite at this age, but the mother does — so this is timed during the day when she is sleeping farther up the chimney or out foraging.</li>
-  <li>Place the kits in a heated, vented reunion box on the roof or immediately adjacent to the chimney entry, where the mother can find them.</li>
-  <li>Install a one-way exclusion device at the chimney crown that allows the mother to leave but not to re-enter the chimney itself.</li>
+  <li>Identify all the kits in the attic. Typically 3 to 5 kits per litter. They will be in an insulated nest pocket — often near the gable-end or in a soffit box.</li>
+  <li>Carefully extract the kits using protective gloves and a soft container. They do not bite at this age, but the mother does — so this is timed during the day when she is sleeping elsewhere or out foraging.</li>
+  <li>Place the kits in a heated, vented reunion box on the roof immediately adjacent to the entry, where the mother can find them.</li>
+  <li>Install a one-way exclusion device at the active entry that allows the mother to leave but not to re-enter the attic.</li>
   <li>The mother returns at dusk, finds the reunion box, picks up the kits one at a time, and relocates them to an alternate den site she has already mapped in her home range. Female raccoons routinely maintain 2 to 4 backup den sites.</li>
-  <li>Once verified empty (monitored over multiple dusk emergence windows), the chimney crown gets sealed with a custom-fabricated stainless-steel cap engineered to fit the antebellum chimney dimensions.</li>
+  <li>Once verified empty (monitored over multiple dusk emergence windows), every viable entry point on the house gets sealed — not just the active one.</li>
 </ol>
 
 <p>That full sequence runs 7 to 14 days. It is more involved than a winter exclusion (when there are no kits and the mother can simply be sealed out). But it is the only humane and durable approach during kit season, and it is the approach that Georgia DNR-licensed operators use.</p>
 
-<h2>Why Off-the-Shelf Chimney Caps Don\'t Work on Vineville Antebellum Crowns</h2>
-<p>Almost every Macon antebellum homeowner who has tried to solve a raccoon problem on their own has hit the same wall: they go to Lowe\'s or Home Depot, buy a galvanized chimney cap, climb up to install it, and discover that the cap does not fit. The crown is too wide, too narrow, off-square, or the brickwork is too irregular to anchor the cap legs without damaging the masonry.</p>
+<h2>Why Full-Perimeter Exclusion Matters More in Warner Robins Than Most Cities</h2>
+<p>Almost every Warner Robins homeowner who has been through a raccoon problem before has hit the same wall: someone trapped a raccoon out of the attic, sealed the obvious entry, and 6 to 8 weeks later the noise was back. That is not a defective trap or a lazy operator. That is the AFB buffer doing exactly what it always does.</p>
 
-<p>Pre-1860 Macon chimneys were built by hand to local conventions that vary house by house. There is no &quot;standard&quot; antebellum chimney crown. What works is a stainless-steel cap that has been measured to the specific crown, fabricated to fit it, and anchored with materials that do not damage the historic brickwork. The cost difference between a hardware-store galvanized cap and a properly fabricated stainless one is real — fabricated caps for antebellum crowns typically run <strong>$400-$900 each</strong>, sometimes more for complex multi-flue stacks. But a hardware-store cap that does not fit is a worse outcome than no cap at all, because it gives homeowners false confidence that the problem is solved.</p>
+<p>In a city where the source population is continuously replenished from a 7,000-acre habitat block, the only durable exclusion approach is <strong>identifying and sealing every viable entry point on the entire house</strong>. Three to five points on a typical Wellston or Pleasant Hill home. One to two on a newer northern Warner Robins subdivision house. Maybe 6 or more on a larger Lake Joy property with custom architecture.</p>
 
-<p>Stainless steel matters because Macon\'s humidity will rust galvanized in a few seasons. Stainless lasts 30+ years on an antebellum chimney with no maintenance.</p>
+<p>That work requires a full exterior inspection from grade to ridge — soffit corners, gable louvers, ridge-vent end caps, attic-fan housings, fascia-meet points, brick-veneer separations, dryer-vent terminations, plumbing-vent boots. Every one of them gets evaluated. Every viable one gets sealed in the same job. The materials matter too — galvanized steel cloth and properly fitted vent covers for entry points, not foam-and-caulk for raccoon-grade access.</p>
 
-<h2>What a Real Macon Antebellum Raccoon Job Costs</h2>
-<p>I am not licensed to do work in Macon and am not pricing your job. But I can tell you what the scope looks like compared to what I run in north Georgia historic districts, and the Macon numbers should track:</p>
+<h2>What a Real Warner Robins Raccoon Exclusion Costs</h2>
+<p>I am not pricing your specific job, but the scope ranges in Houston County typically run like this:</p>
 
 <ul>
-  <li><strong>Standard raccoon trap-and-exclude on a non-antebellum Macon home</strong> (1950s-1990s ranch, split-level, or newer construction with chimney-chase or soffit-entry): typically <strong>$500-$1,200</strong> for inspection, trap-and-release plus a single-cavity exclusion. Compares to a similar Marietta or Newnan modern-home job in price.</li>
-  <li><strong>Vineville, In-Town, Beall\'s Hill, or Pleasant Hill antebellum chimney reunion-exclusion in kit season</strong>: typically <strong>$1,400-$2,800+</strong>. Higher because of the multi-day reunion-box monitoring, the custom-fabricated stainless cap, and the antebellum-specific access considerations.</li>
-  <li><strong>Multi-cavity antebellum work</strong> (chimney + gable louver + soffit entries, all sealed in the same job): <strong>$2,500-$4,500+</strong> depending on how many viable entry points the house has. Most Vineville and In-Town houses I would expect to have 3 to 5 viable entry points by the time you start counting.</li>
-  <li><strong>Dead-kit remediation</strong> (when DIY exclusion went wrong and you have decomposition in the chimney chase): <strong>$2,500-$6,000+</strong>. This is the scenario you are trying to avoid by reading this article in May rather than calling about a smell in June.</li>
-  <li><strong>Guano and den-debris remediation</strong> after exclusion (cleaning the smoke shelf, flue, and damper area, plus disinfecting): commonly bundled into the exclusion price for $200-$600 additional.</li>
+  <li><strong>Wellston, Pleasant Hill, and 1940s-1970s small-frame post-WWII housing</strong>: typically <strong>$700-$1,800+</strong> for inspection, reunion exclusion in kit season, and full-perimeter sealing of 3 to 5 viable entry points.</li>
+  <li><strong>1980s-1990s mid-tier subdivisions</strong> on the eastern and southern edges: typically <strong>$600-$1,500+</strong> for similar scope with vinyl-soffit-grade material and 2 to 4 entry points.</li>
+  <li><strong>2000s-2010s newer-construction northern Warner Robins subdivisions</strong>: typically <strong>$500-$1,200+</strong> for tighter entry-point counts (1 to 2) and newer-build exclusion materials.</li>
+  <li><strong>Lake Joy and Beaverdam Creek lakefront residential</strong>: typically <strong>$1,200-$2,500+</strong> because of larger property footprints, custom architectural features that produce non-standard entry-point profiles, and the heavier-bodied shoreline raccoons that produce larger entry damage.</li>
+  <li><strong>AFB buffer-adjacent residential (southern Warner Robins, Centerville)</strong>: typically <strong>$800-$2,000+</strong> because full-perimeter exclusion is the only realistic answer here and the inspection scope is wider.</li>
+  <li><strong>Dead-kit drywall remediation</strong> (after a failed DIY exclusion): <strong>$2,500-$5,000+</strong> depending on access scope and how many kits are scattered through the attic and soffit cavities.</li>
 </ul>
 
-<p>Cheaper than that and someone is cutting corners on either the species-handling side (illegal kit separation) or the masonry side (hardware-store cap that will not last). More than that and you are probably either dealing with a more complex multi-flue stack or someone is overcharging.</p>
+<p>Cheaper than that and someone is cutting corners on either the species-handling side (illegal kit separation) or the exclusion side (single-point work that the AFB buffer will defeat in weeks). More than that and you are either dealing with a heavily custom house or you are being overcharged.</p>
 
-<h2>Health Concerns: Raccoon Roundworm and Why You Don\'t Want to Do This Yourself</h2>
-<p><em>Baylisascaris procyonis</em> is a roundworm parasite that lives in raccoon intestines and sheds eggs in raccoon feces. Once those eggs are in the environment, they can remain viable in soil for years. Human exposure — particularly in children, who put hands in mouths after touching contaminated surfaces — can cause severe neurological disease.</p>
+<h2>Health Concerns: Raccoon Roundworm and Why DIY Cleanup Is a Bad Idea</h2>
+<p><em>Baylisascaris procyonis</em> is a roundworm parasite that lives in raccoon intestines and sheds eggs in raccoon feces. Once those eggs are in the environment, they can remain viable in soil and structural debris for years. Human exposure — particularly in children, who put hands in mouths after touching contaminated surfaces — can cause severe neurological disease.</p>
 
-<p>In a Macon antebellum chimney that has hosted raccoons across multiple denning seasons, the smoke shelf and firebox can have measurable <em>B. procyonis</em> egg contamination. Disturbing that material without N95+ respiratory protection, gloves, and a HEPA-filtered vacuum system risks both inhalation and dermal-to-oral transmission.</p>
+<p>In a Warner Robins attic where raccoons have been denning for two to three months, the latrine site (raccoons designate a corner of the den space as a toilet area) can have significant <em>B. procyonis</em> egg contamination. Disturbing that material without N95+ respiratory protection, gloves, and a HEPA-filtered vacuum system risks both inhalation and dermal-to-oral transmission.</p>
 
-<p>This is the strongest single argument against DIY raccoon-chimney cleanup on a Vineville or In-Town home: even if you manage the exclusion safely, the post-job remediation has real public-health stakes that homeowner equipment is not built to handle.</p>
+<p>This is the strongest single argument against DIY attic cleanup on a Wellston or Pleasant Hill home: even if the homeowner manages the exclusion safely, the post-job remediation has real public-health stakes that homeowner equipment is not built to handle. Soiled insulation has to come out and be replaced, not vacuumed. Surfaces have to be decontaminated, not just wiped.</p>
 
-<h2>If You Hear Something in Your Chimney Right Now</h2>
-<p>The right move in late May is not to wait. Kits are growing 50-100 grams per day at this stage. By the second week of June they will be roughly 2 pounds each, mobile enough to crawl partway up the chimney on their own, and starting to follow the mother on short trips outside. Reunion exclusion gets harder once kits are old enough to scatter. The window between <strong>now and roughly the second or third week of June</strong> is the cleanest time to handle this.</p>
+<h2>If You Hear Something in Your Attic Right Now</h2>
+<p>The right move in late May is not to wait. Kits are growing 50-100 grams per day at this stage. By the second week of June they will be roughly 2 pounds each, mobile enough to follow the mother on short trips outside, and starting to scatter through the attic. Reunion exclusion gets harder once kits are old enough to move on their own. The window between <strong>now and roughly the second or third week of June</strong> is the cleanest time to handle this.</p>
 
-<p>If you live in Vineville, In-Town, Beall\'s Hill, Pleasant Hill, or any of Macon\'s pre-1860 antebellum blocks and you are hearing thumping or chittering above your fireplace: get a licensed wildlife operator out for an inspection this week. Make sure they are licensed under Georgia DNR Wildlife Resources Division (Bibb County falls in DNR Region 4), make sure they understand antebellum chimney work specifically, and make sure they are not promising to &quot;seal the chimney&quot; without first dealing with the kits.</p>
+<p>If you live in Warner Robins, Centerville, Bonaire, Kathleen, or anywhere in Houston County and you are hearing thumping or chittering above the ceiling: get a licensed wildlife operator out for an inspection this week. Make sure they are licensed under Georgia DNR Wildlife Resources Division (Houston County falls in DNR Region 4), make sure they understand AFB-buffer source dynamics and full-perimeter exclusion specifically, and make sure they are not promising to &quot;just trap the raccoon&quot; without addressing every viable entry point on the house.</p>
 
-<p>The right operator will tell you exactly what I have told you in this article. If someone tells you something different — that they can &quot;just seal it,&quot; that they can &quot;poison the mother,&quot; that they can &quot;do it for a flat $200&quot; — that is the operator you do not want.</p>
-
-<p>One more thing. If you actually see kits on the ground outside your house, do not try to handle them. Wear gloves, place them in a vented box, put the box near where you think the mother den is, and call a licensed operator. Healthy mother raccoons routinely retrieve kits that have fallen out of dens; the worst thing you can do is take the kits indoors or try to feed them.</p>
-
-<p>The pattern across antebellum chimney districts is consistent anywhere it shows up, and the right answers in May are the same: reunion exclusion, custom-fabricated stainless cap, post-job remediation with proper PPE, and patience with the 7-to-14-day timeline that doing it correctly actually requires. Find a Georgia DNR-licensed operator who is active in Bibb County and who specifically knows antebellum chimney work, and the problem is solvable inside two weeks.</p>
-`,
+<p>The pattern across Houston County is consistent, and the right answers in May are the same anywhere it shows up: reunion exclusion during kit season, full-perimeter sealing of every viable entry, proper Baylisascaris-aware post-job remediation, and patience with the 7-to-14-day timeline that doing it correctly actually requires. Find a Georgia DNR-licensed operator who is active in Houston County and who understands the AFB-buffer source pressure, and the problem is solvable inside two weeks.</p>
+\`,
     faqs: [
       {
-        q: 'Why are raccoons in chimneys such a problem in Macon during May?',
-        a: 'Female raccoons den in chimneys February through April to give birth and raise kits. By late May the kits are 5 to 10 weeks old, mobile, and vocal — that is when most Vineville, In-Town, Beall\'s Hill, and Pleasant Hill homeowners first hear noise from the chimney. Macon\'s antebellum chimney inventory is unusually dense relative to the rest of Georgia, which makes the seasonal pattern more concentrated here than in newer-construction areas.'
+        q: 'Why are raccoons in attics such a problem in Warner Robins during May?',
+        a: 'Female raccoons den in attic spaces February through April to give birth and raise kits. By late May the kits are 5 to 10 weeks old, mobile, and vocal — that is when most Wellston, Pleasant Hill, Lake Joy, and northern Warner Robins homeowners first hear the noise. The Robins AFB buffer on the south side of the city continuously replenishes the residential raccoon population from a 7,000-acre source habitat, which concentrates kit-season activity across the entire Houston County housing inventory.'
       },
       {
-        q: 'Can I just seal the top of my chimney and force the raccoon mother out?',
-        a: 'No. Sealing the chimney while kits are inside causes the kits to starve, and the resulting decomposition produces a far worse problem (odor, blowflies, masonry-intrusive recovery work). The correct approach during kit season is reunion exclusion: extract the kits, place them in a heated reunion box near the chimney, install a one-way valve so the mother can leave but not re-enter, and let her relocate the kits to one of her backup dens. Once verified empty, the chimney crown gets capped with a custom-fabricated stainless steel cap.'
+        q: 'Can I just trap the raccoon and seal up the entry myself?',
+        a: 'No, not in May. Trapping or sealing out the mother while kits are still in the attic causes the kits to starve, and the resulting decomposition produces a far worse problem (odor, blowflies, drywall-intrusive recovery work). The correct approach during kit season is reunion exclusion: extract the kits, place them in a heated reunion box near the active entry, install a one-way valve so the mother can leave but not re-enter, and let her relocate the kits to one of her backup dens. Once verified empty, every viable entry on the entire house gets sealed.'
       },
       {
-        q: 'How much does raccoon removal cost in a Macon historic district home?',
-        a: 'Vineville, In-Town, Beall\'s Hill, and Pleasant Hill antebellum chimney reunion-exclusion jobs in kit season typically run $1,400-$2,800+. Multi-cavity work (chimney plus gable louver plus soffit) commonly runs $2,500-$4,500+. Standard non-antebellum Macon homes (1950s-1990s ranch, split-level, newer construction) typically run $500-$1,200. Dead-kit remediation after a failed DIY exclusion runs $2,500-$6,000+.'
+        q: 'How much does raccoon removal cost in Warner Robins?',
+        a: 'Wellston and Pleasant Hill 1940s-1970s small-frame jobs typically run $700-$1,800+ for reunion exclusion plus full-perimeter sealing of 3 to 5 entry points. 1980s-1990s mid-tier subdivision jobs run $600-$1,500+. 2000s-2010s newer northern Warner Robins subdivisions typically run $500-$1,200+ because there are fewer entry points. Lake Joy lakefront properties run $1,200-$2,500+ because of larger footprints and heavier-bodied shoreline raccoons. AFB buffer-adjacent properties run $800-$2,000+ because full-perimeter inspection scope is wider.'
       },
       {
-        q: 'Why don\'t off-the-shelf chimney caps work on Macon antebellum chimneys?',
-        a: 'Pre-1860 Macon chimneys were built to local hand-laid conventions, not modern standardized dimensions. Hardware-store galvanized caps almost never fit antebellum crowns properly, and even when they do they rust out within a few seasons in Macon\'s humidity. The right approach is a stainless-steel cap that has been measured to the specific crown, fabricated to fit it, and anchored without damaging the historic brickwork. Fabricated antebellum caps typically run $400-$900 each.'
+        q: 'Why does the Robins Air Force Base buffer matter for my raccoon problem?',
+        a: 'The base sits on the south side of Warner Robins and includes approximately 7,000 acres of undeveloped pine-forest buffer around the operational footprint. That buffer is one of the largest contiguous wildlife source habitats in middle Georgia, and it continuously disperses raccoons northward into the residential blocks of Warner Robins. In practice, this means single-point trap-and-release work fails inside of weeks because the source population is constantly replenished. Full-perimeter exclusion of every viable entry point on the house is the only durable answer.'
       },
       {
-        q: 'Is raccoon waste in an old chimney a real health risk?',
-        a: 'Yes. Raccoons carry Baylisascaris procyonis, a roundworm whose eggs can remain viable in environmental contamination for years and can cause severe neurological disease in humans (particularly children) on accidental ingestion. Multi-season antebellum chimney use produces measurable contamination in the smoke shelf and firebox. Cleanup requires N95+ respiratory protection, gloves, and HEPA-filtered vacuum — homeowner DIY equipment is not adequate.'
+        q: 'Is raccoon waste in my Warner Robins attic a real health risk?',
+        a: 'Yes. Raccoons carry Baylisascaris procyonis, a roundworm whose eggs can remain viable in environmental contamination for years and can cause severe neurological disease in humans (particularly children) on accidental ingestion. Multi-month attic use produces measurable contamination at the latrine site. Cleanup requires N95+ respiratory protection, gloves, HEPA-filtered vacuum, and replacement of contaminated insulation — homeowner DIY equipment is not adequate.'
       },
       {
-        q: 'How do I tell if I have raccoons versus bats versus squirrels in my Macon chimney?',
-        a: 'Raccoons produce heavy thumping, slow chittering, and dusk-and-dawn activity from a single mother — sometimes accompanied by kit squealing in late spring. Bats produce a synchronized whoosh emergence at sunset from the chimney crown, plus many small high-pitched chirps. Squirrels are diurnal, light, fast-moving, and often chewing on chimney wood. The single most reliable test is standing outside at dusk on a clear evening and watching the chimney crown: bats emerge in numbers, raccoons emerge as a single mother 30-45 minutes after sunset, and squirrels typically do not emerge at all (they are already inside for the night).'
+        q: 'How do I tell if I have raccoons versus squirrels versus bats in my Warner Robins attic?',
+        a: 'Raccoons produce heavy thumping, slow chittering, and dusk-and-dawn activity from a single mother — sometimes accompanied by kit squealing in late spring. Squirrels are diurnal, light, fast-moving, and often chewing on framing or wire sheathing. Bats produce a synchronized whoosh emergence at sunset from a gable louver or soffit gap, plus many small high-pitched chirps. The single most reliable test is standing outside at dusk on a clear evening and watching the roofline: bats emerge in numbers, raccoons produce a single mother climbing slowly out 30-45 minutes after sunset, and squirrels typically do not emerge (they are already inside for the night).'
       },
       {
-        q: 'How do I find a licensed raccoon removal pro in Macon?',
-        a: 'Macon raccoon work needs a Georgia DNR-licensed operator active in Bibb County (DNR Region 4) who specifically knows antebellum chimney exclusion. The non-negotiables: current Georgia DNR licensing, demonstrated experience with custom-fabricated stainless-steel caps for pre-1860 crowns, willingness to do proper reunion exclusion during kit season instead of a flat-rate seal-the-chimney shortcut, and PPE protocols for Baylisascaris contamination during post-exclusion cleanup. This directory connects homeowners with the licensed operator who covers Bibb County.'
+        q: 'How do I find a licensed raccoon removal pro in Warner Robins?',
+        a: 'Warner Robins raccoon work needs a Georgia DNR-licensed operator active in Houston County (DNR Region 4) who specifically understands Robins AFB-buffer source dynamics and full-perimeter exclusion. The non-negotiables: current Georgia DNR licensing, demonstrated willingness to identify and seal every viable entry on the house (not just the obvious one), proper reunion exclusion during kit season instead of a flat-rate seal-up shortcut, and PPE protocols for Baylisascaris contamination during post-exclusion cleanup. This directory connects homeowners with the licensed operator who covers Houston County.'
       }
     ]
   }
