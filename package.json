@@ -11,6 +11,7 @@
     "@nickgraffis/us-counties": "^0.0.2",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
+    "node-cache": "^5.1.2",
     "node-fetch": "^2.7.0",
     "topojson-client": "^3.1.0",
     "us": "^2.0.0",

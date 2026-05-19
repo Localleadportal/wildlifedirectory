@@ -16,6 +16,7 @@ const { getCityAnimalContent } = require('./data/cityAnimalContent');
 const { getCountyAnimalContent } = require('./data/countyAnimalContent');
 const { getNationalContent } = require('./data/animalNationalContent');
 const { getAllPosts, getPostBySlug } = require('./data/blogPosts');
+const { getContractor } = require('./lib/contractor');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -271,8 +272,14 @@ app.get('/:stateSlug/:countySlug/', async (req, res) => {
   const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
   const cities = getCitiesForCounty(stateName, countyName);
   const stateInfo = stateContent[stateName] || null;
-  const countyContent = getCountyContent(stateName, countyName);
+  let countyContent = getCountyContent(stateName, countyName);
   const indexable = await isCountyIndexable(stateName, countyName);
+
+  // Server-side contractor lookup. Cached 1h on hit, 5min on miss/error.
+  // Templates read countyContent.contractor when rendering phone numbers
+  // and company name; null falls through to the directory (844) number.
+  const _contractor = await getContractor(stateName, apiCounty(countyName), SERVICE_TYPE);
+  if (_contractor) countyContent = { ...(countyContent || {}), contractor: _contractor };
 
   res.render('county', {
     stateName, countyName, embedScript, cities, stateInfo, countyContent,
@@ -337,7 +344,9 @@ app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
     const animalRegionNote = getAnimalRegionContent(stateName, seg);
     const indexable = await isCountyAnimalIndexable(stateName, countyName, seg);
     const countyAnimalContent = getCountyAnimalContent(stateName, countyName, seg);
-    const countyContent = getCountyContent(stateName, countyName);
+    let countyContent = getCountyContent(stateName, countyName);
+    const _contractor = await getContractor(stateName, apiCounty(countyName), SERVICE_TYPE);
+    if (_contractor) countyContent = { ...(countyContent || {}), contractor: _contractor };
     return res.render('county-animal', {
       stateName, countyName, animal, cities, stateInfo, animalRegionNote, embedScript,
       indexable, countyAnimalContent, countyContent,
@@ -353,8 +362,11 @@ app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
   if (cityName) {
     const indexable = await isCityIndexable(stateName, countyName, cityName);
     const cityContent = getCityContent(stateName, countyName, cityName);
+    let countyContent = getCountyContent(stateName, countyName);
+    const _contractor = await getContractor(stateName, apiCounty(countyName), SERVICE_TYPE);
+    if (_contractor) countyContent = { ...(countyContent || {}), contractor: _contractor };
     return res.render('city', {
-      stateName, countyName, cityName, stateInfo, embedScript, cityContent,
+      stateName, countyName, cityName, stateInfo, embedScript, cityContent, countyContent,
       indexable,
       stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: seg, toSlug, ANIMALS
     });
@@ -380,8 +392,11 @@ app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug/', async (req, res) => {
   const animalRegionNote = getAnimalRegionContent(stateName, req.params.animalSlug);
   const indexable = await isCityIndexable(stateName, countyName, cityName, req.params.animalSlug);
   const cityAnimalContent = getCityAnimalContent(stateName, countyName, cityName, req.params.animalSlug);
+  let countyContent = getCountyContent(stateName, countyName);
+  const _contractor = await getContractor(stateName, apiCounty(countyName), SERVICE_TYPE);
+  if (_contractor) countyContent = { ...(countyContent || {}), contractor: _contractor };
   res.render('city-animal', {
-    stateName, countyName, cityName, animal, stateInfo, animalRegionNote, embedScript, cityAnimalContent,
+    stateName, countyName, cityName, animal, stateInfo, animalRegionNote, embedScript, cityAnimalContent, countyContent,
     indexable,
     faqs: getAnimalFaqs(req.params.animalSlug, { countyName, cityName, stateName, stateInfo }),
     seasonal: getSeasonalContent(req.params.animalSlug),
