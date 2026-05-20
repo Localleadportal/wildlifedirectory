@@ -139,11 +139,15 @@
       @id stays "#business" in both branches so Service nodes that reference
       #business resolve correctly regardless of which branch ran. %>
   <% if (countyContent && countyContent.contractor) { %>
-  <!-- PestControl — assigned local contractor entity -->
+  <!-- LocalBusiness/ProfessionalService — assigned local contractor entity
+       (wildlife removal industry signaled via additionalType for crawlers
+       that resolve schema.org subtype URLs; LocalBusiness is the primary
+       @type for universal validator + provider-reference compatibility). -->
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "PestControl",
+    "@type": ["LocalBusiness", "ProfessionalService"],
+    "additionalType": "https://schema.org/PestControl",
     ...(seoEnhanced ? { "@id": pageUrl + "#business" } : {}),
     "name": countyContent.contractor.name,
     "description": animal.shortDesc + " Serving all of " + countyName + ", " + stateName + ".",
