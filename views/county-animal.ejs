@@ -174,7 +174,6 @@
       "itemListElement": (countyAnimalContent && countyAnimalContent.pricing && countyAnimalContent.pricing.length)
         ? countyAnimalContent.pricing.map((p, i) => ({
             "@type": "Offer",
-            "position": i + 1,
             "itemOffered": { "@type": "Service", "name": p.name, ...(p.notes ? { "description": p.notes } : {}) },
             "priceSpecification": {
               "@type": "PriceSpecification",
@@ -243,7 +242,6 @@
       "itemListElement": (countyAnimalContent && countyAnimalContent.pricing && countyAnimalContent.pricing.length)
         ? countyAnimalContent.pricing.map((p, i) => ({
             "@type": "Offer",
-            "position": i + 1,
             "itemOffered": { "@type": "Service", "name": p.name, ...(p.notes ? { "description": p.notes } : {}) },
             "priceSpecification": {
               "@type": "PriceSpecification",
