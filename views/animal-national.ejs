@@ -132,10 +132,9 @@
 <section class="services-section">
   <div class="container">
     ${animal.slug === 'opossum-removal' ? '<div class="section-photo-banner"><img src="/images/hero11.jpg" alt="Virginia opossum in autumn tree — find a licensed possum removal contractor near you" loading="lazy" class="banner-img">' : ''}
-    ${animal.slug === 'raccoon-removal' ? '<div class="section-photo-banner"><img src="/images/raccoon-hero1.jpg" alt="Adult raccoon perched on a wooden deck railing — find a licensed raccoon removal contractor near you" loading="lazy" class="banner-img">' : ''}
     <h2>${animal.name} Services Available</h2>
     <p class="section-sub">${animal.urgency}</p>
-    ${animal.slug === 'opossum-removal' || animal.slug === 'raccoon-removal' ? '</div>' : ''}
+    ${animal.slug === 'opossum-removal' ? '</div>' : ''}
     <div class="service-cards">
       <div class="service-card featured">
         <span class="card-badge">Signs You Have ${animal.plural}</span>
@@ -155,6 +154,7 @@
         </ul>
       </div>
     </div>
+    ${animal.slug === 'raccoon-removal' ? '<div class="section-photo-banner" style="margin-top:32px;"><img src="/images/raccoon-hero1.jpg" alt="Adult raccoon (Procyon lotor) on a residential wooden deck — licensed local raccoon removal contractors for attic exclusion, humane trapping, sanitation, and entry-point repair near you" title="Raccoon removal near me — find a licensed local raccoon trapper and exclusion contractor" loading="lazy" class="banner-img"></div>' : ''}
   </div>
 </section>
 
