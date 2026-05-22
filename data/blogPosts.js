@@ -12,6 +12,72 @@
 
 const BLOG_POSTS = [
   {
+    slug: 'baby-raccoon-season-macon-attic',
+    title: 'Baby Raccoon Season in Macon: What That Noise in Your Attic Probably Is',
+    metaTitle: 'Baby Raccoon Season in Macon, GA: Noises in Your Attic',
+    metaDescription: 'Scratching in your Macon attic this spring? Whelping runs late February to early May — here\'s why timing matters before you trap or seal.',
+    excerpt: 'That scratching above your ceiling this time of year is almost always a mother raccoon — not a single animal, not a one-time intrusion. Macon\'s whelping window runs late February through early May, and the next 8 to 10 weeks change everything about what you can safely do.',
+    ogImage: 'https://www.removewildlifenow.com/images/baby-raccoons-macon-bibb.jpg',
+    datePublished: '2026-05-22',
+    dateModified: '2026-05-22',
+    author: 'Central Georgia Wildlife Control LLC',
+    category: 'Raccoon Removal',
+    tags: ['raccoon', 'macon', 'bibb county', 'georgia', 'baby raccoons', 'whelping', 'attic', 'chimney', 'humane removal', 'spring'],
+    body: `
+<p class="lead">If you're a Macon homeowner hearing scratching, chittering, or a slow heavy thumping above your ceiling right now — late winter through late spring — there's one explanation that's far more likely than any other. It's not "one raccoon got in." It's almost always a mother raccoon who has chosen your attic or chimney as a nursery, and she has kits with her. That single fact changes everything about what you can safely do next.</p>
+
+<figure style="margin:28px 0;">
+  <img src="/images/baby-raccoons-macon-bibb.jpg" alt="Baby raccoons safely contained in a box after humane removal from a Macon-Bibb home by a licensed wildlife contractor." loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
+  <figcaption style="font-size:0.88rem;color:#6b7280;margin-top:10px;text-align:center;font-style:italic;line-height:1.5;">Baby raccoons in a containment box on a Bibb County humane removal job.</figcaption>
+</figure>
+
+<h2>Is It Raccoon Birthing Season? Yes — and Here's Why It Changes Everything</h2>
+<p>Yes. <strong>Macon-area raccoon whelping runs late February through early May</strong>, and in mild central-Georgia winters some females start as early as late January. By the time most Macon homeowners notice the noises, kits are already inside the structure — usually two to five of them, born blind, deaf, and completely dependent on the mother for milk.</p>
+
+<p>The key number that drives every decision from here forward: <strong>kits are immobile and milk-dependent for roughly eight to ten weeks after birth</strong>. They cannot walk, climb, or leave the den on their own. They cannot follow the mother out. They cannot be evicted by scent or by noise or by light. Until they're old enough to travel — typically <strong>late April for the earliest litters through mid-June for the latest</strong> — the kits stay where they were born.</p>
+
+<p>That timeline is why you're searching for raccoon noises in your Macon attic in spring rather than in fall. Fall raccoon calls in Bibb County are usually about juvenile dispersal — young raccoons looking for their own territory. Spring calls are almost always about a denning mother with non-volant kits. They're a different problem with a different protocol.</p>
+
+<h2>Why Macon Mothers Choose Antebellum Chimneys and Attics</h2>
+<p>Female raccoons don't choose attics and chimneys randomly. They choose what we'd call defensible denning sites — dark, dry, warm, and structurally enclosed enough to keep the kits safe from predators and weather. Pre-1860 Macon construction produces those conditions at higher density than any other part of central Georgia.</p>
+
+<p>Two specific factors stack the deck:</p>
+
+<p><strong>The Ocmulgee River corridor</strong> bisecting Bibb County concentrates a continuous year-round source population of raccoons. The federally protected Ocmulgee Mounds National Historical Park on the east bank sustains bottomland forest habitat that disperses raccoons westward into the surrounding residential blocks every season — and especially during whelping, when females scout for protected nursery sites.</p>
+
+<p><strong>Pre-1860 antebellum chimneys</strong> across Vineville, In-Town, and Beall's Hill — masonry chimneys built well before modern cap standards — are essentially purpose-built raccoon nurseries. They're warm, dark, dry, and weatherproof, and the kits are protected from owls, hawks, and any roaming dog or cat. Daughters of females who whelped in a particular chimney tend to return to that same chimney the next year, which is why the same Macon historic-district properties get raccoon babies in their chimneys year after year, sometimes for decades.</p>
+
+<p>The Pleasant Hill Historic District — one of the country's oldest African-American neighborhoods — sees the same pattern in its pre-1900 housing. Multi-decade colony memory is the norm in Macon, not the exception.</p>
+
+<h2>Why You Can't Just Trap or Seal Right Now</h2>
+<p>This is the part of the conversation we have on the phone with worried Macon homeowners every spring, and it's worth being direct about: <strong>during baby season, sealing or trapping the obvious way creates a far worse problem than the one you started with.</strong></p>
+
+<p>If you seal the entry point now, the mother is locked outside. The kits — still non-volant, still milk-dependent — are sealed inside the wall, ceiling cavity, or chimney chase with no way out. They starve over the next several days. The decomposition follow-up is significantly more expensive than the original removal would have been: drywall cutting to recover the carcasses, full decontamination, deodorization, and insulation replacement. We've taken these calls every spring for years.</p>
+
+<p>The same applies to one-way doors during whelping. A one-way door lets the adult exit and prevents her re-entry — which is exactly what you want when kits are mobile and following her out, and exactly what you don't want when they're still in the cavity. Same trapping outcome, same cleanup scope.</p>
+
+<p>So the homeowner question "how to get baby raccoons out of attic" has a real answer, and it's not the obvious one. The answer is timing-aware reunion exclusion, performed by someone who's done it before.</p>
+
+<h2>What a Typical Spring Removal Looks Like in Macon</h2>
+<p>To make this concrete, here is the general shape of a Macon-Bibb spring raccoon call as it usually unfolds. The specifics — entry-point count, kit number, neighborhood — vary, but the pattern is consistent enough across years that it's worth walking through.</p>
+
+<p>The call usually comes in late March or April. A homeowner in Vineville or In-Town has been hearing slow, heavy thumping above the ceiling for several nights, plus a chittering or trilling sound that's brand new. They've narrowed it down to the chimney chase or a soffit corner. By the time they call, the mother has typically been in residence for at least a couple of weeks and the kits are still non-volant — milk-dependent and unable to follow her out.</p>
+
+<p>The first visit is an inspection, not a removal. The contractor walks the full exterior, identifies every viable entry point a raccoon could be using — antebellum chimney without a modern cap, gapped soffit corner where the heart-pine has shrunk, a torn galvanized soffit return, a gable louver with the screen long gone — and tries to determine which is the active nursery. On a pre-1860 Vineville or In-Town house, the inspection commonly turns up five to seven viable entry points; sealing the obvious one without identifying the rest leaves the mother a way back in. Vocalizations from the den or visible signs at the entry usually confirm which point is active.</p>
+
+<p>What happens next depends on kit stage. If the kits are still non-volant, the contractor's options are eviction fluid placed near the den — which sometimes prompts the mother to voluntarily relocate her litter to one of her backup sites within a few days — or, when scent-based eviction isn't moving her, direct hand recovery. Hand recovery means the kits are taken out of the den, placed in a warm, ventilated container outside the entry point, and the mother is given the chance to retrieve them one at a time and move them somewhere else of her choosing. This is standard Georgia DNR protocol and works on the vast majority of Bibb residential calls. If the kits are already mobile and following the mother out at night — which is typical for litters where calls come in late May or June — a one-way door on the confirmed entry lets the whole family exit together without re-entry.</p>
+
+<p>Only after the den is confirmed empty does any sealing happen. Every viable entry point gets steel mesh, code-appropriate flashing, or — for the antebellum chimney — a custom-fabricated stainless-steel cap. The attic decontamination follows: HEPA-equipped fecal removal, contaminated insulation hauloff, and enzymatic sanitization of the latrine area before fresh insulation goes back in.</p>
+
+<p>The whole sequence is regulated under <strong>Georgia DNR Wildlife Resources Division Region 4</strong> in Fort Valley, and only licensed nuisance wildlife operators are authorized to perform the work commercially in Bibb County.</p>
+
+<h2>What to Do Right Now</h2>
+<p>If you're hearing the noises this spring and you think you have baby raccoons in your Macon attic or raccoon babies in your chimney, the responsible move is a licensed inspection before you do anything else. Don't seal. Don't trap. Don't try eviction fluid on your own during active whelping — it can shift the mother to a worse den site inside the same structure if you don't already know her backup options. A same-day inspection identifies the entry points, confirms kit stage, and lets the contractor build the right reunion protocol for your specific situation.</p>
+
+<p><a href="/georgia/bibb-county/raccoon-removal/" style="font-weight:600;">See full Bibb County raccoon removal service details, pricing ranges by submarket, and the rest of what to know</a>, or call <strong>(404) 738-9764</strong> for an immediate inspection on your Macon-Bibb property. Same-day service is the norm during whelping season.</p>
+`
+  },
+  {
     slug: 'bats-in-macon-ga',
     title: 'Bats in Macon, GA — A Wildlife Pro\'s Guide to Vineville\'s Antebellum Chimney Colonies',
     metaTitle: 'Bats in Macon GA: Vineville Historic District Bat Removal',

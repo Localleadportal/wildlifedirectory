@@ -3,7 +3,7 @@
   const title = post.metaTitle || post.title;
   const metaDesc = post.metaDescription || post.excerpt;
   const canonical = '/blog/' + post.slug + '/';
-  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
+  const ogImage = post.ogImage || 'https://www.removewildlifenow.com/images/hero1.jpg';
 
   const graph = [
     {
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "@type": "Article",
+      "@type": "BlogPosting",
       "@id": pageUrl + "#article",
       "headline": post.title,
       "description": post.excerpt,
