@@ -74,6 +74,10 @@
     ]
   },
   "Payne": {
+    "geo": { "lat": 32.7270, "lon": -83.6564 },
+    "metaTitle": "Wildlife Removal in Payne, GA — Licensed Local Pros",
+    "metaDescription": "Licensed wildlife removal in Payne, Georgia — same-day rural-edge work at coyote-active outbuildings, agricultural properties, and Ocmulgee tributary creeks.",
+    "ogImage": "https://www.removewildlifenow.com/images/hero1.jpg",
     "population_tier": "very-small",
     "housing_era": "Payne (~150 residents) is a small unincorporated CDP in southern Bibb County with primarily mid-century rural housing, agricultural-edge properties, and limited 1990s-2010s subdivision growth. Housing stock is older Bibb-County rural-edge construction without the antebellum density of central Macon.",
     "geographic_features": [
