@@ -384,7 +384,7 @@
     <section class="page-hero">
       <div class="container">
         <div class="hero-badge"><%= countyName %>, <%= stateName %></div>
-        <h1><span aria-hidden="true"><%= animal.emoji %></span> <%= animal.name %> in <%= countyName %>, <%= stateName %></h1>
+        <h1><% if (!(countyAnimalContent && countyAnimalContent.hideHeroEmoji)) { %><span aria-hidden="true"><%= animal.emoji %></span> <% } %><%= animal.name %> in <%= countyName %>, <%= stateName %></h1>
         <p><%= animal.shortDesc %></p>
       </div>
     </section>

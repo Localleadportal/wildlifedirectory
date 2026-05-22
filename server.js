@@ -356,11 +356,17 @@ app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
     let countyContent = getCountyContent(stateName, countyName);
     const _contractor = await getContractor(stateName, apiCounty(countyName), SERVICE_TYPE);
     if (_contractor) countyContent = { ...(countyContent || {}), contractor: _contractor };
+    const _baseSeasonal = getSeasonalContent(seg);
+    const _seasonalOverrides = (countyAnimalContent && Array.isArray(countyAnimalContent.seasonalOverrides))
+      ? countyAnimalContent.seasonalOverrides
+      : [];
+    const _monthNow = new Date().getMonth();
+    const _seasonalOverride = _seasonalOverrides.find(o => Array.isArray(o.months) && o.months.includes(_monthNow));
     return res.render('county-animal', {
       stateName, countyName, animal, cities, stateInfo, animalRegionNote, embedScript,
       indexable, countyAnimalContent, countyContent,
       faqs: (countyAnimalContent && countyAnimalContent.faqs) || getAnimalFaqs(seg, { countyName, stateName, stateInfo }),
-      seasonal: getSeasonalContent(seg),
+      seasonal: _seasonalOverride || _baseSeasonal,
       stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, toSlug, ANIMALS,
       mapboxToken: process.env.MAPBOX_TOKEN || ''
     });
@@ -376,6 +382,7 @@ app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
     if (_contractor) countyContent = { ...(countyContent || {}), contractor: _contractor };
     return res.render('city', {
       stateName, countyName, cityName, stateInfo, embedScript, cityContent, countyContent,
+      cities: getCitiesForCounty(stateName, countyName),
       indexable,
       stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: seg, toSlug, ANIMALS
     });
