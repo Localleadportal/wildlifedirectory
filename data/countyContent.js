@@ -1789,6 +1789,13 @@ function georgiaContent(countyName, county, s) {
 
     metaTitle = `Butts County Wildlife Removal, GA | Humane & Same-Day`;
     metaDescription = `Licensed Jackson wildlife removal across Butts County, GA. Raccoons, bats, snakes, full exclusion. Same-day service.`;
+    heroImage = {
+      src: '/images/hero8.jpg',
+      alt: 'Wildlife removal in Butts County, Georgia — licensed Jackson-area contractor serving Lake Jackson lakefront and pre-1900 historic-downtown properties',
+      width: 1440,
+      height: 1920,
+      caption: 'Butts County wildlife removal — Jackson, Flovilla, Jenkinsburg, Indian Springs, and the Lake Jackson shoreline.',
+    };
 
     geo = { lat: 33.2949, lon: -83.9659 };
     sameAs = [
