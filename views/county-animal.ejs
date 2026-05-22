@@ -9,7 +9,8 @@
   // Twitter description can be optionally differentiated from the meta description
   // for a more conversational social-audience tone. Falls back to pageDesc when unset.
   const twitterDesc = (countyAnimalContent && countyAnimalContent.twitterDescription) || pageDesc;
-  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
+  const ogImage = (countyAnimalContent && countyAnimalContent.ogImage)
+    || 'https://www.removewildlifenow.com/images/hero1.jpg';
   // Same opt-in gating as county.ejs: only fire enriched scaffolding when this (county, animal) pair has its own content block.
   const seoEnhanced = !!(countyAnimalContent && countyAnimalContent.geo);
   const stateRegion = stateName === 'Georgia' ? 'GA'
@@ -153,7 +154,7 @@
     "description": animal.shortDesc + " Serving all of " + countyName + ", " + stateName + ".",
     "url": countyContent.contractor.url ? normalizeUrl(countyContent.contractor.url) : pageUrl,
     "telephone": countyContent.contractor.telephone,
-    "image": countyContent.contractor.image || "https://www.removewildlifenow.com/images/og-default.jpg",
+    "image": countyContent.contractor.image || ogImage,
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
@@ -168,6 +169,13 @@
       "name": countyName + ", " + stateName
     },
     "openingHours": "Mo-Su 00:00-23:59",
+    ...(countyAnimalContent && countyAnimalContent.geo ? {
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": countyAnimalContent.geo.lat,
+        "longitude": countyAnimalContent.geo.lon
+      }
+    } : {}),
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": animal.name + " Services in " + countyName,
@@ -201,7 +209,7 @@
     "description": animal.shortDesc + " Serving all of " + countyName + ", " + stateName + ".",
     "url": pageUrl,
     "telephone": "+1-844-544-3498",
-    "image": "https://www.removewildlifenow.com/images/og-default.jpg",
+    "image": ogImage,
     "priceRange": "$$",
     "areaServed": {
       "@type": "AdministrativeArea",

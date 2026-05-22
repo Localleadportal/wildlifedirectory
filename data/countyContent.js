@@ -380,6 +380,13 @@ function georgiaContent(countyName, county, s) {
   let lastUpdated = null;
   let contractor = null;
   let pricing = null;
+  // Optional per-county hook used by the city template's meta description
+  // template. When set to a short noun phrase ending in '.', it replaces the
+  // generic species list with a county-specific distinctive angle. Only set
+  // on counties with a genuine, defensible differentiator (e.g. Bibb/Macon's
+  // antebellum-chimney bat work). Leave null for counties without one — they
+  // get the generic species-list version.
+  let metaHook = null;
 
   if (countyName === 'Cobb County') {
     blockA = `Cobb County sits in the northwestern Atlanta metro area immediately north of the Chattahoochee River, with downtown Atlanta about 20 miles southeast of the county seat in Marietta. With a population of ${county.population.toLocaleString()} — making it one of Georgia's largest counties — Cobb runs from the older inner-ring neighborhoods of Smyrna, Marietta, and Vinings out through the dense suburban corridors of East Cobb, Kennesaw, and Acworth, with the Kennesaw Mountain National Battlefield Park anchoring the county's center and the Chattahoochee River corridor forming the southern boundary. Established in ${county.established}, the county combines Civil War-era historic districts, post-war ranch suburbs, and late-20th-century subdivisions under heavy oak-hickory canopy.`;
@@ -700,6 +707,7 @@ function georgiaContent(countyName, county, s) {
     blockC = `Coverage spans the entire Macon-Bibb consolidated government footprint, including the Vineville, In-Town, Beall's Hill, Pleasant Hill, Shirley Hills, Ingleside, and Tattnall Square neighborhoods, the Mercer University and Wesleyan College campus districts, the Lake Tobesofkee shoreline, the Ocmulgee River corridor, and the unincorporated areas along with the Payne CDP. Macon-Bibb's mix of pre-1860 antebellum housing, pre-1900 Pleasant Hill mill-village stock, post-WWII Shirley Hills and Ingleside ranches, three university student-housing districts, and the Ocmulgee corridor's continuous wildlife-source pressure produces a job mix unlike any north Georgia county.`;
     metaTitle = `Macon Wildlife Removal — Bibb County, GA | Same-Day Service`;
     metaDescription = `Licensed Macon-Bibb wildlife removal — antebellum chimney bat colonies, Ocmulgee corridor raccoon work, Mercer-area student rentals. Same-day inspection.`;
+    metaHook = `historic-home & chimney bat specialists.`;
     heroIntro = `Macon-Bibb sits on the Fall Line where Piedmont and Coastal Plain wildlife mix, with pre-1860 antebellum chimneys hosting 50–100+ year bat colonies and the Ocmulgee corridor delivering year-round raccoon pressure. Local, licensed, same-day inspection available.`;
 
     geo = { lat: 32.8407, lon: -83.6324 };
@@ -752,7 +760,7 @@ function georgiaContent(countyName, county, s) {
       <p>Macon plants and maintains 350,000+ Yoshino cherry trees across the city — the largest concentration in any U.S. city — and the annual <a href="https://www.cherryblossom.com/" target="_blank" rel="noopener">Cherry Blossom Festival</a> in late March draws hundreds of thousands of visitors. From a wildlife perspective, the cherry tree concentration produces a measurable late-March feeding ecology: squirrels and birds (cedar waxwings, robins) feed heavily on the early-season blossoms and flower nectar, with Eastern gray squirrels in particular producing a noticeable spike in attic-and-gutter activity coinciding with peak bloom. The post-bloom period (early April) drives a residential-call uptick as the squirrels that fed in the cherry canopy seek interior denning sites for the spring breeding cycle.</p>
 
       <h2>Local Authorities and Regulations</h2>
-      <p>Public-health authority for Macon-Bibb rabies-vector exposure runs through the <a href="https://www.northcentralhealthdistrict.org/" target="_blank" rel="noopener"><strong>North Central Health District</strong></a> based in Macon. <strong>Macon-Bibb County Animal Welfare</strong> handles domestic-animal complaints but does not respond to most nuisance wildlife. Commercial wildlife removal operates under <a href="https://georgiawildlife.com/" target="_blank" rel="noopener"><strong>Georgia DNR Wildlife Resources Division Region 5</strong></a> (Fort Valley office). Federal protections apply to bats during maternity periods (May-August exclusion restrictions), all migratory birds, and American alligators in the lower Ocmulgee.</p>
+      <p>Public-health authority for Macon-Bibb rabies-vector exposure runs through the <a href="https://www.northcentralhealthdistrict.org/" target="_blank" rel="noopener"><strong>North Central Health District</strong></a> based in Macon. <strong>Macon-Bibb County Animal Welfare</strong> handles domestic-animal complaints but does not respond to most nuisance wildlife. Commercial wildlife removal operates under <a href="https://georgiawildlife.com/" target="_blank" rel="noopener"><strong>Georgia DNR Wildlife Resources Division Region 4</strong></a> (Fort Valley office). Federal protections apply to bats during maternity periods (May-August exclusion restrictions), all migratory birds, and American alligators in the lower Ocmulgee.</p>
 
       <h3>Authority resources for Bibb County wildlife</h3>
       <ul class="tips-list">
@@ -2066,7 +2074,7 @@ function georgiaContent(countyName, county, s) {
   const blockD = `Wildlife intrusion in ${countyName} follows Georgia's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
   const blockE = `All commercial wildlife removal in Georgia is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds the applicable Georgia DNR licensing and operates within Wildlife Resources Division guidelines on species-specific handling and relocation.`;
 
-  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, heroIntro, extendedBody, faqs, neighboringCounties, geo, sameAs, lastUpdated, contractor, pricing };
+  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, metaHook, heroIntro, extendedBody, faqs, neighboringCounties, geo, sameAs, lastUpdated, contractor, pricing };
 }
 
 // ---- Tennessee county content ----
