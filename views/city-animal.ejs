@@ -287,6 +287,16 @@
             </a>
           </div>
         </div>
+        <% if (animal.slug === 'raccoon-removal') { %>
+        <div class="section-photo-banner" style="margin-top:32px;">
+          <img src="/images/raccoon-hero1.jpg" alt="Adult raccoon (Procyon lotor) on a residential property in <%= cityName %>, <%= countyName %>, <%= stateName %> — licensed local raccoon removal contractor for attic exclusion, humane trapping, sanitation, and entry-point repair in <%= cityName %>" title="<%= cityName %> raccoon removal near me — licensed local raccoon trapper and exclusion contractor in <%= cityName %>, <%= stateName %>" loading="lazy" class="banner-img">
+        </div>
+        <% } %>
+        <% if (animal.slug === 'squirrel-removal') { %>
+        <div class="section-photo-banner" style="margin-top:32px;">
+          <img src="/images/squirrel-hero1.jpg" alt="Eastern gray squirrel (Sciurus carolinensis) on a residential roof gutter in <%= cityName %>, <%= countyName %>, <%= stateName %> — licensed local squirrel removal contractor for attic exclusion, humane trapping, chewed-wire repair, and entry-point sealing in <%= cityName %>" title="<%= cityName %> squirrel removal near me — licensed local squirrel trapper and attic exclusion contractor in <%= cityName %>, <%= stateName %>" loading="lazy" class="banner-img">
+        </div>
+        <% } %>
       </div>
     </section>
 
