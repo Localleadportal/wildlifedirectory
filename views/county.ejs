@@ -5,7 +5,13 @@
   // Twitter description can be optionally differentiated from the meta description
   // for a more conversational social-audience tone. Falls back to pageDesc when unset.
   const twitterDesc = (countyContent && countyContent.twitterDescription) || pageDesc;
-  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
+  // Prefer the county's hero image for social previews and LocalBusiness schema
+  // when set — falls back to the generic OG image otherwise.
+  const heroImg = (countyContent && countyContent.heroImage) || null;
+  const heroImgAbsUrl = heroImg
+    ? (heroImg.src.startsWith('http') ? heroImg.src : 'https://www.removewildlifenow.com' + heroImg.src)
+    : null;
+  const ogImage = heroImgAbsUrl || 'https://www.removewildlifenow.com/images/og-default.jpg';
   // Gate enhanced SEO scaffolding (OG, Twitter, geo meta, additional schemas, FAQ section, neighbors)
   // behind data-presence so this rollout is scoped to one county at a time. Other counties render
   // exactly as they did before until they get their own enriched countyContent block.
@@ -115,7 +121,7 @@
     "description": "Licensed wildlife removal in " + countyName + ", " + stateName + ". Expert removal of raccoons, squirrels, bats, snakes and more. Humane methods, same-day service available.",
     "url": countyContent.contractor.url ? normalizeUrl(countyContent.contractor.url) : pageUrl,
     "telephone": countyContent.contractor.telephone,
-    "image": countyContent.contractor.image || "https://www.removewildlifenow.com/images/og-default.jpg",
+    "image": countyContent.contractor.image || heroImgAbsUrl || "https://www.removewildlifenow.com/images/og-default.jpg",
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
@@ -335,7 +341,9 @@
     <% } %>
 
   <% } %>
-  <link rel="icon" href="https://www.removewildlifenow.com/favicon.png" sizes="180x180" type="image/png">
+  <link rel="icon" type="image/png" href="https://www.removewildlifenow.com/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.removewildlifenow.com/favicon.png">
+  <meta name="theme-color" content="#1b5e20">
 </head>
 <body>
   <%
@@ -391,6 +399,20 @@
         <p><%- countyContent.heroIntro %></p>
         <% } else { %>
         <p>Local licensed experts ready to remove, exclude, and remediate — fast.</p>
+        <% } %>
+        <% if (heroImg) { %>
+        <figure class="page-hero-figure">
+          <img src="<%= heroImg.src %>"
+               alt="<%= heroImg.alt %>"
+               width="<%= heroImg.width || 1200 %>"
+               height="<%= heroImg.height || 800 %>"
+               loading="eager"
+               fetchpriority="high"
+               decoding="async">
+          <% if (heroImg.caption) { %>
+          <figcaption><%= heroImg.caption %></figcaption>
+          <% } %>
+        </figure>
         <% } %>
         <% if (countyContent && countyContent.lastUpdated) { %>
         <p class="last-updated" style="font-size:0.85rem;color:#475569;margin-top:8px;opacity:0.85;">Last updated: <time datetime="<%= countyContent.lastUpdated %>"><%= new Date(countyContent.lastUpdated + 'T00:00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) %></time></p>

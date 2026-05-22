@@ -212,6 +212,26 @@ header {
 }
 .page-hero h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 8px; }
 .page-hero p { color: rgba(255,255,255,0.8); font-size: 1.05rem; }
+.page-hero-figure {
+  margin: 22px auto 0;
+  max-width: 300px;
+}
+.page-hero-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 14px 32px rgba(0,0,0,0.35);
+  border: 3px solid rgba(255,255,255,0.18);
+}
+.page-hero-figure figcaption {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.7);
+  margin-top: 10px;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.4;
+}
 
 /* ── BREADCRUMB ── */
 .breadcrumb {

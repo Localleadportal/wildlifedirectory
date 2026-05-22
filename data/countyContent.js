@@ -371,12 +371,19 @@ function georgiaContent(countyName, county, s) {
   const top4cities = county.largest_cities.slice(0, 4).join(', ');
 
   let blockA, blockB, blockC, metaTitle, metaDescription;
+  // Per-county overrides for blockD (Seasonal Activity Patterns) and
+  // blockE (Wildlife Regulations). Leave null to fall through to the
+  // state-level template defaults. Counties with substantive local
+  // ecology should set these to avoid thin/duplicate content sitewide.
+  let blockD = null;
+  let blockE = null;
   let extendedBody = null;
   let faqs = null;
   let neighboringCounties = null;
   let geo = null;
   let sameAs = null;
   let heroIntro = null;
+  let heroImage = null;
   let lastUpdated = null;
   let contractor = null;
   let pricing = null;
@@ -706,9 +713,21 @@ function georgiaContent(countyName, county, s) {
       <p>The <strong>Ocmulgee River</strong> bisects Bibb County, and the federally protected <strong>Ocmulgee Mounds National Historical Park</strong> on the eastern bank concentrates pre-Columbian Mississippian mounds within several hundred acres of protected wetland and bottomland hardwood forest. The protected habitat sustains a continuous year-round source population of raccoons, Virginia opossums, beavers, and Eastern rat snakes that disperses west across the river into adjacent Bibb residential neighborhoods. Vineville-area properties and the older intown housing west of the river take continuous fall dispersal pressure during the September-November window. <strong>Armadillos</strong> were established in Macon by the 1980s — decades before they reached metro Atlanta — and are now routine residential trap-and-relocate calls. <strong>American alligators</strong> occur in the lower Ocmulgee and its slack-water reaches at densities above any north Georgia waterway; encounters of any animal over 4 feet should be referred directly to Georgia DNR rather than handled through commercial wildlife services. White-tailed deer reach high densities along the river corridor and the wooded subdivision edges of Shirley Hills and Ingleside.</p>`;
     blockC = `Coverage spans the entire Macon-Bibb consolidated government footprint, including the Vineville, In-Town, Beall's Hill, Pleasant Hill, Shirley Hills, Ingleside, and Tattnall Square neighborhoods, the Mercer University and Wesleyan College campus districts, the Lake Tobesofkee shoreline, the Ocmulgee River corridor, and the unincorporated areas along with the Payne CDP. Macon-Bibb's mix of pre-1860 antebellum housing, pre-1900 Pleasant Hill mill-village stock, post-WWII Shirley Hills and Ingleside ranches, three university student-housing districts, and the Ocmulgee corridor's continuous wildlife-source pressure produces a job mix unlike any north Georgia county.`;
     metaTitle = `Macon Wildlife Removal — Bibb County, GA | Same-Day Service`;
-    metaDescription = `Licensed Macon-Bibb wildlife removal — antebellum chimney bat colonies, Ocmulgee corridor raccoon work, Mercer-area student rentals. Same-day inspection.`;
+    metaDescription = `Same-day wildlife removal in Bibb County, GA. Licensed Macon-Bibb pros handle raccoons, bat colonies, squirrels & snakes. Call now for a free inspection — 24/7.`;
+    // Bibb-specific seasonal calendar — replaces the generic templated blockD that
+    // would otherwise duplicate across all 159 Georgia counties.
+    blockD = `Bibb's seasonal call pattern reflects central Georgia's milder winters and the Fall Line ecological transition. Late February through early May is peak raccoon whelping season across Macon-Bibb — kits are immobile and milk-dependent for 8–10 weeks, so attic entry-point sealing must wait for confirmed kit mobility to avoid trapped-young decomposition cleanups in Vineville, In-Town, and Beall's Hill historic-district properties. Late March brings a measurable squirrel-activity spike tied to the Cherry Blossom Festival's 350,000+ Yoshino bloom, with post-bloom April–May breeding driving attic-entry calls. Bat maternity-period exclusion restrictions apply May through August across pre-1860 antebellum chimney colonies — any colony documented to host federally proposed tricolored bats requires species verification before exclusion. September through November is the Ocmulgee corridor dispersal window: juvenile raccoons, Virginia opossums, and Eastern rat snakes pushing west from Ocmulgee Mounds National Historical Park into adjacent residential blocks. Central Georgia's mild January–February conditions sustain year-round armadillo, roof rat, and snake activity, so unlike north Georgia, Bibb wildlife pressure rarely takes a true winter pause.`;
+    // Bibb-specific regulatory framework — replaces the generic state-level blockE.
+    blockE = `Wildlife removal in Bibb County operates within a multi-tier regulatory framework that's more involved than most Georgia counties. State authority sits with <strong>Georgia DNR Wildlife Resources Division Region 4</strong> (Fort Valley office), which licenses commercial nuisance wildlife operators and enforces species-specific seasonal restrictions including the May–August bat maternity-period exclusion ban. Public-health authority for rabies-vector exposure runs through the <strong>Macon-based North Central Health District</strong>, not the county directly. <strong>Macon-Bibb County Animal Welfare</strong> handles domestic-animal complaints but does not respond to most nuisance wildlife — homeowners with attic raccoons, bat colonies, or snake sightings should call a licensed wildlife contractor, not animal welfare. Federal protections layer on top of state rules: the <strong>Migratory Bird Treaty Act</strong> protects all native bird species (chimney swifts, woodpeckers, hawks, owls) regardless of how they enter a structure; the <strong>Endangered Species Act</strong> may apply to tricolored bats (Perimyotis subflavus) documented in central Georgia chimney colonies; and <strong>American alligators</strong> in the lower Ocmulgee require Georgia DNR referral for any animal over 4 feet. Every contractor in our network holds the applicable Georgia DNR licensing and operates within all three regulatory tiers.`;
     metaHook = `historic-home & chimney bat specialists.`;
-    heroIntro = `Macon-Bibb sits on the Fall Line where Piedmont and Coastal Plain wildlife mix, with pre-1860 antebellum chimneys hosting 50–100+ year bat colonies and the Ocmulgee corridor delivering year-round raccoon pressure. Local, licensed, same-day inspection available.`;
+    heroIntro = `Wildlife removal in Bibb County, Georgia is shaped by the Fall Line ecological transition where Piedmont and Coastal Plain wildlife mix — pre-1860 antebellum chimneys host 50–100+ year bat colonies and the Ocmulgee corridor delivers year-round raccoon pressure. Local, licensed Macon-Bibb contractors with same-day inspection.`;
+    heroImage = {
+      src: '/images/baby-raccoons-macon-bibb.jpg',
+      alt: 'Wildlife removal in Bibb County — baby raccoons safely extracted from a Macon attic during spring whelping season by a licensed contractor',
+      width: 1200,
+      height: 1600,
+      caption: 'Spring whelping season raccoon removal in a Macon attic — a routine Bibb County call from late February through early May.',
+    };
 
     geo = { lat: 32.8407, lon: -83.6324 };
     sameAs = [
@@ -2071,10 +2090,10 @@ function georgiaContent(countyName, county, s) {
 
   }
 
-  const blockD = `Wildlife intrusion in ${countyName} follows Georgia's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
-  const blockE = `All commercial wildlife removal in Georgia is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds the applicable Georgia DNR licensing and operates within Wildlife Resources Division guidelines on species-specific handling and relocation.`;
+  if (!blockD) blockD = `Wildlife intrusion in ${countyName} follows Georgia's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
+  if (!blockE) blockE = `All commercial wildlife removal in Georgia is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds the applicable Georgia DNR licensing and operates within Wildlife Resources Division guidelines on species-specific handling and relocation.`;
 
-  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, metaHook, heroIntro, extendedBody, faqs, neighboringCounties, geo, sameAs, lastUpdated, contractor, pricing };
+  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, metaHook, heroIntro, heroImage, extendedBody, faqs, neighboringCounties, geo, sameAs, lastUpdated, contractor, pricing };
 }
 
 // ---- Tennessee county content ----
