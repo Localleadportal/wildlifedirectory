@@ -1,6 +1,8 @@
 <%
   const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + countySlug + '/' + citySlug + '/' + animal.slug + '/';
-  const allFaqs = ((cityAnimalContent && cityAnimalContent.faqs) ? cityAnimalContent.faqs : []).concat(faqs || []);
+  const _authoredFaqs = (cityAnimalContent && cityAnimalContent.faqs) ? cityAnimalContent.faqs : [];
+  const _skipGeneric = !!(cityAnimalContent && cityAnimalContent.skipGenericFaqs);
+  const allFaqs = _skipGeneric ? _authoredFaqs : _authoredFaqs.concat(faqs || []);
   const pageTitle = (cityAnimalContent && cityAnimalContent.metaTitle)
     ? cityAnimalContent.metaTitle
     : (animal.name + ' in ' + cityName + ', ' + stateName + ' — Licensed Local Experts');
@@ -9,7 +11,8 @@
     : (cityAnimalContent && cityAnimalContent.intro
         ? cityAnimalContent.intro.slice(0, 155).replace(/\s+\S*$/, '') + '…'
         : (animal.name + ' in ' + cityName + ', ' + stateName + ' (' + countyName + '). ' + (animal.costRange ? 'Typical cost ' + animal.costRange + '. ' : '') + 'Licensed local contractor — humane methods, same-day service.'));
-  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
+  const ogImage = (cityAnimalContent && cityAnimalContent.ogImage)
+    || 'https://www.removewildlifenow.com/images/og-default.jpg';
   const seoEnhanced = !!(cityAnimalContent && cityAnimalContent.geo);
   const stateRegion = stateName === 'Georgia' ? 'GA'
     : stateName === 'Tennessee' ? 'TN'
@@ -203,7 +206,7 @@
     <section class="page-hero">
       <div class="container">
         <div class="hero-badge"><%= cityName %>, <%= stateName %></div>
-        <h1><span aria-hidden="true"><%= animal.emoji %></span> <%= animal.name %> in <%= cityName %></h1>
+        <h1><% if (!(cityAnimalContent && cityAnimalContent.hideHeroEmoji)) { %><span aria-hidden="true"><%= animal.emoji %></span> <% } %><%= animal.name %> in <%= cityName %></h1>
         <p>Local licensed expert serving <%= cityName %> and all of <%= countyName %>. <%= animal.shortDesc %></p>
       </div>
     </section>

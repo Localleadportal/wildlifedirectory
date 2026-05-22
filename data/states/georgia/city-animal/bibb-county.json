@@ -101,8 +101,11 @@
       ]
     },
     "bat-removal": {
-      "metaTitle": "Bats in Attic | Macon, GA — Licensed Exclusion",
-      "metaDescription": "Bats in your Macon attic or chimney? 50-100+ year colonies in pre-1860 Vineville, In-Town, Beall's Hill chimneys. Brazilian free-tailed specialists.",
+      "metaTitle": "Bat Removal in Macon, GA | Licensed Exclusion",
+      "metaDescription": "Licensed bat removal in Macon, Georgia — exclusion of 50-100+ year antebellum chimney colonies in Vineville, In-Town, and Beall's Hill. Same-day inspection.",
+      "hideHeroEmoji": true,
+      "ogImage": "https://www.removewildlifenow.com/images/bat-hero1.jpg",
+      "skipGenericFaqs": true,
       "geo": {
         "lat": 32.8407,
         "lon": -83.6324
@@ -121,7 +124,7 @@
         },
         {
           "q": "When can bats be legally removed from a Macon attic?",
-          "a": "Georgia DNR regulations restrict bat exclusion to <strong>September through April</strong>. Removal during the May-August maternity season is illegal because flightless pups would be trapped inside the structure and starve, killing the colony's entire reproductive cohort. Single-bat emergency calls in living space during maternity season can be addressed without disturbing the colony. Pre-1860 Macon antebellum exclusion typically requires custom-fabricated stainless-steel chimney caps engineered to fit the historic chimney crowns."
+          "a": "Bats are protected in Georgia under DNR rules, and exclusion is legally prohibited during the May-August maternity season because flightless pups would be sealed inside the structure and starve, killing the colony's entire reproductive cohort. The legal exclusion window in Macon is <strong>September through April</strong>; single-bat emergency calls in living space can still be handled during the closed window without disturbing a colony. Pre-1860 Macon antebellum exclusion typically requires custom-fabricated stainless-steel chimney caps engineered to fit the historic chimney crowns, and inspection, colony-size assessment, and cap pre-fabrication can all proceed during the closed window so sealing work goes live the day the window opens."
         },
         {
           "q": "Are Brazilian free-tailed bats common in Macon?",
@@ -129,7 +132,19 @@
         },
         {
           "q": "How much does bat removal cost in Macon?",
-          "a": "Macon historic-district bat-exclusion jobs run $3,000-$6,000+ once full guano remediation is included. The accumulated guano volume in 50-100+ year colonies is significantly higher than what's typical in north Georgia historic-district work, which raises the decontamination scope. Pre-1860 chimney exclusion requires custom-fabricated stainless-steel caps engineered to fit antebellum chimney crowns. Multi-cavity historic-district jobs (chimney + gable louver + soffit) frequently run $5,000-$10,000+. Newer subdivision single-entry exclusion runs $1,200-$2,500+."
+          "a": "Cost depends on colony age, structure type, and how much guano remediation is involved. Exclusion work alone — one-way doors, sealing every entry point, custom chimney caps — typically runs $400–$1,500+ on a straightforward Macon job; guano cleanup and attic decontamination on top of that adds $1,500–$8,000+ depending on colony size. Working out from that baseline: single-entry exclusions on post-WWII Macon construction (Shirley Hills, Ingleside, and newer subdivisions) usually land at $1,200–$2,500+, while multi-decade historic-district colonies in Vineville, In-Town, Beall's Hill, or Pleasant Hill antebellum chimneys run $3,000–$6,000+ once full remediation is included — and multi-cavity jobs (chimney + gable louver + soffit) frequently push to $5,000–$10,000+ because the accumulated guano volume in 50-100+ year colonies is substantially higher than what north-Georgia historic-district work involves. Phone consultations and on-site inspections are free."
+        },
+        {
+          "q": "Is bat guano in my Macon home dangerous?",
+          "a": "Yes. Bat guano carries <em>Histoplasma capsulatum</em>, a fungus that causes histoplasmosis — a respiratory infection contracted by inhaling spores from disturbed guano dust. The risk is particularly sharp in Macon's pre-1860 Vineville, In-Town, and Beall's Hill antebellum chimney colonies, where 50-100+ year continuous occupancy produces accumulated guano volumes measured in inches and sometimes feet. Don't sweep, vacuum, or otherwise disturb bat droppings — HEPA-equipped vacuum systems, sealed disposal, and N95+ respiratory protection are the protocol-grade approach. DIY cleanup is the single highest histoplasmosis-exposure risk in the bat-exclusion field, and the risk scales with colony age."
+        },
+        {
+          "q": "I found one bat inside my Macon house — do I have a colony?",
+          "a": "Often yes, especially in an older Macon home. A single bat in living space usually entered from an attic or wall void where a larger colony is roosting; in pre-1860 Vineville, In-Town, or Beall's Hill historic-district housing it's almost always a juvenile that wandered through a flue damper or fell off a chimney smoke shelf during pup-maturation in late July or August. In newer Shirley Hills or Ingleside subdivision construction a single bat is more often a one-off entry through an open door or torn ridge-vent flashing, with no resident colony at all. Two safety items regardless of which submarket the property sits in: keep the bat contained without handling it bare-handed (a sealed container with air holes is the standard approach), and if there's any possibility the bat may have had contact with a sleeping person, a young child, an intoxicated adult, or anyone who couldn't reliably report a bite or scratch, the bat should be captured intact and submitted to the Georgia Public Health Laboratory for rabies testing. CDC and Georgia DPH both treat that scenario as presumptive exposure because bat bites can be small enough to go unnoticed."
+        },
+        {
+          "q": "How do professionals remove bats from a Macon home?",
+          "a": "Bats are excluded, not trapped. One-way exit devices are installed over every confirmed entry point so the colony can exit at dusk to forage but cannot re-enter, and after all bats have departed — typically three to seven nights — the devices come off and every gap is permanently sealed. On pre-1860 Macon antebellum chimneys, the sealing step usually involves a custom-fabricated stainless-steel cap engineered to fit the historic crown profile because off-the-shelf caps don't match antebellum dimensions. The work is non-lethal by protocol and follows Georgia DNR Wildlife Resources Division rules, including the September-through-April legal exclusion window."
         }
       ]
     },
