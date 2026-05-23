@@ -79,7 +79,7 @@ const ANIMALS = [
     shortDesc: 'Pigeons, starlings, and woodpeckers cause property damage and create health risks through droppings and nesting debris.',
     signs: ['Bird droppings on surfaces', 'Nesting in vents or eaves', 'Pecking sounds on siding or wood', 'Blocked dryer or bathroom vents', 'Bird activity around roofline'],
     services: ['Bird nest removal', 'Vent and eave exclusion', 'Deterrent installation (spikes, netting)', 'Woodpecker damage repair', 'Droppings cleanup and decontamination'],
-    urgency: 'Bird droppings are corrosive and carry over 60 diseases. Nests in vents create fire hazards and block airflow.',
+    urgency: 'Bird droppings are corrosive and can carry Histoplasma and Cryptococcus — both serious respiratory pathogens. Nests in vents create fire hazards and block airflow.',
     season: 'Birds nest primarily in spring and early summer. Woodpecker activity peaks in fall and winter.',
     costRange: '$200–$600+', costNote: 'Nest removal and basic exclusion. Large roost dispersal or chimney swift management costs more.'
   },
