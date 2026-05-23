@@ -11,6 +11,9 @@
   const twitterDesc = (countyAnimalContent && countyAnimalContent.twitterDescription) || pageDesc;
   const ogImage = (countyAnimalContent && countyAnimalContent.ogImage)
     || 'https://www.removewildlifenow.com/images/hero1.jpg';
+  // Optional per-page override for og:title / twitter:title (separate from
+  // pageTitle which drives the <title> tag). Falls back to pageTitle when unset.
+  const socialTitle = (countyAnimalContent && countyAnimalContent.ogTitle) || pageTitle;
   // Same opt-in gating as county.ejs: only fire enriched scaffolding when this (county, animal) pair has its own content block.
   const seoEnhanced = !!(countyAnimalContent && countyAnimalContent.geo);
   const stateRegion = stateName === 'Georgia' ? 'GA'
@@ -42,13 +45,13 @@
   <meta property="og:site_name" content="RemoveWildlifeNow.com">
   <meta property="og:locale" content="en_US">
   <meta property="og:url" content="<%= pageUrl %>">
-  <meta property="og:title" content="<%= pageTitle %>">
+  <meta property="og:title" content="<%= socialTitle %>">
   <meta property="og:description" content="<%= pageDesc %>">
   <meta property="og:image" content="<%= ogImage %>">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="<%= pageTitle %>">
+  <meta name="twitter:title" content="<%= socialTitle %>">
   <meta name="twitter:description" content="<%= twitterDesc %>">
   <meta name="twitter:image" content="<%= ogImage %>">
 
@@ -384,7 +387,7 @@
     <section class="page-hero">
       <div class="container">
         <div class="hero-badge"><%= countyName %>, <%= stateName %></div>
-        <h1><% if (!(countyAnimalContent && countyAnimalContent.hideHeroEmoji)) { %><span aria-hidden="true"><%= animal.emoji %></span> <% } %><%= animal.name %> in <%= countyName %>, <%= stateName %></h1>
+        <h1><% if (!(countyAnimalContent && countyAnimalContent.hideHeroEmoji)) { %><span aria-hidden="true"><%= animal.emoji %></span> <% } %><%= (countyAnimalContent && countyAnimalContent.h1Override) || (animal.name + ' in ' + countyName + ', ' + stateName) %></h1>
         <p><%= animal.shortDesc %></p>
       </div>
     </section>
@@ -516,7 +519,7 @@
         <% } %>
         <% if (animal.slug === 'snake-removal') { %>
         <div style="margin-top:32px;text-align:center;">
-          <img src="/images/snake-hero1.jpg" alt="Common garter snake (Thamnophis sirtalis) in a residential yard in <%= countyName %>, <%= stateName %> — licensed local snake removal contractor for venomous and non-venomous snake identification, humane relocation, copperhead removal, and yard exclusion in <%= countyName %>" title="<%= countyName %> snake removal near me — licensed local snake identification and removal contractor in <%= countyName %>, <%= stateName %>" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;">
+          <img src="/images/snake-hero1.jpg" alt="Snake in a residential yard in <%= countyName %>, <%= stateName %> — licensed local snake removal contractor for venomous and non-venomous snake identification (eastern rat snake, copperhead, brown watersnake), humane relocation, and yard exclusion in <%= countyName %>" title="<%= countyName %> snake removal near me — licensed local snake identification and removal contractor in <%= countyName %>, <%= stateName %>" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;">
         </div>
         <% } %>
         <% if (animal.slug === 'bat-removal') { %>
