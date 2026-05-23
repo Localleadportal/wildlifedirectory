@@ -84,7 +84,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
       },
       {
         q: `What venomous snakes should I watch for in ${location}, ${stateName}?`,
-        a: `${stateInfo ? stateInfo.wildlifeNote.split('.')[0] + '.' : `${stateName} has several venomous snake species.`} Never attempt to identify a snake by approaching it — many non-venomous species mimic venomous ones. If you cannot confirm identification from a safe distance, treat it as venomous and call a professional in ${location}.`
+        a: `${stateName} has several venomous snake species — the specific mix depends on your region of the state. Common venomous species across much of the Southeast and lower Midwest include the copperhead, cottonmouth (water moccasin), and rattlesnakes; northern states typically see only timber rattlesnakes or copperheads in localized ranges. Never approach a snake to identify it — many non-venomous species (rat snakes, watersnakes, hognose snakes) mimic venomous ones and are routinely killed by mistake. If you cannot confirm identification from a safe distance, treat the snake as venomous and call a licensed professional in ${location}.`
       },
       {
         q: `Why are snakes coming onto my ${location} property?`,
@@ -92,7 +92,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
       },
       {
         q: `Can snakes get inside my house in ${stateName}?`,
-        a: `Yes. Snakes can enter through gaps as small as a quarter inch — gaps under doors, around pipe penetrations, foundation cracks, and open vents. ${stateInfo ? stateInfo.wildlifeNote.split('.')[0] + '.' : `Several species in ${stateName} regularly enter homes.`} A professional inspection identifies all ground-level entry points and seals them permanently.`
+        a: `Yes. Snakes can enter through gaps as small as a quarter inch — under exterior doors, around pipe and HVAC line penetrations, foundation cracks, weep holes, dryer-vent terminations, and unscreened crawl-space and gable vents. Most in-house snake calls in ${stateName} are non-venomous rodent hunters that followed mice or rats through the same gap. A professional inspection identifies every ground-level entry point and seals them permanently with steel mesh, sealant, or appropriate door sweeps.`
       },
       {
         q: `When are snakes most active in ${stateName}?`,
@@ -234,7 +234,7 @@ function getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo 
       },
       {
         q: `What is the most common dead animal found in ${stateName} homes?`,
-        a: `${stateInfo ? stateInfo.wildlifeNote.split('.')[0] + '.' : `The most common deceased animals found in ${stateName} structures include raccoons, squirrels, and opossums.`} The species found most often in ${location} structures depends on local habitat — wooded areas see more squirrels and raccoons, while properties near water or agricultural land see more opossums and rats. A professional identifies the species and determines the most likely entry route.`
+        a: `Across ${stateName}, the carcasses found most often inside structures are rats and mice (especially after homeowner-applied rodenticide bait), squirrels in attics, and raccoons or opossums in crawl-spaces and wall voids. The species mix at a given ${location} property tracks local habitat — wooded areas see more squirrels and raccoons, properties near water or agricultural land see more rats and opossums. A professional identifies the species and determines the entry route during the locate-and-extract visit.`
       }
     ]
 
