@@ -1,87 +1,79 @@
 {
  "Griffin": {
  "population_tier": "medium",
- "housing_era": "Griffin (~24,000) is the Spalding County seat, established alongside the county in, and maintains a substantial pre-1900 historic-downtown core around the Spalding County Courthouse square. Housing combines the pre-1900 historic-downtown core (Solomon Street, College Street, Taylor Street, Hill Street, and the surrounding pre-Civil War and Victorian residential blocks), 1900s-1970s small-town residential housing on the surrounding blocks, the University of Georgia Griffin Campus on the south side, and 1980s-2010s subdivision growth on the city edges. Griffin's housing inventory is more intact at the pre-1900 historic-district level than many comparable south-metro Atlanta communities.",
+ "housing_era": "Griffin (~24,000) is the Spalding County seat. The city combines older intown residential housing with 1900s-1970s mid-century blocks, the University of Georgia Griffin Campus on the south side, and 1980s-2010s subdivision growth on the city edges. Wildlife pressure here is shaped by three things the resident sees from inside the house: older chimneys without modern caps (the typical entry point for bat and squirrel work), the UGA Griffin Campus mature canopy on the south side (source habitat for raccoon, opossum, squirrel, and bat dispersal), and the US 19/41 commercial corridor (the source of Norway and roof rat pressure).",
  "geographic_features": [
- "Spalding County Courthouse and Griffin Historic Downtown square (older)",
- "Solomon Street, College Street, Taylor Street, Hill Street pre-1900 residential",
- "University of Georgia Griffin Campus (south side of Griffin — major agricultural research and education center)",
- "Memorial Drive / US 19/41 commercial corridor",
- "1900s-1970s small-town residential blocks surrounding the historic core",
- "1980s-2010s subdivision growth on the city edges",
- "Cabin Creek tributary",
- "Big Cabin Creek tributary"
+ "UGA Griffin Campus mature canopy (south side of Griffin) — source habitat for raccoon, opossum, squirrel, and bat dispersal into adjacent residential blocks",
+ "US 19/41 / Memorial Drive commercial corridor through Griffin — Norway and roof rat source pressure into adjacent residential blocks",
+ "Cabin Creek and Big Cabin Creek tributary corridors — riparian habitat that delivers water-edge wildlife pressure to adjacent properties",
+ "Older intown residential housing stock — uncapped masonry chimneys and pre-modern wood soffits are typical bat and squirrel entry points",
+ "1900s-1970s mid-century residential blocks — older soffit and ridge-vent profiles common in attic-establishment calls",
+ "1980s-2010s subdivision growth on the city edges — newer construction with narrower wildlife profiles (primarily dryer-vent and ridge-vent entries)"
  ],
  "neighborhoods": [
- "Griffin Historic Downtown (around the Spalding County Courthouse square)",
- "Solomon Street / College Street / Taylor Street pre-1900 residential blocks",
- "UGA Griffin Campus and adjacent residential (south Griffin)",
- "Memorial Drive / US 19/41 commercial-edge residential",
- "1900s-1970s small-town residential blocks",
+ "Older intown residential blocks (Griffin historic-downtown area)",
+ "UGA Griffin Campus south-side residential edge",
+ "Memorial Drive / US 19/41 commercial-corridor residential",
+ "1900s-1970s mid-century residential blocks",
  "1980s-2010s subdivision growth on the city edges"
  ],
- "wildlife_intro": "Griffin's wildlife profile is shaped by an unusual combination for a south-metro Atlanta city: substantial pre-1900 historic-downtown housing density around the Griffin historic-downtown core plus the University of Georgia Griffin Campus mature canopy on the south side. Pre-1900 chimney stock around the courthouse square hosts long-established big-brown-bat (Eptesicus fuscus) colonies that span 50-100+ years of continuous occupation, comparable to Macon-Bibb's older historic-downtown housing colony establishment timeline. The UGA Griffin Campus research-and-education-center acreage maintains substantial mature canopy that supports dedicated source populations for raccoons, opossums, gray squirrels, and bats. The US 19/41 commercial corridor through Griffin produces a Norway rat source-population concentration that disperses into adjacent residential blocks. Eastern gray squirrels dominate Griffin residential calls; fox squirrels appear on the city's southern rural-acreage edges. Roof rats are firmly established along the US 19/41 corridor mature canopy.",
+ "wildlife_intro": "Griffin wildlife removal is driven by three predictable pressure sources. The University of Georgia Griffin Campus on the south side preserves substantial mature canopy that sustains continuous source populations of raccoons, opossums, gray squirrels, and big brown bats — properties on Griffin's south side absorb the heaviest dispersal pressure. The US 19/41 commercial corridor through the city center sustains Norway rat populations year-round and produces a steady stream of rodent calls in adjacent residential blocks. Older intown housing with uncapped masonry chimneys and pre-modern wood soffits gives bats and squirrels their preferred entry points, which is why bat and squirrel call volume runs heaviest in the older intown blocks. Fox squirrels appear on the city's rural-acreage southern edges. Roof rats are present along the US 19/41 corridor canopy.",
  "faqs": [
- {"q": "What's the typical wildlife removal cost in Griffin?", "a": "Griffin pre-1900 historic-district wildlife jobs run $700-$1,900+ because of multi-entry older historic-district housing profiles. Bat-colony work on pre-1900 chimneys runs at the highest end because of 50-100+ year colony tenure plus historic-property access constraints. UGA Griffin Campus-adjacent residential jobs run $500-$1,500+. Newer subdivision jobs track $450-$1,300+. Call for an in-person estimate."},
- {"q": "Why are Griffin historic properties so wildlife-prone?", "a": "Griffin's pre-1900 housing around the Spalding County Courthouse square features original masonry chimneys without modern caps, hand-laid brick foundations, pre-modern wood soffits with corner separation, and brick-veneer separation. Multi-entry profiles (4-5 per property) are the rule on courthouse-square older historic properties."},
- {"q": "Are Griffin bat colonies really 50-100+ years old?", "a": "Yes for many pre-1900 courthouse-square older historic-downtown properties. Big-brown bat maternity colonies establish in original masonry chimneys and re-use the same roost across generations. Multi-decade colony tenure is documented across Griffin's pre-1900 historic core."},
- {"q": "Does the UGA Griffin Campus affect Griffin wildlife pressure?", "a": "Yes. The campus's substantial mature canopy across agricultural research-and-education-center acreage maintains dedicated source populations for raccoons, opossums, gray squirrels, and bats. Residential blocks adjacent to the UGA campus absorb continuous dispersal pressure."},
- {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Griffin requires a Georgia DNR Trapping License. Spalding County falls in Georgia DNR Wildlife Resources Division because of its Piedmont position. Pre-1900 chimney bat work additionally requires federal tricolored bat ESA-compliance documentation."}
+ {"q": "What's the typical wildlife removal cost in Griffin?", "a": "Griffin residential wildlife jobs run $450-$1,500+ depending on species, structure type, and exclusion scope. Bat-colony work on older intown chimneys runs at the higher end because of multi-decade colony tenure plus historic-property access constraints. UGA Griffin Campus-adjacent residential jobs run $500-$1,500+. Newer subdivision jobs track $450-$1,300+. Call for an in-person estimate."},
+ {"q": "What makes older Griffin homes more wildlife-prone?", "a": "Older intown housing in Griffin features original masonry chimneys without modern caps, hand-laid brick foundations with century-plus mortar weathering, and pre-modern wood soffits that gap at the corners as the wood ages. These are the typical entry points for big brown bat maternity colonies (chimneys), squirrels (soffit gaps), and raccoons (chimney plus roof-flashing access). Newer subdivision housing on the city edges has narrower entry profiles — usually a single ridge-vent or dryer-vent failure rather than the multi-entry profile common in older intown homes."},
+ {"q": "How do I know if I have bats in my Griffin attic?", "a": "The clearest tells: a soft chittering sound from the chimney at summer dusk; visible bats emerging from the chimney crown or a soffit corner at last light on a warm evening; brown staining or guano accumulation on the chimney damper or below the chimney chase; and a sharp ammonia odor in the attic. In older Griffin intown housing, the chimney is the most common roost. A licensed inspection confirms presence, species, and colony size — and identifies whether the federally proposed tricolored bat (Perimyotis subflavus) is on site, which adds ESA-compliance steps."},
+ {"q": "Does the UGA Griffin Campus affect Griffin wildlife pressure?", "a": "Yes. The campus's substantial mature canopy across agricultural research-and-education-center acreage maintains continuous source populations of raccoons, opossums, gray squirrels, and bats. Residential blocks adjacent to the UGA campus absorb continuous dispersal pressure — properties backing directly to the campus see the heaviest annual call volume."},
+ {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Griffin requires a Georgia DNR Trapping License, and lethal-control work requires a Nuisance Wildlife Control Permit. Bat work on properties with confirmed tricolored bat (Perimyotis subflavus) presence requires federal ESA-compliance documentation in addition to the state license."}
  ]
  },
  "Sunny Side": {
  "population_tier": "very-small",
- "housing_era": "Sunny Side (~150) is a very small incorporated community on northern Spalding County along the US 19/41 corridor between Griffin and McDonough (Henry County). Housing is mostly 1900s-1980s rural-residential with newer 1990s-2010s subdivision growth driven by Henry County subdivision spillover. Sunny Side's wildlife profile reflects its position as a transition zone between Henry County's suburban subdivision footprint to the north and Spalding's more rural character to the south.",
+ "housing_era": "Sunny Side (~150) is a very small incorporated community in northern Spalding County along the US 19/41 corridor. Housing is mostly 1900s-1980s rural-residential with newer 1990s-2010s subdivision growth on the northern edges. The wildlife profile reflects the community's position along the US 19/41 commercial corridor (rodent source pressure) and the surrounding rural-residential acreage with pine-hardwood remnants.",
  "geographic_features": [
- "US 19/41 corridor through Sunny Side",
- "Henry County boundary immediately north (Atlanta Motor Speedway approximately 5 miles north)",
- "1900s-1980s rural-residential housing",
- "1990s-2010s subdivision growth driven by Henry County spillover",
- "Pine-hardwood remnants on rural-acreage edges",
- "Big Cotton Indian Creek tributary"
+ "US 19/41 corridor through Sunny Side — Norway and roof rat source pressure into adjacent residential blocks",
+ "Wooded rural-acreage edges typical of the central Piedmont — source habitat for raccoons, opossums, fox squirrels, and coyotes",
+ "1900s-1980s rural-residential housing — older soffit and outbuilding profiles common to multi-structure wildlife establishment",
+ "1990s-2010s subdivision growth on the northern edges",
+ "Big Cotton Indian Creek tributary — water-edge habitat"
  ],
  "neighborhoods": [
  "Sunny Side community center (US 19/41 corridor)",
- "Pre-1900 small-community housing",
- "1900s-1980s rural-residential housing",
- "1990s-2010s subdivision growth (Henry County spillover)",
- "Rural-acreage agricultural properties"
+ "1900s-1980s rural-residential blocks",
+ "1990s-2010s subdivision growth on the northern edges",
+ "Rural-acreage residential properties backing to wooded rural-acreage"
  ],
- "wildlife_intro": "Sunny Side's wildlife profile reflects the community's position as a transition zone between Henry County subdivision growth to the north and Spalding's more rural character to the south. Atlanta Motor Speedway approximately 5 miles north of Sunny Side produces sharp NASCAR race-week commercial pressure spikes that spill over into Sunny Side residential blocks — Norway rat and raccoon activity spikes during race weekends and subsides 2-3 weeks after. The US 19/41 corridor through Sunny Side contributes secondary commercial-cluster food subsidy. Sunny Side rural-acreage properties backing to pine-hardwood remnants see continuous source-population pressure for raccoons, opossums, fox squirrels, and coyotes. Most Sunny Side wildlife work involves multi-structure rural-residential properties.",
+ "wildlife_intro": "Sunny Side's wildlife profile is shaped by two pressure sources. The US 19/41 commercial corridor through the community contributes Norway rat dispersal into adjacent residential blocks year-round, with roof rats present in the older intown canopy. Sunny Side rural-acreage properties backing to wooded rural-acreage see continuous source-population pressure for raccoons, opossums, fox squirrels, and coyotes. Most Sunny Side wildlife work involves multi-structure rural-residential properties — residence plus barns, sheds, equipment buildings, and chicken coops — where wildlife establishes in outbuildings as readily as in the main house.",
  "faqs": [
- {"q": "What's the typical wildlife removal cost in Sunny Side?", "a": "Sunny Side residential wildlife jobs run $450-$1,400+ depending on species, entry-point count, and AMS-adjacency. Sunny Side blocks within 5 miles of AMS run higher during race weekends because of event-pressure spikes. Multi-structure rural-acreage work runs higher because of the property-perimeter scope. Call for an estimate."},
- {"q": "Does AMS race week affect Sunny Side wildlife pressure?", "a": "Yes, measurably. AMS event-week commercial pressure approximately 5 miles north spills over into Sunny Side residential blocks — Norway rat and raccoon activity spikes during NASCAR race weekends and subsides 2-3 weeks after."},
- {"q": "What animals are most common in Sunny Side?", "a": "Raccoons, Eastern gray squirrels, fox squirrels (rural-acreage edges), Norway rats (US 19/41 corridor + AMS race weeks), roof rats (subdivision canopy), opossums, and increasingly coyote sightings at community edges. Armadillos are routine."},
+ {"q": "What's the typical wildlife removal cost in Sunny Side?", "a": "Sunny Side residential wildlife jobs run $450-$1,400+ depending on species, entry-point count, and structure type. Multi-structure rural-acreage work (residence plus barns, sheds, chicken coops, equipment buildings) commonly runs at the higher end. Call for an estimate."},
+ {"q": "There's a raccoon in my Sunny Side attic — what should I do?", "a": "Don't try to chase or trap it yourself, especially during whelping season (late February through early May) when removing the mother leaves non-volant kits to starve inside the structure. The licensed-contractor process: inspect, identify all entry points, schedule eviction (or supervised hand-recovery of kits if present), then seal the chimney/soffit/roof gaps after the family is out. On Sunny Side rural-acreage properties, the inspection should cover every outbuilding because raccoons commonly establish in barns and sheds before or instead of the main house."},
+ {"q": "What animals are most common in Sunny Side?", "a": "Raccoons, Eastern gray squirrels, fox squirrels (on wooded rural-acreage edges), Norway rats (US 19/41 corridor), roof rats (subdivision canopy), Virginia opossums, and increasingly coyote sightings at the community edges. Armadillos are routine on rural-residential lots."},
  {"q": "Do my Sunny Side outbuildings need wildlife work?", "a": "Often yes. Sunny Side's rural-acreage character produces multi-structure wildlife establishment — animals den in barns, sheds, equipment buildings, and chicken coops. Whole-property exclusion (residence plus all outbuildings) is the durable approach."},
- {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Sunny Side requires a Georgia DNR Trapping License. Spalding County falls in Georgia DNR Wildlife Resources Division."}
+ {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Sunny Side requires a Georgia DNR Trapping License, and lethal-control work requires a Nuisance Wildlife Control Permit."}
  ]
  },
  "Orchard Hill": {
  "population_tier": "very-small",
- "housing_era": "Orchard Hill (~100) is a very small incorporated community in southern Spalding County, named for the area's historic rural agricultural acreage agricultural operations. Housing is mostly pre-1900 small-community housing plus 1900s-1980s rural-residential with newer scattered 1990s-2010s rural-acreage construction. Orchard Hill sits in the more rural-agricultural southern Spalding character zone, surrounded by remaining rural agricultural acreage, rural-residential, and agricultural acreage.",
+ "housing_era": "Orchard Hill (~100) is a very small incorporated community in southern Spalding County. The name reflects historic agricultural land use in the area; modern Orchard Hill is mostly pre-1900 small-community housing plus 1900s-1980s rural-residential, with scattered 1990s-2010s rural-acreage construction. The wildlife profile reflects the surrounding rural-residential landscape and pine-hardwood remnants on rural-acreage edges.",
  "geographic_features": [
- "US 19/41 corridor through Orchard Hill",
- "Remaining rural agricultural acreage agricultural operations (Orchard Hill takes its name from the historic peach industry)",
- "rural-residential agricultural operations on adjacent acreage",
- "Pre-1900 small-community housing inventory",
- "1900s-1980s rural-residential housing",
- "Pine-hardwood remnants on rural-acreage edges",
- "Towaliga River drainage on southern Orchard Hill"
+ "US 19/41 corridor through Orchard Hill — Norway rat source pressure",
+ "Wooded rural-acreage edges typical of the central Piedmont — source habitat for raccoons, opossums, fox squirrels, and coyotes",
+ "Pre-1900 small-community housing — older soffit and chimney profiles common to bat and squirrel entry",
+ "1900s-1980s rural-residential housing — multi-structure properties with outbuildings",
+ "Towaliga River drainage south of Orchard Hill (the Towaliga is the major waterway in southern Spalding; Orchard Hill sits roughly 10 miles north) — affects rural-edge properties through the broader watershed"
  ],
  "neighborhoods": [
  "Orchard Hill community center (US 19/41 corridor)",
  "Pre-1900 small-community housing",
  "1900s-1980s rural-residential housing",
- "rural agricultural acreage and rural-residential agricultural acreage",
- "Rural-acreage residential properties backing to pine-hardwood remnants"
+ "Rural-acreage residential properties backing to wooded rural-acreage"
  ],
- "wildlife_intro": "Orchard Hill's wildlife profile reflects the community's deep agricultural character — Orchard Hill takes its name from the historic rural agricultural acreage industry and remaining peach, rural-residential, and other agricultural operations surround the small community. The May-August peach harvest in surrounding orchards produces a measurable seasonal wildlife pressure spike — raccoons, opossums, fox squirrels, and birds all feed heavily on dropped peach fruit during harvest, sustaining elevated populations through the summer that disperse into adjacent Orchard Hill residential blocks. Fox squirrels (Sciurus niger) are routine in Orchard Hill residential calls because of the surrounding pine-hardwood and longleaf-pine remnants. Most Orchard Hill wildlife work involves multi-structure rural-residential properties (residence plus barns, sheds, chicken coops, agricultural-property outbuildings) with continuous source pressure from the surrounding agricultural acreage.",
+ "wildlife_intro": "Orchard Hill's wildlife profile is shaped by the surrounding rural-residential landscape and the wooded rural-acreage edges typical of the central Piedmont. Fox squirrels (Sciurus niger) are routine in Orchard Hill residential calls because of the surrounding mixed-forest cover. Raccoons, opossums, and big brown / evening bats follow, especially in older small-community housing with uncapped masonry chimneys and pre-modern wood soffits. Coyotes show up at the community edges. Most Orchard Hill wildlife work involves multi-structure rural-residential properties — residence plus barns, sheds, equipment buildings, and chicken coops — where wildlife establishes in outbuildings alongside or instead of the main house.",
  "faqs": [
- {"q": "What's the typical wildlife removal cost in Orchard Hill?", "a": "Orchard Hill residential wildlife jobs run $450-$1,400+ depending on species and entry-point count. Multi-structure agricultural-property work (residence plus barns, sheds, chicken coops, agricultural outbuildings) commonly runs at the higher end. rural agricultural acreage / rural-residential operation-adjacent properties absorbing seasonal pressure run higher. Call for an estimate."},
- {"q": "Does the peach harvest affect Orchard Hill wildlife pressure?", "a": "Yes, measurably. The May-August peach harvest in surrounding orchards produces a summer wildlife pressure spike across raccoons, opossums, fox squirrels, and birds. Dropped and damaged fruit sustains elevated populations that disperse into adjacent residential blocks each August-October."},
- {"q": "What animals are most common in Orchard Hill?", "a": "Raccoons, Eastern gray squirrels, fox squirrels (because of surrounding pine-hardwood and longleaf-pine remnants), opossums, big-brown / evening bats, coyotes at the agricultural-acreage edges. Armadillos are universal. White-tailed deer reach high densities."},
- {"q": "Do my Orchard Hill outbuildings need separate wildlife work?", "a": "Often yes. Orchard Hill's rural-agricultural character produces multi-structure wildlife establishment — animals den in barns, sheds, equipment buildings, chicken coops, and agricultural-property outbuildings. Whole-property exclusion (residence plus all outbuildings) is the durable approach."},
- {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Orchard Hill requires a Georgia DNR Trapping License. Spalding County falls in Georgia DNR Wildlife Resources Division."}
+ {"q": "What's the typical wildlife removal cost in Orchard Hill?", "a": "Orchard Hill residential wildlife jobs run $450-$1,400+ depending on species and entry-point count. Multi-structure rural-residential work (residence plus barns, sheds, chicken coops, equipment buildings) commonly runs at the higher end. Call for an estimate."},
+ {"q": "What should I do about coyotes around my Orchard Hill property?", "a": "Coyotes are firmly established across the rural southern Spalding belt and routinely show up at chicken coops, livestock pens, and the perimeters of rural-residential properties. Keep pets indoors at dusk and dawn (peak coyote activity), secure trash and pet food, and reinforce chicken-coop fencing with welded-wire mesh — chicken wire isn't enough because coyotes pull through it. Persistent coyote presence on a property usually means a food subsidy is sustaining them; a licensed contractor can assess the property, identify the subsidy source, recommend hazing and exclusion modifications, and refer trap-and-relocate work to Georgia DNR when it's appropriate."},
+ {"q": "What animals are most common in Orchard Hill?", "a": "Raccoons, Eastern gray squirrels, fox squirrels (because of the surrounding mixed-forest cover), Virginia opossums, big brown and evening bats, and coyotes at the community edges. Armadillos are universal across rural-residential lots. White-tailed deer densities are high on the rural-residential edges and along the Towaliga drainage."},
+ {"q": "Do my Orchard Hill outbuildings need separate wildlife work?", "a": "Often yes. Orchard Hill's rural-residential character produces multi-structure wildlife establishment — animals den in barns, sheds, equipment buildings, and chicken coops. Whole-property exclusion (residence plus all outbuildings) is the durable approach."},
+ {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Orchard Hill requires a Georgia DNR Trapping License, and lethal-control work requires a Nuisance Wildlife Control Permit."}
  ]
  }
 }
