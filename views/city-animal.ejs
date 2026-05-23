@@ -13,6 +13,9 @@
         : (animal.name + ' in ' + cityName + ', ' + stateName + ' (' + countyName + '). ' + (animal.costRange ? 'Typical cost ' + animal.costRange + '. ' : '') + 'Licensed local contractor — humane methods, same-day service.'));
   const ogImage = (cityAnimalContent && cityAnimalContent.ogImage)
     || 'https://www.removewildlifenow.com/images/og-default.jpg';
+  // Optional per-page override for og:title / twitter:title (separate from
+  // pageTitle which drives the <title> tag). Falls back to pageTitle when unset.
+  const socialTitle = (cityAnimalContent && cityAnimalContent.ogTitle) || pageTitle;
   const seoEnhanced = !!(cityAnimalContent && cityAnimalContent.geo);
   const stateRegion = stateName === 'Georgia' ? 'GA'
     : stateName === 'Tennessee' ? 'TN'
@@ -43,13 +46,13 @@
   <meta property="og:site_name" content="RemoveWildlifeNow.com">
   <meta property="og:locale" content="en_US">
   <meta property="og:url" content="<%= pageUrl %>">
-  <meta property="og:title" content="<%= pageTitle %>">
+  <meta property="og:title" content="<%= socialTitle %>">
   <meta property="og:description" content="<%= pageDesc %>">
   <meta property="og:image" content="<%= ogImage %>">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="<%= pageTitle %>">
+  <meta name="twitter:title" content="<%= socialTitle %>">
   <meta name="twitter:description" content="<%= pageDesc %>">
   <meta name="twitter:image" content="<%= ogImage %>">
 
@@ -94,14 +97,17 @@
   <% } %>
 
   <!-- Service / LocalBusiness -->
+  <% const _bizOverride = (cityAnimalContent && cityAnimalContent.businessOverride) || {}; %>
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "ProfessionalService"],
     ...(seoEnhanced ? { "@id": pageUrl + "#business" } : {}),
-    "name": animal.name + " in " + cityName,
+    "name": _bizOverride.name || (animal.name + " in " + cityName),
     "description": animal.shortDesc + " Serving " + cityName + " and all of " + countyName + ", " + stateName + ".",
     "url": pageUrl,
+    ...(_bizOverride.telephone ? { "telephone": _bizOverride.telephone } : {}),
+    ...(_bizOverride.geo ? { "geo": { "@type": "GeoCoordinates", "latitude": _bizOverride.geo.lat, "longitude": _bizOverride.geo.lon } } : {}),
     "areaServed": [
       { "@type": "City", "name": cityName + ", " + stateName },
       { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
@@ -206,7 +212,7 @@
     <section class="page-hero">
       <div class="container">
         <div class="hero-badge"><%= cityName %>, <%= stateName %></div>
-        <h1><% if (!(cityAnimalContent && cityAnimalContent.hideHeroEmoji)) { %><span aria-hidden="true"><%= animal.emoji %></span> <% } %><%= animal.name %> in <%= cityName %></h1>
+        <h1><% if (!(cityAnimalContent && cityAnimalContent.hideHeroEmoji)) { %><span aria-hidden="true"><%= animal.emoji %></span> <% } %><%= (cityAnimalContent && cityAnimalContent.h1Override) || (animal.name + ' in ' + cityName) %></h1>
         <p>Local licensed expert serving <%= cityName %> and all of <%= countyName %>. <%= animal.shortDesc %></p>
       </div>
     </section>
@@ -223,7 +229,7 @@
     <section class="cta-section">
       <div class="container">
         <div class="cta-box">
-          <h2><%= animal.name %> — <%= cityName %>, <%= stateName %></h2>
+          <% if (!(cityAnimalContent && cityAnimalContent.hideCtaH2)) { %><h2><%= animal.name %> — <%= cityName %>, <%= stateName %></h2><% } %>
           <% if (_companyName) { %>
           <p class="llp-company-name company-name"><%= _companyName %></p>
           <% } else { %>
