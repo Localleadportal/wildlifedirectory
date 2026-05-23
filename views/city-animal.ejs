@@ -24,6 +24,18 @@
     : stateName === 'New Hampshire' ? 'NH'
     : stateName === 'Vermont' ? 'VT'
     : stateName === 'Rhode Island' ? 'RI' : '';
+
+  // Contractor-aware phone + company name. Hoisted up here (rather than only in
+  // the body) so the LocalBusiness JSON-LD below can pull the same dynamic phone
+  // the on-page CTA uses — assigned contractor when LeadPortal returns one,
+  // central dispatch otherwise. The body re-uses these same variables.
+  const _phone = (countyContent && countyContent.contractor && countyContent.contractor.telephone)
+    ? countyContent.contractor.telephone
+    : '+18445443498';
+  const _phoneDisplay = formatPhone(_phone);
+  const _companyName = (countyContent && countyContent.contractor && countyContent.contractor.name)
+    ? countyContent.contractor.name
+    : null;
 %>
 <!DOCTYPE html>
 <html lang="en">
@@ -97,17 +109,25 @@
   <% } %>
 
   <!-- Service / LocalBusiness -->
-  <% const _bizOverride = (cityAnimalContent && cityAnimalContent.businessOverride) || {}; %>
+  <%
+    const _bizOverride = (cityAnimalContent && cityAnimalContent.businessOverride) || {};
+    // Schema phone + name pull from the same dynamic contractor source as the
+    // on-page CTA, so an assignment change in LeadPortal propagates to the
+    // JSON-LD without per-page edits. Explicit businessOverride still wins.
+    const _schemaName  = _bizOverride.name || _companyName || (animal.name + " in " + cityName);
+    const _schemaPhone = _bizOverride.telephone || _phone;
+    const _schemaGeo   = _bizOverride.geo || (cityAnimalContent && cityAnimalContent.geo) || null;
+  %>
   <script type="application/ld+json">
   <%- JSON.stringify({
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "ProfessionalService"],
     ...(seoEnhanced ? { "@id": pageUrl + "#business" } : {}),
-    "name": _bizOverride.name || (animal.name + " in " + cityName),
+    "name": _schemaName,
     "description": animal.shortDesc + " Serving " + cityName + " and all of " + countyName + ", " + stateName + ".",
     "url": pageUrl,
-    ...(_bizOverride.telephone ? { "telephone": _bizOverride.telephone } : {}),
-    ...(_bizOverride.geo ? { "geo": { "@type": "GeoCoordinates", "latitude": _bizOverride.geo.lat, "longitude": _bizOverride.geo.lon } } : {}),
+    "telephone": _schemaPhone,
+    ...(_schemaGeo ? { "geo": { "@type": "GeoCoordinates", "latitude": _schemaGeo.lat, "longitude": (_schemaGeo.lon !== undefined ? _schemaGeo.lon : _schemaGeo.lng) } } : {}),
     "areaServed": [
       { "@type": "City", "name": cityName + ", " + stateName },
       { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
@@ -160,21 +180,9 @@
   <link rel="icon" href="https://www.removewildlifenow.com/favicon.png" sizes="180x180" type="image/png">
 </head>
 <body>
-  <%
-    // Contractor-aware locals for every in-body anchor and the business-name
-    // slot. When LeadPortal has an assigned contractor for this county, use
-    // that contractor's phone + name; otherwise fall back to the central
-    // dispatch number for phone and null (keeps the hidden .llp-company-name
-    // paragraph for the LeadPortal client-side injection safety net).
-    // formatPhone() handles E.164 input and is a no-op for already-formatted values.
-    const _phone = (countyContent && countyContent.contractor && countyContent.contractor.telephone)
-      ? countyContent.contractor.telephone
-      : '+18445443498';
-    const _phoneDisplay = formatPhone(_phone);
-    const _companyName = (countyContent && countyContent.contractor && countyContent.contractor.name)
-      ? countyContent.contractor.name
-      : null;
-  %>
+  <%# _phone / _phoneDisplay / _companyName are declared in the head scriptlet
+      above (so the LocalBusiness JSON-LD can pull the same dynamic contractor
+      phone the on-page CTA uses). Body references those same variables. %>
   <header>
     <div class="container header-inner">
       <a href="/" class="logo">RemoveWildlife<span>Now</span></a>
