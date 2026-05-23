@@ -2090,6 +2090,185 @@ function georgiaContent(countyName, county, s) {
       }
     ];
 
+  } else if (countyName === 'Spalding County') {
+    heroIntro = `Same-day Griffin wildlife removal across Spalding County — including Sunny Side, Orchard Hill, Experiment, East Griffin, and the rural-acreage edges along the Cabin Creek and Towaliga River drainages. Licensed under Georgia DNR.`;
+
+    blockA = `Spalding County sits in the south metropolitan Atlanta exurban arc — about 40 miles south of downtown Atlanta along the US 19/41 corridor, with the I-75 corridor running through Henry County immediately to the north. With a county population of ${county.population.toLocaleString()}, Spalding combines the county seat of <a href="/georgia/spalding-county/griffin/"><strong>Griffin</strong></a> (population ~22,000, nicknamed "The Iris City"), the smaller incorporated communities of <strong>Sunny Side</strong> and <strong>Orchard Hill</strong>, the CDPs of <strong>Experiment</strong> and <strong>East Griffin</strong>, and substantial rural-residential acreage on the surrounding Piedmont rolling-hill landscape. Griffin wildlife removal demand is shaped by three geographic features specific to this county: the substantial pre-1900 historic-downtown core around the <strong>Spalding County Courthouse</strong> square, the <strong>University of Georgia Griffin Campus</strong> agricultural research and education center on the city's south side, and the US 19/41 corridor commercial cluster through Griffin and Sunny Side.</p><p>Geographically, Spalding sits at an unusual watershed division — the western half of the county lies in the <strong>Flint River basin</strong> (the Apalachicola-Chattahoochee-Flint system draining south toward the Florida panhandle), and the eastern half lies in the <strong>Ocmulgee River basin</strong> (the Altamaha system draining southeast toward the Atlantic). The divide runs roughly through Sunny Side, Griffin, and Orchard Hill. The <strong>Towaliga River</strong> — which continues south through Butts County's Indian Springs State Park — has its headwaters in southern Spalding, and the <strong>Cabin Creek</strong> and <strong>Big Cabin Creek</strong> tributary corridors drain the rest of the county. These watershed features sustain the county's beaver, otter, watersnake, and waterfowl populations and feed Spalding County wildlife removal calls from properties adjacent to the corridor edges.</p><p>Griffin was incorporated in ${county.established} (the same year Spalding County itself was formed from parts of Fayette, Henry, and Pike counties) and named for Lewis Lawrence Griffin, the first president of the Macon and Western Railroad, who bought 800 acres in 1840 and developed the city around a grid of wide boulevards. Griffin played a substantial role in the Civil War — <strong>Camp Stephens</strong> served as a Confederate mobilization site, the <strong>Lewis Mills House</strong> (Greek Revival, c. 1852) served as a Confederate hospital, and the <strong>Stonewall Confederate Cemetery</strong> in Griffin holds remains collected from the battles of Atlanta and Jonesboro. Unlike many central-Georgia courthouse squares burned during Sherman's March to the Sea, Griffin's historic downtown survived intact — and the resulting pre-1900 housing inventory along the <strong>Griffin Commercial Historic District</strong> (eight city blocks on the National Register of Historic Places, plus 16 individual structures additionally listed) is unusually preserved. Original masonry chimneys without modern caps, hand-laid brick foundations, pre-modern wood soffits, and brick-veneer construction are the rule across this submarket, producing the same multi-entry residential profiles and multi-decade big-brown-bat chimney colony establishment that define wildlife work in similar central-Georgia historic towns.`;
+
+    blockB = `Three distinct geographic features shape residential wildlife pressure across Spalding County — each producing a different call submarket.</p><h3>Pre-1900 Griffin Historic-Downtown Bat and Multi-Entry Profile</h3><p>Griffin's pre-1900 housing around the Spalding County Courthouse square and the surrounding Griffin Commercial Historic District hosts multi-decade big brown bat (<em>Eptesicus fuscus</em>) maternity colonies in original masonry chimneys. Daughters return to natal roosts to whelp, so colony memory persists across decades and across changes in property ownership. The same architectural era — original masonry, pre-modern wood soffits, brick-veneer separation, recessed gable louvers without screen backing — produces multi-entry residential profiles of 4–5 separate access points per property across the historic-district blocks. The <strong>Lewis Mills House</strong> (c. 1852), the <strong>Bailey-Tebault House</strong> (early 1860s), and the surrounding antebellum and Victorian residential stock all share that single architectural era and the structural-entry pattern that comes with it.</p><h3>UGA Griffin Campus Source Habitat</h3><p>The <strong>UGA Griffin Campus</strong> on the south side of Griffin preserves substantial mature canopy across its research and education footprint — turfgrass research plots, peach research orchards, blueberry research, and a 26-hectare research and education garden. That preserved acreage sustains continuous source populations of raccoons, opossums, Eastern gray squirrels, big brown bats, and snakes that disperse into adjacent Griffin residential blocks year-round. Properties on the south side of Griffin, particularly those backing to the UGA Griffin acreage, absorb the heaviest source pressure. Fox squirrels (<em>Sciurus niger</em>) appear in residential calls because of the campus's mature pine-and-hardwood mix.</p><h3>US 19/41 Corridor Rodent Pressure</h3><p>The US 19/41 commercial corridor through Griffin and Sunny Side — restaurant clusters, hotel waste streams, and gas-station and fast-food clusters along the older state-highway alternative to I-75 — sustains Norway rat (<em>Rattus norvegicus</em>) populations year-round. Commercial density is lower than the I-75 corridor through Henry County to the north, but the rats are firmly established and disperse into adjacent residential blocks. Roof rats (<em>Rattus rattus</em>) have moved up the corridor through central Georgia and are present in Griffin and Sunny Side subdivision canopy.`;
+
+    blockC = `Service coverage spans all of Spalding County including ${top4cities}, plus the unincorporated communities of Experiment, East Griffin, Sun Valley Heights, and the surrounding rural-residential acreage along the Cabin Creek, Big Cabin Creek, and Towaliga River drainages. The combination of Griffin's pre-1900 historic-downtown housing inventory, the UGA Griffin Campus research-and-education-center acreage, the US 19/41 corridor commercial cluster, and the rural-residential southern Spalding belt — combined with the year-round wildlife activity that defines central Georgia — means contractors here handle a continuous mix of historic-attic bat exclusion, UGA-campus-adjacent raccoon and squirrel work, US 19/41 corridor rodent control, and rural-residential coyote and snake work.`;
+
+    metaTitle = `Spalding County Wildlife Removal, GA | Griffin Same-Day`;
+    metaDescription = `Licensed Griffin wildlife removal across Spalding County, GA. Pre-1900 historic-downtown bat exclusion, UGA Griffin Campus raccoon work, US 19/41 corridor rats.`;
+    heroImage = {
+      src: '/images/hero8.jpg',
+      alt: 'Wildlife removal in Spalding County, Georgia — licensed Griffin-area contractor serving the Griffin Commercial Historic District, UGA Griffin Campus, Sunny Side, and Orchard Hill',
+      width: 1440,
+      height: 1920,
+      caption: 'Spalding County wildlife removal — Griffin, Sunny Side, Orchard Hill, Experiment, and East Griffin.',
+    };
+
+    geo = { lat: 33.2468, lon: -84.2641 };
+    sameAs = [
+      'https://en.wikipedia.org/wiki/Spalding_County,_Georgia',
+      'https://en.wikipedia.org/wiki/Griffin,_Georgia',
+    ];
+    lastUpdated = '2026-05-23';
+
+    pricing = [
+      { name: 'Raccoon trapping & removal',                minPrice: 300,  maxPrice: 650,  notes: 'Historic-district properties often run higher because of multi-entry chimney access' },
+      { name: 'Squirrel removal & exclusion',              minPrice: 250,  maxPrice: 550,  notes: 'Includes one-way doors and sealing of identified entry points' },
+      { name: 'Bat colony exclusion (historic chimney)',   minPrice: 1200, maxPrice: 3500, notes: 'Pre-1900 Griffin chimneys; standard exclusion window August–March (April–July maternity restricted)' },
+      { name: 'Snake identification & removal',            minPrice: 150,  maxPrice: 350,  notes: 'Higher for confirmed venomous species (copperhead)' },
+      { name: 'Rodent (Norway / roof rat) control',        minPrice: 400,  maxPrice: 1200, notes: 'US 19/41 corridor commercial-adjacent properties often need expanded-perimeter plans' },
+      { name: 'Attic decontamination & remediation',       minPrice: 1000, maxPrice: 4500, notes: 'Insulation removal, HEPA sanitization, damage repair' },
+      { name: 'Full home exclusion (multi-entry)',         minPrice: 1500, maxPrice: 4000, notes: 'Galvanized steel mesh, 1-year guarantee' },
+    ];
+
+    neighboringCounties = [
+      { name: 'Henry County',      slug: 'henry-county',      anchor: 'Henry County wildlife removal',     blurb: 'directly north, along the US 19/41 and I-75 corridors' },
+      { name: 'Butts County',      slug: 'butts-county',      anchor: 'Butts County wildlife services',    blurb: 'to the east, including Jackson and Lake Jackson' },
+      { name: 'Lamar County',      slug: 'lamar-county',      anchor: 'Lamar County animal removal',       blurb: 'to the southeast, along the Towaliga River corridor' },
+      { name: 'Pike County',       slug: 'pike-county',       anchor: 'Pike County wildlife removal',      blurb: 'to the south, toward Zebulon' },
+      { name: 'Upson County',      slug: 'upson-county',      anchor: 'Upson County wildlife services',    blurb: 'to the southwest, toward Thomaston and the Flint River' },
+      { name: 'Meriwether County', slug: 'meriwether-county', anchor: 'Meriwether County animal removal',  blurb: 'to the west, along the Flint River drainage' },
+      { name: 'Fayette County',    slug: 'fayette-county',    anchor: 'Fayette County wildlife removal',   blurb: 'to the northwest, toward Fayetteville and Peachtree City' },
+    ];
+
+    extendedBody = `
+      <aside class="answer-box" style="background:#f1f5f9;border-left:4px solid #2e7d32;padding:18px 22px;margin:0 0 28px;border-radius:0 8px 8px 0;">
+        <h3 style="margin:0 0 10px;font-size:1.1rem;color:#1b5e20;">Quick Answer — Wildlife Removal in Spalding County, GA</h3>
+        <p style="margin:0;font-size:0.95rem;line-height:1.55;">Spalding County wildlife removal is handled by licensed contractors serving Griffin, Sunny Side, Orchard Hill, Experiment, East Griffin, and the surrounding rural acreage. Core services include raccoon removal, squirrel exclusion, pre-1900 Griffin chimney bat exclusion, snake removal, US 19/41 corridor rodent control, attic remediation, and humane trapping. All work is licensed under Georgia DNR Wildlife Resources Division Region 4 (Fort Valley office) and typically scheduled same-day. Griffin — the county seat and the historic-downtown core around the Spalding County Courthouse — generates the highest call volume because of its pre-1900 housing density and proximity to the UGA Griffin Campus source habitat.</p>
+      </aside>
+
+      <h2>About Spalding County and the Griffin Historic Core</h2>
+      <p>Spalding County occupies a transitional position in the central Georgia <strong>Piedmont uplands</strong>, sitting at the southern fringe of the Atlanta metropolitan area along the US 19/41 corridor — about 40 miles south of downtown Atlanta and 60 miles northwest of Macon-Bibb. The county is split between two of the South's major watersheds: the western half drains into the <strong>Flint River basin</strong> (Apalachicola-Chattahoochee-Flint system) and the eastern half drains into the <strong>Ocmulgee River basin</strong> (Altamaha system), with the divide running roughly through Sunny Side, Griffin, and Orchard Hill. The <strong>Towaliga River</strong> — which flows south through Butts County's Indian Springs State Park — has its headwaters in southern Spalding, and <strong>Cabin Creek</strong> and <strong>Big Cabin Creek</strong> tributary corridors drain the rest of the county.</p>
+
+      <p>The county was created in ${county.established} from parts of Fayette, Henry, and Pike counties and named for U.S. senator and representative Thomas Spalding. Griffin — the county seat — was developed by Lewis Lawrence Griffin, the first president of the Macon and Western Railroad, who bought 800 acres in 1840 and laid out the city around a grid of wide boulevards. Griffin's <strong>Civil War history</strong> is substantial: Camp Stephens served as a Confederate mobilization site, the Lewis Mills House (c. 1852) served as a Confederate hospital, and the <strong>Stonewall Confederate Cemetery</strong> in Griffin holds remains collected from the battles of Atlanta and Jonesboro. Unlike many central-Georgia courthouse squares burned during Sherman's March to the Sea, Griffin's historic downtown survived intact — giving the city an unusually preserved pre-1900 housing inventory that drives the local wildlife-removal call profile today.</p>
+
+      <h3>Griffin Commercial Historic District and Pre-1900 Housing</h3>
+      <p>The <strong>Griffin Commercial Historic District</strong> covers eight city blocks listed on the <strong>National Register of Historic Places</strong>, with 16 individual structures additionally listed. Pre-1900 antebellum and Victorian residential properties — including the <strong>Lewis Mills House</strong> (Greek Revival, c. 1852) and the <strong>Bailey-Tebault House</strong> (Greek Revival, early 1860s) — share a single architectural era that produces consistent wildlife-entry patterns: original masonry chimneys without modern caps, hand-laid brick foundations with century-plus mortar weathering, pre-modern wood soffits with corner separation, and brick-veneer construction. The same conditions that make these homes architecturally valuable also make them textbook habitat for big brown bat maternity colonies and multi-entry raccoon and squirrel work.</p>
+
+      <h3>University of Georgia Griffin Campus</h3>
+      <p>The <strong>UGA Griffin Campus</strong> on the south side of Griffin operates as a major agricultural research and education center under the University of Georgia College of Agricultural and Environmental Sciences. The campus preserves substantial mature canopy and habitat — turfgrass research plots, peach research orchards, blueberry research operations, and a 26-hectare research and education garden — that sustains continuous source populations of raccoons, opossums, Eastern gray and fox squirrels, big brown bats, and snakes. Griffin residential blocks on the south side, particularly those backing to the UGA Griffin acreage, see the heaviest source pressure year-round.</p>
+
+      <h2>Wildlife Common to Spalding County</h2>
+      <p>Spalding residents most frequently call about animals dispersing from Griffin's pre-1900 historic-downtown housing, the UGA Griffin Campus acreage, the US 19/41 corridor commercial cluster, and the surrounding rural-residential acreage:</p>
+      <ul class="tips-list">
+        <li><a href="/georgia/spalding-county/raccoon-removal/"><strong>Raccoons</strong></a> (<em>Procyon lotor</em>) — heaviest densities in Griffin pre-1900 historic-downtown housing and along the UGA Griffin Campus south-side residential edge</li>
+        <li><a href="/georgia/spalding-county/squirrel-removal/"><strong>Eastern gray squirrels</strong></a> (<em>Sciurus carolinensis</em>) — constant across Griffin's pre-1900 historic-downtown housing and the suburban canopy throughout the county</li>
+        <li><a href="/georgia/spalding-county/squirrel-removal/"><strong>Fox squirrels</strong></a> (<em>Sciurus niger</em>) — appear in residential calls because of the UGA Griffin Campus mature pine-and-hardwood acreage and the rural-residential southern Spalding belt</li>
+        <li><a href="/georgia/spalding-county/squirrel-removal/"><strong>Southern flying squirrels</strong></a> in older Griffin housing</li>
+        <li><a href="/georgia/spalding-county/bat-removal/"><strong>Big brown bats</strong></a> (<em>Eptesicus fuscus</em>) — long-established colonies in original masonry chimneys around the Griffin Commercial Historic District and the Spalding County Courthouse square</li>
+        <li><a href="/georgia/spalding-county/bat-removal/"><strong>Evening bats</strong></a> (<em>Nycticeius humeralis</em>) in older Griffin housing and Sunny Side rural-residential outbuildings</li>
+        <li><a href="/georgia/spalding-county/bat-removal/"><strong>Tricolored bats</strong></a> (<em>Perimyotis subflavus</em>) — federally proposed for listing; documented in central Georgia and may appear in pre-1900 Griffin chimney colonies</li>
+        <li><a href="/georgia/spalding-county/rat-removal/"><strong>Norway rats</strong></a> (<em>Rattus norvegicus</em>) — concentrated in US 19/41 commercial-corridor restaurant blocks through Griffin and Sunny Side</li>
+        <li><a href="/georgia/spalding-county/rat-removal/"><strong>Roof rats</strong></a> (<em>Rattus rattus</em>) — established along the US 19/41 corridor through Griffin and Sunny Side subdivision canopy</li>
+        <li><a href="/georgia/spalding-county/opossum-removal/"><strong>Virginia opossums</strong></a>, <a href="/georgia/spalding-county/skunk-removal/"><strong>striped skunks</strong></a>, <strong>Eastern cottontail rabbits</strong>, <strong>nine-banded armadillos</strong> (firmly established across rural-edge Spalding)</li>
+        <li><strong>Coyotes</strong> — established across the county, with the highest densities along the rural-residential southern Spalding belt and the Cabin Creek and Towaliga River corridor edges</li>
+        <li><strong>White-tailed deer</strong> — high densities along the Cabin Creek and Towaliga River drainage corridors plus the UGA Griffin Campus mature canopy</li>
+        <li><strong>Feral hogs</strong> — occur in southern Spalding rural acreage</li>
+        <li><a href="/georgia/spalding-county/snake-removal/"><strong>Snakes</strong></a> — Eastern rat snake (the most common and most often misidentified), copperhead (along wooded edges and the Cabin Creek and Towaliga corridors), and the occasional brown watersnake along stream corridors</li>
+      </ul>
+
+      <h2>Federally Protected Species in Spalding County</h2>
+      <p>The <a href="https://www.fws.gov/species/tricolored-bat-perimyotis-subflavus" target="_blank" rel="noopener"><strong>tricolored bat</strong> (<em>Perimyotis subflavus</em>)</a> is federally proposed for listing under the Endangered Species Act and is documented in central Georgia — encounters in pre-1900 Griffin chimney colonies require careful protocol. <strong>Migratory birds</strong> — including Canada geese, hawks, owls, woodpeckers, and chimney swifts — are protected under the Migratory Bird Treaty Act and require federal permits for any active take.</p>
+
+      <h2>Service Coverage in Spalding County</h2>
+      <p>Service spans every community and corridor in Spalding County. Highest call volume comes from Griffin's pre-1900 historic-downtown housing around the Spalding County Courthouse, the UGA Griffin Campus south-side residential edge, the US 19/41 corridor commercial properties, and the rural-residential southern Spalding acreage:</p>
+      <ul class="tips-list">
+        <li><strong>Griffin</strong> — county seat, pre-1900 historic-downtown core, UGA Griffin Campus, US 19/41 corridor</li>
+        <li><strong>Sunny Side</strong> — small incorporated community along the US 19/41 corridor on the northern Spalding boundary</li>
+        <li><strong>Orchard Hill</strong> — small incorporated community in southern Spalding, surrounded by rural-residential acreage</li>
+        <li><strong>Experiment</strong> — unincorporated CDP, historic temperance-colony origin</li>
+        <li><strong>East Griffin</strong> — unincorporated CDP on Griffin's eastern edge</li>
+        <li><strong>Sun Valley Heights</strong>, the Cabin Creek drainage edges, and the surrounding rural-residential acreage</li>
+      </ul>
+
+      <h2>Typical Wildlife Removal Pricing in Spalding County</h2>
+      <p>Pricing varies with species, property complexity, and the scope of exclusion work — these ranges reflect what most homeowners in the Griffin and Spalding submarkets pay for completed work. Free phone estimates are standard once species and structure are identified.</p>
+      <table class="pricing-table" style="width:100%;border-collapse:collapse;margin:18px 0;font-size:0.95rem;">
+        <thead>
+          <tr style="background:#f1f5f9;text-align:left;">
+            <th style="padding:10px 12px;border:1px solid #e5e7eb;">Service</th>
+            <th style="padding:10px 12px;border:1px solid #e5e7eb;">Typical Range</th>
+            <th style="padding:10px 12px;border:1px solid #e5e7eb;">Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Raccoon trapping &amp; removal</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$300–$650</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Historic-district properties often run higher because of multi-entry chimney access</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Squirrel removal &amp; exclusion</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$250–$550</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Includes one-way doors and sealing of identified entry points</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Bat colony exclusion (historic chimney)</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$1,200–$3,500+</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Pre-1900 Griffin chimneys; standard window August–March (April–July maternity restricted)</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Snake identification &amp; removal</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$150–$350 per visit</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Higher for confirmed venomous species (copperhead)</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Rodent (Norway/roof rat) control</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$400–$1,200</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">US 19/41 corridor commercial-adjacent properties may need expanded-perimeter plans</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Attic decontamination &amp; remediation</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$1,000–$4,500</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Insulation removal, HEPA sanitization, damage repair</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Full home exclusion (multi-entry)</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$1,500–$4,000+</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Galvanized steel mesh, 1-year guarantee</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Spalding County Animal Services vs Private Wildlife Removal — What's Free and What Isn't</h2>
+      <p>Spalding County residents often call <strong>Spalding County Animal Services</strong> first when they have a wildlife problem, only to find that animal services handles domestic-animal complaints (stray dogs, cat bites, leash-law issues) and does not respond to nuisance wildlife in attics, chimneys, walls, or yards. Knowing the right contact for each situation saves a call and gets the right people to the property faster:</p>
+      <ul class="tips-list">
+        <li><strong>Domestic-animal issues</strong> (stray dog, cat bite, leash complaint) — <strong>Spalding County Animal Services</strong>, 105 Justice Blvd, Griffin GA 30224 — <strong>(770) 467-4772</strong>. Free.</li>
+        <li><strong>Injured or orphaned wildlife</strong> (fawn, fallen baby bird, sick raccoon) — a permitted Georgia DNR wildlife rehabilitator. Free or donation-based.</li>
+        <li><strong>Rabies-vector exposure</strong> (a bat found in a bedroom, a bite or scratch from any mammal) — your physician or veterinarian, and the Georgia Department of Public Health for confirmed exposures. Insurance-billed.</li>
+        <li><strong>Nuisance wildlife removal and exclusion</strong> (raccoons in the chimney, bats in the attic, squirrels chewing wires, snakes in the yard) — a licensed private contractor. Paid service.</li>
+        <li><strong>Wildlife in immediate public-safety situation</strong> (rabid animal in public area, dangerous-wildlife emergency) — <strong>Griffin Police Department</strong> non-emergency at <strong>(770) 229-6450</strong> for triage, or 911 for active emergencies.</li>
+        <li><strong>State-level wildlife questions, regulations, or licensing</strong> — <strong>Georgia DNR Wildlife Resources Division Region 4 (Fort Valley)</strong>, <strong>(478) 825-6354</strong>. Free.</li>
+      </ul>
+
+      <h2>Local Authorities and Regulations</h2>
+      <p>Wildlife removal in Spalding County operates within a multi-level regulatory framework. <strong><a href="https://www.spaldingcounty.com/" target="_blank" rel="noopener">Spalding County government</a></strong> handles county-level services but does not respond to most nuisance wildlife calls — raccoons, squirrels, bats, snakes, beavers, coyotes, and similar species are referred to private licensed wildlife control operators. State-level oversight comes from the <strong><a href="https://georgiawildlife.com/" target="_blank" rel="noopener">Georgia Department of Natural Resources, Wildlife Resources Division</a></strong>, with central-Georgia counties administered by the Region 4 office in Fort Valley (with a satellite office in Macon). Federal protections apply to bats during maternity periods (April–July exclusion restrictions per Georgia DNR guidance), all migratory birds, and the federally proposed tricolored bat. Every contractor in this directory operating in Spalding County is required to hold the applicable state and federal credentials.</p>
+    `;
+
+    faqs = [
+      {
+        q: 'What wildlife is most common in Spalding County, Georgia?',
+        a: 'Raccoons in Griffin pre-1900 historic-downtown housing and along the UGA Griffin Campus south-side residential edge top the call volume. Eastern gray squirrels follow across the city\'s mature canopy; fox squirrels appear on the campus edge and in the rural-acreage southern Spalding belt. Pre-1900 antebellum and Victorian chimneys around the Griffin Commercial Historic District host long-established big brown bat maternity colonies. Norway rats concentrate along the US 19/41 commercial corridor through Griffin and Sunny Side; roof rats are present in the older intown subdivision canopy. Coyotes are firmly established in southern Spalding and along the Cabin Creek and Towaliga drainage corridors. Snake calls — primarily Eastern rat snake with occasional copperhead along wooded edges and the creek corridors — round out the routine workload. Larger species (white-tailed deer, feral hogs, the occasional black bear passing through) fall under direct Georgia DNR Wildlife Resources Division management rather than the private removal industry.'
+      },
+      {
+        q: 'How do I know what animal is in my attic?',
+        a: 'Sound and timing are the fastest clues. Heavy, deliberate footfall heard at dusk and roughly forty-five minutes before sunrise — slow enough to make out individual steps — usually means a raccoon, often in a pre-1900 Griffin chimney. Quick scampering during daylight hours points to squirrels (Eastern gray, or fox squirrels on south-side properties adjacent to the UGA Griffin Campus). Faint scratching or gnawing after dark in walls and ceilings is typically rats or southern flying squirrels. Bats are nearly silent in the structure itself but may give themselves away by a soft chittering at the chimney at summer dusk, or by emerging at last light. A licensed inspection plus dropping morphology confirms the species.'
+      },
+      {
+        q: 'There\'s an animal in my house right now — what should I do?',
+        a: 'Don\'t try to handle or chase it. Open an exterior door or window along the route the animal is most likely to use to leave, then close the door of every other room so the animal can\'t move deeper into the structure. If it\'s a bat, note whether anyone in the household — especially a child, an intoxicated adult, or someone who was sleeping — may have had unnoticed contact, because that scenario is treated as presumptive rabies exposure and the bat should be safely captured (without damage to the head) and submitted to the Georgia Public Health Laboratory for rabies testing. Then call a licensed Spalding County contractor; same-day response is standard.'
+      },
+      {
+        q: 'What should I do if I hear scratching in my attic?',
+        a: 'Scratching in the attic almost always means raccoons, squirrels, or rats — and the specific sound pattern is diagnostic. Heavy, slow scratching with thumps usually means raccoons (most active at dusk and dawn). Fast, light scratching during the day points to squirrels. Steady scurrying or chewing at night, especially in walls or near soffit lines, is most often rats. Do not enter the attic yourself, do not set poison (poisoned animals die in the structure and cause weeks of odor remediation work), and do not try to block the entry hole before the animal is out (mothers will tear through drywall to reach trapped pups). Call a licensed wildlife removal contractor for an inspection — Spalding County professionals routinely identify the species in under 15 minutes from sound, droppings, and entry-point evidence.'
+      },
+      {
+        q: 'Do raccoons and squirrels come back after removal?',
+        a: 'Yes — unless the exclusion work is complete. Trap-and-relocate without sealing entry points has a near-100% recurrence rate within weeks, because the property is still broadcasting access cues (open soffit corners, missing chimney caps, gaps in foundation vents) to neighboring raccoons and squirrels. Effective Spalding County exclusion pairs trapping with structural exclusion: one-way doors on confirmed entry points, galvanized steel mesh on chimney chases, sealed soffit returns, and ridge-vent reinforcement. With full multi-entry exclusion, recurrence drops to under 10% within the first year. Pre-1900 Griffin historic-district properties typically require deeper structural scope because of the multi-entry-point profile that comes with the era\'s original masonry and pre-modern wood construction.'
+      },
+      {
+        q: 'Does Spalding County Animal Services handle wildlife? What\'s free vs paid?',
+        a: 'Spalding County Animal Services (105 Justice Blvd, Griffin, GA 30224 — <strong>(770) 467-4772</strong>) handles domestic-animal complaints — stray dogs, cat bites, leash-law issues — and does not respond to nuisance wildlife in attics, chimneys, walls, or yards. Knowing the right contact for each situation saves a call. Free public services: Spalding County Animal Services for domestic-animal issues; Georgia DNR Wildlife Resources Division Region 4 (Fort Valley) at <strong>(478) 825-6354</strong> for licensing and regulatory questions; a permitted Georgia DNR wildlife rehabilitator for injured or orphaned wildlife. Paid private services: licensed wildlife contractors handle removal, exclusion, decontamination, and damage repair. For immediate public-safety wildlife situations, Griffin Police Department non-emergency at <strong>(770) 229-6450</strong> can triage, or 911 for active emergencies.'
+      },
+      {
+        q: 'Does homeowners insurance cover wildlife damage in Georgia?',
+        a: 'Most Georgia homeowners policies do not cover the cost of removing the animal itself — that\'s classified as a pest or maintenance item. They often do cover resulting damage when it\'s sudden and the policy includes the relevant peril: chewed wiring, damaged insulation, torn shingles or soffits, and contamination cleanup are commonly covered when documented as caused by the wildlife event. Keep photos of every entry point and damaged area, plus the contractor\'s inspection report — the report\'s documentation of species and damage scope is what carriers usually ask for. Coverage varies by carrier and policy; call your agent with the inspection report in hand before assuming either direction.'
+      },
+      {
+        q: 'How much does wildlife removal cost in Griffin and Spalding County?',
+        a: 'Pricing varies with species, property complexity, and the scope of exclusion work. A standard raccoon trapping-and-removal job runs $300–$650; historic-district properties around the Spalding County Courthouse square often run higher because of multi-entry chimney access. Squirrel removal with exclusion runs $250–$550. Pre-1900 Griffin chimney bat colony exclusion — including federal tricolored-bat compliance — runs $1,200–$3,500+. Norway and roof rat control runs $400–$1,200; US 19/41 corridor commercial-adjacent properties often need expanded-perimeter plans rather than single-property treatment. Full home exclusion with galvanized steel mesh and a 1-year guarantee runs $1,500–$4,000+. Attic decontamination after a long-established colony can add $1,000–$4,500. Phone consultations and on-site estimates are free.'
+      },
+      {
+        q: 'When is the best time to handle wildlife exclusion in Spalding County?',
+        a: 'For most species in central Georgia, the best window for exclusion work is late summer through early spring — roughly August through March. Bat exclusion in particular must be scheduled outside the maternity restriction (April 1 through July 31 per Georgia DNR\'s published guidance) to avoid trapping non-flying pups inside; licensed Nuisance Wildlife Control Operators can also perform maternity-period exclusion using kit-aware protocols when a structural emergency requires it. Squirrel and raccoon exclusion is best handled outside their main denning seasons (February through April for both species in central Georgia), though urgent intrusions can be addressed any time of year using one-way doors. Snake and rodent calls run year-round. Central Georgia\'s mild winters keep wildlife active twelve months a year — call volume here never fully drops off.'
+      },
+      {
+        q: 'Is wildlife removal regulated in Spalding County?',
+        a: 'Yes. All commercial wildlife removal in Spalding County operates under Georgia DNR Wildlife Resources Division licensing — the county falls within Region 4 (Fort Valley office), which administers central Georgia. Georgia DNR requires every commercial wildlife trapper to hold a Trapping License, and for properties using lethal control, a Nuisance Wildlife Control Permit. Federal protections apply to bats during the April–July maternity restriction window, all migratory birds (Canada geese, owls, hawks, woodpeckers, chimney swifts), and the federally proposed-for-listing tricolored bat documented in central Georgia. Every contractor in this directory operating in Spalding County holds the applicable state and federal credentials.'
+      },
+      {
+        q: 'Are bats protected in Georgia?',
+        a: 'Yes. All bat species in Georgia are protected by state law, and the federally proposed-for-listing tricolored bat (Perimyotis subflavus) carries additional federal protection under the Endangered Species Act. Georgia DNR restricts active bat exclusion during the maternity season (April 1 through July 31, per published guidance) to prevent non-flying pups from being trapped inside structures. The standard legal exclusion window is August through March; licensed Nuisance Wildlife Control Operators can also perform maternity-period exclusion using kit-aware protocols when a structural emergency requires it. Bat work in Spalding County uses one-way exit devices — trapping bats is illegal. A licensed contractor inspects the structure, schedules exclusion in a legal window, and seals entry points only after the colony has exited.'
+      }
+    ];
+
   }
 
   if (!blockD) blockD = `Wildlife intrusion in ${countyName} follows Georgia's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
