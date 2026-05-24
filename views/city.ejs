@@ -46,7 +46,6 @@
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <% } %>
 
-  <% if (seoEnhanced) { %>
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="RemoveWildlifeNow.com">
@@ -62,6 +61,7 @@
   <meta name="twitter:description" content="<%= pageDesc %>">
   <meta name="twitter:image" content="<%= ogImage %>">
 
+  <% if (seoEnhanced) { %>
   <!-- Geo -->
   <meta name="geo.region" content="US-<%= stateRegion %>">
   <meta name="geo.placename" content="<%= cityName %>, <%= stateName %>">
@@ -397,10 +397,16 @@
 
         <h3>Why Use a Local <%= cityName %> Contractor?</h3>
         <ul class="tips-list">
+          <% if (cityContent && cityContent.whyLocal && cityContent.whyLocal.length) { %>
+            <% cityContent.whyLocal.forEach(function(item) { %>
+            <li><%- item %></li>
+            <% }); %>
+          <% } else { %>
           <li>They know the wildlife species most common to <%= cityName %> neighborhoods</li>
           <li>Familiar with local ordinances and <%= stateName %> wildlife removal regulations</li>
           <li>Faster response time — they're already in your area</li>
           <li>Follow-up visits are easy when the contractor is local</li>
+          <% } %>
         </ul>
       </div>
     </section>
