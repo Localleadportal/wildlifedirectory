@@ -2269,6 +2269,16 @@ function georgiaContent(countyName, county, s) {
       }
     ];
 
+  } else if (countyName === 'Jasper County') {
+    blockA = `Jasper County sits in Georgia's Piedmont region between Macon and Atlanta, with Monticello as its county seat and rural communities like Shady Dale spread across roughly 370 square miles of farmland, hardwood forest, and lake-adjacent property near the Ocmulgee River and Lake Jackson. This mix of agricultural land, dense tree cover, and waterfront homes gives wildlife abundant cover and easy access to attics, crawlspaces, barns, and outbuildings — making professional wildlife removal a year-round need for Jasper County homeowners.`;
+
+    blockB = `Homeowners across Jasper County most often call about raccoons, squirrels, and bats getting into attics and chimneys, along with snakes around foundations and outbuildings, opossums and skunks under decks and sheds, and rats in walls and crawlspaces. Rural and lake-adjacent properties also see groundhogs, moles, and armadillos digging through lawns and gardens, plus birds nesting in vents and eaves. Each species requires different trapping, exclusion, and remediation methods, which is why a licensed local contractor familiar with Jasper County's terrain handles removal far more effectively than DIY attempts.`;
+
+    blockC = `Wildlife removal service covers all of Jasper County, including Monticello and Shady Dale, plus the surrounding rural routes, lake communities, and farm properties throughout the county. Whether the problem is in a historic home near the Monticello square, a newer build on the outskirts, or a barn or outbuilding on acreage, the assigned local contractor provides same-day and emergency response across the entire county.`;
+
+    metaTitle = `Wildlife Removal Jasper County GA | Same-Day & Humane`;
+    metaDescription = `Wildlife removal in Jasper County, GA. Licensed, insured, same-day and 24/7 emergency service for raccoons, squirrels, bats, snakes and more in Monticello, Shady Dale and across the county. Free estimate.`;
+
   }
 
   if (!blockD) blockD = `Wildlife intrusion in ${countyName} follows Georgia's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
