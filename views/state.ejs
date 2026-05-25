@@ -1,25 +1,102 @@
 <%
-  const title = `Wildlife Removal in ${stateName} | Find Local Contractors by County | RemoveWildlifeNow.com`;
-  const metaDesc = `Find licensed wildlife removal contractors in ${stateName}. Browse by county to connect with local professionals near you.`;
-  const canonical = `/${toSlug(stateName)}/`;
-  const schema = JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": `Wildlife Removal in ${stateName}`,
-    "description": `Find licensed wildlife removal contractors in ${stateName}. Local experts for raccoon, squirrel, bat, snake, and wildlife removal.`,
-    "url": `https://www.removewildlifenow.com/${toSlug(stateName)}/`,
-    "provider": {
+  const slug = toSlug(stateName);
+  const pageUrl = `https://www.removewildlifenow.com/${slug}/`;
+  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
+
+  const title = `Wildlife Removal in ${stateName} | Licensed Local Contractors`;
+  const metaDesc = `Find licensed wildlife removal contractors across ${stateName} — raccoon, squirrel, bat & snake removal. Browse all ${counties.length} counties to find local help.`;
+  const canonical = `/${slug}/`;
+
+  // Schema: directory-level Organization + LocalBusiness (keeps the 844
+  // directory line), the state-level Service, and — when the state defines
+  // FAQs — a FAQPage. Emitted as a single @graph.
+  const graph = [
+    {
       "@type": "Organization",
+      "@id": "https://www.removewildlifenow.com/#organization",
       "name": "RemoveWildlifeNow.com",
-      "url": "https://www.removewildlifenow.com"
+      "url": "https://www.removewildlifenow.com",
+      "logo": "https://www.removewildlifenow.com/favicon.png"
     },
-    "areaServed": {
-      "@type": "State",
-      "name": stateName,
-      "containedInPlace": { "@type": "Country", "name": "United States" }
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.removewildlifenow.com/#localbusiness",
+      "name": "RemoveWildlifeNow.com",
+      "image": ogImage,
+      "url": pageUrl,
+      "telephone": "+1-844-544-3498",
+      "priceRange": "$$",
+      "description": `Directory of licensed wildlife removal contractors serving ${stateName}. Connect with local professionals for raccoon, squirrel, bat, and snake removal.`,
+      "address": { "@type": "PostalAddress", "addressRegion": stateName, "addressCountry": "US" },
+      "areaServed": { "@type": "State", "name": stateName }
     },
-    "serviceType": "Wildlife Removal"
-  });
+    {
+      "@type": "Service",
+      "@id": pageUrl + "#service",
+      "name": `Wildlife Removal in ${stateName}`,
+      "serviceType": "Wildlife Removal",
+      "description": `Find licensed wildlife removal contractors in ${stateName}. Local experts for raccoon, squirrel, bat, snake, and wildlife removal.`,
+      "provider": { "@id": "https://www.removewildlifenow.com/#organization" },
+      "areaServed": { "@type": "State", "name": stateName, "containedInPlace": { "@type": "Country", "name": "United States" } }
+    }
+  ];
+  if (stateInfo && stateInfo.faqs && stateInfo.faqs.length) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": pageUrl + "#faq",
+      "mainEntity": stateInfo.faqs.map(f => ({
+        "@type": "Question",
+        "name": f.q,
+        "acceptedAnswer": { "@type": "Answer", "text": f.a }
+      }))
+    });
+  }
+  const schema = JSON.stringify({ "@context": "https://schema.org", "@graph": graph });
+
+  // Social tags (literal & per spec; og:type=website for the directory hub).
+  const extraHead = `
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="RemoveWildlifeNow.com">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="${pageUrl}">
+    <meta property="og:title" content="${title}">
+    <meta property="og:description" content="${metaDesc}">
+    <meta property="og:image" content="${ogImage}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${title}">
+    <meta name="twitter:description" content="${metaDesc}">
+    <meta name="twitter:image" content="${ogImage}">
+  `;
+
+  // Intro: rich multi-paragraph overview when the state provides one,
+  // otherwise the shared wildlifeNote (with a generic fallback).
+  const introHtml = (stateInfo && stateInfo.overview && stateInfo.overview.length)
+    ? stateInfo.overview.map(p => `<p>${p}</p>`).join('')
+    : (stateInfo
+        ? `<p>${stateInfo.wildlifeNote}</p>`
+        : `<p>${stateName} homeowners commonly deal with raccoons, squirrels, bats, snakes, groundhogs, and other wildlife that can cause serious damage to homes and structures. Our directory connects you with licensed professionals who understand the specific wildlife challenges in your area.</p>`);
+
+  const regulationHtml = stateInfo
+    ? `<p>Wildlife removal in ${stateName} is regulated by the <strong>${stateInfo.agency}</strong>. All contractors in our directory hold the required state permits and follow humane, legal removal practices. ${stateInfo.seasonNote || ''}</p>`
+    : `<p>Wildlife removal in ${stateName} is regulated by the state wildlife agency. All contractors in our directory hold the required permits and follow humane, legal removal practices.</p>`;
+
+  const batHtml = (stateInfo && stateInfo.batNote)
+    ? `<h3>Bat Removal in ${stateName}</h3>\n    <p>${stateInfo.batNote}</p>` : '';
+  const peakHtml = (stateInfo && stateInfo.peakNote)
+    ? `<h3>When Wildlife Problems Peak in ${stateName}</h3>\n    <p>${stateInfo.peakNote}</p>` : '';
+
+  const faqHtml = (stateInfo && stateInfo.faqs && stateInfo.faqs.length)
+    ? `
+<section class="county-content">
+  <div class="container">
+    <h2>Frequently Asked Questions — Wildlife Removal in ${stateName}</h2>
+    <div style="display:flex;flex-direction:column;gap:16px;margin-top:16px;">
+      ${stateInfo.faqs.map((f, i) => `<details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;"${i === 0 ? ' open' : ''}><summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">${f.q}<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary><div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">${f.a}</div></details>`).join('')}
+    </div>
+  </div>
+</section>` : '';
+
   const body = `
 <nav class="breadcrumb">
   <div class="container">
@@ -30,7 +107,7 @@
 <section class="page-hero">
   <div class="container">
     <h1>Wildlife Removal in ${stateName}</h1>
-    <p>Select your county below to find a licensed wildlife removal contractor near you.</p>
+    <p>Select your county below to find a licensed wildlife removal contractor near you, or call our directory line at <a class="llp-phone" href="tel:+18445443498">(844) 544-3498</a>.</p>
   </div>
 </section>
 
@@ -38,7 +115,7 @@
   <div class="container">
     <h2>${stateName} Counties</h2>
     <ul class="counties-grid">
-      ${counties.map(county => `<li><a href="/${toSlug(stateName)}/${toSlug(county)}/">${county}</a></li>`).join('')}
+      ${counties.map(county => `<li><a href="/${slug}/${toSlug(county)}/">${county}</a></li>`).join('')}
     </ul>
   </div>
 </section>
@@ -46,9 +123,10 @@
 <section class="state-content">
   <div class="container">
     <h2>Wildlife Removal Services in ${stateName}</h2>
-    ${stateInfo ? `<p>${stateInfo.wildlifeNote}</p>
-    <p>Wildlife removal in ${stateName} is regulated by the <strong>${stateInfo.agency}</strong>. All contractors in our directory hold the required state permits and follow humane, legal removal practices. ${stateInfo.seasonNote}</p>` : `<p>${stateName} homeowners commonly deal with raccoons, squirrels, bats, snakes, groundhogs, and other wildlife that can cause serious damage to homes and structures. Our directory connects you with licensed professionals who understand the specific wildlife challenges in your area.</p>
-    <p>Wildlife removal in ${stateName} is regulated by the state wildlife agency. All contractors in our directory hold the required permits and follow humane, legal removal practices.</p>`}
+    ${introHtml}
+    ${regulationHtml}
+    ${batHtml}
+    ${peakHtml}
     <h3>Common Wildlife Problems in ${stateName}</h3>
     <ul class="wildlife-list">
       <li><strong>Raccoons</strong> — attic damage, chimney entry, trash raiding</li>
@@ -59,6 +137,6 @@
       <li><strong>Birds</strong> — nesting, exclusion, deterrents</li>
     </ul>
   </div>
-</section>`;
+</section>${faqHtml}`;
 %>
-<%- include('layout', { title, metaDesc, canonical, schema, body, noindex: !indexable }) %>
+<%- include('layout', { title, metaDesc, canonical, schema, extraHead, body, noindex: !indexable }) %>

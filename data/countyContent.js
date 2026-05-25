@@ -394,6 +394,10 @@ function georgiaContent(countyName, county, s) {
   // antebellum-chimney bat work). Leave null for counties without one — they
   // get the generic species-list version.
   let metaHook = null;
+  // Optional per-county og:title / twitter:title override (separate from metaTitle,
+  // which drives the HTML-escaped <title>). county.ejs emits this raw so a literal
+  // "&" renders as "&" in the social title. Leave null to fall back to metaTitle.
+  let ogTitle = null;
 
   if (countyName === 'Cobb County') {
     blockA = `Cobb County sits in the northwestern Atlanta metro area immediately north of the Chattahoochee River, with downtown Atlanta about 20 miles southeast of the county seat in Marietta. With a population of ${county.population.toLocaleString()} — making it one of Georgia's largest counties — Cobb runs from the older inner-ring neighborhoods of Smyrna, Marietta, and Vinings out through the dense suburban corridors of East Cobb, Kennesaw, and Acworth, with the Kennesaw Mountain National Battlefield Park anchoring the county's center and the Chattahoochee River corridor forming the southern boundary. Established in ${county.established}, the county combines Civil War-era historic districts, post-war ranch suburbs, and late-20th-century subdivisions under heavy oak-hickory canopy.`;
@@ -986,12 +990,12 @@ function georgiaContent(countyName, county, s) {
       <p>The <strong>Cherokee darter</strong> (federally threatened) and the <strong>Etowah darter</strong> (federally endangered) occur in the Etowah and Allatoona Creek systems draining Bartow County. Any work along these corridors is subject to federal habitat protections. <strong>Bald eagles</strong> nest at Lake Allatoona's main basin and are protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act; Cooper's Furnace Day Use Area is one of north Georgia's better viewing sites.</p>
 
       <h2>Local Authorities and Regulations</h2>
-      <p>Public-health authority for Bartow County rabies-vector exposure runs through the <strong>Bartow County Health Department</strong>; <strong>Bartow County Animal Services</strong> handles domestic-animal complaints but does not respond to most nuisance wildlife. Commercial wildlife removal in Georgia operates under <strong>Georgia DNR Wildlife Resources Division Region 1</strong> (Armuchee office). Federal protections apply to bats during maternity periods (May-August exclusion restrictions), bald eagles, and the federally listed Cherokee and Etowah darters.`;
+      <p>Public-health authority for Bartow County rabies-vector exposure runs through the <strong>Bartow County Health Department</strong>; <strong>Bartow County Animal Services</strong> handles domestic-animal complaints but does not respond to most nuisance wildlife. Commercial wildlife removal in Georgia operates under the <strong>Georgia DNR Wildlife Resources Division</strong>. Georgia DNR recommends avoiding bat exclusion April 1–July 31, when flightless pups are present — a recommendation rather than a flat statutory ban; if exclusion is necessary during that window, it must be carried out by a licensed Nuisance Wildlife Control Operator. Federal protections also apply to bald eagles and the federally listed Cherokee and Etowah darters.`;
 
     faqs = [
       {
         q: 'What wildlife is most common in Bartow County, Georgia?',
-        a: 'In residential calls across Bartow County, eastern gray squirrels, raccoons, Virginia opossums, and big brown bats make up the bulk of attic and yard intrusions. Roof rats are establishing in southern Bartow subdivisions; Norway rats remain dominant in older Cartersville and Adairsville commercial corridors. Lake Allatoona shoreline properties see heavy raccoon and bat pressure from the wooded shoreline source population. Long-established big-brown-bat colonies span 30-50+ years in pre-1940 Cartersville mill housing and the 1840s-era Adairsville Train Depot area. Snake calls concentrate along the Etowah corridor and Pumpkinvine Creek.'
+        a: 'In residential calls across Bartow County, eastern gray squirrels, raccoons, Virginia opossums, and big brown bats make up the bulk of attic and yard intrusions. Roof rats are establishing in southern Bartow subdivisions; Norway rats remain dominant in older Cartersville and Adairsville commercial corridors. Lake Allatoona shoreline properties see heavy raccoon and bat pressure from the wooded shoreline source population. Long-established big-brown-bat colonies are common in pre-1940 Cartersville mill housing and the 1840s-era Adairsville Train Depot area. Snake calls concentrate along the Etowah corridor and Pumpkinvine Creek.'
       },
       {
         q: 'Are raccoons more common on Lake Allatoona properties in Euharlee?',
@@ -1011,7 +1015,7 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'What are the legal restrictions on bat removal in Bartow County?',
-        a: 'Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — typically May through August — when non-flying pups are present. All bat exclusion in Georgia must use one-way valves, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations. Long-established Cartersville mill-housing colonies and Adairsville Train Depot-area colonies require careful staged exclusion in the legal April or September-October windows. Bartow contractors hold the required Georgia DNR Region 1 licensing.'
+        a: 'Georgia DNR recommends avoiding bat exclusion during the maternity season — April 1–July 31 — when flightless pups are present and could be sealed inside if exclusion went forward. This is a DNR recommendation rather than a flat statutory ban: if exclusion is necessary during that window, it must be performed by a licensed Nuisance Wildlife Control Operator. All bat exclusion in Georgia uses one-way valves rather than trapping, since bats are protected under both state and federal regulations. Long-established Cartersville mill-housing and Adairsville Train Depot-area colonies are best handled with staged exclusion outside the April 1–July 31 window — generally late summer through early spring. Bartow contractors hold the required Georgia DNR licensing.'
       },
       {
         q: 'How much does wildlife removal cost in Bartow County?',
@@ -1019,7 +1023,7 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'Are there protected species in Bartow County I should be aware of?',
-        a: 'Yes. The Cherokee darter (federally threatened) and the Etowah darter (federally endangered) occur in the Etowah and Allatoona Creek systems. Any work along these corridors is subject to federal habitat protections. Bald eagles nest at Lake Allatoona\'s main basin and are protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act — Cooper\'s Furnace Day Use Area is one of north Georgia\'s better viewing sites. All bats are protected by Georgia DNR regulations during maternity season (May-August). Migratory birds require federal Migratory Bird Treaty Act permits for any active take.'
+        a: 'Yes. The Cherokee darter (federally threatened) and the Etowah darter (federally endangered) occur in the Etowah and Allatoona Creek systems. Any work along these corridors is subject to federal habitat protections. Bald eagles nest at Lake Allatoona\'s main basin and are protected under the Bald and Golden Eagle Protection Act and the Migratory Bird Treaty Act — Cooper\'s Furnace Day Use Area is one of north Georgia\'s better viewing sites. All bats are protected under Georgia DNR regulations, which recommend avoiding exclusion during the April 1–July 31 maternity season, when flightless pups are present. Migratory birds require federal Migratory Bird Treaty Act permits for any active take.'
       }
     ];
 
@@ -1787,7 +1791,10 @@ function georgiaContent(countyName, county, s) {
 
     blockC = `Service coverage spans all of Butts County including ${top4cities}, plus the unincorporated communities of Indian Springs, Iron Springs Crossroads, Pepperton, Stark, Worthville, Cork, Fincherville, and McMichael Crossroads. The combination of Jackson's pre-1900 historic-downtown housing, the Lake Jackson lakefront housing inventory, the substantial pine-hardwood acreage surrounding Indian Springs State Park, and the I-75 corridor commercial pressure at Exits 198, 201, and 205 — combined with the year-round wildlife activity that defines central Georgia — means contractors here handle a continuous mix of historic-attic bat exclusion, lakeshore raccoon work, I-75 corridor rodent control, and rural-acreage coyote and feral hog mitigation.`;
 
-    metaTitle = `Butts County Wildlife Removal, GA | Humane & Same-Day`;
+    metaTitle = `Wildlife Removal Butts County GA | Jackson & Beyond`;
+    // og:title / twitter:title — same wording as metaTitle; emitted raw by county.ejs
+    // so the ampersand renders literally ("&") in the social title.
+    ogTitle = `Wildlife Removal Butts County GA | Jackson & Beyond`;
     metaDescription = `Licensed Jackson wildlife removal across Butts County, GA. Raccoons, bats, snakes, full exclusion. Same-day service.`;
     heroImage = {
       src: '/images/hero8.jpg',
@@ -1802,7 +1809,7 @@ function georgiaContent(countyName, county, s) {
       'https://en.wikipedia.org/wiki/Butts_County,_Georgia',
       'https://en.wikipedia.org/wiki/Jackson,_Georgia',
     ];
-    lastUpdated = '2026-05-17';
+    lastUpdated = '2026-05-25';
 
     // Priced service offerings. Mirrors the visible pricing table in extendedBody —
     // when set, the county template emits Offer / PriceSpecification structured data
@@ -1812,7 +1819,7 @@ function georgiaContent(countyName, county, s) {
     pricing = [
       { name: 'Raccoon trapping & removal',                minPrice: 300,  maxPrice: 650,  notes: 'Lakefront properties often run higher because of multi-entry chimney access' },
       { name: 'Squirrel removal & exclusion',              minPrice: 250,  maxPrice: 550,  notes: 'Includes one-way doors and sealing of identified entry points' },
-      { name: 'Bat colony exclusion (historic chimney)',   minPrice: 1200, maxPrice: 3500, notes: 'Pre-1900 Jackson chimneys; legal windows are April and September–mid-October' },
+      { name: 'Bat colony exclusion (historic chimney)',   minPrice: 1200, maxPrice: 3500, notes: 'Pre-1900 Jackson chimneys; Georgia DNR recommends avoiding exclusion April 1–July 31 when pups are flightless, though a licensed operator may perform necessary work then' },
       { name: 'Snake identification & removal',            minPrice: 150,  maxPrice: 350,  notes: 'Higher for confirmed venomous species (copperhead)' },
       { name: 'Rodent (Norway / roof rat) control',        minPrice: 400,  maxPrice: 1200, notes: 'I-75-corridor properties often need expanded-perimeter plans' },
       { name: 'Attic decontamination & remediation',       minPrice: 1000, maxPrice: 4500, notes: 'Insulation removal, HEPA sanitization, damage repair' },
@@ -1849,7 +1856,7 @@ function georgiaContent(countyName, county, s) {
         <li><a href="/georgia/butts-county/squirrel-removal/"><strong>Eastern gray squirrels</strong></a> (<em>Sciurus carolinensis</em>) — constant across Jackson's pre-1900 courthouse-square housing and the suburban canopy</li>
         <li><a href="/georgia/butts-county/squirrel-removal/"><strong>Fox squirrels</strong></a> (<em>Sciurus niger</em>) — appear in residential calls because of the substantial pine-hardwood remnant acreage surrounding Indian Springs State Park</li>
         <li><a href="/georgia/butts-county/squirrel-removal/"><strong>Southern flying squirrels</strong></a> in older Jackson housing</li>
-        <li><a href="/georgia/butts-county/bat-removal/"><strong>Big brown bats</strong></a> (<em>Eptesicus fuscus</em>) — long-established colonies in original masonry chimneys around the Butts County Courthouse square, many spanning 50-100+ years of continuous occupation</li>
+        <li><a href="/georgia/butts-county/bat-removal/"><strong>Big brown bats</strong></a> (<em>Eptesicus fuscus</em>) — long-established colonies in original masonry chimneys around the Butts County Courthouse square (detailed below)</li>
         <li><a href="/georgia/butts-county/bat-removal/"><strong>Evening bats</strong></a> (<em>Nycticeius humeralis</em>) in older Jackson and Flovilla housing</li>
         <li><a href="/georgia/butts-county/bat-removal/"><strong>Tricolored bats</strong></a> (<em>Perimyotis subflavus</em>) — federally proposed for listing; documented in central Georgia and may appear in pre-1900 Jackson chimney colonies (USFWS species page linked below)</li>
         <li><a href="/georgia/butts-county/rat-removal/"><strong>Norway rats</strong></a> (<em>Rattus norvegicus</em>) — concentrated in pre-1900 historic-downtown commercial blocks and the I-75 commercial cluster at the Jackson exits</li>
@@ -1878,7 +1885,7 @@ function georgiaContent(countyName, county, s) {
         <tbody>
           <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Raccoon trapping &amp; removal</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$300–$650</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Lakefront properties often run higher because of multi-entry chimney access</td></tr>
           <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Squirrel removal &amp; exclusion</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$250–$550</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Includes one-way doors and sealing of identified entry points</td></tr>
-          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Bat colony exclusion (historic chimney)</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$1,200–$3,500+</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Pre-1900 Jackson chimneys; legal windows are April and September–mid-October</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Bat colony exclusion (historic chimney)</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$1,200–$3,500+</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Pre-1900 Jackson chimneys; Georgia DNR recommends avoiding exclusion April 1–July 31 when pups are flightless, though a licensed operator may perform necessary work then</td></tr>
           <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Snake identification &amp; removal</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$150–$350 per visit</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Higher for confirmed venomous species (copperhead)</td></tr>
           <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Rodent (Norway/roof rat) control</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$400–$1,200</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">I-75-corridor properties often need expanded-perimeter plans</td></tr>
           <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Attic decontamination &amp; remediation</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$1,000–$4,500</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Insulation removal, HEPA sanitization, damage repair</td></tr>
@@ -1887,7 +1894,7 @@ function georgiaContent(countyName, county, s) {
       </table>
 
       <h2>Local Authorities and Regulations</h2>
-      <p>Butts County wildlife removal is regulated at three levels. <strong><a href="https://buttscountyga.com/" target="_blank" rel="noopener">Butts County government</a></strong> handles county-level services but does not respond to most nuisance wildlife calls — raccoons, squirrels, bats, snakes, beavers, coyotes, and similar species are referred to private licensed wildlife control operators. State-level oversight comes from the <strong><a href="https://georgiawildlife.com/" target="_blank" rel="noopener">Georgia Department of Natural Resources, Wildlife Resources Division</a></strong>, which issues the Trapping License and Nuisance Wildlife Control Permit required for commercial operators. Federal protections apply to bats during maternity periods (May–August exclusion restrictions), all migratory birds, and the federally proposed tricolored bat. Large or dangerous wildlife — black bears, white-tailed deer, feral hogs, and similar species — falls under direct Georgia DNR Wildlife Resources Division management, and any encounter that exceeds reasonable private-contractor scope should be referred to DNR. Every contractor in this directory operating in Butts County is required to hold the applicable state and federal credentials.</p>
+      <p>Butts County wildlife removal is regulated at three levels. <strong><a href="https://buttscountyga.com/" target="_blank" rel="noopener">Butts County government</a></strong> handles county-level services but does not respond to most nuisance wildlife calls — raccoons, squirrels, bats, snakes, beavers, coyotes, and similar species are referred to private licensed wildlife control operators. State-level oversight comes from the <strong><a href="https://georgiawildlife.com/" target="_blank" rel="noopener">Georgia Department of Natural Resources, Wildlife Resources Division</a></strong>, which issues the Trapping License and Nuisance Wildlife Control Permit required for commercial operators. Federal protections apply to bats, all migratory birds, and the federally proposed tricolored bat; in addition, Georgia DNR recommends avoiding bat exclusion April 1–July 31, when flightless pups are present — a DNR recommendation rather than a flat statutory ban, and a licensed Nuisance Wildlife Control Operator may perform necessary exclusion during that window. Large or dangerous wildlife — black bears, white-tailed deer, feral hogs, and similar species — falls under direct Georgia DNR Wildlife Resources Division management, and any encounter that exceeds reasonable private-contractor scope should be referred to DNR. Every contractor in this directory operating in Butts County is required to hold the applicable state and federal credentials.</p>
     `;
 
     faqs = [
@@ -1905,11 +1912,11 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'Is wildlife removal regulated in Butts County?',
-        a: 'Yes. All commercial wildlife removal in Butts County operates under Georgia DNR Wildlife Resources Division licensing. Georgia DNR requires every commercial wildlife trapper to hold a Trapping License, and for properties using lethal control, a Nuisance Wildlife Control Permit. Federal protections apply to bats during maternity periods (May–August), all migratory birds (Canada geese, owls, hawks, woodpeckers, chimney swifts), and the federally proposed-for-listing tricolored bat documented in central Georgia. Large game species — white-tailed deer, black bears, and feral hogs — fall under direct Georgia DNR management rather than the private removal industry. Every contractor in this directory operating in Butts County holds the applicable state and federal credentials.'
+        a: 'Yes. All commercial wildlife removal in Butts County operates under Georgia DNR Wildlife Resources Division licensing. Georgia DNR requires every commercial wildlife trapper to hold a Trapping License, and for properties using lethal control, a Nuisance Wildlife Control Permit. Federal protections apply to bats, all migratory birds (Canada geese, owls, hawks, woodpeckers, chimney swifts), and the federally proposed-for-listing tricolored bat documented in central Georgia. Georgia DNR also recommends avoiding bat exclusion April 1 through July 31, when flightless pups are present — a recommendation rather than a flat statutory ban, and a licensed Nuisance Wildlife Control Operator may perform necessary exclusion during that window. Large game species — white-tailed deer, black bears, and feral hogs — fall under direct Georgia DNR management rather than the private removal industry. Every contractor in this directory operating in Butts County holds the applicable state and federal credentials.'
       },
       {
         q: 'When is the best time to handle wildlife exclusion in Butts County?',
-        a: 'For most species in central Georgia, the best window for exclusion work is late summer through early spring — roughly August through April. Bat exclusion in particular must be scheduled outside the maternity period (May through August) to avoid trapping non-volant pups inside; the two legal windows in Georgia are April and September through mid-October. Squirrel and raccoon exclusion is best handled outside their main denning seasons (February through April for both species in central Georgia), though urgent intrusions can be addressed any time of year using one-way doors. Snake and rodent calls run year-round. Central Georgia\'s mild winters keep wildlife active twelve months a year — call volume here never fully drops off the way it does in northern states.'
+        a: 'For most species in central Georgia, the best window for exclusion work is late summer through early spring — roughly August through April. Bat exclusion in particular should avoid the window Georgia DNR flags for flightless pups — April 1 through July 31 — to keep non-volant pups from being sealed inside; this is a DNR recommendation rather than a flat statutory ban, and a licensed Nuisance Wildlife Control Operator may perform necessary exclusion during that window when a situation requires it. Outside that window, late summer through early spring is the preferred time for permanent bat work. Squirrel and raccoon exclusion is best handled outside their main denning seasons (February through April for both species in central Georgia), though urgent intrusions can be addressed any time of year using one-way doors. Snake and rodent calls run year-round. Central Georgia\'s mild winters keep wildlife active twelve months a year — call volume here never fully drops off the way it does in northern states.'
       },
       {
         q: 'How much does wildlife removal cost in Jackson and Butts County?',
@@ -1921,7 +1928,7 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'Are bats protected in Georgia?',
-        a: 'Yes. All bat species in Georgia are protected by state law, and several — including the federally proposed-for-listing tricolored bat (Perimyotis subflavus) — carry additional federal protection under the Endangered Species Act. Georgia DNR restricts active bat exclusion during the maternity season (roughly May through August) to prevent non-flying pups from being trapped inside structures. The legal exclusion windows are April (pre-maternity) and September through mid-October (post-maternity). All <a href="/georgia/butts-county/bat-removal/">bat work in Butts County</a> must use one-way exit devices — trapping bats is essentially banned. A licensed humane wildlife control operator will inspect the structure, schedule exclusion in a legal window, and seal entry points only after the colony has exited.'
+        a: 'Yes. All bat species in Georgia are protected by state law, and several — including the federally proposed-for-listing tricolored bat (Perimyotis subflavus) — carry additional federal protection under the Endangered Species Act. Georgia DNR recommends avoiding active bat exclusion from April 1 through July 31, when flightless pups are present and could be sealed inside. This is a DNR recommendation rather than a flat statutory ban — a licensed Nuisance Wildlife Control Operator may perform necessary exclusion during that window when a situation requires it, timed carefully to avoid trapping pups. Outside that window, late summer through early spring is the preferred time for permanent exclusion. All <a href="/georgia/butts-county/bat-removal/">bat work in Butts County</a> must use one-way exit devices rather than physical trapping. A licensed humane wildlife control operator will inspect the structure, schedule exclusion appropriately, and seal entry points only after the colony has exited.'
       },
       {
         q: 'Do raccoons come back after removal?',
@@ -2284,7 +2291,7 @@ function georgiaContent(countyName, county, s) {
   if (!blockD) blockD = `Wildlife intrusion in ${countyName} follows Georgia's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
   if (!blockE) blockE = `All commercial wildlife removal in Georgia is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds the applicable Georgia DNR licensing and operates within Wildlife Resources Division guidelines on species-specific handling and relocation.`;
 
-  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, metaHook, heroIntro, heroImage, extendedBody, faqs, neighboringCounties, geo, sameAs, lastUpdated, contractor, pricing };
+  return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, metaHook, ogTitle, heroIntro, heroImage, extendedBody, faqs, neighboringCounties, geo, sameAs, lastUpdated, contractor, pricing };
 }
 
 // ---- Tennessee county content ----

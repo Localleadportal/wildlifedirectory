@@ -5,6 +5,12 @@
   // Twitter description can be optionally differentiated from the meta description
   // for a more conversational social-audience tone. Falls back to pageDesc when unset.
   const twitterDesc = (countyContent && countyContent.twitterDescription) || pageDesc;
+  // Optional per-page override for og:title / twitter:title (separate from
+  // pageTitle which drives the title tag). Falls back to pageTitle when unset.
+  // Emitted unescaped below so a literal ampersand renders as "&" in the social
+  // title rather than the "&amp;" produced by the HTML-escaped title tag.
+  // Mirrors the ogTitle mechanism in city.ejs.
+  const socialTitle = (countyContent && countyContent.ogTitle) || pageTitle;
   // Prefer the county's hero image for social previews and LocalBusiness schema
   // when set — falls back to the generic OG image otherwise.
   const heroImg = (countyContent && countyContent.heroImage) || null;
@@ -26,7 +32,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= pageTitle %></title>
-  <meta name="description" content="<%= pageDesc %>">
+  <%# description emitted unescaped so a literal ampersand renders as "&" rather
+      than the "&amp;" produced by HTML-escaping. Mirrors og:title/twitter:title.
+      Safe because county metaDescriptions contain no double-quotes. %>
+  <meta name="description" content="<%- pageDesc %>">
   <link rel="canonical" href="<%= pageUrl %>">
   <link rel="stylesheet" href="/css/style.css">
   <% if (!indexable) { %>
@@ -41,14 +50,14 @@
   <meta property="og:site_name" content="RemoveWildlifeNow.com">
   <meta property="og:locale" content="en_US">
   <meta property="og:url" content="<%= pageUrl %>">
-  <meta property="og:title" content="<%= pageTitle %>">
-  <meta property="og:description" content="<%= pageDesc %>">
+  <meta property="og:title" content="<%- socialTitle %>">
+  <meta property="og:description" content="<%- pageDesc %>">
   <meta property="og:image" content="<%= ogImage %>">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="<%= pageTitle %>">
-  <meta name="twitter:description" content="<%= twitterDesc %>">
+  <meta name="twitter:title" content="<%- socialTitle %>">
+  <meta name="twitter:description" content="<%- twitterDesc %>">
   <meta name="twitter:image" content="<%= ogImage %>">
 
   <!-- Geo -->

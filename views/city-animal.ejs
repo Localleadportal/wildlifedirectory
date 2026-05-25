@@ -12,7 +12,7 @@
         ? cityAnimalContent.intro.slice(0, 155).replace(/\s+\S*$/, '') + '…'
         : (animal.name + ' in ' + cityName + ', ' + stateName + ' (' + countyName + '). ' + (animal.costRange ? 'Typical cost ' + animal.costRange + '. ' : '') + 'Licensed local contractor — humane methods, same-day service.'));
   const ogImage = (cityAnimalContent && cityAnimalContent.ogImage)
-    || 'https://www.removewildlifenow.com/images/og-default.jpg';
+    || 'https://www.removewildlifenow.com/images/hero1.jpg';
   // Optional per-page override for og:title / twitter:title (separate from
   // pageTitle which drives the <title> tag). Falls back to pageTitle when unset.
   const socialTitle = (cityAnimalContent && cityAnimalContent.ogTitle) || pageTitle;
@@ -43,7 +43,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= pageTitle %></title>
-  <meta name="description" content="<%= pageDesc %>">
+  <%# description emitted unescaped so a literal ampersand renders as "&" rather
+      than the "&amp;" produced by HTML-escaping. Mirrors og:title/twitter:title
+      and county.ejs. Safe: city-animal metaDescriptions contain no double-quotes. %>
+  <meta name="description" content="<%- pageDesc %>">
   <link rel="canonical" href="<%= pageUrl %>">
   <link rel="stylesheet" href="/css/style.css">
   <% if (!indexable) { %>
@@ -52,22 +55,22 @@
   <meta name="robots" content="index, follow">
   <% } %>
 
-  <% if (seoEnhanced) { %>
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="RemoveWildlifeNow.com">
   <meta property="og:locale" content="en_US">
   <meta property="og:url" content="<%= pageUrl %>">
   <meta property="og:title" content="<%- socialTitle %>">
-  <meta property="og:description" content="<%= pageDesc %>">
+  <meta property="og:description" content="<%- pageDesc %>">
   <meta property="og:image" content="<%= ogImage %>">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="<%- socialTitle %>">
-  <meta name="twitter:description" content="<%= pageDesc %>">
+  <meta name="twitter:description" content="<%- pageDesc %>">
   <meta name="twitter:image" content="<%= ogImage %>">
 
+  <% if (seoEnhanced) { %>
   <!-- Geo -->
   <meta name="geo.region" content="US-<%= stateRegion %>">
   <meta name="geo.placename" content="<%= cityName %>, <%= stateName %>">
@@ -229,7 +232,11 @@
     <section class="county-content">
       <div class="container">
         <h2><%= animal.plural %> in <%= cityName %>, <%= stateName %></h2>
+        <% if (cityAnimalContent.intro.trim().charAt(0) === '<') { %>
+        <%- cityAnimalContent.intro %>
+        <% } else { %>
         <p><%- cityAnimalContent.intro %></p>
+        <% } %>
       </div>
     </section>
     <% } %>
@@ -278,7 +285,7 @@
             <span class="card-badge">Signs in <%= cityName %></span>
             <span class="card-icon"><%= animal.emoji %></span>
             <h3>Signs You Have <%= animal.plural %></h3>
-            <p><%= animal.season %></p>
+            <p><%= (cityAnimalContent && cityAnimalContent.seasonOverride) || animal.season %></p>
             <ul class="card-list">
               <% animal.signs.forEach(sign => { %>
               <li><%= sign %></li>

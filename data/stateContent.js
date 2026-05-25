@@ -46,8 +46,25 @@ const stateContent = {
   },
   'Georgia': {
     agency: 'Georgia Department of Natural Resources',
-    wildlifeNote: 'Georgia homeowners contend with high populations of raccoons, gray squirrels, and Virginia opossums, along with an expanding armadillo range across the southern half of the state. Bat maternity colonies form in structures from March through August, during which exclusion work must be carefully timed per Georgia DNR guidelines.',
-    seasonNote: 'Raccoon and squirrel denning activity peaks in February and March across most Georgia counties.'
+    // wildlifeNote is the shared paragraph rendered on the state hub fallback,
+    // every Georgia county page (county.ejs), and every Georgia city page
+    // (city.ejs). Bat dates here must match Georgia DNR (April 1–July 31).
+    wildlifeNote: 'Georgia homeowners contend with high populations of raccoons, gray squirrels, and Virginia opossums, along with an expanding nine-banded armadillo range across the southern half of the state. Bats are a protected category in Georgia: the state DNR recommends avoiding bat exclusion from April 1 through July 31, when flightless young are present, though licensed nuisance wildlife control operators may perform exclusions during this window when necessary.',
+    seasonNote: 'Raccoon and squirrel denning activity peaks in February and March across most Georgia counties.',
+    // The fields below enrich the indexable state hub only (state.ejs renders
+    // them when present); other states fall back to wildlifeNote/seasonNote.
+    overview: [
+      'Georgia\'s wildlife removal calls are driven by a consistent set of species statewide. Raccoons and eastern gray squirrels top the list — both readily move into attics, chimneys, and soffits — followed by Virginia opossums, big brown and little brown bats roosting in older structures, and snakes including venomous copperheads and non-venomous rat snakes that turn up around homes and crawlspaces. Across the southern half of the state, the nine-banded armadillo has become a steady source of yard and foundation damage, and its range continues to expand northward.',
+      'Because Georgia stretches from the Blue Ridge Mountains in the north to the Atlantic coastal plain in the south, what\'s common depends on where you live. Mountain and Piedmont counties see more squirrel, raccoon, and bat activity tied to mature hardwood forests and older housing stock, while the warmer coastal plain carries heavier armadillo, opossum, and snake pressure along with a longer active season. Metro Atlanta\'s dense suburbs concentrate raccoon and squirrel conflicts wherever wooded lots meet rooflines.'
+    ],
+    batNote: 'Bats are protected in Georgia, and removal is handled through exclusion rather than extermination — sealing entry points and installing one-way devices that let bats leave but not return. Georgia DNR recommends against excluding bats during the maternity season of April 1 through July 31, when young pups cannot yet fly and could be sealed inside. Licensed nuisance wildlife control operators may still perform exclusions during this window when a situation requires it, but the work must be done carefully to avoid trapping flightless pups. Outside that window — late summer through early spring — is the preferred time for permanent bat exclusion.',
+    peakNote: 'Wildlife pressure in Georgia follows a seasonal rhythm. Late winter and early spring (roughly February through April) bring the heaviest raccoon and squirrel denning activity, as females seek out attics and chimneys to raise their young. Summer is bat maternity season, when colonies are most active in walls and attics. As temperatures drop in fall, rats and mice move indoors for warmth, driving a second wave of calls heading into winter.',
+    faqs: [
+      { q: 'When is bat removal restricted in Georgia?', a: 'Georgia DNR recommends avoiding bat exclusion between April 1 and July 31 — the maternity season, when young pups cannot yet fly. Licensed nuisance wildlife control operators may perform exclusions during this window when necessary, but the work must be timed carefully to avoid trapping flightless pups. The rest of the year is the preferred time for permanent bat exclusion.' },
+      { q: 'Who regulates wildlife removal in Georgia?', a: 'Wildlife removal in Georgia is regulated by the Georgia Department of Natural Resources (DNR). Many nuisance species require a licensed operator for trapping and removal, and every contractor in our directory holds the required state permits and follows humane, legal practices.' },
+      { q: 'What wildlife problems are most common in Georgia homes?', a: 'Raccoons and gray squirrels in attics and chimneys are the most common calls statewide, along with bats roosting in older structures, opossums under decks and crawlspaces, and snakes such as copperheads and rat snakes around foundations. In the southern half of the state, armadillos are a frequent source of yard and foundation damage.' },
+      { q: 'Do I need a licensed contractor to remove wildlife in Georgia?', a: 'For most nuisance species, yes. Georgia DNR requires licensed operators for trapping and removal of many animals, and protected species like bats must be handled through exclusion rather than killing. Hiring a licensed contractor keeps the work legal, humane, and effective.' }
+    ]
   },
   'Hawaii': {
     agency: 'Hawaii Division of Forestry and Wildlife',

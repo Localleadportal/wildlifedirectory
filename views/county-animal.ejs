@@ -39,7 +39,6 @@
   <meta name="robots" content="index, follow">
   <% } %>
 
-  <% if (seoEnhanced) { %>
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="RemoveWildlifeNow.com">
@@ -55,6 +54,7 @@
   <meta name="twitter:description" content="<%= twitterDesc %>">
   <meta name="twitter:image" content="<%= ogImage %>">
 
+  <% if (seoEnhanced) { %>
   <!-- Geo -->
   <meta name="geo.region" content="US-<%= stateRegion %>">
   <meta name="geo.placename" content="<%= countyName %>, <%= stateName %>">

@@ -98,6 +98,11 @@ async function isCityIndexable(stateName, countyName, cityName, animalSlug) {
     if (!cityName) return false;
     if (animalSlug) {
       const content = getCityAnimalContent(stateName, countyName, cityName, animalSlug);
+      // Per-page noindex hold: lets enriched, fact-corrected content be staged
+      // on the page while it is deliberately kept out of the index (e.g. awaiting
+      // a contractor assignment or a monitored indexing batch). Delete the
+      // holdNoindex flag from the content entry to release the page for indexing.
+      if (content && content.holdNoindex) return false;
       return !!(content && content.extendedBody);
     }
     const content = getCityContent(stateName, countyName, cityName);
@@ -411,11 +416,17 @@ app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug/', async (req, res) => {
   let countyContent = getCountyContent(stateName, countyName);
   const _contractor = await getContractor(stateName, apiCounty(countyName), SERVICE_TYPE);
   if (_contractor) countyContent = { ...(countyContent || {}), contractor: _contractor };
+  const _baseSeasonal = getSeasonalContent(req.params.animalSlug);
+  const _seasonalOverrides = (cityAnimalContent && Array.isArray(cityAnimalContent.seasonalOverrides))
+    ? cityAnimalContent.seasonalOverrides
+    : [];
+  const _monthNow = new Date().getMonth();
+  const _seasonalOverride = _seasonalOverrides.find(o => Array.isArray(o.months) && o.months.includes(_monthNow));
   res.render('city-animal', {
     stateName, countyName, cityName, animal, stateInfo, animalRegionNote, embedScript, cityAnimalContent, countyContent,
     indexable,
     faqs: getAnimalFaqs(req.params.animalSlug, { countyName, cityName, stateName, stateInfo }),
-    seasonal: getSeasonalContent(req.params.animalSlug),
+    seasonal: _seasonalOverride || _baseSeasonal,
     stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: req.params.citySlug, toSlug, ANIMALS
   });
 });

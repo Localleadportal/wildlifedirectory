@@ -714,6 +714,66 @@
           "a": "<strong>Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — typically May through August</strong>. All bat exclusion in Georgia must use <strong>one-way valves</strong>, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations. Professional Peachtree Corners contractors hold the required Georgia DNR Region 2 licensing."
         }
       ]
+    },
+    "snake-removal": {
+      "_indexNote": "Fact-corrected 2026-05-25: Gwinnett/Peachtree Corners snake profile (copperhead-primary, cottonmouths absent, overwhelmingly non-venomous). Page is index-eligible but intentionally HELD at noindex via holdNoindex, pending contractor assignment or a monitored Gwinnett indexing batch. To release for indexing: delete the holdNoindex flag below (Gwinnett is county-only index, so extendedBody alone then makes it indexable).",
+      "holdNoindex": true,
+      "metaTitle": "Snake Removal Peachtree Corners GA | Copperhead & ID",
+      "metaDescription": "Snake removal in Peachtree Corners, GA. Licensed copperhead & non-venomous snake ID, humane capture & relocation. Same-day service.",
+      "h1Override": "Snake Removal in Peachtree Corners, GA",
+      "hideHeroEmoji": true,
+      "geo": {
+        "lat": 33.9698,
+        "lon": -84.2216
+      },
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Peachtree_Corners,_Georgia",
+        "https://en.wikipedia.org/wiki/Eastern_copperhead"
+      ],
+      "heroImageAlt": "Eastern copperhead and harmless rat snakes in a wooded creek-corridor yard in Peachtree Corners, Gwinnett County, GA — licensed local snake removal contractor for copperhead identification, humane capture and relocation, and foundation entry-point sealing in Peachtree Corners",
+      "skipGenericFaqs": true,
+      "intro": "Peachtree Corners sits along the Chattahoochee River in north-metro Atlanta, and most of the city is creek-adjacent, wooded suburban lots — the habitat where the occasional snake turns up along a foundation, in a garage, or in a mulch bed. The reality here is far narrower than the full Southeast venomous roster: the copperhead is the one venomous snake homeowners realistically encounter, and the large majority of snakes found are harmless rodent-hunters mistaken for something dangerous.",
+      "extendedBody": "<h2>Snakes in Peachtree Corners — What You'll Actually Encounter</h2>\n      <p>Peachtree Corners runs along the Chattahoochee River corridor, and most lots here are creek-adjacent, wooded suburban parcels — exactly the kind of place a snake occasionally turns up in a garage, garden bed, or along a foundation. What you will actually meet here is far narrower than the full Southeast venomous roster found in regional guides.</p>\n      <p><strong>The copperhead is the one venomous snake homeowners here realistically encounter.</strong> Copperheads favor the conditions Peachtree Corners offers — wooded creek corridors, leaf litter, mulch beds, and the brushy edges where yards meet the Chattahoochee floodplain and its tributary creeks. Well camouflaged and easy to step near, they account for nearly all of the genuine venomous-snake concern in this part of Gwinnett.</p>\n      <p><strong>Cottonmouths (water moccasins) are largely absent from this part of metro Atlanta.</strong> Despite their reputation, cottonmouths are mainly a south-Georgia and coastal-plain species tied to swamps, bottomlands, and slow water — not the Piedmont creek suburbs of north Gwinnett. The dark snakes people report along the Chattahoochee are almost always harmless watersnakes (genus Nerodia), routinely killed by mistake. The large rattlesnakes of the regional roster — the eastern diamondback and pygmy rattlesnakes, and the mountain-dwelling timber rattlesnake — are not a realistic suburban Peachtree Corners concern.</p>\n      <p><strong>The vast majority of snake calls here are non-venomous.</strong> Eastern rat snakes (often four to six feet, strong climbers that turn up in attics, garages, and outbuildings), black racers (fast, slender, active by day), small brown snakes and garter snakes in mulch and garden beds, and watersnakes near the river and creeks make up almost everything found — and almost all of it is mistaken for something dangerous. These are beneficial rodent-hunters, just understandably unwelcome inside a home or garage.</p>\n\n      <h2>Snake in Your House or Garage? What to Do Right Now</h2>\n      <p>If you find a snake indoors or in the garage, the safest move is almost always to leave it alone and call a professional for identification and removal. Most snakebites happen when someone tries to catch or kill the snake.</p>\n      <ul>\n        <li><strong>Do not approach or try to handle it.</strong> Do not attempt to catch, hit, or kill it — that is exactly when bites happen, and even a non-venomous bite means a wound and a doctor visit.</li>\n        <li><strong>Keep it in sight from a safe distance.</strong> If you can watch the snake from across the room without crowding it, do so — knowing exactly where it is makes removal fast. If it slips out of view, removal takes much longer.</li>\n        <li><strong>Confine the room if you can.</strong> Close interior doors and block the gap underneath with a rolled towel so the snake stays in one room instead of disappearing into the house.</li>\n        <li><strong>Keep children and pets well away.</strong> Move them to another part of the home until the snake has been removed.</li>\n        <li><strong>Call for professional ID and removal.</strong> A licensed contractor identifies the species from a safe distance, removes and relocates the snake, and checks how it got in.</li>\n      </ul>\n\n      <h2>How to Keep Snakes Away From Your Peachtree Corners Yard</h2>\n      <p>Snakes go where the food and cover are, so the most effective long-term prevention is not repellents — it is removing the rodents they hunt and the shelter they hide in, then sealing the gaps that let them indoors.</p>\n      <ul>\n        <li><strong>Control rodents first.</strong> Snakes follow mice and rats, so a property with a rodent problem — common along the Chattahoochee corridor and in older subdivisions — is a snake magnet. Eliminating rodent harborage is the single most effective snake deterrent.</li>\n        <li><strong>Clear the cover they hide in.</strong> Move woodpiles off the ground and away from the house, cut back brush and dense ground cover, keep grass mowed, and clean up leaf litter and debris along foundations and creek edges where copperheads shelter.</li>\n        <li><strong>Seal entry points one quarter inch and larger.</strong> Snakes enter through gaps as small as a quarter inch — under garage and exterior doors, around pipe and HVAC penetrations, foundation cracks, weep holes, and unscreened crawl-space and gable vents. Sealing these with steel mesh, sealant, and door sweeps keeps snakes (and the rodents they follow) out.</li>\n      </ul>\n      <p>A professional inspection pulls all of this together — rodent assessment, habitat recommendations, and permanent exclusion — so snakes have less reason to come near the house in the first place.</p>",
+      "relatedLinks": [
+        {
+          "anchor": "Peachtree Corners rat removal",
+          "href": "/georgia/gwinnett-county/peachtree-corners/rat-removal/"
+        },
+        {
+          "anchor": "Peachtree Corners raccoon removal",
+          "href": "/georgia/gwinnett-county/peachtree-corners/raccoon-removal/"
+        },
+        {
+          "anchor": "Gwinnett County snake removal hub",
+          "href": "/georgia/gwinnett-county/snake-removal/"
+        },
+        {
+          "anchor": "Peachtree Corners wildlife services",
+          "href": "/georgia/gwinnett-county/peachtree-corners/"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What venomous snakes should I watch for in Peachtree Corners, GA?",
+          "a": "In Peachtree Corners, the <strong>copperhead</strong> is the venomous snake homeowners realistically encounter — it favors the wooded creek corridors, leaf litter, and mulch beds common along the Chattahoochee and its tributaries. Cottonmouths and the large rattlesnakes of the wider Southeast are not a realistic concern in this part of north-metro Atlanta. The vast majority of snakes found here are harmless rodent-hunters — rat snakes, black racers, brown and garter snakes, and watersnakes — that are routinely mistaken for venomous species. Never approach a snake to identify it: if you cannot confirm it is harmless from a safe distance, treat it as venomous and call a licensed professional."
+        },
+        {
+          "q": "Why are snakes coming onto my Peachtree Corners property?",
+          "a": "Snakes follow their food supply. A Peachtree Corners property with a mouse or rat problem will attract snakes, and dense ground cover, wood piles, and tall grass give them shelter and hunting grounds — especially on lots backing up to the Chattahoochee corridor and neighborhood creeks. Eliminating rodent harborage is the most effective long-term snake deterrent, alongside physical exclusion of the structure."
+        },
+        {
+          "q": "Can snakes get inside my Peachtree Corners house?",
+          "a": "Yes. Snakes can enter through gaps as small as a quarter inch — under exterior and garage doors, around pipe and HVAC line penetrations, foundation cracks, weep holes, dryer-vent terminations, and unscreened crawl-space and gable vents. Most in-house snake calls in Peachtree Corners are non-venomous rodent hunters that followed mice or rats through the same gap. A professional inspection finds every ground-level entry point and seals them permanently with steel mesh, sealant, or appropriate door sweeps."
+        },
+        {
+          "q": "When are snakes most active in Peachtree Corners?",
+          "a": "Snakes are most active in the Peachtree Corners area from March through October. Spring emergence is the first peak, as snakes come out of winter dormancy and begin moving onto properties when temperatures warm. Fall is the second peak, as snakes move toward winter den sites and occasionally enter garages and crawl spaces seeking warmth. Those two transition periods are when residents should be most watchful."
+        },
+        {
+          "q": "How much does snake removal cost in Peachtree Corners, GA?",
+          "a": "A single snake removal visit typically costs $100–$300+. A full property inspection and exclusion to keep snakes from re-entering the structure runs $300–$900+. Properties along the Chattahoochee corridor or with ongoing rodent pressure may benefit from a seasonal program. Call for a free property-specific estimate."
+        }
+      ]
     }
   },
   "Snellville": {
@@ -1966,6 +2026,88 @@
         {
           "q": "Is rat damage covered by my Lilburn homeowners insurance?",
           "a": "Usually not. Most policies exclude rodent damage. Exceptions exist for incidental damage like chewed wiring that causes a covered loss (fire). Check your specific policy and document the timeline of any claim."
+        }
+      ]
+    },
+    "bat-removal": {
+      "metaTitle": "Bat Removal Lilburn GA | Attic & Chimney Bat Exclusion",
+      "metaDescription": "Bat removal in Lilburn, GA. Licensed humane bat exclusion, guano cleanup & attic decontamination. Georgia DNR-compliant. Same-day service.",
+      "ogTitle": "Bat Removal Lilburn GA | Attic & Chimney Bat Exclusion",
+      "ogImage": "https://www.removewildlifenow.com/images/bat-hero1.jpg",
+      "h1Override": "Bat Removal in Lilburn, GA",
+      "hideHeroEmoji": true,
+      "skipGenericFaqs": true,
+      "geo": {
+        "lat": 33.8898,
+        "lon": -84.143
+      },
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Lilburn,_Georgia",
+        "https://en.wikipedia.org/wiki/Bat"
+      ],
+      "seasonOverride": "Georgia DNR recommends avoiding bat exclusion from April 1 through July 31, when flightless pups can be trapped inside and die. Inspection and planning can happen any time — only the exclusion step is timed around that window.",
+      "seasonalOverrides": [
+        {
+          "months": [0, 1, 2],
+          "title": "Pre-Season Window — Schedule Before April 1",
+          "level": "moderate",
+          "msg": "Georgia DNR recommends avoiding bat exclusion from April 1 through July 31, when flightless pups can be trapped inside. Late winter and early spring are the ideal time to inspect, find every entry point, and complete exclusion before that avoidance window begins."
+        },
+        {
+          "months": [3, 4, 5, 6],
+          "title": "Maternity Window — DNR Recommends Avoiding Exclusion",
+          "level": "high",
+          "msg": "From April 1 through July 31, Georgia DNR recommends against bat exclusion because flightless pups may be trapped inside and die. This is a DNR recommendation, not a flat statutory ban — if exclusion is unavoidable, it must be performed by a licensed Nuisance Wildlife Control Operator. We can inspect and plan now so work begins the moment the window closes."
+        },
+        {
+          "months": [7, 8, 9],
+          "title": "Exclusion Window Open",
+          "level": "high",
+          "msg": "The April 1–July 31 maternity-avoidance window has closed. Pups are flying and the colony can be excluded with one-way devices, then every gap sealed. This is the optimal window before bats begin searching for winter roosts."
+        },
+        {
+          "months": [10, 11],
+          "title": "Fall/Winter Exclusion Window",
+          "level": "moderate",
+          "msg": "Exclusion can proceed outside the April 1–July 31 maternity window. Note that big brown bats may hibernate inside Georgia structures through winter, so a cold-season inspection still matters — schedule before the spring avoidance window returns."
+        }
+      ],
+      "intro": "<p><strong>Bats in your Lilburn attic, chimney, or walls?</strong> The fix is humane exclusion — never extermination. Every bat species in Georgia is protected under state law, and killing or harming them is illegal. Licensed, Georgia DNR-compliant bat exclusion with guano cleanup and attic decontamination; same-day inspections available across Lilburn and Gwinnett County.</p>\n        <p>The bats that roost in Lilburn homes are primarily <strong>big brown bats</strong> and <strong>little brown bats</strong> — the two species that most commonly form colonies in Georgia structures. Brazilian free-tailed bats occur in Georgia but are not the dominant structural species here, and the state is home to 16 bat species in total. Big brown bats are the species you are most likely to find in a Lilburn attic in the dead of winter: they can hibernate inside a heated structure year-round. Little brown bats are more seasonal and migratory. Both squeeze through remarkably small gaps — anything larger than about 1/4 inch along a roofline, gable vent, chimney flashing, or fascia board is a potential entry point.</p>\n        <p><strong>Georgia DNR recommends avoiding bat exclusion from April 1 through July 31</strong>, when flightless pups can be trapped inside and die. This is a DNR recommendation, not a flat statutory ban — if exclusion cannot wait, it must be performed by a licensed Nuisance Wildlife Control Operator. Outside that window, exclusion proceeds normally.</p>",
+      "extendedBody": "<h2>Signs of a Bat Problem in Your Lilburn Home</h2>\n      <ul class=\"tips-list\">\n        <li><strong>Bats emerging at dusk near the roofline</strong> — stand outside 20-30 minutes before full dark and watch the gable ends, chimney, and fascia. A steady stream of bats leaving the same spot marks your primary entry point.</li>\n        <li><strong>Squeaking or scratching in walls or the attic</strong> — most audible at dusk and dawn as the colony leaves and returns, and louder on hot summer afternoons when the attic heats up and bats get restless.</li>\n        <li><strong>Guano (bat droppings) accumulating below an entry point</strong> — small, dark, crumbly pellets flecked with insect fragments, piling up on the ground, a deck, the attic floor, or inside a wall void directly below the gap.</li>\n        <li><strong>Dark, oily staining at a gap or seam</strong> — bats leave a brown-black grease mark from body oils and dirt at the exact spot they squeeze in and out.</li>\n        <li><strong>A sharp ammonia odor</strong> — accumulated guano and urine give off a strong ammonia smell that worsens in summer heat and humidity.</li>\n      </ul>\n\n      <h2>How Bat Exclusion Works</h2>\n      <p>Bat removal in Georgia is exclusion, not extermination — the colony is evicted alive and permanently locked out, never trapped or killed. The process:</p>\n      <ul class=\"tips-list\">\n        <li><strong>Full inspection.</strong> Every gap larger than about 1/4 inch is located — the primary exit plus secondary gaps along the roofline, gable vents, ridge, chimney flashing, soffits, and fascia. Missing one gap defeats the whole job.</li>\n        <li><strong>One-way exclusion devices installed.</strong> Specialized one-way devices (tubes or netting) go over the active entry points. Bats leave to feed at dusk and cannot get back in.</li>\n        <li><strong>Bats exit over roughly 3-7 nights.</strong> The colony clears itself out naturally over several evenings — no trapping and no handling of the animals.</li>\n        <li><strong>Devices removed and all gaps permanently sealed.</strong> Once the structure is confirmed empty, the devices come off and every entry point and secondary gap is sealed for good so bats cannot re-enter.</li>\n        <li><strong>Guano cleanup and decontamination.</strong> Accumulated guano is removed and the affected area is decontaminated.</li>\n      </ul>\n      <p>Timing matters: <strong>Georgia DNR recommends avoiding exclusion from April 1 through July 31</strong>, when flightless pups would be trapped inside. Inspection and planning can happen any time of year; the one-way-device step is scheduled outside that window unless a licensed Nuisance Wildlife Control Operator handles an unavoidable in-season job.</p>\n\n      <h2>Bat Guano Cleanup &amp; Health Risk</h2>\n      <p>Bat guano is not just a mess — it is a documented health hazard. Accumulated guano can grow <em>Histoplasma capsulatum</em>, the fungus that causes <strong>histoplasmosis</strong>, a respiratory infection contracted by inhaling airborne spores.</p>\n      <ul class=\"tips-list\">\n        <li><strong>Do not sweep or vacuum guano yourself.</strong> Dry sweeping and ordinary vacuuming aerosolize the spores — turning a contained pile into an airborne hazard you then breathe in.</li>\n        <li><strong>Professional decontamination uses PPE</strong> — respirators rated for fine spores, disposable suits, and careful containment — plus HEPA-filtered equipment and enzymatic treatment to neutralize odor and contamination.</li>\n        <li><strong>Contaminated insulation</strong> is removed and replaced where guano has saturated it, and the affected cavity is sanitized.</li>\n      </ul>\n\n      <h2>Local, Georgia DNR-Compliant Service</h2>\n      <p>All Georgia bats are protected, and the contractor serving Lilburn works within Georgia DNR rules: humane exclusion only, no killing or harming, correct one-way-device technique, and the April 1–July 31 maternity-avoidance window respected. Same-day inspection is available for Lilburn and all of Gwinnett County; in-season work, when unavoidable, is handled by a licensed Nuisance Wildlife Control Operator.</p>",
+      "relatedLinks": [
+        {
+          "anchor": "Lilburn wildlife services",
+          "href": "/georgia/gwinnett-county/lilburn/"
+        },
+        {
+          "anchor": "Gwinnett County bat removal hub",
+          "href": "/georgia/gwinnett-county/bat-removal/"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "How much does bat removal cost in Lilburn?",
+          "a": "Bat exclusion in Lilburn typically runs $400–$1,500+, and guano cleanup with attic decontamination adds $1,500–$8,000 depending on scope. Pricing varies widely by colony size, the number of entry points, attic accessibility, and how much contaminated insulation has to be removed and replaced — a single-entry exclusion on a small colony is far cheaper than a whole-attic decontamination after years of accumulation. Phone consults and on-site inspections are free."
+        },
+        {
+          "q": "When can bat exclusion be done in Georgia?",
+          "a": "Georgia DNR recommends avoiding bat exclusion from April 1 through July 31, when flightless pups can be trapped inside and die. This is a DNR recommendation, not a flat statutory ban — if exclusion is unavoidable during that window, it must be performed by a licensed Nuisance Wildlife Control Operator. Outside April 1–July 31, exclusion proceeds normally. Inspection and planning can be done any time of year."
+        },
+        {
+          "q": "Is it legal to kill or poison bats in Georgia?",
+          "a": "No. All bat species in Georgia are protected under state law, and killing or harming them is illegal — there is no legal bat poison. The only lawful and effective solution is humane exclusion: one-way devices let the colony leave on its own over 3–7 nights, after which every entry point is sealed so they cannot return."
+        },
+        {
+          "q": "What kind of bats get into Lilburn homes?",
+          "a": "Primarily big brown bats and little brown bats — the two species that most commonly form colonies in Georgia structures. Big brown bats can hibernate inside a heated home year-round, so they may be present even in winter; little brown bats are more seasonal and migratory. Brazilian free-tailed bats occur in Georgia but are not the dominant structural species here. Georgia has 16 bat species in total."
+        },
+        {
+          "q": "Is bat guano dangerous to clean up?",
+          "a": "Yes. Bat guano can grow Histoplasma capsulatum, the fungus that causes histoplasmosis — a respiratory infection from inhaling airborne spores. Do not sweep or vacuum guano yourself: doing so aerosolizes the spores into air you then breathe. Professional decontamination uses spore-rated respirators, PPE, containment, HEPA-filtered equipment, and enzymatic treatment, and replaces contaminated insulation where needed."
+        },
+        {
+          "q": "How do I know where bats are getting in?",
+          "a": "Watch the roofline at dusk for bats streaming out of one spot, then look for guano piling up below a gap, dark oily staining at a seam, and openings larger than about 1/4 inch along gable vents, chimney flashing, ridge lines, soffits, and fascia. A full inspection finds the primary exit plus the secondary gaps — sealing only the obvious hole and missing the others is the most common reason DIY bat jobs fail."
         }
       ]
     }
