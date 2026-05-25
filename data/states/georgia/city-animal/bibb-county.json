@@ -79,6 +79,8 @@
     "rat-removal": {
       "metaTitle": "Rats in Attic | Macon, GA — Roof + Norway Rat Pros",
       "metaDescription": "Rats in your Macon attic or walls? Mulberry & Cherry Street Norway rats plus long-established roof rats in older intown housing. Same-day inspection.",
+      "h1Override": "Rat Removal in Macon, GA",
+      "hideHeroEmoji": true,
       "geo": {
         "lat": 32.8407,
         "lon": -83.6324
@@ -215,6 +217,11 @@
       ]
     },
     "opossum-removal": {
+      "h1Override": "Opossum Removal in Macon, GA",
+      "hideHeroEmoji": true,
+      "skipGenericFaqs": true,
+      "costRangeOverride": "$250–$500+",
+      "costNoteOverride": "Single-opossum trap-and-relocate; crawl-space exclusion additional.",
       "metaTitle": "Opossum Removal in Macon, GA | Pleasant Hill + Vineville",
       "metaDescription": "Licensed opossum removal in Macon, GA. Crawl-space removal in Vineville, In-Town, Beall's Hill, Pleasant Hill. Same-day humane service.",
       "geo": {
@@ -312,7 +319,7 @@
       ]
     },
     "bird-removal": {
-      "metaTitle": "Bird Removal Macon GA | Pigeon & Starling Control | 24/7",
+      "metaTitle": "Bird Removal Macon GA | Pigeon & Starling Control",
       "metaDescription": "Birds in your Macon chimney, vent, or attic? Licensed & insured bird removal, nest removal, exclusion & droppings cleanup. 24/7 service.",
       "twitterDescription": "Birds in your Macon chimney, vent, or attic? Licensed & insured bird removal, nest removal, exclusion & droppings cleanup. 24/7 service.",
       "ogTitle": "Bird Removal Macon GA | Pigeon & Starling Control",
@@ -470,6 +477,9 @@
     "dead-animal-removal": {
       "metaTitle": "Dead Animal Removal | Macon, GA — Same-Day Service",
       "metaDescription": "Dead animal smell in your Macon home? Licensed same-day dead animal removal — locate, extract, and odor cleanup across Bibb County. Free estimate.",
+      "h1Override": "Dead Animal Removal in Macon, GA",
+      "hideHeroEmoji": true,
+      "skipGenericFaqs": true,
       "geo": {
         "lat": 32.8407,
         "lon": -83.6324
@@ -478,8 +488,8 @@
         "https://en.wikipedia.org/wiki/Macon,_Georgia",
         "https://en.wikipedia.org/wiki/Carrion"
       ],
-      "intro": "Dead animal removal in Macon covers carcasses in attics, antebellum wall voids, crawl-spaces, and on residential properties across Vineville, In-Town, Beall's Hill, Pleasant Hill, and the surrounding Macon neighborhoods. The most common Macon dead-animal calls involve rats / squirrels in attic cavities (often after homeowner-applied rodenticide bait), raccoons / opossums in antebellum crawl-spaces or under pre-1900 porches, and bats in pre-1860 chimney boxes (typically dead pups during summer maternity-season disruptions). Macon's warmer central-Georgia climate accelerates carcass decomposition — odor onset is faster than in north Georgia counties.",
-      "extendedBody": "<h2>How Long Does a Dead Animal Smell in Macon?</h2>\n      <p>Macon's Fall Line climate produces faster carcass decomposition than metro Atlanta because of warmer baseline temperatures and higher humidity. The typical Macon timeline: odor onset 24-72 hours after death (versus 3-5 days in cooler north Georgia counties), peak odor 5-10 days, gradual reduction 14-30 days, complete decomposition 30-60 days depending on body size. On Macon carcass sites, insect activity (flies, beetles) accelerates decomposition and creates secondary problems — particularly in antebellum balloon-frame wall voids where fly populations can establish before homeowner detection.</p>\n      <p>The decomposition timeline matters because Macon homeowners typically notice carcass odor within days — fast professional response is high-value, particularly on pre-1900 antebellum properties where wall-void access requires careful historic-property work.</p>\n\n      <h2>How to Find and Remove a Dead Animal in Your Wall</h2>\n      <p>Macon dead-animal work is a three-stage process: (1) <strong>locate</strong> the carcass using odor triangulation, ceiling-and-wall thermal imaging, and direct attic / crawl-space inspection — antebellum balloon-frame wall voids and pre-1860 chimney boxes require specialized location work; (2) <strong>extract</strong> the carcass with proper PPE and disposal protocols; (3) <strong>remediate</strong> the residual odor through enzymatic neutralization, replacement of contaminated insulation, and ventilation.</p>\n      <p>A distinctive Macon call profile: dead bat pups in pre-1860 chimney boxes during summer maternity-season disruptions. Big-brown bat maternity colonies in Vineville, In-Town, and Beall's Hill antebellum chimneys produce flightless pups that can die during interior renovations or unauthorized exclusion attempts. Multi-decade guano accumulation in the same chimneys can require contained-area histoplasmosis-aware remediation. Macon dead-animal work operates under <strong>Georgia DNR Region 3</strong> (Central) licensing with carcass-disposal protocols matching Region 3 rules — antebellum-property work also coordinates with any Macon-Bibb historic-district preservation restrictions.</p>",
+      "intro": "Dead animal removal in Macon covers carcasses in attics, antebellum wall voids, crawl-spaces, and on residential properties across Vineville, In-Town, Beall's Hill, Pleasant Hill, and the surrounding Macon neighborhoods. The most common Macon dead-animal calls involve rats / squirrels in attic cavities (often after homeowner-applied rodenticide bait), raccoons / opossums in crawl-spaces or under pre-1900 porches, and bats in pre-1860 chimney boxes (typically dead pups during summer maternity-season disruptions). Macon's warmer central-Georgia climate accelerates carcass decomposition — odor onset is faster than in north Georgia counties.",
+      "extendedBody": "<h2>How Long Does a Dead Animal Smell in Macon?</h2>\n      <p>Macon's Fall Line climate produces faster carcass decomposition than metro Atlanta because of warmer baseline temperatures and higher humidity. The typical Macon timeline: odor onset 24-72 hours after death (versus 3-5 days in cooler north Georgia counties), peak odor 5-10 days, gradual reduction 14-30 days, complete decomposition 30-60 days depending on body size. On Macon carcass sites, insect activity (flies, beetles) accelerates decomposition and creates secondary problems — particularly in antebellum balloon-frame wall voids where fly populations can establish before homeowner detection.</p>\n      <p>The decomposition timeline matters because Macon homeowners typically notice carcass odor within days — fast professional response is high-value, particularly on pre-1900 properties where wall-void access requires careful historic-property work.</p>\n\n      <h2>How to Find and Remove a Dead Animal in Your Wall</h2>\n      <p>Macon dead-animal work is a three-stage process: (1) <strong>locate</strong> the carcass using odor triangulation, ceiling-and-wall thermal imaging, and direct attic / crawl-space inspection — antebellum balloon-frame wall voids and pre-1860 chimney boxes require specialized location work; (2) <strong>extract</strong> the carcass with proper PPE and disposal protocols; (3) <strong>remediate</strong> the residual odor through enzymatic neutralization, replacement of contaminated insulation, and ventilation.</p>\n      <p>A distinctive Macon call profile: dead bat pups in pre-1860 chimney boxes during summer maternity-season disruptions. Big-brown bat maternity colonies in Vineville, In-Town, and Beall's Hill antebellum chimneys produce flightless pups that can die during interior renovations or unauthorized exclusion attempts. Multi-decade guano accumulation in the same chimneys can require contained-area histoplasmosis-aware remediation. Macon dead-animal work operates under <strong>Georgia DNR Wildlife Resources Division</strong> licensing with proper carcass-disposal protocols — historic-property work also coordinates with any Macon-Bibb historic-district preservation restrictions.</p>",
       "relatedLinks": [
         {
           "anchor": "Macon wildlife services",
@@ -493,7 +503,7 @@
       "faqs": [
         {
           "q": "How much does dead animal removal cost in Macon?",
-          "a": "Macon dead animal jobs run $150–$500+ depending on locate-and-extract difficulty (open attic vs antebellum wall void vs pre-1860 chimney box), animal size, and odor remediation scope. Antebellum wall-void extractions requiring careful historic-property work run at the higher end. Call for an estimate."
+          "a": "Macon dead animal jobs run $350–$1,500+ depending on locate-and-extract difficulty (open attic vs antebellum wall void vs pre-1860 chimney box), animal size, and odor remediation scope. Antebellum wall-void extractions requiring careful historic-property work run at the higher end. Call for an estimate."
         },
         {
           "q": "Why does carcass odor onset faster in Macon than in metro Atlanta?",
@@ -508,7 +518,7 @@
           "a": "A documented Macon issue, particularly during summer maternity-season disruptions on Vineville, In-Town, Beall's Hill, and Pleasant Hill antebellum chimneys. Dead bat pups in chimney boxes require careful extraction plus histoplasmosis-aware contained-area guano remediation. This is not homeowner-DIY work."
         },
         {
-          "q": "Will my insurance cover dead-animal cleanup in my Macon antebellum home?",
+          "q": "Will my insurance cover dead-animal cleanup in my Macon home?",
           "a": "Usually not for the carcass itself. Most homeowner policies exclude rodent damage and routine pest issues. Exceptions exist when the dead animal causes a covered loss (e.g., a roof leak that allowed water-damaged insulation to require replacement). Check your specific policy."
         },
         {
