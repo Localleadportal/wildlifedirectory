@@ -29,8 +29,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= pageTitle %></title>
-  <meta name="description" content="<%= pageDesc %>">
+  <%# title/description/og/twitter emitted unescaped (raw) so a literal ampersand renders as "&" rather than the "&amp;" produced by HTML-escaping — mirrors county.ejs. Safe: county-animal metaTitles/metaDescriptions contain no double-quotes. %>
+  <title><%- pageTitle %></title>
+  <meta name="description" content="<%- pageDesc %>">
   <link rel="canonical" href="<%= pageUrl %>">
   <link rel="stylesheet" href="/css/style.css">
   <% if (!indexable) { %>
@@ -45,13 +46,13 @@
   <meta property="og:locale" content="en_US">
   <meta property="og:url" content="<%= pageUrl %>">
   <meta property="og:title" content="<%- socialTitle %>">
-  <meta property="og:description" content="<%= pageDesc %>">
+  <meta property="og:description" content="<%- pageDesc %>">
   <meta property="og:image" content="<%= ogImage %>">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="<%- socialTitle %>">
-  <meta name="twitter:description" content="<%= twitterDesc %>">
+  <meta name="twitter:description" content="<%- twitterDesc %>">
   <meta name="twitter:image" content="<%= ogImage %>">
 
   <% if (seoEnhanced) { %>
