@@ -2286,6 +2286,140 @@ function georgiaContent(countyName, county, s) {
     metaTitle = `Wildlife Removal Jasper County GA | Same-Day & Humane`;
     metaDescription = `Wildlife removal in Jasper County, GA. Licensed, insured, same-day and 24/7 emergency service for raccoons, squirrels, bats, snakes and more in Monticello, Shady Dale and across the county. Free estimate.`;
 
+  } else if (countyName === 'Houston County') {
+    heroIntro = `Same-day Warner Robins and Perry wildlife removal across Houston County — including Centerville, Bonaire, Kathleen, and the rural acreage around Robins Air Force Base and the Ocmulgee River. Licensed under Georgia DNR.`;
+
+    blockA = `Houston County sits in middle Georgia south of the geological Fall Line, on the Coastal Plain directly along the <strong>I-75 corridor</strong> about 20 miles south of Macon-Bibb. With a county population of ${county.population.toLocaleString()}, Houston pairs the antebellum county seat of <a href="/georgia/houston-county/perry/"><strong>Perry</strong></a>, on the southern half of the county, with its largest city, <a href="/georgia/houston-county/warner-robins/"><strong>Warner Robins</strong></a>, on the northern half — a city effectively built around <strong>Robins Air Force Base</strong>, the region's major employer and the engine behind Houston's dense post-WWII suburban housing. The smaller communities of <a href="/georgia/houston-county/centerville/"><strong>Centerville</strong></a>, <a href="/georgia/houston-county/bonaire/"><strong>Bonaire</strong></a>, and <a href="/georgia/houston-county/kathleen/"><strong>Kathleen</strong></a> fill in around them, with substantial rural and agricultural acreage covering the southern and eastern reaches of the county.</p><p>Houston's wildlife removal call profile is shaped by that sharp split between suburb and countryside. Warner Robins and Centerville are overwhelmingly post-1942 subdivision housing, and the bulk of the county's raccoon, squirrel, and rat attic work comes from this established suburban stock. Perry's housing divides between an antebellum and Victorian historic-downtown core around the courthouse square and 1990s–2010s subdivision growth on the city edges. Surrounding all of it is rural-acreage and agricultural land, plus two large source habitats: the roughly 7,000 acres of mostly undeveloped pine forest on the Robins Air Force Base buffer in the center of the county, and the <strong>Ocmulgee River</strong> bottomland corridor along the eastern boundary. Both continuously disperse raccoons, opossums, squirrels, snakes, and coyotes into the surrounding neighborhoods, which is why Houston sustains a steady year-round mix of suburban-subdivision and rural-property work.`;
+
+    blockB = `<p>Houston County's wildlife mix is a middle-Georgia Coastal Plain profile, shaped by the suburban density around Robins Air Force Base, the I-75 and US 41 commercial corridors, the rural-acreage and agricultural south, and the Ocmulgee River bottomland along the eastern boundary. The animals Houston homeowners call about most often:</p>
+      <ul class="tips-list">
+        <li><a href="/georgia/houston-county/raccoon-removal/"><strong>Raccoons</strong></a> — the top attic-and-chimney intruder across Warner Robins, Perry, and Centerville subdivisions, with steady source pressure off the Robins AFB buffer and the Ocmulgee corridor.</li>
+        <li><a href="/georgia/houston-county/squirrel-removal/"><strong>Eastern gray squirrels and fox squirrels</strong></a> — gray squirrels are constant in the suburban canopy, while the larger fox squirrel is a routine call across Perry, southern Warner Robins, and the rural Kathleen acreage in Houston's longleaf-and-pine-hardwood country.</li>
+        <li><a href="/georgia/houston-county/opossum-removal/"><strong>Virginia opossums</strong></a> — under decks, sheds, and crawlspaces countywide.</li>
+        <li><a href="/georgia/houston-county/bat-removal/"><strong>Big brown and evening bats</strong></a> — colonies in Warner Robins and Perry housing; Perry's antebellum chimneys around the courthouse square host the longest-tenured colonies.</li>
+        <li><a href="/georgia/houston-county/rat-removal/"><strong>Norway and roof rats</strong></a> — concentrated along the I-75 and US 41 corridors and the Warner Robins commercial density (the Watson Boulevard restaurant-and-retail belt), with roof rats established in subdivision canopy.</li>
+        <li><a href="/georgia/houston-county/skunk-removal/"><strong>Striped skunks</strong></a> — denning under sheds, decks, and foundations along the suburban edge.</li>
+        <li><strong>Armadillos</strong> — firmly established in Houston County for decades and a routine call for lawn rooting and foundation-planting damage in every city in the county.</li>
+        <li><a href="/georgia/houston-county/snake-removal/"><strong>Snakes</strong></a> — the <strong>copperhead</strong> is the primary venomous species; the common non-venomous snakes are <strong>rat snakes</strong>, <strong>racers</strong>, and <strong>watersnakes</strong>. <strong>Cottonmouths</strong> occur only near water — the Ocmulgee River and its creek drainages — and most "cottonmouth" reports away from water turn out to be harmless watersnakes, so identification before any removal matters.</li>
+        <li><a href="/georgia/houston-county/mole-removal/"><strong>Moles</strong></a> — lawn and landscape tunneling, heaviest in the irrigated suburban yards.</li>
+        <li><strong>Coyotes</strong> — established on the rural edges and dispersing off the Robins AFB buffer acreage; most calls involve missing pets or den activity near subdivision-to-woodland transitions.</li>
+      </ul>`;
+
+    blockC = `Service coverage spans all of Houston County including ${top4cities}, plus Kathleen and the surrounding unincorporated and rural acreage across the southern and eastern county. Houston's split between dense post-WWII Warner Robins and Centerville subdivisions, Perry's historic-downtown and edge-subdivision housing, and the rural and agricultural land around them means the assigned contractor handles two distinct kinds of work: suburban-subdivision attic exclusion (raccoon, squirrel, and rat work in established Warner Robins, Centerville, and Bonaire neighborhoods) and rural-property multi-structure work (a residence plus barns, sheds, and outbuildings on Kathleen and southern-Houston acreage). Middle Georgia's mild winters keep wildlife active and breeding year-round, so call volume holds steady across all twelve months — and same-day and emergency response covers the full county footprint.`;
+
+    metaTitle = `Wildlife Removal Houston County GA | Warner Robins & Perry`;
+    // og:title / twitter:title — same wording as metaTitle; emitted raw by county.ejs
+    // so the ampersand renders literally ("&") in the social title.
+    ogTitle = `Wildlife Removal Houston County GA | Warner Robins & Perry`;
+    metaDescription = `Wildlife removal in Houston County, GA — Warner Robins, Perry & Centerville. Same-day licensed raccoon, squirrel, bat & snake removal. Local pros, 24/7.`;
+
+    geo = { lat: 32.46, lon: -83.66 };
+    sameAs = [
+      'https://en.wikipedia.org/wiki/Houston_County,_Georgia',
+      'https://en.wikipedia.org/wiki/Warner_Robins,_Georgia',
+      'https://en.wikipedia.org/wiki/Perry,_Georgia',
+    ];
+    lastUpdated = '2026-05-26';
+
+    pricing = [
+      { name: 'Raccoon trapping & removal',                minPrice: 300,  maxPrice: 650,  notes: 'Perry historic-downtown chimney work and Ocmulgee-corridor properties often run higher' },
+      { name: 'Squirrel removal & exclusion',              minPrice: 250,  maxPrice: 550,  notes: 'Includes one-way doors and sealing of identified entry points; fox-squirrel rural-acreage work runs higher' },
+      { name: 'Bat colony exclusion (chimney/attic)',      minPrice: 1200, maxPrice: 3500, notes: 'Perry antebellum chimneys; Georgia DNR recommends avoiding exclusion April 1–July 31 when pups are flightless, though a licensed operator may perform necessary work then' },
+      { name: 'Snake identification & removal',            minPrice: 150,  maxPrice: 350,  notes: 'Higher for confirmed venomous species (copperhead; cottonmouth near the Ocmulgee)' },
+      { name: 'Rodent (Norway / roof rat) control',        minPrice: 400,  maxPrice: 1200, notes: 'I-75 / US 41 corridor and Watson Boulevard commercial-adjacent properties often need expanded-perimeter plans' },
+      { name: 'Attic decontamination & remediation',       minPrice: 1000, maxPrice: 4500, notes: 'Insulation removal, HEPA sanitization, damage repair' },
+      { name: 'Full home exclusion (multi-entry)',         minPrice: 1500, maxPrice: 4000, notes: 'Galvanized steel mesh, 1-year guarantee' },
+    ];
+
+    neighboringCounties = [
+      { name: 'Bibb County',     slug: 'bibb-county',     anchor: 'Bibb County wildlife removal',     blurb: 'directly north, toward Macon along I-75' },
+      { name: 'Peach County',    slug: 'peach-county',    anchor: 'Peach County wildlife services',   blurb: 'to the northwest, including Fort Valley' },
+      { name: 'Macon County',    slug: 'macon-county',    anchor: 'Macon County wildlife removal',    blurb: 'to the west' },
+      { name: 'Dooly County',    slug: 'dooly-county',    anchor: 'Dooly County animal removal',      blurb: 'to the south along I-75' },
+      { name: 'Pulaski County',  slug: 'pulaski-county',  anchor: 'Pulaski County wildlife services', blurb: 'to the southeast, including Hawkinsville' },
+      { name: 'Twiggs County',   slug: 'twiggs-county',   anchor: 'Twiggs County animal removal',     blurb: 'to the northeast, across the Ocmulgee River' },
+    ];
+
+    extendedBody = `
+      <aside class="answer-box" style="background:#f1f5f9;border-left:4px solid #2e7d32;padding:18px 22px;margin:0 0 28px;border-radius:0 8px 8px 0;">
+        <h3 style="margin:0 0 10px;font-size:1.1rem;color:#1b5e20;">Quick Answer — Wildlife Removal in Houston County, GA</h3>
+        <p style="margin:0;font-size:0.95rem;line-height:1.55;">Houston County wildlife removal is handled by one licensed contractor serving <a href="/georgia/houston-county/warner-robins/">Warner Robins</a>, <a href="/georgia/houston-county/perry/">Perry</a>, <a href="/georgia/houston-county/centerville/">Centerville</a>, <a href="/georgia/houston-county/bonaire/">Bonaire</a>, <a href="/georgia/houston-county/kathleen/">Kathleen</a>, and the surrounding rural acreage. Core services include <a href="/georgia/houston-county/raccoon-removal/">raccoon removal</a>, <a href="/georgia/houston-county/squirrel-removal/">squirrel removal</a>, <a href="/georgia/houston-county/bat-removal/">bat exclusion</a>, <a href="/georgia/houston-county/snake-removal/">snake removal</a>, <a href="/georgia/houston-county/rat-removal/">rodent control along the I-75 / US 41 corridor</a>, attic remediation, and humane trapping. All work is licensed under the Georgia DNR Wildlife Resources Division and typically scheduled same-day. Warner Robins generates the highest call volume because of its dense post-WWII suburban housing built around Robins Air Force Base.</p>
+      </aside>
+
+      <h2>Signs You Have Wildlife in Your Houston County Home</h2>
+      <p>What you hear — and when — is the fastest way to narrow down what's in the structure before an inspection confirms it:</p>
+      <ul class="tips-list">
+        <li><strong>Heavy, slow thumping or dragging in the attic at dusk and dawn</strong> usually means a <a href="/georgia/houston-county/raccoon-removal/">raccoon</a> — often a female that has moved in to den.</li>
+        <li><strong>Fast, light scampering overhead during daylight</strong> points to a <a href="/georgia/houston-county/squirrel-removal/">squirrel</a> (Eastern gray, or a fox squirrel on the rural-acreage and pine-edge properties).</li>
+        <li><strong>Steady scurrying or gnawing inside walls after dark</strong> is most often <a href="/georgia/houston-county/rat-removal/">rats</a> — Norway rats low in the structure, roof rats up in the attic and soffit line.</li>
+        <li><strong>Faint chittering at the roofline at summer dusk, a tarry smear, or gritty droppings under a gap</strong> indicates <a href="/georgia/houston-county/bat-removal/">bats</a>; the guano accumulation is often noticed before the bats themselves.</li>
+        <li><strong>Torn soffits, lifted shingles, or pried vents</strong> are usually raccoon work; a clean quarter-sized chew hole is a squirrel entry.</li>
+        <li><strong>A persistent foul odor with no animal in sight</strong> can be a <a href="/georgia/houston-county/dead-animal-removal/">dead animal</a> in a wall or attic void.</li>
+      </ul>
+
+      <h2>Wildlife in Your House Right Now? What to Do</h2>
+      <p>If a raccoon, snake, bat, or squirrel is loose in your living space, call for same-day Houston County dispatch first, then keep everyone safe while you wait:</p>
+      <ul class="tips-list">
+        <li><strong>Don't corner, grab, or chase the animal.</strong> A bite or scratch from a raccoon, bat, skunk, or fox is treated as a rabies exposure by Georgia DPH.</li>
+        <li><strong>Confine it to one room.</strong> Close interior doors and block the gap underneath with a rolled towel so it can't move deeper into the house.</li>
+        <li><strong>Open one exterior door or low window in that room if it's safe.</strong> Most animals — a bat, a single snake or squirrel — will leave on their own toward the opening once the room is quiet and dim.</li>
+        <li><strong>Keep children and pets well clear</strong> of the contained area.</li>
+        <li><strong>If it's a bat and anyone was asleep in the room,</strong> do not release it — Georgia DPH treats that as a possible exposure unless the bat can be captured for testing.</li>
+        <li><strong>Don't light a fire</strong> if you suspect a bird or bat is in the chimney; that turns a removal into a dead-animal job.</li>
+      </ul>
+
+      <h2>Houston County Geography Shapes the Wildlife Call Mix</h2>
+      <p>Houston County sits squarely on the middle-Georgia <strong>Coastal Plain</strong> south of the Fall Line, with sandy soils, longleaf-and-loblolly pine remnants, and mixed pine-hardwood across the rural southern half. Two large source habitats drive most of the residential pressure. The <strong>Robins Air Force Base</strong> buffer — roughly 7,000 acres of mostly undeveloped pine forest in the center of the county — functions as one of the largest contiguous wildlife source zones in middle Georgia, steadily dispersing raccoons, opossums, fox squirrels, and coyotes into the surrounding Warner Robins and Centerville neighborhoods. Along the eastern boundary, the <strong>Ocmulgee River</strong> bottomland corridor sustains a year-round source population for raccoons, opossums, rat snakes, and the occasional cottonmouth in its slack-water reaches.</p>
+      <p>The housing stock splits the work into two profiles. <strong>Warner Robins and Centerville</strong> are almost entirely post-1942 subdivisions built up around the base — the source of most of the county's suburban attic exclusion (raccoon, squirrel, and roof-rat work). <strong>Perry's</strong> antebellum and Victorian core around the courthouse square hosts the county's longest-tenured big-brown-bat chimney colonies, while its edge subdivisions add standard suburban work. The rural-acreage south around <strong>Kathleen</strong> brings multi-structure jobs — residence plus barns, sheds, and outbuildings — and the fox-squirrel and coyote pressure that comes with pine-and-farm country.</p>
+
+      <h2>Typical Wildlife Removal Pricing in Houston County</h2>
+      <p>Pricing varies with species, property complexity, and the scope of exclusion work — these ranges reflect what most homeowners across the Warner Robins and Perry submarkets pay for completed work. Free phone estimates are standard once species and structure are identified.</p>
+      <table class="pricing-table" style="width:100%;border-collapse:collapse;margin:18px 0;font-size:0.95rem;">
+        <thead>
+          <tr style="background:#f1f5f9;text-align:left;">
+            <th style="padding:10px 12px;border:1px solid #e5e7eb;">Service</th>
+            <th style="padding:10px 12px;border:1px solid #e5e7eb;">Typical Range</th>
+            <th style="padding:10px 12px;border:1px solid #e5e7eb;">Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Raccoon trapping &amp; removal</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$300–$650</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Perry historic-downtown chimney work and Ocmulgee-corridor properties often run higher</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Squirrel removal &amp; exclusion</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$250–$550</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Includes one-way doors and sealing of identified entry points; fox-squirrel rural-acreage work runs higher</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Bat colony exclusion (chimney/attic)</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$1,200–$3,500+</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Perry antebellum chimneys; Georgia DNR recommends avoiding exclusion April 1–July 31 when pups are flightless, though a licensed operator may perform necessary work then</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Snake identification &amp; removal</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$150–$350 per visit</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Higher for confirmed venomous species (copperhead; cottonmouth near the Ocmulgee)</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Rodent (Norway/roof rat) control</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$400–$1,200</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">I-75 / US 41 corridor and Watson Boulevard commercial-adjacent properties often need expanded-perimeter plans</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Attic decontamination &amp; remediation</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$1,000–$4,500</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Insulation removal, HEPA sanitization, damage repair</td></tr>
+          <tr><td style="padding:10px 12px;border:1px solid #e5e7eb;">Full home exclusion (multi-entry)</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">$1,500–$4,000+</td><td style="padding:10px 12px;border:1px solid #e5e7eb;">Galvanized steel mesh, 1-year guarantee</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Local Authorities and Regulations</h2>
+      <p>Houston County wildlife removal operates under the <strong><a href="https://georgiawildlife.com/" target="_blank" rel="noopener">Georgia DNR Wildlife Resources Division</a></strong>, which issues the Trapping License and Nuisance Wildlife Control Permit required for commercial operators. County animal-control services handle domestic animals — stray dogs and cats, leash and bite complaints — and do not respond to nuisance wildlife in attics, chimneys, walls, or yards, which is referred to private licensed operators. Federal protections apply to bats, all migratory birds (hawks, owls, woodpeckers, chimney swifts), and the federally proposed-for-listing tricolored bat documented in middle Georgia. Georgia DNR recommends avoiding bat exclusion <strong>April 1 through July 31</strong>, when flightless pups are present — a recommendation rather than a flat statutory ban, and a licensed Nuisance Wildlife Control Operator may perform necessary exclusion during that window. Large or protected species — white-tailed deer, feral hogs, state-listed gopher tortoises in the southern sandhill remnants, and any American alligator over four feet in the lower Ocmulgee — fall under direct Georgia DNR management and should be referred to the agency rather than handled privately.</p>
+    `;
+
+    faqs = [
+      {
+        q: `How much does wildlife removal cost in Warner Robins and Houston County?`,
+        a: `Pricing varies with species, property complexity, and the scope of exclusion work. A standard raccoon trapping-and-removal job runs $300–$650; Perry historic-downtown chimney access and Ocmulgee-corridor properties often run higher. Squirrel removal with exclusion runs $250–$550, with fox-squirrel rural-acreage work toward the upper end. Bat colony exclusion runs $1,200–$3,500+. Norway and roof rat control runs $400–$1,200; I-75 / US 41 corridor and Watson Boulevard commercial-adjacent properties often need expanded-perimeter plans rather than single-property treatment. Full home exclusion with galvanized steel mesh and a 1-year guarantee runs $1,500–$4,000+, and attic decontamination after a long-established colony can add $1,000–$4,500. Phone consultations and on-site estimates are free.`
+      },
+      {
+        q: `What wildlife is most common in Houston County, Georgia?`,
+        a: `Raccoons, Eastern gray and fox squirrels, Virginia opossums, big brown and evening bats, and Norway and roof rats make up the bulk of attic and yard intrusions across Warner Robins, Perry, Centerville, and Bonaire. Striped skunks den under sheds and decks on the suburban edge, and armadillos — firmly established in Houston for decades — are a routine call for lawn and foundation-planting damage. Snake calls are dominated by non-venomous rat snakes, racers, and watersnakes, with the copperhead the primary venomous species; cottonmouths occur only near the Ocmulgee River and its creek drainages. Coyotes are established on the rural edges, dispersing off the Robins Air Force Base buffer acreage. Larger species — white-tailed deer and feral hogs — fall under Georgia DNR management rather than the private removal industry.`
+      },
+      {
+        q: `When is the best time to handle bat exclusion in Houston County?`,
+        a: `Georgia DNR recommends avoiding bat exclusion from April 1 through July 31, when flightless pups are present in the roost and would be sealed inside. This is a DNR recommendation rather than a flat statutory ban — a licensed Nuisance Wildlife Control Operator may perform necessary exclusion during that window when a situation requires it, timed carefully to avoid trapping pups. Outside that window, late summer through early spring is the preferred time for permanent bat work. Bat exclusion in Georgia uses one-way exit devices rather than trapping, which is illegal for bats; a licensed contractor inspects the structure, schedules the work in an appropriate window, and seals entry points only after the colony has exited. Perry's antebellum courthouse-square chimneys host the county's longest-tenured colonies and the most scope-intensive jobs.`
+      },
+      {
+        q: `Is wildlife removal regulated in Houston County?`,
+        a: `Yes. All commercial wildlife removal in Houston County operates under Georgia DNR Wildlife Resources Division licensing. Georgia DNR requires every commercial wildlife trapper to hold a Trapping License, and for properties using lethal control, a Nuisance Wildlife Control Permit. Federal protections apply to bats, all migratory birds (Canada geese, owls, hawks, woodpeckers, chimney swifts), and the federally proposed-for-listing tricolored bat documented in middle Georgia. State-listed gopher tortoises persist in the southern Houston sandhill remnants and are protected under Georgia law. Every contractor in this directory operating in Houston County holds the applicable state and federal credentials.`
+      },
+      {
+        q: `Do raccoons come back after removal?`,
+        a: `Yes — unless the exclusion work is complete. Trap-and-relocate without sealing entry points has a near-100% recurrence rate within weeks, because the property is still broadcasting access cues (open soffit corners, missing chimney caps, gaps in foundation vents) to neighboring raccoons. Effective Houston County raccoon work pairs trapping with structural exclusion: one-way doors on confirmed entry points, galvanized steel mesh on chimney chases, and sealed soffit returns. With full multi-entry exclusion, recurrence drops to under 10% within the first year. Properties backing onto the Robins Air Force Base buffer or the Ocmulgee corridor see steady source pressure from a permanent population, so annual inspection is worthwhile even after a complete seal.`
+      }
+    ];
+
   }
 
   if (!blockD) blockD = `Wildlife intrusion in ${countyName} follows Georgia's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
