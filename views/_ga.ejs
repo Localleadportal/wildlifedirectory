@@ -1,9 +1,27 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H63WFZHXR2"></script>
+<!-- Google tag (gtag.js) — library load deferred to first interaction / idle so
+     it doesn't run on the main thread during initial render (protects TBT & LCP).
+     gtag() calls below queue into dataLayer and are processed once the library
+     loads, so no events are lost. -->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-H63WFZHXR2');
+
+  (function () {
+    var loaded = false;
+    var events = ['scroll', 'mousemove', 'touchstart', 'keydown', 'click'];
+    function loadGA() {
+      if (loaded) return;
+      loaded = true;
+      events.forEach(function (e) { window.removeEventListener(e, loadGA); });
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-H63WFZHXR2';
+      document.head.appendChild(s);
+    }
+    events.forEach(function (e) { window.addEventListener(e, loadGA, { passive: true }); });
+    // Fallback so non-interacting sessions are still counted.
+    setTimeout(loadGA, 4000);
+  })();
 </script>

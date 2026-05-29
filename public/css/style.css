@@ -126,7 +126,9 @@ header {
   opacity: 0;
   animation: heroFade 35s infinite;
 }
-.hero-slide:nth-child(1) { animation-delay: 0s; }
+/* First slide paints at full opacity immediately (no fade-in) so it is a valid
+   LCP candidate from the first frame instead of being delayed by the fade. */
+.hero-slide:nth-child(1) { animation-delay: 0s; animation-name: heroFadeFirst; opacity: 1; }
 .hero-slide:nth-child(2) { animation-delay: 7s; }
 .hero-slide:nth-child(3) { animation-delay: 14s; }
 .hero-slide:nth-child(4) { animation-delay: 21s; }
@@ -134,6 +136,12 @@ header {
 @keyframes heroFade {
   0%   { opacity: 0; }
   3%   { opacity: 1; }
+  20%  { opacity: 1; }
+  23%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes heroFadeFirst {
+  0%   { opacity: 1; }
   20%  { opacity: 1; }
   23%  { opacity: 0; }
   100% { opacity: 0; }
