@@ -12,7 +12,7 @@
         ? cityAnimalContent.intro.slice(0, 155).replace(/\s+\S*$/, '') + '…'
         : (animal.name + ' in ' + cityName + ', ' + stateName + ' (' + countyName + '). ' + (animal.costRange ? 'Typical cost ' + animal.costRange + '. ' : '') + 'Licensed local contractor — humane methods, same-day service.'));
   const ogImage = (cityAnimalContent && cityAnimalContent.ogImage)
-    || 'https://www.removewildlifenow.com/images/hero1.jpg';
+    || 'https://www.removewildlifenow.com/images/hero1.webp';
   // Optional per-page override for og:title / twitter:title (separate from
   // pageTitle which drives the <title> tag). Falls back to pageTitle when unset.
   const socialTitle = (cityAnimalContent && cityAnimalContent.ogTitle) || pageTitle;
@@ -277,7 +277,7 @@
 
     <section class="services-section">
       <div class="container">
-        <% if (animal.slug === 'opossum-removal') { %><div class="section-photo-banner"><img src="/images/hero11.jpg" alt="Wild opossum spotted in <%= cityName %> yard — humane possum removal and prevention experts" loading="lazy" class="banner-img"><% } %>
+        <% if (animal.slug === 'opossum-removal') { %><div class="section-photo-banner"><img src="/images/hero11.webp" width="1440" height="1920" alt="Wild opossum spotted in <%= cityName %> yard — humane possum removal and prevention experts" loading="lazy" class="banner-img"><% } %>
         <h2><%= animal.name %> in <%= cityName %> — What to Expect</h2>
         <p class="section-sub"><%= animal.urgency %></p>
         <% if (animal.slug === 'opossum-removal') { %></div><% } %>
@@ -314,22 +314,22 @@
         </div>
         <% if (animal.slug === 'raccoon-removal') { %>
         <div style="margin-top:32px;text-align:center;">
-          <img src="/images/raccoon-hero1.jpg" alt="Adult raccoon (Procyon lotor) on a residential property in <%= cityName %>, <%= countyName %>, <%= stateName %> — licensed local raccoon removal contractor for attic exclusion, humane trapping, sanitation, and entry-point repair in <%= cityName %>" title="<%= cityName %> raccoon removal near me — licensed local raccoon trapper and exclusion contractor in <%= cityName %>, <%= stateName %>" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;">
+          <img src="/images/raccoon-hero1.webp" width="1600" height="1066" alt="Adult raccoon (Procyon lotor) on a residential property in <%= cityName %>, <%= countyName %>, <%= stateName %> — licensed local raccoon removal contractor for attic exclusion, humane trapping, sanitation, and entry-point repair in <%= cityName %>" title="<%= cityName %> raccoon removal near me — licensed local raccoon trapper and exclusion contractor in <%= cityName %>, <%= stateName %>" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;">
         </div>
         <% } %>
         <% if (animal.slug === 'squirrel-removal') { %>
         <div style="margin-top:32px;text-align:center;">
-          <img src="/images/squirrel-hero1.jpg" alt="Eastern gray squirrel (Sciurus carolinensis) on a residential roof gutter in <%= cityName %>, <%= countyName %>, <%= stateName %> — licensed local squirrel removal contractor for attic exclusion, humane trapping, chewed-wire repair, and entry-point sealing in <%= cityName %>" title="<%= cityName %> squirrel removal near me — licensed local squirrel trapper and attic exclusion contractor in <%= cityName %>, <%= stateName %>" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;">
+          <img src="/images/squirrel-hero1.webp" width="1920" height="1280" alt="Eastern gray squirrel (Sciurus carolinensis) on a residential roof gutter in <%= cityName %>, <%= countyName %>, <%= stateName %> — licensed local squirrel removal contractor for attic exclusion, humane trapping, chewed-wire repair, and entry-point sealing in <%= cityName %>" title="<%= cityName %> squirrel removal near me — licensed local squirrel trapper and attic exclusion contractor in <%= cityName %>, <%= stateName %>" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;">
         </div>
         <% } %>
         <% if (animal.slug === 'snake-removal') { %>
         <div style="margin-top:32px;text-align:center;">
-          <img src="/images/snake-hero1.jpg" alt="<%= (cityAnimalContent && cityAnimalContent.heroImageAlt) || ('Eastern rat snake (Pantherophis alleghaniensis) in a residential yard in ' + cityName + ', ' + countyName + ', ' + stateName + ' — licensed local snake removal contractor for venomous and non-venomous snake identification, humane relocation, copperhead removal, and yard exclusion in ' + cityName) %>" title="<%= cityName %> snake removal near me — licensed local snake identification and removal contractor in <%= cityName %>, <%= stateName %>" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;">
+          <img src="/images/snake-hero1.webp" width="1600" height="1066" alt="<%= (cityAnimalContent && cityAnimalContent.heroImageAlt) || ('Eastern rat snake (Pantherophis alleghaniensis) in a residential yard in ' + cityName + ', ' + countyName + ', ' + stateName + ' — licensed local snake removal contractor for venomous and non-venomous snake identification, humane relocation, copperhead removal, and yard exclusion in ' + cityName) %>" title="<%= cityName %> snake removal near me — licensed local snake identification and removal contractor in <%= cityName %>, <%= stateName %>" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;">
         </div>
         <% } %>
         <% if (animal.slug === 'bat-removal') { %>
         <div style="margin-top:32px;text-align:center;">
-          <img src="/images/bat-hero1.jpg" alt="Big brown bat (Eptesicus fuscus) safely handled during a residential bat exclusion job in <%= cityName %>, <%= countyName %>, <%= stateName %> — licensed local bat removal contractor for chimney and attic bat colony exclusion, maternity-season-aware timing, guano remediation, and Georgia DNR-compliant work in <%= cityName %>" title="<%= cityName %> bat removal near me — licensed local bat exclusion and chimney/attic colony contractor in <%= cityName %>, <%= stateName %>" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;">
+          <img src="/images/bat-hero1.webp" width="1200" height="1600" alt="Big brown bat (Eptesicus fuscus) safely handled during a residential bat exclusion job in <%= cityName %>, <%= countyName %>, <%= stateName %> — licensed local bat removal contractor for chimney and attic bat colony exclusion, maternity-season-aware timing, guano remediation, and Georgia DNR-compliant work in <%= cityName %>" title="<%= cityName %> bat removal near me — licensed local bat exclusion and chimney/attic colony contractor in <%= cityName %>, <%= stateName %>" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;">
         </div>
         <% } %>
       </div>

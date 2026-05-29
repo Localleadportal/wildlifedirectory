@@ -17,7 +17,7 @@ const BLOG_POSTS = [
     metaTitle: 'Baby Raccoon Season in Macon, GA: Noises in Your Attic',
     metaDescription: 'Scratching in your Macon attic this spring? Whelping runs late February to early May — here\'s why timing matters before you trap or seal.',
     excerpt: 'That scratching above your ceiling this time of year is almost always a mother raccoon — not a single animal, not a one-time intrusion. Macon\'s whelping window runs late February through early May, and the next 8 to 10 weeks change everything about what you can safely do.',
-    ogImage: 'https://www.removewildlifenow.com/images/baby-raccoons-macon-bibb.jpg',
+    ogImage: 'https://www.removewildlifenow.com/images/baby-raccoons-macon-bibb.webp',
     datePublished: '2026-05-22',
     dateModified: '2026-05-22',
     author: 'Central Georgia Wildlife Control LLC',
@@ -27,7 +27,7 @@ const BLOG_POSTS = [
 <p class="lead">If you're a Macon homeowner hearing scratching, chittering, or a slow heavy thumping above your ceiling right now — late winter through late spring — there's one explanation that's far more likely than any other. It's not "one raccoon got in." It's almost always a mother raccoon who has chosen your attic or chimney as a nursery, and she has kits with her. That single fact changes everything about what you can safely do next.</p>
 
 <figure style="margin:28px 0;">
-  <img src="/images/baby-raccoons-macon-bibb.jpg" alt="Baby raccoons safely contained in a box after humane removal from a Macon-Bibb home by a licensed wildlife contractor." loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
+  <img src="/images/baby-raccoons-macon-bibb.webp" width="1200" height="1600" alt="Baby raccoons safely contained in a box after humane removal from a Macon-Bibb home by a licensed wildlife contractor." loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
   <figcaption style="font-size:0.88rem;color:#6b7280;margin-top:10px;text-align:center;font-style:italic;line-height:1.5;">Baby raccoons in a containment box on a Bibb County humane removal job.</figcaption>
 </figure>
 
@@ -194,7 +194,7 @@ const BLOG_POSTS = [
 <p class="lead">Armadillos weren't part of the Newnan job mix when I started in this work. They've shown up in the past decade. In 11 years across north Georgia, I've watched the nine-banded armadillo (<em>Dasypus novemcinctus</em>) push steadily northward into Coweta and the surrounding suburban-and-rural counties — and Newnan is now firmly inside the established range. If you're a Newnan homeowner staring at strange cone-shaped holes in your lawn, or you've noticed your foundation plantings rooted up overnight, there's a very good chance an armadillo is the cause. This is the licensed-contractor version of what's happening, what to do about it, and why DIY armadillo removal almost always fails.</p>
 
 <figure style="margin:28px 0;">
-  <img src="/images/armadillo-newnan-ga.jpg" alt="Nine-banded armadillo (Dasypus novemcinctus) caught in a humane live trap during a Newnan, GA armadillo removal job — Local Wildlife Experts" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
+  <img src="/images/armadillo-newnan-ga.webp" width="1920" height="1023" alt="Nine-banded armadillo (Dasypus novemcinctus) caught in a humane live trap during a Newnan, GA armadillo removal job — Local Wildlife Experts" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
   <figcaption style="font-size:0.88rem;color:#6b7280;margin-top:10px;text-align:center;font-style:italic;line-height:1.5;">A nine-banded armadillo (<em>Dasypus novemcinctus</em>) caught in a humane live trap during a Local Wildlife Experts removal job in Newnan, GA. All handling uses PPE per the <em>Mycobacterium leprae</em> protocols covered later in this post.</figcaption>
 </figure>
 
@@ -280,7 +280,7 @@ const BLOG_POSTS = [
 <p>I've been doing wildlife work across north Georgia for 11 years, and Fayette County is part of that coverage. Local Wildlife Experts is our family business, and from February through May — then again August through October — squirrel calls fill the schedule. What you do in the next few days after you start hearing them matters. A lot of homeowners get it wrong, and it costs them.</p>
 
 <figure style="margin:28px 0;">
-  <img src="/images/baby-squirrels-fayetteville.jpg" alt="Two juvenile Eastern gray squirrels safely caught in a humane live trap during baby squirrel season — Local Wildlife Experts removal in Fayetteville, GA" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
+  <img src="/images/baby-squirrels-fayetteville.webp" width="1920" height="1080" alt="Two juvenile Eastern gray squirrels safely caught in a humane live trap during baby squirrel season — Local Wildlife Experts removal in Fayetteville, GA" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
   <figcaption style="font-size:0.88rem;color:#6b7280;margin-top:10px;text-align:center;font-style:italic;line-height:1.5;">Two juvenile Eastern gray squirrels (<em>Sciurus carolinensis</em>) in a humane live trap from a Fayetteville baby squirrel removal — both released back to suitable wild habitat once the family was safely excluded from the homeowner's attic.</figcaption>
 </figure>
 
@@ -373,7 +373,7 @@ const BLOG_POSTS = [
 <p>This post is the version of the bat conversation I have with homeowners who call us. There are a lot of bad articles online about how to "get rid of bats," and most of them are wrong in ways that can make the situation worse. Below is the licensed-contractor version: how bats actually get into Douglasville homes, why timing is the single biggest variable, and what proper exclusion looks like.</p>
 
 <figure style="margin:28px 0;">
-  <img src="/images/big-brown-bat-douglasville.jpg" alt="Big brown bat (Eptesicus fuscus) safely handled with a leather work glove during a Douglasville bat exclusion job — wings fully extended, showing the species' forearm structure" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
+  <img src="/images/big-brown-bat-douglasville.webp" width="1440" height="1920" alt="Big brown bat (Eptesicus fuscus) safely handled with a leather work glove during a Douglasville bat exclusion job — wings fully extended, showing the species' forearm structure" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
   <figcaption style="font-size:0.88rem;color:#6b7280;margin-top:10px;text-align:center;font-style:italic;line-height:1.5;">A big brown bat (<em>Eptesicus fuscus</em>) from a recent Douglasville bat removal — handled with proper leather protective gloves and released to suitable wild habitat once the colony had been excluded from the homeowner's structure.</figcaption>
 </figure>
 
@@ -1039,7 +1039,7 @@ const BLOG_POSTS = [
 <p class="lead">Late May in Warner Robins is the highest-call-volume window of the year for raccoons in attics. Female raccoons denned in February, kits are now five to ten weeks old, and the noise is starting to push Wellston, Pleasant Hill, Lake Joy, and northern Warner Robins homeowners to pick up the phone. The Robins AFB buffer on the south side of the city is one of the largest contiguous wildlife source habitats in middle Georgia, and the post-WWII housing inventory north of the base gives raccoons exactly the entry points they need. Here is what is going on, why your specific house is the way it is, and what the path to actually solving it looks like.</p>
 
 <figure style="margin:28px 0;">
-  <img src="/images/hero3.jpg" alt="Two raccoons on a residential roofline — Warner Robins GA Wellston Pleasant Hill kit-season raccoon removal" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
+  <img src="/images/hero3.webp" width="1920" height="1316" alt="Two raccoons on a residential roofline — Warner Robins GA Wellston Pleasant Hill kit-season raccoon removal" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
   <figcaption style="font-size:0.88rem;color:#6b7280;margin-top:10px;text-align:center;font-style:italic;line-height:1.5;">A mother raccoon and her kit on residential brick. Warner Robins raccoons typically enter attics via gable louvers, soffit corners, or attic-fan housings rather than chimneys — but the underlying biology and the late-May timing are the same.</figcaption>
 </figure>
 

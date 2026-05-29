@@ -726,7 +726,7 @@ function georgiaContent(countyName, county, s) {
     metaHook = `historic-home & chimney bat specialists.`;
     heroIntro = `Wildlife removal in Bibb County, Georgia is shaped by the Fall Line ecological transition where Piedmont and Coastal Plain wildlife mix — pre-1860 antebellum chimneys host 50–100+ year bat colonies and the Ocmulgee corridor delivers year-round raccoon pressure. Local, licensed Macon-Bibb contractors with same-day inspection.`;
     heroImage = {
-      src: '/images/baby-raccoons-macon-bibb.jpg',
+      src: '/images/baby-raccoons-macon-bibb.webp',
       alt: 'Wildlife removal in Bibb County — baby raccoons safely extracted from a Macon attic during spring whelping season by a licensed contractor',
       width: 1200,
       height: 1600,
@@ -1797,7 +1797,7 @@ function georgiaContent(countyName, county, s) {
     ogTitle = `Wildlife Removal Butts County GA | Jackson & Beyond`;
     metaDescription = `Licensed Jackson wildlife removal across Butts County, GA. Raccoons, bats, snakes, full exclusion. Same-day service.`;
     heroImage = {
-      src: '/images/hero8.jpg',
+      src: '/images/hero8.webp',
       alt: 'Wildlife removal in Butts County, Georgia — licensed Jackson-area contractor serving Lake Jackson lakefront and pre-1900 historic-downtown properties',
       width: 1440,
       height: 1920,
@@ -2109,7 +2109,7 @@ function georgiaContent(countyName, county, s) {
     metaTitle = `Spalding County Wildlife Removal, GA | Griffin Same-Day`;
     metaDescription = `Licensed Griffin wildlife removal across Spalding County, GA. Pre-1900 historic-downtown bat exclusion, UGA Griffin Campus raccoon work, US 19/41 corridor rats.`;
     heroImage = {
-      src: '/images/hero8.jpg',
+      src: '/images/hero8.webp',
       alt: 'Wildlife removal in Spalding County, Georgia — licensed Griffin-area contractor serving the Griffin Commercial Historic District, UGA Griffin Campus, Sunny Side, and Orchard Hill',
       width: 1440,
       height: 1920,
