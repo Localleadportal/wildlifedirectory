@@ -27,6 +27,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <%- include('_ga') %>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <%# title/description/og/twitter emitted unescaped (raw) so a literal ampersand renders as "&" rather than the "&amp;" produced by HTML-escaping — mirrors county.ejs. Safe: county-animal metaTitles/metaDescriptions contain no double-quotes. %>
