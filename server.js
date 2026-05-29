@@ -114,6 +114,21 @@ async function isStateIndexable(stateName) {
   return _permanentStates.has(stateName);
 }
 
+// Canonical-host redirect: send every non-www request (apex domain, any path,
+// query string preserved) to its https://www equivalent with a 301. This runs
+// before static assets and all routes so the redirect covers the entire site,
+// not just the root — a DNS/host-level rule that only rewrote "/" would leave
+// deep links like /georgia/bibb/ on the apex host and split link equity.
+const CANONICAL_HOST = 'www.removewildlifenow.com';
+app.set('trust proxy', true);
+app.use((req, res, next) => {
+  const host = (req.headers.host || '').toLowerCase();
+  if (host && host !== CANONICAL_HOST && host.replace(/^www\./, '') === 'removewildlifenow.com') {
+    return res.redirect(301, `https://${CANONICAL_HOST}${req.originalUrl}`);
+  }
+  next();
+});
+
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
@@ -224,6 +239,12 @@ app.get('/list-your-business/', (req, res) => {
   res.render('list-your-business');
 });
 app.get('/list-your-business', (req, res) => res.redirect(301, '/list-your-business/'));
+
+// Privacy Policy — static legal page. Must be before /:stateSlug/ wildcard.
+app.get('/privacy-policy/', (req, res) => {
+  res.render('privacy-policy');
+});
+app.get('/privacy-policy', (req, res) => res.redirect(301, '/privacy-policy/'));
 
 // Contact page — must be before /:stateSlug/ wildcard
 app.get('/contact/', (req, res) => {
