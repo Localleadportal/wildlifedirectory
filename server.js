@@ -246,6 +246,12 @@ app.get('/privacy-policy/', (req, res) => {
 });
 app.get('/privacy-policy', (req, res) => res.redirect(301, '/privacy-policy/'));
 
+// Terms of Service — static legal page. Must be before /:stateSlug/ wildcard.
+app.get('/terms-of-service/', (req, res) => {
+  res.render('terms-of-service');
+});
+app.get('/terms-of-service', (req, res) => res.redirect(301, '/terms-of-service/'));
+
 // Contact page — must be before /:stateSlug/ wildcard
 app.get('/contact/', (req, res) => {
   res.render('contact', {
