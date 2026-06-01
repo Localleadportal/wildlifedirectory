@@ -255,6 +255,9 @@
     "raccoon-removal": {
       "metaTitle": "Raccoon Removal in Adairsville, GA | Wooded Subdivision Pros",
       "metaDescription": "Licensed raccoon removal in Adairsville, GA. Pumpkinvine Creek corridor attic exclusion, historic downtown coverage. Same-day humane service. Call now.",
+      "skipGenericFaqs": true,
+      "costRangeOverride": "$400–$1,300+",
+      "costNoteOverride": "Includes trapping plus full attic exclusion and sanitation. Newer Hall Station Road and Hwy 140 subdivisions with a single entry point land at the low end ($400–$700+); pre-1900 historic-downtown homes near the Adairsville Train Depot routinely need 4–5 entry points sealed and run $1,000–$1,800+. Properties backing up to Pumpkinvine Creek or the Gordon County ridgelines may need wider perimeter exclusion.",
       "geo": {
         "lat": 34.369,
         "lon": -84.9343
@@ -307,6 +310,22 @@
         {
           "q": "When can I evict raccoons from my Adairsville attic?",
           "a": "Female raccoons in Bartow County whelp <strong>late February through early May</strong>, and kits are immobile and dependent until roughly 8-10 weeks of age. Performing exclusion during that window risks separating mother from kits and trapping kits inside the structure. Right approach during kit season is one-way doors that let the family exit but not re-enter, deployed once kits are mobile. Inspections and entry-point identification can happen any time of year."
+        },
+        {
+          "q": "Does homeowners insurance cover raccoon damage in Adairsville?",
+          "a": "In Adairsville the answer usually tracks housing era. On the pre-1900 historic-downtown homes near the Train Depot, insurers often treat raccoon entry through aged wood soffits, original gable louvers, or an uncapped masonry chimney as long-term wear, which most Georgia policies exclude. On the newer Hall Station Road and Hwy 140 subdivisions, a freshly torn soffit or chewed vinyl fascia is more likely to qualify as sudden accidental damage. Either way, Georgia policies almost never cover the trapping or exclusion work itself — only the resulting structural damage, if anything. We document every entry point and the interior contamination with photos and a written scope so you can file an Adairsville claim cleanly."
+        },
+        {
+          "q": "Are raccoons in my Adairsville attic dangerous to my family?",
+          "a": "Yes. The raccoons dispersing off the Pumpkinvine Creek corridor and the Bartow-Gordon ridgelines into Adairsville attics are a primary regional rabies carrier, and they shed <em>Baylisascaris procyonis</em> (raccoon roundworm) in the latrines they establish in attic insulation. Those eggs stay infectious to people and pets long after the animal leaves, which is why Adairsville attic jobs include sanitation and contaminated-insulation removal — not just trapping. Keep children and pets out of any room below an active attic latrine until it has been professionally cleaned."
+        },
+        {
+          "q": "What time of year are raccoons worst in Adairsville?",
+          "a": "Adairsville sees two annual peaks. The first is late-winter denning, late February through April, when females move into attics and chimneys to whelp — concentrated in the pre-1900 downtown housing with uncapped masonry chimneys. The second is fall juvenile dispersal, September through November, when raccoons coming off the Pumpkinvine Creek corridor and the wooded Bartow-Gordon ridgelines test entry points across the closer subdivisions. The best time for a preventive inspection is late summer, just before that fall dispersal pressure arrives."
+        },
+        {
+          "q": "Can I trap and relocate a raccoon myself in Adairsville?",
+          "a": "Not legally without the right credentials. Commercial raccoon trapping in Adairsville falls under <strong>Georgia DNR Wildlife Resources Division Region 1</strong>, and Georgia restricts how nuisance raccoons may be relocated — DIY relocation carries both a legal and a rabies-exposure risk. It also fails in practice here: most Adairsville historic-downtown jobs identify 4-5 separate entry points, so trapping one animal without sealing the structure simply leaves the door open for the next raccoon off the creek corridor. A licensed contractor handles the trapping, Region 1 compliance, and the full exclusion as one job."
         }
       ]
     },

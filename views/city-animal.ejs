@@ -121,6 +121,9 @@
     const _schemaName  = _bizOverride.name || _companyName || (animal.name + " in " + cityName);
     const _schemaPhone = _bizOverride.telephone || _phone;
     const _schemaGeo   = _bizOverride.geo || (cityAnimalContent && cityAnimalContent.geo) || null;
+    // priceRange mirrors the visible cost section: per-page override first, then
+    // the animal's default costRange. Data-driven so every page emits its own.
+    const _priceRange  = _bizOverride.priceRange || (cityAnimalContent && cityAnimalContent.costRangeOverride) || animal.costRange || null;
   %>
   <script type="application/ld+json">
   <%- JSON.stringify({
@@ -137,6 +140,7 @@
       { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
     ],
     "serviceType": animal.name,
+    ...(_priceRange ? { "priceRange": _priceRange } : {}),
     "openingHours": "Mo-Su 00:00-23:59",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",

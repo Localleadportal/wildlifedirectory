@@ -20,6 +20,14 @@ const { getContractor } = require('./lib/contractor');
 const { formatPhone, toTitleCase, normalizeStateRegion, normalizeUrl } = require('./lib/format');
 
 const app = express();
+// Strict routing so "/path" and "/path/" are distinct: the canonical form is
+// always trailing-slash, and the no-slash variants below 301-redirect to it.
+// Without this, Express treats "/foo" and "/foo/" as the same route, so a deep
+// URL like /…/raccoon-removal (no slash) renders 200 while its canonical tag
+// points to the trailing-slash version — two indexable URLs for one page.
+// MUST be set before the first app.use()/route below, because Express locks in
+// the router's strict-routing flag the first time the router is initialized.
+app.enable('strict routing');
 // Format helpers exposed to every EJS template via app.locals so contractor
 // data from LeadPortal (E.164 phone, mixed-case addresses, full state names,
 // bare-domain URLs) renders correctly without each template re-inlining the
@@ -260,6 +268,7 @@ app.get('/contact/', (req, res) => {
     state: req.query.state || ''
   });
 });
+app.get('/contact', (req, res) => res.redirect(301, '/contact/'));
 
 // National per-animal landing pages — /services/{animal-slug}/
 // Must be defined before /:stateSlug/ to take precedence over state route
