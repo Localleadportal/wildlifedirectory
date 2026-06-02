@@ -63,5 +63,9 @@
   ],
   "states": [
     "Georgia"
+  ],
+  "_stateAnimalsComment": "State-level animal pages (/state/{animal}-removal/), keyed 'State|animal-slug'. A page is indexable only if listed here AND data/stateAnimalContent.js has authored content (with extendedBody) for the pair. Same rules as the rest of this file: append, commit, redeploy; leave entries in place once added.",
+  "stateAnimals": [
+    "Georgia|raccoon-removal"
   ]
 }

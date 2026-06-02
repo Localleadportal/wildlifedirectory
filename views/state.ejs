@@ -105,6 +105,24 @@
   </div>
 </section>` : '';
 
+  // Localized down-links to the state-level animal pages (e.g. "Georgia Raccoon
+  // Removal"). Only indexable state-animal pages are passed in, so this never
+  // bleeds equity into noindex pages. Hidden entirely until at least one exists.
+  const animalLinks = (typeof stateAnimalLinks !== 'undefined' && stateAnimalLinks) ? stateAnimalLinks : [];
+  const serviceLinksHtml = animalLinks.length
+    ? `
+<section class="counties-section" style="background:var(--green-light);border-top:1px solid var(--green-border);">
+  <div class="container">
+    <div class="section-header">
+      <h2>Wildlife Removal Services in ${stateName}</h2>
+      <p>Get state-specific help for the most common ${stateName} wildlife problems</p>
+    </div>
+    <ul class="counties-grid">
+      ${animalLinks.map(a => `<li><a href="/${slug}/${a.slug}/">${a.emoji} ${stateName} ${a.name}</a></li>`).join('')}
+    </ul>
+  </div>
+</section>` : '';
+
   const body = `
 <nav class="breadcrumb">
   <div class="container">
@@ -127,6 +145,7 @@
     </ul>
   </div>
 </section>
+${serviceLinksHtml}
 
 <section class="state-content">
   <div class="container">

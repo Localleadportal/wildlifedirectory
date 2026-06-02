@@ -14,6 +14,7 @@ const { getCountyContent } = require('./data/countyContent');
 const { getCityContent } = require('./data/cityContent');
 const { getCityAnimalContent } = require('./data/cityAnimalContent');
 const { getCountyAnimalContent } = require('./data/countyAnimalContent');
+const { getStateAnimalContent } = require('./data/stateAnimalContent');
 const { getNationalContent } = require('./data/animalNationalContent');
 const { getAllPosts, getPostBySlug } = require('./data/blogPosts');
 const { getContractor } = require('./lib/contractor');
@@ -69,6 +70,10 @@ const _permanentCounties = new Set(
   })
 );
 const _permanentStates = new Set(permanentlyIndexed.states || []);
+// State-level animal pages (/georgia/raccoon-removal/) are indexed manually,
+// keyed "ProperCaseState|animal-slug". A page stays noindex until its key is
+// listed here AND data/stateAnimalContent.js has authored content for the pair.
+const _permanentStateAnimals = new Set(permanentlyIndexed.stateAnimals || []);
 // Counties whose hub is indexable but whose city + city-animal pages should
 // stay noindex (typically because city-level content hasn't been authored yet).
 const _countyOnlyIndexCounties = new Set(
@@ -149,6 +154,31 @@ async function isCityIndexable(stateName, countyName, cityName, animalSlug) {
 async function isStateIndexable(stateName) {
   return _permanentStates.has(stateName);
 }
+async function isStateAnimalIndexable(stateName, animalSlug) {
+  // Manual gate AND authored content must both be present (no auto-indexing).
+  if (!_permanentStateAnimals.has(`${stateName}|${animalSlug}`)) return false;
+  const content = getStateAnimalContent(stateName, animalSlug);
+  return !!(content && content.extendedBody);
+}
+// Animals that have an indexable state-level page for this state — used to wire
+// the state hub's localized down-links ("Georgia Raccoon Removal").
+async function indexableStateAnimalsFor(stateName) {
+  const out = [];
+  for (const a of ANIMALS) {
+    if (await isStateAnimalIndexable(stateName, a.slug)) out.push(a);
+  }
+  return out;
+}
+// States that have an indexable state-level page for this animal — used to wire
+// the national animal page's down-links to its state versions.
+async function indexableStatesForAnimal(animalSlug) {
+  const out = new Set();
+  for (const key of _permanentStateAnimals) {
+    const [state, slug] = key.split('|');
+    if (slug === animalSlug && await isStateAnimalIndexable(state, slug)) out.add(state);
+  }
+  return out;
+}
 
 // Canonical-host redirect: send every non-www request (apex domain, any path,
 // query string preserved) to its https://www equivalent with a 301. This runs
@@ -205,6 +235,14 @@ app.get('/sitemap.xml', async (req, res) => {
   // Manually-marked indexable states and counties
   _permanentStates.forEach(state => {
     urls.push(`${BASE}/${toSlug(state)}/`);
+  });
+
+  // State-level animal pages (/georgia/raccoon-removal/) — only those gated
+  // indexable AND backed by authored content (mirrors isStateAnimalIndexable).
+  _permanentStateAnimals.forEach(key => {
+    const [state, slug] = key.split('|');
+    const content = getStateAnimalContent(state, slug);
+    if (content && content.extendedBody) urls.push(`${BASE}/${toSlug(state)}/${slug}/`);
   });
 
   _permanentCounties.forEach(key => {
@@ -303,13 +341,16 @@ app.get('/contact', (req, res) => res.redirect(301, '/contact/'));
 
 // National per-animal landing pages — /services/{animal-slug}/
 // Must be defined before /:stateSlug/ to take precedence over state route
-app.get('/services/:animalSlug/', (req, res) => {
+app.get('/services/:animalSlug/', async (req, res) => {
   const animal = getAnimalBySlug(req.params.animalSlug);
   if (!animal) return res.status(404).render('404', { message: 'Service not found.' });
   const content = getNationalContent(req.params.animalSlug);
   if (!content) return res.status(404).render('404', { message: 'National content not yet available for this service.' });
   const states = Object.keys(statesAndCounties);
-  res.render('animal-national', { animal, content, states, toSlug, ANIMALS });
+  // States that have an indexable state-animal page for THIS animal — those links
+  // point down to /{state}/{animal}/ with localized anchors instead of the hub.
+  const stateAnimalIndexed = await indexableStatesForAnimal(req.params.animalSlug);
+  res.render('animal-national', { animal, content, states, toSlug, ANIMALS, stateAnimalIndexed });
 });
 
 // Trailing-slash redirect for /services/{animal}
@@ -339,13 +380,39 @@ app.get('/:stateSlug/', async (req, res) => {
   const counties = statesAndCounties[stateName];
   const stateInfo = stateContent[stateName] || null;
   const indexable = await isStateIndexable(stateName);
-  res.render('state', { stateName, counties, stateInfo, toSlug, indexable });
+  // Localized down-links to the indexable state-animal pages ("Georgia Raccoon Removal").
+  const stateAnimalLinks = await indexableStateAnimalsFor(stateName);
+  res.render('state', { stateName, counties, stateInfo, toSlug, indexable, stateAnimalLinks, ANIMALS });
 });
 
-// County page — /georgia/cobb-county/
+// County page — /georgia/cobb-county/  (also dispatches the state-animal page,
+// /georgia/raccoon-removal/, which shares the /:stateSlug/:segment/ shape).
 app.get('/:stateSlug/:countySlug/', async (req, res) => {
   const stateName = stateSlugToName(req.params.stateSlug);
   if (!stateName) return res.status(404).render('404', { message: 'State not found.' });
+
+  // State-animal page — second segment is an animal slug (e.g. /georgia/raccoon-removal/).
+  // Dispatched here, before the county lookup, mirroring the county-animal/city
+  // dispatch one level deeper at /:stateSlug/:countySlug/:segment/.
+  if (ANIMAL_SLUGS.has(req.params.countySlug)) {
+    const animalSlug = req.params.countySlug;
+    const animal = getAnimalBySlug(animalSlug);
+    const stateInfo = stateContent[stateName] || null;
+    const stateAnimalContent = getStateAnimalContent(stateName, animalSlug);
+    const animalRegionNote = getAnimalRegionContent(stateName, animalSlug);
+    const indexable = await isStateAnimalIndexable(stateName, animalSlug);
+    // Down-links: only indexable county-animal pages, with localized anchors.
+    const countyLinks = [];
+    for (const c of (statesAndCounties[stateName] || [])) {
+      if (await isCountyAnimalIndexable(stateName, c, animalSlug)) {
+        countyLinks.push({ name: c, slug: toSlug(c) });
+      }
+    }
+    return res.render('state-animal', {
+      stateName, animal, stateInfo, stateAnimalContent, animalRegionNote,
+      indexable, countyLinks, stateSlug: req.params.stateSlug, toSlug, ANIMALS
+    });
+  }
 
   const countyName = countySlugToName(req.params.stateSlug, req.params.countySlug);
   if (!countyName) return res.status(404).render('404', { message: 'County not found.' });
