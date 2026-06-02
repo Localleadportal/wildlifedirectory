@@ -77,6 +77,81 @@ const STATE_ANIMAL_CONTENT = {
           a: 'Raccoon removal in Georgia typically runs $200–$600+ for trapping and removal. If raccoons have been living in an attic, full remediation — cleanup, decontamination, insulation replacement, and entry-point sealing — generally adds $800–$2,500+ depending on colony size and damage. Contractors in our directory provide free property-specific estimates.'
         }
       ]
+    },
+    'squirrel-removal': {
+      metaTitle: 'Georgia Squirrel Removal | Licensed Local Trappers Statewide',
+      metaDescription: 'Squirrel removal in Georgia — licensed local trappers for attic squirrels, gray and fox squirrels, and chewed-wire repair. Georgia DNR-compliant, humane exclusion. Find help in your county.',
+      h1: 'Georgia Squirrel Removal',
+      heroSub: 'Connect with a licensed Georgia squirrel trapper for attic and roofline intrusions — humane one-way exclusion, steel entry sealing, and insulation repair. Local pros serving counties from metro Atlanta to the coast.',
+      leadParagraph: "Georgia's long, warm season is the single biggest reason squirrel problems here behave differently than they do up north. Where a northern homeowner mostly fights one cold-weather denning push, Georgia squirrels breed in <strong>two overlapping cycles</strong> — late winter and mid-to-late summer — and stay active every month of the year. That means attic intrusions, chewed soffits, and 5 a.m. ceiling scratching aren't a seasonal nuisance in Georgia; they're a near year-round one. Pressure also shifts sharply across the state: metro Atlanta's wooded subdivisions generate the heaviest call volume, the Piedmont and north Georgia mountains add older, easier-to-breach housing stock, and the Coastal Plain's humidity speeds up the wood rot that opens new entry points.",
+      extendedBody: `
+<h2>Gray vs. Fox Squirrels Across Georgia</h2>
+<p>Knowing which squirrel you're dealing with tells a Georgia contractor a lot about the job before the inspection even starts, and the species mix shifts with where you live in the state:</p>
+<ul class="wildlife-list">
+  <li><strong>Eastern gray squirrel</strong> — the default attic intruder across metro Atlanta and the Piedmont. Smaller and more agile, grays thrive wherever mature canopy bridges the gap to a roofline, which describes most of Georgia's older suburbs. They are responsible for the large majority of attic calls statewide.</li>
+  <li><strong>Fox squirrel</strong> — Georgia's largest tree squirrel, far more common in rural counties, pine-dominated stands, and the open Coastal Plain than in the dense metro core. A fox squirrel's size lets it widen an existing gable or soffit gap quickly, so rural-property jobs often involve bigger entry points and coarser damage.</li>
+  <li><strong>Southern flying squirrel</strong> — small, strictly nocturnal, and routinely mistaken for rats in older south-Georgia and intown housing. Because they are active at night and travel in colonies, a "rat in the attic" that scampers only after dark is frequently a flying-squirrel group instead — a misdiagnosis that wastes money on the wrong treatment.</li>
+</ul>
+<p>A licensed Georgia trapper confirms the species first, because the right entry-hole size, exclusion-door type, and sealing approach all change depending on whether you have one agile gray, a heavy-bodied fox squirrel, or a colony of flyers.</p>
+
+<h2>Are Squirrels Protected in Georgia? Georgia DNR Rules &amp; Permits</h2>
+<p>Gray and fox squirrels are classified as <strong>game animals</strong> in Georgia, not unprotected pests, with a regulated hunting season that runs roughly mid-August through the end of February and a daily bag limit. That status matters for homeowners in two ways. First, you generally can address squirrels actively damaging your own property, but Georgia DNR's Wildlife Resources Division regulates how it's done. Second — and this trips up most DIY attempts — <strong>relocating or releasing a trapped squirrel elsewhere typically requires a state permit</strong>; you cannot legally box one up and drop it at a park across town. Georgia also restricts squirrels (gray, fox, and flying) from being kept, so "catch and keep" is off the table too.</p>
+<p>For that reason, Georgia law requires any company that traps, removes, or controls nuisance wildlife to hold a <strong>Nuisance Wildlife Control Operator (NWCO) permit</strong> from the DNR — a standard pest-control license is not enough. Every contractor in our directory holds the required Georgia credentials and works within DNR rules. One useful distinction from raccoons and bats: squirrels are <strong>not a rabies-vector species</strong>, so they don't carry the heavy rabies-protocol handling raccoons do — but the permitting, humane-method, and no-illegal-relocation rules still fully apply.</p>
+
+<h2>Georgia's Long Breeding Season — Why Intrusions Run Nearly Year-Round</h2>
+<p>In Georgia's climate, squirrels produce <strong>two litters a year</strong>, with newborns most common around February–March and again in July–August. Because the warm season is so long here, those cycles blur together and there is no true "off" period the way northern states get — which is exactly why Georgia attic-squirrel calls arrive in every month, not just one cold stretch. It also makes <strong>timing the eviction</strong> the critical skill on a Georgia job. Sealing a structure while a female is nursing a hidden litter walls the young inside, where they die and create an odor-and-fly callback within days. Georgia's most reliable gaps for safe one-way exclusion fall in <strong>late spring (after the first litter disperses)</strong> and <strong>mid-to-late fall (after the summer litter is mobile)</strong>. Inspections and entry-point mapping can happen any time; only the sealing step has to be timed around the litters.</p>
+
+<h2>How Georgia Homes Let Squirrels In</h2>
+<p>Georgia's housing stock has a few recurring weak points that squirrels exploit, and they differ from the northern building types national guides tend to describe:</p>
+<ul class="wildlife-list">
+  <li><strong>Brick-ranch soffit returns and boxed eaves</strong> — extremely common in mid-century Atlanta, Macon, and Columbus suburbs, these corners loosen with age and give squirrels a sheltered chew point.</li>
+  <li><strong>Gable and ridge vents with thin or damaged screening</strong> — a standard roofline feature on Georgia homes and one of the most frequent true entry points.</li>
+  <li><strong>Construction gaps where dormers, additions, and rooflines meet</strong> — abundant in metro Atlanta's fast-built subdivisions, where two roof planes join imperfectly.</li>
+  <li><strong>Humidity-rotted fascia and wooden trim</strong> — Georgia's heat and moisture, especially in the Coastal Plain and around Savannah, soften wood faster, and a squirrel only needs a finger-width of soft fascia to start an opening.</li>
+  <li><strong>Mature-tree bridges</strong> — overhanging hardwood limbs across Georgia's tree-canopied lots are the highway onto the roof in the first place; trimming them back is part of any durable fix.</li>
+</ul>
+<p>A squirrel needs an opening barely over an inch wide to get in, so a thorough Georgia inspection checks the entire roofline, not just the obvious hole.</p>
+
+<h2>What Drives Squirrel Removal Cost in Georgia</h2>
+<p>Statewide, most Georgia squirrel jobs land within the range shown below, but where you are in the state moves the number. <strong>Metro Atlanta</strong> tends to run a little higher — denser tree cover means more entry points per home and more competition for skilled, DNR-permitted operators — while <strong>rural and small-town Georgia</strong> jobs are often simpler single-entry trap-and-seal visits but can swing upward when a large fox squirrel has opened serious structural damage. The biggest cost drivers anywhere in Georgia are the number of entry points, whether a nesting female and litter are present, and how much chewed insulation, wood, or wiring has to be repaired after the animals are out. Reputable Georgia contractors quote after a property-specific inspection rather than over the phone.</p>
+
+<h2>Why It Pays to Act Fast in Georgia</h2>
+<p>Georgia's conditions reward quick action more than a cooler climate would. The near-continuous breeding season means a lone squirrel can become a nesting female with a litter in a matter of weeks, turning a simple eviction into a multi-animal exclusion. The state's heat and humidity also accelerate the damage — chewed openings let in moisture that rots framing and ruins insulation faster here than up north. And squirrels gnaw constantly to manage their teeth, so chewed electrical wiring (a recognized fire risk, particularly in Georgia's older Atlanta and Piedmont housing) becomes more likely the longer they stay. Getting a licensed Georgia pro out early keeps a roofline nuisance from becoming a structural and safety problem.</p>
+`,
+      faqs: [
+        {
+          q: 'How much does squirrel removal cost in Georgia?',
+          a: 'Most Georgia squirrel jobs fall within the range shown above. Metro Atlanta tends to run higher because heavy tree cover means more entry points per home, while rural single-entry jobs sit lower. The biggest cost drivers statewide are the number of openings, whether a nesting litter is present, and how much chewed insulation, wood, or wiring needs repair afterward.'
+        },
+        {
+          q: 'Are squirrels protected in Georgia?',
+          a: 'Gray and fox squirrels are classified as game animals in Georgia with a regulated hunting season and bag limit, not unprotected pests. You can address squirrels damaging your own property, but Georgia DNR regulates how — and relocating or releasing a trapped squirrel elsewhere generally requires a state permit. Companies that trap nuisance wildlife must hold a DNR Nuisance Wildlife Control Operator permit.'
+        },
+        {
+          q: 'How do I get squirrels out of my attic in Georgia?',
+          a: 'The standard Georgia method is one-way exclusion: a contractor maps every entry point, fits one-way doors that let squirrels leave but not return, then seals the openings with galvanized steel. Trapping supplements it when needed. Timing matters here — sealing while a female is nursing a hidden litter traps the young inside, so the eviction is scheduled around Georgia\'s breeding cycles.'
+        },
+        {
+          q: 'How long does squirrel removal take in Georgia?',
+          a: 'A typical Georgia job runs about one to two weeks from first call to final sealing. The one-way doors stay up for several days to confirm every squirrel has left, after which the contractor seals the openings permanently and handles repairs. Multi-entry homes or jobs that must wait for a litter to become mobile can take longer.'
+        },
+        {
+          q: 'Will squirrels come back after removal in Georgia?',
+          a: 'Not if the work is done properly. Trapping alone almost always fails in Georgia because the open entry holes simply invite the next squirrel — and with near year-round breeding, that happens fast. Durable results come from full exclusion: sealing every opening with steel and trimming back the overhanging limbs that bridge squirrels onto the roof in the first place.'
+        },
+        {
+          q: 'Is it legal to poison squirrels in Georgia?',
+          a: 'No. There is no rodenticide registered for use on tree squirrels, so putting out rat or mouse poison for them is an illegal off-label application — and it backfires anyway, since a squirrel that dies inside a wall causes a serious odor problem. Georgia handles squirrels through licensed live exclusion and trapping, not poison.'
+        },
+        {
+          q: 'Do I need to repair my attic after squirrel removal?',
+          a: 'Usually, yes. Squirrels foul and compress insulation, chew wood and wiring, and leave entry points open. A complete Georgia job restores damaged insulation, seals every opening with steel, and flags chewed wiring for a licensed electrician to inspect — important both for fire safety and for homeowners-insurance documentation in Georgia\'s older housing.'
+        },
+        {
+          q: 'Can I remove squirrels myself in Georgia?',
+          a: 'You can address squirrels on your own property, but DIY rarely works and carries legal pitfalls. Relocating a trapped squirrel generally requires a Georgia DNR permit, and trapping without sealing entry points just invites the next one. Most homeowners hire a licensed Nuisance Wildlife Control Operator who can evict, exclude, and repair in one DNR-compliant visit.'
+        }
+      ]
     }
   }
 };

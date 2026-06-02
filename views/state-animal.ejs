@@ -6,7 +6,6 @@
   const slug = toSlug(stateName);
   const pageUrl = `https://www.removewildlifenow.com/${slug}/${animal.slug}/`;
   const canonical = `/${slug}/${animal.slug}/`;
-  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
 
   const c = stateAnimalContent || {};
   const title = c.metaTitle || `${stateName} ${animal.name} | Licensed Local Contractors`;
@@ -23,6 +22,12 @@
     'bat-removal':      { src: '/images/bat-hero1.webp',      w: 1200, h: 1600 }
   };
   const hero = HERO_IMG[animal.slug] || null;
+
+  // Social-share image: use the animal's own hero (a real, on-topic photo) when one
+  // exists, falling back to the sitewide default only for animals without a hero.
+  const ogImage = hero
+    ? `https://www.removewildlifenow.com${hero.src}`
+    : 'https://www.removewildlifenow.com/images/og-default.jpg';
 
   const faqs = (c.faqs && c.faqs.length) ? c.faqs : [];
 
