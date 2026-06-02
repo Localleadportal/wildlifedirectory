@@ -1,0 +1,15 @@
+<%# Shared structured data for every location page: BreadcrumbList + Service
+    (+ FAQPage when a visible FAQ exists). NO LocalBusiness / address / geo /
+    review markup by design — this is a directory, not a physical business.
+    Builders live in lib/locationSchema.js, exposed via app.locals.
+    Expects: crumbs (array), pageUrl (string), service (opts object),
+             faqs (optional [{q,a}]). %>
+<%
+  const _bc  = breadcrumbSchema(crumbs, pageUrl);
+  const _svc = serviceSchema(service);
+  const _faq = (typeof faqs !== 'undefined') ? faqSchema(faqs) : null;
+%>
+<script type="application/ld+json"><%- JSON.stringify(_bc) %></script>
+<script type="application/ld+json"><%- JSON.stringify(_svc) %></script>
+<% if (_faq) { %><script type="application/ld+json"><%- JSON.stringify(_faq) %></script>
+<% } %>

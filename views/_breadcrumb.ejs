@@ -1,0 +1,8 @@
+<%# Shared visible breadcrumb. Rendered from the SAME `crumbs` array that feeds
+    the BreadcrumbList JSON-LD (views/_location-schema.ejs) so the two can never
+    drift. Items with a `url` link; the final (current-page) item is a <span>. %>
+<nav class="breadcrumb">
+  <div class="container">
+    <% crumbs.forEach(function(c, i){ %><% if (c.url) { %><a href="<%= c.url %>"><%= c.name %></a><% } else { %><span><%= c.name %></span><% } %><% if (i < crumbs.length - 1) { %> &rsaquo; <% } %><% }); %>
+  </div>
+</nav>

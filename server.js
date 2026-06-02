@@ -18,6 +18,7 @@ const { getNationalContent } = require('./data/animalNationalContent');
 const { getAllPosts, getPostBySlug } = require('./data/blogPosts');
 const { getContractor } = require('./lib/contractor');
 const { formatPhone, toTitleCase, normalizeStateRegion, normalizeUrl } = require('./lib/format');
+const { buildCrumbs, breadcrumbSchema, serviceSchema, faqSchema } = require('./lib/locationSchema');
 
 const app = express();
 // Strict routing so "/path" and "/path/" are distinct: the canonical form is
@@ -36,6 +37,12 @@ app.locals.formatPhone = formatPhone;
 app.locals.toTitleCase = toTitleCase;
 app.locals.normalizeStateRegion = normalizeStateRegion;
 app.locals.normalizeUrl = normalizeUrl;
+// Shared structured-data builders, available to every template + partial so the
+// schema lives in one place (lib/locationSchema.js) instead of inline per page.
+app.locals.buildCrumbs = buildCrumbs;
+app.locals.breadcrumbSchema = breadcrumbSchema;
+app.locals.serviceSchema = serviceSchema;
+app.locals.faqSchema = faqSchema;
 const PORT = process.env.PORT || 3000;
 const LEAD_PORTAL = 'https://localleadportal-production.up.railway.app';
 const SERVICE_TYPE = 'Wildlife Removal';
@@ -79,6 +86,27 @@ const _hubOnlyIndexCounties = new Set(
     return `${state}|${(county || '').toLowerCase()}`;
   })
 );
+
+// Cities that physically straddle two indexed counties produce two URL paths
+// for the same place (e.g. Austell in both Cobb and Douglas). Both render
+// near-identical content and compete for the same query. Keyed by
+// "stateSlug|citySlug" → the primary county's slug; pages under the secondary
+// county canonicalize to the primary so Google consolidates the ranking signal
+// onto one URL. The primary is the county with the fuller content / larger
+// share of the city.
+const CITY_CANONICAL_COUNTY = {
+  'georgia|austell': 'cobb-county',       // also served under douglas-county
+  'georgia|villa-rica': 'carroll-county', // also served under douglas-county
+};
+// Returns the canonical URL for a city or city-animal page, redirecting the
+// canonical to the primary county when the city is a known cross-county
+// duplicate. animalSlug is optional (omit for the bare city hub).
+function cityCanonicalUrl(stateSlug, countySlug, citySlug, animalSlug) {
+  const primary = CITY_CANONICAL_COUNTY[`${stateSlug}|${citySlug}`];
+  const slug = primary || countySlug;
+  return `https://www.removewildlifenow.com/${stateSlug}/${slug}/${citySlug}/` +
+    (animalSlug ? `${animalSlug}/` : '');
+}
 
 async function isCountyIndexable(stateName, countyName) {
   const key = `${stateName}|${apiCounty(countyName).toLowerCase()}`;
@@ -220,7 +248,10 @@ app.get('/sitemap.xml', async (req, res) => {
         const citySlug = toSlug(city);
         if (selectiveMode) {
           const cAnimal = getCityAnimalContent(state, fullCounty, city, a.slug);
-          if (!cAnimal || !cAnimal.extendedBody) return;
+          // Mirror isCityIndexable: a holdNoindex page is served noindex, so it
+          // must not appear in the sitemap (a submitted noindex URL is a GSC
+          // "Submitted URL marked noindex" error and wastes crawl trust).
+          if (!cAnimal || !cAnimal.extendedBody || cAnimal.holdNoindex) return;
         }
         urls.push(`${BASE}/${stateSlug}/${countySlug}/${citySlug}/${a.slug}/`);
       });
@@ -425,6 +456,7 @@ app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
       stateName, countyName, cityName, stateInfo, embedScript, cityContent, countyContent,
       cities: getCitiesForCounty(stateName, countyName),
       indexable,
+      canonicalUrl: cityCanonicalUrl(req.params.stateSlug, req.params.countySlug, seg),
       stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: seg, toSlug, ANIMALS
     });
   }
@@ -463,6 +495,7 @@ app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug/', async (req, res) => {
     indexable,
     faqs: getAnimalFaqs(req.params.animalSlug, { countyName, cityName, stateName, stateInfo }),
     seasonal: _seasonalOverride || _baseSeasonal,
+    canonicalUrl: cityCanonicalUrl(req.params.stateSlug, req.params.countySlug, req.params.citySlug, req.params.animalSlug),
     stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: req.params.citySlug, toSlug, ANIMALS
   });
 });

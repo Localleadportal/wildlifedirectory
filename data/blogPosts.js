@@ -814,7 +814,7 @@ const BLOG_POSTS = [
     metaDescription: 'Fulton County bat-in-attic guide — Atlanta, Buckhead, Sandy Springs. Histoplasmosis + rabies risk, GA exclusion calendar, $1,500-$6,000 cost.',
     excerpt: 'A Fulton County–specific guide to bats in the attic — why Atlanta historic homes have the metro\'s oldest colonies, what the Georgia exclusion calendar requires, what removal actually costs in 2026, and what to do tonight if a bat is in your living space.',
     datePublished: '2026-05-03',
-    dateModified: '2026-05-03',
+    dateModified: '2026-06-01',
     author: 'Brandon Turley',
     authorBio: 'Brandon Turley is the owner and lead technician at Total Animal Control, a licensed wildlife removal operation serving Fulton County and the broader Atlanta metro. Licensed under Georgia DNR Wildlife Resources Division, he has handled hundreds of bat exclusion jobs across Atlanta historic, Sandy Springs Chattahoochee corridor, Roswell mill village, and north-Fulton subdivision properties.',
     category: 'Local Guides',
@@ -877,18 +877,18 @@ const BLOG_POSTS = [
 <p>Professional decontamination uses HEPA equipment and proper PPE (P100 respirator, full-body coverage, EPA-registered antimicrobial application). <strong>DIY cleanup of established Atlanta historic-home guano deposits is genuinely hazardous</strong> — particularly for children, elderly residents, immunocompromised individuals, and anyone with chronic lung conditions. Pulmonary histoplasmosis from disturbed Atlanta attic guano is documented in Fulton ER admissions.</p>
 
 <h2>The Georgia Bat Exclusion Calendar — Why Timing Is Everything</h2>
-<p>This is the single most important fact about bats in Fulton County: <strong>you can't legally exclude them whenever you want</strong>. Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season because non-flying pups would be trapped inside the structure to die.</p>
+<p>This is the single most important fact about bats in Fulton County: <strong>you can't just evict them whenever you want</strong>. Georgia DNR Wildlife Resources Division guidance is built around the maternity season, when females are raising flightless pups — seal the adults out then and the pups starve inside the wall or chimney, which is both inhumane and turns a clean exclusion into a decomposition-and-odor problem. The point is that the work is timed to the colony's biology and current DNR guidance, not that it's a year-round free-for-all.</p>
 
-<h3>The Two Safe Exclusion Windows</h3>
+<h3>The Preferred Exclusion Windows</h3>
 <ul>
   <li><strong>April</strong> — before maternity-season activity peaks. Bats are active but pups have not yet been born.</li>
   <li><strong>September through mid-October</strong> — after pups are flying and the colony is dispersing toward winter hibernation habitat.</li>
 </ul>
 
-<h3>The Restricted Window</h3>
-<p><strong>May through August</strong> is maternity season. Excluding adult bats during these months traps non-flying pups inside the structure — a guaranteed dead-animal callback within 1-2 weeks plus the legal violation of harming protected wildlife. Inspection, planning, and entry-point identification can happen any time of year — only the actual one-way-valve installation is calendar-restricted.</p>
+<h3>The Window to Avoid</h3>
+<p><strong>Roughly May through August</strong> is maternity season. Excluding adult bats during these months traps non-flying pups inside the structure — a near-guaranteed dead-animal callback within 1-2 weeks. Georgia DNR recommends against exclusion during this window rather than imposing a flat year-round ban; a licensed Nuisance Wildlife Control Operator may perform necessary work during it when a situation requires, timed carefully to avoid trapping pups. Either way, inspection, planning, and entry-point identification can happen any time of year — only the one-way-valve installation is calendar-sensitive. If anyone offers to simply "get rid of your bats" on the spot in the middle of summer, that's a red flag.</p>
 
-<p>Trapping bats is essentially banned in Georgia. All Fulton bat exclusion uses one-way valves at entry points — bats exit to feed and cannot re-enter. Tricolored bat encounters along the Chattahoochee corridor require additional federal-status protocol because the species is proposed for ESA listing.</p>
+<p>Trapping is not a permitted method for bats in Georgia — all Fulton bat work uses one-way valves at entry points, so bats exit to feed and cannot re-enter. Tricolored bat encounters along the Chattahoochee corridor require additional federal-status protocol because the species is proposed for ESA listing.</p>
 
 <h2>What Bat Removal Costs in Fulton County in 2026</h2>
 <p>Most Fulton bat removal jobs run <strong>$1,500 to $4,000</strong>. Atlanta intown pre-1940 historic-district colonies — particularly long-established chimney roosts in Buckhead, West End, and Cabbagetown — frequently run $2,500-$6,000+ once full guano remediation is included.</p>
@@ -932,7 +932,7 @@ const BLOG_POSTS = [
 <p>Three reasons Fulton homeowners should not attempt DIY bat removal:</p>
 
 <ul>
-  <li><strong>It's legally restricted.</strong> Georgia DNR regulations restrict exclusion during May-August maternity season. Trapping bats is essentially banned. Tricolored bat encounters along the Chattahoochee corridor carry federal-status concerns under the Endangered Species Act listing process.</li>
+  <li><strong>It's timing-restricted.</strong> Georgia DNR guidance is to avoid exclusion during the roughly May-August maternity season, and trapping is not a permitted method for bats — all exclusion uses one-way valves. Tricolored bat encounters along the Chattahoochee corridor carry federal-status concerns under the Endangered Species Act listing process.</li>
   <li><strong>Sealing entry points kills the colony.</strong> Sealing while bats are inside traps and kills them — producing severe odor, blowfly infestation, structural damage from decomposition, and the legal violation of harming protected wildlife.</li>
   <li><strong>Disturbing guano causes histoplasmosis.</strong> DIY cleanup of multi-decade Buckhead or West End historic-home guano deposits without P100 respirators and EPA-registered antimicrobial protocols is documented as a histoplasmosis exposure event.</li>
 </ul>
@@ -971,11 +971,11 @@ const BLOG_POSTS = [
     faqs: [
       {
         q: 'How much does bat removal cost in Fulton County, Georgia in 2026?',
-        a: 'Most Fulton bat removal jobs run $1,500-$4,000. Atlanta intown pre-1940 historic-district colonies in Buckhead, West End, or Cabbagetown frequently run $2,500-$6,000+ once full guano remediation is included. Sandy Springs and Roswell mid-century housing typically lands in the $2,500-$4,000 range. Multi-structure equestrian properties in Milton, Chattahoochee Hills, Palmetto, or Fairburn run $3,000-$6,000+ because of barn-loft + main-house exclusion scope. Alpharetta and Johns Creek 1990s+ subdivision colonies resolve at the lower end ($1,500-$2,500). Trapping bats is essentially banned in Georgia.'
+        a: 'Most Fulton bat removal jobs run $1,500-$4,000. Atlanta intown pre-1940 historic-district colonies in Buckhead, West End, or Cabbagetown frequently run $2,500-$6,000+ once full guano remediation is included. Sandy Springs and Roswell mid-century housing typically lands in the $2,500-$4,000 range. Multi-structure equestrian properties in Milton, Chattahoochee Hills, Palmetto, or Fairburn run $3,000-$6,000+ because of barn-loft + main-house exclusion scope. Alpharetta and Johns Creek 1990s+ subdivision colonies resolve at the lower end ($1,500-$2,500). Trapping is not a permitted method for bats in Georgia — all exclusion uses one-way valves.'
       },
       {
         q: 'When can bats legally be removed in Fulton County?',
-        a: 'Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — May through August — when non-flying pups would be trapped inside the structure. The two safe exclusion windows are April (before maternity-season activity peaks) and September through mid-October (after pups are flying and the colony is dispersing toward winter hibernation). Inspections, planning, and entry-point identification can happen any time of year; only the one-way-valve installation has to be calendar-timed.'
+        a: 'Georgia DNR Wildlife Resources Division guidance is to avoid bat exclusion during the maternity season — roughly May through August — when non-flying pups would be trapped inside the structure. It is a recommendation rather than a flat statutory ban; a licensed Nuisance Wildlife Control Operator may perform necessary work during that window when a situation requires, timed to avoid trapping pups. The two preferred windows are April (before maternity-season activity peaks) and September through mid-October (after pups are flying and the colony is dispersing toward winter hibernation). Inspections, planning, and entry-point identification can happen any time of year; only the one-way-valve installation has to be calendar-timed.'
       },
       {
         q: 'What do I do if a bat is inside my Atlanta or Fulton County home tonight?',

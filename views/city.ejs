@@ -1,5 +1,8 @@
 <%
   const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + countySlug + '/' + citySlug + '/';
+  // Canonical may redirect to a primary county for cities that straddle two
+  // indexed counties (set in server.js). Falls back to self when not provided.
+  const canonical = (typeof canonicalUrl !== 'undefined' && canonicalUrl) ? canonicalUrl : pageUrl;
   // Title pattern: leads with city + service keyword, then the two highest-
   // converting phrases ("same-day", "24/7"). If the full title would exceed
   // ~60 chars, fall back to a shorter variant.
@@ -39,7 +42,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= pageTitle %></title>
   <meta name="description" content="<%= pageDesc %>">
-  <link rel="canonical" href="<%= pageUrl %>">
+  <link rel="canonical" href="<%= canonical %>">
   <link rel="stylesheet" href="/css/style.css">
   <% if (!indexable) { %>
   <meta name="robots" content="noindex, follow">
@@ -69,178 +72,34 @@
   <meta name="geo.position" content="<%= cityContent.geo.lat %>;<%= cityContent.geo.lon %>">
   <meta name="ICBM" content="<%= cityContent.geo.lat %>, <%= cityContent.geo.lon %>">
 
-  <!-- BreadcrumbList -->
-  <script type="application/ld+json">
-  <%- JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "@id": pageUrl + "#breadcrumb",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.removewildlifenow.com/" },
-      { "@type": "ListItem", "position": 2, "name": stateName, "item": "https://www.removewildlifenow.com/" + stateSlug + "/" },
-      { "@type": "ListItem", "position": 3, "name": countyName, "item": "https://www.removewildlifenow.com/" + stateSlug + "/" + countySlug + "/" },
-      { "@type": "ListItem", "position": 4, "name": cityName }
-    ]
-  }) %>
-  </script>
-
-  <!-- WebPage -->
-  <script type="application/ld+json">
-  <%- JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "@id": pageUrl + "#webpage",
-    "url": pageUrl,
-    "name": pageTitle,
-    "description": pageDesc,
-    "isPartOf": { "@id": "https://www.removewildlifenow.com/#website" },
-    "breadcrumb": { "@id": pageUrl + "#breadcrumb" },
-    "inLanguage": "en-US",
-    "about": { "@id": pageUrl + "#business" },
-    "primaryImageOfPage": ogImage
-  }) %>
-  </script>
-
-  <!-- Place -->
-  <script type="application/ld+json">
-  <%- JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "Place",
-    "@id": pageUrl + "#place",
-    "name": cityName + ", " + stateName,
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": cityName,
-      "addressRegion": stateRegion,
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": cityContent.geo.lat,
-      "longitude": cityContent.geo.lon
-    },
-    ...(cityContent.sameAs && cityContent.sameAs.length ? { "sameAs": cityContent.sameAs } : {})
-  }) %>
-  </script>
   <% } %>
 
-  <%# Page-level local-business entity. One canonical entity per page:
-      PestControl when LeadPortal has an assigned contractor for the parent
-      county, LocalBusiness/ProfessionalService directory fallback otherwise.
-      @id stays "#business" in both branches. %>
-  <% if (countyContent && countyContent.contractor) { %>
-  <!-- LocalBusiness/ProfessionalService — assigned local contractor entity
-       (wildlife removal industry signaled via additionalType for crawlers
-       that resolve schema.org subtype URLs; LocalBusiness is the primary
-       @type for universal validator + provider-reference compatibility). -->
-  <script type="application/ld+json">
-  <%- JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "ProfessionalService"],
-    "additionalType": "https://schema.org/PestControl",
-    ...(seoEnhanced ? { "@id": pageUrl + "#business" } : {}),
-    "name": countyContent.contractor.name,
-    "description": pageDesc,
-    "url": countyContent.contractor.url ? normalizeUrl(countyContent.contractor.url) : pageUrl,
-    "telephone": countyContent.contractor.telephone,
-    "image": countyContent.contractor.image || "https://www.removewildlifenow.com/images/og-default.jpg",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      ...(countyContent.contractor.streetAddress ? { "streetAddress": toTitleCase(countyContent.contractor.streetAddress) } : {}),
-      "addressLocality": countyContent.contractor.addressLocality ? toTitleCase(countyContent.contractor.addressLocality) : cityName,
-      "addressRegion": normalizeStateRegion(countyContent.contractor.addressRegion || stateRegion),
-      ...(countyContent.contractor.postalCode ? { "postalCode": countyContent.contractor.postalCode } : {}),
-      "addressCountry": "US"
-    },
-    "areaServed": [
-      { "@type": "City", "name": cityName + ", " + stateName },
-      { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
-    ],
-    "openingHours": "Mo-Su 00:00-23:59",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Wildlife Removal Services",
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Raccoon Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Squirrel Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bat Removal & Exclusion" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Snake Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Opossum Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Skunk Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Armadillo Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Coyote Control" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Attic Decontamination & Remediation" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Animal Exclusion & Entry-Point Sealing" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dead Animal Removal" } }
-      ]
-    }
-  }) %>
-  </script>
-  <% } else { %>
-  <!-- LocalBusiness / ProfessionalService — directory fallback (no contractor assigned) -->
-  <script type="application/ld+json">
-  <%- JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "ProfessionalService"],
-    ...(seoEnhanced ? { "@id": pageUrl + "#business" } : {}),
-    "name": "Wildlife Removal in " + cityName,
-    "description": pageDesc,
-    "url": pageUrl,
-    "telephone": "+1-844-544-3498",
-    "priceRange": "$$",
-    ...(seoEnhanced ? {
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": cityName,
-        "addressRegion": stateRegion,
-        "addressCountry": "US"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": cityContent.geo.lat,
-        "longitude": cityContent.geo.lon
-      }
-    } : {}),
-    "areaServed": [
-      { "@type": "City", "name": cityName + ", " + stateName },
-      { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
-    ],
-    "openingHours": "Mo-Su 00:00-23:59",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Wildlife Removal Services",
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Raccoon Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Squirrel Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bat Removal & Exclusion" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Snake Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Opossum Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Skunk Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Armadillo Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Coyote Control" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Attic Decontamination & Remediation" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Animal Exclusion & Entry-Point Sealing" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dead Animal Removal" } }
-      ]
-    }
-  }) %>
-  </script>
-  <% } %>
-
-  <% if (cityContent && cityContent.faqs && cityContent.faqs.length) { %>
-  <!-- FAQPage -->
-  <script type="application/ld+json">
-  <%- JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    ...(seoEnhanced ? { "@id": pageUrl + "#faq" } : {}),
-    "mainEntity": cityContent.faqs.map(function(f){
-      return { "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } };
-    })
-  }) %>
-  </script>
-  <% } %>
+  <%# Structured data: BreadcrumbList + Service (+ FAQPage when a visible FAQ
+      exists). Shared builder — lib/locationSchema.js + views/_location-schema.ejs.
+      Hub page: serviceType = "Wildlife Removal", no single price shown so no
+      offer. Directory site: NO LocalBusiness / address / business geo / review. %>
+  <%
+    const crumbs = buildCrumbs('city', { stateName, stateSlug, countyName, countySlug, cityName, citySlug });
+    // Provider = the name + phone shown on the page: assigned contractor when
+    // LeadPortal returns one for the parent county, else central dispatch.
+    const _provName  = (countyContent && countyContent.contractor && countyContent.contractor.name) || 'RemoveWildlifeNow.com';
+    const _provPhone = (countyContent && countyContent.contractor && countyContent.contractor.telephone) || '+18445443498';
+    const service = {
+      serviceType: 'Wildlife Removal',
+      locationLabel: cityName + ', ' + stateName,
+      areaServed: [
+        { "@type": "City", "name": cityName + ", " + stateName },
+        { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
+      ],
+      providerName: _provName,
+      providerPhone: _provPhone,
+      priceRange: null,
+      pageUrl: pageUrl,
+      description: pageDesc
+    };
+    const _cityFaqs = (cityContent && cityContent.faqs && cityContent.faqs.length) ? cityContent.faqs : null;
+  %>
+  <%- include('_location-schema', { crumbs, pageUrl, service, faqs: _cityFaqs }) %>
   <link rel="icon" href="https://www.removewildlifenow.com/favicon.png" sizes="180x180" type="image/png">
 </head>
 <body>
@@ -284,11 +143,7 @@
   </div>
 
   <main>
-    <nav class="breadcrumb">
-      <div class="container">
-        <a href="/">Home</a> &rsaquo; <a href="/<%= stateSlug %>/"><%= stateName %></a> &rsaquo; <a href="/<%= stateSlug %>/<%= countySlug %>/"><%= countyName %></a> &rsaquo; <span><%= cityName %></span>
-      </div>
-    </nav>
+    <%- include('_breadcrumb', { crumbs }) %>
 
     <section class="page-hero">
       <div class="container">

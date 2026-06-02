@@ -1,5 +1,8 @@
 <%
   const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + countySlug + '/' + citySlug + '/' + animal.slug + '/';
+  // Canonical may redirect to a primary county for cities that straddle two
+  // indexed counties (set in server.js). Falls back to self when not provided.
+  const canonical = (typeof canonicalUrl !== 'undefined' && canonicalUrl) ? canonicalUrl : pageUrl;
   const _authoredFaqs = (cityAnimalContent && cityAnimalContent.faqs) ? cityAnimalContent.faqs : [];
   const _skipGeneric = !!(cityAnimalContent && cityAnimalContent.skipGenericFaqs);
   const allFaqs = _skipGeneric ? _authoredFaqs : _authoredFaqs.concat(faqs || []);
@@ -48,7 +51,7 @@
       than the "&amp;" produced by HTML-escaping. Mirrors og:title/twitter:title
       and county.ejs. Safe: city-animal metaDescriptions contain no double-quotes. %>
   <meta name="description" content="<%- pageDesc %>">
-  <link rel="canonical" href="<%= pageUrl %>">
+  <link rel="canonical" href="<%= canonical %>">
   <link rel="stylesheet" href="/css/style.css">
   <% if (!indexable) { %>
   <meta name="robots" content="noindex, follow">
@@ -78,113 +81,37 @@
   <meta name="geo.position" content="<%= cityAnimalContent.geo.lat %>;<%= cityAnimalContent.geo.lon %>">
   <meta name="ICBM" content="<%= cityAnimalContent.geo.lat %>, <%= cityAnimalContent.geo.lon %>">
 
-  <!-- BreadcrumbList -->
-  <script type="application/ld+json">
-  <%- JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "@id": pageUrl + "#breadcrumb",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.removewildlifenow.com/" },
-      { "@type": "ListItem", "position": 2, "name": stateName, "item": "https://www.removewildlifenow.com/" + stateSlug + "/" },
-      { "@type": "ListItem", "position": 3, "name": countyName, "item": "https://www.removewildlifenow.com/" + stateSlug + "/" + countySlug + "/" },
-      { "@type": "ListItem", "position": 4, "name": cityName, "item": "https://www.removewildlifenow.com/" + stateSlug + "/" + countySlug + "/" + citySlug + "/" },
-      { "@type": "ListItem", "position": 5, "name": animal.name }
-    ]
-  }) %>
-  </script>
-
-  <!-- WebPage -->
-  <script type="application/ld+json">
-  <%- JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "@id": pageUrl + "#webpage",
-    "url": pageUrl,
-    "name": pageTitle,
-    "description": pageDesc,
-    "isPartOf": { "@id": "https://www.removewildlifenow.com/#website" },
-    "breadcrumb": { "@id": pageUrl + "#breadcrumb" },
-    "inLanguage": "en-US",
-    "about": { "@id": pageUrl + "#service" },
-    "primaryImageOfPage": ogImage
-  }) %>
-  </script>
   <% } %>
 
-  <!-- Service / LocalBusiness -->
+  <%# Structured data: BreadcrumbList + Service (+ FAQPage when a visible FAQ
+      exists). Shared builder — lib/locationSchema.js + views/_location-schema.ejs.
+      Directory site: NO LocalBusiness / address / business geo / review markup.
+      Emitted on every page (not just seoEnhanced ones). %>
   <%
-    const _bizOverride = (cityAnimalContent && cityAnimalContent.businessOverride) || {};
-    // Schema phone + name pull from the same dynamic contractor source as the
-    // on-page CTA, so an assignment change in LeadPortal propagates to the
-    // JSON-LD without per-page edits. Explicit businessOverride still wins.
-    const _schemaName  = _bizOverride.name || _companyName || (animal.name + " in " + cityName);
-    const _schemaPhone = _bizOverride.telephone || _phone;
-    const _schemaGeo   = _bizOverride.geo || (cityAnimalContent && cityAnimalContent.geo) || null;
-    // priceRange mirrors the visible cost section: per-page override first, then
-    // the animal's default costRange. Data-driven so every page emits its own.
-    const _priceRange  = _bizOverride.priceRange || (cityAnimalContent && cityAnimalContent.costRangeOverride) || animal.costRange || null;
+    const crumbs = buildCrumbs('city-animal', {
+      stateName, stateSlug, countyName, countySlug, cityName, citySlug,
+      serviceName: animal.name
+    });
+    // priceRange mirrors the visible cost section exactly (per-page override,
+    // else the animal default). Only set when the page actually shows a price.
+    const _visiblePrice = animal.costRange
+      ? ((cityAnimalContent && cityAnimalContent.costRangeOverride) || animal.costRange)
+      : null;
+    const service = {
+      serviceType: animal.name,
+      locationLabel: cityName + ', ' + stateName,
+      areaServed: [
+        { "@type": "City", "name": cityName + ", " + stateName },
+        { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
+      ],
+      providerName: _companyName || 'RemoveWildlifeNow.com',
+      providerPhone: _phone,
+      priceRange: _visiblePrice,
+      pageUrl: pageUrl,
+      description: pageDesc
+    };
   %>
-  <script type="application/ld+json">
-  <%- JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "ProfessionalService"],
-    ...(seoEnhanced ? { "@id": pageUrl + "#business" } : {}),
-    "name": _schemaName,
-    "description": animal.shortDesc + " Serving " + cityName + " and all of " + countyName + ", " + stateName + ".",
-    "url": pageUrl,
-    "telephone": _schemaPhone,
-    ...(_schemaGeo ? { "geo": { "@type": "GeoCoordinates", "latitude": _schemaGeo.lat, "longitude": (_schemaGeo.lon !== undefined ? _schemaGeo.lon : _schemaGeo.lng) } } : {}),
-    "areaServed": [
-      { "@type": "City", "name": cityName + ", " + stateName },
-      { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
-    ],
-    "serviceType": animal.name,
-    ...(_priceRange ? { "priceRange": _priceRange } : {}),
-    "openingHours": "Mo-Su 00:00-23:59",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": animal.name + " Services",
-      "itemListElement": animal.services.map(function(svc) {
-        return { "@type": "Offer", "itemOffered": { "@type": "Service", "name": svc } };
-      })
-    }
-  }) %>
-  </script>
-
-  <% if (seoEnhanced) { %>
-  <!-- Service (linked to LocalBusiness) -->
-  <script type="application/ld+json">
-  <%- JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": pageUrl + "#service",
-    "name": animal.name + " in " + cityName + ", " + stateName,
-    "serviceType": animal.name,
-    "provider": { "@id": pageUrl + "#business" },
-    "areaServed": {
-      "@type": "City",
-      "name": cityName + ", " + stateName,
-      ...(cityAnimalContent.sameAs && cityAnimalContent.sameAs.length ? { "sameAs": cityAnimalContent.sameAs } : {})
-    },
-    "description": pageDesc
-  }) %>
-  </script>
-  <% } %>
-
-  <% if (allFaqs && allFaqs.length) { %>
-  <!-- FAQPage -->
-  <script type="application/ld+json">
-  <%- JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    ...(seoEnhanced ? { "@id": pageUrl + "#faq" } : {}),
-    "mainEntity": allFaqs.map(function(f){
-      return { "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } };
-    })
-  }) %>
-  </script>
-  <% } %>
+  <%- include('_location-schema', { crumbs, pageUrl, service, faqs: allFaqs }) %>
   <link rel="icon" href="https://www.removewildlifenow.com/favicon.png" sizes="180x180" type="image/png">
 </head>
 <body>
@@ -216,14 +143,7 @@
   </div>
 
   <main>
-    <nav class="breadcrumb">
-      <div class="container">
-        <a href="/">Home</a> &rsaquo;
-        <a href="/<%= stateSlug %>/<%= countySlug %>/"><%= countyName %></a> &rsaquo;
-        <a href="/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/"><%= cityName %></a> &rsaquo;
-        <span><%= animal.name %></span>
-      </div>
-    </nav>
+    <%- include('_breadcrumb', { crumbs }) %>
 
     <section class="page-hero">
       <div class="container">

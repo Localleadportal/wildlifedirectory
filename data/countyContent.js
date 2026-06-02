@@ -594,7 +594,7 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'What are the legal restrictions on bat removal in Fulton County?',
-        a: 'Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — typically May through August — when non-flying pups are present and would be trapped inside the structure to die if exclusion went forward. All bat exclusion in Georgia must use one-way valves, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations. Tricolored bat encounters along the Chattahoochee corridor carry additional federal-status concerns. Atlanta intown contractors hold the required Georgia DNR licensing and follow the legal exclusion calendar (April or September-October only).'
+        a: 'Georgia DNR Wildlife Resources Division recommends avoiding bat exclusion during the maternity season — roughly May through August — when non-flying pups are present and would be sealed inside the structure if exclusion went forward. This is a DNR recommendation rather than a flat statutory ban; a licensed Nuisance Wildlife Control Operator may perform necessary exclusion during that window when a situation requires it, timed to avoid trapping pups. All bat exclusion in Georgia uses one-way exit devices rather than trapping, which is not a permitted method for bats. Tricolored bat encounters along the Chattahoochee corridor carry additional federal-status concerns. Atlanta intown contractors hold the required Georgia DNR licensing and schedule permanent exclusion outside the maternity window wherever possible.'
       },
       {
         q: 'How much does wildlife removal cost in Fulton County?',
@@ -690,7 +690,7 @@ function georgiaContent(countyName, county, s) {
       },
       {
         q: 'What are the legal restrictions on bat removal in Cherokee County?',
-        a: 'Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — typically May through August — when non-flying pups are present. All bat exclusion in Georgia must use one-way valves, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations. Tricolored bat encounters along the Sharp Mountain ridgeline and the Etowah corridor carry additional federal-status concerns. Cherokee contractors hold the required Georgia DNR Region 1 licensing and follow the legal exclusion calendar (April or September-October only).'
+        a: 'Georgia DNR Wildlife Resources Division recommends avoiding bat exclusion during the maternity season — roughly May through August — when non-flying pups are present and would be sealed inside if exclusion went forward. This is a DNR recommendation rather than a flat statutory ban; a licensed Nuisance Wildlife Control Operator may perform necessary exclusion during that window when a situation requires it, timed to avoid trapping pups. All bat exclusion in Georgia uses one-way exit devices rather than trapping, which is not a permitted method for bats. Tricolored bat encounters along the Sharp Mountain ridgeline and the Etowah corridor carry additional federal-status concerns. Cherokee contractors hold the required Georgia DNR licensing and schedule permanent exclusion outside the maternity window wherever possible.'
       },
       {
         q: 'How much does wildlife removal cost in Cherokee County?',
@@ -2420,6 +2420,23 @@ function georgiaContent(countyName, county, s) {
       }
     ];
 
+  }
+
+  // Generic fallback for Georgia counties without a dedicated content branch
+  // above. Builds differentiated blockA/B/C and meta from per-county data so
+  // these pages carry a unique title, a real meta description, and substantive
+  // local content rather than the near-identical boilerplate that thin/duplicate
+  // detection penalizes. Counties that warrant deeper local detail should still
+  // get their own branch above (which sets these before this point).
+  if (!blockA) {
+    const seat = county.county_seat || county.largest_cities[0];
+    const cities3 = county.largest_cities.slice(0, 3).join(', ');
+    const allCities = county.largest_cities.join(', ');
+    blockA = `${countyName} sits in ${county.region}. With a population of ${county.population.toLocaleString()} and its county seat at ${seat}, ${countyName} was established in ${county.established}. ${cap(county.habitat_type)}.`;
+    blockB = `${cap(county.regional_wildlife)}. ${cap(county.absent_or_rare)}.`;
+    blockC = `Coverage spans all of ${countyName}, including ${allCities}, along with the surrounding unincorporated communities and rural acreage. Wildlife removal in ${seat} and across ${countyName} is handled by licensed contractors who pair humane trapping with full structural exclusion and attic remediation, all under Georgia DNR Wildlife Resources Division licensing.`;
+    if (!metaTitle) metaTitle = `${countyName} Wildlife Removal — ${seat}, GA | Same-Day`;
+    if (!metaDescription) metaDescription = `Licensed wildlife removal in ${countyName}, GA — ${cities3} & nearby. Same-day raccoon, squirrel, bat & snake removal. Local pros, 24/7.`;
   }
 
   if (!blockD) blockD = `Wildlife intrusion in ${countyName} follows Georgia's main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;

@@ -1,7 +1,10 @@
 <%
   const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + toSlug(countyName) + '/';
-  const pageTitle = countyContent ? countyContent.metaTitle : 'Wildlife Removal in ' + countyName + ', ' + stateName + ' | RemoveWildlifeNow.com';
-  const pageDesc = countyContent ? countyContent.metaDescription : 'Find a licensed wildlife removal contractor in ' + countyName + ', ' + stateName + '. Local experts for raccoon, squirrel, bat, snake removal and full exclusion service.';
+  // Guard on the fields, not just the object: a countyContent that exists but
+  // lacks metaTitle/metaDescription (e.g. a county served by the generic
+  // builder) must still fall back rather than emit an empty <title>/description.
+  const pageTitle = (countyContent && countyContent.metaTitle) ? countyContent.metaTitle : 'Wildlife Removal in ' + countyName + ', ' + stateName + ' | RemoveWildlifeNow.com';
+  const pageDesc = (countyContent && countyContent.metaDescription) ? countyContent.metaDescription : 'Find a licensed wildlife removal contractor in ' + countyName + ', ' + stateName + '. Local experts for raccoon, squirrel, bat, snake removal and full exclusion service.';
   // Twitter description can be optionally differentiated from the meta description
   // for a more conversational social-audience tone. Falls back to pageDesc when unset.
   const twitterDesc = (countyContent && countyContent.twitterDescription) || pageDesc;
