@@ -127,8 +127,12 @@
       ]
     },
     "bat-removal": {
-      "metaTitle": "Bats in Attic | Thomaston, GA — 1824 Antebellum Chimney",
-      "metaDescription": "Bats in your Thomaston attic or chimney? 1824-founded courthouse-square pre-1900 chimney colonies under Georgia DNR tricolored bat ESA protocols.",
+      "metaTitle": "Bat Removal in Thomaston, GA | Licensed Local Exclusion",
+      "metaDescription": "Bats in your Thomaston, GA attic or chimney? Licensed local pros provide humane, DNR-compliant bat exclusion and guano cleanup. Call for a free estimate.",
+      "hideHeroEmoji": true,
+      "hideCtaH2": true,
+      "ogImage": "https://www.removewildlifenow.com/images/bat-hero1.jpg",
+      "skipGenericFaqs": true,
       "geo": {
         "lat": 32.8884,
         "lon": -84.3266
@@ -137,8 +141,16 @@
         "https://en.wikipedia.org/wiki/Thomaston,_Georgia",
         "https://en.wikipedia.org/wiki/Bat"
       ],
-      "intro": "Thomaston hosts some of the longest-tenured residential bat colonies in west-central Georgia. Pre-1900 antebellum and Victorian housing around the 1824-founded Upson County Courthouse square hosts big-brown bat (Eptesicus fuscus) maternity colonies that span 50-100+ years of continuous occupation. Thomaston Mills mill-village housing hosts secondary 30-60 year colonies. All Thomaston bat work requires Georgia DNR licensing plus tricolored bat (Perimyotis subflavus) ESA-protocol compliance.",
-      "extendedBody": "<h2>Multi-Generational Thomaston Pre-1900 Bat Colonies</h2>\n      <p><strong>Thomaston's pre-1900 antebellum and Victorian housing</strong> around the 1824-founded Upson County Courthouse square hosts some of west-central Georgia's longest-tenured big-brown-bat maternity colonies. Many Thomaston antebellum chimney colonies span 50-100+ years of continuous occupation across the 1824-founded courthouse-square inventory — comparable to the Macon-Bibb antebellum-housing colony establishment timeline documented in central Georgia. On Thomaston's 1824-founded pre-1900 courthouse-square antebellum chimneys, brick-mortar joint failures from a century-plus of weather, chimney crown cracks, and uncapped flue tiles are the typical chimney-roost access points.</p>\n      <p>Long-tenure colony establishment in Thomaston's pre-1900 historic core means decades of accumulated guano in chimney boxes, attic spaces, and roof-deck interiors. On Thomaston pre-1900 antebellum chimney colonies, guano-remediation scope on 50-100+ year tenure properties exceeds typical newer-construction bat work elsewhere in Upson County.</p>\n\n      <h2>Thomaston Mills Mill-Village Colonies + ESA Compliance</h2>\n      <p><strong>Thomaston Mills mill-village housing</strong> (1900s-1940s small-frame construction surrounding the historic mill site) hosts secondary big-brown-bat colonies with 30-60 year tenure. On Thomaston Mills mill-village properties, aged aluminum gable vents and original wood soffit corner separation provide multi-entry bat-roost access on 1900s-1940s housing structures. Mill-village colony work runs shorter colony tenure than antebellum but substantially longer than modern construction.</p>\n      <p>Across Thomaston, the <strong>tricolored bat</strong> (Perimyotis subflavus, now ESA-listed) is documented in central Georgia and may roost in pre-1900 courthouse-square chimney colonies. Pre-1900 Thomaston chimney colonies around the 1824-founded courthouse square may host tricolored bat individuals — exclusion timing on those properties must comply with federal ESA protocols specific to Perimyotis subflavus. Thomaston bat-exclusion windows for pre-1900 antebellum chimney colonies and mill-village colonies run September through early November and March through mid-May. The May-August maternity window is closed under Georgia DNR rules. For Thomaston pre-1900 antebellum chimney-roost properties around the 1824-founded Upson County Courthouse square, the November-March winter torpor window is closed under federal tricolored bat ESA protocols. Thomaston pre-1900 chimney bat work requires <strong>Georgia DNR Region 1</strong> (Northeast) trapping licensing plus federal ESA-compliance documentation for any tricolored bat individuals encountered.</p>",
+      "seasonalOverrides": [
+        {
+          "months": [4, 5, 6, 7],
+          "title": "Maternity Season — Bat Exclusion Paused in Thomaston",
+          "level": "high",
+          "msg": "From about May through August, Georgia DNR rules pause bat exclusion while flightless pups are in the roost — sealing a Thomaston attic or chimney now would trap them inside. We can still inspect your home, map the colony's entry points, and reserve your spot so exclusion begins the day the maternity window closes."
+        }
+      ],
+      "intro": "Thomaston is the seat of Upson County in west-central Georgia, and its mix of older homes around the downtown courthouse square, former Thomaston Mills mill-village houses, and rural properties farther out gives bats exactly the aged chimneys, soffits, and gable vents they like to roost in. Most local calls involve a colony that has moved into an attic or an unused chimney flue. Because bats are protected under Georgia law, getting them out legally and for good takes a licensed exclusion specialist — not a trap or a quick DIY patch.",
+      "extendedBody": "<h2>Bat Removal Across Thomaston &amp; Upson County</h2>\n      <p>Bat problems in Thomaston tend to follow the local housing. The older homes near the courthouse square and the former Thomaston Mills mill-village neighborhoods have the masonry chimneys, wood soffits, and louvered gable vents that bats slip behind, while newer builds and rural Upson County properties usually let them in through gaps at the roofline, fascia, and vent screens. Whatever the home, the bats most often roosting in Georgia attics and chimneys are big brown bats, which favor warm, undisturbed spaces and will return to the same roost year after year if the openings are left unsealed.</p>\n\n      <h2>How Bats Get Into Local Homes</h2>\n      <p>A bat needs only about a half-inch gap to get inside, so the entry points are easy to miss from the ground. The ones our local inspectors find most often in and around Thomaston are:</p>\n      <ul class=\"wildlife-list\">\n        <li><strong>Open or uncapped chimney flues</strong>, and gaps where old mortar or the chimney crown has cracked.</li>\n        <li><strong>Soffit and fascia gaps</strong>, especially where wood has aged or pulled away at the corners.</li>\n        <li><strong>Louvered gable vents</strong> with torn or missing screening behind them.</li>\n        <li><strong>Roofline and ridge gaps</strong>, and the seams where a porch, dormer, or addition meets the main roof.</li>\n      </ul>\n      <p>A proper inspection checks all of these before any sealing begins, because closing the wrong gap first can trap the colony inside.</p>\n\n      <h2>Bat Protection &amp; Removal Rules in Georgia</h2>\n      <p>Bats are protected under Georgia Department of Natural Resources rules, so they cannot be poisoned or trapped — the only legal and effective method is exclusion, which lets the colony leave on its own and then seals them out. Exclusion is not allowed during the maternity season, roughly May through August, when flightless pups would be sealed inside. Some bat species are also under federal review for added protection, so timing and requirements can change; a licensed Georgia operator confirms the current rules before scheduling. You can verify the latest guidance directly with the Georgia DNR Wildlife Resources Division and the U.S. Fish &amp; Wildlife Service. Any bat work in Upson County should be handled by a contractor licensed under Georgia DNR — not a general handyman.</p>\n\n      <h2>Guano Cleanup in Older Thomaston Homes</h2>\n      <p>When a colony has used an attic or chimney for a long time, the droppings (guano) build up — and dried guano can carry the spores that cause histoplasmosis, a lung infection. That is why cleanup matters as much as the removal itself, and why droppings should never be swept or vacuumed by a homeowner. A licensed crew contains the area, removes the contaminated material and any soiled insulation using proper protective equipment, sanitizes the space, and seals the entry points so a new colony can't move back in. Older homes with long-used chimneys generally need more cleanup than a recent build, which is the main reason a full job costs more than the exclusion alone.</p>",
       "relatedLinks": [
         {
           "anchor": "Thomaston wildlife services",
@@ -152,23 +164,27 @@
       "faqs": [
         {
           "q": "How much does bat removal cost in Thomaston?",
-          "a": "Thomaston bat jobs run $1,500-$5,000+ for pre-1900 antebellum chimney colonies because of 50-100+ year tenure and historic-property access constraints. Thomaston Mills mill-village colonies run $1,200-$3,500+ because of 30-60 year tenure. Newer subdivision colonies run $1,200-$2,500+. Call for an in-person estimate."
+          "a": "Bat exclusion in Thomaston typically runs $400–$1,500+ for the exclusion work itself. If a colony has left guano that needs cleanup and attic decontamination, expect an additional $1,500–$8,000+ depending on the colony's size and how long it has been roosting. Older homes with long-used chimneys tend to fall at the higher end. Call for a free on-site estimate."
         },
         {
-          "q": "Are Thomaston bat colonies really 50-100+ years old?",
-          "a": "Yes for many pre-1900 courthouse-square antebellum and Victorian properties. Big-brown bat maternity colonies establish in original masonry chimneys and re-use the same roost across generations. Multi-decade colony tenure is documented across Thomaston's pre-1900 historic core."
+          "q": "When can bats be legally excluded in Thomaston?",
+          "a": "Bat exclusion in Georgia is paused during the maternity season — roughly May through August — when flightless pups would be trapped inside. Outside that window is the time to do the work. Because some species are also under federal review, a licensed operator confirms the current timing first. We can inspect and prepare your Thomaston home any time so work starts the moment the window opens."
         },
         {
-          "q": "Do Thomaston Mills mill-village colonies need different work?",
-          "a": "Similar approach but shorter colony tenure (30-60 years vs 50-100+ years for antebellum). Mill-village housing has aged aluminum gable vents and original wood soffits rather than antebellum masonry chimneys, so entry-point work differs even though the exclusion protocols are equivalent."
+          "q": "Are the bats in my Thomaston attic protected?",
+          "a": "Yes. Bats are protected under Georgia DNR rules, so they can't legally be killed, poisoned, or trapped. The approved method is exclusion: one-way devices let the colony fly out and prevent it from returning, after which the entry points are sealed. You can confirm current protections with the Georgia DNR Wildlife Resources Division or the U.S. Fish & Wildlife Service."
         },
         {
-          "q": "When can bat exclusion happen in Thomaston?",
-          "a": "September through early November and March through mid-May. The May-August maternity window is closed under Georgia DNR rules. The November-March winter window is closed for chimney-roost properties under tricolored bat ESA protocols."
+          "q": "Is bat guano in my Thomaston home dangerous?",
+          "a": "It can be. Dried bat guano can carry spores of the fungus that causes histoplasmosis, a respiratory illness. Don't sweep, vacuum, or disturb droppings in your attic or chimney — that sends spores into the air. A licensed crew cleans the contaminated material under containment with respiratory protection, then sanitizes and seals the space so the problem doesn't return."
         },
         {
-          "q": "Is multi-decade guano dangerous in my Thomaston chimney?",
-          "a": "Yes. Long-tenure bat guano can carry histoplasmosis spores — a fungal lung infection. 50-100+ year guano deposits in Thomaston pre-1900 chimneys require contained-area remediation with respiratory PPE; homeowner self-remediation is not recommended."
+          "q": "I found a bat inside my Thomaston house — does that mean there's a colony?",
+          "a": "Often, yes. A single bat in living space usually slipped in from a colony roosting in the attic, a wall void, or a chimney. An inspection can tell you whether there's a larger group above the ceiling. If the bat may have had contact with a sleeping person, child, or pet, call Georgia DNR or your county health department about rabies testing."
+        },
+        {
+          "q": "Can I seal the entry points myself?",
+          "a": "It's risky and often illegal. Sealing gaps without timed one-way exclusion traps bats — and during the May–August maternity season, their pups — inside the walls, where they die and cause odor and contamination. You also risk histoplasmosis exposure from disturbed guano. A licensed Thomaston specialist handles the timing, cleanup, and permanent sealing so it's done once, correctly, and legally."
         }
       ]
     }
