@@ -34,7 +34,7 @@
   <title><%- pageTitle %></title>
   <meta name="description" content="<%- pageDesc %>">
   <link rel="canonical" href="<%= pageUrl %>">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style.css?v=<%= cssVersion %>">
   <% if (!indexable) { %>
   <meta name="robots" content="noindex, follow">
   <% } else if (seoEnhanced) { %>

@@ -2,6 +2,7 @@ const express = require('express');
 const fetch = require('node-fetch');
 const path = require('path');
 const fs = require('fs');
+const crypto = require('crypto');
 const us = require('us');
 const { statesAndCounties, stateSlugToName, countySlugToName, toSlug } = require('./data/locations');
 const { getCitiesForCounty, citySlugToName } = require('./data/cities');
@@ -197,7 +198,46 @@ app.use((req, res, next) => {
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
-app.use(express.static(path.join(__dirname, 'public')));
+
+// ── Caching strategy ─────────────────────────────────────────────────────────
+// There is no separate CDN — the only layer in front is Railway's edge proxy
+// (Server: railway-edge), which honors origin Cache-Control. Previously HTML was
+// sent with no Cache-Control (only a weak ETag), so the edge/browsers applied
+// heuristic caching and kept serving the OLD body for a while after each deploy.
+//
+//   • Static assets (/public: images, css, favicon) → long immutable cache.
+//     CSS is cache-busted with a content hash (?v=) so "immutable" is safe — the
+//     URL changes whenever style.css changes, so a deploy is never served stale.
+//   • HTML + other dynamic responses → no-cache: the response may be stored but
+//     MUST be revalidated with the origin on every request (cheap 304s via the
+//     ETag), so a deploy is reflected immediately.
+//
+// Content hash of the stylesheet, exposed to every template as `cssVersion` for
+// the ?v= cache-buster on the <link rel="stylesheet"> tag.
+function assetHash(relPath) {
+  try {
+    const buf = fs.readFileSync(path.join(__dirname, 'public', relPath));
+    return crypto.createHash('sha1').update(buf).digest('hex').slice(0, 10);
+  } catch (e) {
+    return '1'; // missing file: harmless static buster
+  }
+}
+app.locals.cssVersion = assetHash('css/style.css');
+
+app.use(express.static(path.join(__dirname, 'public'), {
+  maxAge: '1y',
+  immutable: true
+}));
+
+// Dynamic responses (HTML pages, sitemap, robots, api): always revalidate so the
+// edge/browser can't serve a stale page after a deploy. Runs only when the
+// static handler above didn't already serve a file (which keeps its immutable
+// header). ETag stays enabled, so unchanged pages return a 304 with no body.
+app.use((req, res, next) => {
+  res.set('Cache-Control', 'no-cache');
+  next();
+});
+
 app.use(express.urlencoded({ extended: true }));
 
 // Map data endpoint — TopoJSON + FIPS→slug mapping for D3
