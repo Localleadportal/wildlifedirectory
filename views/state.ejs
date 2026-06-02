@@ -118,7 +118,7 @@
       <p>Get state-specific help for the most common ${stateName} wildlife problems</p>
     </div>
     <ul class="counties-grid">
-      ${animalLinks.map(a => `<li><a href="/${slug}/${a.slug}/">${a.emoji} ${stateName} ${a.name}</a></li>`).join('')}
+      ${animalLinks.map(a => `<li><a href="/${slug}/${a.slug}/">${stateName} ${a.name}</a></li>`).join('')}
     </ul>
   </div>
 </section>` : '';

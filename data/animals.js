@@ -4,12 +4,16 @@ const ANIMALS = [
     name: 'Raccoon Removal',
     plural: 'Raccoons',
     emoji: '🦝',
+    // rabiesVector: live relocation/release is legally restricted for this species
+    // (e.g. GA O.C.G.A. 27-2-10). Keep removal/handling language — never promise
+    // relocation or release for rabies-vector species. See data/stateAnimalContent.js.
+    rabiesVector: true,
     shortDesc: 'Raccoons cause serious attic and crawlspace damage and carry diseases including rabies and roundworm.',
     signs: ['Noises in attic at night', 'Knocked over trash cans', 'Torn soffit or fascia boards', 'Droppings near entry points', 'Footprints in mud or soft soil'],
-    services: ['Live trapping and relocation', 'Attic cleanup and decontamination', 'Entry point sealing', 'Damage repair', 'Preventative exclusion'],
+    services: ['Live trapping and removal', 'Attic cleanup and decontamination', 'Entry point sealing', 'Damage repair', 'Preventative exclusion'],
     urgency: 'Raccoons breed in attics and their feces carry dangerous roundworm spores. Fast removal is essential.',
     season: 'Raccoons are active year-round but most commonly enter homes in late winter and spring when females seek nesting sites.',
-    costRange: '$200–$600+', costNote: 'Trapping and relocation. Attic cleanup and exclusion additional ($800–$2,500+).'
+    costRange: '$200–$600+', costNote: 'Trapping and removal. Attic cleanup and exclusion additional ($800–$2,500+).'
   },
   {
     slug: 'squirrel-removal',
@@ -88,6 +92,8 @@ const ANIMALS = [
     name: 'Skunk Removal',
     plural: 'Skunks',
     emoji: '🦨',
+    // rabiesVector: see raccoon note above — no relocation/release language.
+    rabiesVector: true,
     shortDesc: 'Skunks den under porches and foundations and spray pets and people. They also carry rabies and dig up lawns for grubs.',
     signs: ['Strong skunk odor near home', 'Burrowing under porch or deck', 'Lawn damage from grub digging', 'Pet has been sprayed', 'Sightings near home at night'],
     services: ['Humane live trapping', 'Odor neutralization', 'Den exclusion', 'Entry sealing under structures', 'Rabies exposure evaluation'],

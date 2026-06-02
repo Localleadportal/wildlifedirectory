@@ -11,7 +11,7 @@
   const c = stateAnimalContent || {};
   const title = c.metaTitle || `${stateName} ${animal.name} | Licensed Local Contractors`;
   const metaDesc = c.metaDescription
-    || `${animal.name} in ${stateName} — find a licensed local trapper for humane ${animal.plural.toLowerCase()} removal. Typical cost ${animal.costRange}. Browse counties to find help near you.`;
+    || `${animal.name} in ${stateName} — find a licensed local trapper for humane ${animal.name.toLowerCase()}. Typical cost ${animal.costRange}. Browse counties to find help near you.`;
   const h1 = c.h1 || `${stateName} ${animal.name}`;
   const heroSub = c.heroSub || animal.shortDesc;
 
@@ -105,7 +105,7 @@
 
   // ── Body sections ──
   const heroImgHtml = hero
-    ? `<div style="margin-top:24px;text-align:center;"><img src="${hero.src}" width="${hero.w}" height="${hero.h}" alt="${animal.name} in ${stateName} — find a licensed local ${animal.plural.toLowerCase()} removal contractor near you" loading="lazy" style="max-width:100%;max-height:520px;width:auto;height:auto;border-radius:12px;display:inline-block;"></div>`
+    ? `<div style="margin-top:24px;text-align:center;"><img src="${hero.src}" width="${hero.w}" height="${hero.h}" alt="${animal.name} in ${stateName} — find a licensed local ${animal.name.toLowerCase()} contractor near you" loading="lazy" style="max-width:100%;max-height:520px;width:auto;height:auto;border-radius:12px;display:inline-block;"></div>`
     : '';
 
   const leadHtml = c.leadParagraph
@@ -121,12 +121,12 @@
     <div class="service-cards">
       <div class="service-card featured">
         <span class="card-badge">Signs You Have ${animal.plural}</span>
-        <h3><span class="card-icon" aria-hidden="true">${animal.emoji}</span> Warning Signs</h3>
+        <h3>Warning Signs</h3>
         <p>${animal.season}</p>
         <ul class="card-list">${animal.signs.map(s => `<li>${s}</li>`).join('')}</ul>
       </div>
       <div class="service-card">
-        <h3><span class="card-icon" aria-hidden="true">🛠️</span> What ${stateName} Pros Do</h3>
+        <h3>What ${stateName} Pros Do</h3>
         <p>Licensed ${stateName} contractors handle every step of ${animal.name.toLowerCase()} — capture, exclusion, sanitation, and repair.</p>
         <ul class="card-list">${animal.services.map(s => `<li>${s}</li>`).join('')}</ul>
       </div>
@@ -175,7 +175,7 @@
       <p>We handle every kind of wildlife problem across ${stateName}</p>
     </div>
     <ul class="counties-grid">
-      ${ANIMALS.filter(a => a.slug !== animal.slug).map(a => `<li><a href="/${slug}/${a.slug}/">${a.emoji} ${stateName} ${a.name}</a></li>`).join('')}
+      ${ANIMALS.filter(a => a.slug !== animal.slug).map(a => `<li><a href="/${slug}/${a.slug}/">${stateName} ${a.name}</a></li>`).join('')}
     </ul>
   </div>
 </section>`;
@@ -202,7 +202,7 @@
 <section class="page-hero">
   <div class="container">
     <div class="hero-badge">${stateName}</div>
-    <h1><span aria-hidden="true">${animal.emoji}</span> ${h1}</h1>
+    <h1>${h1}</h1>
     <p>${heroSub}</p>
   </div>
 </section>

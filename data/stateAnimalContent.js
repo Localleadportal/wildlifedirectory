@@ -48,7 +48,7 @@ const STATE_ANIMAL_CONTENT = {
 <p>Raccoon latrines carry <strong>raccoon roundworm (<em>Baylisascaris procyonis</em>)</strong>, whose eggs can remain infectious in attic insulation and soil long after the animal is gone — which is why professional decontamination, not just trapping, is the standard in Georgia. Raccoons are also a primary carrier of the raccoon rabies variant found across the eastern United States, so a raccoon that is active in daylight, disoriented, or aggressive should never be approached. These two risks are the main reason DIY raccoon removal is a bad idea in Georgia: get a licensed operator who can trap, remediate, and exclude safely.</p>
 
 <h2>Georgia DNR Rules for Raccoon Removal</h2>
-<p>Wildlife removal in Georgia is regulated by the <strong>Georgia Department of Natural Resources (DNR)</strong>. Commercial nuisance-wildlife trapping is done by licensed operators, and how a trapped raccoon may be handled, relocated, or released is governed by current state rules. The contractors in our directory hold the required Georgia permits and follow humane, legal methods. <em>(Note for the team: the exact DNR rule on relocating vs. on-site release vs. euthanasia for rabies-vector species like raccoons should be verified against current Georgia regulations before we publish any specific statutory claim — the copy above is intentionally general.)</em></p>
+<p>Wildlife removal in Georgia is regulated by the <strong>Georgia Department of Natural Resources (DNR)</strong>, and the raccoon is classified as a rabies-vector species. Under Georgia law (O.C.G.A. 27-2-10), transporting a live raccoon without a DNR permit is illegal, so a homeowner generally cannot trap a raccoon and release it elsewhere. Licensed nuisance-wildlife operators handle trapped raccoons according to Georgia DNR rabies-vector protocols. Every contractor in our directory holds the required Georgia permits and follows humane, legal methods.</p>
 
 <h2>What a Georgia Raccoon Removal Job Includes</h2>
 <ul class="wildlife-list">
@@ -66,7 +66,7 @@ const STATE_ANIMAL_CONTENT = {
         },
         {
           q: 'Are raccoons regulated in Georgia?',
-          a: 'Yes. Wildlife removal in Georgia is regulated by the Georgia Department of Natural Resources (DNR). Commercial raccoon trapping is performed by licensed nuisance-wildlife operators, and the handling, relocation, and release of trapped raccoons follow current state rules. Every contractor in our directory holds the required Georgia permits and uses humane, legal methods.'
+          a: 'Yes. Wildlife removal in Georgia is regulated by the Georgia Department of Natural Resources (DNR), which classifies the raccoon as a rabies-vector species. Under Georgia law (O.C.G.A. 27-2-10), transporting a live raccoon without a DNR permit is illegal, so trapped raccoons are handled by licensed nuisance-wildlife operators under Georgia DNR rabies-vector protocols. Every contractor in our directory holds the required Georgia permits and uses humane, legal methods.'
         },
         {
           q: 'Is it safe to remove a raccoon myself in Georgia?',
@@ -74,7 +74,7 @@ const STATE_ANIMAL_CONTENT = {
         },
         {
           q: 'How much does raccoon removal cost in Georgia?',
-          a: 'Raccoon removal in Georgia typically runs $200–$600+ for trapping and relocation. If raccoons have been living in an attic, full remediation — cleanup, decontamination, insulation replacement, and entry-point sealing — generally adds $800–$2,500+ depending on colony size and damage. Contractors in our directory provide free property-specific estimates.'
+          a: 'Raccoon removal in Georgia typically runs $200–$600+ for trapping and removal. If raccoons have been living in an attic, full remediation — cleanup, decontamination, insulation replacement, and entry-point sealing — generally adds $800–$2,500+ depending on colony size and damage. Contractors in our directory provide free property-specific estimates.'
         }
       ]
     }
