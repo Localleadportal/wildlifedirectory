@@ -409,7 +409,10 @@
         <div class="hero-badge">Serving <%= countyName %>, <%= stateName %></div>
         <h1>Wildlife Removal in <%= countyName %><% if (stateAbbr) { %>, <%= stateAbbr %><% } %></h1>
         <% if (countyContent && countyContent.heroIntro) { %>
-        <p><%- countyContent.heroIntro %></p>
+        <%# {{company}} / {{phone}} tokens resolve to the assigned contractor (or
+            the directory dispatch line + a neutral phrase when none is set).
+            Counties whose heroIntro contains no tokens are unaffected. %>
+        <p><%- countyContent.heroIntro.replace(/\{\{\s*company\s*\}\}/g, _companyName || 'The local pro we match you with').replace(/\{\{\s*phone\s*\}\}/g, _phoneDisplay) %></p>
         <% } else { %>
         <p>Local licensed experts ready to remove, exclude, and remediate — fast.</p>
         <% } %>
@@ -447,10 +450,21 @@
             <a href="/contact/?county=<%= encodeURIComponent(countyName) %>&state=<%= encodeURIComponent(stateName) %>" class="btn-contact">Contact Us for Help</a>
           </div>
           <% } %>
+          <%# Contractor-agnostic trust signals. Counties may override via
+              countyContent.trustBadges; otherwise the generic default set shows.
+              No reviews/testimonials and no per-contractor claims here — the
+              assigned contractor can change. A license number renders only when
+              the assigned contractor record actually carries one. %>
+          <% const _trustBadges = (countyContent && countyContent.trustBadges && countyContent.trustBadges.length)
+               ? countyContent.trustBadges
+               : ['Licensed & Insured', 'Same-Day Available', 'Humane Methods']; %>
           <div class="cta-badges">
-            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Licensed &amp; Insured</span>
-            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Same-Day Available</span>
-            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Humane Methods</span>
+            <% _trustBadges.forEach(b => { %>
+            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> <%= b %></span>
+            <% }); %>
+            <% if (countyContent && countyContent.contractor && countyContent.contractor.licenseNumber) { %>
+            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> License #<%= countyContent.contractor.licenseNumber %></span>
+            <% } %>
           </div>
         </div>
       </div>
@@ -568,7 +582,7 @@
 
     <section class="county-content" style="background:#f8fafc;">
       <div class="container">
-        <h2>Wildlife Common to <%= countyName %></h2>
+        <h2><%= countyContent.blockBHeading ? countyContent.blockBHeading : ('Wildlife Common to ' + countyName) %></h2>
         <% if (countyContent.blockB && countyContent.blockB.trim().startsWith('<')) { %>
         <%- countyContent.blockB %>
         <% } else { %>
