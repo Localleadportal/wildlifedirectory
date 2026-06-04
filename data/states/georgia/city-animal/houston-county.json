@@ -40,7 +40,8 @@
           "q": "What times of year are Warner Robins raccoons worst?",
           "a": "September-November fall dispersal and February-April spring den-establishment are the heaviest pressure windows, but Houston's Coastal Plain climate supports year-round breeding — baseline activity stays higher than what metro Atlanta sees."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Warner Robins, GA — Fox + Gray Pros",
@@ -82,7 +83,8 @@
           "q": "Will Warner Robins squirrels leave on their own?",
           "a": "No. Female gray squirrels establish maternity dens and stay through weaning; adult males establish year-round territories. Trap-and-exclude is the only reliable resolution. Houston's Coastal Plain climate supports year-round activity."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Warner Robins, GA — Watson Blvd Rat Pros",
@@ -124,7 +126,8 @@
           "q": "Will bait alone solve my Warner Robins rat problem?",
           "a": "No. Bait without entry-point sealing leaves the source population intact and creates dead-rat-in-the-wall callbacks when rats die in inaccessible wall voids. Exclusion plus bait — in that order — is the only reliable approach."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bats in Attic | Warner Robins, GA — Free-Tailed Bat Pros",
@@ -166,7 +169,8 @@
           "q": "Is bat guano dangerous in my Warner Robins attic?",
           "a": "Yes. Guano can carry histoplasmosis spores — a fungal lung infection. Long-tenure colony deposits (15-40 years in Warner Robins post-WWII housing) require contained-area remediation with respiratory PPE; homeowner self-remediation is not recommended."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Perry": {
@@ -210,7 +214,8 @@
           "q": "When are Perry raccoons worst?",
           "a": "Female raccoons den in chimneys February-April every year — peak Perry historic-district chimney activity. Fall dispersal (September-November) drives a secondary peak. Houston's Coastal Plain climate keeps baseline activity higher year-round than metro Atlanta."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Perry, GA — Historic Square Exclusion",
@@ -252,7 +257,8 @@
           "q": "Are chewed wires a real risk in Perry historic homes?",
           "a": "Yes — possibly more so than in newer construction. Perry historic-district attics often have decades of accumulated chewed-wire damage that should be inspected during exclusion. Chewed-wire repair is a documented insurance claim driver in Houston County every year."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Perry, GA — Historic Downtown Rat Pros",
@@ -294,7 +300,8 @@
           "q": "Will rodenticide bait alone solve my Perry rat problem?",
           "a": "No. Bait without entry-point sealing leaves the source population intact and creates dead-rat-in-the-wall callbacks when rats die in inaccessible wall voids of pre-1900 Perry historic housing. Exclusion plus bait — in that order — is the only reliable approach."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bats in Attic | Perry, GA — 50-100+ Yr Antebellum Colonies",
@@ -336,7 +343,8 @@
           "q": "Is multi-decade guano dangerous in my Perry chimney?",
           "a": "Yes. Long-tenure bat guano can carry histoplasmosis spores — a fungal lung infection. 50-100+ year guano deposits in Perry antebellum chimneys require contained-area remediation with respiratory PPE; homeowner self-remediation is not recommended."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Centerville": {
@@ -380,7 +388,8 @@
           "q": "Why do my 1970s Centerville vinyl soffits keep failing?",
           "a": "Builder-grade vinyl-soffit installations 35-55 years old commonly show corner separation at fascia-meet points. Original-installation tolerances plus decades of expansion-and-contraction produce the standard older-subdivision multi-entry profile."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Centerville GA — Subdivision Exclusion",
@@ -422,7 +431,8 @@
           "q": "Will Centerville squirrels leave on their own?",
           "a": "No. Female gray squirrels establish maternity dens and stay through weaning; adult males establish year-round territories. Trap-and-exclude is the only reliable resolution."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Centerville, GA — Highway 247 Rat Pros",
@@ -464,7 +474,8 @@
           "q": "Will bait alone solve my Centerville rat problem?",
           "a": "No. Bait without entry-point sealing leaves the source population intact and creates dead-rat-in-the-wall callbacks. Exclusion plus bait — in that order — is the only reliable approach."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Bonaire": {
@@ -508,7 +519,8 @@
           "q": "When are Bonaire lakefront raccoons most active?",
           "a": "Lakefront properties absorb dispersal pressure year-round because of the continuous shoreline source. Seasonal peaks (September-November fall, February-April spring) overlay on a higher baseline activity rate than non-lakefront Houston properties."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Bonaire, GA — Lake + Fox Squirrel",
@@ -550,7 +562,8 @@
           "q": "Is chewed-wire damage worse in Bonaire?",
           "a": "Often. Custom-built housing typically has higher per-square-foot Romex density (more circuits, more dedicated lines) than standard subdivision construction. More wiring means more chew targets for established squirrel populations."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Bonaire, GA — Houston Lake Rat Pros",
@@ -592,7 +605,8 @@
           "q": "Do pool houses and guest cottages need separate work?",
           "a": "Yes. Each accessory structure has its own entry-point inventory. Pool houses with HVAC chases, guest cottages with utility penetrations, boat houses with grade-level access — all need individual exclusion assessments."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bats in Attic | Bonaire, GA — Lake Colony Exclusion",
@@ -634,7 +648,8 @@
           "q": "Is bat guano dangerous in my Bonaire attic?",
           "a": "Yes. Bat guano can carry histoplasmosis spores — a fungal lung infection. 20-40 year guano deposits in Bonaire lakefront housing require contained-area remediation with respiratory PPE; homeowner self-remediation is not recommended."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Kathleen": {
@@ -678,7 +693,8 @@
           "q": "When are Kathleen raccoons most active?",
           "a": "Fall dispersal (September-November) and spring den-establishment (February-April) are heaviest. Houston's Coastal Plain climate keeps baseline activity higher year-round than metro Atlanta. Kathleen's rural-edge density compounds the baseline pressure."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Kathleen, GA — Fox + Gray Exclusion",
@@ -720,7 +736,8 @@
           "q": "Will Kathleen squirrels leave on their own?",
           "a": "No. Female gray squirrels establish maternity dens and stay through weaning; adult males establish year-round territories. Fox squirrels run a similar pattern. Trap-and-exclude is the only reliable resolution."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Kathleen, GA — Rural-Acreage Rat Pros",
@@ -762,7 +779,8 @@
           "q": "Why do I have rats if my Kathleen property is rural?",
           "a": "Rural-acreage properties absorb continuous source pressure from surrounding pine-hardwood remnants and wooded buffer. Outbuildings provide ideal Norway rat establishment sites — food storage, equipment storage, livestock-feed access. The rural-edge character increases per-property rat pressure rather than decreasing it."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

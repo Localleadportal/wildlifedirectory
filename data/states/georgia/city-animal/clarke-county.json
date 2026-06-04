@@ -56,7 +56,8 @@
           "q": "Do you handle raccoon work across all Athens neighborhoods?",
           "a": "Yes — full Athens coverage including Cobbham, Boulevard, Bloomfield, the Milledge Avenue corridor, Five Points, Normaltown, East Athens, and the eastern and northern subdivisions. Pre-1860 historic-district raccoon work is a Clarke County core service area. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 2 (Gainesville office)."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Removal | Athens, GA | Local",
@@ -114,7 +115,8 @@
           "q": "Why are chewed wires such a concern in Athens historic homes?",
           "a": "Squirrels chew wires reflexively to keep their incisors filed down. Chewed Romex is a documented leading cause of attic-origin residential fires. The risk is significantly amplified in pre-1860 Athens housing where wiring runs are 60-100+ years old (knob-and-tube remnants in some structures, early Romex with degraded insulation jacket, undersized neutral wires). Any Athens job that exposes chewed wiring requires licensed-electrician follow-up before final sealing."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Roof Rat Removal | Athens, GA | Local",
@@ -173,7 +175,8 @@
           "q": "Are rats in my Athens home dangerous?",
           "a": "Yes — three real risks. Rats carry leptospirosis, salmonella, and hantavirus risk in their urine and droppings, and contaminated insulation requires HEPA-equipped remediation. Histoplasma is a concern where droppings accumulation has been long-established in pre-1860 Athens basements or commercial-corridor accumulations. Chewed wiring on Romex is a documented residential fire risk — any rat job that exposes chewed wires triggers licensed-electrician follow-up. The Georgia Department of Public Health, Northeast Health District, handles public-health reporting."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Removal | Athens, GA | Local",
@@ -231,7 +234,8 @@
           "q": "Is bat guano in my Athens attic dangerous?",
           "a": "Yes. Bat guano grows Histoplasma capsulatum, the fungus that causes histoplasmosis (a fungal lung infection), when accumulated. Multi-decade pre-1860 Athens chimney colonies produce substantial guano deposits in chimney chases and adjacent attic insulation. Disturbance produces airborne spores. HEPA-equipped remediation with respiratory protection is required, particularly because Athens historic-district cleanups often disturb decades of accumulated material. DIY cleanup is not recommended — the lung-infection risk is real and serious for immunocompromised individuals."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Winterville": {
@@ -291,7 +295,8 @@
           "q": "Do you cover Winterville as part of Athens-Clarke County service?",
           "a": "Yes — Winterville is fully covered as part of the unified Athens-Clarke County footprint. The contractor handles Winterville, Athens, and the rest of Clarke as a single coordinated service area. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 2 (Gainesville office), which covers Clarke and adjacent Oglethorpe and Madison."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Got Squirrels? | Winterville, GA | Local",
@@ -349,7 +354,8 @@
           "q": "Do you handle multi-structure squirrel work on eastern Clarke farmsteads?",
           "a": "Yes — multi-structure squirrel exclusion on eastern Clarke rural-residential properties around Winterville is part of our coverage. Effective exclusion plans inspect main house, barns, sheds, equipment outbuildings, and pasture-edge structures since gray squirrels frequently establish across multiple buildings on the same parcel. Multi-day coordinated service is common; same-day inspections usually available."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Got Rats? | Winterville, GA | Local",
@@ -408,7 +414,8 @@
           "q": "Are rats in my Winterville home or barn dangerous?",
           "a": "Yes — three real risks. Rats carry leptospirosis, salmonella, and hantavirus risk in their urine and droppings, and contaminated insulation or barn material requires HEPA-equipped remediation. Histoplasma is a concern where droppings have accumulated long-term in barns. Chewed wiring on Romex is a documented residential fire risk — any rat job that exposes chewed wires triggers licensed-electrician follow-up. The Georgia Department of Public Health, Northeast Health District, handles public-health reporting."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Bogart": {
@@ -468,7 +475,8 @@
           "q": "Do you handle wildlife removal in all Bogart-Clarke neighborhoods?",
           "a": "Yes — full coverage of the Clarke County portion of Bogart including the Clarke-side suburbs, the 1990s-2010s subdivision growth, and the GA-316 corridor edge. Same-day inspections usually available. Coordination with the Oconee County portion of Bogart is seamless since the same contractor covers both."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Problem | Bogart, GA | Local",
@@ -526,7 +534,8 @@
           "q": "Do you cover both the Oconee and Clarke portions of Bogart for squirrel work?",
           "a": "Yes — the contractor handles squirrel work across both the Clarke County portion and the Oconee County portion of Bogart as a coordinated service area, since the city straddles the county boundary and squirrel populations move freely across the line via continuous canopy. Same-day inspections usually available."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Trapping | Bogart, GA | Local",
@@ -585,7 +594,8 @@
           "q": "Are rats in my Bogart-Clarke home dangerous?",
           "a": "Yes — three real risks. Rats carry leptospirosis, salmonella, and hantavirus risk in their urine and droppings, and contaminated attic insulation requires HEPA-equipped remediation. Histoplasma is a concern where droppings have accumulated long-term. Chewed wiring on Romex is a documented residential fire risk — any rat job that exposes chewed wires triggers licensed-electrician follow-up. The Georgia Department of Public Health, Northeast Health District, handles public-health reporting."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Whitehall": {
@@ -645,7 +655,8 @@
           "q": "Are raccoons in my Whitehall home dangerous?",
           "a": "Two real risks. Raccoons are the leading rabies vector in eastern Georgia — any bite or scratch should be reported to the Georgia Department of Public Health, Northeast Health District. Roundworm (Baylisascaris procyonis) is present in raccoon feces and contaminates attic insulation, with documented human and pet exposure cases. Established attic raccoons typically destroy 20-40% of affected insulation, gnaw HVAC ductwork, and chew Romex — a residential fire risk especially elevated in pre-1900 mill-village stock."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Trapping | Whitehall, GA | Local",
@@ -703,7 +714,8 @@
           "q": "Why are State Botanical Garden-adjacent Whitehall properties getting hit hard by squirrels?",
           "a": "The Garden's preserved canopy connects to surrounding residential canopy, sustaining squirrel populations that disperse continuously into adjacent properties. Garden-adjacent Whitehall properties take continuous gray squirrel pressure year-round rather than seasonal-only patterns. Effective treatment combines structural sealing with bridge-habitat review (4+ feet of tree-trim clearance from roofline) and may need wider-perimeter exclusion than typical residential work."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Norway Rat Removal | Whitehall, GA | Local",
@@ -762,7 +774,8 @@
           "q": "Are rats in my Whitehall home dangerous?",
           "a": "Yes — three real risks. Rats carry leptospirosis, salmonella, and hantavirus risk in their urine and droppings, and contaminated insulation requires HEPA-equipped remediation. Histoplasma is a concern where droppings have accumulated long-term in pre-1900 mill-village basements. Chewed wiring on Romex is a documented residential fire risk — any rat job that exposes chewed wires triggers licensed-electrician follow-up. The Georgia Department of Public Health, Northeast Health District, handles public-health reporting."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Exclusion | Whitehall, GA | Local",
@@ -820,7 +833,8 @@
           "q": "Is bat guano in my Whitehall historic home dangerous?",
           "a": "Yes. Bat guano grows Histoplasma capsulatum, the fungus that causes histoplasmosis (a fungal lung infection), when accumulated. Multi-decade pre-1900 Whitehall mill-village chimney colonies produce substantial guano deposits. HEPA-equipped remediation with respiratory protection is required, particularly because pre-1900 chimney cleanups often disturb decades of accumulated material. DIY cleanup is not recommended — the lung-infection risk is real and serious for immunocompromised individuals especially."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

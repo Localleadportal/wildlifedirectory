@@ -38,7 +38,8 @@
         "q": "Do you handle wildlife removal across all five Peachtree City villages?",
         "a": "Yes — full Peachtree City coverage including the original Aberdeen Village, Glenloch, Braelinn, Kedron, Wynnmeade, the Centennial and Planterra Ridge growth corridors, and the newer Lake McIntosh subdivisions. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 4 (West Central office), which covers Fayette and the broader south-metro Atlanta arc."
       }
-    ]
+    ],
+    "index": true
   },
   "Fayetteville": {
     "population_tier": "medium",
@@ -79,7 +80,8 @@
         "q": "When are wildlife calls highest in Fayetteville?",
         "a": "Three peak periods. Late February through May for raccoon kit-season intrusions in attics and Historic Downtown chimneys (peak first three weeks of March) and the first squirrel breeding cycle. August through September for the second squirrel breeding cycle and roof rat ramp-up. October through December for rat intrusion as outdoor food sources disappear and rats move indoors. Bat exclusion windows are narrow (April or September through mid-October only) because of state and federal protections."
       }
-    ]
+    ],
+    "index": true
   },
   "Tyrone": {
     "population_tier": "small",
@@ -119,7 +121,8 @@
         "q": "Are copperheads common in Tyrone yards?",
         "a": "Encounters are higher per-property in semi-rural Tyrone than in typical west-metro subdivisions because of the rural-residential land-use mix. Wooded acreage, woodpiles, brush piles, dense ornamental landscaping, and pasture-edge habitat all provide ideal copperhead habitat. Peak encounter season is April through October. Eastern rat snakes are by far the most common species and are routinely mistaken for copperheads. Take a photo from a safe distance and call for ID before approaching any unfamiliar snake — most encounters turn out to be non-venomous."
       }
-    ]
+    ],
+    "index": true
   },
   "Brooks": {
     "population_tier": "small",
@@ -158,7 +161,8 @@
         "q": "Do you handle wildlife removal across all Brooks properties?",
         "a": "Yes — full Brooks coverage including the Brooks village center, rural farmstead acreage, the Pike County boundary properties, and the limited subdivision development on village edges. Multi-structure rural work is a Brooks specialty. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 4 (West Central office), which covers Fayette and adjacent Pike."
       }
-    ]
+    ],
+    "index": true
   },
   "Woolsey": {
     "population_tier": "small",
@@ -197,6 +201,7 @@
         "q": "Are copperheads and other snakes common in Woolsey?",
         "a": "Yes — encounters are higher per-property in semi-rural Woolsey than anywhere in the suburban Fayette footprint. Wooded acreage, woodpiles, brush piles, dense ornamental landscaping, and pasture-edge habitat provide ideal copperhead habitat. Eastern rat snakes are by far the most common species and are routinely mistaken for copperheads. Peak encounter season is April through October. Take a photo from a safe distance and call for ID before approaching any unfamiliar snake — most turn out to be non-venomous, but identification matters."
       }
-    ]
+    ],
+    "index": true
   }
 }

@@ -21,12 +21,28 @@
     ],
     "wildlife_intro": "Monticello's wildlife profile is shaped by the city's exceptional concentration of pre-1900 historic-downtown housing combined with proximity to substantial state-managed and federal forest acreage. Pre-1900 chimney stock around the Jasper County Courthouse square hosts long-established big-brown-bat (Eptesicus fuscus) colonies — many spanning 50-100+ years of continuous occupation, comparable to Macon-Bibb's antebellum-housing colony establishment timeline. The Charlie Elliott Wildlife Center (~6 miles southeast) and the substantial Oconee National Forest acreage south of Monticello disperse raccoons, opossums, fox squirrels, coyotes, and bats continuously into Monticello residential blocks. Eastern gray squirrels and fox squirrels both appear in residential calls because of the surrounding pine-hardwood remnants. Norway rats appear in the small Monticello commercial-corridor inventory around the courthouse square; roof rats are less firmly established here than in Coastal Plain counties — Jasper sits on the Piedmont side of the Fall Line. Monticello's rural-residential subdivision and city-edge properties commonly involve multi-structure work because of the typical lot size and outbuilding inventory.",
     "faqs": [
-      {"q": "What's the typical wildlife removal cost in Monticello?", "a": "Monticello pre-1900 historic-district wildlife jobs run $700-$2,000+ because of multi-entry antebellum housing profiles. Bat-colony work on pre-1900 chimneys runs at the highest end because of 50-100+ year colony tenure plus historic-property access constraints. Newer subdivision and rural-residential edge jobs run $450-$1,500+. Call for an in-person estimate."},
-      {"q": "Why are Monticello historic properties so wildlife-prone?", "a": "Monticello's pre-1900 housing around the Jasper County Courthouse square features original masonry chimneys without modern caps, hand-laid brick foundations, pre-modern wood soffits with corner separation, and brick-veneer separation. Multi-entry profiles (4-5 per property) are the rule on courthouse-square antebellum properties."},
-      {"q": "Are Monticello bat colonies really 50-100+ years old?", "a": "Yes for many pre-1900 courthouse-square antebellum and Victorian properties. Big-brown bat maternity colonies establish in original masonry chimneys and re-use the same roost across generations. Multi-decade colony tenure is documented across Monticello's pre-1900 historic core, comparable to Macon-Bibb's antebellum colony establishment timeline."},
-      {"q": "What animals are most common in Monticello?", "a": "Raccoons, Eastern gray squirrels, fox squirrels, opossums, big-brown bats (in pre-1900 chimneys), Norway rats (in the small commercial corridor), and increasingly coyote sightings at city edges. White-tailed deer are routine on rural-residential edge properties because of the surrounding WMA-and-forest source habitat."},
-      {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Monticello requires a Georgia DNR Trapping License. Jasper County falls in Georgia DNR Region 1 (Northeast) because of its Piedmont position north of the Fall Line. Pre-1900 chimney bat work additionally requires federal tricolored bat ESA-compliance documentation."}
-    ]
+      {
+        "q": "What's the typical wildlife removal cost in Monticello?",
+        "a": "Monticello pre-1900 historic-district wildlife jobs run $700-$2,000+ because of multi-entry antebellum housing profiles. Bat-colony work on pre-1900 chimneys runs at the highest end because of 50-100+ year colony tenure plus historic-property access constraints. Newer subdivision and rural-residential edge jobs run $450-$1,500+. Call for an in-person estimate."
+      },
+      {
+        "q": "Why are Monticello historic properties so wildlife-prone?",
+        "a": "Monticello's pre-1900 housing around the Jasper County Courthouse square features original masonry chimneys without modern caps, hand-laid brick foundations, pre-modern wood soffits with corner separation, and brick-veneer separation. Multi-entry profiles (4-5 per property) are the rule on courthouse-square antebellum properties."
+      },
+      {
+        "q": "Are Monticello bat colonies really 50-100+ years old?",
+        "a": "Yes for many pre-1900 courthouse-square antebellum and Victorian properties. Big-brown bat maternity colonies establish in original masonry chimneys and re-use the same roost across generations. Multi-decade colony tenure is documented across Monticello's pre-1900 historic core, comparable to Macon-Bibb's antebellum colony establishment timeline."
+      },
+      {
+        "q": "What animals are most common in Monticello?",
+        "a": "Raccoons, Eastern gray squirrels, fox squirrels, opossums, big-brown bats (in pre-1900 chimneys), Norway rats (in the small commercial corridor), and increasingly coyote sightings at city edges. White-tailed deer are routine on rural-residential edge properties because of the surrounding WMA-and-forest source habitat."
+      },
+      {
+        "q": "Is service Georgia DNR-licensed?",
+        "a": "Yes. All commercial wildlife trapping in Monticello requires a Georgia DNR Trapping License. Jasper County falls in Georgia DNR Region 1 (Northeast) because of its Piedmont position north of the Fall Line. Pre-1900 chimney bat work additionally requires federal tricolored bat ESA-compliance documentation."
+      }
+    ],
+    "index": true
   },
   "Shady Dale": {
     "population_tier": "very-small",
@@ -48,11 +64,27 @@
     ],
     "wildlife_intro": "Shady Dale's wildlife profile is shaped almost entirely by the surrounding Charlie Elliott Wildlife Center and Cedar Creek WMA acreage — Shady Dale sits in the middle of one of central Georgia's largest contiguous state-managed wildlife reservoirs. Source-population density per resident exceeds nearly any other Jasper-area community. Most Shady Dale wildlife calls involve multi-structure rural-residential properties (residence plus barns, sheds, equipment buildings, chicken coops) with continuous source pressure from the surrounding undeveloped acreage. Eastern gray and fox squirrels both appear in residential calls; raccoons, opossums, coyotes, and bats run at high source-driven density. White-tailed deer densities are exceptional. Shady Dale's small commercial inventory produces minimal Norway rat establishment compared to Monticello, but rural-acreage outbuildings see consistent rat work because of food-storage and livestock-feed access.",
     "faqs": [
-      {"q": "What's the typical wildlife removal cost in Shady Dale?", "a": "Shady Dale wildlife jobs run $500-$1,600+ depending on species and entry-point count. Multi-structure rural-residential work (residence plus barns, sheds, outbuildings) commonly runs at the higher end. WMA-adjacent properties absorbing continuous source pressure run higher because of repeat-call patterns. Call for a property-specific estimate."},
-      {"q": "Why is wildlife pressure so high in Shady Dale?", "a": "Shady Dale sits in the middle of Charlie Elliott Wildlife Center and Cedar Creek WMA acreage — one of central Georgia's largest contiguous state-managed wildlife reservoirs. Source-population density per resident exceeds nearly any other Jasper-area community."},
-      {"q": "What animals are most common in Shady Dale?", "a": "Raccoons, Eastern gray squirrels, fox squirrels (because of surrounding pine-hardwood acreage), opossums, big-brown / evening bats, and exceptionally common coyote sightings. White-tailed deer densities are exceptional. Armadillos are routine in Shady Dale yards."},
-      {"q": "Do my Shady Dale barns and outbuildings need separate wildlife work?", "a": "Often yes. Shady Dale's rural-acreage character produces multi-structure wildlife establishment — animals den in barns, sheds, equipment buildings, and chicken coops in addition to or instead of the main residence. Whole-property exclusion across all structures is the durable approach."},
-      {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Shady Dale requires a Georgia DNR Trapping License. Jasper County falls in Georgia DNR Region 1 (Northeast)."}
-    ]
+      {
+        "q": "What's the typical wildlife removal cost in Shady Dale?",
+        "a": "Shady Dale wildlife jobs run $500-$1,600+ depending on species and entry-point count. Multi-structure rural-residential work (residence plus barns, sheds, outbuildings) commonly runs at the higher end. WMA-adjacent properties absorbing continuous source pressure run higher because of repeat-call patterns. Call for a property-specific estimate."
+      },
+      {
+        "q": "Why is wildlife pressure so high in Shady Dale?",
+        "a": "Shady Dale sits in the middle of Charlie Elliott Wildlife Center and Cedar Creek WMA acreage — one of central Georgia's largest contiguous state-managed wildlife reservoirs. Source-population density per resident exceeds nearly any other Jasper-area community."
+      },
+      {
+        "q": "What animals are most common in Shady Dale?",
+        "a": "Raccoons, Eastern gray squirrels, fox squirrels (because of surrounding pine-hardwood acreage), opossums, big-brown / evening bats, and exceptionally common coyote sightings. White-tailed deer densities are exceptional. Armadillos are routine in Shady Dale yards."
+      },
+      {
+        "q": "Do my Shady Dale barns and outbuildings need separate wildlife work?",
+        "a": "Often yes. Shady Dale's rural-acreage character produces multi-structure wildlife establishment — animals den in barns, sheds, equipment buildings, and chicken coops in addition to or instead of the main residence. Whole-property exclusion across all structures is the durable approach."
+      },
+      {
+        "q": "Is service Georgia DNR-licensed?",
+        "a": "Yes. All commercial wildlife trapping in Shady Dale requires a Georgia DNR Trapping License. Jasper County falls in Georgia DNR Region 1 (Northeast)."
+      }
+    ],
+    "index": true
   }
 }

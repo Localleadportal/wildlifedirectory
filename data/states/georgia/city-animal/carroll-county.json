@@ -31,7 +31,8 @@
           "q": "Do you handle raccoons at UWG-area rentals?",
           "a": "Yes. The UWG campus and surrounding student-rental district are a routine work source — aging dormitory and rental-housing stock with dumpster ecology behind student apartment complexes sustains opportunistic raccoon foraging. Most jobs are coordinated with property managers or absentee landlords; same-day inspections usually available."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Removal | Carrollton, GA | Local",
@@ -64,7 +65,8 @@
           "q": "Are squirrels really a fire risk in Carrollton historic homes?",
           "a": "Yes, and the risk in Carrollton's Maple Street District is sharper than in newer construction because of the wiring history layered into pre-1860 housing. Many Maple Street homes have a stratigraphy of original knob-and-tube (1900-1940), early-generation Romex with cloth jacketing (1940s-1960s), undersized neutral conductors typical of the era, and partial modern romex retrofits where 20th-century rewiring stopped at junction boxes. Squirrels chew through every layer indiscriminately. Most Carrollton historic-district exclusion jobs include a licensed-electrician walkthrough after the squirrels are removed and the attic insulation is cleared, with replacement of any chewed Romex sections discovered during the inspection."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Roof Rat Removal | Carrollton, GA | Local",
@@ -98,7 +100,8 @@
           "q": "Will mothballs or peppermint oil keep rats out of my Carrollton attic?",
           "a": "No. Both produce short-term avoidance at most and have zero structural exclusion value. Roof rats and Norway rats both establish entry points by chewing through gaps as small as a half-inch — the only durable resolution is identifying every entry point, sealing with rat-proof material (hardware cloth, sheet metal, mortar), and removing exterior food subsidy."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Removal | Carrollton, GA | Local",
@@ -131,7 +134,8 @@
           "q": "Is bat guano in my Carrollton attic dangerous?",
           "a": "Yes, potentially. Accumulated bat guano carries <em>Histoplasma capsulatum</em>, the fungus that causes histoplasmosis — a respiratory infection contracted by inhaling guano-dust spores. Carrollton's long-established colonies routinely produce inches of accumulated guano, requiring HEPA-equipped decontamination by personnel using N95+ respiratory protection. DIY cleanup is the single highest histoplasmosis-exposure risk in the bat-exclusion field."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Villa Rica": {
@@ -166,7 +170,8 @@
           "q": "Do you serve the Villa Rica side of the Carroll-Douglas county line?",
           "a": "Yes. Villa Rica straddles the Carroll-Douglas line with most of the city in Carroll, and we cover the entire municipal footprint. Subdivisions on the Douglas side along Highway 61 and the I-20 corridor are routine work areas; the Carroll side around the historic downtown is the same. Same-day inspections usually available."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Got Squirrels? | Villa Rica, Carroll Co, GA | Local",
@@ -199,7 +204,8 @@
           "q": "Why are squirrels such a constant problem in Villa Rica?",
           "a": "Continuous mature canopy across the city's residential housing — both the historic-downtown core and the 1990s-2010s I-20 corridor subdivisions — is the underlying driver. Eastern gray squirrels move freely between properties via tree-to-roof bridges and overhead utility lines, and never need to touch the ground. Twin breeding cycles (February-March, August-September) drive twin call peaks."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Got Rats? | Villa Rica, Carroll Co, GA | Local",
@@ -232,7 +238,8 @@
           "q": "Will mothballs or peppermint oil keep rats out of my Villa Rica attic?",
           "a": "No. Both produce short-term avoidance at most and have zero structural exclusion value. The only durable resolution is identifying every entry point, sealing with rat-proof material (hardware cloth, sheet metal, mortar), and removing exterior food subsidy."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Bowdon": {
@@ -267,7 +274,8 @@
           "q": "Do you serve rural areas around Bowdon?",
           "a": "Yes. Rural Bowdon — the agricultural-edge properties throughout western and southern Carroll County between the Tallapoosa basin and the Heard County line — is core service territory. Barn rebuilds, chicken-coop fortification, and outbuilding access-door work are routine scope items. Same-day inspections usually available."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Problem | Bowdon, GA | Local",
@@ -300,7 +308,8 @@
           "q": "Are squirrels really a fire risk in Bowdon historic homes?",
           "a": "Yes, and Bowdon's risk profile is unusual because much of the 1850s-era historic-core housing was electrified in stages between 1910 and 1940, leaving a stratigraphy of original knob-and-tube, mid-century cloth-jacketed Romex, and various rewiring patches. Squirrels chew through any of it without preference. Beyond chewed-Romex fire risk, Bowdon's older homes have a secondary issue: rodent and squirrel nest material accumulating against the original cellulose attic insulation creates a heat-retention pocket around damaged wiring that increases ignition risk further. Most Bowdon historic-core exclusion jobs include a licensed-electrician post-removal walkthrough."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Trapping | Bowdon, GA | Local",
@@ -333,7 +342,8 @@
           "q": "Will mothballs or peppermint oil keep rats out of my Bowdon home?",
           "a": "No. Both produce short-term avoidance at most and have zero structural exclusion value. The only durable resolution is identifying every entry point, sealing with rat-proof material (hardware cloth, sheet metal, mortar), and removing exterior food subsidy."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Colony | Bowdon, GA | Local",
@@ -366,7 +376,8 @@
           "q": "Is bat guano in my Bowdon attic dangerous?",
           "a": "Yes, potentially. Accumulated bat guano carries <em>Histoplasma capsulatum</em>, the fungus that causes histoplasmosis — a respiratory infection contracted by inhaling guano-dust spores. Bowdon's long-established colonies routinely produce inches of accumulated guano, requiring HEPA-equipped decontamination by personnel using N95+ respiratory protection. DIY cleanup is the single highest histoplasmosis-exposure risk in the bat-exclusion field."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Temple": {
@@ -401,7 +412,8 @@
           "q": "Do you serve the I-20 corridor between Villa Rica and Temple?",
           "a": "Yes. The I-20 corridor between Villa Rica and Temple is core service territory and represents most of Carroll County's recent residential growth. The corridor's now-mature 1990s-2010s subdivision construction is at the leading western edge of roof rat range expansion as the species moves westward from metro Atlanta. Same-day inspections usually available."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Damage | Temple, GA | Local",
@@ -434,7 +446,8 @@
           "q": "Why are squirrels such a constant problem in Temple?",
           "a": "Continuous mature canopy across the city's residential housing — both the pre-WWII railroad-era downtown core and the 1990s-2010s I-20 corridor subdivisions — is the underlying driver. Eastern gray squirrels move freely between properties via tree-to-roof bridges and overhead utility lines, and never need to touch the ground. Twin breeding cycles (February-March, August-September) drive twin call peaks."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Infestation | Temple, GA | Local",
@@ -467,7 +480,8 @@
           "q": "Will mothballs or peppermint oil keep rats out of my Temple attic?",
           "a": "No. Both produce short-term avoidance at most and have zero structural exclusion value. The only durable resolution is identifying every entry point, sealing with rat-proof material (hardware cloth, sheet metal, mortar), and removing exterior food subsidy."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

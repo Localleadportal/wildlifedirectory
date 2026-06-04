@@ -45,7 +45,8 @@
         "q": "Do you handle wildlife removal across all Athens neighborhoods?",
         "a": "Yes — full Athens coverage including Cobbham, Boulevard, Bloomfield, Five Points, the Milledge Avenue corridor, Normaltown, East Athens, Whitehall, the UGA campus-adjacent housing, and the eastern and northern subdivisions. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 2 (Gainesville office), which covers Clarke and the broader Northeast Georgia Piedmont region."
       }
-    ]
+    ],
+    "index": true
   },
   "Winterville": {
     "population_tier": "small",
@@ -84,7 +85,8 @@
         "q": "Do you handle wildlife removal across all Winterville properties?",
         "a": "Yes — full Winterville coverage including the historic train-depot town center, mid-century rural-suburban residential, the GA-72 corridor, the eastern Clarke wooded acreage along the Oglethorpe County boundary, and the limited subdivision development on the city edges. Multi-structure rural work is part of the coverage. Same-day inspections usually available."
       }
-    ]
+    ],
+    "index": true
   },
   "Bogart": {
     "population_tier": "small",
@@ -122,7 +124,8 @@
         "q": "Do you handle wildlife removal in all Bogart-Clarke neighborhoods?",
         "a": "Yes — full coverage of the Clarke County portion of Bogart including the Clarke-side suburbs, the 1990s-2010s subdivision growth, and the GA-316 corridor edge. Same-day inspections usually available. Coordination with the Oconee County portion of Bogart is seamless since the same contractor covers both."
       }
-    ]
+    ],
+    "index": true
   },
   "Whitehall": {
     "population_tier": "small",
@@ -161,6 +164,7 @@
         "q": "Do you cover Whitehall as part of Athens-Clarke County service?",
         "a": "Yes — Whitehall is fully covered as part of the unified Athens-Clarke County footprint. The contractor handles Whitehall, Athens, Winterville, and the Bogart Clarke-portion as a single coordinated Clarke County service area. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 2 (Gainesville office)."
       }
-    ]
+    ],
+    "index": true
   }
 }

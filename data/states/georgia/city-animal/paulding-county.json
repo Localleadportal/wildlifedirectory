@@ -31,7 +31,8 @@
           "q": "Are raccoons more common in Dallas pre-1900 homes or in Highway 92 subdivisions?",
           "a": "Both produce regular Dallas calls, for different reasons. Pre-1900 courthouse-square housing has the multi-entry-point structural profile that supports established raccoon use of original masonry chimneys, hand-laid brick foundations, and weathered wood soffits — the calls tend to be larger-scope multi-entry exclusions. 2000s-era Highway 92 and Highway 278 corridor subdivisions are newer construction but their now-mature canopy plus proximity to Paulding Forest WMA habitat and Pumpkinvine Creek dispersal produces single-source entry calls in increasing volume. Different routes, similar end result: raccoon activity in residential attics."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Dallas, GA — Removal & Exclusion",
@@ -64,7 +65,8 @@
           "q": "Are squirrels really a fire risk in Dallas pre-1900 homes?",
           "a": "Yes — chewed Romex wiring is documented as a leading cause of attic-origin residential fires nationally. Pre-1900 Dallas courthouse-square housing has wiring runs 80-120+ years old layered through staged 1900s-1940s electrification — knob-and-tube remnants, mid-century cloth-jacketed Romex, and various modern rewiring patches in the same attic spaces. Squirrels chew through every layer indiscriminately. Pre-1900 Dallas exclusion jobs routinely include licensed-electrician follow-up after the squirrels are removed and the attic insulation is cleared."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Dallas, GA — Roof + Norway Rat Pros",
@@ -98,7 +100,8 @@
           "q": "Are roof rats new to Dallas, GA?",
           "a": "Roof rats moved up the I-20 and Highway 278 corridors from metro Atlanta during the 2010s and are now firmly establishing in 2000s-2020s subdivisions along Dallas's Highway 92 and Highway 278 corridors. Dallas's rapid suburban growth produced exactly the conditions roof rats need: subdivisions that were brand-new construction at the time of species migration have now reached mature canopy. Many Dallas homeowners encountering roof-rat activity for the first time mistake it for squirrels."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bats in Attic | Dallas, GA — Licensed Exclusion",
@@ -131,7 +134,8 @@
           "q": "How much does bat removal cost in Dallas?",
           "a": "Pre-1900 Dallas courthouse-square historic bat-exclusion jobs run $2,500-$5,000+ once full guano remediation is included. Multi-cavity historic-district jobs (chimney + gable louver + soffit) frequently run $4,000-$7,500+. Single-entry exclusion in 2000s-2020s subdivision construction runs $1,200-$2,500+. Tricolored-confirmed Dallas jobs run higher because of the additional federal-protocol evaluation and longer scheduling window required."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Hiram": {
@@ -166,7 +170,8 @@
           "q": "Are raccoons more common in Hiram subdivisions or along Hiram-Sudderth Road?",
           "a": "Both produce regular Hiram calls. Hiram-Sudderth Road retail corridor commercial properties take raccoon pressure from the dumpster food subsidy behind grocery, restaurant, and big-box retail. Adjacent residential subdivisions then receive secondary migration pressure as raccoons move from the retail corridor through the Silver Comet Trail and connecting tree canopy into nearby homes. Trail-adjacent residential properties typically take the heaviest pressure because they sit at the intersection of both corridors."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Hiram, GA — Removal & Exclusion",
@@ -199,7 +204,8 @@
           "q": "Are squirrels a fire risk in Hiram homes?",
           "a": "Yes — chewed Romex wiring is a documented cause of attic-origin residential fires. 2000s-era Hiram subdivision homes have lower individual-wire-age risk than pre-1900 housing but still routinely require licensed-electrician follow-up after exclusion to identify chewed sections discovered during the attic decontamination phase. Squirrels gnaw to keep their incisors trimmed and don't discriminate between wood, plastic, or wire insulation."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Hiram, GA — Roof + Norway Rat Pros",
@@ -233,7 +239,8 @@
           "q": "How can I tell roof rats from Norway rats in Hiram?",
           "a": "Roof rats are smaller (5-7 oz adult), have pointed snouts and tails longer than their body, and produce pointed half-inch droppings — they live overhead in attic and ceiling-cavity territory throughout 2000s-era Hiram subdivisions. Norway rats are larger (10-16 oz), have blunt snouts and tails shorter than their body, and produce blunt 3/4-inch droppings — they concentrate along the Hiram-Sudderth retail corridor at ground level. Different exclusion approach for each species."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bats in Attic | Hiram, GA — Licensed Exclusion",
@@ -266,7 +273,8 @@
           "q": "Is the tricolored bat present in Hiram?",
           "a": "Possibly. The federally proposed-for-listing tricolored bat (Perimyotis subflavus) is documented in the Pumpkinvine Creek corridor running through Paulding County. Pre-1900 Hiram bat colonies should be evaluated for tricolored presence before exclusion. Confirming a tricolored colony triggers federal Endangered Species Act protocols on top of the standard Georgia DNR maternity-season restrictions."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Braswell": {
@@ -301,7 +309,8 @@
           "q": "Do you handle raccoons at rural Braswell agricultural properties?",
           "a": "Yes. Braswell and the surrounding northern Paulding agricultural-edge properties are core service territory. Common rural Paulding scope items include barn-perimeter rebuild, chicken-coop hardware-cloth reinforcement against raccoon dexterity, agricultural outbuilding access-door replacement on weathered hardware, and ongoing rural raccoon management at the source-population level. Same-day inspections are usually available."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Braswell, GA — Removal & Exclusion",
@@ -334,7 +343,8 @@
           "q": "Are squirrels a fire risk in Braswell mid-century farmhouses?",
           "a": "Yes — chewed Romex wiring is a leading cause of attic-origin residential fires. Mid-century Braswell farmhouses have wiring runs 50-70+ years old, layered through staged farm-electrification updates. Rural Braswell exclusion jobs routinely include licensed-electrician follow-up on chewed wiring discovered during the attic decontamination phase."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Braswell, GA — Roof + Norway Rat Pros",
@@ -367,7 +377,8 @@
           "q": "Will mothballs or peppermint oil keep rats out of my Braswell home?",
           "a": "No. Both produce short-term avoidance for a week or two while the rats acclimate, then activity resumes at the same level. Durable Paulding rat resolution requires three steps in sequence — full entry-point inventory through inspection, sealing each entry with rat-proof material matched to the entry type (hardware cloth, sheet metal, or mortar), and cutting the exterior food subsidy that drew the population in to begin with. In rural Braswell properties, food-subsidy removal includes grain-storage exclusion and proper waste-stream containment around outbuildings."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Yorkville": {
@@ -402,7 +413,8 @@
           "q": "Do you handle WMA-edge agricultural properties around Yorkville?",
           "a": "Yes. WMA-edge work is core service territory in Yorkville. Barn rebuilds, chicken-coop fortification, agricultural outbuilding access-door work, and ongoing maintenance contracts to address the continuous source-population pressure are routine scope items. Single-shot exclusion rarely resolves WMA-edge raccoon issues — the realistic approach is structural work paired with ongoing prevention."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Yorkville, GA — Removal & Exclusion",
@@ -435,7 +447,8 @@
           "q": "Do you handle squirrels in Yorkville agricultural barns?",
           "a": "Yes. Rural Yorkville agricultural barn and outbuilding squirrel work is routine. Standard scope covers the main residence plus the surrounding outbuildings — single-structure exclusion typically results in re-establishment in a neighboring barn or shed within a few weeks because of WMA source pressure."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Yorkville, GA — Roof + Norway Rat Pros",
@@ -468,7 +481,8 @@
           "q": "Will mothballs or peppermint oil keep rats out of my Yorkville home?",
           "a": "No. Both produce short-term avoidance for a week or two while the rats acclimate, then activity resumes. Durable Paulding rat resolution requires three steps in sequence — full entry-point inventory through inspection, sealing each entry with rat-proof material matched to the entry type (hardware cloth, sheet metal, or mortar), and cutting the exterior food subsidy that drew the population in to begin with. In rural Yorkville properties food-subsidy removal means grain-storage exclusion, secured trash containment, and outbuilding access-point sealing."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

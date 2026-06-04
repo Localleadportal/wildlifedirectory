@@ -40,7 +40,8 @@
           "q": "When are Fort Valley raccoons worst?",
           "a": "Female raccoons den in chimneys February-April every year — peak historic-district chimney activity. May-August peach harvest produces a summer pressure spike. Fall dispersal (August-October) drives a third peak. Coastal Plain climate keeps baseline activity higher year-round."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Fort Valley, GA — Historic + FVSU",
@@ -82,7 +83,8 @@
           "q": "Does peach harvest affect Fort Valley squirrels?",
           "a": "Yes. May-August harvest produces a summer squirrel-activity spike as both gray and fox squirrels feed on dropped peach fruit. The activity overlaps the second annual breeding cycle and intensifies attic-establishment rates."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Fort Valley, GA — Historic Downtown Rats",
@@ -124,7 +126,8 @@
           "q": "Will rodenticide bait alone solve my Fort Valley rat problem?",
           "a": "No. Bait without entry-point sealing leaves the source population intact and creates dead-rat-in-the-wall callbacks when rats die in inaccessible wall voids of pre-1900 Fort Valley housing. Exclusion plus bait — in that order — is the only reliable approach."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bats in Attic | Fort Valley, GA — Antebellum Chimney Pros",
@@ -166,7 +169,8 @@
           "q": "Is multi-decade guano dangerous in my Fort Valley chimney?",
           "a": "Yes. Long-tenure bat guano can carry histoplasmosis spores — a fungal lung infection. 50-80+ year guano deposits require contained-area remediation with respiratory PPE; homeowner self-remediation is not recommended."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Byron": {
@@ -210,7 +214,8 @@
           "q": "When are Byron raccoons most active?",
           "a": "Fall dispersal (August-November) and spring den-establishment (February-April) are the heaviest pressure windows. Coastal Plain climate keeps baseline activity higher year-round. I-75 commercial corridor pressure adds steady food-driven activity."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Byron, GA — I-75 Subdivision Pros",
@@ -252,7 +257,8 @@
           "q": "Are chewed wires really a risk in newer Byron construction?",
           "a": "Yes — possibly more so. Newer subdivision attics commonly have higher Romex density than older housing (more circuits per square foot). More wiring means more chew targets when squirrels are established. Chewed-wire repair is a documented insurance claim driver in middle Georgia each year."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Byron, GA — I-75 Exit Norway Rat Pros",
@@ -294,7 +300,8 @@
           "q": "Will bait alone solve my Byron rat problem?",
           "a": "No. Bait without entry-point sealing leaves the source population intact and creates dead-rat-in-the-wall callbacks when rats die in inaccessible wall voids. Exclusion plus bait — in that order — is the only reliable approach."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bats in Attic | Byron, GA — Subdivision Colony Exclusion",
@@ -336,7 +343,8 @@
           "q": "Is bat guano dangerous in my Byron attic?",
           "a": "Yes. Bat guano can carry histoplasmosis spores — a fungal lung infection. Multi-decade guano deposits require contained-area remediation with respiratory PPE; homeowner self-remediation is not recommended."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

@@ -40,7 +40,8 @@
           "q": "Do my Roberta outbuildings need raccoon work too?",
           "a": "Often yes. Crawford County's rural-acreage character produces multi-structure raccoon establishment — animals den in barns, sheds, equipment buildings, and chicken coops in addition to or instead of the main residence. Whole-property exclusion is the durable solution."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Roberta, GA — Fox + Gray Pros",
@@ -82,7 +83,8 @@
           "q": "Will Roberta squirrels leave on their own?",
           "a": "No. Female gray and fox squirrels establish maternity dens and stay through weaning; adult males establish year-round territories. Trap-and-exclude is the only reliable resolution."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Roberta, GA — Rural-Edge Rat Pros",
@@ -124,7 +126,8 @@
           "q": "Why do I have rats if my Roberta property is rural?",
           "a": "Rural-acreage properties absorb continuous source pressure from surrounding pine-hardwood remnants. Outbuildings provide ideal Norway rat establishment sites — food storage, equipment storage, livestock-feed access. Rural-edge character increases per-property rat pressure, not decreases it."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bats in Attic | Roberta, GA — Pre-1900 Chimney Colonies",
@@ -166,7 +169,8 @@
           "q": "Is multi-decade guano dangerous in my Roberta chimney?",
           "a": "Yes. Long-tenure bat guano can carry histoplasmosis spores — a fungal lung infection. 30-60+ year guano deposits require contained-area remediation with respiratory PPE; homeowner self-remediation is not recommended."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Knoxville": {
@@ -210,7 +214,8 @@
           "q": "Are properties near the Flint River hit harder?",
           "a": "Yes — the Flint River corridor 6 miles west of Knoxville sustains a year-round raccoon source population. Properties on Knoxville's western edge or backing to rural-acreage between Knoxville and the Flint absorb more dispersal pressure than central Knoxville blocks."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Knoxville, GA — Pre-1900 Exclusion",
@@ -252,7 +257,8 @@
           "q": "Are chewed wires a real risk in Knoxville pre-1900 homes?",
           "a": "Yes — possibly more so than in newer construction. Knoxville pre-1900 attics often have decades of accumulated chewed-wire damage that should be inspected during exclusion. Chewed-wire repair is a documented insurance claim driver in middle Georgia every year."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Knoxville, GA — Pre-1900 Rat Pros",
@@ -294,7 +300,8 @@
           "q": "Do my Knoxville outbuildings need rat work too?",
           "a": "Often yes. Crawford County's rural-acreage character produces multi-structure rat establishment — Norway rats in barns, sheds, equipment buildings, chicken coops then dispersing to adjacent residences. Whole-property exclusion is the durable approach."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

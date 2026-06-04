@@ -40,7 +40,8 @@
           "q": "Are Flint River-adjacent Thomaston properties hit harder?",
           "a": "Yes for western Thomaston. The Flint River corridor 5-6 miles west plus Sprewell Bluff State Park sustain a continuous raccoon source population. Properties on Thomaston's western edges and rural-acreage properties between the city and the river absorb the heaviest river-corridor dispersal pressure."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Thomaston, GA — Antebellum + Mill Pros",
@@ -82,7 +83,8 @@
           "q": "Are chewed wires a real risk in Thomaston?",
           "a": "Yes. Both gray and fox squirrels chew Romex insulation within 30-60 days of attic establishment, exposing live wire. Chewed-wire repair is a documented insurance claim driver in central Georgia every year. Pre-1900 Thomaston attics often have decades of accumulated chewed-wire damage."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Thomaston, GA — US 19 Rat Pros",
@@ -124,7 +126,8 @@
           "q": "Will rodenticide bait alone solve my Thomaston rat problem?",
           "a": "No. Bait without entry-point sealing leaves the source population intact and creates dead-rat-in-the-wall callbacks. Exclusion plus bait — in that order — is the only reliable approach."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Removal in Thomaston, GA | Licensed Local Exclusion",
@@ -143,7 +146,12 @@
       ],
       "seasonalOverrides": [
         {
-          "months": [4, 5, 6, 7],
+          "months": [
+            4,
+            5,
+            6,
+            7
+          ],
           "title": "Maternity Season — Bat Exclusion Paused in Thomaston",
           "level": "high",
           "msg": "From about May through August, Georgia DNR rules pause bat exclusion while flightless pups are in the roost — sealing a Thomaston attic or chimney now would trap them inside. We can still inspect your home, map the colony's entry points, and reserve your spot so exclusion begins the day the maternity window closes."
@@ -186,7 +194,8 @@
           "q": "Can I seal the entry points myself?",
           "a": "It's risky and often illegal. Sealing gaps without timed one-way exclusion traps bats — and during the May–August maternity season, their pups — inside the walls, where they die and cause odor and contamination. You also risk histoplasmosis exposure from disturbed guano. A licensed Thomaston specialist handles the timing, cleanup, and permanent sealing so it's done once, correctly, and legally."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Yatesville": {
@@ -230,7 +239,8 @@
           "q": "When are Yatesville raccoons most active?",
           "a": "Fall dispersal (September-November) and spring den-establishment (February-April) are the heaviest pressure windows. Coastal Plain year-round breeding doesn't apply here — Yatesville is Piedmont, so winter pressure runs lower than middle Georgia counties."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Yatesville, GA — Fox + Gray Pros",
@@ -272,7 +282,8 @@
           "q": "Do my Yatesville outbuildings need squirrel work?",
           "a": "Often yes. Squirrels — both fox and gray — establish in barn lofts, equipment-shed rafters, and outbuilding attic-equivalent spaces in addition to or instead of the main residence. Multi-structure exclusion is routine on Yatesville rural-residential properties."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

@@ -56,7 +56,8 @@
           "q": "Do you handle raccoon removal in Historic Downtown Douglasville?",
           "a": "Yes — Historic Downtown Douglasville is a core service area. The pre-WWII housing stock has multi-entry profiles (4-5+ viable raccoon entry points per property is common), original masonry chimneys that frequently host multi-year denning females, and historic-district preservation considerations on any visible exterior work. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 1 (Armuchee office)."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Removal | Douglasville, GA | Local",
@@ -114,7 +115,8 @@
           "q": "Why do my Mirror Lake neighbors keep losing power to chewed wires?",
           "a": "Squirrels chew wires reflexively to keep their incisors filed down, and chewed Romex is a documented leading cause of attic-origin residential fires. The risk is elevated anywhere wiring runs are aged or where squirrels have ongoing attic access. Mirror Lake and the older Chapel Hill subdivisions have reached the wiring-age range where chew damage starts producing real failures. Any Douglasville exclusion job that exposes chewed wiring requires licensed-electrician follow-up before final sealing."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Roof Rat Removal | Douglasville, GA | Local",
@@ -173,7 +175,8 @@
           "q": "Are rats in my Douglasville attic dangerous?",
           "a": "Two real risks. Rats carry leptospirosis, salmonella, and hantavirus risk in their urine and droppings, and contaminated attic insulation requires HEPA-equipped remediation. Chewed wiring on Romex is a documented residential fire risk — any rat job that exposes chewed wires triggers licensed-electrician follow-up before final exclusion. The Georgia Department of Public Health, West Central Health District, handles rabies-vector reporting, though rats are not the primary vector in Georgia."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Lithia Springs": {
@@ -233,7 +236,8 @@
           "q": "Are raccoons in my Lithia Springs attic dangerous to my family or pets?",
           "a": "Yes — two real risks. Raccoons are the leading rabies vector in eastern Georgia; any bite or scratch should be reported to the Georgia Department of Public Health, West Central Health District. Roundworm (Baylisascaris procyonis) is present in raccoon feces and contaminates attic insulation, with documented human and pet exposure cases. Established attic raccoons typically destroy 20-40% of affected insulation, gnaw HVAC ductwork, and chew Romex — a residential fire risk."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Got Squirrels? | Lithia Springs, GA | Local",
@@ -291,7 +295,8 @@
           "q": "Why does my Lithia Springs subdivision keep getting re-infested with squirrels?",
           "a": "Continuous canopy is the underlying driver. Subdivisions along Bear Creek and the I-20 corridor have reached canopy maturity where tree-to-roof bridges sustain ongoing access. Sealing one entry without addressing the bridge habitat — through aggressive tree-trim (4+ feet of clearance from roofline) and full property-perimeter inspection — produces re-entry within weeks at the next vulnerable point. Effective Lithia Springs squirrel exclusion combines structural sealing with bridge-habitat review."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Got Rats? | Lithia Springs, GA | Local",
@@ -350,7 +355,8 @@
           "q": "Are rat droppings in my Lithia Springs attic actually a health risk?",
           "a": "Yes — three real risks. Leptospirosis, salmonella, and hantavirus risk in urine and droppings; contaminated insulation requires HEPA-equipped remediation rather than DIY cleanup. Histoplasma is a concern where droppings accumulation has been long-established. Chewed Romex on accessible wiring is a documented residential fire risk. The Georgia Department of Public Health, West Central Health District, handles public-health reporting where exposure is significant."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Austell": {
@@ -410,7 +416,8 @@
           "q": "Are raccoons in my Austell attic dangerous?",
           "a": "Two real risks. Raccoons are the leading rabies vector in eastern Georgia — any bite or scratch should be reported to the Georgia Department of Public Health, West Central Health District. Roundworm (Baylisascaris procyonis) is present in raccoon feces and contaminates attic insulation, with documented human and pet exposure cases. Established attic raccoons typically destroy 20-40% of affected insulation, gnaw HVAC ductwork, and chew Romex — a documented residential fire risk."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Problem | Austell, GA | Local",
@@ -468,7 +475,8 @@
           "q": "Do you cover both the Cobb and Douglas portions of Austell for squirrel work?",
           "a": "Yes — the contractor handles squirrel work across both the Douglas County portion and the Cobb County portion of Austell as a coordinated service area, since the city straddles the county boundary and squirrel populations move freely across the line via continuous canopy. Same-day inspections are usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 1 (Armuchee office), which covers both counties."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Trapping | Austell, GA | Local",
@@ -527,7 +535,8 @@
           "q": "Are rats in my Austell-Douglas home dangerous?",
           "a": "Yes — three real risks. Rats carry leptospirosis, salmonella, and hantavirus risk in their urine and droppings, and contaminated attic insulation requires HEPA-equipped remediation. Histoplasma is a concern where droppings have accumulated long-term. Chewed wiring on Romex is a documented residential fire risk — any rat job that exposes chewed wires triggers licensed-electrician follow-up. The Georgia Department of Public Health, West Central Health District, handles public-health reporting where exposure is significant."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Villa Rica": {
@@ -587,7 +596,8 @@
           "q": "Are raccoons in my Villa Rica attic dangerous?",
           "a": "Yes — two real risks. Raccoons are the leading rabies vector in eastern Georgia; any bite or scratch should be reported to the Georgia Department of Public Health, West Central Health District. Roundworm (Baylisascaris procyonis) is present in raccoon feces and contaminates attic insulation, with documented human and pet exposure cases. Established attic raccoons typically destroy 20-40% of affected insulation, gnaw HVAC ductwork, and chew Romex — a documented residential fire risk."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Trapping | Villa Rica, Douglas Co, GA | Local",
@@ -645,7 +655,8 @@
           "q": "Are flying squirrels a Villa Rica problem?",
           "a": "Southern flying squirrels (Glaucomys volans) appear with notable frequency in older Villa Rica-Douglas housing, particularly in semi-rural acreage and along the Annewakee Creek corridor. They are nocturnal, smaller than Eastern gray squirrels, often appear colonially, and use entry openings under one inch. Visual inspection at dusk often reveals flying squirrels gliding from tree to roofline. Confirmation requires contractor inspection because exclusion approach differs significantly from gray squirrel work."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Norway Rat Removal | Villa Rica, Douglas Co, GA | Local",
@@ -704,7 +715,8 @@
           "q": "Are rats in my Villa Rica home dangerous?",
           "a": "Yes — three real risks. Rats carry leptospirosis, salmonella, and hantavirus risk in their urine and droppings, and contaminated insulation requires HEPA-equipped remediation. Histoplasma is a concern where droppings have accumulated long-term in barns or attics. Chewed wiring on Romex is a documented residential fire risk — any rat job that exposes chewed wires triggers licensed-electrician follow-up before final exclusion. The Georgia Department of Public Health, West Central Health District, handles public-health reporting."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Winston": {
@@ -764,7 +776,8 @@
           "q": "When are raccoon kits in Winston attics and outbuildings?",
           "a": "Female raccoons in Winston whelp from late February through early May, with peak intrusion during the first three weeks of March. Park-adjacent properties see kit intrusions over a slightly longer window because of staggered den-site selection. Multi-structure properties frequently host multiple denning females across different buildings on the same parcel. Right approach during kit season is one-way doors deployed only once kits are mobile, applied across every structure on the property."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Walls | Winston, GA | Local",
@@ -822,7 +835,8 @@
           "q": "Are flying squirrels common in Winston?",
           "a": "Yes — Southern flying squirrels (Glaucomys volans) appear in older Winston farmstead housing and along the Dog River Reservoir wooded acreage. They are nocturnal, smaller than Eastern gray squirrels, often appear colonially, and use entry openings under one inch. Visual inspection at dusk often reveals flying squirrels gliding from tree to roofline. Confirmation requires contractor inspection because exclusion approach differs significantly between flying squirrels and rats."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Problem | Winston, GA | Local",
@@ -881,7 +895,8 @@
           "q": "Are rats in my Winston home or barn dangerous?",
           "a": "Yes — three real risks. Rats carry leptospirosis, salmonella, and hantavirus risk in their urine and droppings, and contaminated insulation or barn material requires HEPA-equipped remediation. Histoplasma is a concern where droppings have accumulated long-term in barns. Chewed wiring on Romex is a documented residential fire risk — any rat job that exposes chewed wires triggers licensed-electrician follow-up. The Georgia Department of Public Health, West Central Health District, handles public-health reporting."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Mount Carmel": {
@@ -941,7 +956,8 @@
           "q": "Do you cover both the Douglas and Paulding portions of properties along the boundary?",
           "a": "Yes — the contractor handles raccoon work across the Douglas-Paulding boundary as a coordinated service area. Properties straddling the line are common in Mount Carmel, and wildlife populations move freely across the boundary. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 1 (Armuchee office), which covers both Douglas and Paulding. Same-day inspections are usually available."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Damage | Mount Carmel, GA | Local",
@@ -999,7 +1015,8 @@
           "q": "Are flying squirrels a problem on Mount Carmel rural properties?",
           "a": "Yes — Southern flying squirrels (Glaucomys volans) appear in older Mount Carmel farmstead housing and along the wooded Bear Creek corridor. They are nocturnal, smaller than Eastern gray squirrels, often appear colonially, and use entry openings under one inch. Visual inspection at dusk often reveals flying squirrels gliding from tree to roofline. Confirmation requires contractor inspection because exclusion approach differs significantly between flying squirrels and rats."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Infestation | Mount Carmel, GA | Local",
@@ -1058,7 +1075,8 @@
           "q": "Are rats in my Mount Carmel home or barn dangerous?",
           "a": "Yes — three real risks. Rats carry leptospirosis, salmonella, and hantavirus risk in their urine and droppings, and contaminated insulation or barn material requires HEPA-equipped remediation. Histoplasma is a concern where droppings have accumulated long-term in barns. Chewed wiring on Romex is a documented residential fire risk — any rat job that exposes chewed wires triggers licensed-electrician follow-up. The Georgia Department of Public Health, West Central Health District, handles public-health reporting."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

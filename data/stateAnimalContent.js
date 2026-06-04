@@ -16,17 +16,19 @@
 //   heroSub          string  — one-line intro under the H1
 //   leadParagraph    string  — "what makes <state> <animal> different" (HTML ok)
 //   extendedBody     string  — the unique, multi-section localized body (HTML).
-//                              Its presence is also what makes the page eligible
-//                              to be flipped indexable in permanentlyIndexed.json.
+//   index            bool?   — explicit per-page opt-in. The page is indexable
+//                              ONLY when this is true (and the pair is listed in
+//                              permanentlyIndexed.json -> stateAnimals).
 //   faqs             [{q,a}] — 2–4 state-specific Q&As (drive visible FAQ + JSON-LD)
 //
 // Indexability is still fully manual: authoring content here does NOT index the
-// page. Add "<State>|<animal-slug>" to permanentlyIndexed.json -> stateAnimals
-// to flip it live (mirrors how states/counties are gated).
+// page. Two opt-in gates are required — add "<State>|<animal-slug>" to
+// permanentlyIndexed.json -> stateAnimals AND set index: true on the entry here.
 
 const STATE_ANIMAL_CONTENT = {
   'Georgia': {
     'raccoon-removal': {
+      index: true,
       metaTitle: 'Georgia Raccoon Removal | Licensed Local Trappers Statewide',
       metaDescription: 'Raccoon removal in Georgia — licensed local trappers for attic raccoons, denning females, and roundworm cleanup. Georgia DNR-compliant, humane methods. Find help in your county.',
       h1: 'Georgia Raccoon Removal',
@@ -79,6 +81,7 @@ const STATE_ANIMAL_CONTENT = {
       ]
     },
     'squirrel-removal': {
+      index: true,
       metaTitle: 'Georgia Squirrel Removal | Licensed Local Trappers Statewide',
       metaDescription: 'Squirrel removal in Georgia — licensed local trappers for attic squirrels, gray and fox squirrels, and chewed-wire repair. Georgia DNR-compliant, humane exclusion. Find help in your county.',
       h1: 'Georgia Squirrel Removal',

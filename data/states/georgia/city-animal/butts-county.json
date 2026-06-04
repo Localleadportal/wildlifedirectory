@@ -52,7 +52,8 @@
           "q": "Are moles dangerous or do they bite?",
           "a": "No. Moles are not a bite risk or a disease threat to people or pets — they live almost entirely underground, avoid contact, and are not aggressive. The problem moles cause is strictly to your property: their tunneling lifts and dries out turf, damages grass and plant roots, creates soft, uneven, trip-prone ground, and leaves molehills across the lawn. Mole control is about protecting your yard, not about a health hazard."
         }
-      ]
+      ],
+      "index": true
     },
     "opossum-removal": {
       "metaTitle": "Opossum Removal Jackson GA | Crawlspace & Deck Pros",
@@ -114,7 +115,8 @@
           "q": "When are opossums most active in Jackson?",
           "a": "Opossums are nocturnal, so most Jackson sightings and the heaviest scratching and movement happen after dark. Because central Georgia opossums breed year-round, there is no true off-season, but calls rise in late spring and summer when juveniles disperse on their own and wander into garages, sheds, and crawlspaces looking for their first den site."
         }
-      ]
+      ],
+      "index": true
     },
     "bird-removal": {
       "h1Override": "Bird Removal in Jackson, GA",
@@ -177,7 +179,8 @@
           "q": "When is the best time for bird exclusion in Jackson?",
           "a": "The best window for bird exclusion in Jackson is late fall through early spring, before nesting season begins around March. Once an active nest of a protected species (chimney swifts, woodpeckers, native songbirds) is present, exclusion has to pause until the chicks have fledged. Non-native starlings and house sparrows can be addressed year-round. A contractor can inspect now and schedule exclusion for the correct legal window for your specific species."
         }
-      ]
+      ],
+      "index": true
     },
     "snake-removal": {
       "metaTitle": "Snake Removal Jackson GA | Copperhead & Snake ID",
@@ -239,7 +242,8 @@
           "q": "When are snakes most active in Jackson?",
           "a": "Snakes are most active in the Jackson area from March through October. Spring emergence is the first peak, as snakes leave winter dormancy and move onto properties when temperatures warm. Fall is the second peak, as snakes move toward winter den sites and occasionally enter garages, crawlspaces, and outbuildings seeking warmth. Those two transition periods are when Jackson residents should be most watchful."
         }
-      ]
+      ],
+      "index": true
     },
     "raccoon-removal": {
       "metaTitle": "Raccoons in Attic | Jackson, GA — 1825-Founded Antebellum",
@@ -281,7 +285,8 @@
           "q": "Does the I-75 corridor really affect Jackson raccoon activity?",
           "a": "Yes. The I-75 commercial cluster at the Jackson exits concentrates restaurant dumpsters and rest-stop waste streams that subsidize raccoon foraging. Adjacent residential blocks within a mile of the I-75 exits absorb elevated raccoon activity year-round, beyond what the surrounding rural pressure produces."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Jackson, GA — Fox + Gray Pros",
@@ -330,7 +335,8 @@
           "q": "Do I have gray squirrels or flying squirrels in my Jackson home?",
           "a": "Both occur around Jackson, and the wooded pine-hardwood acreage near Indian Springs State Park and the Lake Jackson shoreline is good Southern flying-squirrel habitat, so wooded lots see them more than open-canopy blocks. Gray squirrels are diurnal — you'll hear fast, light activity in the early morning and late afternoon. Southern flying squirrels are nocturnal, smaller, often go undetected for months, and nest in colonies that can number 20 or more, so strictly-after-dark activity points to them. They exploit smaller gaps than gray or fox squirrels and usually need multiple one-way exits rather than single-entry exclusion."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Jackson, GA — I-75 Norway Rat Pros",
@@ -374,7 +380,8 @@
           "q": "Will rodenticide bait alone solve my Jackson rat problem?",
           "a": "No. Bait without entry-point sealing leaves the source population intact and creates dead-rat-in-the-wall callbacks when rats die in inaccessible wall voids of pre-1900 Jackson housing. Exclusion plus bait — in that order — is the only reliable approach."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Removal Jackson GA | Attic & Chimney Colony Exclusion",
@@ -460,7 +467,8 @@
           "q": "I found a bat in my Jackson home — is it a rabies risk?",
           "a": "Treat it as a possible exposure. Bats are a rabies-vector species, and a bat found in a room with a sleeping person, a child, or a pet is considered a potential exposure even without an obvious bite, because bat bites can be tiny and painless. Don't release the bat — confine it to one room, avoid bare-hand contact, and call your county health department and a licensed contractor. If anyone may have been exposed, the bat should be safely captured for rabies testing rather than released. The same colony that left guano in your attic or chimney is also why a single bat in living space should not be ignored."
         }
-      ]
+      ],
+      "index": true
     },
     "skunk-removal": {
       "metaTitle": "Skunk Removal Jackson GA | Den & Spray Cleanup",
@@ -523,7 +531,8 @@
           "q": "How do I get rid of skunk smell after a spray in Jackson?",
           "a": "Use an enzyme-based deodorizer, not tomato juice. <strong>Tomato juice and other home remedies mostly mask the odor</strong> rather than break it down, while enzyme-based commercial products actually neutralize the spray compounds — on a sprayed dog, on clothing, and on surfaces. Spray that has soaked into a crawlspace, under a deck, or into insulation and soil usually needs professional-grade oxidizing agents and fogging equipment to clear from the enclosed space. And it does no lasting good to deodorize while the skunk is still denning under the structure: removing the animal and sealing the den is what keeps the smell from coming back."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Flovilla": {
@@ -586,7 +595,8 @@
           "q": "When is it safe to remove a dead animal myself?",
           "a": "An outdoor or yard carcass in an accessible spot is usually DIY-manageable: wear disposable gloves, double-bag the animal, dispose of it per local guidance, and disinfect the area afterward. A confined-space carcass is not a DIY job — an animal dead inside a wall, in the attic, in HVAC ductwork, or in a crawlspace needs a professional for accurate location (so you are not opening drywall blindly), safe extraction, and decontamination of the surrounding materials. As a rule of thumb: if you can smell it but cannot see it, it is in a confined space and worth a call."
         }
-      ]
+      ],
+      "index": true
     },
     "bird-removal": {
       "metaTitle": "Bird Removal Flovilla GA | Pigeon, Starling & Vent Control",
@@ -636,7 +646,8 @@
           "q": "When can bird exclusion be done in Flovilla?",
           "a": "Non-native house sparrows, starlings, and pigeons can be excluded any time of year. Protected native species can only be excluded outside active nesting — once a nest is active, MBTA rules require waiting until the young fledge. Chimney swifts are the strictest case: the chimney can only be capped after the swifts fledge and leave on fall migration, typically late September. Inspection, species ID, and planning can happen any time, so the work is staged to go live the moment it's legal."
         }
-      ]
+      ],
+      "index": true
     },
     "raccoon-removal": {
       "metaTitle": "Raccoons in Attic | Flovilla, GA — Indian Springs SP Pros",
@@ -685,7 +696,8 @@
           "q": "Are raccoons dangerous to my family in Flovilla?",
           "a": "Yes. Raccoons are one of Georgia's primary rabies carriers and shed Baylisascaris roundworm in their feces — a parasite that can be fatal to humans and pets. Attic- and outbuilding-dwelling raccoons on Flovilla rural-residential properties contaminate insulation and stored materials with droppings that stay infectious long after the animals are gone, which is why professional cleanup and decontamination after removal is a health necessity, not an add-on. Never handle a raccoon or its droppings directly."
         }
-      ]
+      ],
+      "index": true
     },
     "skunk-removal": {
       "metaTitle": "Skunk Removal Flovilla GA | Den & Spray Cleanup",
@@ -743,7 +755,8 @@
           "q": "How do I get rid of skunk smell — does tomato juice work?",
           "a": "Skip the tomato juice — it only masks the odor. Skunk spray is an oily thiol compound that has to be chemically broken down, not covered up. Effective cleanup uses an enzymatic deodorizer (or, for pets and small surfaces, a fresh peroxide, baking-soda, and dish-soap mix); for spray that has soaked into a deck, crawlspace, or the area under a structure, professional enzyme treatment of the contaminated material is what actually removes the smell. Removing the skunk and sealing the den first is essential — deodorizing while a skunk is still present just resets the next day."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Flovilla, GA — Fox + Gray Pros",
@@ -792,7 +805,8 @@
           "q": "Do my Flovilla outbuildings need squirrel work too?",
           "a": "Often yes. Squirrels — both fox and gray — establish in barn lofts, equipment-shed rafters, and outbuilding attic-equivalent spaces in addition to or instead of the main residence. Multi-structure exclusion is routine on Flovilla rural-residential properties."
         }
-      ]
+      ],
+      "index": true
     },
     "snake-removal": {
       "h1Override": "Snake Removal in Flovilla, GA",
@@ -851,7 +865,8 @@
           "q": "How much does snake removal cost in Flovilla, GA?",
           "a": "A single snake removal visit typically costs $100–$300+. A full property inspection and exclusion to keep snakes from re-entering the home or outbuildings runs $300–$900+. Rural multi-structure properties with barns and sheds, or wooded lots with ongoing rodent pressure near Indian Springs State Park and the Towaliga corridor, may run higher because each structure needs its own inspection. Call for a free property-specific estimate."
         }
-      ]
+      ],
+      "index": true
     },
     "opossum-removal": {
       "metaTitle": "Opossum Removal Flovilla GA | Crawlspace & Deck Pros",
@@ -910,7 +925,8 @@
           "q": "When are opossums most active in Flovilla?",
           "a": "Opossums are active year-round in the Flovilla area and can turn up in structures in any season. They are nocturnal, so sightings and the hissing or shuffling under a house are usually at night. Central Georgia opossums breed twice a year — females carry young in the pouch roughly January through April and again June through August — and in summer the juveniles disperse on their own into garages, sheds, and under-deck spaces, a common time for Flovilla calls. Cold snaps push them more aggressively into crawlspaces and attics for shelter."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Removal Flovilla GA | Roof & Norway Rat Control",
@@ -969,7 +985,8 @@
           "q": "How do rats get into Georgia homes?",
           "a": "Rats exploit surprisingly small openings — a gap of about 1/2 inch is enough for a young rat. Roof rats enter through roofline weaknesses: soffit-fascia seams, gable and ridge vents, chimney chases, and gaps where limbs or utility lines meet the roof. Norway rats enter at ground level through foundation cracks, utility-line penetrations, crawlspace and foundation vents, and gaps under garage doors. On rural Flovilla properties, barns, sheds, and equipment buildings are common first points of entry because they hold feed and offer easy access. A professional inspection finds every gap of roughly 1/4 inch or larger and seals it with steel mesh, hardware cloth, or sealant so rats cannot re-enter."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Jenkinsburg": {
@@ -1021,7 +1038,8 @@
           "q": "When is the best time to do bird exclusion in Georgia?",
           "a": "The optimal window for bird exclusion in Georgia is late fall through early spring — before nesting season begins in March. Once active nests are present, many species including chimney swifts and all native migratory birds are legally protected and work must pause until chicks have fledged. Your Jenkinsburg contractor can inspect now and schedule exclusion for the correct legal window for your specific bird species."
         }
-      ]
+      ],
+      "index": true
     },
     "dead-animal-removal": {
       "metaTitle": "Dead Animal Removal Jenkinsburg GA | Smell in Wall",
@@ -1083,7 +1101,8 @@
           "q": "When is it safe to remove a dead animal myself?",
           "a": "An outdoor or yard carcass in an accessible spot is usually DIY-manageable: wear disposable gloves, double-bag the animal, dispose of it per local guidance, and disinfect the area afterward. A confined-space carcass is not a DIY job — an animal dead inside a wall, in the attic, in HVAC ductwork, or in a crawlspace needs a professional for accurate location (so you are not opening drywall blindly), safe extraction, and decontamination of the surrounding materials. As a rule of thumb: if you can smell it but cannot see it, it is in a confined space and worth a call."
         }
-      ]
+      ],
+      "index": true
     },
     "mole-removal": {
       "metaTitle": "Mole Removal Jenkinsburg GA | Lawn & Yard Mole Control",
@@ -1137,7 +1156,8 @@
           "q": "Are moles dangerous or do they bite?",
           "a": "No. Moles are not a bite risk or a disease threat to people or pets — they live almost entirely underground, avoid contact, and are not aggressive. The problem moles cause is strictly to your property: their tunneling lifts and dries out turf, damages grass and plant roots, creates soft, uneven, trip-prone ground, and leaves molehills across the lawn. Mole control is about protecting your yard, not about a health hazard."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Removal Jenkinsburg GA | Roof & Norway Rat Control",
@@ -1186,7 +1206,8 @@
           "q": "How do rats get into Georgia homes?",
           "a": "Rats exploit gaps as small as 1/2 inch. Roof rats enter high — through soffit-to-fascia gaps, gable-vent screen failures, and roofline penetrations — after climbing trees, fences, or utility lines. Norway rats enter low — through foundation cracks, utility-line penetrations, crawlspace vents, and gaps under garage doors. A professional inspection finds every entry point and seals them with steel and hardware cloth, the only materials that hold long-term."
         }
-      ]
+      ],
+      "index": true
     },
     "raccoon-removal": {
       "metaTitle": "Raccoons in Attic | Jenkinsburg, GA — Rural-Edge Pros",
@@ -1239,7 +1260,8 @@
           "q": "Can I remove raccoons myself in Jenkinsburg?",
           "a": "Mostly no. Georgia DNR Wildlife Resources Division regulations require commercial trapping and relocation to be performed under a state Trapping License plus a Nuisance Wildlife Control Permit, and homeowners cannot legally relocate trapped raccoons themselves. Securing trash, bringing in outdoor pet food, and sealing entry points outside den season are useful DIY steps — but live capture, whole-property exclusion across Jenkinsburg's barns and outbuildings, and Baylisascaris-grade attic decontamination all fall outside DIY scope. Call for a licensed inspection."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Jenkinsburg, GA — Rural-Edge Pros",
@@ -1288,7 +1310,8 @@
           "q": "Do my Jenkinsburg outbuildings need squirrel work?",
           "a": "Often yes. Squirrels — both fox and gray — establish in barn lofts, equipment-shed rafters, and outbuilding attic-equivalent spaces in addition to main-residence attics. Multi-structure exclusion is routine on Jenkinsburg rural-residential properties."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Removal Jenkinsburg GA | Attic & Chimney Exclusion",
@@ -1378,7 +1401,8 @@
           "q": "I found a bat in my Jenkinsburg home — is it a rabies risk?",
           "a": "Treat it as a possible exposure. Bats are a rabies-vector species, and a bat found in a room with a sleeping person, a child, or a pet is considered a potential exposure even without an obvious bite, because bat bites can be tiny and painless. Don't release the bat — confine it to one room, avoid bare-hand contact, and call your county health department and a licensed contractor. If anyone may have been exposed, the bat should be safely captured for rabies testing rather than released. The same colony that left guano in your attic or chimney is also why a single bat in living space should not be ignored."
         }
-      ]
+      ],
+      "index": true
     },
     "skunk-removal": {
       "metaTitle": "Skunk Removal Jenkinsburg GA | Den & Spray Cleanup",
@@ -1436,7 +1460,8 @@
           "q": "How do I get rid of skunk smell — does tomato juice work?",
           "a": "Skip the tomato juice — it only masks the odor. Skunk spray is an oily thiol compound that has to be chemically broken down, not covered up. Effective cleanup uses an enzymatic deodorizer (or, for pets and small surfaces, a fresh peroxide, baking-soda, and dish-soap mix); for spray that has soaked into a deck, crawlspace, or the area under a structure, professional enzyme treatment of the contaminated material is what actually removes the smell. Removing the skunk and sealing the den first is essential — deodorizing while a skunk is still present just resets the next day."
         }
-      ]
+      ],
+      "index": true
     },
     "snake-removal": {
       "metaTitle": "Snake Removal Jenkinsburg GA | Copperhead & Snake ID",
@@ -1485,7 +1510,8 @@
           "q": "When are snakes most active around Jenkinsburg?",
           "a": "Snakes are most active in central Georgia from March through October. Spring emergence is the first peak — snakes come out of winter dormancy, bask in sunny areas, and move onto properties as temperatures warm. Fall is the second peak as snakes move toward winter den sites and occasionally enter structures seeking warmth. Jenkinsburg residents should be most cautious during these two transition periods."
         }
-      ]
+      ],
+      "index": true
     },
     "opossum-removal": {
       "metaTitle": "Opossum Removal Jenkinsburg GA | Crawlspace & Deck Pros",
@@ -1544,7 +1570,8 @@
           "q": "When are opossums most active in Jenkinsburg?",
           "a": "Opossums are active year-round in the Jenkinsburg area and can turn up in structures in any season. They are nocturnal, so sightings and the hissing or shuffling under a house are usually at night. Central Georgia opossums breed twice a year — females carry young in the pouch roughly January through April and again June through August — and in summer the juveniles disperse on their own into garages, sheds, barns, and under-deck spaces, a common time for Jenkinsburg calls. Cold snaps push them more aggressively into crawlspaces and attics for shelter."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

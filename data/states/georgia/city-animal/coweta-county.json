@@ -31,7 +31,8 @@
           "q": "Why is Newnan called the 'City of Homes'?",
           "a": "Newnan has one of metro Atlanta's highest concentrations of pre-1860 substantially-built housing — antebellum and Victorian residences clustered around the central courthouse square earned the city the local nickname 'City of Homes.' From a wildlife perspective, the historic-district housing density produces multi-entry-point profiles that demand professional removal."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Removal | Newnan, GA | Local",
@@ -64,7 +65,8 @@
           "q": "Are squirrels really a fire risk in Newnan historic homes?",
           "a": "Yes — chewed Romex is documented as a leading cause of attic-origin residential fires. Pre-1860 Newnan housing has wiring runs 100-160+ years old (knob-and-tube remnants, early Romex, undersized neutrals) particularly vulnerable to chew damage."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Roof Rat Removal | Newnan, GA | Local",
@@ -102,7 +104,8 @@
           "q": "Are rats dangerous to my Newnan family or pets?",
           "a": "Yes. Leptospirosis is transmitted through rat-urine-contaminated water and surfaces. Salmonella contamination of pantry food and surfaces is a household risk. Hantavirus exposure during DIY attic cleanup is a documented hazard. Chewed electrical wiring is a residential fire risk; older Newnan \"City of Homes\" housing has wiring runs particularly vulnerable to chew damage."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Removal | Newnan, GA | Local",
@@ -143,7 +146,8 @@
           "q": "Why can't I do bat removal myself in Newnan?",
           "a": "<strong>Georgia DNR regulations restrict bat exclusion during the maternity season — May through August</strong>. All bat exclusion in Georgia must use <strong>one-way valves</strong>, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Senoia": {
@@ -178,7 +182,8 @@
           "q": "What is The Walking Dead connection in Senoia?",
           "a": "Senoia's pre-1900 historic district was used as a primary filming location for The Walking Dead TV series. The historic brick storefronts along Main Street appear in many episodes. From a wildlife perspective, the historic-district housing produces the same multi-decade raccoon and bat colony patterns as other south-metro pre-1900 historic districts."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Got Squirrels? | Senoia, GA | Local",
@@ -211,7 +216,8 @@
           "q": "How can I tell if I have flying squirrels in my Senoia home?",
           "a": "Southern flying squirrels (Glaucomys volans) are nocturnal and often mistaken for rats. They're larger than roof rats, leave rice-grain-sized droppings, and operate as a small colony. Visual inspection at dusk often reveals flying squirrels gliding from tree to roofline. They appear with notable frequency in older Senoia historic-district housing."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Got Rats? | Senoia, GA | Local",
@@ -249,7 +255,8 @@
           "q": "Has Senoia rat pressure changed because of the tourism boom?",
           "a": "Yes — the tourism economy driven by Senoia's film-location reputation has expanded the restaurant infrastructure on Main Street, which has amplified the Norway rat habitat compared to historic patterns. The pre-1900 brick foundation construction was already vulnerable; the increased dumpster ecology has reinforced year-round populations."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Got Bats? | Senoia, GA | Local",
@@ -290,7 +297,8 @@
           "q": "Why can't I do bat removal myself in Senoia?",
           "a": "<strong>Georgia DNR regulations restrict bat exclusion during the maternity season — May through August</strong>. All bat exclusion in Georgia must use <strong>one-way valves</strong>, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Sharpsburg": {
@@ -325,7 +333,8 @@
           "q": "When can I evict raccoons from my Sharpsburg attic?",
           "a": "Female raccoons in Coweta County whelp <strong>late February through early May</strong>, and kits are immobile and dependent until roughly 8-10 weeks of age. Performing exclusion during that window risks separating mother from kits. Right approach during kit season is one-way doors that let the family exit but not re-enter, deployed once kits are mobile."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Problem | Sharpsburg, GA | Local",
@@ -358,7 +367,8 @@
           "q": "When can I evict squirrels from my Sharpsburg attic?",
           "a": "The two safe exclusion windows are <strong>May through early June</strong> (after first-litter kits have dispersed) and <strong>October through November</strong> (after second-litter kits are mobile). Performing exclusion during nursing periods risks trapping kits inside wall cavities."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Trapping | Sharpsburg, GA | Local",
@@ -396,7 +406,8 @@
           "q": "Why do rats keep returning to my Sharpsburg home after trapping?",
           "a": "Almost always because entry points haven't been sealed. DIY trapping kills a few rats but populations reproduce faster than traps catch them. Durable resolution requires structural exclusion combined with trapping — not trapping alone."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Colony | Sharpsburg, GA | Local",
@@ -437,7 +448,8 @@
           "q": "Why can't I do bat removal myself in Sharpsburg?",
           "a": "<strong>Georgia DNR regulations restrict bat exclusion during the maternity season — May through August</strong>. All bat exclusion in Georgia must use <strong>one-way valves</strong>, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Grantville": {
@@ -497,7 +509,8 @@
           "q": "Do you handle raccoon work in Grantville's pre-1900 historic blocks?",
           "a": "Yes — Grantville's historic Main Street area is a core service area. The pre-1900 housing stock has multi-entry profiles, original masonry chimneys with multi-year denning females, and historic-district preservation considerations on any visible exterior work. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 4 (West Central office)."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Trapping | Grantville, GA | Local",
@@ -555,7 +568,8 @@
           "q": "Why are chewed wires such a concern in Grantville historic homes?",
           "a": "Squirrels chew wires reflexively to keep their incisors filed down — they're not targeting the wiring, but they don't distinguish between wire jackets and structural wood. Chewed Romex is a documented leading cause of attic-origin residential fires. The risk is significantly amplified in pre-1900 Grantville historic Main Street housing where wiring runs are 60-100+ years old (early Romex with degraded insulation jacket, undersized neutral wires, knob-and-tube remnants in some structures)."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Norway Rat Removal | Grantville, GA | Local",
@@ -614,7 +628,8 @@
           "q": "Are rats in my Grantville home or barn dangerous?",
           "a": "Yes — three real risks. Rats carry leptospirosis, salmonella, and hantavirus risk in their urine and droppings, and contaminated insulation or barn material requires HEPA-equipped remediation. Histoplasma is a concern where droppings have accumulated long-term in barns or pre-1900 basements. Chewed wiring on Romex is a documented residential fire risk — any rat job that exposes chewed wires triggers licensed-electrician follow-up. The Georgia Department of Public Health, West Central Health District, handles public-health reporting."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Moreland": {
@@ -674,7 +689,8 @@
           "q": "Are coyotes a real problem in Moreland?",
           "a": "Yes — coyote presence is documented across undeveloped Moreland acreage, and missing-cat and dead-pet calls are routine on rural Moreland properties. Coyotes use the wooded countryside and creek corridors as travel routes between den sites. Resolutions typically combine hazing, food-source removal, and disrupting den sites rather than lethal control. Outdoor cats and small dogs left unsupervised on rural Moreland properties are at real risk."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Walls | Moreland, GA | Local",
@@ -732,7 +748,8 @@
           "q": "Are flying squirrels common on Moreland rural properties?",
           "a": "Yes — Southern flying squirrels (Glaucomys volans) appear with notable frequency in older Moreland farmstead housing and along the wooded Coweta countryside corridors. They're nocturnal, smaller than Eastern gray squirrels, often appear colonially, and use entry openings under one inch. Visual inspection at dusk often reveals flying squirrels gliding from tree to roofline or barn structure. Confirmation requires contractor inspection because exclusion approach differs significantly between flying squirrels and rats."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Problem | Moreland, GA | Local",
@@ -791,7 +808,8 @@
           "q": "Are rats in my Moreland home or barn dangerous?",
           "a": "Yes — three real risks. Rats carry leptospirosis, salmonella, and hantavirus risk in their urine and droppings, and contaminated insulation or barn material requires HEPA-equipped remediation. Histoplasma is a concern where droppings have accumulated long-term in barns or older crawlspaces. Chewed wiring on Romex is a documented residential fire risk — any rat job that exposes chewed wires triggers licensed-electrician follow-up. The Georgia Department of Public Health, West Central Health District, handles public-health reporting."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Turin": {
@@ -851,7 +869,8 @@
           "q": "Are coyotes a real problem in Turin?",
           "a": "Yes — coyote presence is documented across undeveloped Turin acreage, and missing-cat and dead-pet calls are routine on rural Turin properties. Coyotes use the wooded countryside and creek corridors as travel routes between den sites. Resolutions typically combine hazing, food-source removal, and disrupting den sites rather than lethal control. Outdoor cats and small dogs left unsupervised on rural Turin properties are at real risk."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Damage | Turin, GA | Local",
@@ -909,7 +928,8 @@
           "q": "Are flying squirrels common on Turin rural properties?",
           "a": "Yes — Southern flying squirrels (Glaucomys volans) appear with notable frequency in older Turin farmstead housing and along the wooded Coweta countryside corridors. They're nocturnal, smaller than Eastern gray squirrels, often appear colonially, and use entry openings under one inch. Visual inspection at dusk often reveals flying squirrels gliding from tree to roofline or barn structure. Confirmation requires contractor inspection because exclusion approach differs significantly between flying squirrels and rats."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Infestation | Turin, GA | Local",
@@ -968,7 +988,8 @@
           "q": "Are rats in my Turin home or barn dangerous?",
           "a": "Yes — three real risks. Rats carry leptospirosis, salmonella, and hantavirus risk in their urine and droppings, and contaminated insulation or barn material requires HEPA-equipped remediation. Histoplasma is a concern where droppings have accumulated long-term in barns or older crawlspaces. Chewed wiring on Romex is a documented residential fire risk — any rat job that exposes chewed wires triggers licensed-electrician follow-up. The Georgia Department of Public Health, West Central Health District, handles public-health reporting."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Haralson": {
@@ -1028,7 +1049,8 @@
           "q": "When are raccoon kits in Haralson attics and outbuildings?",
           "a": "Female raccoons in Haralson whelp from late February through early May. Peak intrusion is during the first three weeks of March, but properties surrounded by undeveloped acreage see kit-season calls extend through April because of staggered den-site selection. Multi-structure farmsteads frequently host multiple denning females across different buildings on the same parcel. Right approach during kit season is one-way doors deployed only once kits are mobile, applied across every structure on the property."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Issue | Haralson, GA | Local",
@@ -1086,7 +1108,8 @@
           "q": "Are flying squirrels common on Haralson rural properties?",
           "a": "Yes — Southern flying squirrels (Glaucomys volans) appear with notable frequency in older Haralson farmstead housing and along the wooded Heard and Meriwether boundary corridors. They're nocturnal, smaller than Eastern gray squirrels, often appear colonially, and use entry openings under one inch. Visual inspection at dusk often reveals flying squirrels gliding from tree to roofline or barn structure. Confirmation requires contractor inspection because exclusion approach differs significantly between flying squirrels and rats."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Control | Haralson, GA | Local",
@@ -1145,7 +1168,8 @@
           "q": "Are rats in my Haralson home or barn dangerous?",
           "a": "Yes — three real risks. Rats carry leptospirosis, salmonella, and hantavirus risk in their urine and droppings, and contaminated insulation or barn material requires HEPA-equipped remediation. Histoplasma is a concern where droppings have accumulated long-term in barns or older crawlspaces. Chewed wiring on Romex is a documented residential fire risk — any rat job that exposes chewed wires triggers licensed-electrician follow-up. The Georgia Department of Public Health, West Central Health District, handles public-health reporting."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

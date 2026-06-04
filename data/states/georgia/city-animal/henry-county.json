@@ -68,7 +68,8 @@
           "q": "Is McDonough raccoon work Georgia DNR-licensed?",
           "a": "Yes. All commercial wildlife trapping in McDonough requires a Georgia DNR Trapping License, administered by the Georgia DNR Wildlife Resources Division. Lethal control on raccoons additionally requires a Nuisance Wildlife Control Permit. Ask any operator to produce current Georgia DNR credentials before authorizing work."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | McDonough, GA — 1990s Subdivision Pros",
@@ -110,7 +111,8 @@
           "q": "Are chewed wires a real risk in McDonough?",
           "a": "Yes. Gray squirrels chew Romex insulation within 30-60 days of attic establishment, exposing live wire. 1990s-2020s subdivision attics commonly have higher Romex density than older housing, increasing the chew-target count. Chewed-wire repair is a standard part of complete McDonough remediation."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | McDonough, GA — I-75 Norway Rat Pros",
@@ -152,7 +154,8 @@
           "q": "Will rodenticide bait alone solve my McDonough rat problem?",
           "a": "No. Bait without entry-point sealing leaves the source population intact and creates dead-rat-in-the-wall callbacks. Exclusion plus bait — in that order — is the only reliable approach."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bats in Attic | McDonough, GA — Antebellum Chimney Pros",
@@ -194,7 +197,8 @@
           "q": "Is multi-decade guano dangerous in my McDonough chimney?",
           "a": "Yes. Long-tenure bat guano can carry histoplasmosis spores — a fungal lung infection. 50-80+ year guano deposits in McDonough pre-1900 chimneys require contained-area remediation with respiratory PPE; homeowner self-remediation is not recommended."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Stockbridge": {
@@ -238,7 +242,8 @@
           "q": "Why do my 1980s Stockbridge subdivision homes have so many raccoon problems?",
           "a": "1980s subdivision construction in Stockbridge is now 35-45 years past build — builder-grade vinyl-soffit corner separations, ridge-vent flashing failures, gable-vent screens aged through, chimney chase cap failures. The accumulated failure inventory produces multi-entry profiles."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Stockbridge, GA — Subdivision Exclusion",
@@ -280,7 +285,8 @@
           "q": "Are chewed wires a real risk in Stockbridge?",
           "a": "Yes. Gray squirrels chew Romex insulation within 30-60 days of attic establishment. 1980s-1990s Stockbridge subdivision attics often have decades of accumulated chewed-wire damage that should be inspected during exclusion. Chewed-wire repair is a documented insurance claim driver."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Stockbridge, GA — I-75 Norway Rat Hub",
@@ -322,7 +328,8 @@
           "q": "Will rodenticide bait alone solve my Stockbridge rat problem?",
           "a": "No. Bait without entry-point sealing leaves the source population intact and creates dead-rat-in-the-wall callbacks. Exclusion plus bait — in that order — is the only reliable approach."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bats in Attic | Stockbridge, GA — Panola SP Colony Pros",
@@ -364,7 +371,8 @@
           "q": "Are Panola Mountain SP-adjacent Stockbridge properties hit harder?",
           "a": "Yes. The state park supports a bat foraging-corridor population that subsidizes Stockbridge subdivision attic establishment. Properties on the city's northwestern edges adjacent to the park boundary absorb the heaviest source-corridor pressure."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Hampton": {
@@ -408,7 +416,8 @@
           "q": "When are Hampton raccoons most active?",
           "a": "Fall dispersal (September-November) and spring den-establishment (February-April) are the heaviest pressure windows. AMS race weekends (typically 2-3 weeks per year) drive additional commercial-pressure spikes that overlay on the baseline seasonal pattern."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Hampton, GA — Subdivision Exclusion",
@@ -450,7 +459,8 @@
           "q": "Do Heritage Park and Cubihatcha affect Hampton squirrels?",
           "a": "Yes for southern Hampton properties. Heritage Park and the Cubihatcha Outdoor Education Center preserve wooded acreage supporting continuous Eastern gray squirrel source pressure. Properties on Hampton's southern edges absorb the heaviest greenspace-driven pressure."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Hampton, GA — AMS Race-Week Rat Pros",
@@ -492,7 +502,8 @@
           "q": "Will rodenticide bait alone solve my Hampton rat problem?",
           "a": "No. Bait without entry-point sealing leaves the source population intact and creates dead-rat-in-the-wall callbacks. Exclusion plus bait — in that order — is the only reliable approach, particularly through AMS race-week pulse cycles."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bats in Attic | Hampton, GA — Subdivision Colony Pros",
@@ -534,7 +545,8 @@
           "q": "Is bat guano dangerous in my Hampton attic?",
           "a": "Yes. Bat guano can carry histoplasmosis spores — a fungal lung infection. Multi-decade colony deposits (25-35 years in 1980s subdivision attics, 50-80+ years in surviving pre-1900 Hampton chimneys) require contained-area remediation with respiratory PPE."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Locust Grove": {
@@ -578,7 +590,8 @@
           "q": "Are rural-edge Locust Grove properties hit harder by raccoons?",
           "a": "Yes. South Locust Grove rural-acreage properties toward the Butts County boundary back to wooded buffer that contributes additional raccoon source pressure. The combination of I-75 corridor food subsidy plus rural-edge source habitat produces higher residential pressure than central Locust Grove subdivisions."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Locust Grove GA — Subdivision Pros",
@@ -620,7 +633,8 @@
           "q": "Are chewed wires a real risk in Locust Grove?",
           "a": "Yes. Gray squirrels chew Romex insulation within 30-60 days of attic establishment, exposing live wire. Newer subdivision attics commonly have higher Romex density than older housing, increasing the chew-target count. Chewed-wire repair is a standard part of complete Locust Grove remediation."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Locust Grove, GA — Tanger + I-75 Rat Pros",
@@ -662,7 +676,8 @@
           "q": "How do I tell Norway rats from roof rats in my Locust Grove home?",
           "a": "Norway rat droppings blunt-ended and 3/4 inch; roof rat droppings pointed and 1/2 inch. Norway in crawlspaces, garages, basements; roof in attics, soffits, second-story walls. Species ID drives the work."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

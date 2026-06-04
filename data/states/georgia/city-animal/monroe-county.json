@@ -40,7 +40,8 @@
           "q": "Do raccoons den in Forsyth antebellum chimneys?",
           "a": "Yes — Forsyth's pre-1900 antebellum housing has original masonry chimneys without modern caps that function as classic raccoon maternity dens. Female raccoons establish February-April every year. Modern stainless-steel chimney caps engineered to fit antebellum chimney crowns are the durable fix."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Removal | Forsyth, GA | Local",
@@ -82,7 +83,8 @@
           "q": "Why do Forsyth squirrels enter attics twice a year?",
           "a": "Eastern gray squirrels run two breeding cycles per year — December-February and June-August. Forsyth homeowners typically see new attic activity in late winter and again in late summer, with the second wave intensified by Tift College canopy dispersal."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Roof Rat Removal | Forsyth, GA | Local",
@@ -124,7 +126,8 @@
           "q": "Are roof rats establishing in Forsyth faster than peer counties?",
           "a": "Yes — along the I-75 and US 41 corridor mature canopy. Forsyth's I-75 cluster is one of the larger I-75 concentrations between Atlanta and Macon-Bibb, and roof rat establishment along the corridor is documented at higher density than in smaller-corridor counties."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Removal | Forsyth, GA | Local",
@@ -166,7 +169,8 @@
           "q": "Is multi-decade guano dangerous in my Forsyth chimney?",
           "a": "Yes. Long-tenure bat guano can carry histoplasmosis spores — a fungal lung infection. 50-100+ year guano deposits in Forsyth pre-1900 chimneys require contained-area remediation with respiratory PPE; homeowner self-remediation is not recommended."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Bolingbroke": {
@@ -210,7 +214,8 @@
           "q": "When are Bolingbroke raccoons most active?",
           "a": "Fall dispersal (September-November) and spring den-establishment (February-April) are the heaviest pressure windows. Macon-Bibb metro-arc commuter-shed dispersal sustains continuous year-round source pressure into Bolingbroke."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Got Squirrels? | Bolingbroke, GA | Local",
@@ -252,7 +257,8 @@
           "q": "Do Bolingbroke Plantation properties need different squirrel work?",
           "a": "Often yes. Custom-built executive housing with multi-level rooflines, specialty roof materials, and architectural eaves produces non-standard entry-point profiles. Template-based exclusion misses entry points that detailed in-person inspection catches."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Juliette": {
@@ -296,7 +302,8 @@
           "q": "When can bat exclusion happen in Juliette?",
           "a": "September through early November and March through mid-May. The May-August maternity window is closed under Georgia DNR rules. The November-March winter window is closed for chimney-roost properties under tricolored bat ESA protocols. Plant Scherer free-tailed work also follows the maternity-window restrictions."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

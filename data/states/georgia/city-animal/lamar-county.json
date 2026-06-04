@@ -40,7 +40,8 @@
           "q": "Do raccoons den in Buggy Capital pre-1900 chimneys?",
           "a": "Yes — Barnesville's pre-1900 antebellum courthouse-square housing has original masonry chimneys without modern caps that function as classic raccoon maternity dens. Female raccoons establish February-April every year. Modern stainless-steel chimney caps engineered to fit antebellum chimney crowns are the durable fix."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Barnesville, GA — Gordon State Pros",
@@ -82,7 +83,8 @@
           "q": "Why do Barnesville squirrels enter attics twice a year?",
           "a": "Eastern gray squirrels run two breeding cycles per year — December-February and June-August. Barnesville homeowners typically see new attic activity in late winter and again in late summer, with the second wave intensified by Gordon State campus dispersal."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Barnesville, GA — US 41 Buggy Capital",
@@ -124,7 +126,8 @@
           "q": "Do my Barnesville rural-edge outbuildings need rat work?",
           "a": "If they show evidence of rat activity, yes. Norway rats establish in barns, sheds, and chicken coops on Barnesville's rural-edge subdivision properties then disperse to adjacent residences. A whole-property exclusion approach is the durable solution."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bats in Attic | Barnesville, GA — Buggy Capital Chimney",
@@ -166,7 +169,8 @@
           "q": "Is multi-decade Buggy Capital chimney guano dangerous?",
           "a": "Yes. Long-tenure bat guano can carry histoplasmosis spores — a fungal lung infection. 50-100+ year guano deposits in Barnesville Buggy Capital antebellum chimneys require contained-area remediation with respiratory PPE; homeowner self-remediation is not recommended."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Milner": {
@@ -210,7 +214,8 @@
           "q": "Do my Milner outbuildings need raccoon work too?",
           "a": "Often yes. Milner rural-residential properties commonly see raccoon establishment in barns, sheds, equipment buildings, and chicken coops in addition to or instead of the main residence. Multi-structure exclusion is routine on Milner properties."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Milner, GA — Fox + Gray Pros",
@@ -252,7 +257,8 @@
           "q": "Do my Milner outbuildings need squirrel work?",
           "a": "Often yes. Squirrels — both fox and gray — establish in barn lofts, equipment-shed rafters, and outbuilding attic-equivalent spaces in addition to or instead of the main residence. Multi-structure exclusion is routine on Milner rural-residential properties."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

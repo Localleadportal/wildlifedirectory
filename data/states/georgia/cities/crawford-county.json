@@ -19,12 +19,28 @@
     ],
     "wildlife_intro": "Roberta's wildlife profile reflects the city's small-town-and-rural-edge character — Roberta sits in the middle of Crawford County's substantial undeveloped pine-hardwood and longleaf-pine remnant acreage, and the city's residential blocks absorb continuous source pressure from the surrounding rural land. Pre-1900 Roberta historic-downtown housing along Main Street hosts established big-brown-bat colonies in original masonry chimneys; the 1950s-1980s rural-residential tier shows the standard mid-century failure profile (aged-through aluminum gable vents, separated wood soffits, uncapped chimney chases); the 1990s-2010s newer construction shows builder-grade vinyl-soffit profiles. Fox squirrels are routine in Roberta residential calls because of the surrounding pine-hardwood remnants. The US 80 corridor commercial inventory produces a small but consistent Norway rat source. Crawford County's rural-acreage character means most Roberta wildlife work involves multi-structure properties — residence plus barns, sheds, equipment buildings, and outbuildings.",
     "faqs": [
-      {"q": "What's the typical wildlife removal cost in Roberta?", "a": "Roberta residential wildlife jobs run $400-$1,300+ depending on species and entry-point count. Pre-1900 historic-district properties run at the higher end because of multi-entry housing profiles. Rural-acreage properties with outbuilding work run $500-$1,500+ depending on multi-structure scope. Call for a property-specific estimate."},
-      {"q": "What animals are most common in Roberta?", "a": "Raccoons, Eastern gray squirrels, fox squirrels, opossums, roof rats (along US 80 corridor and mature canopy), Norway rats (small-town commercial-corridor), and big-brown / evening bats. Coyotes are routinely sighted at the small-town residential edges. Armadillos are common in Roberta yards."},
-      {"q": "Are Roberta historic-district homes wildlife-prone?", "a": "Yes. Pre-1900 Main Street-area housing has original masonry chimneys without modern caps, hand-laid brick foundations, pre-modern wood soffits with corner separation, and brick-veneer separation. Multi-entry profiles are common on Roberta historic-district properties."},
-      {"q": "Why do my Roberta outbuildings keep getting raccoons and opossums?", "a": "Crawford County's substantial rural-acreage source population re-supplies removed individuals within weeks. Outbuildings — barns, sheds, equipment buildings, chicken coops — are ideal establishment sites. A whole-property exclusion approach (residence plus all outbuildings) is the durable solution."},
-      {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Roberta requires a Georgia DNR Trapping License. Crawford County falls in Georgia DNR Region 4 (Southwest)."}
-    ]
+      {
+        "q": "What's the typical wildlife removal cost in Roberta?",
+        "a": "Roberta residential wildlife jobs run $400-$1,300+ depending on species and entry-point count. Pre-1900 historic-district properties run at the higher end because of multi-entry housing profiles. Rural-acreage properties with outbuilding work run $500-$1,500+ depending on multi-structure scope. Call for a property-specific estimate."
+      },
+      {
+        "q": "What animals are most common in Roberta?",
+        "a": "Raccoons, Eastern gray squirrels, fox squirrels, opossums, roof rats (along US 80 corridor and mature canopy), Norway rats (small-town commercial-corridor), and big-brown / evening bats. Coyotes are routinely sighted at the small-town residential edges. Armadillos are common in Roberta yards."
+      },
+      {
+        "q": "Are Roberta historic-district homes wildlife-prone?",
+        "a": "Yes. Pre-1900 Main Street-area housing has original masonry chimneys without modern caps, hand-laid brick foundations, pre-modern wood soffits with corner separation, and brick-veneer separation. Multi-entry profiles are common on Roberta historic-district properties."
+      },
+      {
+        "q": "Why do my Roberta outbuildings keep getting raccoons and opossums?",
+        "a": "Crawford County's substantial rural-acreage source population re-supplies removed individuals within weeks. Outbuildings — barns, sheds, equipment buildings, chicken coops — are ideal establishment sites. A whole-property exclusion approach (residence plus all outbuildings) is the durable solution."
+      },
+      {
+        "q": "Is service Georgia DNR-licensed?",
+        "a": "Yes. All commercial wildlife trapping in Roberta requires a Georgia DNR Trapping License. Crawford County falls in Georgia DNR Region 4 (Southwest)."
+      }
+    ],
+    "index": true
   },
   "Knoxville": {
     "population_tier": "very-small",
@@ -46,11 +62,27 @@
     ],
     "wildlife_intro": "Knoxville's wildlife profile is shaped by the community's exceptional concentration of pre-1900 historic-downtown housing relative to its current population. Pre-Civil War chimney stock around the historic Knoxville Courthouse and Old Knoxville Jail hosts long-established big-brown-bat (Eptesicus fuscus) maternity colonies — many spanning 50-80+ years of continuous occupation, putting Knoxville's pre-1900 colony establishment timeline ahead of most middle-Georgia communities of comparable size. Original masonry chimneys without modern caps, hand-laid brick foundations, pre-modern wood soffits, and brick-veneer separation produce multi-entry profiles for raccoons, squirrels, and bats on Knoxville historic-district properties. The surrounding Crawford County rural-acreage character — pine-hardwood remnants, longleaf-pine sandhills, the Flint River corridor 6 miles west — produces continuous source pressure into Knoxville's small residential blocks. Fox squirrels are routine in Knoxville residential calls. Cottonmouths along the Flint River reaches occasionally appear in Knoxville-area properties during the April-October active season.",
     "faqs": [
-      {"q": "What's the typical wildlife removal cost in Knoxville?", "a": "Knoxville historic-district wildlife jobs run $600-$1,800+ because of multi-entry pre-1900 housing profiles. Bat-colony work on pre-Civil War chimneys runs at the highest end because of 50-80+ year colony tenure plus historic-property access constraints. Call for an in-person estimate."},
-      {"q": "Why are Knoxville historic properties so wildlife-prone?", "a": "Knoxville's pre-1900 housing — concentrated around the historic Knoxville Courthouse and Old Knoxville Jail — features original masonry chimneys without modern caps, hand-laid brick foundations, pre-modern wood soffits, and brick-veneer separation. Multi-entry profiles (4-5 per property) are the rule."},
-      {"q": "Are Knoxville bat colonies really 50-80+ years old?", "a": "Yes for many pre-1900 courthouse-square properties. Knoxville's status as one of Georgia's oldest continuously-operating county seats (established 1822) has given big-brown bat maternity colonies time to accumulate multi-generational tenure in original masonry chimneys."},
-      {"q": "What animals are most common in Knoxville?", "a": "Big-brown bats (pre-1900 chimney colonies), raccoons, Eastern gray squirrels, fox squirrels (because of surrounding pine-hardwood remnants), opossums, and occasional cottonmouths from the Flint River corridor 6 miles west. Coyotes are routinely sighted at the small-town edges."},
-      {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Knoxville requires a Georgia DNR Trapping License. Crawford County falls in Georgia DNR Region 4 (Southwest). Pre-1900 chimney bat work additionally requires federal tricolored bat ESA-compliance documentation."}
-    ]
+      {
+        "q": "What's the typical wildlife removal cost in Knoxville?",
+        "a": "Knoxville historic-district wildlife jobs run $600-$1,800+ because of multi-entry pre-1900 housing profiles. Bat-colony work on pre-Civil War chimneys runs at the highest end because of 50-80+ year colony tenure plus historic-property access constraints. Call for an in-person estimate."
+      },
+      {
+        "q": "Why are Knoxville historic properties so wildlife-prone?",
+        "a": "Knoxville's pre-1900 housing — concentrated around the historic Knoxville Courthouse and Old Knoxville Jail — features original masonry chimneys without modern caps, hand-laid brick foundations, pre-modern wood soffits, and brick-veneer separation. Multi-entry profiles (4-5 per property) are the rule."
+      },
+      {
+        "q": "Are Knoxville bat colonies really 50-80+ years old?",
+        "a": "Yes for many pre-1900 courthouse-square properties. Knoxville's status as one of Georgia's oldest continuously-operating county seats (established 1822) has given big-brown bat maternity colonies time to accumulate multi-generational tenure in original masonry chimneys."
+      },
+      {
+        "q": "What animals are most common in Knoxville?",
+        "a": "Big-brown bats (pre-1900 chimney colonies), raccoons, Eastern gray squirrels, fox squirrels (because of surrounding pine-hardwood remnants), opossums, and occasional cottonmouths from the Flint River corridor 6 miles west. Coyotes are routinely sighted at the small-town edges."
+      },
+      {
+        "q": "Is service Georgia DNR-licensed?",
+        "a": "Yes. All commercial wildlife trapping in Knoxville requires a Georgia DNR Trapping License. Crawford County falls in Georgia DNR Region 4 (Southwest). Pre-1900 chimney bat work additionally requires federal tricolored bat ESA-compliance documentation."
+      }
+    ],
+    "index": true
   }
 }

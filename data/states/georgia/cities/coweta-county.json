@@ -38,7 +38,8 @@
         "q": "When are wildlife calls highest in Newnan?",
         "a": "Three peak periods. Late February through May for raccoon kit-season intrusions in attics and Historic District chimneys (peak first three weeks of March) and the first squirrel breeding cycle. August through September for the second squirrel breeding cycle and roof rat ramp-up. October through December for rat intrusion as outdoor food sources disappear and rats move indoors. Bat exclusion windows are narrow (April or September through mid-October only) because of state and federal protections."
       }
-    ]
+    ],
+    "index": true
   },
   "Senoia": {
     "population_tier": "small",
@@ -78,7 +79,8 @@
         "q": "Do you handle wildlife removal across all Senoia neighborhoods?",
         "a": "Yes — full Senoia coverage including Historic Senoia (Main Street, Howard Avenue, Pylant Street), the Raylan Mill historic mill-village area, the 2000s-2010s subdivision growth on eastern and southern edges, and the Riverwood Studios area. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 4 (West Central office)."
       }
-    ]
+    ],
+    "index": true
   },
   "Sharpsburg": {
     "population_tier": "small",
@@ -117,7 +119,8 @@
         "q": "Do you handle wildlife removal across all Sharpsburg properties?",
         "a": "Yes — full Sharpsburg coverage including the village center, mid-century rural-suburban residential, the GA-16 corridor properties, and the limited subdivision development on the village edges. Multi-structure rural work is part of the coverage. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 4 (West Central office)."
       }
-    ]
+    ],
+    "index": true
   },
   "Grantville": {
     "population_tier": "small",
@@ -157,7 +160,8 @@
         "q": "Do you handle wildlife removal across all Grantville properties?",
         "a": "Yes — full Grantville coverage including Historic Grantville Main Street, the pre-1900 residential blocks, mid-century rural-suburban housing, and rural farmstead acreage along the Heard County boundary. Multi-structure rural work is part of the coverage. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 4 (West Central office), which covers Coweta and adjacent Heard."
       }
-    ]
+    ],
+    "index": true
   },
   "Moreland": {
     "population_tier": "small",
@@ -196,7 +200,8 @@
         "q": "Do you handle wildlife removal across all Moreland properties?",
         "a": "Yes — full Moreland coverage including the historic village center, rural farmstead acreage, small-acreage residential properties, and the crossroads area. Multi-structure rural work is the Moreland specialty. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 4 (West Central office)."
       }
-    ]
+    ],
+    "index": true
   },
   "Turin": {
     "population_tier": "small",
@@ -235,7 +240,8 @@
         "q": "Are copperheads common in Turin yards?",
         "a": "Yes — encounters are higher per-property in semi-rural Turin than anywhere in suburban Coweta. Wooded acreage, woodpiles, brush piles, dense ornamental landscaping, and pasture-edge habitat provide ideal copperhead habitat. Eastern rat snakes are by far the most common species and are routinely mistaken for copperheads. Peak encounter season is April through October. Take a photo from a safe distance and call for ID before approaching any unfamiliar snake."
       }
-    ]
+    ],
+    "index": true
   },
   "Haralson": {
     "population_tier": "small",
@@ -274,6 +280,7 @@
         "q": "Do you handle multi-structure rural work in Haralson?",
         "a": "Yes — multi-structure rural exclusion is the Haralson core service area. Effective Haralson jobs inspect main house, barns, equipment outbuildings, sheds, and pasture-edge structures since wildlife establishes across multiple buildings on the same parcel. Multi-day coordinated service is the norm. Same-day inspections usually available. The contractor is licensed under Georgia DNR Wildlife Resources Division Region 4 (West Central office), which covers Coweta and adjacent Heard and Meriwether."
       }
-    ]
+    ],
+    "index": true
   }
 }

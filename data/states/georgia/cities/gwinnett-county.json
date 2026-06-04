@@ -38,7 +38,8 @@
         "q": "When are wildlife calls highest in Lawrenceville?",
         "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions in pre-1900 Lawrenceville chimneys and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up in eastern and northern Lawrenceville subdivisions. October through December covers the indoor-rodent shift. Bat exclusion across all of Lawrenceville falls inside the September-through-April Georgia DNR legal window."
       }
-    ]
+    ],
+    "index": true
   },
   "Duluth": {
     "population_tier": "large",
@@ -79,7 +80,8 @@
         "q": "When are wildlife calls highest in Duluth?",
         "a": "Norway rat call volume along the Buford Highway corridor runs continuously regardless of season because of the persistent dumpster food subsidy. Roof rat activity in Pleasant Hill Road and Peachtree Industrial subdivisions peaks October through December. Raccoon kit season runs late February through early May. Squirrel breeding cycles drive twin February-March and August-September peaks. Bat exclusion across all of Duluth falls inside the September-through-April legal window."
       }
-    ]
+    ],
+    "index": true
   },
   "Peachtree Corners": {
     "population_tier": "large",
@@ -120,7 +122,8 @@
         "q": "When are wildlife calls highest in Peachtree Corners?",
         "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up in the upmarket subdivisions. October through December covers the indoor-rodent shift. Bat exclusion is locked to September through April under Georgia DNR rules and federal tricolored-bat protocols add timing constraints to Chattahoochee-corridor colonies."
       }
-    ]
+    ],
+    "index": true
   },
   "Snellville": {
     "population_tier": "medium",
@@ -161,7 +164,8 @@
         "q": "When are wildlife calls highest in Snellville?",
         "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up in 1990s-2010s subdivisions. October through December covers the indoor-rodent shift. Snake calls run April through October. Bat exclusion is restricted to September through April."
       }
-    ]
+    ],
+    "index": true
   },
   "Sugar Hill": {
     "population_tier": "medium",
@@ -202,7 +206,8 @@
         "q": "When are wildlife calls highest in Sugar Hill?",
         "a": "Year-round elevated, with three sharper peaks. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up. October through December covers the indoor-rodent shift. Lake Lanier wildlife pressure peaks during the September-November fall dispersal window — a Sugar Hill-specific spike on top of the general Gwinnett calendar."
       }
-    ]
+    ],
+    "index": true
   },
   "Suwanee": {
     "population_tier": "medium",
@@ -243,7 +248,8 @@
         "q": "When are wildlife calls highest in Suwanee?",
         "a": "Lake Lanier wildlife pressure peaks during the September-November fall dispersal window. Within that, three Gwinnett-wide peak periods apply: late February through early May (raccoon kit season + first squirrel cycle), August through September (second squirrel cycle + roof-rat fall ramp-up), and October through December (indoor-rodent shift). Suwanee's Lake Lanier proximity amplifies all three windows beyond typical inland-subdivision pressure."
       }
-    ]
+    ],
+    "index": true
   },
   "Norcross": {
     "population_tier": "medium",
@@ -284,7 +290,8 @@
         "q": "When are wildlife calls highest in Norcross?",
         "a": "Norway rat call volume in the historic-downtown commercial blocks runs continuously regardless of season because of persistent dumpster food subsidy. Three additional peaks apply across residential: late February through early May (raccoon kit season + first squirrel cycle), August through September (second squirrel cycle), and October through December (indoor-rodent shift). Bat exclusion across all of Norcross falls inside the September-through-April Georgia DNR legal window."
       }
-    ]
+    ],
+    "index": true
   },
   "Buford": {
     "population_tier": "medium",
@@ -325,7 +332,8 @@
         "q": "When are wildlife calls highest in Buford?",
         "a": "Year-round elevated near Lake Lanier, with peaks during the September-November fall dispersal window from the shoreline source population. Three additional Gwinnett-wide peaks: late February through early May (raccoon kit season + first squirrel cycle), August through September (second squirrel cycle), and October through December (indoor-rodent shift). Mall of Georgia corridor Norway rat pressure runs continuously regardless of season."
       }
-    ]
+    ],
+    "index": true
   },
   "Lilburn": {
     "population_tier": "medium",
@@ -366,7 +374,8 @@
         "q": "When are wildlife calls highest in Lilburn?",
         "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up. October through December covers the indoor-rodent shift. Snake calls run April through October, concentrated along the Yellow River and Lilburn City Park areas. Bat exclusion is restricted to September through April."
       }
-    ]
+    ],
+    "index": true
   },
   "Dacula": {
     "population_tier": "small",
@@ -407,7 +416,8 @@
         "q": "When are wildlife calls highest in Dacula?",
         "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up in the now-mature 2000s-era subdivisions. October through December covers the indoor-rodent shift. Coyote livestock-pen pressure peaks April through July."
       }
-    ]
+    ],
+    "index": true
   },
   "Grayson": {
     "population_tier": "small",
@@ -448,7 +458,8 @@
         "q": "When are wildlife calls highest in Grayson?",
         "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle. October through December covers the indoor-rodent shift. Coyote livestock-pen pressure peaks April through July. Snake calls run April through October."
       }
-    ]
+    ],
+    "index": true
   },
   "Berkeley Lake": {
     "population_tier": "very-small",
@@ -488,7 +499,8 @@
         "q": "When are wildlife calls highest in Berkeley Lake?",
         "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle. October through December covers the indoor-rodent shift. Bat exclusion is restricted to September through April under Georgia DNR rules, with federal tricolored-bat protocols on top for Chattahoochee-corridor colonies."
       }
-    ]
+    ],
+    "index": true
   },
   "Loganville": {
     "population_tier": "small",
@@ -529,7 +541,8 @@
         "q": "When are wildlife calls highest in Loganville?",
         "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up in 2000s-2010s subdivisions. October through December covers the indoor-rodent shift. Coyote livestock-pen pressure peaks April through July."
       }
-    ]
+    ],
+    "index": true
   },
   "Auburn": {
     "population_tier": "small",
@@ -570,6 +583,7 @@
         "q": "When are wildlife calls highest in Auburn?",
         "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up in 2000s-2010s subdivisions. October through December covers the indoor-rodent shift. Coyote livestock-pen pressure peaks April through July."
       }
-    ]
+    ],
+    "index": true
   }
 }

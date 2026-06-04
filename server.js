@@ -54,15 +54,21 @@ function apiCounty(name) {
 }
 
 // ── Manual indexable set ─────────────────────────────────────────────────────
-// Indexability is fully manual and content-driven. A page is indexable if and
-// only if its (state|county) is listed in data/permanentlyIndexed.json. This
-// is intentional: pages should stay noindex until they have been updated with
-// quality, ranking-worthy content. Contractor assignment has NO effect on
-// indexability — adding/removing a contractor never flips the index meta tag.
+// Indexability is fully manual. Two opt-in gates:
+//   1. State/county HUBS — the (state) or (state|county) must be listed in
+//      data/permanentlyIndexed.json.
+//   2. Content pages (city, city-animal, county-animal hub in hub-only counties,
+//      and state-animal) — in addition to (1), the page's own content entry must
+//      carry "index": true. Authoring or updating content (extendedBody,
+//      wildlife_intro, etc.) does NOT index a page on its own: a human sets
+//      "index": true once the page is ready, then submits it to Search Console.
+// Contractor assignment has NO effect on indexability — adding/removing a
+// contractor never flips the index meta tag.
 //
-// To mark a page indexable: edit data/permanentlyIndexed.json, append the
-// entry, commit, and redeploy. There is no auto-augmentation at runtime.
-// Key format: `${ProperCaseState}|${lowercaseCounty}`.
+// To index a hub: append its entry to data/permanentlyIndexed.json. To index a
+// content page: set "index": true on its entry in the data/states/... JSON (or
+// data/stateAnimalContent.js for state-animals). Commit and redeploy. There is
+// no auto-augmentation at runtime. Key format: `${ProperCaseState}|${lowercaseCounty}`.
 const permanentlyIndexed = require('./data/permanentlyIndexed.json');
 const _permanentCounties = new Set(
   (permanentlyIndexed.counties || []).map(k => {
@@ -126,7 +132,7 @@ async function isCountyAnimalIndexable(stateName, countyName, animalSlug) {
   if (_hubOnlyIndexCounties.has(key)) {
     if (!animalSlug) return false;
     const content = getCountyAnimalContent(stateName, countyName, animalSlug);
-    return !!(content && content.extendedBody);
+    return !!(content && content.index === true);
   }
   return true;
 }
@@ -138,17 +144,17 @@ async function isCityIndexable(stateName, countyName, cityName, animalSlug) {
   // cities (still without enriched content) stay noindex.
   if (_hubOnlyIndexCounties.has(key) || _countyOnlyIndexCounties.has(key)) {
     if (!cityName) return false;
+    // Opt-in per page: a city / city-animal page is indexable only once its
+    // content entry carries "index": true. Authoring content (extendedBody /
+    // wildlife_intro) no longer flips the page on its own — a human sets the flag
+    // when the page is ready, then submits it to Search Console. (Supersedes the
+    // old holdNoindex opt-out, which is no longer consulted.)
     if (animalSlug) {
       const content = getCityAnimalContent(stateName, countyName, cityName, animalSlug);
-      // Per-page noindex hold: lets enriched, fact-corrected content be staged
-      // on the page while it is deliberately kept out of the index (e.g. awaiting
-      // a contractor assignment or a monitored indexing batch). Delete the
-      // holdNoindex flag from the content entry to release the page for indexing.
-      if (content && content.holdNoindex) return false;
-      return !!(content && content.extendedBody);
+      return !!(content && content.index === true);
     }
     const content = getCityContent(stateName, countyName, cityName);
-    return !!(content && content.wildlife_intro);
+    return !!(content && content.index === true);
   }
   return true;
 }
@@ -156,10 +162,10 @@ async function isStateIndexable(stateName) {
   return _permanentStates.has(stateName);
 }
 async function isStateAnimalIndexable(stateName, animalSlug) {
-  // Manual gate AND authored content must both be present (no auto-indexing).
+  // Manual gate AND explicit per-page opt-in must both be present (no auto-indexing).
   if (!_permanentStateAnimals.has(`${stateName}|${animalSlug}`)) return false;
   const content = getStateAnimalContent(stateName, animalSlug);
-  return !!(content && content.extendedBody);
+  return !!(content && content.index === true);
 }
 // Animals that have an indexable state-level page for this state — used to wire
 // the state hub's localized down-links ("Georgia Raccoon Removal").
@@ -282,7 +288,7 @@ app.get('/sitemap.xml', async (req, res) => {
   _permanentStateAnimals.forEach(key => {
     const [state, slug] = key.split('|');
     const content = getStateAnimalContent(state, slug);
-    if (content && content.extendedBody) urls.push(`${BASE}/${toSlug(state)}/${slug}/`);
+    if (content && content.index === true) urls.push(`${BASE}/${toSlug(state)}/${slug}/`);
   });
 
   _permanentCounties.forEach(key => {
@@ -303,7 +309,7 @@ app.get('/sitemap.xml', async (req, res) => {
       const citySlug = toSlug(city);
       if (selectiveMode) {
         const cContent = getCityContent(state, fullCounty, city);
-        if (!cContent || !cContent.wildlife_intro) return;
+        if (!cContent || cContent.index !== true) return;
       }
       urls.push(`${BASE}/${stateSlug}/${countySlug}/${citySlug}/`);
     });
@@ -315,7 +321,7 @@ app.get('/sitemap.xml', async (req, res) => {
       let emitCountyAnimal = true;
       if (hubOnly) {
         const cAnimal = getCountyAnimalContent(state, fullCounty, a.slug);
-        if (!cAnimal || !cAnimal.extendedBody) emitCountyAnimal = false;
+        if (!cAnimal || cAnimal.index !== true) emitCountyAnimal = false;
       }
       if (emitCountyAnimal) {
         urls.push(`${BASE}/${stateSlug}/${countySlug}/${a.slug}/`);
@@ -326,10 +332,11 @@ app.get('/sitemap.xml', async (req, res) => {
         const citySlug = toSlug(city);
         if (selectiveMode) {
           const cAnimal = getCityAnimalContent(state, fullCounty, city, a.slug);
-          // Mirror isCityIndexable: a holdNoindex page is served noindex, so it
-          // must not appear in the sitemap (a submitted noindex URL is a GSC
-          // "Submitted URL marked noindex" error and wastes crawl trust).
-          if (!cAnimal || !cAnimal.extendedBody || cAnimal.holdNoindex) return;
+          // Mirror isCityIndexable: only pages explicitly opted in with
+          // "index": true belong in the sitemap. A page that has content but no
+          // index flag is served noindex, and a submitted noindex URL is a GSC
+          // "Submitted URL marked noindex" error that wastes crawl trust.
+          if (!cAnimal || cAnimal.index !== true) return;
         }
         urls.push(`${BASE}/${stateSlug}/${countySlug}/${citySlug}/${a.slug}/`);
       });

@@ -31,7 +31,8 @@
           "q": "Why is wildlife pressure so high in Peachtree City?",
           "a": "Three reasons. First, the three reservoirs sustain dense year-round source populations along the lakeshore forest. Second, the 100+ mile golf-cart path network through preserved greenspace functions as a continuous wildlife travel corridor. Third, the master-planned community design has limited deer hunting and produces exceptional white-tailed deer densities — and the same pattern applies to raccoons, which thrive in the connected greenspace ecosystem."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Removal | Peachtree City, GA | Local",
@@ -64,7 +65,8 @@
           "q": "Why is squirrel pressure high in Peachtree City?",
           "a": "Peachtree City's 100+ mile golf-cart path network through preserved greenspace functions as a continuous wildlife travel corridor. Squirrels use the connected canopy along the cart paths to move between residential subdivisions and the lake corridors. The mature subdivision canopy now 30-50+ years old plus the cart-path greenspace produces year-round source-population pressure."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Roof Rat Removal | Peachtree City, GA | Local",
@@ -102,7 +104,8 @@
           "q": "Is the Peachtree City cart-path network making rat problems worse?",
           "a": "Yes, demonstrably for properties along the cart-path corridor. The path network's continuous greenspace and connected canopy create a continuous wildlife travel route. Roof rats use the canopy along the cart paths to move between properties without ever touching the ground. Cart-path-adjacent properties often need expanded-perimeter exclusion plans rather than standard single-property treatment."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Removal | Peachtree City, GA | Local",
@@ -143,7 +146,8 @@
           "q": "Why can't I do bat removal myself in Peachtree City?",
           "a": "<strong>Georgia DNR regulations restrict bat exclusion during the maternity season — May through August</strong>. All bat exclusion in Georgia must use <strong>one-way valves</strong>, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Fayetteville": {
@@ -178,7 +182,8 @@
           "q": "What's distinctive about raccoon removal in Fayetteville historic homes?",
           "a": "The Fayetteville pre-1900 historic-district housing has structural features that essentially require professional removal — original masonry chimneys without modern caps, hand-laid brick foundations with pointing failures, original wood soffits and pre-modern gable louvers all provide multiple raccoon entry routes per property. Most jobs identify 4-5+ viable entry points."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Got Squirrels? | Fayetteville, GA | Local",
@@ -211,7 +216,8 @@
           "q": "Are squirrels really a fire risk in Fayetteville historic homes?",
           "a": "Yes — chewed Romex is documented as a leading cause of attic-origin residential fires. Pre-1900 Fayetteville housing has wiring runs 100+ years old (knob-and-tube remnants, early Romex, undersized neutrals) particularly vulnerable to chew damage."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Got Rats? | Fayetteville, GA | Local",
@@ -249,7 +255,8 @@
           "q": "Why do rats keep returning to my Fayetteville home after trapping?",
           "a": "Almost always because entry points haven't been sealed. DIY trapping kills a few rats but populations reproduce faster than traps catch them. Durable resolution requires structural exclusion combined with trapping — not trapping alone."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Got Bats? | Fayetteville, GA | Local",
@@ -290,7 +297,8 @@
           "q": "Why can't I do bat removal myself in Fayetteville?",
           "a": "<strong>Georgia DNR regulations restrict bat exclusion during the maternity season — May through August</strong>. All bat exclusion in Georgia must use <strong>one-way valves</strong>, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Tyrone": {
@@ -325,7 +333,8 @@
           "q": "When can I evict raccoons from my Tyrone attic?",
           "a": "Female raccoons in Fayette County whelp <strong>late February through early May</strong>, and kits are immobile and dependent until roughly 8-10 weeks of age. Performing exclusion during that window risks separating mother from kits. Right approach during kit season is one-way doors that let the family exit but not re-enter, deployed once kits are mobile."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Problem | Tyrone, GA | Local",
@@ -358,7 +367,8 @@
           "q": "When can I evict squirrels from my Tyrone attic?",
           "a": "The two safe exclusion windows are <strong>May through early June</strong> (after first-litter kits have dispersed) and <strong>October through November</strong> (after second-litter kits are mobile). Performing exclusion during nursing periods risks trapping kits inside wall cavities."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Trapping | Tyrone, GA | Local",
@@ -396,7 +406,8 @@
           "q": "Why do rats keep returning to my Tyrone home after trapping?",
           "a": "Almost always because entry points haven't been sealed. DIY trapping kills a few rats but populations reproduce faster than traps catch them. Durable resolution requires structural exclusion combined with trapping — not trapping alone."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Colony | Tyrone, GA | Local",
@@ -437,7 +448,8 @@
           "q": "Why can't I do bat removal myself in Tyrone?",
           "a": "<strong>Georgia DNR regulations restrict bat exclusion during the maternity season — May through August</strong>. All bat exclusion in Georgia must use <strong>one-way valves</strong>, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Brooks": {
@@ -497,7 +509,8 @@
           "q": "Are raccoons in my Brooks home or barn dangerous?",
           "a": "Two real risks. Raccoons are the leading rabies vector in eastern Georgia — any bite or scratch should be reported to the Georgia Department of Public Health, West Central Health District. Roundworm (Baylisascaris procyonis) is present in raccoon feces and contaminates barn lofts, equipment-outbuilding crawlspaces, and home attic insulation alike. Established attic raccoons typically destroy 20-40% of affected insulation and chew Romex — a documented residential fire risk."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Trapping | Brooks, GA | Local",
@@ -555,7 +568,8 @@
           "q": "Are flying squirrels common on Brooks rural properties?",
           "a": "Yes — Southern flying squirrels (Glaucomys volans) appear in older Brooks farmstead housing and outbuildings, particularly along the wooded creek corridors. They're nocturnal, smaller than Eastern gray squirrels, often appear colonially, and use entry openings under one inch. Visual inspection at dusk often reveals flying squirrels gliding from tree to roofline or barn structure. Confirmation requires contractor inspection because exclusion approach differs significantly between flying squirrels and rats."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Norway Rat Removal | Brooks, GA | Local",
@@ -614,7 +628,8 @@
           "q": "Are rats in my Brooks home or barn dangerous?",
           "a": "Yes — three real risks. Rats carry leptospirosis, salmonella, and hantavirus risk in their urine and droppings, and contaminated insulation or barn material requires HEPA-equipped remediation. Histoplasma is a concern where droppings have accumulated long-term in barns. Chewed wiring on Romex is a documented residential fire risk — any rat job that exposes chewed wires triggers licensed-electrician follow-up. The Georgia Department of Public Health, West Central Health District, handles public-health reporting."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Exclusion | Brooks, GA | Local",
@@ -672,7 +687,8 @@
           "q": "Is barn guano dangerous on Brooks farm properties?",
           "a": "Yes — bat guano grows Histoplasma capsulatum, the fungus that causes histoplasmosis, when accumulated. Multi-decade Brooks barn colonies produce substantial guano deposits in hayloft material, on barn floors, and on stored equipment. Disturbance produces airborne spores. HEPA-equipped remediation with respiratory protection is required, particularly because barn cleanup often disturbs more material than residential attic remediation. DIY cleanup is not recommended — the lung-infection risk is real and serious."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Woolsey": {
@@ -732,7 +748,8 @@
           "q": "When are raccoon kits in Woolsey attics and outbuildings?",
           "a": "Female raccoons in Woolsey whelp from late February through early May. Peak intrusion is during the first three weeks of March, but properties surrounded by undeveloped acreage see kit-season calls extend through April because of staggered den-site selection. Multi-structure farmsteads frequently host multiple denning females across different buildings on the same parcel. Right approach during kit season is one-way doors deployed only once kits are mobile, applied across every structure on the property."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Walls | Woolsey, GA | Local",
@@ -790,7 +807,8 @@
           "q": "Are flying squirrels common on Woolsey rural properties?",
           "a": "Yes — Southern flying squirrels (Glaucomys volans) appear with notable frequency in older Woolsey farmstead housing and along the Line Creek wooded corridor. They're nocturnal, smaller than Eastern gray squirrels, often appear colonially, and use entry openings under one inch. Visual inspection at dusk often reveals flying squirrels gliding from tree to roofline or barn structure. Confirmation requires contractor inspection because exclusion approach differs significantly between flying squirrels and rats."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Problem | Woolsey, GA | Local",
@@ -849,7 +867,8 @@
           "q": "Are rats in my Woolsey home or barn dangerous?",
           "a": "Yes — three real risks. Rats carry leptospirosis, salmonella, and hantavirus risk in their urine and droppings, and contaminated insulation or barn material requires HEPA-equipped remediation. Histoplasma is a concern where droppings have accumulated long-term in barns or older crawlspaces. Chewed wiring on Romex is a documented residential fire risk — any rat job that exposes chewed wires triggers licensed-electrician follow-up. The Georgia Department of Public Health, West Central Health District, handles public-health reporting."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

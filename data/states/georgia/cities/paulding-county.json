@@ -38,7 +38,8 @@
         "q": "When are wildlife calls highest in Dallas?",
         "a": "Three peak periods. Late February through early May covers raccoon kit-season intrusions in pre-1900 Dallas chimneys (peak first three weeks of March) and the first squirrel breeding cycle. August through September brings the second squirrel cycle and roof-rat fall ramp-up in Highway 92 and Highway 278 subdivisions. October through December covers the indoor-rodent shift as outdoor food crashes. Bat exclusion across all of Paulding falls inside the September-through-April Georgia DNR legal window — work outside that window violates maternity-season protections."
       }
-    ]
+    ],
+    "index": true
   },
   "Hiram": {
     "population_tier": "small",
@@ -79,7 +80,8 @@
         "q": "When are wildlife calls highest in Hiram?",
         "a": "Three peaks. Late February through early May covers raccoon whelping in pre-1900 Hiram chimneys and the first squirrel cycle. August through September brings the second squirrel cycle plus roof-rat fall dispersal — Hiram's Silver Comet Trail proximity makes this window particularly heavy. October through December covers the indoor-rodent shift. Norway rat call volume along the Hiram-Sudderth retail corridor runs continuously regardless of season because of the persistent dumpster food subsidy. Bat exclusion is restricted to September through April."
       }
-    ]
+    ],
+    "index": true
   },
   "Braswell": {
     "population_tier": "very-small",
@@ -119,7 +121,8 @@
         "q": "How much does wildlife removal cost in Braswell?",
         "a": "Single-animal raccoon, squirrel, or opossum trap-and-relocate work in the Braswell area runs $300-$700+. Outbuilding reinforcement and exclusion work on Paulding agricultural properties runs $400-$1,200+, scaled to outbuilding count and how exposed the original structures are to ground-level wildlife access. Paulding coyote work at livestock-pen perimeters — welded-wire pen reinforcement plus motion-activated hazing plus food-storage tightening — runs $500-$1,500+ for the full pen-fortification engagement. Rural Etowah-tributary work involving federally listed Etowah darter habitat may require additional permitting, which extends the timeline."
       }
-    ]
+    ],
+    "index": true
   },
   "Yorkville": {
     "population_tier": "very-small",
@@ -159,6 +162,7 @@
         "q": "How much does wildlife removal cost in Yorkville?",
         "a": "Single-animal trap-and-relocate work runs $300-$700+ for typical residential properties. WMA-edge subdivision work frequently requires ongoing maintenance contracts because of the continuous source pressure — that scope runs $400-$1,200+ per season for properties with prior wildlife history. Paulding coyote work at livestock-pen perimeters — welded-wire pen reinforcement plus motion-activated hazing plus food-storage tightening — runs $500-$1,500+ for the full pen-fortification engagement. Multi-structure agricultural-property work covering main residence plus barns and outbuildings runs higher again."
       }
-    ]
+    ],
+    "index": true
   }
 }

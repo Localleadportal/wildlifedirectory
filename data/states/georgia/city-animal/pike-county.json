@@ -40,7 +40,8 @@
           "q": "Do raccoons den in Zebulon pre-1900 chimneys?",
           "a": "Yes — Zebulon's pre-1900 courthouse-square housing has original masonry chimneys without modern caps that function as classic raccoon maternity dens. Female raccoons establish February-April every year. Modern stainless-steel chimney caps engineered to fit antebellum chimney crowns are the durable fix."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Zebulon, GA — Fox + Gray Pros",
@@ -82,7 +83,8 @@
           "q": "Why are Zebulon historic homes so vulnerable to squirrels?",
           "a": "Zebulon's pre-1900 housing has aged wood soffits, pre-modern brick gable-vent enclosures, original ridge-vent flashing failures, and pre-modern attic vents without screens. Multi-entry profiles (3-5 per property) are the rule on antebellum properties."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Attic | Zebulon, GA — US 19 Rat Pros",
@@ -124,7 +126,8 @@
           "q": "Do my Zebulon outbuildings need rat work?",
           "a": "If they show evidence of rat activity, yes. Norway rats establish in barns, sheds, and chicken coops then disperse to adjacent residences. A whole-property exclusion approach is the durable solution for rural-acreage Zebulon properties."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bats in Attic | Zebulon, GA — 1822 Antebellum Chimney",
@@ -166,7 +169,8 @@
           "q": "Is multi-decade guano dangerous in my Zebulon chimney?",
           "a": "Yes. Long-tenure bat guano can carry histoplasmosis spores — a fungal lung infection. 50-100+ year guano deposits in Zebulon pre-1900 chimneys require contained-area remediation with respiratory PPE; homeowner self-remediation is not recommended."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Molena": {
@@ -210,7 +214,8 @@
           "q": "Do my Molena outbuildings need raccoon work too?",
           "a": "Often yes. Molena rural-residential properties commonly see raccoon establishment in barns, sheds, equipment buildings, and chicken coops in addition to or instead of the main residence. Whole-property exclusion is the durable solution."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Molena, GA — Fox + Gray Pros",
@@ -252,7 +257,8 @@
           "q": "Do my Molena outbuildings need squirrel work?",
           "a": "Often yes. Squirrels — both fox and gray — establish in barn lofts, equipment-shed rafters, and outbuilding attic-equivalent spaces in addition to or instead of the main residence. Multi-structure exclusion is routine on Molena rural-residential properties."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Williamson": {
@@ -296,7 +302,8 @@
           "q": "When are Williamson raccoons most active?",
           "a": "Fall dispersal (September-November) and spring den-establishment (February-April) are the heaviest pressure windows. Pike's peach harvest (May-August) adds a summer pressure spike. Piedmont climate keeps baseline activity slightly lower than middle Georgia in winter."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Attic | Williamson, GA — Fox + Gray Pros",
@@ -338,7 +345,8 @@
           "q": "Do my Williamson outbuildings need squirrel work?",
           "a": "Often yes. Squirrels — both fox and gray — establish in barn lofts, equipment-shed rafters, and outbuilding attic-equivalent spaces in addition to or instead of the main residence. Multi-structure exclusion is routine on Williamson rural-residential properties."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

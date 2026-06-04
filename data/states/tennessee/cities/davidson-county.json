@@ -128,7 +128,8 @@
         "q": "What numbers should a Nashville resident keep on hand for wildlife emergencies?",
         "a": "For licensed wildlife removal in Nashville: (844) 544-3498. For wildlife-related rabies exposure (any bite or scratch from a wild mammal): contact Metro Nashville Animal Care Services and the Tennessee Department of Health immediately and do not handle or release the animal. For injured native wildlife where rescue rather than removal is appropriate, the Tennessee Wildlife Resources Agency (TWRA) Region II office in Nashville maintains a referral list of licensed wildlife rehabilitators. For deer-vehicle collisions on Briley Parkway, I-40, I-440, I-65, I-24, or any of the major Metro arterials (Hillsboro Pike, Franklin Pike, Nolensville Pike, Murfreesboro Pike, Charlotte Pike, Gallatin Pike, Old Hickory Boulevard), contact the Metro Nashville Police Department non-emergency line and TWRA."
       }
-    ]
+    ],
+    "index": true
   },
   "Antioch": {
     "population_tier": "large",
@@ -222,7 +223,8 @@
         "q": "What numbers should an Antioch resident keep on hand for wildlife emergencies?",
         "a": "For licensed wildlife removal in Antioch: (844) 544-3498. For wildlife-related rabies exposure (any bite or scratch from a wild mammal): contact Metro Nashville Animal Care Services and the Tennessee Department of Health immediately and do not handle or release the animal. For injured native wildlife where rescue rather than removal is appropriate, the Tennessee Wildlife Resources Agency (TWRA) Region II office in Nashville maintains a referral list of licensed wildlife rehabilitators. For deer-vehicle collisions on I-24, Bell Road, Murfreesboro Pike, Old Hickory Boulevard, Antioch Pike, Hamilton Church Road, Couchville Pike, or any of the major Antioch arterials, contact the Metro Nashville Police Department non-emergency line and TWRA. For Mill Creek watershed concerns involving the federally endangered Nashville crayfish (in-stream or bank-disturbing work), the U.S. Fish &amp; Wildlife Service Tennessee Field Office in Cookeville handles the Endangered Species Act review."
       }
-    ]
+    ],
+    "index": true
   },
   "Goodlettsville": {
     "population_tier": "mid",
@@ -330,7 +332,8 @@
         "q": "What numbers should a Goodlettsville resident keep on hand for wildlife emergencies?",
         "a": "For licensed wildlife removal in Goodlettsville: (844) 544-3498. For wildlife-related rabies exposure (any bite or scratch from a wild mammal), the contact depends on which side of the county line you're on: <strong>Davidson-side properties</strong> contact Metro Nashville Animal Care Services and the Tennessee Department of Health; <strong>Sumner-side properties</strong> contact Sumner County animal control and the Tennessee Department of Health. For injured native wildlife where rescue rather than removal is appropriate, the Tennessee Wildlife Resources Agency (TWRA) Region II office in Nashville maintains a referral list of licensed wildlife rehabilitators. For deer-vehicle collisions on I-65, Long Hollow Pike, Lickton Pike, Two Mile Parkway, or any of the major Goodlettsville arterials, contact the Goodlettsville Police Department non-emergency line and TWRA."
       }
-    ]
+    ],
+    "index": true
   },
   "Belle Meade": {
     "population_tier": "small",
@@ -435,7 +438,8 @@
         "q": "What numbers should a Belle Meade resident keep for wildlife emergencies?",
         "a": "For licensed wildlife removal in Belle Meade: (844) 544-3498. For wildlife-related rabies exposure (any bite or scratch from a wild mammal — raccoon, skunk, fox, coyote, bat, or stray dog/cat suspected of contact with wildlife), contact the Belle Meade Police Department non-emergency line and Metro Nashville Animal Care Services, and report the exposure to the Tennessee Department of Health for post-exposure protocol guidance. For injured native wildlife where rescue rather than removal is appropriate, the Tennessee Wildlife Resources Agency (TWRA) Region II office in Nashville maintains a referral list of licensed wildlife rehabilitators. For deer-vehicle collisions on Belle Meade Boulevard, Harding Pike, Page Road, Tyne Boulevard, or any Belle Meade arterial, contact Belle Meade Police non-emergency and TWRA. For active raptor nesting concerns in the Belle Meade Country Club perimeter canopy or on private estate trees, the contractor coordinates with TWRA and the U.S. Fish & Wildlife Service Migratory Bird Program."
       }
-    ]
+    ],
+    "index": true
   },
   "Hermitage": {
     "population_tier": "large",
@@ -542,6 +546,7 @@
         "q": "What numbers should a Hermitage resident keep on hand for wildlife emergencies?",
         "a": "For licensed wildlife removal in Hermitage: (844) 544-3498. For wildlife-related rabies exposure (any bite or scratch from a wild mammal — raccoon, skunk, fox, coyote, bat, or stray dog/cat suspected of contact with wildlife), contact Metro Nashville Animal Care Services and the Tennessee Department of Health for post-exposure protocol guidance. For injured native wildlife where rescue rather than removal is appropriate, the Tennessee Wildlife Resources Agency (TWRA) Region II office in Nashville maintains a referral list of licensed wildlife rehabilitators. For deer-vehicle collisions on Lebanon Pike, Old Hickory Boulevard, Andrew Jackson Parkway, Central Pike, or any Hermitage arterial, contact Metro Nashville Police non-emergency and TWRA. For any below-high-water-line beaver, water-snake, or shoreline tree work on Percy Priest Lake, the contractor coordinates with the U.S. Army Corps of Engineers. For active timber rattlesnake encounters at the Couchville Cedar Glade State Natural Area edge, TWRA handles population-level concerns; residential removal still proceeds under standard contractor protocol."
       }
-    ]
+    ],
+    "index": true
   }
 }

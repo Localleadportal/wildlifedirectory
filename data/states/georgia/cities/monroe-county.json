@@ -23,13 +23,32 @@
     ],
     "wildlife_intro": "Forsyth's wildlife profile is shaped by three exceptionally strong pressure systems for a city its size. Pre-1900 antebellum chimney stock around the Monroe County Courthouse square hosts long-established big-brown-bat (Eptesicus fuscus) colonies — many spanning 50-100+ years of continuous occupation, comparable to Macon-Bibb's antebellum colony establishment timeline. The Tift College Historic District on Forsyth's east side preserves substantial mature oak-hickory canopy that supports a dedicated Eastern gray squirrel source population plus secondary raccoon, opossum, and bat populations. The I-75 corridor commercial cluster at the Forsyth exits (185-188) — one of the larger I-75 concentrations between Atlanta and Macon-Bibb — produces a substantial Norway rat source concentration that disperses across central Forsyth. Roof rats are establishing along the I-75 and US 41 corridor mature canopy faster than smaller-corridor counties.",
     "faqs": [
-      {"q": "What's the typical wildlife removal cost in Forsyth?", "a": "Forsyth pre-1900 historic-district wildlife jobs run $700-$2,000+ because of multi-entry antebellum housing profiles plus the unusually intact pre-1900 inventory. Bat-colony work on pre-1900 chimneys runs at the highest end because of 50-100+ year colony tenure plus historic-property access constraints. I-75 corridor-adjacent and newer subdivision jobs run $450-$1,500+. Tift College Historic District-adjacent properties run higher because of intense source-population pressure. Call for an in-person estimate."},
-      {"q": "Why are Forsyth historic properties so wildlife-prone?", "a": "Forsyth's pre-1900 housing around the Monroe County Courthouse square features original masonry chimneys without modern caps, hand-laid brick foundations, pre-modern wood soffits with corner separation, and brick-veneer separation. Forsyth's antebellum housing inventory is unusually intact for a central-Georgia county-seat town — multi-entry profiles (4-5 per property) are the rule."},
-      {"q": "Are Forsyth bat colonies really 50-100+ years old?", "a": "Yes for many pre-1900 courthouse-square antebellum and Victorian properties. Big-brown bat maternity colonies establish in antebellum masonry chimneys and re-use the same roost across generations. Forsyth's pre-1900 housing inventory has accumulated multi-generational bat-colony tenure comparable to Macon-Bibb."},
-      {"q": "Does the I-75 Forsyth cluster affect wildlife pressure?", "a": "Yes, substantially. The I-75 commercial cluster at the Forsyth exits (185-188) is one of the larger I-75 concentrations between Atlanta and Macon-Bibb. Restaurants and hotels sustain a dedicated rat and raccoon food-subsidy reservoir; residential blocks within a mile absorb continuous dispersal pressure year-round."},
-      {"q": "Does Tift College Historic District affect Forsyth wildlife pressure?", "a": "Yes. The former Tift women's college campus mature canopy maintains dedicated source populations for Eastern gray squirrels (notably dense), raccoons, opossums, and bats. Residential blocks adjacent to the Tift campus absorb continuous dispersal pressure."},
-      {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Forsyth requires a Georgia DNR Trapping License. Monroe County falls in Georgia DNR Region 1 (Northeast) because of its Piedmont position. Pre-1900 chimney bat work additionally requires federal tricolored bat ESA-compliance documentation."}
-    ]
+      {
+        "q": "What's the typical wildlife removal cost in Forsyth?",
+        "a": "Forsyth pre-1900 historic-district wildlife jobs run $700-$2,000+ because of multi-entry antebellum housing profiles plus the unusually intact pre-1900 inventory. Bat-colony work on pre-1900 chimneys runs at the highest end because of 50-100+ year colony tenure plus historic-property access constraints. I-75 corridor-adjacent and newer subdivision jobs run $450-$1,500+. Tift College Historic District-adjacent properties run higher because of intense source-population pressure. Call for an in-person estimate."
+      },
+      {
+        "q": "Why are Forsyth historic properties so wildlife-prone?",
+        "a": "Forsyth's pre-1900 housing around the Monroe County Courthouse square features original masonry chimneys without modern caps, hand-laid brick foundations, pre-modern wood soffits with corner separation, and brick-veneer separation. Forsyth's antebellum housing inventory is unusually intact for a central-Georgia county-seat town — multi-entry profiles (4-5 per property) are the rule."
+      },
+      {
+        "q": "Are Forsyth bat colonies really 50-100+ years old?",
+        "a": "Yes for many pre-1900 courthouse-square antebellum and Victorian properties. Big-brown bat maternity colonies establish in antebellum masonry chimneys and re-use the same roost across generations. Forsyth's pre-1900 housing inventory has accumulated multi-generational bat-colony tenure comparable to Macon-Bibb."
+      },
+      {
+        "q": "Does the I-75 Forsyth cluster affect wildlife pressure?",
+        "a": "Yes, substantially. The I-75 commercial cluster at the Forsyth exits (185-188) is one of the larger I-75 concentrations between Atlanta and Macon-Bibb. Restaurants and hotels sustain a dedicated rat and raccoon food-subsidy reservoir; residential blocks within a mile absorb continuous dispersal pressure year-round."
+      },
+      {
+        "q": "Does Tift College Historic District affect Forsyth wildlife pressure?",
+        "a": "Yes. The former Tift women's college campus mature canopy maintains dedicated source populations for Eastern gray squirrels (notably dense), raccoons, opossums, and bats. Residential blocks adjacent to the Tift campus absorb continuous dispersal pressure."
+      },
+      {
+        "q": "Is service Georgia DNR-licensed?",
+        "a": "Yes. All commercial wildlife trapping in Forsyth requires a Georgia DNR Trapping License. Monroe County falls in Georgia DNR Region 1 (Northeast) because of its Piedmont position. Pre-1900 chimney bat work additionally requires federal tricolored bat ESA-compliance documentation."
+      }
+    ],
+    "index": true
   },
   "Bolingbroke": {
     "population_tier": "small",
@@ -51,12 +70,28 @@
     ],
     "wildlife_intro": "Bolingbroke's wildlife profile is shaped by its position on the Macon-Bibb metropolitan arc plus its upscale-subdivision build-out across mature pine-hardwood acreage. Continuous Macon-Bibb metropolitan-arc dispersal pressure from the south combines with the substantial pine-hardwood source pressure from surrounding rural acreage and the US 41 / I-75 corridor commercial pressure. Eastern gray squirrels dominate Bolingbroke residential calls because of the dense executive-subdivision canopy. Raccoons are routine — both from US 41 corridor commercial dispersal and from surrounding rural pine-hardwood. Fox squirrels appear on rural-edge subdivision properties. Roof rats are establishing along the US 41 and I-75 corridor mature canopy through Bolingbroke faster than smaller-corridor counties because of the Macon-Bibb metro source-population proximity.",
     "faqs": [
-      {"q": "What's the typical wildlife removal cost in Bolingbroke?", "a": "Bolingbroke residential wildlife jobs run $500-$1,600+ depending on species, entry-point count, and property scope. Upscale-subdivision multi-structure work (residence plus pool houses, detached garages, outbuildings) commonly runs at the higher end. Call for an estimate."},
-      {"q": "Why does Bolingbroke see different wildlife pressure than Forsyth?", "a": "Bolingbroke sits on the Macon-Bibb metropolitan arc — south of the I-75 Forsyth-cluster pressure system. Bolingbroke absorbs Macon-Bibb metropolitan dispersal pressure from the south plus US 41 corridor pressure. Forsyth's pre-1900 antebellum and Tift College pressure systems are absent from Bolingbroke's newer-construction subdivision profile."},
-      {"q": "Are there fox squirrels in Bolingbroke?", "a": "Yes on rural-edge subdivision properties. The surrounding pine-hardwood remnants on subdivision edges and on larger-lot rural-residential properties support viable fox-squirrel populations. Most central-subdivision Bolingbroke properties see grays dominantly; rural-edge properties see both species."},
-      {"q": "What animals are most common in Bolingbroke?", "a": "Eastern gray squirrels, raccoons, Virginia opossums, big-brown / evening bats, Norway rats (along US 41 corridor and in upscale-subdivision outbuildings), roof rats (establishing along US 41 / I-75 corridor canopy), fox squirrels on rural-edge properties, and snake calls (rat snakes, occasional copperheads on wooded acreage). White-tailed deer reach high densities."},
-      {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Bolingbroke requires a Georgia DNR Trapping License. Monroe County falls in Georgia DNR Region 1 (Northeast)."}
-    ]
+      {
+        "q": "What's the typical wildlife removal cost in Bolingbroke?",
+        "a": "Bolingbroke residential wildlife jobs run $500-$1,600+ depending on species, entry-point count, and property scope. Upscale-subdivision multi-structure work (residence plus pool houses, detached garages, outbuildings) commonly runs at the higher end. Call for an estimate."
+      },
+      {
+        "q": "Why does Bolingbroke see different wildlife pressure than Forsyth?",
+        "a": "Bolingbroke sits on the Macon-Bibb metropolitan arc — south of the I-75 Forsyth-cluster pressure system. Bolingbroke absorbs Macon-Bibb metropolitan dispersal pressure from the south plus US 41 corridor pressure. Forsyth's pre-1900 antebellum and Tift College pressure systems are absent from Bolingbroke's newer-construction subdivision profile."
+      },
+      {
+        "q": "Are there fox squirrels in Bolingbroke?",
+        "a": "Yes on rural-edge subdivision properties. The surrounding pine-hardwood remnants on subdivision edges and on larger-lot rural-residential properties support viable fox-squirrel populations. Most central-subdivision Bolingbroke properties see grays dominantly; rural-edge properties see both species."
+      },
+      {
+        "q": "What animals are most common in Bolingbroke?",
+        "a": "Eastern gray squirrels, raccoons, Virginia opossums, big-brown / evening bats, Norway rats (along US 41 corridor and in upscale-subdivision outbuildings), roof rats (establishing along US 41 / I-75 corridor canopy), fox squirrels on rural-edge properties, and snake calls (rat snakes, occasional copperheads on wooded acreage). White-tailed deer reach high densities."
+      },
+      {
+        "q": "Is service Georgia DNR-licensed?",
+        "a": "Yes. All commercial wildlife trapping in Bolingbroke requires a Georgia DNR Trapping License. Monroe County falls in Georgia DNR Region 1 (Northeast)."
+      }
+    ],
+    "index": true
   },
   "Juliette": {
     "population_tier": "very-small",
@@ -79,12 +114,28 @@
     ],
     "wildlife_intro": "Juliette's wildlife profile is distinctive in Monroe County because of Lake Juliette and Plant Scherer. The cooling-water reservoir and surrounding shoreline forest support a substantial waterfowl, raccoon, bat, and snake source population that disperses across the Juliette community. Plant Scherer infrastructure hosts Brazilian free-tailed bat (Tadarida brasiliensis) maternity colonies — expansion-joint gaps, equipment-housing cavities, and adjacent industrial buildings provide ideal roost habitat. Pre-1900 small-community housing along the Juliette historic core hosts secondary big-brown bat chimney colonies with 30-60 year tenure. Bald eagles (Haliaeetus leucocephalus) nest on Lake Juliette and require Bald and Golden Eagle Protection Act setbacks. Piedmont National Wildlife Refuge adjacency contributes additional source pressure across all common Piedmont species. The Ocmulgee River corridor produces occasional cottonmouth encounters at the species's northern Piedmont limit.",
     "faqs": [
-      {"q": "What's the typical wildlife removal cost in Juliette?", "a": "Juliette residential wildlife jobs run $475-$1,500+ depending on species and entry-point count. Lake Juliette shoreline-property work commonly runs at the higher end because of shoreline-forest source pressure. Pre-1900 Whistle-Stop-era small-community housing with multi-entry profiles also runs higher. Free-tailed bat work near Plant Scherer runs at the highest end because of colony scale. Call for an estimate."},
-      {"q": "Are Brazilian free-tailed bats really at Plant Scherer?", "a": "Yes. Lake Juliette and the Plant Scherer infrastructure host Brazilian free-tailed bat (Tadarida brasiliensis) maternity colonies that exploit expansion-joint gaps and industrial-equipment cavities. Free-tailed colonies can number in the thousands. Adjacent residential properties in the Juliette community occasionally absorb dispersal into older-housing chimney cavities."},
-      {"q": "Are bald eagles really nesting on Lake Juliette?", "a": "Yes. Lake Juliette hosts nesting bald eagles. Eagle nests require Bald and Golden Eagle Protection Act setbacks (typically 660 feet from active nests) for nearby property work. This affects Lake Juliette shoreline construction, tree work, and heavy equipment operation near active nest sites."},
-      {"q": "What animals are most common in Juliette?", "a": "Raccoons, Eastern gray squirrels, fox squirrels (in surrounding pine-hardwood and Piedmont NWR-adjacent acreage), Virginia opossums, big-brown / evening bats, Brazilian free-tailed bats (near Plant Scherer), Norway rats (in rural-acreage outbuildings), occasional cottonmouths along the Ocmulgee, copperheads along Lake Juliette shoreline forest, and bald eagles on Lake Juliette."},
-      {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Juliette requires a Georgia DNR Trapping License. Monroe County falls in Georgia DNR Region 1 (Northeast). Lake Juliette bald-eagle proximity work additionally requires federal Bald and Golden Eagle Protection Act compliance; Plant Scherer free-tailed bat work additionally requires Georgia DNR-coordinated industrial-property protocols."}
-    ]
+      {
+        "q": "What's the typical wildlife removal cost in Juliette?",
+        "a": "Juliette residential wildlife jobs run $475-$1,500+ depending on species and entry-point count. Lake Juliette shoreline-property work commonly runs at the higher end because of shoreline-forest source pressure. Pre-1900 Whistle-Stop-era small-community housing with multi-entry profiles also runs higher. Free-tailed bat work near Plant Scherer runs at the highest end because of colony scale. Call for an estimate."
+      },
+      {
+        "q": "Are Brazilian free-tailed bats really at Plant Scherer?",
+        "a": "Yes. Lake Juliette and the Plant Scherer infrastructure host Brazilian free-tailed bat (Tadarida brasiliensis) maternity colonies that exploit expansion-joint gaps and industrial-equipment cavities. Free-tailed colonies can number in the thousands. Adjacent residential properties in the Juliette community occasionally absorb dispersal into older-housing chimney cavities."
+      },
+      {
+        "q": "Are bald eagles really nesting on Lake Juliette?",
+        "a": "Yes. Lake Juliette hosts nesting bald eagles. Eagle nests require Bald and Golden Eagle Protection Act setbacks (typically 660 feet from active nests) for nearby property work. This affects Lake Juliette shoreline construction, tree work, and heavy equipment operation near active nest sites."
+      },
+      {
+        "q": "What animals are most common in Juliette?",
+        "a": "Raccoons, Eastern gray squirrels, fox squirrels (in surrounding pine-hardwood and Piedmont NWR-adjacent acreage), Virginia opossums, big-brown / evening bats, Brazilian free-tailed bats (near Plant Scherer), Norway rats (in rural-acreage outbuildings), occasional cottonmouths along the Ocmulgee, copperheads along Lake Juliette shoreline forest, and bald eagles on Lake Juliette."
+      },
+      {
+        "q": "Is service Georgia DNR-licensed?",
+        "a": "Yes. All commercial wildlife trapping in Juliette requires a Georgia DNR Trapping License. Monroe County falls in Georgia DNR Region 1 (Northeast). Lake Juliette bald-eagle proximity work additionally requires federal Bald and Golden Eagle Protection Act compliance; Plant Scherer free-tailed bat work additionally requires Georgia DNR-coordinated industrial-property protocols."
+      }
+    ],
+    "index": true
   },
   "Culloden": {
     "population_tier": "very-small",
@@ -106,11 +157,27 @@
     ],
     "wildlife_intro": "Culloden's wildlife profile reflects the small community's deeply rural-agricultural character plus its position on the Crawford County boundary in southwestern Monroe. Pre-1900 Culloden small-community housing along GA 74 hosts secondary big-brown-bat chimney colonies with 40-80 year tenure — older than peer Monroe small-community housing because of Culloden's 1780s founding. The surrounding rural-agricultural acreage and pine-hardwood remnants produce continuous source-population pressure for raccoons, opossums, fox squirrels, and coyotes. Fox squirrels are routine in Culloden residential calls because of the surrounding pine-hardwood remnants. White-tailed deer densities are high.",
     "faqs": [
-      {"q": "What's the typical wildlife removal cost in Culloden?", "a": "Culloden residential wildlife jobs run $475-$1,400+ depending on species and entry-point count. Pre-1900 Culloden Historic District multi-entry housing runs at the higher end because of the unusually old (1780s-founding) building inventory. Multi-structure rural-residential work also commonly runs higher. Call for an estimate."},
-      {"q": "What animals are most common in Culloden?", "a": "Raccoons, Eastern gray squirrels, fox squirrels (because of surrounding pine-hardwood remnants), Virginia opossums, big-brown / evening bats, Norway rats (in rural-acreage outbuildings), and coyote sightings at community edges. Armadillos are routine. White-tailed deer reach high densities."},
-      {"q": "Are fox squirrels common in Culloden?", "a": "Yes. Culloden's surrounding pine-hardwood and longleaf-pine remnants on rural-acreage and agricultural land are exactly the open-pine country fox squirrels need. Most rural-acreage Culloden properties see fox squirrels as routine residential calls."},
-      {"q": "Are Culloden bat colonies older than peer Monroe properties?", "a": "On the pre-1900 Historic District properties, yes — Culloden's 1780s founding produced some of the older European-built structures in central Georgia. Surviving pre-1900 chimneys can host bat colonies with 40-80+ year continuous tenure, particularly in the small but intact Historic District core."},
-      {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Culloden requires a Georgia DNR Trapping License. Monroe County falls in Georgia DNR Region 1 (Northeast)."}
-    ]
+      {
+        "q": "What's the typical wildlife removal cost in Culloden?",
+        "a": "Culloden residential wildlife jobs run $475-$1,400+ depending on species and entry-point count. Pre-1900 Culloden Historic District multi-entry housing runs at the higher end because of the unusually old (1780s-founding) building inventory. Multi-structure rural-residential work also commonly runs higher. Call for an estimate."
+      },
+      {
+        "q": "What animals are most common in Culloden?",
+        "a": "Raccoons, Eastern gray squirrels, fox squirrels (because of surrounding pine-hardwood remnants), Virginia opossums, big-brown / evening bats, Norway rats (in rural-acreage outbuildings), and coyote sightings at community edges. Armadillos are routine. White-tailed deer reach high densities."
+      },
+      {
+        "q": "Are fox squirrels common in Culloden?",
+        "a": "Yes. Culloden's surrounding pine-hardwood and longleaf-pine remnants on rural-acreage and agricultural land are exactly the open-pine country fox squirrels need. Most rural-acreage Culloden properties see fox squirrels as routine residential calls."
+      },
+      {
+        "q": "Are Culloden bat colonies older than peer Monroe properties?",
+        "a": "On the pre-1900 Historic District properties, yes — Culloden's 1780s founding produced some of the older European-built structures in central Georgia. Surviving pre-1900 chimneys can host bat colonies with 40-80+ year continuous tenure, particularly in the small but intact Historic District core."
+      },
+      {
+        "q": "Is service Georgia DNR-licensed?",
+        "a": "Yes. All commercial wildlife trapping in Culloden requires a Georgia DNR Trapping License. Monroe County falls in Georgia DNR Region 1 (Northeast)."
+      }
+    ],
+    "index": true
   }
 }

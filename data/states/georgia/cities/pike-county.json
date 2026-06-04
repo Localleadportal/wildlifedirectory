@@ -19,12 +19,28 @@
     ],
     "wildlife_intro": "Zebulon's wildlife profile is shaped by the city's small pre-1900 historic-downtown housing density around the 1822-founded Pike County Courthouse square plus the surrounding rural-agricultural acreage that produces continuous source-population pressure. Pre-1900 chimney stock around the courthouse square hosts long-established big-brown-bat (Eptesicus fuscus) colonies — some spanning 50-100+ years of continuous occupation. The US 19 corridor through Zebulon produces a small but consistent Norway rat source-population concentration. Eastern gray squirrels dominate Zebulon residential calls; fox squirrels appear routinely on rural-acreage edges. The surrounding peach orchards produce a May-August seasonal wildlife pressure spike for raccoons, opossums, and squirrels.",
     "faqs": [
-      {"q": "What's the typical wildlife removal cost in Zebulon?", "a": "Zebulon pre-1900 historic-district wildlife jobs run $700-$1,900+ because of multi-entry antebellum housing profiles. Newer subdivision and rural-edge jobs track $450-$1,400+. Bat-colony work on pre-1900 chimneys runs at the highest end because of 50-100+ year colony tenure plus historic-property access constraints. Call for an in-person estimate."},
-      {"q": "Why are Zebulon historic properties so wildlife-prone?", "a": "Zebulon's pre-1900 housing around the Pike County Courthouse square features original masonry chimneys without modern caps, hand-laid brick foundations, pre-modern wood soffits with corner separation, and brick-veneer separation. Multi-entry profiles (4-5 per property) are the rule on courthouse-square antebellum properties."},
-      {"q": "Are Zebulon bat colonies really 50-100+ years old?", "a": "Yes for many pre-1900 courthouse-square antebellum and Victorian properties. Big-brown bat maternity colonies establish in original masonry chimneys and re-use the same roost across generations. Multi-decade colony tenure is documented across Zebulon's pre-1900 historic core."},
-      {"q": "Does Pike peach harvest affect Zebulon wildlife pressure?", "a": "Yes, measurably. The surrounding peach orchards produce a May-August seasonal pressure spike for raccoons, opossums, fox squirrels, and birds. Dropped and damaged fruit sustains elevated populations that disperse into adjacent Zebulon residential blocks each August-October."},
-      {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Zebulon requires a Georgia DNR Trapping License. Pike County falls in Georgia DNR Region 1 (Northeast) because of its Piedmont position. Pre-1900 chimney bat work additionally requires federal tricolored bat ESA-compliance documentation."}
-    ]
+      {
+        "q": "What's the typical wildlife removal cost in Zebulon?",
+        "a": "Zebulon pre-1900 historic-district wildlife jobs run $700-$1,900+ because of multi-entry antebellum housing profiles. Newer subdivision and rural-edge jobs track $450-$1,400+. Bat-colony work on pre-1900 chimneys runs at the highest end because of 50-100+ year colony tenure plus historic-property access constraints. Call for an in-person estimate."
+      },
+      {
+        "q": "Why are Zebulon historic properties so wildlife-prone?",
+        "a": "Zebulon's pre-1900 housing around the Pike County Courthouse square features original masonry chimneys without modern caps, hand-laid brick foundations, pre-modern wood soffits with corner separation, and brick-veneer separation. Multi-entry profiles (4-5 per property) are the rule on courthouse-square antebellum properties."
+      },
+      {
+        "q": "Are Zebulon bat colonies really 50-100+ years old?",
+        "a": "Yes for many pre-1900 courthouse-square antebellum and Victorian properties. Big-brown bat maternity colonies establish in original masonry chimneys and re-use the same roost across generations. Multi-decade colony tenure is documented across Zebulon's pre-1900 historic core."
+      },
+      {
+        "q": "Does Pike peach harvest affect Zebulon wildlife pressure?",
+        "a": "Yes, measurably. The surrounding peach orchards produce a May-August seasonal pressure spike for raccoons, opossums, fox squirrels, and birds. Dropped and damaged fruit sustains elevated populations that disperse into adjacent Zebulon residential blocks each August-October."
+      },
+      {
+        "q": "Is service Georgia DNR-licensed?",
+        "a": "Yes. All commercial wildlife trapping in Zebulon requires a Georgia DNR Trapping License. Pike County falls in Georgia DNR Region 1 (Northeast) because of its Piedmont position. Pre-1900 chimney bat work additionally requires federal tricolored bat ESA-compliance documentation."
+      }
+    ],
+    "index": true
   },
   "Molena": {
     "population_tier": "very-small",
@@ -46,12 +62,28 @@
     ],
     "wildlife_intro": "Molena's wildlife profile reflects the community's deeply rural-agricultural character. Pre-1900 small-community housing along the GA-74 / GA-109 corridor hosts secondary big-brown-bat chimney colonies — 30-60 year tenure. The surrounding peach orchards and blueberry operations produce a May-August seasonal wildlife pressure spike. Fox squirrels (Sciurus niger) are routine in Molena residential calls because of the surrounding pine-hardwood remnants. Cottonmouths appear in the Flint River corridor approximately 5 miles west — Molena rural-acreage properties absorb some cottonmouth encounter pressure during the April-October active season.",
     "faqs": [
-      {"q": "What's the typical wildlife removal cost in Molena?", "a": "Molena residential wildlife jobs run $450-$1,400+ depending on species, entry-point count, and structure scope. Multi-structure rural-residential work (residence plus barns, sheds, outbuildings) commonly runs at the higher end. Pre-1900 small-community housing with multi-entry profiles also runs higher. Call for an estimate."},
-      {"q": "What animals are most common in Molena?", "a": "Raccoons, Eastern gray squirrels, fox squirrels (because of surrounding pine-hardwood remnants), opossums, big-brown / evening bats, and increasingly coyote sightings at community edges. White-tailed deer reach high densities. Armadillos are routine."},
-      {"q": "Does Pike peach harvest affect Molena wildlife pressure?", "a": "Yes. The surrounding peach orchards and blueberry operations produce a May-August seasonal pressure spike for raccoons, opossums, fox squirrels, and birds. Dropped and damaged fruit sustains elevated populations that disperse into Molena residential blocks each August-October."},
-      {"q": "Are there cottonmouths near Molena?", "a": "Yes, in the Flint River corridor approximately 5 miles west of Molena. Cottonmouth encounter pressure on Molena rural-acreage properties is real during the April-October active season but lower than directly riverfront properties. Most reported cottonmouth encounters elsewhere in Molena are misidentified water snakes."},
-      {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Molena requires a Georgia DNR Trapping License. Pike County falls in Georgia DNR Region 1 (Northeast)."}
-    ]
+      {
+        "q": "What's the typical wildlife removal cost in Molena?",
+        "a": "Molena residential wildlife jobs run $450-$1,400+ depending on species, entry-point count, and structure scope. Multi-structure rural-residential work (residence plus barns, sheds, outbuildings) commonly runs at the higher end. Pre-1900 small-community housing with multi-entry profiles also runs higher. Call for an estimate."
+      },
+      {
+        "q": "What animals are most common in Molena?",
+        "a": "Raccoons, Eastern gray squirrels, fox squirrels (because of surrounding pine-hardwood remnants), opossums, big-brown / evening bats, and increasingly coyote sightings at community edges. White-tailed deer reach high densities. Armadillos are routine."
+      },
+      {
+        "q": "Does Pike peach harvest affect Molena wildlife pressure?",
+        "a": "Yes. The surrounding peach orchards and blueberry operations produce a May-August seasonal pressure spike for raccoons, opossums, fox squirrels, and birds. Dropped and damaged fruit sustains elevated populations that disperse into Molena residential blocks each August-October."
+      },
+      {
+        "q": "Are there cottonmouths near Molena?",
+        "a": "Yes, in the Flint River corridor approximately 5 miles west of Molena. Cottonmouth encounter pressure on Molena rural-acreage properties is real during the April-October active season but lower than directly riverfront properties. Most reported cottonmouth encounters elsewhere in Molena are misidentified water snakes."
+      },
+      {
+        "q": "Is service Georgia DNR-licensed?",
+        "a": "Yes. All commercial wildlife trapping in Molena requires a Georgia DNR Trapping License. Pike County falls in Georgia DNR Region 1 (Northeast)."
+      }
+    ],
+    "index": true
   },
   "Williamson": {
     "population_tier": "very-small",
@@ -72,12 +104,28 @@
     ],
     "wildlife_intro": "Williamson's wildlife profile reflects the small community's rural-agricultural character. Pre-1900 small-community housing hosts secondary big-brown-bat chimney colonies with 30-60 year tenure. The surrounding rural-acreage agricultural land and pine-hardwood remnants produce continuous source-population pressure for raccoons, opossums, fox squirrels, and coyotes. Fox squirrels are routine in Williamson residential calls because of the surrounding pine-hardwood remnants. White-tailed deer densities are high.",
     "faqs": [
-      {"q": "What's the typical wildlife removal cost in Williamson?", "a": "Williamson residential wildlife jobs run $450-$1,400+ depending on species and entry-point count. Multi-structure rural-residential work (residence plus barns, sheds, outbuildings) commonly runs at the higher end. Pre-1900 small-community housing with multi-entry profiles also runs higher. Call for an estimate."},
-      {"q": "What animals are most common in Williamson?", "a": "Raccoons, Eastern gray squirrels, fox squirrels, opossums, big-brown / evening bats, Norway rats (in rural-acreage outbuildings), and coyote sightings at community edges. White-tailed deer reach high densities. Armadillos are routine."},
-      {"q": "Are fox squirrels common in Williamson?", "a": "Yes. Williamson's surrounding pine-hardwood and longleaf-pine remnants on rural-acreage and agricultural land are exactly the open-pine country fox squirrels need. Most rural-acreage Williamson properties see fox squirrels as routine residential calls."},
-      {"q": "Do my Williamson outbuildings need wildlife work?", "a": "Often yes. Williamson's rural-acreage character produces multi-structure wildlife establishment — animals den in barns, sheds, equipment buildings, and chicken coops. Whole-property exclusion (residence plus all outbuildings) is the durable approach."},
-      {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Williamson requires a Georgia DNR Trapping License. Pike County falls in Georgia DNR Region 1 (Northeast)."}
-    ]
+      {
+        "q": "What's the typical wildlife removal cost in Williamson?",
+        "a": "Williamson residential wildlife jobs run $450-$1,400+ depending on species and entry-point count. Multi-structure rural-residential work (residence plus barns, sheds, outbuildings) commonly runs at the higher end. Pre-1900 small-community housing with multi-entry profiles also runs higher. Call for an estimate."
+      },
+      {
+        "q": "What animals are most common in Williamson?",
+        "a": "Raccoons, Eastern gray squirrels, fox squirrels, opossums, big-brown / evening bats, Norway rats (in rural-acreage outbuildings), and coyote sightings at community edges. White-tailed deer reach high densities. Armadillos are routine."
+      },
+      {
+        "q": "Are fox squirrels common in Williamson?",
+        "a": "Yes. Williamson's surrounding pine-hardwood and longleaf-pine remnants on rural-acreage and agricultural land are exactly the open-pine country fox squirrels need. Most rural-acreage Williamson properties see fox squirrels as routine residential calls."
+      },
+      {
+        "q": "Do my Williamson outbuildings need wildlife work?",
+        "a": "Often yes. Williamson's rural-acreage character produces multi-structure wildlife establishment — animals den in barns, sheds, equipment buildings, and chicken coops. Whole-property exclusion (residence plus all outbuildings) is the durable approach."
+      },
+      {
+        "q": "Is service Georgia DNR-licensed?",
+        "a": "Yes. All commercial wildlife trapping in Williamson requires a Georgia DNR Trapping License. Pike County falls in Georgia DNR Region 1 (Northeast)."
+      }
+    ],
+    "index": true
   },
   "Concord": {
     "population_tier": "very-small",
@@ -98,12 +146,28 @@
     ],
     "wildlife_intro": "Concord's wildlife profile reflects the small community's rural-agricultural western-Pike character. Concord's western position places it within reach of the Flint River corridor — properties on Concord's western edge or rural-acreage between Concord and the Meriwether County boundary absorb the heaviest river-corridor source pressure. Pre-1900 small-community housing hosts secondary big-brown-bat chimney colonies. Cottonmouths appear in nearby western Pike Flint River reaches during the April-October active season. Fox squirrels are routine in Concord residential calls because of the surrounding pine-hardwood remnants.",
     "faqs": [
-      {"q": "What's the typical wildlife removal cost in Concord?", "a": "Concord residential wildlife jobs run $450-$1,400+ depending on species and entry-point count. Multi-structure rural-residential work commonly runs at the higher end. Pre-1900 small-community housing with multi-entry profiles also runs higher. Call for an estimate."},
-      {"q": "Are Concord properties hit harder by Flint River-corridor wildlife pressure?", "a": "Yes for western Concord properties. The Flint River corridor along the western Pike boundary with Meriwether County sustains continuous source-population pressure for raccoons, opossums, and snakes. Properties on Concord's western edges absorb more river-corridor pressure than central Concord."},
-      {"q": "Are there cottonmouths in Concord?", "a": "Yes, in nearby western Pike Flint River reaches. Cottonmouth encounter pressure on Concord rural-acreage properties is real during the April-October active season, particularly on western Concord properties. Most reported cottonmouth encounters elsewhere are misidentified water snakes."},
-      {"q": "Do my Concord outbuildings need wildlife work?", "a": "Often yes. Concord's rural-acreage character produces multi-structure wildlife establishment — animals den in barns, sheds, equipment buildings, and chicken coops. Whole-property exclusion (residence plus all outbuildings) is the durable approach."},
-      {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Concord requires a Georgia DNR Trapping License. Pike County falls in Georgia DNR Region 1 (Northeast)."}
-    ]
+      {
+        "q": "What's the typical wildlife removal cost in Concord?",
+        "a": "Concord residential wildlife jobs run $450-$1,400+ depending on species and entry-point count. Multi-structure rural-residential work commonly runs at the higher end. Pre-1900 small-community housing with multi-entry profiles also runs higher. Call for an estimate."
+      },
+      {
+        "q": "Are Concord properties hit harder by Flint River-corridor wildlife pressure?",
+        "a": "Yes for western Concord properties. The Flint River corridor along the western Pike boundary with Meriwether County sustains continuous source-population pressure for raccoons, opossums, and snakes. Properties on Concord's western edges absorb more river-corridor pressure than central Concord."
+      },
+      {
+        "q": "Are there cottonmouths in Concord?",
+        "a": "Yes, in nearby western Pike Flint River reaches. Cottonmouth encounter pressure on Concord rural-acreage properties is real during the April-October active season, particularly on western Concord properties. Most reported cottonmouth encounters elsewhere are misidentified water snakes."
+      },
+      {
+        "q": "Do my Concord outbuildings need wildlife work?",
+        "a": "Often yes. Concord's rural-acreage character produces multi-structure wildlife establishment — animals den in barns, sheds, equipment buildings, and chicken coops. Whole-property exclusion (residence plus all outbuildings) is the durable approach."
+      },
+      {
+        "q": "Is service Georgia DNR-licensed?",
+        "a": "Yes. All commercial wildlife trapping in Concord requires a Georgia DNR Trapping License. Pike County falls in Georgia DNR Region 1 (Northeast)."
+      }
+    ],
+    "index": true
   },
   "Meansville": {
     "population_tier": "very-small",
@@ -123,11 +187,27 @@
     ],
     "wildlife_intro": "Meansville's wildlife profile reflects the very small community's deeply rural-agricultural character. Meansville is essentially a small enclave within Pike's rural acreage. Source-population density per resident is exceptional because of the surrounding agricultural land and pine-hardwood remnants. Fox squirrels are routine residential calls. Raccoons, opossums, coyotes, and big-brown bats all operate at higher per-property densities than larger Pike communities because of the immediately surrounding source habitat. Most Meansville wildlife work involves multi-structure rural-residential properties.",
     "faqs": [
-      {"q": "What's the typical wildlife removal cost in Meansville?", "a": "Meansville residential wildlife jobs run $500-$1,500+ depending on species and entry-point count. Multi-structure rural-residential work (residence plus barns, sheds, chicken coops, outbuildings) commonly runs at the higher end because of property-perimeter scope and continuous source pressure. Call for an estimate."},
-      {"q": "Why is wildlife pressure so high in Meansville?", "a": "Meansville is essentially a small enclave within Pike's rural-agricultural acreage. Source-population density per resident is exceptional because of the immediately surrounding agricultural land, pine-hardwood remnants, and rural-residential character."},
-      {"q": "What animals are most common in Meansville?", "a": "Raccoons, Eastern gray squirrels, fox squirrels (because of surrounding pine-hardwood remnants), opossums, big-brown / evening bats, and exceptionally common coyote sightings at community edges. White-tailed deer reach exceptional densities. Armadillos are routine."},
-      {"q": "Do my Meansville outbuildings need separate wildlife work?", "a": "Often yes. Meansville's rural-acreage character produces multi-structure wildlife establishment — animals den in barns, sheds, equipment buildings, and chicken coops. Whole-property exclusion is the durable approach."},
-      {"q": "Is service Georgia DNR-licensed?", "a": "Yes. All commercial wildlife trapping in Meansville requires a Georgia DNR Trapping License. Pike County falls in Georgia DNR Region 1 (Northeast)."}
-    ]
+      {
+        "q": "What's the typical wildlife removal cost in Meansville?",
+        "a": "Meansville residential wildlife jobs run $500-$1,500+ depending on species and entry-point count. Multi-structure rural-residential work (residence plus barns, sheds, chicken coops, outbuildings) commonly runs at the higher end because of property-perimeter scope and continuous source pressure. Call for an estimate."
+      },
+      {
+        "q": "Why is wildlife pressure so high in Meansville?",
+        "a": "Meansville is essentially a small enclave within Pike's rural-agricultural acreage. Source-population density per resident is exceptional because of the immediately surrounding agricultural land, pine-hardwood remnants, and rural-residential character."
+      },
+      {
+        "q": "What animals are most common in Meansville?",
+        "a": "Raccoons, Eastern gray squirrels, fox squirrels (because of surrounding pine-hardwood remnants), opossums, big-brown / evening bats, and exceptionally common coyote sightings at community edges. White-tailed deer reach exceptional densities. Armadillos are routine."
+      },
+      {
+        "q": "Do my Meansville outbuildings need separate wildlife work?",
+        "a": "Often yes. Meansville's rural-acreage character produces multi-structure wildlife establishment — animals den in barns, sheds, equipment buildings, and chicken coops. Whole-property exclusion is the durable approach."
+      },
+      {
+        "q": "Is service Georgia DNR-licensed?",
+        "a": "Yes. All commercial wildlife trapping in Meansville requires a Georgia DNR Trapping License. Pike County falls in Georgia DNR Region 1 (Northeast)."
+      }
+    ],
+    "index": true
   }
 }

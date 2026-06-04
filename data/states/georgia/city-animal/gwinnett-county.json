@@ -56,7 +56,8 @@
           "q": "What's special about raccoon removal in the Lawrenceville historic district?",
           "a": "The Lawrenceville historic-square pre-1900 housing has structural features that essentially require professional removal — original masonry chimneys without modern caps, hand-laid brick foundations with pointing failures, original wood soffits and pre-modern gable louvers all provide multiple raccoon entry routes per property. Most Lawrenceville historic-district jobs identify 4-5 viable entry points on a single survey. Custom-fabricated stainless-steel chimney caps for pre-1900 chimneys are typical scope items, and licensed-electrician follow-up is required where chewed wiring is found on older Romex."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Removal | Lawrenceville, GA | Local",
@@ -114,7 +115,8 @@
           "q": "When can I evict squirrels from my Lawrenceville attic?",
           "a": "The two safe exclusion windows are <strong>May through early June</strong> (after first-litter kits have dispersed) and <strong>October through November</strong> (after second-litter kits are mobile). Performing exclusion during nursing periods risks trapping kits inside wall cavities. Inspections and entry-point identification can happen any time of year."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Roof Rat Removal | Lawrenceville, GA | Local",
@@ -173,7 +175,8 @@
           "q": "Why do rats keep returning to my Lawrenceville home after trapping?",
           "a": "Almost always because entry points haven't been sealed. DIY trapping kills a few rats but populations reproduce faster than traps catch them. Lawrenceville's residential geography is prone to neighbor-to-neighbor reinfestation through connected canopy (for roof rats) or shared commercial-corridor habitat (for Norway rats). Durable resolution requires structural exclusion combined with trapping — not trapping alone."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Removal | Lawrenceville, GA | Local",
@@ -235,7 +238,8 @@
           "q": "Why can't I do bat removal myself in Lawrenceville?",
           "a": "<strong>Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — typically May through August</strong>. All bat exclusion in Georgia must use <strong>one-way valves</strong>, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations. Professional Lawrenceville contractors hold the required Georgia DNR Region 2 licensing."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Duluth": {
@@ -295,7 +299,8 @@
           "q": "How do I know if I have raccoons in my Duluth attic?",
           "a": "Sound is the clearest tell — heavy thumping or chittering from the ceiling around dusk and just before dawn. Raccoons are far heavier than squirrels — homeowners describe it as 'someone walking up there.' Other signs include damaged fascia or soffits, claw marks on downspouts, droppings near entry points, and the smell of urine penetrating ceiling drywall."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Got Squirrels? | Duluth, GA | Local",
@@ -353,7 +358,8 @@
           "q": "How do I tell squirrels from rats in my Duluth attic?",
           "a": "Squirrels are diurnal — heaviest activity is just after dawn and again before dusk, fast and light scratching. Rats are nocturnal — slower, steady gnawing at night. Squirrel droppings are larger (rice-grain-sized) and clustered; rat droppings are smaller and along travel routes. Squirrel entry holes show visible chew-marked wood; rat entries are typically smaller and along utility-line penetrations."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Got Rats? | Duluth, GA | Local",
@@ -412,7 +418,8 @@
           "q": "When are rats worst in Duluth?",
           "a": "Rat activity peaks <strong>October through December</strong> as outdoor food sources disappear and rats move indoors aggressively. A small autumn intrusion left untreated routinely becomes a structural problem by January. A secondary spike happens in <strong>early spring</strong> when overwintered indoor populations begin breeding before juveniles disperse."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Got Bats? | Duluth, GA | Local",
@@ -474,7 +481,8 @@
           "q": "Why can't I do bat removal myself in Duluth?",
           "a": "<strong>Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — typically May through August</strong>. All bat exclusion in Georgia must use <strong>one-way valves</strong>, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations. Professional Duluth contractors hold the required Georgia DNR Region 2 licensing."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Peachtree Corners": {
@@ -534,7 +542,8 @@
           "q": "When can I evict raccoons from my Peachtree Corners attic?",
           "a": "Female raccoons in Gwinnett County whelp <strong>late February through early May</strong>, and kits are immobile and dependent until roughly 8-10 weeks of age. Performing exclusion during that window risks separating mother from kits and trapping kits inside the structure. Right approach during kit season is one-way doors that let the family exit but not re-enter, deployed once kits are mobile."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Problem | Peachtree Corners, GA | Local",
@@ -592,7 +601,8 @@
           "q": "When can I evict squirrels from my Peachtree Corners attic?",
           "a": "The two safe exclusion windows are <strong>May through early June</strong> (after first-litter kits have dispersed) and <strong>October through November</strong> (after second-litter kits are mobile). Performing exclusion during nursing periods risks trapping kits inside wall cavities. Inspections and entry-point identification can happen any time of year."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Trapping | Peachtree Corners, GA | Local",
@@ -651,7 +661,8 @@
           "q": "Why do rats keep returning to my Peachtree Corners home after trapping?",
           "a": "Almost always because entry points haven't been sealed. DIY trapping kills a few rats but populations reproduce faster than traps catch them. Peachtree Corners's residential geography is prone to neighbor-to-neighbor reinfestation through connected canopy (for roof rats) or shared commercial-corridor habitat (for Norway rats). Durable resolution requires structural exclusion combined with trapping — not trapping alone."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Colony | Peachtree Corners, GA | Local",
@@ -713,7 +724,8 @@
           "q": "Why can't I do bat removal myself in Peachtree Corners?",
           "a": "<strong>Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — typically May through August</strong>. All bat exclusion in Georgia must use <strong>one-way valves</strong>, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations. Professional Peachtree Corners contractors hold the required Georgia DNR Region 2 licensing."
         }
-      ]
+      ],
+      "index": true
     },
     "snake-removal": {
       "_indexNote": "Fact-corrected 2026-05-25: Gwinnett/Peachtree Corners snake profile (copperhead-primary, cottonmouths absent, overwhelmingly non-venomous). Page is index-eligible but intentionally HELD at noindex via holdNoindex, pending contractor assignment or a monitored Gwinnett indexing batch. To release for indexing: delete the holdNoindex flag below (Gwinnett is county-only index, so extendedBody alone then makes it indexable).",
@@ -833,7 +845,8 @@
           "q": "How do I know if I have raccoons in my Snellville attic?",
           "a": "Sound is the clearest tell — heavy thumping or chittering from the ceiling around dusk and just before dawn. Raccoons are far heavier than squirrels — homeowners describe it as 'someone walking up there.' Other signs include damaged fascia or soffits, claw marks on downspouts, droppings near entry points, and the smell of urine penetrating ceiling drywall."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Trapping | Snellville, GA | Local",
@@ -891,7 +904,8 @@
           "q": "How do I tell squirrels from rats in my Snellville attic?",
           "a": "Squirrels are diurnal — heaviest activity is just after dawn and again before dusk, fast and light scratching. Rats are nocturnal — slower, steady gnawing at night. Squirrel droppings are larger (rice-grain-sized) and clustered; rat droppings are smaller and along travel routes. Squirrel entry holes show visible chew-marked wood; rat entries are typically smaller and along utility-line penetrations."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Norway Rat Removal | Snellville, GA | Local",
@@ -950,7 +964,8 @@
           "q": "When are rats worst in Snellville?",
           "a": "Rat activity peaks <strong>October through December</strong> as outdoor food sources disappear and rats move indoors aggressively. A small autumn intrusion left untreated routinely becomes a structural problem by January. A secondary spike happens in <strong>early spring</strong> when overwintered indoor populations begin breeding before juveniles disperse."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Exclusion | Snellville, GA | Local",
@@ -1012,7 +1027,8 @@
           "q": "Why can't I do bat removal myself in Snellville?",
           "a": "<strong>Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — typically May through August</strong>. All bat exclusion in Georgia must use <strong>one-way valves</strong>, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations. Professional Snellville contractors hold the required Georgia DNR Region 2 licensing."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Sugar Hill": {
@@ -1072,7 +1088,8 @@
           "q": "When can I evict raccoons from my Sugar Hill attic?",
           "a": "Female raccoons in Gwinnett County whelp <strong>late February through early May</strong>, and kits are immobile and dependent until roughly 8-10 weeks of age. Performing exclusion during that window risks separating mother from kits and trapping kits inside the structure. Right approach during kit season is one-way doors that let the family exit but not re-enter, deployed once kits are mobile."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Damage | Sugar Hill, GA | Local",
@@ -1130,7 +1147,8 @@
           "q": "When can I evict squirrels from my Sugar Hill attic?",
           "a": "The two safe exclusion windows are <strong>May through early June</strong> (after first-litter kits have dispersed) and <strong>October through November</strong> (after second-litter kits are mobile). Performing exclusion during nursing periods risks trapping kits inside wall cavities. Inspections and entry-point identification can happen any time of year."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Infestation | Sugar Hill, GA | Local",
@@ -1189,7 +1207,8 @@
           "q": "Why do rats keep returning to my Sugar Hill home after trapping?",
           "a": "Almost always because entry points haven't been sealed. DIY trapping kills a few rats but populations reproduce faster than traps catch them. Sugar Hill's residential geography is prone to neighbor-to-neighbor reinfestation through connected canopy (for roof rats) or shared commercial-corridor habitat (for Norway rats). Durable resolution requires structural exclusion combined with trapping — not trapping alone."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Colony Work | Sugar Hill, GA | Local",
@@ -1251,7 +1270,8 @@
           "q": "Why can't I do bat removal myself in Sugar Hill?",
           "a": "<strong>Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — typically May through August</strong>. All bat exclusion in Georgia must use <strong>one-way valves</strong>, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations. Professional Sugar Hill contractors hold the required Georgia DNR Region 2 licensing."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Suwanee": {
@@ -1311,7 +1331,8 @@
           "q": "How do I know if I have raccoons in my Suwanee attic?",
           "a": "Sound is the clearest tell — heavy thumping or chittering from the ceiling around dusk and just before dawn. Raccoons are far heavier than squirrels — homeowners describe it as 'someone walking up there.' Other signs include damaged fascia or soffits, claw marks on downspouts, droppings near entry points, and the smell of urine penetrating ceiling drywall."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Issue | Suwanee, GA | Local",
@@ -1369,7 +1390,8 @@
           "q": "How do I tell squirrels from rats in my Suwanee attic?",
           "a": "Squirrels are diurnal — heaviest activity is just after dawn and again before dusk, fast and light scratching. Rats are nocturnal — slower, steady gnawing at night. Squirrel droppings are larger (rice-grain-sized) and clustered; rat droppings are smaller and along travel routes. Squirrel entry holes show visible chew-marked wood; rat entries are typically smaller and along utility-line penetrations."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Control | Suwanee, GA | Local",
@@ -1428,7 +1450,8 @@
           "q": "When are rats worst in Suwanee?",
           "a": "Rat activity peaks <strong>October through December</strong> as outdoor food sources disappear and rats move indoors aggressively. A small autumn intrusion left untreated routinely becomes a structural problem by January. A secondary spike happens in <strong>early spring</strong> when overwintered indoor populations begin breeding before juveniles disperse."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Roost | Suwanee, GA | Local",
@@ -1490,7 +1513,8 @@
           "q": "Why can't I do bat removal myself in Suwanee?",
           "a": "<strong>Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — typically May through August</strong>. All bat exclusion in Georgia must use <strong>one-way valves</strong>, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations. Professional Suwanee contractors hold the required Georgia DNR Region 2 licensing."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Norcross": {
@@ -1550,7 +1574,8 @@
           "q": "What's distinctive about raccoon removal in Norcross historic-downtown?",
           "a": "Norcross was established in 1870 as a railroad town, and the surviving pre-1880 housing around Brunswick Avenue and the original commercial-and-housing complex provides classic raccoon entry habitat similar to Roswell and Lawrenceville historic districts. Original masonry chimneys without modern caps, hand-laid brick foundations with pointing failures, original wood soffits and pre-modern gable louvers all produce 4-5 entry points per property. Custom-fabricated stainless-steel chimney caps for pre-1880 chimneys are typical scope items, and licensed-electrician follow-up is required where chewed wiring is found on older Romex."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels in Walls | Norcross, GA | Local",
@@ -1608,7 +1633,8 @@
           "q": "When can I evict squirrels from my Norcross attic?",
           "a": "The two safe exclusion windows are <strong>May through early June</strong> (after first-litter kits have dispersed) and <strong>October through November</strong> (after second-litter kits are mobile). Performing exclusion during nursing periods risks trapping kits inside wall cavities. Inspections and entry-point identification can happen any time of year."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Problem | Norcross, GA | Local",
@@ -1667,7 +1693,8 @@
           "q": "Why do rats keep returning to my Norcross home after trapping?",
           "a": "Almost always because entry points haven't been sealed. DIY trapping kills a few rats but populations reproduce faster than traps catch them. Norcross's residential geography is prone to neighbor-to-neighbor reinfestation through connected canopy (for roof rats) or shared commercial-corridor habitat (for Norway rats). Durable resolution requires structural exclusion combined with trapping — not trapping alone."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Eviction | Norcross, GA | Local",
@@ -1729,7 +1756,8 @@
           "q": "Why can't I do bat removal myself in Norcross?",
           "a": "<strong>Georgia DNR Wildlife Resources Division regulations restrict bat exclusion during the maternity season — typically May through August</strong>. All bat exclusion in Georgia must use <strong>one-way valves</strong>, not trapping; trapping bats is essentially banned because the species are protected under both state and federal regulations. Professional Norcross contractors hold the required Georgia DNR Region 2 licensing."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Buford": {
@@ -1773,7 +1801,8 @@
           "q": "Do raccoons den in Buford chimneys year-round?",
           "a": "Yes, but the heaviest chimney activity is February-April when females establish maternity dens. Lake Lanier-corridor properties see chimney activity year-round because of high source density."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Pest | Buford, GA | Local",
@@ -1815,7 +1844,8 @@
           "q": "How serious is squirrel chewed-wire damage in Buford?",
           "a": "Serious. Gray squirrels chew Romex insulation within 30-60 days of attic establishment, exposing live wire. Buford insurance claims for attributed electrical fires occur every year — chewed-wire repair is part of a complete remediation."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Pest Control | Buford, GA | Local",
@@ -1857,7 +1887,8 @@
           "q": "Will rodenticide bait alone solve my Buford rat problem?",
           "a": "No. Bait without entry-point sealing leaves the original source population intact and allows re-entry as soon as bait stations stop being maintained. Exclusion plus bait — in that order — is the only reliable approach."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Maternity Work | Buford, GA | Local",
@@ -1899,7 +1930,8 @@
           "q": "Can I just block the bats out and skip exclusion-window timing?",
           "a": "No. Blocking flightless pups inside or excluding ESA-listed tricolored bats outside protocol windows is illegal under federal law. Penalties are significant. Proper window-timed exclusion is the only legal path."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Lilburn": {
@@ -1943,7 +1975,8 @@
           "q": "What time of year are Lilburn raccoons worst?",
           "a": "Fall dispersal (September-November) and spring den-establishment (February-April) are the heaviest pressure windows. Female raccoons den in chimneys to raise kits during the spring window."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels Chewing | Lilburn, GA | Local",
@@ -1985,7 +2018,8 @@
           "q": "Are chewed wires a real risk in Lilburn?",
           "a": "Yes. Gray squirrels chew Romex insulation within 30-60 days of attic establishment. Lilburn mid-century attics often have decades of accumulated chewed-wire damage that should be inspected during exclusion work."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rats in Walls | Lilburn, GA | Local",
@@ -2027,7 +2061,8 @@
           "q": "Is rat damage covered by my Lilburn homeowners insurance?",
           "a": "Usually not. Most policies exclude rodent damage. Exceptions exist for incidental damage like chewed wiring that causes a covered loss (fire). Check your specific policy and document the timeline of any claim."
         }
-      ]
+      ],
+      "index": true
     },
     "bat-removal": {
       "metaTitle": "Bat Removal Lilburn GA | Attic & Chimney Bat Exclusion",
@@ -2048,25 +2083,41 @@
       "seasonOverride": "Georgia DNR recommends avoiding bat exclusion from April 1 through July 31, when flightless pups can be trapped inside and die. Inspection and planning can happen any time — only the exclusion step is timed around that window.",
       "seasonalOverrides": [
         {
-          "months": [0, 1, 2],
+          "months": [
+            0,
+            1,
+            2
+          ],
           "title": "Pre-Season Window — Schedule Before April 1",
           "level": "moderate",
           "msg": "Georgia DNR recommends avoiding bat exclusion from April 1 through July 31, when flightless pups can be trapped inside. Late winter and early spring are the ideal time to inspect, find every entry point, and complete exclusion before that avoidance window begins."
         },
         {
-          "months": [3, 4, 5, 6],
+          "months": [
+            3,
+            4,
+            5,
+            6
+          ],
           "title": "Maternity Window — DNR Recommends Avoiding Exclusion",
           "level": "high",
           "msg": "From April 1 through July 31, Georgia DNR recommends against bat exclusion because flightless pups may be trapped inside and die. This is a DNR recommendation, not a flat statutory ban — if exclusion is unavoidable, it must be performed by a licensed Nuisance Wildlife Control Operator. We can inspect and plan now so work begins the moment the window closes."
         },
         {
-          "months": [7, 8, 9],
+          "months": [
+            7,
+            8,
+            9
+          ],
           "title": "Exclusion Window Open",
           "level": "high",
           "msg": "The April 1–July 31 maternity-avoidance window has closed. Pups are flying and the colony can be excluded with one-way devices, then every gap sealed. This is the optimal window before bats begin searching for winter roosts."
         },
         {
-          "months": [10, 11],
+          "months": [
+            10,
+            11
+          ],
           "title": "Fall/Winter Exclusion Window",
           "level": "moderate",
           "msg": "Exclusion can proceed outside the April 1–July 31 maternity window. Note that big brown bats may hibernate inside Georgia structures through winter, so a cold-season inspection still matters — schedule before the spring avoidance window returns."
@@ -2109,7 +2160,8 @@
           "q": "How do I know where bats are getting in?",
           "a": "Watch the roofline at dusk for bats streaming out of one spot, then look for guano piling up below a gap, dark oily staining at a seam, and openings larger than about 1/4 inch along gable vents, chimney flashing, ridge lines, soffits, and fascia. A full inspection finds the primary exit plus the secondary gaps — sealing only the obvious hole and missing the others is the most common reason DIY bat jobs fail."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Dacula": {
@@ -2153,7 +2205,8 @@
           "q": "When are Dacula raccoons most active?",
           "a": "Fall dispersal (September-November) and spring den-establishment (February-April) are the heaviest pressure windows. Female raccoons den in chimneys and gable attics during the spring window."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Nest | Dacula, GA | Local",
@@ -2195,7 +2248,8 @@
           "q": "Are chewed wires a real risk in newer Dacula construction?",
           "a": "Yes — possibly more so. Newer subdivision attics often have higher Romex density (more circuits) than mid-century housing. Chewed-wire damage in newer Dacula attics is a documented insurance claim driver every year in Gwinnett."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Eviction | Dacula, GA | Local",
@@ -2237,7 +2291,8 @@
           "q": "Can I trap rats out of my Dacula attic myself?",
           "a": "DIY trapping without species ID and entry-point sealing usually fails. The source population re-supplies the structure as soon as traps stop being maintained. Professional exclusion-plus-trapping is the reliable approach."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Grayson": {
@@ -2281,7 +2336,8 @@
           "q": "When are Grayson raccoons worst?",
           "a": "Fall dispersal (September-November) and spring den-establishment (February-April) are the heaviest pressure windows for Grayson properties along the Big Haynes Creek corridor."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrels Inside | Grayson, GA | Local",
@@ -2323,7 +2379,8 @@
           "q": "Are chewed wires a real risk?",
           "a": "Yes. Gray squirrels chew Romex insulation within 30-60 days of attic establishment, exposing live wire. Chewed-wire repair is a standard part of complete remediation in Grayson."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Bait Service | Grayson, GA | Local",
@@ -2365,7 +2422,8 @@
           "q": "Is bait alone sufficient for Grayson rats?",
           "a": "No. Bait without entry-point sealing leaves the source population intact and allows re-entry. Exclusion plus bait — in that order — is the only reliable approach."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Berkeley Lake": {
@@ -2409,7 +2467,8 @@
           "q": "Will trimming lakefront tree canopy help?",
           "a": "Marginally. Raccoons access roof lines via wall-climbing as readily as via canopy. Entry-point sealing on the custom architecture matters substantially more than canopy management."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Lakefront Squirrel | Berkeley Lake, GA | Local",
@@ -2451,7 +2510,8 @@
           "q": "Is chewed-wire damage worse in Berkeley Lake?",
           "a": "Often. Custom-built housing typically has higher per-square-foot Romex density (more circuits, more dedicated lines) than standard subdivision construction. More wiring means more chew targets for established squirrel populations."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Lakefront Rat | Berkeley Lake, GA | Local",
@@ -2493,7 +2553,8 @@
           "q": "Will trimming canopy stop the rats?",
           "a": "Marginally. Roof rats also climb walls and downspouts. Entry-point sealing on custom architecture is the durable approach, not canopy management alone."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Loganville": {
@@ -2537,7 +2598,8 @@
           "q": "When are Loganville raccoons most active?",
           "a": "Fall dispersal (September-November) and spring den-establishment (February-April) are the heaviest pressure windows. Females den in chimneys to raise kits during the spring window."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Inspection | Loganville, GA | Local",
@@ -2579,7 +2641,8 @@
           "q": "Are chewed wires a real risk in newer Loganville construction?",
           "a": "Yes. Gray squirrels chew Romex insulation within 30-60 days. Newer subdivision attics commonly have higher Romex density than mid-century housing, increasing the chew-target count."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Inspection | Loganville, GA | Local",
@@ -2621,7 +2684,8 @@
           "q": "Will bait alone solve my Loganville rat problem?",
           "a": "No. Bait without entry-point sealing leaves the source population intact and allows re-entry. Exclusion plus bait — in that order — is the only reliable approach."
         }
-      ]
+      ],
+      "index": true
     }
   },
   "Auburn": {
@@ -2665,7 +2729,8 @@
           "q": "When are Auburn raccoons most active?",
           "a": "Fall dispersal (September-November) and spring den-establishment (February-April) are the heaviest pressure windows. Females den in chimneys to raise kits during the spring window."
         }
-      ]
+      ],
+      "index": true
     },
     "squirrel-removal": {
       "metaTitle": "Squirrel Pro | Auburn, GA | Local",
@@ -2707,7 +2772,8 @@
           "q": "Will Auburn squirrels leave on their own?",
           "a": "No. Female gray squirrels establish maternity dens and stay through weaning; adult males establish year-round territories. Trap-and-exclude is the only reliable resolution."
         }
-      ]
+      ],
+      "index": true
     },
     "rat-removal": {
       "metaTitle": "Rat Pro | Auburn, GA | Local",
@@ -2749,7 +2815,8 @@
           "q": "Can I just use bait stations and skip the exclusion work?",
           "a": "No. Bait without entry-point sealing leaves the source population intact and allows re-entry. Exclusion plus bait — in that order — is the only reliable approach."
         }
-      ]
+      ],
+      "index": true
     }
   }
 }

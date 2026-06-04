@@ -39,7 +39,8 @@
         "q": "Is service Georgia DNR-licensed?",
         "a": "Yes. All commercial wildlife trapping in Warner Robins requires a Georgia DNR Trapping License. Houston County falls in Georgia DNR Region 4 (Southwest). Avoid any operator who can't produce current Region 4 licensing on request."
       }
-    ]
+    ],
+    "index": true
   },
   "Perry": {
     "population_tier": "medium",
@@ -81,7 +82,8 @@
         "q": "Is service Georgia DNR-licensed?",
         "a": "Yes. All commercial wildlife trapping in Perry requires a Georgia DNR Trapping License. Houston County falls in Georgia DNR Region 4 (Southwest). Antebellum-property bat-colony work additionally requires federal tricolored bat ESA-compliance documentation."
       }
-    ]
+    ],
+    "index": true
   },
   "Centerville": {
     "population_tier": "small-medium",
@@ -122,7 +124,8 @@
         "q": "Is service Georgia DNR-licensed?",
         "a": "Yes. All commercial wildlife trapping in Centerville requires a Georgia DNR Trapping License. Houston County falls in Georgia DNR Region 4 (Southwest)."
       }
-    ]
+    ],
+    "index": true
   },
   "Bonaire": {
     "population_tier": "medium",
@@ -164,7 +167,8 @@
         "q": "Is service Georgia DNR-licensed?",
         "a": "Yes. All commercial wildlife trapping in Bonaire requires a Georgia DNR Trapping License. Houston County falls in Georgia DNR Region 4 (Southwest)."
       }
-    ]
+    ],
+    "index": true
   },
   "Kathleen": {
     "population_tier": "small",
@@ -206,6 +210,7 @@
         "q": "Is service Georgia DNR-licensed?",
         "a": "Yes. All commercial wildlife trapping in Kathleen requires a Georgia DNR Trapping License. Houston County falls in Georgia DNR Region 4 (Southwest)."
       }
-    ]
+    ],
+    "index": true
   }
 }

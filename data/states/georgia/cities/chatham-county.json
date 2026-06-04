@@ -40,7 +40,8 @@
         "q": "What should I do tonight if there's a wildlife emergency in my Savannah home?",
         "a": "It depends on the species. <strong>Bat in your bedroom</strong> — confine to one room, don't kill it (damages it for rabies testing), call the Coastal Health District for any potential exposure. <strong>Raccoon stuck in chimney</strong> — close the damper, don't light a fire, call a contractor. <strong>Snake in your house</strong> — close interior doors, open exterior doors, photograph from a safe distance for identification. <strong>Dead animal smell</strong> — schedule removal within 24 hours; coastal Georgia humidity escalates the problem fast. <strong>Multiple animals or active infestation in multi-story structure</strong> — schedule professional inspection rather than attempt DIY. Most Savannah contractors offer same-day or 24-hour response."
       }
-    ]
+    ],
+    "index": true
   },
   "Tybee Island": {
     "population_tier": "small",
@@ -83,7 +84,8 @@
         "q": "Do you serve all of Tybee Island?",
         "a": "Yes — North Beach (lighthouse area, Fort Screven historic district), Mid-Beach (Tybrisa Street commercial corridor, Butler Avenue, Lighthouse Beach), South Beach (around the Pier and Pavilion), Back River (residential/vacation rental waterfront on Lazaretto Creek and Tybee Creek), and the unincorporated areas adjacent to Tybee proper. The contractor handling Tybee is licensed under Georgia DNR Coastal Region (Brunswick office), holds the applicable Trapping License and Nuisance Wildlife Control Permit, and follows USFWS and Georgia DNR Sea Turtle Cooperative protocols for any work near nesting beaches."
       }
-    ]
+    ],
+    "index": true
   },
   "Garden City": {
     "population_tier": "small",
@@ -127,7 +129,8 @@
         "q": "Do you serve all of Garden City?",
         "a": "Yes — Pine Gardens and Pine Gardens Estates, Garden City core (near Highway 80 and Highway 21/Augusta Avenue), the industrial corridor along the Port and railroad infrastructure, and West Garden City (newer subdivisions toward Pooler). The contractor handling Garden City is licensed under Georgia DNR Coastal Region (Brunswick office), holds the applicable Trapping License and Nuisance Wildlife Control Permit, and works regularly with industrial properties along the Highway 80 corridor and Port-adjacent properties."
       }
-    ]
+    ],
+    "index": true
   },
   "Bloomingdale": {
     "population_tier": "small",
@@ -171,6 +174,7 @@
         "q": "Do you serve all of Bloomingdale?",
         "a": "Yes — Bloomingdale core (Highway 80 and Adams Road / Parker Avenue area), larger-lot rural-residential properties with outbuildings and acreage, newer subdivisions on the western edge toward Effingham County, and Highway 80-adjacent residential and small-commercial blocks. The contractor handling Bloomingdale is licensed under Georgia DNR Coastal Region (Brunswick office) and works regularly with rural-property wildlife situations including barns, livestock-area exclusion, and forest-edge encounters."
       }
-    ]
+    ],
+    "index": true
   }
 }

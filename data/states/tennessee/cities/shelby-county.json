@@ -57,7 +57,7 @@
     ],
     "geo": {
       "lat": 35.1495,
-      "lon": -90.0490
+      "lon": -90.049
     },
     "sameAs": [
       "https://en.wikipedia.org/wiki/Memphis,_Tennessee",
@@ -123,6 +123,7 @@
         "q": "What numbers should a Memphis resident keep on hand for wildlife emergencies?",
         "a": "For licensed wildlife removal in Memphis: (844) 544-3498. For wildlife-related rabies exposure (any bite or scratch from a wild mammal): contact Memphis Animal Services and the Shelby County Health Department immediately and do not handle or release the animal. For cottonmouth or copperhead bites, treat as a medical emergency — call 911 and get to a hospital with antivenom availability; do not attempt cut-and-suck treatments, tourniquets, or self-relocation. For injured native wildlife where rescue rather than removal is appropriate, the Tennessee Wildlife Resources Agency (TWRA) Region I office in Jackson maintains a referral list of licensed wildlife rehabilitators. For deer-vehicle collisions on I-40, I-240, I-55, I-269, Sam Cooper Boulevard, Walnut Grove Road, Poplar Avenue, Germantown Parkway, Houston Levee Road, or the major Memphis arterials, contact the Memphis Police Department non-emergency line and TWRA."
       }
-    ]
+    ],
+    "index": true
   }
 }

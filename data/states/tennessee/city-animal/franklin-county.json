@@ -3,7 +3,10 @@
     "rat-removal": {
       "metaTitle": "Rat Removal in Winchester, TN — Downtown & Commercial Block Pros",
       "metaDescription": "Licensed rat removal in Winchester, TN. Norway rat control for the downtown commercial corridor, restaurants near the historic square, and older brick buildings off South College Street. Same-day inspection.",
-      "geo": { "lat": 35.186, "lon": -86.112 },
+      "geo": {
+        "lat": 35.186,
+        "lon": -86.112
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Winchester,_Tennessee",
         "https://en.wikipedia.org/wiki/Brown_rat"
@@ -33,18 +36,34 @@
         }
       ],
       "relatedLinks": [
-        { "anchor": "Franklin County wildlife removal — full coverage", "href": "/tennessee/franklin-county/" },
-        { "anchor": "Sewanee rat control — University Domain & plateau homes", "href": "/tennessee/franklin-county/sewanee/rat-removal/" },
-        { "anchor": "Decherd rat removal — railroad corridor & industrial", "href": "/tennessee/franklin-county/decherd/rat-removal/" },
-        { "anchor": "Estill Springs rat removal — Tims Ford Lake properties", "href": "/tennessee/franklin-county/estill-springs/rat-removal/" }
-      ]
+        {
+          "anchor": "Franklin County wildlife removal — full coverage",
+          "href": "/tennessee/franklin-county/"
+        },
+        {
+          "anchor": "Sewanee rat control — University Domain & plateau homes",
+          "href": "/tennessee/franklin-county/sewanee/rat-removal/"
+        },
+        {
+          "anchor": "Decherd rat removal — railroad corridor & industrial",
+          "href": "/tennessee/franklin-county/decherd/rat-removal/"
+        },
+        {
+          "anchor": "Estill Springs rat removal — Tims Ford Lake properties",
+          "href": "/tennessee/franklin-county/estill-springs/rat-removal/"
+        }
+      ],
+      "index": true
     }
   },
   "Sewanee": {
     "rat-removal": {
       "metaTitle": "Sewanee Rat Control | University Domain & Plateau Homes — TN",
       "metaDescription": "Licensed rat removal in Sewanee, TN. Norway and roof rat work for the University of the South Domain, dining halls, dormitories, and the historic stone-and-timber faculty homes on the Cumberland Plateau.",
-      "geo": { "lat": 35.205, "lon": -85.921 },
+      "geo": {
+        "lat": 35.205,
+        "lon": -85.921
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Sewanee,_Tennessee",
         "https://en.wikipedia.org/wiki/Sewanee:_The_University_of_the_South",
@@ -75,18 +94,34 @@
         }
       ],
       "relatedLinks": [
-        { "anchor": "Franklin County wildlife removal hub", "href": "/tennessee/franklin-county/" },
-        { "anchor": "Winchester rat removal — downtown commercial blocks", "href": "/tennessee/franklin-county/winchester/rat-removal/" },
-        { "anchor": "Cowan rat control — pre-1900s homes near the tunnel", "href": "/tennessee/franklin-county/cowan/rat-removal/" },
-        { "anchor": "Decherd rat removal — railroad corridor & industrial", "href": "/tennessee/franklin-county/decherd/rat-removal/" }
-      ]
+        {
+          "anchor": "Franklin County wildlife removal hub",
+          "href": "/tennessee/franklin-county/"
+        },
+        {
+          "anchor": "Winchester rat removal — downtown commercial blocks",
+          "href": "/tennessee/franklin-county/winchester/rat-removal/"
+        },
+        {
+          "anchor": "Cowan rat control — pre-1900s homes near the tunnel",
+          "href": "/tennessee/franklin-county/cowan/rat-removal/"
+        },
+        {
+          "anchor": "Decherd rat removal — railroad corridor & industrial",
+          "href": "/tennessee/franklin-county/decherd/rat-removal/"
+        }
+      ],
+      "index": true
     }
   },
   "Decherd": {
     "rat-removal": {
       "metaTitle": "Rat Removal in Decherd, TN — Railroad-Corridor & Industrial Pros",
       "metaDescription": "Licensed rat removal in Decherd, TN. Norway rat control around the CSX railroad corridor, Decherd-Tullahoma industrial blocks, grain and feed storage, and the older railroad-era residential housing.",
-      "geo": { "lat": 35.213, "lon": -86.082 },
+      "geo": {
+        "lat": 35.213,
+        "lon": -86.082
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Decherd,_Tennessee",
         "https://en.wikipedia.org/wiki/Brown_rat"
@@ -116,18 +151,34 @@
         }
       ],
       "relatedLinks": [
-        { "anchor": "Franklin County wildlife removal hub", "href": "/tennessee/franklin-county/" },
-        { "anchor": "Winchester rat removal — downtown commercial blocks", "href": "/tennessee/franklin-county/winchester/rat-removal/" },
-        { "anchor": "Cowan rat control — pre-1900s homes near the tunnel", "href": "/tennessee/franklin-county/cowan/rat-removal/" },
-        { "anchor": "Sewanee rat control — University Domain & plateau homes", "href": "/tennessee/franklin-county/sewanee/rat-removal/" }
-      ]
+        {
+          "anchor": "Franklin County wildlife removal hub",
+          "href": "/tennessee/franklin-county/"
+        },
+        {
+          "anchor": "Winchester rat removal — downtown commercial blocks",
+          "href": "/tennessee/franklin-county/winchester/rat-removal/"
+        },
+        {
+          "anchor": "Cowan rat control — pre-1900s homes near the tunnel",
+          "href": "/tennessee/franklin-county/cowan/rat-removal/"
+        },
+        {
+          "anchor": "Sewanee rat control — University Domain & plateau homes",
+          "href": "/tennessee/franklin-county/sewanee/rat-removal/"
+        }
+      ],
+      "index": true
     }
   },
   "Cowan": {
     "rat-removal": {
       "metaTitle": "Cowan, TN Rat Control | Pre-1900s Homes Near the Tunnel",
       "metaDescription": "Licensed rat removal in Cowan, TN. Norway rat control for the historic blocks near the Cowan Pusher Depot, the pre-1900s residential housing, and properties along the railroad grade up to Sewanee Tunnel.",
-      "geo": { "lat": 35.165, "lon": -85.974 },
+      "geo": {
+        "lat": 35.165,
+        "lon": -85.974
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Cowan,_Tennessee",
         "https://en.wikipedia.org/wiki/Cumberland_Mountain_Tunnel",
@@ -158,18 +209,34 @@
         }
       ],
       "relatedLinks": [
-        { "anchor": "Franklin County wildlife removal hub", "href": "/tennessee/franklin-county/" },
-        { "anchor": "Sewanee rat control — University Domain & plateau homes", "href": "/tennessee/franklin-county/sewanee/rat-removal/" },
-        { "anchor": "Decherd rat removal — railroad corridor & industrial", "href": "/tennessee/franklin-county/decherd/rat-removal/" },
-        { "anchor": "Winchester rat removal — downtown commercial blocks", "href": "/tennessee/franklin-county/winchester/rat-removal/" }
-      ]
+        {
+          "anchor": "Franklin County wildlife removal hub",
+          "href": "/tennessee/franklin-county/"
+        },
+        {
+          "anchor": "Sewanee rat control — University Domain & plateau homes",
+          "href": "/tennessee/franklin-county/sewanee/rat-removal/"
+        },
+        {
+          "anchor": "Decherd rat removal — railroad corridor & industrial",
+          "href": "/tennessee/franklin-county/decherd/rat-removal/"
+        },
+        {
+          "anchor": "Winchester rat removal — downtown commercial blocks",
+          "href": "/tennessee/franklin-county/winchester/rat-removal/"
+        }
+      ],
+      "index": true
     }
   },
   "Estill Springs": {
     "rat-removal": {
       "metaTitle": "Rat Removal in Estill Springs, TN | Tims Ford Lake Properties",
       "metaDescription": "Licensed rat removal in Estill Springs, TN. Norway rat control for Tims Ford Lake shoreline subdivisions, vacant winter cabins, dock and boat-house storage, and the year-round residential community.",
-      "geo": { "lat": 35.262, "lon": -86.131 },
+      "geo": {
+        "lat": 35.262,
+        "lon": -86.131
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Estill_Springs,_Tennessee",
         "https://en.wikipedia.org/wiki/Tims_Ford_Lake",
@@ -200,18 +267,34 @@
         }
       ],
       "relatedLinks": [
-        { "anchor": "Franklin County wildlife removal hub", "href": "/tennessee/franklin-county/" },
-        { "anchor": "Winchester rat removal — downtown commercial blocks", "href": "/tennessee/franklin-county/winchester/rat-removal/" },
-        { "anchor": "Decherd rat removal — railroad corridor & industrial", "href": "/tennessee/franklin-county/decherd/rat-removal/" },
-        { "anchor": "Belvidere rat control — rural & agricultural", "href": "/tennessee/franklin-county/belvidere/rat-removal/" }
-      ]
+        {
+          "anchor": "Franklin County wildlife removal hub",
+          "href": "/tennessee/franklin-county/"
+        },
+        {
+          "anchor": "Winchester rat removal — downtown commercial blocks",
+          "href": "/tennessee/franklin-county/winchester/rat-removal/"
+        },
+        {
+          "anchor": "Decherd rat removal — railroad corridor & industrial",
+          "href": "/tennessee/franklin-county/decherd/rat-removal/"
+        },
+        {
+          "anchor": "Belvidere rat control — rural & agricultural",
+          "href": "/tennessee/franklin-county/belvidere/rat-removal/"
+        }
+      ],
+      "index": true
     }
   },
   "Huntland": {
     "rat-removal": {
       "metaTitle": "Huntland, TN Rat Removal — Small-Farm & Grain Storage Specialists",
       "metaDescription": "Licensed rat removal in Huntland, TN. Norway rat control for small-farm operations near the Alabama line — grain bins, livestock barns, hay storage, and rural residential properties.",
-      "geo": { "lat": 35.054, "lon": -86.273 },
+      "geo": {
+        "lat": 35.054,
+        "lon": -86.273
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Huntland,_Tennessee",
         "https://en.wikipedia.org/wiki/Brown_rat"
@@ -241,18 +324,34 @@
         }
       ],
       "relatedLinks": [
-        { "anchor": "Franklin County wildlife removal hub", "href": "/tennessee/franklin-county/" },
-        { "anchor": "Belvidere rat control — rural & agricultural", "href": "/tennessee/franklin-county/belvidere/rat-removal/" },
-        { "anchor": "Decherd rat removal — railroad corridor & industrial", "href": "/tennessee/franklin-county/decherd/rat-removal/" },
-        { "anchor": "Winchester rat removal — downtown commercial blocks", "href": "/tennessee/franklin-county/winchester/rat-removal/" }
-      ]
+        {
+          "anchor": "Franklin County wildlife removal hub",
+          "href": "/tennessee/franklin-county/"
+        },
+        {
+          "anchor": "Belvidere rat control — rural & agricultural",
+          "href": "/tennessee/franklin-county/belvidere/rat-removal/"
+        },
+        {
+          "anchor": "Decherd rat removal — railroad corridor & industrial",
+          "href": "/tennessee/franklin-county/decherd/rat-removal/"
+        },
+        {
+          "anchor": "Winchester rat removal — downtown commercial blocks",
+          "href": "/tennessee/franklin-county/winchester/rat-removal/"
+        }
+      ],
+      "index": true
     }
   },
   "Belvidere": {
     "rat-removal": {
       "metaTitle": "Belvidere TN Rat Control | Rural & Agricultural Wildlife Removal",
       "metaDescription": "Licensed rat removal in the Belvidere community, Franklin County, TN. Norway rat control for rural farms, scattered agricultural operations, and small acreage between Winchester and the Alabama line.",
-      "geo": { "lat": 35.140, "lon": -86.213 },
+      "geo": {
+        "lat": 35.14,
+        "lon": -86.213
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Brown_rat"
       ],
@@ -277,18 +376,34 @@
         }
       ],
       "relatedLinks": [
-        { "anchor": "Franklin County wildlife removal hub", "href": "/tennessee/franklin-county/" },
-        { "anchor": "Huntland rat removal — small-farm & grain storage", "href": "/tennessee/franklin-county/huntland/rat-removal/" },
-        { "anchor": "Decherd rat removal — railroad corridor & industrial", "href": "/tennessee/franklin-county/decherd/rat-removal/" },
-        { "anchor": "Winchester rat removal — downtown commercial blocks", "href": "/tennessee/franklin-county/winchester/rat-removal/" }
-      ]
+        {
+          "anchor": "Franklin County wildlife removal hub",
+          "href": "/tennessee/franklin-county/"
+        },
+        {
+          "anchor": "Huntland rat removal — small-farm & grain storage",
+          "href": "/tennessee/franklin-county/huntland/rat-removal/"
+        },
+        {
+          "anchor": "Decherd rat removal — railroad corridor & industrial",
+          "href": "/tennessee/franklin-county/decherd/rat-removal/"
+        },
+        {
+          "anchor": "Winchester rat removal — downtown commercial blocks",
+          "href": "/tennessee/franklin-county/winchester/rat-removal/"
+        }
+      ],
+      "index": true
     }
   },
   "Sherwood": {
     "rat-removal": {
       "metaTitle": "Rat Removal in Sherwood, TN — Isolated Plateau Community",
       "metaDescription": "Licensed rat removal serving the Sherwood community on the Cumberland Plateau in Franklin County, TN. Norway and roof rat work for the small isolated mountain residential properties.",
-      "geo": { "lat": 35.103, "lon": -85.926 },
+      "geo": {
+        "lat": 35.103,
+        "lon": -85.926
+      },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Sherwood,_Tennessee",
         "https://en.wikipedia.org/wiki/Black_rat"
@@ -314,11 +429,24 @@
         }
       ],
       "relatedLinks": [
-        { "anchor": "Franklin County wildlife removal hub", "href": "/tennessee/franklin-county/" },
-        { "anchor": "Sewanee rat control — University Domain & plateau homes", "href": "/tennessee/franklin-county/sewanee/rat-removal/" },
-        { "anchor": "Cowan rat control — pre-1900s homes near the tunnel", "href": "/tennessee/franklin-county/cowan/rat-removal/" },
-        { "anchor": "Winchester rat removal — downtown commercial blocks", "href": "/tennessee/franklin-county/winchester/rat-removal/" }
-      ]
+        {
+          "anchor": "Franklin County wildlife removal hub",
+          "href": "/tennessee/franklin-county/"
+        },
+        {
+          "anchor": "Sewanee rat control — University Domain & plateau homes",
+          "href": "/tennessee/franklin-county/sewanee/rat-removal/"
+        },
+        {
+          "anchor": "Cowan rat control — pre-1900s homes near the tunnel",
+          "href": "/tennessee/franklin-county/cowan/rat-removal/"
+        },
+        {
+          "anchor": "Winchester rat removal — downtown commercial blocks",
+          "href": "/tennessee/franklin-county/winchester/rat-removal/"
+        }
+      ],
+      "index": true
     }
   }
 }

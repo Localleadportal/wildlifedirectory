@@ -354,6 +354,23 @@
     const _companyName = (countyContent && countyContent.contractor && countyContent.contractor.name)
       ? countyContent.contractor.name
       : null;
+    // Resolve {{company}} / {{phone}} tokens in authored body HTML (leadParagraph,
+    // extendedBody, costText), mirroring the hub's county.ejs heroIntro handling so
+    // a page can render the assigned contractor's name/phone dynamically instead of
+    // hardcoding it. Falls back to a contractor-agnostic phrase when none is assigned.
+    const _resolveTokens = (html) => (html || '')
+      .replace(/\{\{\s*company\s*\}\}/g, _companyName || 'The local pro we match you with')
+      .replace(/\{\{\s*phone\s*\}\}/g, _phoneDisplay);
+    // Contractor-agnostic state-regulator trust badge — accurate per state so the
+    // shared template never claims "DNR" where the regulator is named otherwise.
+    const _regulatorBadge = stateName === 'Georgia' ? 'GA DNR–Licensed'
+      : stateName === 'Tennessee' ? 'TWRA–Licensed'
+      : stateName === 'Delaware' ? 'DNREC–Licensed'
+      : stateName === 'Connecticut' ? 'CT DEEP–Licensed'
+      : stateName === 'New Hampshire' ? 'NH Fish & Game–Licensed'
+      : stateName === 'Vermont' ? 'VT Fish & Wildlife–Licensed'
+      : stateName === 'Rhode Island' ? 'RI DEM–Licensed'
+      : 'State-Licensed';
   %>
   <header>
     <div class="container header-inner">
@@ -375,7 +392,7 @@
       <div class="trust-item">24/7 Emergency Response</div>
       <div class="trust-item">Licensed &amp; Insured</div>
       <div class="trust-item">Humane Methods</div>
-      <div class="trust-item">Local Experts</div>
+      <div class="trust-item">Free Consultation</div>
     </div>
   </div>
 
@@ -424,8 +441,11 @@
           <% } %>
           <div class="cta-badges">
             <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Licensed &amp; Insured</span>
+            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <%= _regulatorBadge %></span>
             <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Same-Day Available</span>
+            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Free Consultation</span>
             <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Humane Methods</span>
+            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 24/7 Emergency Response</span>
           </div>
         </div>
       </div>
@@ -639,7 +659,7 @@
     <%# Generic national-level cost block. Suppressed when this (county, animal) pair has its own detailed pricing array — that local table is the canonical source of truth and shows in the extendedBody. %>
     <section class="county-content" style="background:#f8fafc;">
       <div class="container">
-        <h2><%= animal.name %> Cost in <%= stateName %></h2>
+        <h2><%= animal.name %> Cost in <%= countyName %></h2>
         <p style="font-size:1.5rem;font-weight:700;color:var(--primary);margin:0 0 8px;"><%= animal.costRange %></p>
         <p style="color:#6b7280;margin:0;"><%= animal.costNote %> Pricing varies by contractor, location, and severity. Call for an estimate specific to your situation.</p>
         <% if (countyAnimalContent && countyAnimalContent.pricingNote) { %>
