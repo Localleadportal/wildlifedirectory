@@ -479,15 +479,6 @@
     </section>
     <% } %>
 
-    <% if (countyAnimalContent && countyAnimalContent.leadParagraph) { %>
-    <section class="county-content">
-      <div class="container">
-        <h2>What Makes <%= countyName %> <%= animal.plural %> Different</h2>
-        <p><%- countyAnimalContent.leadParagraph %></p>
-      </div>
-    </section>
-    <% } %>
-
     <section class="services-section">
       <div class="container">
         <% if (animal.slug === 'opossum-removal') { %>
@@ -552,10 +543,19 @@
       </div>
     </section>
 
+    <% if (countyAnimalContent && countyAnimalContent.leadParagraph) { %>
+    <section class="county-content">
+      <div class="container">
+        <h2><%= (countyAnimalContent && countyAnimalContent.leadHeading) || ('What Makes ' + countyName + ' ' + animal.plural + ' Different') %></h2>
+        <p><%- _resolveTokens(countyAnimalContent.leadParagraph) %></p>
+      </div>
+    </section>
+    <% } %>
+
     <% if (countyAnimalContent && countyAnimalContent.extendedBody) { %>
     <section class="county-content">
       <div class="container">
-        <%- countyAnimalContent.extendedBody %>
+        <%- _resolveTokens(countyAnimalContent.extendedBody) %>
       </div>
     </section>
     <% } %>
@@ -655,7 +655,15 @@
     </section>
     <% } %>
 
-    <% if (animal.costRange && !(countyAnimalContent && countyAnimalContent.pricing && countyAnimalContent.pricing.length)) { %>
+    <% if (countyAnimalContent && countyAnimalContent.costText) { %>
+    <%# No-numbers pricing override: pages that intentionally avoid published price ranges (e.g. dead-animal / large-animal pickup, which every contractor prices differently) render free-consultation copy instead of a numeric headline. %>
+    <section class="county-content" style="background:#f8fafc;">
+      <div class="container">
+        <h2><%= animal.name %> Pricing in <%= countyName %></h2>
+        <p style="color:#374151;margin:0;"><%- _resolveTokens(countyAnimalContent.costText) %></p>
+      </div>
+    </section>
+    <% } else if (animal.costRange && !(countyAnimalContent && countyAnimalContent.pricing && countyAnimalContent.pricing.length)) { %>
     <%# Generic national-level cost block. Suppressed when this (county, animal) pair has its own detailed pricing array — that local table is the canonical source of truth and shows in the extendedBody. %>
     <section class="county-content" style="background:#f8fafc;">
       <div class="container">
