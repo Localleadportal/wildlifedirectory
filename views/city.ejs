@@ -100,6 +100,88 @@
     const _cityFaqs = (cityContent && cityContent.faqs && cityContent.faqs.length) ? cityContent.faqs : null;
   %>
   <%- include('_location-schema', { crumbs, pageUrl, service, faqs: _cityFaqs }) %>
+
+  <%# Page-level local-business entity for enriched city HUBS (geo present),
+      mirroring views/county.ejs. One canonical entity per page: PestControl
+      when LeadPortal has an assigned contractor for the parent county, the
+      LocalBusiness/ProfessionalService directory fallback otherwise. @id stays
+      "#business" in both branches. NO AggregateRating/Review — directory site. %>
+  <% if (seoEnhanced) { %>
+  <% if (countyContent && countyContent.contractor) { %>
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "ProfessionalService"],
+    "additionalType": "https://schema.org/PestControl",
+    "@id": pageUrl + "#business",
+    "name": countyContent.contractor.name,
+    "description": "Licensed wildlife removal in " + cityName + ", " + stateName + ". Expert removal of raccoons, squirrels, bats, snakes and more. Humane methods, same-day service available.",
+    "url": countyContent.contractor.url ? normalizeUrl(countyContent.contractor.url) : pageUrl,
+    "telephone": countyContent.contractor.telephone,
+    "image": countyContent.contractor.image || ogImage,
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      ...(countyContent.contractor.streetAddress ? { "streetAddress": toTitleCase(countyContent.contractor.streetAddress) } : {}),
+      "addressLocality": countyContent.contractor.addressLocality ? toTitleCase(countyContent.contractor.addressLocality) : cityName,
+      "addressRegion": normalizeStateRegion(countyContent.contractor.addressRegion || stateRegion),
+      ...(countyContent.contractor.postalCode ? { "postalCode": countyContent.contractor.postalCode } : {}),
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      { "@type": "City", "name": cityName + ", " + stateName },
+      { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
+    ],
+    "geo": { "@type": "GeoCoordinates", "latitude": cityContent.geo.lat, "longitude": cityContent.geo.lon },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Wildlife Removal Services in " + cityName,
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Removal" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Animal Exclusion" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Remediation" } }
+      ]
+    }
+  }) %>
+  </script>
+  <% } else { %>
+  <script type="application/ld+json">
+  <%- JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "ProfessionalService"],
+    "@id": pageUrl + "#business",
+    "name": "Wildlife Removal in " + cityName,
+    "description": "Licensed wildlife removal in " + cityName + ", " + stateName + ". Expert removal of raccoons, squirrels, bats, snakes and more. Humane methods, same-day service available.",
+    "url": pageUrl,
+    "telephone": "+1-844-544-3498",
+    "image": ogImage,
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": cityName,
+      "addressRegion": stateRegion,
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      { "@type": "City", "name": cityName + ", " + stateName },
+      { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
+    ],
+    "geo": { "@type": "GeoCoordinates", "latitude": cityContent.geo.lat, "longitude": cityContent.geo.lon },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Wildlife Removal Services in " + cityName,
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Removal" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Animal Exclusion" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Remediation" } }
+      ]
+    }
+  }) %>
+  </script>
+  <% } %>
+  <% } %>
   <link rel="icon" href="https://www.removewildlifenow.com/favicon.png" sizes="180x180" type="image/png">
 </head>
 <body>
@@ -177,10 +259,16 @@
             <a href="/contact/?county=<%= encodeURIComponent(countyName) %>&state=<%= encodeURIComponent(stateName) %>" class="btn-contact">Contact Us for Help</a>
           </div>
           <% } %>
+          <%# Contractor-agnostic trust signals. Cities may override via
+              cityContent.trustBadges; otherwise the generic default set shows.
+              No reviews/testimonials and no per-contractor claims. %>
+          <% const _trustBadges = (cityContent && cityContent.trustBadges && cityContent.trustBadges.length)
+               ? cityContent.trustBadges
+               : ['Licensed & Insured', 'Same-Day Available', 'Humane Methods']; %>
           <div class="cta-badges">
-            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Licensed &amp; Insured</span>
-            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Same-Day Available</span>
-            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Humane Methods</span>
+            <% _trustBadges.forEach(function(b) { %>
+            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> <%= b %></span>
+            <% }); %>
           </div>
         </div>
       </div>
@@ -239,9 +327,15 @@
           <li><%= n %></li>
           <% }); %>
         </ul>
+        <%# geographyNote folds the landmark/geography items into a single
+            sentence (vs a second bulleted list). Falls back to the
+            geographic_features list for cities that haven't been merged. %>
+        <% if (cityContent && cityContent.geographyNote) { %>
+        <p><%- cityContent.geographyNote %></p>
+        <% } %>
         <% } %>
 
-        <% if (cityContent && cityContent.geographic_features && cityContent.geographic_features.length) { %>
+        <% if (cityContent && !cityContent.geographyNote && cityContent.geographic_features && cityContent.geographic_features.length) { %>
         <h3>Local Geography Driving Wildlife Pressure</h3>
         <p><%= cityName %>'s wildlife corridors and natural features include:</p>
         <ul class="tips-list">
@@ -321,6 +415,7 @@
 
   <footer>
     <div class="container">
+      <p class="directory-disclosure" style="margin:0 0 10px;font-size:0.85rem;opacity:0.85;max-width:720px;">RemoveWildlifeNow.com is a wildlife removal <strong>directory</strong>. Calls and form submissions from this page route to one assigned, licensed wildlife removal contractor serving <%= countyName %>, <%= stateName %>. We are not the contractor — we connect homeowners with the local pro covering their county.</p>
       <p style="margin:0 0 6px;">Wildlife removal company? <a href="/list-your-business/" style="color:inherit;text-decoration:underline;">List your business</a> for exclusive county leads.</p>
       <p>&copy; <%= new Date().getFullYear() %> RemoveWildlifeNow.com &mdash; Connecting homeowners with licensed wildlife removal professionals nationwide.</p>
     </div>
