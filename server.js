@@ -5,7 +5,8 @@ const fs = require('fs');
 const crypto = require('crypto');
 const us = require('us');
 const { statesAndCounties, stateSlugToName, countySlugToName, toSlug } = require('./data/locations');
-const { getCitiesForCounty, citySlugToName } = require('./data/cities');
+const { getCitiesForCounty, citySlugToName, cityCountyName } = require('./data/cities');
+const { seatCityFor } = require('./data/countySeatCity');
 const { ANIMALS, ANIMAL_SLUGS, getAnimalBySlug } = require('./data/animals');
 const { stateContent } = require('./data/stateContent');
 const { getAnimalRegionContent } = require('./data/animalRegionContent');
@@ -99,24 +100,13 @@ const _hubOnlyIndexCounties = new Set(
   })
 );
 
-// Cities that physically straddle two indexed counties produce two URL paths
-// for the same place (e.g. Austell in both Cobb and Douglas). Both render
-// near-identical content and compete for the same query. Keyed by
-// "stateSlug|citySlug" → the primary county's slug; pages under the secondary
-// county canonicalize to the primary so Google consolidates the ranking signal
-// onto one URL. The primary is the county with the fuller content / larger
-// share of the city.
-const CITY_CANONICAL_COUNTY = {
-  'georgia|austell': 'cobb-county',       // also served under douglas-county
-  'georgia|villa-rica': 'carroll-county', // also served under douglas-county
-};
-// Returns the canonical URL for a city or city-animal page, redirecting the
-// canonical to the primary county when the city is a known cross-county
-// duplicate. animalSlug is optional (omit for the bare city hub).
-function cityCanonicalUrl(stateSlug, countySlug, citySlug, animalSlug) {
-  const primary = CITY_CANONICAL_COUNTY[`${stateSlug}|${citySlug}`];
-  const slug = primary || countySlug;
-  return `https://www.removewildlifenow.com/${stateSlug}/${slug}/${citySlug}/` +
+// The flat URL scheme gives every city ONE path (/state/city/), so cross-county
+// duplicates (Austell in both Cobb and Douglas) are deduped structurally: the
+// city → county reverse map (data/cities.js, seeded from CITY_CANONICAL_COUNTY)
+// resolves each city slug to a single owning county, so only one URL ever exists.
+// The canonical URL is therefore just the page's own flat URL.
+function cityCanonicalUrl(stateSlug, citySlug, animalSlug) {
+  return `https://www.removewildlifenow.com/${stateSlug}/${citySlug}/` +
     (animalSlug ? `${animalSlug}/` : '');
 }
 
@@ -183,6 +173,63 @@ async function indexableStatesForAnimal(animalSlug) {
   for (const key of _permanentStateAnimals) {
     const [state, slug] = key.split('|');
     if (slug === animalSlug && await isStateAnimalIndexable(state, slug)) out.add(state);
+  }
+  return out;
+}
+// Cities in a state that are currently indexable, deduped to their canonical
+// (owning) county so cross-county duplicates (Austell, Villa Rica) appear once.
+// Powers the state hub's "cities we serve" grid (replacing the old county grid)
+// and is the universe for the state-animal page's city down-links. Returns
+// [{ name, slug, countyName }] sorted by name.
+async function indexableCitiesFor(stateName) {
+  const out = [];
+  const seen = new Set();
+  for (const county of (statesAndCounties[stateName] || [])) {
+    if (!_permanentCounties.has(`${stateName}|${apiCounty(county).toLowerCase()}`)) continue;
+    for (const city of getCitiesForCounty(stateName, county)) {
+      const citySlug = toSlug(city);
+      if (seen.has(citySlug)) continue;
+      // Emit only from the county that owns the flat slug (cross-county dedupe).
+      if (cityCountyName(stateName, citySlug) !== county) continue;
+      if (await isCityIndexable(stateName, county, city)) {
+        seen.add(citySlug);
+        out.push({ name: city, slug: citySlug, countyName: county });
+      }
+    }
+  }
+  out.sort((a, b) => a.name.localeCompare(b.name));
+  return out;
+}
+// Cities in a state whose per-animal page is indexable — the state-animal page's
+// localized down-links ("Macon Raccoon Removal"). Returns [{ name, slug }].
+async function indexableCityAnimalsFor(stateName, animalSlug) {
+  const out = [];
+  for (const c of await indexableCitiesFor(stateName)) {
+    if (await isCityIndexable(stateName, c.countyName, c.name, animalSlug)) {
+      out.push({ name: c.name, slug: c.slug });
+    }
+  }
+  return out;
+}
+// Animal objects whose per-city page is indexable for this city. On-page service
+// grids link ONLY to these, because noindex city-animal pages now 404 — linking
+// them would create broken internal links.
+async function indexableAnimalsForCity(stateName, countyName, cityName) {
+  const out = [];
+  for (const a of ANIMALS) {
+    if (await isCityIndexable(stateName, countyName, cityName, a.slug)) out.push(a);
+  }
+  return out;
+}
+// Indexable sibling city hubs in the same county (excluding `exceptCity`), as
+// [{ name, slug }], deduped to the owning county — for the "Other Cities" links.
+async function indexableSiblingCities(stateName, countyName, exceptCity) {
+  const out = [];
+  for (const city of getCitiesForCounty(stateName, countyName)) {
+    if (city === exceptCity) continue;
+    const slug = toSlug(city);
+    if (cityCountyName(stateName, slug) !== countyName) continue; // owner only
+    if (await isCityIndexable(stateName, countyName, city)) out.push({ name: city, slug });
   }
   return out;
 }
@@ -291,54 +338,38 @@ app.get('/sitemap.xml', async (req, res) => {
     if (content && content.index === true) urls.push(`${BASE}/${toSlug(state)}/${slug}/`);
   });
 
+  // Flat scheme: county hubs and county-animal hubs no longer exist, so the
+  // sitemap emits only flat city (/state/city/) and city-animal
+  // (/state/city/animal/) URLs. We still walk the indexed counties because the
+  // content + index flags are keyed by county; each city is emitted once, from
+  // the county that owns its flat slug (so cross-county dupes like Austell and
+  // Villa Rica — which appear under two counties — aren't double-listed).
   _permanentCounties.forEach(key => {
     const [state, countyLower] = key.split('|');
     const stateSlug = toSlug(state);
     const counties = statesAndCounties[state] || [];
     const fullCounty = counties.find(c => apiCounty(c).toLowerCase() === countyLower);
     if (!fullCounty) return;
-    const countySlug = toSlug(fullCounty);
-    const hubOnly = _hubOnlyIndexCounties.has(key);
-    const countyOnly = _countyOnlyIndexCounties.has(key);
-    const selectiveMode = hubOnly || countyOnly;
-    const cities = getCitiesForCounty(state, fullCounty);
-    urls.push(`${BASE}/${stateSlug}/${countySlug}/`);
+    const selectiveMode = _hubOnlyIndexCounties.has(key) || _countyOnlyIndexCounties.has(key);
 
-    // City hub URLs — in selective mode, only include cities with enriched cityContent
-    cities.forEach(city => {
+    getCitiesForCounty(state, fullCounty).forEach(city => {
       const citySlug = toSlug(city);
+      // Only the owning county emits the flat URL for a cross-county city.
+      if (cityCountyName(state, citySlug) !== fullCounty) return;
+      // In selective mode a city is indexable only with an explicit "index": true
+      // (mirrors isCityIndexable). Full counties index every city.
       if (selectiveMode) {
         const cContent = getCityContent(state, fullCounty, city);
         if (!cContent || cContent.index !== true) return;
       }
-      urls.push(`${BASE}/${stateSlug}/${countySlug}/${citySlug}/`);
-    });
+      urls.push(`${BASE}/${stateSlug}/${citySlug}/`);
 
-    ANIMALS.forEach(a => {
-      // County-animal hub URL — in hub-only mode, only sitemap animals with enriched content.
-      // Skipping the county-animal URL must NOT skip enriched city-animal URLs underneath
-      // (a city can have rat-removal content even when the county-animal hub is still bare).
-      let emitCountyAnimal = true;
-      if (hubOnly) {
-        const cAnimal = getCountyAnimalContent(state, fullCounty, a.slug);
-        if (!cAnimal || cAnimal.index !== true) emitCountyAnimal = false;
-      }
-      if (emitCountyAnimal) {
-        urls.push(`${BASE}/${stateSlug}/${countySlug}/${a.slug}/`);
-      }
-
-      // City-animal URLs — in selective mode, only include those with enriched content
-      cities.forEach(city => {
-        const citySlug = toSlug(city);
+      ANIMALS.forEach(a => {
         if (selectiveMode) {
           const cAnimal = getCityAnimalContent(state, fullCounty, city, a.slug);
-          // Mirror isCityIndexable: only pages explicitly opted in with
-          // "index": true belong in the sitemap. A page that has content but no
-          // index flag is served noindex, and a submitted noindex URL is a GSC
-          // "Submitted URL marked noindex" error that wastes crawl trust.
           if (!cAnimal || cAnimal.index !== true) return;
         }
-        urls.push(`${BASE}/${stateSlug}/${countySlug}/${citySlug}/${a.slug}/`);
+        urls.push(`${BASE}/${stateSlug}/${citySlug}/${a.slug}/`);
       });
     });
   });
@@ -424,64 +455,141 @@ app.get('/:stateSlug/', async (req, res) => {
   const stateName = stateSlugToName(req.params.stateSlug);
   if (!stateName) return res.status(404).render('404', { message: 'State not found.' });
 
-  const counties = statesAndCounties[stateName];
   const stateInfo = stateContent[stateName] || null;
   const indexable = await isStateIndexable(stateName);
   // Localized down-links to the indexable state-animal pages ("Georgia Raccoon Removal").
   const stateAnimalLinks = await indexableStateAnimalsFor(stateName);
-  res.render('state', { stateName, counties, stateInfo, toSlug, indexable, stateAnimalLinks, ANIMALS });
+  // Flat scheme: the hub now lists the cities we serve (not counties).
+  const cities = await indexableCitiesFor(stateName);
+  res.render('state', { stateName, cities, stateInfo, toSlug, indexable, stateAnimalLinks, ANIMALS });
 });
 
-// County page — /georgia/cobb-county/  (also dispatches the state-animal page,
-// /georgia/raccoon-removal/, which shares the /:stateSlug/:segment/ shape).
-app.get('/:stateSlug/:countySlug/', async (req, res) => {
-  const stateName = stateSlugToName(req.params.stateSlug);
-  if (!stateName) return res.status(404).render('404', { message: 'State not found.' });
+// ── Legacy county-nested URL → flat URL 301 redirects ────────────────────────
+// The site dropped the county segment (/state/county/... → /state/...). This
+// middleware catches the legacy county-nested URLs that are still INDEXED and
+// 301s them to their flat equivalent so accumulated SEO equity carries over. It
+// runs before the flat location routes below. It acts ONLY when segment 2 is a
+// real county slug (so flat city URLs, state-animal pages, and unknown slugs all
+// fall straight through). Indexed county hubs / county-animal hubs (which have no
+// flat equivalent) go to the county's seat city (data/countySeatCity.js), or to
+// the state hub when the county has no live indexed city. NON-indexed legacy
+// county URLs are deliberately NOT redirected — they fall through to 404, matching
+// the "only authored/indexed pages resolve" model.
+app.use(async (req, res, next) => {
+  if (req.method !== 'GET' && req.method !== 'HEAD') return next();
+  const segs = req.path.split('/').filter(Boolean);
+  if (segs.length < 2 || segs.length > 4) return next();
+  const [stateSlug, countySlug, seg3, seg4] = segs;
+  const stateName = stateSlugToName(stateSlug);
+  if (!stateName) return next();
+  if (ANIMAL_SLUGS.has(countySlug)) return next();        // state-animal is flat — leave it
+  const countyName = countySlugToName(stateSlug, countySlug);
+  if (!countyName) return next();                          // segment 2 isn't a county → flat URL
 
-  // State-animal page — second segment is an animal slug (e.g. /georgia/raccoon-removal/).
-  // Dispatched here, before the county lookup, mirroring the county-animal/city
-  // dispatch one level deeper at /:stateSlug/:countySlug/:segment/.
-  if (ANIMAL_SLUGS.has(req.params.countySlug)) {
-    const animalSlug = req.params.countySlug;
-    const animal = getAnimalBySlug(animalSlug);
-    const stateInfo = stateContent[stateName] || null;
-    const stateAnimalContent = getStateAnimalContent(stateName, animalSlug);
-    const animalRegionNote = getAnimalRegionContent(stateName, animalSlug);
-    const indexable = await isStateAnimalIndexable(stateName, animalSlug);
-    // Down-links: only indexable county-animal pages, with localized anchors.
-    const countyLinks = [];
-    for (const c of (statesAndCounties[stateName] || [])) {
-      if (await isCountyAnimalIndexable(stateName, c, animalSlug)) {
-        countyLinks.push({ name: c, slug: toSlug(c) });
+  const seatSlug = seatCityFor(stateSlug, countySlug);     // null → no live seat city
+  const stateHome = `/${stateSlug}/`;
+
+  // /state/county/ — indexed county hub → seat city (or state hub).
+  if (segs.length === 2) {
+    if (await isCountyIndexable(stateName, countyName)) {
+      return res.redirect(301, seatSlug ? `/${stateSlug}/${seatSlug}/` : stateHome);
+    }
+    return next();
+  }
+
+  // /state/county/{animal}/ — indexed county-animal hub → seat city's animal page,
+  // but only if that page is live (indexed). Noindex city-animal pages now 404, so
+  // fall back to the seat city hub, then to the state hub, to avoid redirecting to
+  // a 404.
+  if (segs.length === 3 && ANIMAL_SLUGS.has(seg3)) {
+    if (await isCountyAnimalIndexable(stateName, countyName, seg3)) {
+      const seatCity = seatSlug && citySlugToName(stateName, countyName, seatSlug);
+      if (seatCity && await isCityIndexable(stateName, countyName, seatCity, seg3)) {
+        return res.redirect(301, `/${stateSlug}/${seatSlug}/${seg3}/`);
+      }
+      if (seatCity && await isCityIndexable(stateName, countyName, seatCity)) {
+        return res.redirect(301, `/${stateSlug}/${seatSlug}/`);
+      }
+      return res.redirect(301, stateHome);
+    }
+    return next();
+  }
+
+  // /state/county/{city}/ and /state/county/{city}/{animal}/ — indexed city pages
+  // → flat city URL. The city must genuinely belong to the URL's county (so bogus
+  // combos like /georgia/cobb-county/atlanta/ still 404). Indexability is then
+  // gated on the city's CANONICAL (owning) county, so a cross-county duplicate's
+  // secondary URL (e.g. Austell under Douglas) still 301s to the one surviving
+  // flat URL even though it's noindex under the secondary county.
+  const citySlug = seg3;
+  const cityName = citySlugToName(stateName, countyName, citySlug);
+  if (cityName) {
+    const owner = cityCountyName(stateName, citySlug) || countyName;
+    if (segs.length === 3) {
+      if (await isCityIndexable(stateName, owner, cityName)) {
+        return res.redirect(301, `/${stateSlug}/${citySlug}/`);
+      }
+    } else if (ANIMAL_SLUGS.has(seg4)) {
+      if (await isCityIndexable(stateName, owner, cityName, seg4)) {
+        return res.redirect(301, `/${stateSlug}/${citySlug}/${seg4}/`);
       }
     }
+  }
+  return next();
+});
+
+// ── /georgia/:slug/ — state-animal page OR city hub ──────────────────────────
+// Flat scheme: with county gone, segment 2 is either an animal slug (state-animal
+// page, e.g. /georgia/raccoon-removal/) or a city slug (/georgia/macon/). Legacy
+// county URLs were already 301'd to flat by the middleware above. Unknown slugs 404.
+app.get('/:stateSlug/:slug/', async (req, res) => {
+  const stateName = stateSlugToName(req.params.stateSlug);
+  if (!stateName) return res.status(404).render('404', { message: 'State not found.' });
+  const { stateSlug, slug } = req.params;
+  const stateInfo = stateContent[stateName] || null;
+
+  // State-animal page — /georgia/raccoon-removal/
+  if (ANIMAL_SLUGS.has(slug)) {
+    const animal = getAnimalBySlug(slug);
+    const stateAnimalContent = getStateAnimalContent(stateName, slug);
+    const animalRegionNote = getAnimalRegionContent(stateName, slug);
+    const indexable = await isStateAnimalIndexable(stateName, slug);
+    // Down-links: indexable city-animal pages for this animal, localized anchors.
+    const cityAnimalLinks = await indexableCityAnimalsFor(stateName, slug);
     return res.render('state-animal', {
       stateName, animal, stateInfo, stateAnimalContent, animalRegionNote,
-      indexable, countyLinks, stateSlug: req.params.stateSlug, toSlug, ANIMALS
+      indexable, cityAnimalLinks, stateSlug, toSlug, ANIMALS
     });
   }
 
-  const countyName = countySlugToName(req.params.stateSlug, req.params.countySlug);
-  if (!countyName) return res.status(404).render('404', { message: 'County not found.' });
+  // City hub — /georgia/macon/ (county recovered from the city slug)
+  const countyName = cityCountyName(stateName, slug);
+  if (!countyName) return res.status(404).render('404', { message: 'Page not found.' });
+  const cityName = citySlugToName(stateName, countyName, slug);
+  if (!cityName) return res.status(404).render('404', { message: 'Page not found.' });
+
+  // Noindex city pages are removed entirely (404), not served with a noindex tag —
+  // only indexed/authored pages resolve.
+  const indexable = await isCityIndexable(stateName, countyName, cityName);
+  if (!indexable) return res.status(404).render('404', { message: 'Page not found.' });
 
   const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
-  const cities = getCitiesForCounty(stateName, countyName);
-  const stateInfo = stateContent[stateName] || null;
+  const cityContent = getCityContent(stateName, countyName, cityName);
   let countyContent = getCountyContent(stateName, countyName);
-  const indexable = await isCountyIndexable(stateName, countyName);
-
-  // Server-side contractor lookup. Cached 1h on hit, 5min on miss/error.
-  // Templates read countyContent.contractor when rendering phone numbers
-  // and company name; null falls through to the directory (844) number.
+  // Server-side contractor lookup. Templates read countyContent.contractor for the
+  // phone + company name; null falls through to the directory (844) number.
   const _contractor = await getContractor(stateName, apiCounty(countyName), SERVICE_TYPE);
   if (_contractor) countyContent = { ...(countyContent || {}), contractor: _contractor };
+  // Grids link only to live (indexed) pages so the page has no broken links.
+  const cityAnimals = await indexableAnimalsForCity(stateName, countyName, cityName);
+  const otherCities = await indexableSiblingCities(stateName, countyName, cityName);
 
-  res.render('county', {
-    stateName, countyName, embedScript, cities, stateInfo, countyContent,
+  res.render('city', {
+    stateName, countyName, cityName, stateInfo, embedScript, cityContent, countyContent,
+    cityAnimals, otherCities,
     indexable,
-    stateSlug: req.params.stateSlug,
-    toSlug, ANIMALS,
-    mapboxToken: process.env.MAPBOX_TOKEN || ''
+    canonicalUrl: cityCanonicalUrl(stateSlug, slug),
+    stateSlug, citySlug: slug, toSlug, ANIMALS
   });
 });
 
@@ -520,85 +628,40 @@ app.post('/contact/', async (req, res) => {
   }
 });
 
-// County-animal OR city page — /georgia/cobb-county/raccoon-removal/ OR /georgia/cobb-county/marietta/
-app.get('/:stateSlug/:countySlug/:segment/', async (req, res) => {
+// ── /georgia/:citySlug/:animalSlug/ — city-animal page ───────────────────────
+// Flat scheme: /georgia/macon/raccoon-removal/. The county is recovered from the
+// city slug (data/cities.js cityCountyName). Legacy /state/county/city/animal/
+// URLs are 301'd to this shape by the middleware above. Unknown combos 404.
+app.get('/:stateSlug/:citySlug/:animalSlug/', async (req, res) => {
   const stateName = stateSlugToName(req.params.stateSlug);
   if (!stateName) return res.status(404).render('404', { message: 'State not found.' });
-  const countyName = countySlugToName(req.params.stateSlug, req.params.countySlug);
-  if (!countyName) return res.status(404).render('404', { message: 'County not found.' });
-
-  const seg = req.params.segment;
-  const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
-
-  // Animal page
-  const stateInfo = stateContent[stateName] || null;
-
-  if (ANIMAL_SLUGS.has(seg)) {
-    const animal = getAnimalBySlug(seg);
-    const cities = getCitiesForCounty(stateName, countyName);
-    const animalRegionNote = getAnimalRegionContent(stateName, seg);
-    const indexable = await isCountyAnimalIndexable(stateName, countyName, seg);
-    const countyAnimalContent = getCountyAnimalContent(stateName, countyName, seg);
-    let countyContent = getCountyContent(stateName, countyName);
-    const _contractor = await getContractor(stateName, apiCounty(countyName), SERVICE_TYPE);
-    if (_contractor) countyContent = { ...(countyContent || {}), contractor: _contractor };
-    const _baseSeasonal = getSeasonalContent(seg);
-    const _seasonalOverrides = (countyAnimalContent && Array.isArray(countyAnimalContent.seasonalOverrides))
-      ? countyAnimalContent.seasonalOverrides
-      : [];
-    const _monthNow = new Date().getMonth();
-    const _seasonalOverride = _seasonalOverrides.find(o => Array.isArray(o.months) && o.months.includes(_monthNow));
-    return res.render('county-animal', {
-      stateName, countyName, animal, cities, stateInfo, animalRegionNote, embedScript,
-      indexable, countyAnimalContent, countyContent,
-      faqs: (countyAnimalContent && countyAnimalContent.faqs) || getAnimalFaqs(seg, { countyName, stateName, stateInfo }),
-      seasonal: _seasonalOverride || _baseSeasonal,
-      stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, toSlug, ANIMALS,
-      mapboxToken: process.env.MAPBOX_TOKEN || ''
-    });
-  }
-
-  // City page
-  const cityName = citySlugToName(stateName, countyName, seg);
-  if (cityName) {
-    const indexable = await isCityIndexable(stateName, countyName, cityName);
-    const cityContent = getCityContent(stateName, countyName, cityName);
-    let countyContent = getCountyContent(stateName, countyName);
-    const _contractor = await getContractor(stateName, apiCounty(countyName), SERVICE_TYPE);
-    if (_contractor) countyContent = { ...(countyContent || {}), contractor: _contractor };
-    return res.render('city', {
-      stateName, countyName, cityName, stateInfo, embedScript, cityContent, countyContent,
-      cities: getCitiesForCounty(stateName, countyName),
-      indexable,
-      canonicalUrl: cityCanonicalUrl(req.params.stateSlug, req.params.countySlug, seg),
-      stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: seg, toSlug, ANIMALS
-    });
-  }
-
-  return res.status(404).render('404', { message: 'Page not found.' });
-});
-
-// City-animal page — /georgia/cobb-county/marietta/raccoon-removal/
-app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug/', async (req, res) => {
-  const stateName = stateSlugToName(req.params.stateSlug);
-  if (!stateName) return res.status(404).render('404', { message: 'State not found.' });
-  const countyName = countySlugToName(req.params.stateSlug, req.params.countySlug);
-  if (!countyName) return res.status(404).render('404', { message: 'County not found.' });
-  const cityName = citySlugToName(stateName, countyName, req.params.citySlug);
+  const { stateSlug, citySlug, animalSlug } = req.params;
+  if (!ANIMAL_SLUGS.has(animalSlug)) return res.status(404).render('404', { message: 'Page not found.' });
+  const countyName = cityCountyName(stateName, citySlug);
+  if (!countyName) return res.status(404).render('404', { message: 'Page not found.' });
+  const cityName = citySlugToName(stateName, countyName, citySlug);
   if (!cityName) return res.status(404).render('404', { message: 'City not found.' });
-  const animal = getAnimalBySlug(req.params.animalSlug);
+  const animal = getAnimalBySlug(animalSlug);
   if (!animal) return res.status(404).render('404', { message: 'Service not found.' });
 
-  const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
+  // Noindex city-animal pages are removed entirely (404), not served noindex.
+  const indexable = await isCityIndexable(stateName, countyName, cityName, animalSlug);
+  if (!indexable) return res.status(404).render('404', { message: 'Page not found.' });
 
+  const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
   const stateInfo = stateContent[stateName] || null;
-  const animalRegionNote = getAnimalRegionContent(stateName, req.params.animalSlug);
-  const indexable = await isCityIndexable(stateName, countyName, cityName, req.params.animalSlug);
-  const cityAnimalContent = getCityAnimalContent(stateName, countyName, cityName, req.params.animalSlug);
+  const animalRegionNote = getAnimalRegionContent(stateName, animalSlug);
+  const cityAnimalContent = getCityAnimalContent(stateName, countyName, cityName, animalSlug);
   let countyContent = getCountyContent(stateName, countyName);
   const _contractor = await getContractor(stateName, apiCounty(countyName), SERVICE_TYPE);
   if (_contractor) countyContent = { ...(countyContent || {}), contractor: _contractor };
-  const _baseSeasonal = getSeasonalContent(req.params.animalSlug);
+  // The city hub may itself be noindex (→ 404) even when this animal page is
+  // indexed; pass that so the template links the city crumb/nav only when live.
+  const hubIndexable = await isCityIndexable(stateName, countyName, cityName);
+  // "More services" grid links only to this city's other LIVE (indexed) animals.
+  const moreAnimals = (await indexableAnimalsForCity(stateName, countyName, cityName))
+    .filter(a => a.slug !== animalSlug);
+  const _baseSeasonal = getSeasonalContent(animalSlug);
   const _seasonalOverrides = (cityAnimalContent && Array.isArray(cityAnimalContent.seasonalOverrides))
     ? cityAnimalContent.seasonalOverrides
     : [];
@@ -606,19 +669,20 @@ app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug/', async (req, res) => {
   const _seasonalOverride = _seasonalOverrides.find(o => Array.isArray(o.months) && o.months.includes(_monthNow));
   res.render('city-animal', {
     stateName, countyName, cityName, animal, stateInfo, animalRegionNote, embedScript, cityAnimalContent, countyContent,
-    indexable,
-    faqs: getAnimalFaqs(req.params.animalSlug, { countyName, cityName, stateName, stateInfo }),
+    indexable, hubIndexable, moreAnimals,
+    faqs: getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo }),
     seasonal: _seasonalOverride || _baseSeasonal,
-    canonicalUrl: cityCanonicalUrl(req.params.stateSlug, req.params.countySlug, req.params.citySlug, req.params.animalSlug),
-    stateSlug: req.params.stateSlug, countySlug: req.params.countySlug, citySlug: req.params.citySlug, toSlug, ANIMALS
+    canonicalUrl: cityCanonicalUrl(stateSlug, citySlug, animalSlug),
+    stateSlug, citySlug, toSlug, ANIMALS
   });
 });
 
-// Redirect trailing-slash-less URLs
+// Trailing-slash-less flat URLs → canonical trailing-slash form. Legacy county
+// URLs (with or without a trailing slash) are handled by the 301 middleware
+// above, so these only ever fire for flat city / state-animal / city-animal URLs.
 app.get('/:stateSlug', (req, res) => res.redirect(301, `/${req.params.stateSlug}/`));
-app.get('/:stateSlug/:countySlug', (req, res) => res.redirect(301, `/${req.params.stateSlug}/${req.params.countySlug}/`));
-app.get('/:stateSlug/:countySlug/:segment', (req, res) => res.redirect(301, `/${req.params.stateSlug}/${req.params.countySlug}/${req.params.segment}/`));
-app.get('/:stateSlug/:countySlug/:citySlug/:animalSlug', (req, res) => res.redirect(301, `/${req.params.stateSlug}/${req.params.countySlug}/${req.params.citySlug}/${req.params.animalSlug}/`));
+app.get('/:stateSlug/:slug', (req, res) => res.redirect(301, `/${req.params.stateSlug}/${req.params.slug}/`));
+app.get('/:stateSlug/:citySlug/:animalSlug', (req, res) => res.redirect(301, `/${req.params.stateSlug}/${req.params.citySlug}/${req.params.animalSlug}/`));
 
 app.use((req, res) => res.status(404).render('404', { message: 'Page not found.' }));
 

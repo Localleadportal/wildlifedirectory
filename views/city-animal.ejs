@@ -1,5 +1,5 @@
 <%
-  const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + countySlug + '/' + citySlug + '/' + animal.slug + '/';
+  const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + citySlug + '/' + animal.slug + '/';
   // Canonical may redirect to a primary county for cities that straddle two
   // indexed counties (set in server.js). Falls back to self when not provided.
   const canonical = (typeof canonicalUrl !== 'undefined' && canonicalUrl) ? canonicalUrl : pageUrl;
@@ -89,7 +89,10 @@
       Emitted on every page (not just seoEnhanced ones). %>
   <%
     const crumbs = buildCrumbs('city-animal', {
-      stateName, stateSlug, countyName, countySlug, cityName, citySlug,
+      stateName, stateSlug, countyName, cityName,
+      // Link the city crumb only when the city hub is live; if it's noindex (404)
+      // the crumb renders as plain text instead of a broken link.
+      citySlug: (typeof hubIndexable !== 'undefined' && hubIndexable) ? citySlug : null,
       serviceName: animal.name
     });
     // priceRange mirrors the visible cost section exactly (per-page override,
@@ -123,8 +126,7 @@
       <a href="/" class="logo">RemoveWildlife<span>Now</span></a>
       <nav class="header-nav">
         <a href="/<%= stateSlug %>/"><%= stateName %></a>
-        <a href="/<%= stateSlug %>/<%= countySlug %>/"><%= countyName %></a>
-        <a href="/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/"><%= cityName %></a>
+        <% if (typeof hubIndexable !== 'undefined' && hubIndexable) { %><a href="/<%= stateSlug %>/<%= citySlug %>/"><%= cityName %></a><% } else { %><span><%= cityName %></span><% } %>
       </nav>
       <a class="llp-phone header-phone" href="tel:<%= _phone %>">
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
@@ -321,22 +323,7 @@
     </section>
     <% } %>
 
-    <% if (cityAnimalContent && cityAnimalContent.relatedLinks && cityAnimalContent.relatedLinks.length) { %>
-    <section class="counties-section" style="background:var(--green-light);border-top:1px solid var(--green-border);">
-      <div class="container">
-        <div class="section-header">
-          <h2><%= animal.name %> &amp; Other Wildlife — Across <%= countyName %></h2>
-          <p>Same licensed contractor, broader coverage.</p>
-        </div>
-        <ul class="neighbor-list">
-          <% cityAnimalContent.relatedLinks.forEach(l => { %>
-          <li><a href="<%= l.href %>"><%= l.anchor %></a></li>
-          <% }); %>
-        </ul>
-      </div>
-    </section>
-    <% } %>
-
+    <% if (typeof moreAnimals !== 'undefined' && moreAnimals && moreAnimals.length) { %>
     <section class="counties-section">
       <div class="container">
         <div class="section-header">
@@ -344,12 +331,13 @@
           <p>Your local contractor handles all wildlife removal needs</p>
         </div>
         <ul class="counties-grid">
-          <% ANIMALS.filter(a => a.slug !== animal.slug).forEach(a => { %>
-          <li><a href="/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/<%= a.slug %>/"><%= a.emoji %> <%= a.name %></a></li>
+          <% moreAnimals.forEach(a => { %>
+          <li><a href="/<%= stateSlug %>/<%= citySlug %>/<%= a.slug %>/"><%= a.emoji %> <%= a.name %></a></li>
           <% }); %>
         </ul>
       </div>
     </section>
+    <% } %>
   </main>
 
   <footer>

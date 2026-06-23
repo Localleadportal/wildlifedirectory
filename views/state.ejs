@@ -4,7 +4,7 @@
   const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
 
   const title = `Wildlife Removal in ${stateName} | Licensed Local Contractors`;
-  const metaDesc = `Find licensed wildlife removal contractors across ${stateName} — raccoon, squirrel, bat & snake removal. Browse all ${counties.length} counties to find local help.`;
+  const metaDesc = `Find licensed wildlife removal contractors across ${stateName} — raccoon, squirrel, bat & snake removal. Browse the cities we serve to find local help.`;
   const canonical = `/${slug}/`;
 
   // Schema: directory-level Organization + LocalBusiness (keeps the 844
@@ -133,18 +133,18 @@
 <section class="page-hero">
   <div class="container">
     <h1>Wildlife Removal in ${stateName}</h1>
-    <p>Select your county below to find a licensed wildlife removal contractor near you, or call our directory line at <a class="llp-phone" href="tel:+18445443498">(844) 544-3498</a>.</p>
+    <p>Select your city below to find a licensed wildlife removal contractor near you, or call our directory line at <a class="llp-phone" href="tel:+18445443498">(844) 544-3498</a>.</p>
   </div>
 </section>
-
+${cities.length ? `
 <section class="counties-section">
   <div class="container">
-    <h2>${stateName} Counties</h2>
+    <h2>Cities We Serve in ${stateName}</h2>
     <ul class="counties-grid">
-      ${counties.map(county => `<li><a href="/${slug}/${toSlug(county)}/">${county}</a></li>`).join('')}
+      ${cities.map(city => `<li><a href="/${slug}/${city.slug}/">${city.name}</a></li>`).join('')}
     </ul>
   </div>
-</section>
+</section>` : ''}
 ${serviceLinksHtml}
 
 <section class="state-content">

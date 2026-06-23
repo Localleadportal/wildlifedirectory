@@ -1,6 +1,7 @@
 const z = require('zipcodes-nrviens');
 const us = require('us');
-const { toSlug } = require('./locations');
+const { toSlug, statesAndCounties } = require('./locations');
+const permanentlyIndexed = require('./permanentlyIndexed.json');
 
 const abbrToName = {};
 us.STATES.forEach(s => { abbrToName[s.abbr] = s.name; });
@@ -77,4 +78,76 @@ function citySlugToName(stateName, countyName, citySlug) {
   return cities.find(c => toSlug(c) === citySlug) || null;
 }
 
-module.exports = { getCitiesForCounty, citySlugToName };
+// ── city → county reverse map (for the flat /state/city/ URL scheme) ──────────
+// The flat URL drops the county segment, so the route only has `${state}/${city}`
+// and must recover the city's county to (a) read the county-keyed content JSON
+// and (b) run the LeadPortal contractor lookup. This map is built ONCE at load
+// over only the manually-indexed counties (data/permanentlyIndexed.json) — never
+// over all ~3000 US counties — because only indexed-county cities resolve under
+// the flat scheme; everything else 404s. Keyed `${stateSlug}|${citySlug}` →
+// full county name (e.g. "Bibb County").
+//
+// A handful of cities physically straddle two indexed counties and so produce the
+// same `${stateSlug}|${citySlug}` under both. CITY_CANONICAL_COUNTY names the ONE
+// county that owns the single flat URL (the county with the fuller content /
+// larger share of the city); the loser is dropped. Keyed `${stateSlug}|${citySlug}`
+// → countySlug. This is the same dedupe the old per-county canonical tag did,
+// now structural (one URL exists at all). server.js also reads this map to keep
+// the secondary county's OLD URL 301-ing to the surviving flat URL.
+const CITY_CANONICAL_COUNTY = {
+  'georgia|austell': 'cobb-county',        // also served under douglas-county
+  'georgia|villa-rica': 'carroll-county',  // also served under douglas-county
+};
+
+function _stateNameFromSlug(stateSlug) {
+  return Object.keys(statesAndCounties).find(n => toSlug(n) === stateSlug) || null;
+}
+// Full county name for a county slug within a state ('cobb-county' -> 'Cobb County').
+function countyNameFromSlug(stateName, countySlug) {
+  return (statesAndCounties[stateName] || []).find(c => toSlug(c) === countySlug) || null;
+}
+// Full county name for a permanentlyIndexed key part ("Bibb" -> "Bibb County").
+function _fullCountyName(stateName, countyKeyNoSuffix) {
+  const lc = String(countyKeyNoSuffix).toLowerCase();
+  const counties = statesAndCounties[stateName] || [];
+  const hit = counties.find(c =>
+    c.replace(/ (County|Parish|Borough|Census Area|City|Municipality)$/i, '').trim().toLowerCase() === lc
+  );
+  return hit || `${countyKeyNoSuffix} County`;
+}
+
+const _cityCountyMap = {}; // `${stateSlug}|${citySlug}` -> full county name
+(permanentlyIndexed.counties || []).forEach(key => {
+  const [stateName, countyKey] = key.split('|');
+  const stateSlug = toSlug(stateName);
+  const countyName = _fullCountyName(stateName, countyKey);
+  getCitiesForCounty(stateName, countyName).forEach(city => {
+    const mapKey = `${stateSlug}|${toSlug(city)}`;
+    if (_cityCountyMap[mapKey] && _cityCountyMap[mapKey] !== countyName) {
+      // Same city slug under two indexed counties — resolve via the canonical map.
+      if (!CITY_CANONICAL_COUNTY[mapKey]) {
+        console.warn(`[cities] Unresolved cross-county city slug "${mapKey}": ` +
+          `${_cityCountyMap[mapKey]} vs ${countyName}. Add it to CITY_CANONICAL_COUNTY.`);
+      }
+      return; // canonical winner is forced below
+    }
+    _cityCountyMap[mapKey] = countyName;
+  });
+});
+// Force the canonical winner regardless of iteration order.
+Object.keys(CITY_CANONICAL_COUNTY).forEach(mapKey => {
+  const stateName = _stateNameFromSlug(mapKey.split('|')[0]);
+  const name = stateName && countyNameFromSlug(stateName, CITY_CANONICAL_COUNTY[mapKey]);
+  if (name) _cityCountyMap[mapKey] = name;
+});
+
+// Resolve a flat city slug to its owning county's full name, or null if the slug
+// is not a known indexed city in that state (→ the route should 404).
+function cityCountyName(stateName, citySlug) {
+  return _cityCountyMap[`${toSlug(stateName)}|${citySlug}`] || null;
+}
+
+module.exports = {
+  getCitiesForCounty, citySlugToName,
+  cityCountyName, countyNameFromSlug, CITY_CANONICAL_COUNTY,
+};

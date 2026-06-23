@@ -1,5 +1,5 @@
 <%
-  const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + countySlug + '/' + citySlug + '/';
+  const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + citySlug + '/';
   // Canonical may redirect to a primary county for cities that straddle two
   // indexed counties (set in server.js). Falls back to self when not provided.
   const canonical = (typeof canonicalUrl !== 'undefined' && canonicalUrl) ? canonicalUrl : pageUrl;
@@ -79,7 +79,7 @@
       Hub page: serviceType = "Wildlife Removal", no single price shown so no
       offer. Directory site: NO LocalBusiness / address / business geo / review. %>
   <%
-    const crumbs = buildCrumbs('city', { stateName, stateSlug, countyName, countySlug, cityName, citySlug });
+    const crumbs = buildCrumbs('city', { stateName, stateSlug, countyName, cityName, citySlug });
     // Provider = the name + phone shown on the page: assigned contractor when
     // LeadPortal returns one for the parent county, else central dispatch.
     const _provName  = (countyContent && countyContent.contractor && countyContent.contractor.name) || 'RemoveWildlifeNow.com';
@@ -206,7 +206,7 @@
       <nav class="header-nav">
         <a href="/">Home</a>
         <a href="/<%= stateSlug %>/"><%= stateName %></a>
-        <a href="/<%= stateSlug %>/<%= countySlug %>/"><%= countyName %></a>
+        <a href="/<%= stateSlug %>/<%= citySlug %>/"><%= cityName %></a>
       </nav>
       <a class="llp-phone header-phone" href="tel:<%= _phone %>">
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
@@ -274,17 +274,19 @@
       </div>
     </section>
 
+    <% if (typeof cityAnimals !== 'undefined' && cityAnimals && cityAnimals.length) { %>
     <section class="services-section">
       <div class="container">
         <h2>Wildlife Removal Services in <%= cityName %></h2>
         <p class="section-sub">Our <%= countyName %> contractor serves all of <%= cityName %> — the same licensed professional handles every job in your area.</p>
         <ul class="counties-grid">
-          <% ANIMALS.forEach(a => { %>
-          <li><a href="/<%= stateSlug %>/<%= countySlug %>/<%= citySlug %>/<%= a.slug %>/" title="<%= a.plural %> in <%= cityName %>, <%= stateName %>"><%= a.emoji %> <%= a.name %> in <%= cityName %></a></li>
+          <% cityAnimals.forEach(a => { %>
+          <li><a href="/<%= stateSlug %>/<%= citySlug %>/<%= a.slug %>/" title="<%= a.plural %> in <%= cityName %>, <%= stateName %>"><%= a.emoji %> <%= a.name %> in <%= cityName %></a></li>
           <% }); %>
         </ul>
       </div>
     </section>
+    <% } %>
 
     <%# Mid-page CTA — repeats the call prompt between the services list and
         the long-form wildlife content. Reuses contractor _phone/_phoneDisplay
@@ -383,18 +385,16 @@
     </section>
     <% } %>
 
-    <%# Other cities in the same county — descriptive-anchor cross-links for
-        sibling city pages. Only renders when the parent county has more than
-        one indexable city; degrades cleanly when it doesn't. %>
-    <% if (typeof cities !== 'undefined' && cities && cities.length > 1) {
-         const _otherCities = cities.filter(function(c) { return c !== cityName; });
-    %>
+    <%# Other cities in the same county — cross-links to sibling city hubs. Only
+        the indexed (live) ones are passed in, so the list never links to a 404.
+        Hidden when there are no other live cities. %>
+    <% if (typeof otherCities !== 'undefined' && otherCities && otherCities.length) { %>
     <section class="services-section">
       <div class="container">
         <h2>Other Cities in <%= countyName %></h2>
         <ul class="counties-grid">
-          <% _otherCities.forEach(function(c) { %>
-          <li><a href="/<%= stateSlug %>/<%= countySlug %>/<%= toSlug(c) %>/" title="<%= c %> Wildlife Removal"><%= c %> Wildlife Removal</a></li>
+          <% otherCities.forEach(function(c) { %>
+          <li><a href="/<%= stateSlug %>/<%= c.slug %>/" title="<%= c.name %> Wildlife Removal"><%= c.name %> Wildlife Removal</a></li>
           <% }); %>
         </ul>
       </div>

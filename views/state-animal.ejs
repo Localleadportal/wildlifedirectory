@@ -155,17 +155,18 @@
   </div>
 </section>`;
 
-  // DOWN-links to indexable county-animal pages, with localized anchors.
-  const countyHtml = (countyLinks && countyLinks.length)
+  // DOWN-links to indexable city-animal pages, with localized anchors.
+  const cityLinks = (typeof cityAnimalLinks !== 'undefined' && cityAnimalLinks) ? cityAnimalLinks : [];
+  const countyHtml = cityLinks.length
     ? `
 <section class="counties-section">
   <div class="container">
     <div class="section-header">
-      <h2>${animal.name} by County in ${stateName}</h2>
-      <p>Find a licensed local contractor in your county</p>
+      <h2>${animal.name} by City in ${stateName}</h2>
+      <p>Find a licensed local contractor in your city</p>
     </div>
     <ul class="counties-grid">
-      ${countyLinks.map(cl => `<li><a href="/${slug}/${cl.slug}/${animal.slug}/">${cl.name} ${animal.name}</a></li>`).join('')}
+      ${cityLinks.map(cl => `<li><a href="/${slug}/${cl.slug}/${animal.slug}/">${cl.name} ${animal.name}</a></li>`).join('')}
     </ul>
   </div>
 </section>`
@@ -216,14 +217,14 @@
   <div class="container">
     <div class="cta-box">
       <h2>Get Matched with a Licensed ${stateName} ${animal.name.replace(' Removal', '')} Pro</h2>
-      <p class="cta-sub">Local experts in your county. Same-day and emergency service available.</p>
+      <p class="cta-sub">Local experts in your area. Same-day and emergency service available.</p>
       <div class="phone-wrap">
         <a class="llp-phone phone-cta" href="tel:+18445443498">
           <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
           (844) 544-3498
         </a>
       </div>
-      <p class="cta-note">Or browse by county below to find a verified local contractor.</p>
+      <p class="cta-note">Or browse by city below to find a verified local contractor.</p>
       <div class="cta-badges">
         <span class="cta-badge">Licensed &amp; Insured</span>
         <span class="cta-badge">Same-Day Available</span>
