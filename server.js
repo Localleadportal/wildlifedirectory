@@ -241,6 +241,31 @@ async function indexableSiblingCities(stateName, countyName, exceptCity) {
 // deep links like /georgia/bibb/ on the apex host and split link equity.
 const CANONICAL_HOST = 'www.removewildlifenow.com';
 app.set('trust proxy', true);
+
+// ── Security response headers ────────────────────────────────────────────────
+// Applied before the canonical-host redirect and express.static so they cover
+// every response: HTML, static assets, redirects and 404s alike.
+//
+// Content-Security-Policy is deliberately NOT set here. The site loads scripts
+// from three external origins (the LeadPortal phone-number embed, GA via
+// googletagmanager, and d3 + topojson from jsdelivr on the homepage map) and
+// carries inline JSON-LD blocks plus inline style attributes. Any policy strict
+// enough to be worth having would need 'unsafe-inline' anyway, and a wrong
+// script-src would silently break the phone-number embed — i.e. the leads. If
+// added later, ship it as Content-Security-Policy-Report-Only first and confirm
+// the embed, GA and the homepage map still load before enforcing.
+app.use((req, res, next) => {
+  // Only meaningful over HTTPS; browsers ignore HSTS on plain HTTP anyway.
+  // No `preload` — that's a hard-to-reverse commitment for the whole domain.
+  if (req.secure) {
+    res.setHeader('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
+  }
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  res.setHeader('X-Frame-Options', 'SAMEORIGIN');
+  res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
+  next();
+});
+
 app.use((req, res, next) => {
   const host = (req.headers.host || '').toLowerCase();
   if (host && host !== CANONICAL_HOST && host.replace(/^www\./, '') === 'removewildlifenow.com') {
@@ -675,6 +700,20 @@ app.get('/:stateSlug/:citySlug/:animalSlug/', async (req, res) => {
     canonicalUrl: cityCanonicalUrl(stateSlug, citySlug, animalSlug),
     stateSlug, citySlug, toSlug, ANIMALS
   });
+});
+
+// A request for a file must never reach the trailing-slash redirects below.
+// express.static already had its chance to serve it, and no city/animal slug
+// contains a dot, so an extension here means a genuinely missing asset. Without
+// this guard /images/foo.jpg matches /:stateSlug/:slug and 301s to
+// /images/foo.jpg/, which then 404s as text/html — turning every missing asset
+// into a redirect chain that hides the real error and wastes crawl budget.
+// Real extension routes (/robots.txt, /sitemap.xml) are declared above.
+app.use((req, res, next) => {
+  if (/\.[a-z0-9]{2,5}$/i.test(req.path.split('/').pop() || '')) {
+    return res.status(404).type('txt').send('Not Found');
+  }
+  next();
 });
 
 // Trailing-slash-less flat URLs → canonical trailing-slash form. Legacy county
