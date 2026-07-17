@@ -6,9 +6,10 @@
   const _authoredFaqs = (cityAnimalContent && cityAnimalContent.faqs) ? cityAnimalContent.faqs : [];
   const _skipGeneric = !!(cityAnimalContent && cityAnimalContent.skipGenericFaqs);
   const allFaqs = _skipGeneric ? _authoredFaqs : _authoredFaqs.concat(faqs || []);
+  const _primaryTitle = animal.name + ' in ' + cityName + ', ' + stateName + ' — Licensed Local Experts';
   const pageTitle = (cityAnimalContent && cityAnimalContent.metaTitle)
     ? cityAnimalContent.metaTitle
-    : (animal.name + ' in ' + cityName + ', ' + stateName + ' — Licensed Local Experts');
+    : (_primaryTitle.length <= 60 ? _primaryTitle : animal.name + ' in ' + cityName + ', ' + stateName);
   const pageDesc = (cityAnimalContent && cityAnimalContent.metaDescription)
     ? cityAnimalContent.metaDescription
     : (cityAnimalContent && cityAnimalContent.intro
