@@ -223,8 +223,53 @@ const stateContent = {
   },
   'Tennessee': {
     agency: 'Tennessee Wildlife Resources Agency',
+    // wildlifeNote is the shared paragraph rendered on the state hub fallback and
+    // every Tennessee city page (city.ejs) — edits here propagate site-wide.
     wildlifeNote: 'Tennessee\'s Great Smoky Mountains and Ridge and Valley regions support high wildlife densities, with flying squirrels being a particularly common and underdiagnosed attic intruder in East Tennessee. Copperheads are removed from residential properties throughout middle and east Tennessee, and bat maternity colonies in older homes are common across all three grand divisions of the state.',
-    seasonNote: 'Spring denning season and fall preparation for winter shelter generate the highest wildlife intrusion call volumes.'
+    seasonNote: 'Spring denning season and fall preparation for winter shelter generate the highest wildlife intrusion call volumes.',
+    // The fields below enrich the indexable state hub only (state.ejs renders them
+    // when present); other states fall back to wildlifeNote/seasonNote.
+    //
+    // BAT LANGUAGE — DO NOT REINTRODUCE "MATERNITY BAN". TWRA does not impose a
+    // blanket May–Aug exclusion ban. Verified against primary sources:
+    //   • tn.gov/twra/law-enforcement/wildlife-damage-control.html — "In the case
+    //     of bats, we do require that the operator obtain approval prior to any
+    //     exclusion work. The information we require consists of species, number,
+    //     and if any young are present."
+    //   • TWRA rule 1660-01-21 (Nuisance Animal Damage Control) — requires an
+    //     Animal Damage Control permit; says nothing about bats or a closed season.
+    //     Para (7): a permit does not grant authority over state/federally listed
+    //     species. Para (8): federal permits still required where applicable.
+    // The May–Aug window is a biological timing constraint (flightless pups), not
+    // a statutory prohibition, and is handled through TWRA's approval process.
+    overview: [
+      'Tennessee\'s wildlife removal calls cluster around a familiar set of species. Raccoons and eastern gray squirrels lead statewide — both move readily into attics, chimneys, and soffits — followed by Virginia opossums under decks and crawlspaces, and big brown bats roosting in older structures. Southern flying squirrels deserve their own mention: they are nocturnal, they travel in colonies, and they are routinely mistaken for rats, which makes them one of the most under-diagnosed attic intruders in the state. Copperheads and non-venomous rat snakes turn up around foundations and outbuildings, while groundhogs, skunks, and moles account for most yard and foundation complaints.',
+      'Tennessee runs roughly 440 miles east to west, so what\'s common depends on which grand division you live in. East Tennessee\'s Appalachian ridges and Smoky Mountain foothills carry heavy flying squirrel and bat pressure tied to mature hardwood forest and older housing stock. Middle Tennessee\'s Nashville Basin and Highland Rim mix dense suburbs with limestone bluffs and karst terrain, which concentrates copperhead calls and gives bats abundant natural roosts alongside residential ones. West Tennessee\'s Mississippi bottomlands and the Memphis metro bring a warmer, longer active season, heavier rat pressure in older urban housing, and Mexican free-tailed bats in commercial and multi-family structures.'
+    ],
+    batNote: 'Bat work in Tennessee is exclusion, not extermination — sealing secondary entry points and fitting one-way devices that let bats leave and prevent their return. TWRA adds a step many states do not: an Animal Damage Control permit holder must obtain approval from the agency before any bat exclusion work, and that request has to state the species, the number of bats, and whether young are present. That last item drives the timing. While flightless pups are in the roost — roughly May into August across Tennessee — sealing the colony out would strand the young inside, so exclusions are planned around that window rather than through it. Late summer once pups are flying, through early spring, is the preferred time for permanent exclusion, though inspection and entry-point mapping can happen any time of year. A TWRA damage-control permit does not authorize work on state or federally listed species, so protected bats require the appropriate federal permits as well.',
+    peakNote: 'Wildlife pressure in Tennessee follows a seasonal rhythm. Late winter into spring — roughly February through April — brings the heaviest raccoon and squirrel denning, as females look for attics and chimneys to raise young; flying squirrels add a second, later whelping season. Summer is bat maternity season, when colonies in walls and attics are at their largest and loudest. Copperhead calls climb through the warm months and peak in late summer. As nights cool in the fall, roof rats and Norway rats push indoors for warmth, driving a second wave of calls into winter.',
+    faqs: [
+      {
+        q: 'Do I need a permit to remove wildlife in Tennessee?',
+        a: 'It depends who does the work. Under TWRA rule 1660-01-21, anyone who controls nuisance wildlife for a fee must hold an Animal Damage Control permit from the Tennessee Wildlife Resources Agency, carry liability insurance, and work only with the property owner\'s written permission. As a landowner, Tennessee law (TCA 70-4-115) lets you deal with wild animals damaging property on your own land without a permit — but big game, meaning deer, turkey, and bear, requires one, and federally protected species require a permit from the U.S. Fish and Wildlife Service.'
+      },
+      {
+        q: 'Can I trap an animal and release it somewhere else?',
+        a: 'No, and this is the most common mistake homeowners make. TWRA is explicit: because of illness and disease, it is illegal to transport live wildlife (TCA 70-4-401) or to release it (TCA 70-4-412) without a permit. If you live-trap an animal yourself, it must be released or euthanized on your own property. Driving a trapped raccoon to a park is a violation, not a kindness.'
+      },
+      {
+        q: 'Is bat removal restricted in Tennessee?',
+        a: 'Not by a blanket seasonal ban, which is a widespread misconception. What TWRA requires is approval before any bat exclusion work, and the request must state the species, the number of bats, and whether young are present. The presence of flightless pups — roughly May into August — is what determines timing, because sealing a colony out while pups are inside strands them. From late summer once the young are flying through early spring is the preferred window for permanent exclusion, and inspection or planning can happen any time of year.'
+      },
+      {
+        q: 'Who regulates wildlife removal in Tennessee?',
+        a: 'The Tennessee Wildlife Resources Agency issues Animal Damage Control permits and sets the rules for control measures, disposition of animals, and record-keeping under chapter 1660-01-21. Permits go only to applicants with demonstrated knowledge of wildlife and control techniques, and they renew each July. Worth knowing: TWRA states it does not have regulatory authority over an operator\'s business practices and does not guarantee quality of service, and it recommends getting several estimates before hiring. Every contractor in our directory holds the required permits.'
+      },
+      {
+        q: 'What wildlife problems are most common in Tennessee homes?',
+        a: 'Raccoons and gray squirrels in attics and chimneys top the list statewide, with southern flying squirrels a close and frequently misidentified third — they are nocturnal and colonial, so homeowners often report "rats" in the attic. Big brown bats roost in older structures across all three grand divisions. Copperheads around foundations and outbuildings drive most snake calls in Middle and East Tennessee, and roof and Norway rats dominate older urban housing, especially in the Memphis and Nashville cores.'
+      }
+    ]
   },
   'Texas': {
     agency: 'Texas Parks and Wildlife Department',
