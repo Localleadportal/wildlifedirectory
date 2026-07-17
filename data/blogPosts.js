@@ -74,7 +74,7 @@ const BLOG_POSTS = [
 <h2>What to Do Right Now</h2>
 <p>If you're hearing the noises this spring and you think you have baby raccoons in your Macon attic or raccoon babies in your chimney, the responsible move is a licensed inspection before you do anything else. Don't seal. Don't trap. Don't try eviction fluid on your own during active whelping — it can shift the mother to a worse den site inside the same structure if you don't already know her backup options. A same-day inspection identifies the entry points, confirms kit stage, and lets the contractor build the right reunion protocol for your specific situation.</p>
 
-<p><a href="/georgia/bibb-county/raccoon-removal/" style="font-weight:600;">See full Bibb County raccoon removal service details, pricing ranges by submarket, and the rest of what to know</a>, or call <strong>(404) 738-9764</strong> for an immediate inspection on your Macon-Bibb property. Same-day service is the norm during whelping season.</p>
+<p><a href="/georgia/macon/raccoon-removal/" style="font-weight:600;">See full Bibb County raccoon removal service details, pricing ranges by submarket, and the rest of what to know</a>, or call <strong>(404) 738-9764</strong> for an immediate inspection on your Macon-Bibb property. Same-day service is the norm during whelping season.</p>
 `
   },
   {
@@ -92,10 +92,7 @@ const BLOG_POSTS = [
     body: `
 <p class="lead">Macon isn't our home territory. Local Wildlife Experts is a north Georgia operation, and most of my work runs from the Atlanta-metro arc up to the Tennessee line. But bats don't care about county lines, and Macon has the deepest residential bat colonies I've come across anywhere in Georgia — older, larger, and more entrenched than the ones I work in Marietta Square, Roswell historic, or the Newnan "City of Homes" district. If you live in Vineville, In-Town, Beall's Hill, or Pleasant Hill and you're hearing chirping at dusk above your ceiling, this is what I'd tell you on the phone.</p>
 
-<figure style="margin:28px 0;">
-  <img src="/images/big-brown-bat-macon.jpg" alt="Big brown bat (Eptesicus fuscus) in a Vineville Historic District chimney exclusion job — Macon, Georgia bat removal" loading="lazy" style="width:100%;height:auto;border-radius:10px;display:block;">
-  <figcaption style="font-size:0.88rem;color:#6b7280;margin-top:10px;text-align:center;font-style:italic;line-height:1.5;">A big brown bat (<em>Eptesicus fuscus</em>) — the dominant residential species in Macon antebellum chimneys. The colonies in pre-1860 Vineville and In-Town homes routinely span 50 to 100+ years of continuous occupation.</figcaption>
-</figure>
+
 
 <h2>Why Macon's Antebellum Chimneys Hold the Oldest Bat Colonies in Georgia</h2>
 <p>Big brown bats live in chimneys for the same reason they live in hollow trees — protected, dark, the right temperature, undisturbed for decades at a time. The thing that makes Macon different from north Georgia is the <strong>depth</strong> of the antebellum housing inventory and the way colony memory works.</p>
@@ -168,7 +165,7 @@ const BLOG_POSTS = [
 <h2>When to Call</h2>
 <p>Call us if you're hearing chirping or fluttering above the ceiling at dusk, watching bats emerge from your chimney or roofline at sunset, smelling ammonia from the chimney chase or attic in summer, finding guano or oil staining below an entry on the exterior, or finding a bat in your living space — even one.</p>
 
-<p>We can usually get an inspection on the calendar within a few days for Macon area calls. If you'd like to see how we handle the work, here's our <a href="/georgia/bibb-county/macon/bat-removal/">Macon bat removal page</a> and the broader <a href="/georgia/bibb-county/bat-removal/">Bibb County bat work hub</a>. For a deeper read on the health side, our <a href="/blog/bats-in-attic-dangers/">guide to the dangers of bats in the attic</a> covers histoplasmosis and rabies in detail. And if you want to see how the same antebellum chimney work plays out in north Georgia for comparison, our <a href="/blog/bats-in-douglasville-ga/">Douglasville bat removal guide</a> walks through the smaller-scale version of this problem.</p>
+<p>We can usually get an inspection on the calendar within a few days for Macon area calls. If you'd like to see how we handle the work, here's our <a href="/georgia/macon/bat-removal/">Macon bat removal page</a> and the broader <a href="/georgia/bat-removal/">Georgia bat work hub</a>. For a deeper read on the health side, our <a href="/blog/bats-in-attic-dangers/">guide to the dangers of bats in the attic</a> covers histoplasmosis and rabies in detail. And if you want to see how the same antebellum chimney work plays out in north Georgia for comparison, our <a href="/blog/bats-in-douglasville-ga/">Douglasville bat removal guide</a> walks through the smaller-scale version of this problem.</p>
 
 <h2>The Reason Macon Bat Work Is Different</h2>
 <p>I've been doing antebellum chimney bat exclusion in north Georgia for 11 years. Macon's the deepest version of that problem I've seen anywhere. The colonies are older, the guano accumulation is heavier, the historic-preservation considerations on the masonry are stricter, and the federal-and-state legal layers are more complicated than the typical north Georgia job. None of that means it can't be done — it just means it has to be done by someone who knows the difference between a 30-year colony and a 100-year colony, and who has the equipment and the patience to handle the older ones correctly.</p>
@@ -252,7 +249,7 @@ const BLOG_POSTS = [
 <h2>When to Call</h2>
 <p>Call us when you're seeing scattered cone-shaped divots across your Newnan lawn, foundation plantings disrupted overnight, visible burrows under decks or sheds, or pet-exposure incidents involving an armadillo. Same-day inspections are usually available across Newnan, Senoia, Sharpsburg, Grantville, and the rest of Coweta County.</p>
 
-<p>If you'd like to see how we handle the work, here's our <a href="/georgia/coweta-county/newnan/">Newnan wildlife coverage</a> and the broader <a href="/georgia/coweta-county/">Coweta County wildlife services hub</a>. For another seasonal-timing read on a different species, our <a href="/blog/baby-squirrel-season-fayetteville-ga/">Fayetteville baby squirrel guide</a> covers similar calendar logic for the spring squirrel rush.</p>
+<p>If you'd like to see how we handle the work, here's our <a href="/georgia/newnan/">Newnan wildlife coverage</a> and the broader <a href="/georgia/">Georgia wildlife services hub</a>. For another seasonal-timing read on a different species, our <a href="/blog/baby-squirrel-season-fayetteville-ga/">Fayetteville baby squirrel guide</a> covers similar calendar logic for the spring squirrel rush.</p>
 
 <h2>The Bottom Line on Armadillos in Newnan</h2>
 <p>Eleven years in, the armadillo problem in north Georgia has gone from a curiosity I read about to a routine call type. Coweta County and Newnan in particular have been on the leading edge of the species' northward push, and that's not reversing. If your lawn looks like somebody took a coring tool to it overnight, or your hostas got rooted out of the bed last week, you've probably got an armadillo.</p>
@@ -345,7 +342,7 @@ const BLOG_POSTS = [
 <h2>When to Call</h2>
 <p>Call us when you're hearing scampering or chewing from the ceiling in February-April or August-October, when you see an adult gray squirrel coming in and out of your roofline, when you find chewed openings in your fascia or soffit, or when you find rice-grain-sized droppings in the attic.</p>
 
-<p>Same-day inspections are usually available across Fayetteville, Peachtree City, Tyrone, and the rest of Fayette County. If you'd like to see how we handle the work, here's our <a href="/georgia/fayette-county/fayetteville/squirrel-removal/">Fayetteville squirrel removal page</a> and the broader <a href="/georgia/fayette-county/squirrel-removal/">Fayette County squirrel work hub</a>. For another seasonal-timing read, our <a href="/blog/bats-in-douglasville-ga/">Douglasville bat exclusion guide</a> covers the same calendar logic for a different species.</p>
+<p>Same-day inspections are usually available across Fayetteville, Peachtree City, Tyrone, and the rest of Fayette County. If you'd like to see how we handle the work, here's our <a href="/georgia/fayetteville/squirrel-removal/">Fayetteville squirrel removal page</a> and the broader <a href="/georgia/squirrel-removal/">Georgia squirrel work hub</a>. For another seasonal-timing read, our <a href="/blog/bats-in-douglasville-ga/">Douglasville bat exclusion guide</a> covers the same calendar logic for a different species.</p>
 
 <h2>What I Tell Every Fayetteville Homeowner Who Calls During Baby Squirrel Season</h2>
 <p>Eleven years in, the message hasn't changed: do not seal the entry yet. Get an inspection, get a plan, and do the actual exclusion in the right window. We can pull squirrels out of an attic. We can repair the attic. We can replace chewed wiring. The one thing we can't undo is pups starving inside your wall.</p>
@@ -436,7 +433,7 @@ const BLOG_POSTS = [
 <h2>When to Call</h2>
 <p>Call us when you're hearing chirping or fluttering above the ceiling at dusk, watching bats emerge from your roofline or chimney at sunset, smelling ammonia from the attic in summer, finding guano or oil staining below an entry point on the exterior, or finding a bat in your living space — even just one.</p>
 
-<p>Same-day inspections are usually available across Douglasville and Douglas County. If you'd like to see how we handle the work, here's our <a href="/georgia/douglas-county/douglasville/bat-removal/">Douglasville bat removal page</a> and the broader <a href="/georgia/douglas-county/bat-removal/">Douglas County bat work hub</a>. For a deeper read on the health side of bat colonies in any home, our <a href="/blog/bats-in-attic-dangers/">guide to the dangers of bats in the attic</a> covers the rabies and histoplasmosis details. And if you've ever wondered how the same antebellum-chimney problem scales up at the deepest end, our <a href="/blog/bats-in-macon-ga/">guide to Vineville antebellum bat work in Macon</a> covers 50-100+ year colonies in central Georgia historic districts.</p>
+<p>Same-day inspections are usually available across Douglasville and Douglas County. If you'd like to see how we handle the work, here's our <a href="/georgia/douglasville/">Douglasville wildlife removal page</a> and the broader <a href="/georgia/bat-removal/">Georgia bat removal hub</a>. For a deeper read on the health side of bat colonies in any home, our <a href="/blog/bats-in-attic-dangers/">guide to the dangers of bats in the attic</a> covers the rabies and histoplasmosis details. And if you've ever wondered how the same antebellum-chimney problem scales up at the deepest end, our <a href="/blog/bats-in-macon-ga/">guide to Vineville antebellum bat work in Macon</a> covers 50-100+ year colonies in central Georgia historic districts.</p>
 
 <h2>The Reason I Still Do This Work</h2>
 <p>Eleven years later, that first bat in Douglasville still sticks with me. Bats are valuable wildlife. They eat enormous numbers of insects, and the population is already under pressure from white-nose syndrome and habitat loss. The goal isn't to kill them. The goal is to get them out of your house, sealed out for good, without harming the colony. Done right, that's exactly what proper exclusion accomplishes.</p>
@@ -948,23 +945,23 @@ const BLOG_POSTS = [
 <p>Same licensed Fulton contractor covers all 14 Fulton cities. Each city's bat-call profile differs by housing era and corridor pressure:</p>
 
 <ul>
-  <li><a href="/georgia/fulton-county/atlanta/bat-removal/">Atlanta bat exclusion</a> — pre-1940 historic chimney colonies, 30-60+ year occupation typical</li>
-  <li><a href="/georgia/fulton-county/sandy-springs/bat-removal/">Sandy Springs bat exclusion</a> — Chattahoochee corridor + Riverside mid-century housing, tricolored bat protocols</li>
-  <li><a href="/georgia/fulton-county/roswell/bat-removal/">Roswell bat colony removal</a> — historic mill village + east Roswell subdivisions</li>
-  <li><a href="/georgia/fulton-county/alpharetta/bat-removal/">Alpharetta bat removal</a> — 1990s+ subdivisions + downtown historic pockets</li>
-  <li><a href="/georgia/fulton-county/johns-creek/bat-removal/">Johns Creek bat services</a> — modern subdivision colonies + Chattahoochee corridor</li>
-  <li><a href="/georgia/fulton-county/milton/bat-removal/">Milton bat exclusion</a> — multi-structure equestrian (main house + barn lofts)</li>
-  <li><a href="/georgia/fulton-county/east-point/bat-removal/">East Point bat removal</a> — pre-1960 brick housing colonies</li>
-  <li><a href="/georgia/fulton-county/college-park/bat-removal/">College Park bat exclusion</a> — Main Street historic district pre-1940 chimneys</li>
-  <li><a href="/georgia/fulton-county/south-fulton/bat-removal/">South Fulton bat exclusion</a> — Cliftondale corridor older properties</li>
-  <li><a href="/georgia/fulton-county/union-city/bat-removal/">Union City bat colony removal</a> — Roosevelt Highway corridor housing</li>
-  <li><a href="/georgia/fulton-county/fairburn/bat-removal/">Fairburn bat removal</a> — historic downtown + equestrian barn structures</li>
-  <li><a href="/georgia/fulton-county/hapeville/bat-removal/">Hapeville bat services</a> — pre-1950 chimney colonies, airport-area</li>
-  <li><a href="/georgia/fulton-county/palmetto/bat-removal/">Palmetto bat removal</a> — historic downtown + rural farm barn structures</li>
-  <li><a href="/georgia/fulton-county/chattahoochee-hills/bat-removal/">Chattahoochee Hills bat exclusion</a> — Serenbe + multi-structure conservation acreage, tricolored bat ESA protocol</li>
+  <li><a href="/georgia/atlanta/bat-removal/">Atlanta bat exclusion</a> — pre-1940 historic chimney colonies, 30-60+ year occupation typical</li>
+  <li><a href="/georgia/sandy-springs/bat-removal/">Sandy Springs bat exclusion</a> — Chattahoochee corridor + Riverside mid-century housing, tricolored bat protocols</li>
+  <li><a href="/georgia/roswell/bat-removal/">Roswell bat colony removal</a> — historic mill village + east Roswell subdivisions</li>
+  <li><a href="/georgia/alpharetta/bat-removal/">Alpharetta bat removal</a> — 1990s+ subdivisions + downtown historic pockets</li>
+  <li><a href="/georgia/johns-creek/bat-removal/">Johns Creek bat services</a> — modern subdivision colonies + Chattahoochee corridor</li>
+  <li><a href="/georgia/milton/bat-removal/">Milton bat exclusion</a> — multi-structure equestrian (main house + barn lofts)</li>
+  <li><a href="/georgia/east-point/bat-removal/">East Point bat removal</a> — pre-1960 brick housing colonies</li>
+  <li><a href="/georgia/college-park/bat-removal/">College Park bat exclusion</a> — Main Street historic district pre-1940 chimneys</li>
+  <li><a href="/georgia/south-fulton/bat-removal/">South Fulton bat exclusion</a> — Cliftondale corridor older properties</li>
+  <li><a href="/georgia/union-city/bat-removal/">Union City bat colony removal</a> — Roosevelt Highway corridor housing</li>
+  <li><a href="/georgia/fairburn/bat-removal/">Fairburn bat removal</a> — historic downtown + equestrian barn structures</li>
+  <li><a href="/georgia/hapeville/bat-removal/">Hapeville bat services</a> — pre-1950 chimney colonies, airport-area</li>
+  <li><a href="/georgia/palmetto/bat-removal/">Palmetto bat removal</a> — historic downtown + rural farm barn structures</li>
+  <li><a href="/georgia/chattahoochee-hills/bat-removal/">Chattahoochee Hills bat exclusion</a> — Serenbe + multi-structure conservation acreage, tricolored bat ESA protocol</li>
 </ul>
 
-<p>For broader county-level information, see the <a href="/georgia/fulton-county/bat-removal/">Fulton County bat removal hub</a>. For comparison with the deepest version of this problem in Georgia — pre-1860 antebellum chimneys with colonies that span 50 to 100+ years — read our <a href="/blog/bats-in-macon-ga/">guide to Vineville antebellum bat work in Macon</a>. The structural patterns and exclusion protocols overlap; the difference is colony age and accumulated guano volume.</p>
+<p>For broader county-level information, see the <a href="/georgia/bat-removal/">Georgia bat removal hub</a>. For comparison with the deepest version of this problem in Georgia — pre-1860 antebellum chimneys with colonies that span 50 to 100+ years — read our <a href="/blog/bats-in-macon-ga/">guide to Vineville antebellum bat work in Macon</a>. The structural patterns and exclusion protocols overlap; the difference is colony age and accumulated guano volume.</p>
 
 <p style="background:#fef3c7;border-left:4px solid #f59e0b;padding:16px 20px;margin:32px 0;border-radius:8px;"><strong>Key takeaway for Fulton homeowners:</strong> If you suspect bats in your Atlanta, Sandy Springs, Roswell, or any other Fulton attic, do not seal entry points yourself, do not enter the attic without P100 respirator protection, and do not wait until next spring. Schedule a same-day inspection — inspections are legal year-round, and identifying entry points now lets the contractor execute exclusion the moment the legal April or September window opens. Damage and health risks compound with every month of delay.</p>
 `,
