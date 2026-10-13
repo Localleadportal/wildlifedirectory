@@ -20,6 +20,8 @@ const { getStateAnimalContent } = require('./data/stateAnimalContent');
 const { getNationalContent } = require('./data/animalNationalContent');
 const { getAllPosts, getPostBySlug } = require('./data/blogPosts');
 const { getContractor } = require('./lib/contractor');
+const spam = require('./lib/spam');
+const { createLeadHandler } = require('./lib/leadForm');
 const { formatPhone, toTitleCase, normalizeStateRegion, normalizeUrl } = require('./lib/format');
 const { buildCrumbs, breadcrumbSchema, serviceSchema, faqSchema } = require('./lib/locationSchema');
 
@@ -313,10 +315,62 @@ app.use(express.static(path.join(__dirname, 'public'), {
 // header). ETag stays enabled, so unchanged pages return a 304 with no body.
 app.use((req, res, next) => {
   res.set('Cache-Control', 'no-cache');
+  // Fresh signed timestamp for the "text or call me back" form on this page.
+  res.locals.formToken = spam.issueToken();
   next();
 });
 
 app.use(express.urlencoded({ extended: true }));
+
+// ── "Text or call me back" form ──────────────────────────────────────────────
+// Every city hub and city-animal page carries the form (views/_lead-form.ejs).
+// The lead is handed to LeadPortal, which routes it to this county's
+// contractor. Needs WEB_LEAD_KEY (this site's key in LeadPortal's WEB_LEAD_KEYS).
+//
+// The form posts only slugs. They are resolved here exactly as the page routes
+// resolve them, and only a LIVE (indexed) page counts, so the county the lead
+// is routed by is always the county whose contractor that page showed.
+async function resolveLeadPage(body) {
+  const stateSlug = String(body.state_slug || '');
+  const citySlug = String(body.city_slug || '');
+  const animalSlug = String(body.animal_slug || '');
+  const stateName = stateSlugToName(stateSlug);
+  if (!stateName) return null;
+  const countyName = cityCountyName(stateName, citySlug);
+  if (!countyName) return null;
+  const cityName = citySlugToName(stateName, countyName, citySlug);
+  if (!cityName) return null;
+  const animal = animalSlug ? getAnimalBySlug(animalSlug) : null;
+  if (animalSlug && (!ANIMAL_SLUGS.has(animalSlug) || !animal)) return null;
+  if (!(await isCityIndexable(stateName, countyName, cityName, animal ? animalSlug : undefined))) return null;
+  const pagePath = `/${stateSlug}/${citySlug}/${animal ? animalSlug + '/' : ''}`;
+  return {
+    state: stateName,
+    county: apiCounty(countyName),
+    city: cityName,
+    pageLabel: animal ? animal.name : `${SERVICE_TYPE} (city page)`,
+    pageUrl: `https://${CANONICAL_HOST}${pagePath}`,
+    backUrl: pagePath
+  };
+}
+
+const leadRateLimit = spam.createRateLimiter({ max: Number(process.env.FORM_RATE_MAX) || 5 });
+app.post('/request-callback/', createLeadHandler({
+  resolvePage: resolveLeadPage,
+  serviceType: SERVICE_TYPE,
+  spamGuard: (req, v) => {
+    for (const check of [
+      () => spam.checkOrigin(req, [CANONICAL_HOST, 'removewildlifenow.com', req.get('host')]),
+      () => spam.checkToken(req.body.form_token),
+      () => spam.checkContent(v),
+      () => leadRateLimit(req.ip)
+    ]) {
+      const r = check();
+      if (!r.ok) return r;
+    }
+    return { ok: true };
+  }
+}));
 
 // Map data endpoint — TopoJSON + FIPS→slug mapping for D3
 const topoJson = JSON.parse(fs.readFileSync(require.resolve('us-atlas/states-10m.json'), 'utf8'));
@@ -330,7 +384,7 @@ app.get('/api/states-map', (req, res) => {
 // robots.txt
 app.get('/robots.txt', (req, res) => {
   res.type('text/plain');
-  res.send('User-agent: *\nAllow: /\nSitemap: https://www.removewildlifenow.com/sitemap.xml\n');
+  res.send('User-agent: *\nAllow: /\nDisallow: /request-callback/\nSitemap: https://www.removewildlifenow.com/sitemap.xml\n');
 });
 
 // Sitemap — lists every page that is manually marked indexable in

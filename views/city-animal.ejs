@@ -148,11 +148,15 @@
   <main>
     <%- include('_breadcrumb', { crumbs }) %>
 
-    <section class="page-hero">
-      <div class="container">
-        <div class="hero-badge"><%= cityName %>, <%= stateName %></div>
-        <h1><% if (!(cityAnimalContent && cityAnimalContent.hideHeroEmoji)) { %><span aria-hidden="true"><%= animal.emoji %></span> <% } %><%= (cityAnimalContent && cityAnimalContent.h1Override) || (animal.name + ' in ' + cityName) %></h1>
-        <p>Local licensed expert serving <%= cityName %> and all of <%= countyName %>. <%= animal.shortDesc %></p>
+    <section class="page-hero page-hero-split">
+      <div class="container hero-split-grid">
+        <div class="hero-split-copy">
+          <div class="hero-badge"><%= cityName %>, <%= stateName %></div>
+          <h1><% if (!(cityAnimalContent && cityAnimalContent.hideHeroEmoji)) { %><span aria-hidden="true"><%= animal.emoji %></span> <% } %><%= (cityAnimalContent && cityAnimalContent.h1Override) || (animal.name + ' in ' + cityName) %></h1>
+          <p>Local licensed expert serving <%= cityName %> and all of <%= countyName %>. <%= animal.shortDesc %></p>
+          <a class="hero-split-call" href="tel:<%= _phone %>">📞 Call <%= _phoneDisplay %></a>
+        </div>
+        <%- include('_lead-form', { animalSlug: animal.slug }) %>
       </div>
     </section>
 
@@ -352,6 +356,6 @@
 
   <%# Sticky mobile call CTA — reuses the top-of-body _phone / _phoneDisplay
       that already gate every in-page anchor on the same contractor. %>
-  <%- include('_mobile-call', { phone: _phone, phoneDisplay: _phoneDisplay }) %>
+  <%- include('_mobile-call', { phone: _phone, phoneDisplay: _phoneDisplay, leadForm: true }) %>
 </body>
 </html>

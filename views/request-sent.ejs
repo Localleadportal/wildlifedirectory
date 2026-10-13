@@ -1,0 +1,23 @@
+<%
+  // Result page for the "text or call me back" form when JavaScript is off
+  // (with it, the form swaps to the same message in place). noindex: it is a
+  // POST response, never a page anyone should land on from search.
+  const how = contactPref === 'call' ? 'give you a call' : 'send you a text';
+%>
+<%- include('layout', {
+  title: sent ? 'Request received | RemoveWildlifeNow.com' : 'Request not sent | RemoveWildlifeNow.com',
+  metaDesc: 'Your request to be texted or called back by a local wildlife pro.',
+  canonical: '/request-callback/',
+  noindex: true,
+  body: `
+<section class="page-hero">
+  <div class="container request-result">
+    ${sent ? `
+    <p class="lead-done-check">✓</p>
+    <h1>Thanks${firstName ? ', ' + firstName.replace(/[&<>"']/g, '') : ''}! We got your request.</h1>
+    <p>We'll get back with you shortly. Watch your phone, we'll ${how}.</p>` : `
+    <h1>Your request didn't go through</h1>
+    <p>${error}</p>`}
+    <p><a class="btn-primary request-back" href="${backUrl}">← Back to the page you were on</a></p>
+  </div>
+</section>` }) %>

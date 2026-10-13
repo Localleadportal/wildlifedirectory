@@ -227,11 +227,15 @@
   <main>
     <%- include('_breadcrumb', { crumbs }) %>
 
-    <section class="page-hero">
-      <div class="container">
-        <div class="hero-badge">Serving <%= cityName %>, <%= stateName %></div>
-        <h1><%= (cityContent && cityContent.h1Override) || ('Wildlife Removal in ' + cityName) %></h1>
-        <p>Raccoons in the attic? Bats in the chimney? Snake by the door? <%= cityName %>'s licensed wildlife pros — same-day service, humane methods. Call now.</p>
+    <section class="page-hero page-hero-split">
+      <div class="container hero-split-grid">
+        <div class="hero-split-copy">
+          <div class="hero-badge">Serving <%= cityName %>, <%= stateName %></div>
+          <h1><%= (cityContent && cityContent.h1Override) || ('Wildlife Removal in ' + cityName) %></h1>
+          <p>Raccoons in the attic? Bats in the chimney? Snake by the door? <%= cityName %>'s licensed wildlife pros — same-day service, humane methods. Call now.</p>
+          <a class="hero-split-call" href="tel:<%= _phone %>">📞 Call <%= _phoneDisplay %></a>
+        </div>
+        <%- include('_lead-form', { animalSlug: '' }) %>
       </div>
     </section>
 
@@ -425,6 +429,6 @@
 
   <%# Sticky mobile call CTA — reuses the top-of-body _phone / _phoneDisplay
       that already gate every in-page anchor on the same contractor. %>
-  <%- include('_mobile-call', { phone: _phone, phoneDisplay: _phoneDisplay }) %>
+  <%- include('_mobile-call', { phone: _phone, phoneDisplay: _phoneDisplay, leadForm: true }) %>
 </body>
 </html>

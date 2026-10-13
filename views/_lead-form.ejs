@@ -1,0 +1,70 @@
+<%
+  // ── "Text or call me back" form ────────────────────────────────────────────
+  // Right-hand column of the page hero on city hubs and city-animal pages, for
+  // visitors who will not pick up the phone. Posts to /request-callback/, which
+  // hands it to LeadPortal to route to this county's contractor. Only the page
+  // SLUGS travel with it; the server looks up state and county itself.
+  // Works without JavaScript (full-page thank-you); with it, the card swaps to
+  // the thank-you in place.
+  // Locals: stateSlug, citySlug, and animalSlug (city-animal pages only).
+  const _animal = (typeof animalSlug !== 'undefined' && animalSlug) ? animalSlug : '';
+%>
+<form class="lead-form" id="request" method="post" action="/request-callback/" aria-labelledby="lf-h">
+  <h2 id="lf-h" class="lead-h">Rather not call? We'll reach out.</h2>
+  <p class="lead-sub">Leave your details and we'll text or call you back, whichever you pick.</p>
+  <div class="lead-row">
+    <label><span>First name</span><input type="text" name="first_name" required autocomplete="given-name" maxlength="40" /></label>
+    <label><span>Last name</span><input type="text" name="last_name" required autocomplete="family-name" maxlength="40" /></label>
+  </div>
+  <label><span>Phone</span><input type="tel" name="phone" required autocomplete="tel" inputmode="tel" maxlength="20" /></label>
+  <label><span>Address</span><input type="text" name="address" required autocomplete="street-address" maxlength="200" placeholder="Street address and town" /></label>
+  <label><span>What's going on?</span><textarea name="description" rows="3" maxlength="3000" placeholder="e.g. scratching in the attic at night"></textarea></label>
+  <fieldset class="lead-pref">
+    <legend>How should we reach you?</legend>
+    <label class="lead-pref-opt"><input type="radio" name="contact_pref" value="text" checked /> <span>Text me</span></label>
+    <label class="lead-pref-opt"><input type="radio" name="contact_pref" value="call" /> <span>Call me</span></label>
+  </fieldset>
+  <input type="hidden" name="state_slug" value="<%= stateSlug %>" />
+  <input type="hidden" name="city_slug" value="<%= citySlug %>" />
+  <input type="hidden" name="animal_slug" value="<%= _animal %>" />
+  <input type="hidden" name="form_token" value="<%= formToken %>" />
+  <!-- Left empty by people, filled in by bots. -->
+  <input type="text" name="website" class="lead-hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+  <p class="lead-error" role="alert" hidden></p>
+  <button type="submit" class="lead-btn">Send my request</button>
+  <p class="lead-fine">Free, no obligation. Your details go only to the local pro serving this area.</p>
+</form>
+<script>
+(function () {
+  var f = document.getElementById('request');
+  if (!f || !window.fetch) return;
+  var err = f.querySelector('.lead-error');
+  var btn = f.querySelector('.lead-btn');
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    err.hidden = true;
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+    fetch(f.action, {
+      method: 'POST',
+      headers: { 'Accept': 'application/json', 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(new FormData(f)).toString()
+    }).then(function (r) { return r.json(); }).then(function (d) {
+      if (!d.ok) throw new Error(d.error || '');
+      var how = d.contactPref === 'call' ? 'give you a call' : 'send you a text';
+      var box = document.createElement('div');
+      box.className = 'lead-form lead-done';
+      box.setAttribute('role', 'status');
+      box.innerHTML = '<p class="lead-done-check">✓</p><h2 class="lead-h"></h2><p class="lead-sub"></p>';
+      box.querySelector('h2').textContent = 'Thanks' + (d.firstName ? ', ' + d.firstName : '') + '! We got your request.';
+      box.querySelector('.lead-sub').textContent = "We'll get back with you shortly. Watch your phone, we'll " + how + '.';
+      f.replaceWith(box);
+    }).catch(function (x) {
+      err.textContent = (x && x.message) || 'Something went wrong. Please call the number on this page.';
+      err.hidden = false;
+      btn.disabled = false;
+      btn.textContent = 'Send my request';
+    });
+  });
+})();
+</script>
