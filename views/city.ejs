@@ -120,14 +120,6 @@
     "telephone": countyContent.contractor.telephone,
     "image": countyContent.contractor.image || ogImage,
     "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      ...(countyContent.contractor.streetAddress ? { "streetAddress": toTitleCase(countyContent.contractor.streetAddress) } : {}),
-      "addressLocality": countyContent.contractor.addressLocality ? toTitleCase(countyContent.contractor.addressLocality) : cityName,
-      "addressRegion": normalizeStateRegion(countyContent.contractor.addressRegion || stateRegion),
-      ...(countyContent.contractor.postalCode ? { "postalCode": countyContent.contractor.postalCode } : {}),
-      "addressCountry": "US"
-    },
     "areaServed": [
       { "@type": "City", "name": cityName + ", " + stateName },
       { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
@@ -157,12 +149,6 @@
     "telephone": "+1-844-544-3498",
     "image": ogImage,
     "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": cityName,
-      "addressRegion": stateRegion,
-      "addressCountry": "US"
-    },
     "areaServed": [
       { "@type": "City", "name": cityName + ", " + stateName },
       { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }

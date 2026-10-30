@@ -161,14 +161,6 @@
     "telephone": countyContent.contractor.telephone,
     "image": countyContent.contractor.image || ogImage,
     "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      ...(countyContent.contractor.streetAddress ? { "streetAddress": toTitleCase(countyContent.contractor.streetAddress) } : {}),
-      "addressLocality": countyContent.contractor.addressLocality ? toTitleCase(countyContent.contractor.addressLocality) : countyName,
-      "addressRegion": normalizeStateRegion(countyContent.contractor.addressRegion || stateAbbr),
-      ...(countyContent.contractor.postalCode ? { "postalCode": countyContent.contractor.postalCode } : {}),
-      "addressCountry": "US"
-    },
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": countyName + ", " + stateName

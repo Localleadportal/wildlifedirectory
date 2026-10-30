@@ -25,8 +25,7 @@
   // behind data-presence so this rollout is scoped to one county at a time. Other counties render
   // exactly as they did before until they get their own enriched countyContent block.
   const seoEnhanced = !!(countyContent && countyContent.geo);
-  // State abbreviation — used for H1 disambiguation (25+ "Franklin Counties" exist nationally)
-  // and for LocalBusiness PostalAddress.addressRegion.
+  // State abbreviation — used for H1 disambiguation (25+ "Franklin Counties" exist nationally).
   const stateAbbr = ({ 'Georgia': 'GA', 'Tennessee': 'TN', 'Connecticut': 'CT', 'Delaware': 'DE', 'New Hampshire': 'NH', 'Vermont': 'VT', 'Rhode Island': 'RI' })[stateName] || '';
 %>
 <!DOCTYPE html>
@@ -136,14 +135,6 @@
     "telephone": countyContent.contractor.telephone,
     "image": countyContent.contractor.image || heroImgAbsUrl || "https://www.removewildlifenow.com/images/og-default.jpg",
     "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      ...(countyContent.contractor.streetAddress ? { "streetAddress": toTitleCase(countyContent.contractor.streetAddress) } : {}),
-      "addressLocality": countyContent.contractor.addressLocality ? toTitleCase(countyContent.contractor.addressLocality) : countyName,
-      "addressRegion": normalizeStateRegion(countyContent.contractor.addressRegion || stateAbbr),
-      ...(countyContent.contractor.postalCode ? { "postalCode": countyContent.contractor.postalCode } : {}),
-      "addressCountry": "US"
-    },
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": countyName + ", " + stateName
@@ -186,12 +177,6 @@
     "telephone": "+1-844-544-3498",
     "image": "https://www.removewildlifenow.com/images/og-default.jpg",
     "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": countyName,
-      "addressRegion": stateAbbr,
-      "addressCountry": "US"
-    },
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": countyName + ", " + stateName

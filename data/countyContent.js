@@ -762,9 +762,6 @@ function georgiaContent(countyName, county, s) {
     //   contractor = {
     //     name: 'Real Business Name',
     //     telephone: '+14785551234',
-    //     streetAddress: '123 Cherry St',  // optional
-    //     addressLocality: 'Macon',        // optional, defaults to countyName
-    //     postalCode: '31201',             // optional
     //     image: 'https://...',            // optional logo or storefront photo
     //     priceRange: '$$',                // optional, defaults to '$$'
     //     geo: { lat: 32.84, lon: -83.63 } // optional
