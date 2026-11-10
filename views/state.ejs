@@ -1,8 +1,11 @@
 <%
   const slug = toSlug(stateName);
-  const abbr = stateName === 'Georgia' ? 'GA' : stateName === 'Tennessee' ? 'TN' : '';
+  const abbr = stateAbbrs[stateName] || '';
   const title = stateName + ' Wildlife Removal — County by County | RemoveWildlifeNow';
-  const metaDesc = 'Wildlife removal across ' + stateName + ': raccoons, squirrels, bats, rats, snakes, armadillos and more — out, sealed and cleaned up. Same-day service, open 24/7. Call ' + pro.phoneDisplay + '.';
+  const animalList = (typeof stateAnimalLinks !== 'undefined' && stateAnimalLinks.length)
+    ? stateAnimalLinks.slice(0, 6).map(l => l.plural.toLowerCase()).join(', ')
+    : 'raccoons, squirrels, bats, rats, snakes';
+  const metaDesc = 'Wildlife removal across ' + stateName + ': ' + animalList + ' and more — out, sealed and cleaned up. Same-day service, open 24/7. Call ' + pro.phoneDisplay + '.';
   const canonical = '/' + slug + '/';
   const P = present;
   const overview = (stateInfo && Array.isArray(stateInfo.overview)) ? stateInfo.overview.map(s => P.scrubVoice(s)) : [];

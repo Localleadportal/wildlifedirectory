@@ -1,6 +1,6 @@
 <%
   const title = 'Wildlife Removal Services — Every Animal We Handle | RemoveWildlifeNow';
-  const metaDesc = 'Raccoons, squirrels, bats, rats, snakes, armadillos, skunks and more — humane removal, exclusion and cleanup across Georgia and Tennessee. Call (844) 544-3498.';
+  const metaDesc = 'Raccoons, squirrels, bats, rats, snakes, armadillos, skunks and more — humane removal, exclusion and cleanup across ' + coveragePhrase + '. Call (844) 544-3498.';
   const canonical = '/services/';
   const P = present;
   const rows = animals.map((a, i) => `
@@ -15,7 +15,7 @@
     ${P.crumbsHtml([{label:'Home', href:'/'}, {label:'Services'}])}
     <p class="kicker">Services</p>
     <h1>Every animal we take out of houses</h1>
-    <p class="lede">Twelve animals account for nearly every call we run in Georgia and Tennessee. Pick yours for signs, methods, typical costs — or <a href="/problems/">start with the problem</a> if you&rsquo;re not sure what you have.</p>
+    <p class="lede">Twelve animals account for nearly every call we run across ${coveragePhrase}. Pick yours for signs, methods, typical costs — or <a href="/problems/">start with the problem</a> if you&rsquo;re not sure what you have.</p>
     <div class="btnrow">
       <a class="btn" href="tel:${pro.phoneE164}">Call ${pro.phoneDisplay}</a>
     </div>

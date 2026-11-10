@@ -26,7 +26,7 @@
   // exactly as they did before until they get their own enriched countyContent block.
   const seoEnhanced = !!(countyContent && countyContent.geo);
   // State abbreviation — used for H1 disambiguation (25+ "Franklin Counties" exist nationally).
-  const stateAbbr = ({ 'Georgia': 'GA', 'Tennessee': 'TN', 'Connecticut': 'CT', 'Delaware': 'DE', 'New Hampshire': 'NH', 'Vermont': 'VT', 'Rhode Island': 'RI' })[stateName] || '';
+  const stateAbbr = stateAbbrs[stateName] || '';
 %>
 <!DOCTYPE html>
 <html lang="en">

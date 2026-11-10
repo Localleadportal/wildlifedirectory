@@ -5,12 +5,12 @@
   const C = content || {};
   const animalName = animal.name.replace(/ Removal$/, '');
   const title = animalName + ' Removal — Signs, Costs & How the Job Runs | RemoveWildlifeNow';
-  const metaDesc = animal.shortDesc + ' Signs, typical costs, humane methods, and how a ' + animalName.toLowerCase() + ' job runs in Georgia and Tennessee. Call ' + pro.phoneDisplay + '.';
+  const metaDesc = animal.shortDesc + ' Signs, typical costs, humane methods, and how a ' + animalName.toLowerCase() + ' job runs across ' + coveragePhrase + '. Call ' + pro.phoneDisplay + '.';
   const faqs = (Array.isArray(C.faqs) ? C.faqs : []).map(f => ({ q: P.scrubVoice(f.q), a: P.scrubVoice(f.a) }));
   const asHtml = (t) => !t ? '' : (String(t).includes('<') ? P.scrubVoice(String(t)) : String(t).split(/\n\s*\n/).map(p => `<p style="max-width:48em">${P.esc(P.scrubVoice(p))}</p>`).join(''));
   const covered = (states || []).filter(s => s.hasStateAnimalPage);
   const schemaObj = { "@context": "https://schema.org", "@graph": [
-    P.serviceSchema({ pro, pageUrl, serviceType: animal.name, areaName: 'Georgia and Tennessee' }),
+    P.serviceSchema({ pro, pageUrl, serviceType: animal.name, areaName: coveragePhrase }),
     ...(P.faqSchema(faqs) ? [P.faqSchema(faqs)] : [])
   ]};
   const schema = JSON.stringify(schemaObj);

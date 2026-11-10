@@ -8,6 +8,8 @@ const { statesAndCounties, stateSlugToName, countySlugToName, toSlug } = require
 const { getCitiesForCounty, citySlugToName, cityCountyName } = require('./data/cities');
 const { seatCityFor } = require('./data/countySeatCity');
 const { ANIMALS, ANIMAL_SLUGS, getAnimalBySlug } = require('./data/animals');
+const { animalsForState } = require('./data/stateAnimals');
+const { COVERAGE_STATES, STATE_ABBR, coveragePhrase, coveragePhraseAmp } = require('./data/coverageStates');
 const { stateContent } = require('./data/stateContent');
 const { getAnimalRegionContent } = require('./data/animalRegionContent');
 const { getAnimalFaqs } = require('./data/faqContent');
@@ -48,6 +50,12 @@ app.locals.buildCrumbs = buildCrumbs;
 app.locals.breadcrumbSchema = breadcrumbSchema;
 app.locals.serviceSchema = serviceSchema;
 app.locals.faqSchema = faqSchema;
+// Coverage claims in shared chrome (layout, homepage, service indexes) are
+// driven by data/coverageStates.js so they never name an unbuilt state.
+app.locals.coverageStates = COVERAGE_STATES;
+app.locals.coveragePhrase = coveragePhrase();
+app.locals.coveragePhraseAmp = coveragePhraseAmp();
+app.locals.stateAbbrs = STATE_ABBR;
 const PORT = process.env.PORT || 3000;
 const LEAD_PORTAL = 'https://localleadportal-production.up.railway.app';
 const SERVICE_TYPE = 'Wildlife Removal';
@@ -152,11 +160,19 @@ async function isCountyIndexable(stateName, countyName) {
 }
 async function isCountyAnimalIndexable(stateName, countyName, animalSlug) {
   if (!animalSlug || !ANIMAL_SLUGS.has(animalSlug)) return false;
+  const allowed = animalsForState(stateName);
+  if (allowed && !allowed.has(animalSlug)) return false;
   return isCountyIndexable(stateName, countyName);
 }
 async function isCityIndexable(stateName, countyName, cityName, animalSlug) {
   if (!cityName) return false;
   if (animalSlug && !ANIMAL_SLUGS.has(animalSlug)) return false;
+  if (animalSlug) {
+    // Species gate: an animal outside the state's real range (armadillos in
+    // New England, say) never produces an indexable page. See data/stateAnimals.js.
+    const allowed = animalsForState(stateName);
+    if (allowed && !allowed.has(animalSlug)) return false;
+  }
   if (!(await isCountyIndexable(stateName, countyName))) return false;
   // The city must genuinely belong to this county under the flat city→county
   // map (the same check the route itself makes), so bogus county/city
@@ -171,6 +187,8 @@ async function isStateAnimalIndexable(stateName, animalSlug) {
   // exists for the pair (the rebuild authors all coverage states × animals).
   if (!_permanentStates.has(stateName)) return false;
   if (!animalSlug || !ANIMAL_SLUGS.has(animalSlug)) return false;
+  const allowed = animalsForState(stateName);
+  if (allowed && !allowed.has(animalSlug)) return false;
   const content = getStateAnimalContent(stateName, animalSlug);
   return !!content;
 }
@@ -454,12 +472,15 @@ app.get('/sitemap.xml', async (req, res) => {
     const fullCounty = counties.find(c => apiCounty(c).toLowerCase() === countyLower);
     if (!fullCounty) return;
 
+    const allowedAnimals = animalsForState(state);
     getCitiesForCounty(state, fullCounty).forEach(city => {
       const citySlug = toSlug(city);
       // Only the owning county emits the flat URL for a cross-county city.
       if (cityCountyName(state, citySlug) !== fullCounty) return;
       urls.push(`${BASE}/${stateSlug}/${citySlug}/`);
       ANIMALS.forEach(a => {
+        // Species gate: out-of-range animals are not emitted (their routes 404).
+        if (allowedAnimals && !allowedAnimals.has(a.slug)) return;
         urls.push(`${BASE}/${stateSlug}/${citySlug}/${a.slug}/`);
       });
     });
@@ -680,6 +701,12 @@ app.get('/:stateSlug/:slug/', async (req, res) => {
   const stateInfo = stateContent[stateName] || null;
 
   // State-animal page — /georgia/raccoon-removal/
+  // In a coverage state, an out-of-range animal is a hard 404 (no armadillo
+  // service page for Connecticut), not a noindex render.
+  const stateAnimalGate = animalsForState(stateName);
+  if (ANIMAL_SLUGS.has(slug) && stateAnimalGate && !stateAnimalGate.has(slug) && _permanentStates.has(stateName)) {
+    return res.status(404).render('404', { message: 'Page not found.' });
+  }
   if (ANIMAL_SLUGS.has(slug)) {
     const animal = getAnimalBySlug(slug);
     const stateAnimalContent = getStateAnimalContent(stateName, slug);

@@ -1,11 +1,13 @@
 <%
-  const title = 'Wildlife in the House? Georgia & Tennessee Wildlife Removal | RemoveWildlifeNow';
-  const metaDesc = 'Scratching in the attic, something in the wall, droppings overhead? Wildlife removal across Georgia and Tennessee — animals out, entry points sealed, attic cleaned up. Call (844) 544-3498.';
+  const title = coverageStates.length > 3
+    ? 'Wildlife in the House? Wildlife Removal Across ' + coverageStates.length + ' States | RemoveWildlifeNow'
+    : 'Wildlife in the House? ' + coveragePhraseAmp + ' Wildlife Removal | RemoveWildlifeNow';
+  const metaDesc = 'Scratching in the attic, something in the wall, droppings overhead? Wildlife removal across ' + coveragePhrase + ' — animals out, entry points sealed, attic cleaned up. Call (844) 544-3498.';
   const canonical = '/';
   const P = present;
   const homeFaqs = [
     { q: 'I hear scratching in my attic. What is it?', a: 'Daytime scratching is usually squirrels; heavy thumping and rolling sounds after dark point to raccoons; light scurrying at dusk is often rats or mice, and fluttering at dawn and dusk in summer can be bats. The noises page walks through each sound — or call us and describe it, and we will tell you what we think it is before anyone comes out.' },
-    { q: 'How fast can you get here?', a: 'We offer same-day service across our Georgia and Tennessee coverage areas, and we answer the phone 24/7. A live animal in the living space, a snake indoors, or a strong dead-animal smell gets treated as urgent.' },
+    { q: 'How fast can you get here?', a: 'We offer same-day service across our coverage areas, and we answer the phone 24/7. A live animal in the living space, a snake indoors, or a strong dead-animal smell gets treated as urgent.' },
     { q: 'What does wildlife removal cost?', a: 'It depends on the animal, how it is getting in, and how much sealing and cleanup the job needs. Typical ranges for common jobs are in our Georgia cost guide — general guidance, not a quote. Your price is set after an inspection of your home, before work starts.' },
     { q: 'Do you just trap, or do you keep them out?', a: 'Getting the animal out is only half the job. We seal the entry points it used, and we can clean and restore attic insulation it fouled. A removal without exclusion is a subscription to the same problem next season.' }
   ];
@@ -14,12 +16,18 @@
     "@graph": [
       { "@type": "Organization", "@id": "https://www.removewildlifenow.com/#organization",
         "name": "RemoveWildlifeNow", "url": "https://www.removewildlifenow.com/",
-        "description": "Wildlife removal across Georgia and Tennessee: removal, exclusion and attic cleanup for raccoons, squirrels, bats, rats, snakes, armadillos and more.",
-        "areaServed": [{ "@type": "State", "name": "Georgia" }, { "@type": "State", "name": "Tennessee" }],
+        "description": "Wildlife removal across " + coveragePhrase + ": removal, exclusion and attic cleanup for raccoons, squirrels, bats, rats, snakes and more.",
+        "areaServed": coverageStates.map(s => ({ "@type": "State", "name": s.name })),
         "contactPoint": { "@type": "ContactPoint", "telephone": "+1-844-544-3498", "contactType": "customer service", "hoursAvailable": "Mo-Su 00:00-24:00" } },
       P.faqSchema(homeFaqs)
     ]
   });
+  const statePlates = coverageStates.map(s => `
+    <div class="plate"><a href="/${s.slug}/">
+      <span class="pl-num">${s.name}</span>
+      <h3>${s.name} wildlife removal</h3>
+      <p>${s.blurb}</p>
+    </a></div>`).join('');
   const problemPlates = problems.map((p, i) => `
     <div class="plate"><a href="/problems/${p.slug}/">
       <span class="pl-num">Problem ${String(i + 1).padStart(2, '0')}</span>
@@ -45,7 +53,7 @@
   const body = `
 <section class="hero">
   <div class="container">
-    <p class="kicker">Wildlife removal · Georgia &amp; Tennessee</p>
+    <p class="kicker">Wildlife removal · ${coveragePhraseAmp}</p>
     <h1>Something is living in your house. Let&rsquo;s fix that.</h1>
     <p class="lede">Most people don&rsquo;t call us because they saw an animal. They call because of a sound, a smell, or a mess. Start with what you&rsquo;re noticing — we&rsquo;ll name the likely culprit and get it out.</p>
     <div class="picker">
@@ -112,13 +120,11 @@
   </div>
 </section>
 
-<section class="section rule">
+<section class="section rule" id="areas">
   <div class="container">
     <p class="kicker">Where we work</p>
-    <h2>Two states, covered county by county</h2>
-    <div class="plate-grid">
-      <div class="plate"><a href="/georgia/"><span class="pl-num">Georgia</span><h3>Georgia wildlife removal</h3><p>Metro Atlanta, Macon and middle Georgia, the coast at Savannah, and the Tennessee Valley — 25 counties, from the attic suburbs to farm country.</p></a></div>
-      <div class="plate"><a href="/tennessee/"><span class="pl-num">Tennessee</span><h3>Tennessee wildlife removal</h3><p>Nashville and Williamson County, Memphis and the Mississippi bottoms — river country, cave country, and fast-growing suburbs.</p></a></div>
+    <h2>${coverageStates.length} states, covered county by county</h2>
+    <div class="plate-grid">${statePlates}
     </div>
     <p style="margin-top:18px">Popular right now: <a href="/georgia/marietta/">Marietta</a> · <a href="/georgia/macon/">Macon</a> · <a href="/georgia/savannah/">Savannah</a> · <a href="/tennessee/nashville/">Nashville</a> · <a href="/tennessee/memphis/">Memphis</a> · <a href="/tennessee/franklin/">Franklin</a></p>
     ${P.callCard(pro, { heading: 'Hearing something you shouldn&rsquo;t be?' })}

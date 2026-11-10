@@ -27,7 +27,7 @@
 <body>
   <div class="utility">
     <div class="container">
-      <span>GEORGIA &amp; TENNESSEE &nbsp;·&nbsp; LICENSED &amp; INSURED &nbsp;·&nbsp; SAME-DAY SERVICE</span>
+      <span><%= coveragePhraseAmp.toUpperCase() %> &nbsp;·&nbsp; LICENSED &amp; INSURED &nbsp;·&nbsp; SAME-DAY SERVICE</span>
       <span>CALL <a href="tel:<%= _pro.phoneE164 %>"><%= _pro.phoneDisplay %></a></span>
     </div>
   </div>
@@ -37,8 +37,8 @@
       <nav class="mainnav">
         <a href="/problems/">Problems</a>
         <a href="/guides/">Guides</a>
-        <a href="/georgia/">Georgia</a>
-        <a href="/tennessee/">Tennessee</a>
+        <% coverageStates.slice(0, 2).forEach(s => { %><a href="/<%= s.slug %>/"><%= s.name %></a><% }); %>
+        <% if (coverageStates.length > 2) { %><a href="/#areas">All areas</a><% } %>
         <a href="/blog/">Field Notes</a>
         <a href="/contact/">Contact</a>
       </nav>
@@ -56,7 +56,7 @@
       <div class="cols">
         <div>
           <p class="fbrand">Remove<em>Wildlife</em>Now</p>
-          <p style="max-width:22em">Wildlife removal across Georgia and Tennessee — animals out, entry points sealed, attics cleaned up. One call and we handle the rest.</p>
+          <p style="max-width:22em">Wildlife removal across <%= coveragePhrase %> — animals out, entry points sealed, attics cleaned up. One call and we handle the rest.</p>
           <% if (_pro.assigned) { %><p>Your local crew: <strong style="color:#fff"><%= _pro.name %></strong></p><% } %>
           <p><a class="fphone" href="tel:<%= _pro.phoneE164 %>"><%= _pro.phoneDisplay %></a></p>
           <p style="font-family:var(--mono);font-size:.72rem;letter-spacing:.12em">OPEN 24/7 · SAME-DAY SERVICE</p>
@@ -93,8 +93,9 @@
             <li><a href="/guides/wildlife-removal-cost-in-georgia/">What removal costs in Georgia</a></li>
             <li><a href="/guides/georgia-wildlife-calendar/">Georgia wildlife calendar</a></li>
             <li><a href="/guides/keep-wildlife-out/">Keep wildlife out for good</a></li>
-            <li><a href="/georgia/">Georgia service area</a></li>
-            <li><a href="/tennessee/">Tennessee service area</a></li>
+<% if (coverageStates.length <= 12) { %><% coverageStates.forEach(s => { %>
+            <li><a href="/<%= s.slug %>/"><%= s.name %> service area</a></li><% }); %><% } else { %>
+            <li><a href="/#areas">Service areas — all <%= coverageStates.length %> states</a></li><% } %>
             <li><a href="/blog/">Field notes (blog)</a></li>
             <li><a href="/contact/">Contact us</a></li>
             <li><a href="/list-your-business/">List your business</a></li>
@@ -102,7 +103,7 @@
         </div>
       </div>
       <div class="legal">
-        <span>© <%= new Date().getFullYear() %> RemoveWildlifeNow.com — Wildlife removal in Georgia &amp; Tennessee.</span>
+        <span>© <%= new Date().getFullYear() %> RemoveWildlifeNow.com — Wildlife removal in <%= coveragePhrase %>.</span>
         <span><a href="/privacy-policy/">Privacy Policy</a> &nbsp;·&nbsp; <a href="/terms-of-service/">Terms of Service</a></span>
       </div>
     </div>

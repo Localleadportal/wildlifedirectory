@@ -1,6 +1,6 @@
 <%
   const P = present;
-  const abbr = stateName === 'Georgia' ? 'GA' : stateName === 'Tennessee' ? 'TN' : '';
+  const abbr = stateAbbrs[stateName] || '';
   const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + citySlug + '/' + animal.slug + '/';
   const canonical = (typeof canonicalUrl !== 'undefined' && canonicalUrl)
     ? canonicalUrl.replace('https://www.removewildlifenow.com', '') : '/' + stateSlug + '/' + citySlug + '/' + animal.slug + '/';
