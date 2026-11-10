@@ -56,22 +56,56 @@ function apiCounty(name) {
   return name.replace(/ (County|Parish|Borough|Census Area|City|Municipality)$/i, '').trim();
 }
 
-// ── Manual indexable set ─────────────────────────────────────────────────────
-// Indexability is fully manual. Two opt-in gates:
-//   1. State/county HUBS — the (state) or (state|county) must be listed in
-//      data/permanentlyIndexed.json.
-//   2. Content pages (city, city-animal, county-animal hub in hub-only counties,
-//      and state-animal) — in addition to (1), the page's own content entry must
-//      carry "index": true. Authoring or updating content (extendedBody,
-//      wildlife_intro, etc.) does NOT index a page on its own: a human sets
-//      "index": true once the page is ready, then submits it to Search Console.
-// Contractor assignment has NO effect on indexability — adding/removing a
-// contractor never flips the index meta tag.
-//
-// To index a hub: append its entry to data/permanentlyIndexed.json. To index a
-// content page: set "index": true on its entry in the data/states/... JSON (or
-// data/stateAnimalContent.js for state-animals). Commit and redeploy. There is
-// no auto-augmentation at runtime. Key format: `${ProperCaseState}|${lowercaseCounty}`.
+// ── Page contractor display ("pro") ──────────────────────────────────────────
+// Every route resolves ONE display identity for its page and the layout
+// renders that same name + number in the header, hero, call card and bottom
+// call strip — server-side, so the rendered HTML is already correct (the old
+// client-side LeadPortal number.js embed is gone). Assigned county → that
+// company's name and tracking number, and the (844) number appears nowhere on
+// the page. Unassigned (or any page without a single county) → the brand
+// identity on the central (844) 544-3498 number.
+const BRAND_PRO = {
+  assigned: false,
+  name: 'RemoveWildlifeNow',
+  phoneE164: '+18445443498',
+  phoneDisplay: '(844) 544-3498'
+};
+app.locals.brandPro = BRAND_PRO;
+app.locals.present = require("./lib/present");
+async function pagePro(stateName, countyName) {
+  if (stateName && countyName) {
+    const c = await getContractor(stateName, apiCounty(countyName), SERVICE_TYPE);
+    if (c && c.name && c.telephone) {
+      return {
+        assigned: true,
+        name: c.name,
+        phoneE164: c.telephone,
+        phoneDisplay: formatPhone(c.telephone)
+      };
+    }
+  }
+  return BRAND_PRO;
+}
+
+// Problem + guide content (2026 rebuild page types)
+const { PROBLEMS, getProblemBySlug } = require('./data/problems');
+const { GUIDES, getGuideBySlug } = require('./data/guides');
+const { composeCityHub, composeCityAnimal } = require('./lib/compose');
+
+// ── Coverage set (2026 rebuild) ──────────────────────────────────────────────
+// data/permanentlyIndexed.json now defines COVERAGE, not index gating. The
+// old model — a page resolved only if a human had flipped a manual "index"
+// flag — starved the site: most pages returned 404 and the indexed count fell
+// month over month (483 → 397 by Nov 2026). The rebuild follows the owner's
+// standing rule: every page in coverage exists, is indexable, and earns its
+// place with real content. A page is live iff its state is a coverage state,
+// its county is in the coverage county list (the `counties` array of
+// permanentlyIndexed.json, key format `${ProperCaseState}|${lowercaseCounty}`),
+// its city belongs to that county under the flat map, and its animal is in
+// ANIMALS. The old selective sets (countiesWithCountyOnlyIndex /
+// countiesWithHubOnlyIndex) and per-content "index" flags are no longer
+// consulted. Contractor assignment still has NO effect on whether a page
+// exists — it only changes whose name and number the page renders.
 const permanentlyIndexed = require('./data/permanentlyIndexed.json');
 const _permanentCounties = new Set(
   (permanentlyIndexed.counties || []).map(k => {
@@ -117,47 +151,28 @@ async function isCountyIndexable(stateName, countyName) {
   return _permanentCounties.has(key);
 }
 async function isCountyAnimalIndexable(stateName, countyName, animalSlug) {
-  const key = `${stateName}|${apiCounty(countyName).toLowerCase()}`;
-  if (!_permanentCounties.has(key)) return false;
-  // Hub-only counties: only animal hubs with enriched countyAnimalContent are indexable.
-  // Other indexed counties keep current behavior (all animal hubs indexable).
-  if (_hubOnlyIndexCounties.has(key)) {
-    if (!animalSlug) return false;
-    const content = getCountyAnimalContent(stateName, countyName, animalSlug);
-    return !!(content && content.index === true);
-  }
-  return true;
+  if (!animalSlug || !ANIMAL_SLUGS.has(animalSlug)) return false;
+  return isCountyIndexable(stateName, countyName);
 }
 async function isCityIndexable(stateName, countyName, cityName, animalSlug) {
-  const key = `${stateName}|${apiCounty(countyName).toLowerCase()}`;
-  if (!_permanentCounties.has(key)) return false;
-  // Selective modes: city/city-animal page is indexable only if it has enriched content.
-  // This allows individual cities like Savannah to flip indexable while other Chatham
-  // cities (still without enriched content) stay noindex.
-  if (_hubOnlyIndexCounties.has(key) || _countyOnlyIndexCounties.has(key)) {
-    if (!cityName) return false;
-    // Opt-in per page: a city / city-animal page is indexable only once its
-    // content entry carries "index": true. Authoring content (extendedBody /
-    // wildlife_intro) no longer flips the page on its own — a human sets the flag
-    // when the page is ready, then submits it to Search Console. (Supersedes the
-    // old holdNoindex opt-out, which is no longer consulted.)
-    if (animalSlug) {
-      const content = getCityAnimalContent(stateName, countyName, cityName, animalSlug);
-      return !!(content && content.index === true);
-    }
-    const content = getCityContent(stateName, countyName, cityName);
-    return !!(content && content.index === true);
-  }
-  return true;
+  if (!cityName) return false;
+  if (animalSlug && !ANIMAL_SLUGS.has(animalSlug)) return false;
+  if (!(await isCountyIndexable(stateName, countyName))) return false;
+  // The city must genuinely belong to this county under the flat city→county
+  // map (the same check the route itself makes), so bogus county/city
+  // combinations stay 404 while every real page in coverage is live.
+  return cityCountyName(stateName, toSlug(cityName)) === countyName;
 }
 async function isStateIndexable(stateName) {
   return _permanentStates.has(stateName);
 }
 async function isStateAnimalIndexable(stateName, animalSlug) {
-  // Manual gate AND explicit per-page opt-in must both be present (no auto-indexing).
-  if (!_permanentStateAnimals.has(`${stateName}|${animalSlug}`)) return false;
+  // Live iff the state is in coverage and authored state-animal content
+  // exists for the pair (the rebuild authors all coverage states × animals).
+  if (!_permanentStates.has(stateName)) return false;
+  if (!animalSlug || !ANIMAL_SLUGS.has(animalSlug)) return false;
   const content = getStateAnimalContent(stateName, animalSlug);
-  return !!(content && content.index === true);
+  return !!content;
 }
 // Animals that have an indexable state-level page for this state — used to wire
 // the state hub's localized down-links ("Georgia Raccoon Removal").
@@ -172,9 +187,8 @@ async function indexableStateAnimalsFor(stateName) {
 // the national animal page's down-links to its state versions.
 async function indexableStatesForAnimal(animalSlug) {
   const out = new Set();
-  for (const key of _permanentStateAnimals) {
-    const [state, slug] = key.split('|');
-    if (slug === animalSlug && await isStateAnimalIndexable(state, slug)) out.add(state);
+  for (const state of _permanentStates) {
+    if (await isStateAnimalIndexable(state, animalSlug)) out.add(state);
   }
   return out;
 }
@@ -387,14 +401,17 @@ app.get('/robots.txt', (req, res) => {
   res.send('User-agent: *\nAllow: /\nDisallow: /request-callback/\nSitemap: https://www.removewildlifenow.com/sitemap.xml\n');
 });
 
-// Sitemap — lists every page that is manually marked indexable in
-// data/permanentlyIndexed.json, plus the always-indexable static pages
-// (homepage, services, blog).
+// Sitemap — lists every live page: the static pages, national service pages,
+// blog, problem + guide hubs, coverage state hubs, every state-animal page
+// with authored content, and the full city × animal matrix for every coverage
+// county. No lastmod is emitted: the old sitemap stamped today's date on
+// every URL at request time, which claims a freshness the pages don't have.
 app.get('/sitemap.xml', async (req, res) => {
   const BASE = 'https://www.removewildlifenow.com';
   const urls = [`${BASE}/`, `${BASE}/contact/`, `${BASE}/list-your-business/`];
 
-  // National per-animal landing pages (only those with content authored)
+  // Services index + national per-animal landing pages (only those with content authored)
+  urls.push(`${BASE}/services/`);
   const { NATIONAL_CONTENT } = require('./data/animalNationalContent');
   Object.keys(NATIONAL_CONTENT).forEach(slug => {
     urls.push(`${BASE}/services/${slug}/`);
@@ -404,24 +421,31 @@ app.get('/sitemap.xml', async (req, res) => {
   urls.push(`${BASE}/blog/`);
   getAllPosts().forEach(p => urls.push(`${BASE}/blog/${p.slug}/`));
 
-  // Manually-marked indexable states and counties
+  // Problem hub + symptom pages, guide hub + guides (2026 rebuild)
+  urls.push(`${BASE}/problems/`);
+  PROBLEMS.forEach(p => urls.push(`${BASE}/problems/${p.slug}/`));
+  urls.push(`${BASE}/guides/`);
+  GUIDES.forEach(g => urls.push(`${BASE}/guides/${g.slug}/`));
+
+  // Coverage state hubs
   _permanentStates.forEach(state => {
     urls.push(`${BASE}/${toSlug(state)}/`);
   });
 
-  // State-level animal pages (/georgia/raccoon-removal/) — only those gated
-  // indexable AND backed by authored content (mirrors isStateAnimalIndexable).
-  _permanentStateAnimals.forEach(key => {
-    const [state, slug] = key.split('|');
-    const content = getStateAnimalContent(state, slug);
-    if (content && content.index === true) urls.push(`${BASE}/${toSlug(state)}/${slug}/`);
-  });
+  // State-level animal pages (/georgia/raccoon-removal/) — every coverage
+  // state × animal with authored content (mirrors isStateAnimalIndexable).
+  for (const state of _permanentStates) {
+    for (const a of ANIMALS) {
+      if (await isStateAnimalIndexable(state, a.slug)) {
+        urls.push(`${BASE}/${toSlug(state)}/${a.slug}/`);
+      }
+    }
+  }
 
-  // Flat scheme: county hubs and county-animal hubs no longer exist, so the
-  // sitemap emits only flat city (/state/city/) and city-animal
-  // (/state/city/animal/) URLs. We still walk the indexed counties because the
-  // content + index flags are keyed by county; each city is emitted once, from
-  // the county that owns its flat slug (so cross-county dupes like Austell and
+  // Flat scheme: the sitemap emits flat city (/state/city/) and city-animal
+  // (/state/city/animal/) URLs for EVERY city in every coverage county and
+  // every animal — the full matrix. Each city is emitted once, from the
+  // county that owns its flat slug (so cross-county dupes like Austell and
   // Villa Rica — which appear under two counties — aren't double-listed).
   _permanentCounties.forEach(key => {
     const [state, countyLower] = key.split('|');
@@ -429,33 +453,20 @@ app.get('/sitemap.xml', async (req, res) => {
     const counties = statesAndCounties[state] || [];
     const fullCounty = counties.find(c => apiCounty(c).toLowerCase() === countyLower);
     if (!fullCounty) return;
-    const selectiveMode = _hubOnlyIndexCounties.has(key) || _countyOnlyIndexCounties.has(key);
 
     getCitiesForCounty(state, fullCounty).forEach(city => {
       const citySlug = toSlug(city);
       // Only the owning county emits the flat URL for a cross-county city.
       if (cityCountyName(state, citySlug) !== fullCounty) return;
-      // In selective mode a city is indexable only with an explicit "index": true
-      // (mirrors isCityIndexable). Full counties index every city.
-      if (selectiveMode) {
-        const cContent = getCityContent(state, fullCounty, city);
-        if (!cContent || cContent.index !== true) return;
-      }
       urls.push(`${BASE}/${stateSlug}/${citySlug}/`);
-
       ANIMALS.forEach(a => {
-        if (selectiveMode) {
-          const cAnimal = getCityAnimalContent(state, fullCounty, city, a.slug);
-          if (!cAnimal || cAnimal.index !== true) return;
-        }
         urls.push(`${BASE}/${stateSlug}/${citySlug}/${a.slug}/`);
       });
     });
   });
 
-  const today = new Date().toISOString().slice(0, 10);
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
-    [...new Set(urls)].map(u => `  <url><loc>${u}</loc><lastmod>${today}</lastmod></url>`).join('\n') +
+    [...new Set(urls)].map(u => `  <url><loc>${u}</loc></url>`).join('\n') +
     `\n</urlset>`;
 
   res.type('application/xml');
@@ -464,7 +475,12 @@ app.get('/sitemap.xml', async (req, res) => {
 
 // Homepage
 app.get('/', (req, res) => {
-  res.render('index');
+  res.render('index', {
+    problems: PROBLEMS,
+    guides: GUIDES,
+    animals: ANIMALS,
+    pro: BRAND_PRO
+  });
 });
 
 // List Your Business — contractor pitch page that backlinks to localleadportal.com.
@@ -491,10 +507,17 @@ app.get('/contact/', (req, res) => {
   res.render('contact', {
     sent: false, error: null, formData: {},
     county: req.query.county || '',
-    state: req.query.state || ''
+    state: req.query.state || '',
+    pro: BRAND_PRO
   });
 });
 app.get('/contact', (req, res) => res.redirect(301, '/contact/'));
+
+// Services index — /services/ (the bare path used to 404 via the state
+// wildcard; it is linked from legacy content and typed by hand).
+app.get('/services/', (req, res) => {
+  res.render('services-index', { animals: ANIMALS, pro: BRAND_PRO });
+});
 
 // National per-animal landing pages — /services/{animal-slug}/
 // Must be defined before /:stateSlug/ to take precedence over state route
@@ -507,7 +530,7 @@ app.get('/services/:animalSlug/', async (req, res) => {
   // States that have an indexable state-animal page for THIS animal — those links
   // point down to /{state}/{animal}/ with localized anchors instead of the hub.
   const stateAnimalIndexed = await indexableStatesForAnimal(req.params.animalSlug);
-  res.render('animal-national', { animal, content, states, toSlug, ANIMALS, stateAnimalIndexed });
+  res.render('animal-national', { animal, content, states, toSlug, ANIMALS, stateAnimalIndexed, pro: BRAND_PRO });
 });
 
 // Trailing-slash redirect for /services/{animal}
@@ -516,7 +539,7 @@ app.get('/services/:animalSlug', (req, res) => res.redirect(301, `/services/${re
 // Blog index — /blog/
 app.get('/blog/', (req, res) => {
   const posts = getAllPosts();
-  res.render('blog-index', { posts });
+  res.render('blog-index', { posts, pro: BRAND_PRO });
 });
 app.get('/blog', (req, res) => res.redirect(301, '/blog/'));
 
@@ -525,9 +548,38 @@ app.get('/blog/:slug/', (req, res) => {
   const post = getPostBySlug(req.params.slug);
   if (!post) return res.status(404).render('404', { message: 'Blog post not found.' });
   const relatedPostsList = getAllPosts().filter(p => p.slug !== post.slug).slice(0, 3);
-  res.render('blog-post', { post, relatedPostsList });
+  res.render('blog-post', { post, relatedPostsList, pro: BRAND_PRO });
 });
 app.get('/blog/:slug', (req, res) => res.redirect(301, `/blog/${req.params.slug}/`));
+
+// Problems hub + symptom pages — must be before /:stateSlug/ wildcard.
+// The rebuild's front door: homeowners describe what they hear/see/smell,
+// we name the likely culprits and route them to the right service + county.
+app.get('/problems/', (req, res) => {
+  res.render('problems-index', { problems: PROBLEMS, pro: BRAND_PRO });
+});
+app.get('/problems', (req, res) => res.redirect(301, '/problems/'));
+app.get('/problems/:slug/', (req, res) => {
+  const problem = getProblemBySlug(req.params.slug);
+  if (!problem) return res.status(404).render('404', { message: 'Problem page not found.' });
+  const culprits = (problem.likelyCulprits || []).map(s => getAnimalBySlug(s)).filter(Boolean);
+  const others = PROBLEMS.filter(p => p.slug !== problem.slug);
+  res.render('problem', { problem, culprits, others, pro: BRAND_PRO });
+});
+app.get('/problems/:slug', (req, res) => res.redirect(301, `/problems/${req.params.slug}/`));
+
+// Guides hub + Georgia guide pages — must be before /:stateSlug/ wildcard.
+app.get('/guides/', (req, res) => {
+  res.render('guides-index', { guides: GUIDES, pro: BRAND_PRO });
+});
+app.get('/guides', (req, res) => res.redirect(301, '/guides/'));
+app.get('/guides/:slug/', (req, res) => {
+  const guide = getGuideBySlug(req.params.slug);
+  if (!guide) return res.status(404).render('404', { message: 'Guide not found.' });
+  const others = GUIDES.filter(g => g.slug !== guide.slug);
+  res.render('guide', { guide, others, pro: BRAND_PRO });
+});
+app.get('/guides/:slug', (req, res) => res.redirect(301, `/guides/${req.params.slug}/`));
 
 // State page — /georgia/
 app.get('/:stateSlug/', async (req, res) => {
@@ -540,7 +592,7 @@ app.get('/:stateSlug/', async (req, res) => {
   const stateAnimalLinks = await indexableStateAnimalsFor(stateName);
   // Flat scheme: the hub now lists the cities we serve (not counties).
   const cities = await indexableCitiesFor(stateName);
-  res.render('state', { stateName, cities, stateInfo, toSlug, indexable, stateAnimalLinks, ANIMALS });
+  res.render('state', { stateName, cities, stateInfo, toSlug, indexable, stateAnimalLinks, ANIMALS, pro: BRAND_PRO });
 });
 
 // ── Legacy county-nested URL → flat URL 301 redirects ────────────────────────
@@ -637,7 +689,7 @@ app.get('/:stateSlug/:slug/', async (req, res) => {
     const cityAnimalLinks = await indexableCityAnimalsFor(stateName, slug);
     return res.render('state-animal', {
       stateName, animal, stateInfo, stateAnimalContent, animalRegionNote,
-      indexable, cityAnimalLinks, stateSlug, toSlug, ANIMALS
+      indexable, cityAnimalLinks, stateSlug, toSlug, ANIMALS, pro: BRAND_PRO
     });
   }
 
@@ -652,30 +704,28 @@ app.get('/:stateSlug/:slug/', async (req, res) => {
   const indexable = await isCityIndexable(stateName, countyName, cityName);
   if (!indexable) return res.status(404).render('404', { message: 'Page not found.' });
 
-  const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
   const cityContent = getCityContent(stateName, countyName, cityName);
-  let countyContent = getCountyContent(stateName, countyName);
-  // Server-side contractor lookup. Templates read countyContent.contractor for the
-  // phone + company name; null falls through to the directory (844) number.
-  const _contractor = await getContractor(stateName, apiCounty(countyName), SERVICE_TYPE);
-  if (_contractor) countyContent = { ...(countyContent || {}), contractor: _contractor };
-  // Grids link only to live (indexed) pages so the page has no broken links.
+  const countyContent = getCountyContent(stateName, countyName);
+  // Server-side contractor lookup → the page's single display identity.
+  const pro = await pagePro(stateName, countyName);
+  // Grids link only to live pages so the page has no broken links (in the
+  // rebuild every coverage page is live, so these are full sets).
   const cityAnimals = await indexableAnimalsForCity(stateName, countyName, cityName);
   const otherCities = await indexableSiblingCities(stateName, countyName, cityName);
+  const composed = composeCityHub({ stateName, countyName, cityName, countyContent, cityContent, pro, siblingNames: otherCities.map(c => c.name) });
 
   res.render('city', {
-    stateName, countyName, cityName, stateInfo, embedScript, cityContent, countyContent,
-    cityAnimals, otherCities,
-    indexable,
+    stateName, countyName, cityName, stateInfo, cityContent, countyContent,
+    cityAnimals, otherCities, pro, composed,
     canonicalUrl: cityCanonicalUrl(stateSlug, slug),
-    stateSlug, citySlug: slug, toSlug, ANIMALS
+    stateSlug, citySlug: slug, toSlug, ANIMALS, PROBLEMS
   });
 });
 
 app.post('/contact/', async (req, res) => {
   const { name, email, phone, county, state, animal, message } = req.body;
   if (!name || !email) {
-    return res.render('contact', { sent: false, error: 'Please provide your name and email.', formData: req.body, county: '', state: '' });
+    return res.render('contact', { sent: false, error: 'Please provide your name and email.', formData: req.body, county: '', state: '', pro: BRAND_PRO });
   }
   try {
     const resp = await fetch('https://api.resend.com/emails', {
@@ -701,9 +751,9 @@ app.post('/contact/', async (req, res) => {
       })
     });
     if (!resp.ok) throw new Error(await resp.text());
-    res.render('contact', { sent: true, error: null, formData: {}, county: '', state: '' });
+    res.render('contact', { sent: true, error: null, formData: {}, county: '', state: '', pro: BRAND_PRO });
   } catch (e) {
-    res.render('contact', { sent: false, error: 'Failed to send your message. Please try again.', formData: req.body, county: '', state: '' });
+    res.render('contact', { sent: false, error: 'Failed to send your message. Please try again.', formData: req.body, county: '', state: '', pro: BRAND_PRO });
   }
 });
 
@@ -727,13 +777,11 @@ app.get('/:stateSlug/:citySlug/:animalSlug/', async (req, res) => {
   const indexable = await isCityIndexable(stateName, countyName, cityName, animalSlug);
   if (!indexable) return res.status(404).render('404', { message: 'Page not found.' });
 
-  const embedScript = `${LEAD_PORTAL}/api/directory/number.js?state=${encodeURIComponent(stateName)}&serviceType=${encodeURIComponent(SERVICE_TYPE)}&county=${encodeURIComponent(apiCounty(countyName))}`;
   const stateInfo = stateContent[stateName] || null;
   const animalRegionNote = getAnimalRegionContent(stateName, animalSlug);
   const cityAnimalContent = getCityAnimalContent(stateName, countyName, cityName, animalSlug);
-  let countyContent = getCountyContent(stateName, countyName);
-  const _contractor = await getContractor(stateName, apiCounty(countyName), SERVICE_TYPE);
-  if (_contractor) countyContent = { ...(countyContent || {}), contractor: _contractor };
+  const countyContent = getCountyContent(stateName, countyName);
+  const pro = await pagePro(stateName, countyName);
   // The city hub may itself be noindex (→ 404) even when this animal page is
   // indexed; pass that so the template links the city crumb/nav only when live.
   const hubIndexable = await isCityIndexable(stateName, countyName, cityName);
@@ -746,10 +794,17 @@ app.get('/:stateSlug/:citySlug/:animalSlug/', async (req, res) => {
     : [];
   const _monthNow = new Date().getMonth();
   const _seasonalOverride = _seasonalOverrides.find(o => Array.isArray(o.months) && o.months.includes(_monthNow));
+  const composed = composeCityAnimal({
+    stateName, countyName, cityName, animal, countyContent, cityAnimalContent,
+    countyAnimalContent: getCountyAnimalContent(stateName, countyName, animalSlug),
+    cityContent: getCityContent(stateName, countyName, cityName),
+    siblingNames: (await indexableSiblingCities(stateName, countyName, cityName)).map(c => c.name),
+    pro,
+    baseFaqs: getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo })
+  });
   res.render('city-animal', {
-    stateName, countyName, cityName, animal, stateInfo, animalRegionNote, embedScript, cityAnimalContent, countyContent,
-    indexable, hubIndexable, moreAnimals,
-    faqs: getAnimalFaqs(animalSlug, { countyName, cityName, stateName, stateInfo }),
+    stateName, countyName, cityName, animal, stateInfo, animalRegionNote, cityAnimalContent, countyContent,
+    hubIndexable, moreAnimals, pro, composed,
     seasonal: _seasonalOverride || _baseSeasonal,
     canonicalUrl: cityCanonicalUrl(stateSlug, citySlug, animalSlug),
     stateSlug, citySlug, toSlug, ANIMALS
