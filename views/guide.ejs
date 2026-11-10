@@ -1,0 +1,38 @@
+<%
+  const title = guide.metaTitle;
+  const metaDesc = guide.metaDescription;
+  const canonical = '/guides/' + guide.slug + '/';
+  const P = present;
+  const faqBlock = P.faqSchema(guide.faqs);
+  const schema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      { "@type": "Article", "headline": guide.title, "url": "https://www.removewildlifenow.com" + canonical, "description": metaDesc,
+        "author": { "@type": "Organization", "name": "RemoveWildlifeNow" } },
+      ...(faqBlock ? [faqBlock] : [])
+    ]
+  });
+  const sections = guide.sections.map(s => `<h2>${P.esc(s.heading)}</h2>\n${s.body}`).join('\n');
+  const body = `
+<section class="hero">
+  <div class="container">
+    ${P.crumbsHtml([{label:'Home', href:'/'}, {label:'Guides', href:'/guides/'}, {label: guide.title}])}
+    <p class="kicker">Guide</p>
+    <h1>${P.esc(guide.h1)}</h1>
+    <p class="lede">${P.esc(guide.intro)}</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="article">
+      ${sections}
+    </div>
+    ${P.callCard(pro, { heading: 'Reading about it is step one' })}
+    ${P.faqSection(guide.faqs, 'Guide questions')}
+    <h2>Keep reading</h2>
+    <div class="chips">
+      ${others.map(g => `<a class="chip" href="/guides/${g.slug}/">${P.esc(g.title)}</a>`).join('')}
+    </div>
+  </div>
+</section>`;
+%><%- include('layout', { title, metaDesc, canonical, schema, body }) %>

@@ -1,0 +1,27 @@
+<%
+  const title = 'Georgia Wildlife Guides — Costs, Seasons, Laws & Prevention | RemoveWildlifeNow';
+  const metaDesc = 'Straight answers from the field: what wildlife removal costs in Georgia, what happens when you call, the Georgia wildlife calendar, attic cleanup, permit law, and keeping animals out for good.';
+  const canonical = '/guides/';
+  const P = present;
+  const plates = guides.map((g, i) => `
+    <div class="plate"><a href="/guides/${g.slug}/">
+      <span class="pl-num">Guide ${String(i + 1).padStart(2, '0')}</span>
+      <h3>${P.esc(g.title)}</h3>
+      <p>${P.esc(g.intro.split('. ')[0])}.</p>
+    </a></div>`).join('');
+  const body = `
+<section class="hero">
+  <div class="container">
+    ${P.crumbsHtml([{label:'Home', href:'/'}, {label:'Guides'}])}
+    <p class="kicker">Guides</p>
+    <h1>The Georgia wildlife playbook</h1>
+    <p class="lede">What it costs, what the law says, what each season brings, and how to keep animals out once they&rsquo;re gone — written from the work, for Georgia and Tennessee homeowners.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="plate-grid">${plates}</div>
+    ${P.callCard(pro, { heading: 'Guide or no guide — the call is free to make' })}
+  </div>
+</section>`;
+%><%- include('layout', { title, metaDesc, canonical, body }) %>

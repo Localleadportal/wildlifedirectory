@@ -1,0 +1,31 @@
+<%
+  const title = 'Wildlife Removal Services — Every Animal We Handle | RemoveWildlifeNow';
+  const metaDesc = 'Raccoons, squirrels, bats, rats, snakes, armadillos, skunks and more — humane removal, exclusion and cleanup across Georgia and Tennessee. Call (844) 544-3498.';
+  const canonical = '/services/';
+  const P = present;
+  const rows = animals.map((a, i) => `
+    <a class="rowline" href="/services/${a.slug}/">
+      <span class="rl-num">${String(i + 1).padStart(2, '0')}</span>
+      <span class="rl-main"><strong>${P.esc(a.name)}</strong><span>${P.esc(a.shortDesc)}</span></span>
+      <span class="rl-go">Typical ${P.esc(a.costRange)} →</span>
+    </a>`).join('');
+  const body = `
+<section class="hero">
+  <div class="container">
+    ${P.crumbsHtml([{label:'Home', href:'/'}, {label:'Services'}])}
+    <p class="kicker">Services</p>
+    <h1>Every animal we take out of houses</h1>
+    <p class="lede">Twelve animals account for nearly every call we run in Georgia and Tennessee. Pick yours for signs, methods, typical costs — or <a href="/problems/">start with the problem</a> if you&rsquo;re not sure what you have.</p>
+    <div class="btnrow">
+      <a class="btn" href="tel:${pro.phoneE164}">Call ${pro.phoneDisplay}</a>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="rows">${rows}</div>
+    <p class="fineprint" style="margin-top:16px">Cost ranges are general guidance from typical work — not quotes. Your price is set after inspection, before work starts.</p>
+    ${P.callCard(pro, { heading: 'Not sure which one you have?' })}
+  </div>
+</section>`;
+%><%- include('layout', { title, metaDesc, canonical, body }) %>

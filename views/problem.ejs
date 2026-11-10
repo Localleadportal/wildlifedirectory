@@ -1,0 +1,65 @@
+<%
+  const title = problem.metaTitle;
+  const metaDesc = problem.metaDescription;
+  const canonical = '/problems/' + problem.slug + '/';
+  const P = present;
+  const faqBlock = P.faqSchema(problem.faqs);
+  const schema = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      { "@type": "WebPage", "name": problem.title, "url": "https://www.removewildlifenow.com" + canonical,
+        "description": metaDesc,
+        "about": culprits.map(a => ({ "@type": "Thing", "name": a.name.replace(/ Removal$/, '') })) },
+      ...(faqBlock ? [faqBlock] : [])
+    ]
+  });
+  const body = `
+<section class="hero">
+  <div class="container">
+    ${P.crumbsHtml([{label:'Home', href:'/'}, {label:'Problems', href:'/problems/'}, {label: problem.title}])}
+    <p class="kicker">Problem · ${P.esc(problem.urgency.level)} urgency</p>
+    <h1>${P.esc(problem.h1)}</h1>
+    <p class="lede">${P.esc(problem.symptom)}</p>
+    <p class="sub"><strong>How urgent:</strong> ${P.esc(problem.urgency.note)}</p>
+    <div class="btnrow">
+      <a class="btn" href="tel:${pro.phoneE164}">Call ${pro.phoneDisplay}</a>
+      <a class="btn alt" href="/guides/what-happens-when-you-call/">What happens when you call</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="kicker">Likely culprits</p>
+    <h2>What it usually is</h2>
+    <div class="rows">
+      ${culprits.map((a, i) => `
+      <a class="rowline" href="/services/${a.slug}/">
+        <span class="rl-num">${String(i + 1).padStart(2, '0')}</span>
+        <span class="rl-main"><strong>${P.esc(a.name.replace(/ Removal$/, ''))}</strong><span>${P.esc(a.shortDesc)}</span></span>
+        <span class="rl-go">Removal →</span>
+      </a>`).join('')}
+    </div>
+
+    <h2>What it means</h2>
+    ${problem.whatItMeans}
+
+    <h2>What we do about it</h2>
+    ${problem.whatWeDo}
+
+    <div class="fieldnotes">
+      <p class="kicker">Before we get there</p>
+      <h3 style="margin-top:0">What not to do</h3>
+      ${problem.whatNotToDo}
+    </div>
+
+    ${P.callCard(pro, { heading: 'Sound familiar? We can be out today.' })}
+    ${P.faqSection(problem.faqs, 'About this problem')}
+
+    <h2>Other problems</h2>
+    <div class="chips">
+      ${others.map(p => `<a class="chip" href="/problems/${p.slug}/">${P.esc(p.title)}</a>`).join('')}
+    </div>
+  </div>
+</section>`;
+%><%- include('layout', { title, metaDesc, canonical, schema, body }) %>

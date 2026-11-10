@@ -1,0 +1,32 @@
+<%
+  const title = 'What\'s in Your House? Identify the Problem | RemoveWildlifeNow';
+  const metaDesc = 'Scratching in the attic, an animal in the wall, droppings overhead, a dead-animal smell — start with the problem. We name the likely culprit and what to do about it.';
+  const canonical = '/problems/';
+  const P = present;
+  const plates = problems.map((p, i) => `
+    <div class="plate"><a href="/problems/${p.slug}/">
+      <span class="pl-num">Problem ${String(i + 1).padStart(2, '0')} · ${P.esc(p.urgency.level)}</span>
+      <h3>${P.esc(p.title)}</h3>
+      <p>${P.esc(p.symptom)}</p>
+    </a></div>`).join('');
+  const body = `
+<section class="hero">
+  <div class="container">
+    ${P.crumbsHtml([{label:'Home', href:'/'}, {label:'Problems'}])}
+    <p class="kicker">Start with the symptom</p>
+    <h1>What&rsquo;s happening at your house?</h1>
+    <p class="lede">You don&rsquo;t need to know what the animal is — that&rsquo;s our job. Pick the problem that sounds like yours. Each page names the likely culprits, says how urgent it is, and explains exactly what we do about it.</p>
+    <div class="btnrow">
+      <a class="btn" href="tel:${pro.phoneE164}">Call ${pro.phoneDisplay}</a>
+      <a class="btn alt" href="/guides/">Read the guides</a>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="plate-grid">${plates}</div>
+    <p style="margin-top:22px;max-width:46em">Not sure any of these fit? Call us and just describe it — the sounds, the timing, the smell, where it&rsquo;s worst. After enough attics, most problems identify themselves in about thirty seconds of description.</p>
+    ${P.callCard(pro, { heading: 'Rather just talk it through?' })}
+  </div>
+</section>`;
+%><%- include('layout', { title, metaDesc, canonical, body }) %>

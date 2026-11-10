@@ -2,13 +2,17 @@
   const title = 'Page Not Found | RemoveWildlifeNow.com';
   const metaDesc = 'The page you were looking for could not be found.';
   const canonical = '/';
+  const P = present;
   const body = `
-<section class="page-hero">
+<section class="hero">
   <div class="container">
-    <h1>Page Not Found</h1>
-    <p>${message || 'The page you were looking for does not exist.'}</p>
-    <a href="/" class="btn">Browse All States</a>
+    <p class="kicker">404</p>
+    <h1>This page moved out — like the raccoon should</h1>
+    <p class="lede">${P.esc(typeof message !== 'undefined' && message ? message : 'The page you were looking for does not exist.')}</p>
+    <div class="btnrow">
+      <a class="btn" href="/problems/">Start with the problem</a>
+      <a class="btn alt" href="/">Back to the homepage</a>
+    </div>
   </div>
 </section>`;
-%>
-<%- include('layout', { title, metaDesc, canonical, body }) %>
+%><%- include('layout', { title, metaDesc, canonical, body }) %>

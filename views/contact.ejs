@@ -1,138 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <%- include('_ga') %>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us | Wildlife Removal Help | RemoveWildlifeNow.com</title>
-  <meta name="description" content="No local contractor in your area yet? Contact us and we will connect you with a wildlife removal professional as soon as possible.">
-  <link rel="canonical" href="https://www.removewildlifenow.com/contact/">
-  <link rel="stylesheet" href="/css/style.css?v=<%= cssVersion %>">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ContactPage",
-    "name": "Contact RemoveWildlifeNow.com",
-    "description": "Contact us to find a licensed wildlife removal contractor in your area.",
-    "url": "https://www.removewildlifenow.com/contact/",
-    "mainEntity": {
-      "@type": "Organization",
-      "name": "RemoveWildlifeNow.com",
-      "url": "https://www.removewildlifenow.com",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer support",
-        "availableLanguage": "English"
-      }
-    }
-  }
-  </script>
-  <link rel="icon" href="https://www.removewildlifenow.com/favicon.png" sizes="180x180" type="image/png">
-</head>
-<body>
-  <header>
-    <div class="container header-inner">
-      <a href="/" class="logo">RemoveWildlife<span>Now</span></a>
-      <nav class="header-nav">
-        <a href="/">Home</a>
-        <a href="/#map-section">Find by State</a>
-      </nav>
-    </div>
-  </header>
-
-  <div class="trust-bar">
-    <div class="container trust-bar-inner">
-      <div class="trust-item">24/7 Emergency Response</div>
-      <div class="trust-item">Licensed &amp; Insured Contractors</div>
-      <div class="trust-item">Humane Removal Methods</div>
-      <div class="trust-item">Local Experts in Your County</div>
-    </div>
+<%
+  const title = 'Contact Us | RemoveWildlifeNow';
+  const metaDesc = 'Animal in the attic, wall or yard? Call (844) 544-3498 or send us a message — tell us what you are hearing, seeing or smelling and we will take it from there.';
+  const canonical = '/contact/';
+  const P = present;
+  const fd = (typeof formData !== 'undefined' && formData) || {};
+  const body = `
+<section class="hero">
+  <div class="container">
+    ${P.crumbsHtml([{label:'Home', href:'/'}, {label:'Contact'}])}
+    <p class="kicker">Contact</p>
+    <h1>Tell us what&rsquo;s going on</h1>
+    <p class="lede">Fastest is a call — <a href="tel:${pro.phoneE164}">${pro.phoneDisplay}</a>, answered 24/7. Prefer to write? Send the form and we&rsquo;ll get back to you shortly.</p>
   </div>
-
-  <main>
-    <section class="page-hero">
-      <div class="container">
-        <div class="hero-badge">We Can Help</div>
-        <h1>Contact Us for Help</h1>
-        <p>No contractor in your area yet — send us your info and we'll connect you with a professional as soon as possible.</p>
-      </div>
-    </section>
-
-    <section class="cta-section">
-      <div class="container">
-        <div class="cta-box" style="max-width:580px;">
-
-          <% if (sent) { %>
-            <div class="success-msg">
-              <span style="font-size:2.5rem;">✅</span>
-              <h2>Message Sent!</h2>
-              <p>We received your request and will be in touch shortly to connect you with a local wildlife removal professional.</p>
-              <a href="/" class="btn-primary" style="margin-top:20px;display:inline-block;">Back to Home</a>
-            </div>
-          <% } else { %>
-            <h2>Get Wildlife Removal Help</h2>
-            <p class="cta-sub">Fill out the form below and we'll find a licensed contractor in your area.</p>
-
-            <% if (error) { %>
-              <p class="form-error"><%= error %></p>
-            <% } %>
-
-            <form class="contact-form" method="POST" action="/contact/">
-              <div class="form-group">
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" required placeholder="John Smith" value="<%= formData.name || '' %>">
-              </div>
-              <div class="form-group">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" required placeholder="you@example.com" value="<%= formData.email || '' %>">
-              </div>
-              <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" placeholder="(555) 555-5555" value="<%= formData.phone || '' %>">
-              </div>
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="county">County</label>
-                  <input type="text" id="county" name="county" placeholder="e.g. Cobb County" value="<%= formData.county || county || '' %>">
-                </div>
-                <div class="form-group">
-                  <label for="state">State</label>
-                  <input type="text" id="state" name="state" placeholder="e.g. Georgia" value="<%= formData.state || state || '' %>">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="animal">What animal do you have?</label>
-                <select id="animal" name="animal">
-                  <option value="">Select animal...</option>
-                  <option <%= formData.animal === 'Raccoon' ? 'selected' : '' %>>Raccoon</option>
-                  <option <%= formData.animal === 'Squirrel' ? 'selected' : '' %>>Squirrel</option>
-                  <option <%= formData.animal === 'Bat' ? 'selected' : '' %>>Bat</option>
-                  <option <%= formData.animal === 'Snake' ? 'selected' : '' %>>Snake</option>
-                  <option <%= formData.animal === 'Groundhog / Mole' ? 'selected' : '' %>>Groundhog / Mole</option>
-                  <option <%= formData.animal === 'Bird' ? 'selected' : '' %>>Bird</option>
-                  <option <%= formData.animal === 'Other' ? 'selected' : '' %>>Other</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="message">Describe the issue</label>
-                <textarea id="message" name="message" rows="4" placeholder="Where is the animal? Attic, crawlspace, yard? Any damage?"><%= formData.message || '' %></textarea>
-              </div>
-              <button type="submit" class="btn-submit">Send My Request</button>
-            </form>
-          <% } %>
-
+</section>
+<section class="section">
+  <div class="container" style="max-width:640px">
+    ${(typeof sent !== 'undefined' && sent) ? `
+      <div class="fieldnotes">
+        <p class="kicker">Message sent</p>
+        <h2 style="margin-top:0">Thanks — we got it.</h2>
+        <p>We received your message and will be in touch shortly. If the animal is in your living space right now, call us at <a href="tel:${pro.phoneE164}">${pro.phoneDisplay}</a> instead of waiting on a reply.</p>
+        <p><a href="/">Back to the homepage</a></p>
+      </div>` : `
+      ${(typeof error !== 'undefined' && error) ? `<p style="color:#a33;font-weight:600">${P.esc(error)}</p>` : ''}
+      <form class="lead-form" method="POST" action="/contact/">
+        <div class="lead-row">
+          <label><span>Your name</span><input type="text" name="name" required autocomplete="name" value="${P.esc(fd.name || '')}"></label>
+          <label><span>Email</span><input type="text" name="email" required autocomplete="email" value="${P.esc(fd.email || '')}"></label>
         </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <p style="margin:0 0 6px;">Wildlife removal company? <a href="/list-your-business/" style="color:inherit;text-decoration:underline;">List your business</a> for exclusive county leads.</p>
-      <p>&copy; <%= new Date().getFullYear() %> RemoveWildlifeNow.com &mdash; Connecting homeowners with licensed wildlife removal professionals nationwide.</p>
-    </div>
-  </footer>
-
-  <%- include('_mobile-call') %>
-</body>
-</html>
+        <label><span>Phone</span><input type="tel" name="phone" autocomplete="tel" value="${P.esc(fd.phone || '')}"></label>
+        <div class="lead-row">
+          <label><span>County</span><input type="text" name="county" placeholder="e.g. Cobb County" value="${P.esc(fd.county || (typeof county !== 'undefined' ? county : '') || '')}"></label>
+          <label><span>State</span><input type="text" name="state" placeholder="e.g. Georgia" value="${P.esc(fd.state || (typeof state !== 'undefined' ? state : '') || '')}"></label>
+        </div>
+        <label><span>What animal do you have?</span>
+          <select name="animal">
+            <option value="">Not sure / select…</option>
+            ${['Raccoon','Squirrel','Bat','Rat or Mouse','Snake','Armadillo','Groundhog / Mole','Bird','Skunk','Opossum','Dead animal','Other'].map(a => `<option ${fd.animal === a ? 'selected' : ''}>${a}</option>`).join('')}
+          </select>
+        </label>
+        <label><span>Describe the issue</span><textarea name="message" rows="4" placeholder="Where is the animal? Attic, crawlspace, yard? Any damage?">${P.esc(fd.message || '')}</textarea></label>
+        <button type="submit" class="lead-btn">Send my message</button>
+        <p class="lead-fine">Your details come only to us — we do the work.</p>
+      </form>`}
+  </div>
+</section>`;
+%><%- include('layout', { title, metaDesc, canonical, body }) %>

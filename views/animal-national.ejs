@@ -1,207 +1,68 @@
 <%
+  const P = present;
   const pageUrl = 'https://www.removewildlifenow.com/services/' + animal.slug + '/';
-  const title = content.metaTitle;
-  const metaDesc = content.metaDescription;
   const canonical = '/services/' + animal.slug + '/';
-  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
-
-  const schema = JSON.stringify({
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        "@id": pageUrl + "#breadcrumb",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.removewildlifenow.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.removewildlifenow.com/" },
-          { "@type": "ListItem", "position": 3, "name": animal.name }
-        ]
-      },
-      {
-        "@type": "WebPage",
-        "@id": pageUrl + "#webpage",
-        "url": pageUrl,
-        "name": title,
-        "description": metaDesc,
-        "isPartOf": { "@id": "https://www.removewildlifenow.com/#website" },
-        "breadcrumb": { "@id": pageUrl + "#breadcrumb" },
-        "about": { "@id": pageUrl + "#service" },
-        "inLanguage": "en-US",
-        "primaryImageOfPage": ogImage
-      },
-      {
-        "@type": "Service",
-        "@id": pageUrl + "#service",
-        "name": animal.name,
-        "serviceType": animal.name,
-        "provider": { "@id": "https://www.removewildlifenow.com/#organization" },
-        "areaServed": { "@type": "Country", "name": "United States" },
-        "description": animal.shortDesc,
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": animal.name + " Services",
-          "itemListElement": animal.services.map(function(svc) {
-            return { "@type": "Offer", "itemOffered": { "@type": "Service", "name": svc } };
-          })
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": pageUrl + "#faq",
-        "mainEntity": content.faqs.map(function(f) {
-          return { "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } };
-        })
-      }
-    ]
-  });
-
-  const extraHead = `
-    <meta property="og:type" content="article">
-    <meta property="og:site_name" content="RemoveWildlifeNow.com">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:url" content="${pageUrl}">
-    <meta property="og:title" content="${title}">
-    <meta property="og:description" content="${metaDesc}">
-    <meta property="og:image" content="${ogImage}">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="${title}">
-    <meta name="twitter:description" content="${metaDesc}">
-    <meta name="twitter:image" content="${ogImage}">
-
-    <meta name="robots" content="index, follow">
-  `;
-
-  // States with an indexable state-animal page link DOWN to /{state}/{animal}/
-  // with localized anchor text ("Georgia Raccoon Removal"); the rest keep their
-  // state-hub link. stateAnimalIndexed is a Set of state names (may be undefined
-  // on older callers — guard for safety).
-  const _saIndexed = (typeof stateAnimalIndexed !== 'undefined' && stateAnimalIndexed) ? stateAnimalIndexed : new Set();
-  const stateLinks = states.map(s => _saIndexed.has(s)
-    ? '<li><a href="/' + toSlug(s) + '/' + animal.slug + '/">' + s + ' ' + animal.name + '</a></li>'
-    : '<li><a href="/' + toSlug(s) + '/">' + s + '</a></li>'
-  ).join('');
-%>
-<%- include('layout', { title, metaDesc, canonical, schema, extraHead, body: `
-
-<nav class="breadcrumb">
+  const C = content || {};
+  const animalName = animal.name.replace(/ Removal$/, '');
+  const title = animalName + ' Removal — Signs, Costs & How the Job Runs | RemoveWildlifeNow';
+  const metaDesc = animal.shortDesc + ' Signs, typical costs, humane methods, and how a ' + animalName.toLowerCase() + ' job runs in Georgia and Tennessee. Call ' + pro.phoneDisplay + '.';
+  const faqs = (Array.isArray(C.faqs) ? C.faqs : []).map(f => ({ q: P.scrubVoice(f.q), a: P.scrubVoice(f.a) }));
+  const asHtml = (t) => !t ? '' : (String(t).includes('<') ? P.scrubVoice(String(t)) : String(t).split(/\n\s*\n/).map(p => `<p style="max-width:48em">${P.esc(P.scrubVoice(p))}</p>`).join(''));
+  const covered = (states || []).filter(s => s.hasStateAnimalPage);
+  const schemaObj = { "@context": "https://schema.org", "@graph": [
+    P.serviceSchema({ pro, pageUrl, serviceType: animal.name, areaName: 'Georgia and Tennessee' }),
+    ...(P.faqSchema(faqs) ? [P.faqSchema(faqs)] : [])
+  ]};
+  const schema = JSON.stringify(schemaObj);
+  const body = `
+<section class="hero">
   <div class="container">
-    <a href="/">Home</a> &rsaquo; <span>${animal.name}</span>
-  </div>
-</nav>
-
-<section class="page-hero">
-  <div class="container">
-    <div class="hero-badge">Nationwide ${animal.name}</div>
-    <h1><span aria-hidden="true">${animal.emoji}</span> ${animal.name} — Find a Licensed Local Trapper</h1>
-    <p>${animal.shortDesc}</p>
+    ${P.crumbsHtml([{label:'Home', href:'/'}, {label:'Animals'}, {label: animalName}])}
+    <p class="kicker">${P.esc(animal.name)} · Species: ${P.esc(animal.species)}</p>
+    <h1>${P.esc(animalName)} removal, done properly</h1>
+    <p class="lede">${P.esc(animal.shortDesc)}</p>
+    <div class="btnrow">
+      <a class="btn" href="tel:${pro.phoneE164}">Call ${pro.phoneDisplay}</a>
+      <a class="btn alt" href="/problems/">Not sure it&rsquo;s ${P.esc(animal.plural.toLowerCase())}? Start with the problem</a>
+    </div>
+    <figure class="hero-photo"><img src="/images/animal-${animal.slug}.webp" alt="${P.esc(animalName)}" loading="lazy" onerror="this.parentNode.style.display='none'"></figure>
   </div>
 </section>
 
-<section class="counties-section">
+<section class="section">
   <div class="container">
-    <div class="section-header">
-      <h2>Other Wildlife Services</h2>
-    </div>
-    <ul class="counties-grid">
-      ${ANIMALS.filter(a => a.slug !== animal.slug).map(a => '<li><a href="/services/' + a.slug + '/">' + a.emoji + ' ' + a.name + '</a></li>').join('')}
+    ${asHtml(C.intro)}
+    ${asHtml(C.extendedBody)}
+
+    <p class="kicker">Signs</p>
+    <h2>Signs ${P.esc(animal.plural.toLowerCase())} have moved in</h2>
+    <ul class="signs">
+      ${(animal.signs || []).map(s => `<li>${P.esc(s)}</li>`).join('')}
     </ul>
-  </div>
-</section>
 
-<section class="county-content">
-  <div class="container">
-    <h2>${animal.name} in the United States</h2>
-    <p>${content.intro}</p>
-  </div>
-</section>
-
-<section class="cta-section">
-  <div class="container">
-    <div class="cta-box">
-      <h2>${animal.name} — Find Your Local Contractor</h2>
-      <p class="cta-sub">Click your state below to find the licensed contractor in your county.</p>
-      <div class="phone-wrap">
-        <a class="llp-phone phone-cta" href="tel:+18445443498">
-          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-          (844) 544-3498
-        </a>
-      </div>
-      <p class="cta-note">Or browse by state below to find a verified local contractor.</p>
-      <div class="cta-badges">
-        <span class="cta-badge">Licensed &amp; Insured</span>
-        <span class="cta-badge">Same-Day Available</span>
-        <span class="cta-badge">Humane Methods</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="services-section">
-  <div class="container">
-    ${animal.slug === 'opossum-removal' ? '<div class="section-photo-banner"><img src="/images/hero11.webp" width="1440" height="1920" alt="Virginia opossum in autumn tree — find a licensed possum removal contractor near you" loading="lazy" class="banner-img">' : ''}
-    <h2>${animal.name} Services Available</h2>
-    <p class="section-sub">${animal.urgency}</p>
-    ${animal.slug === 'opossum-removal' ? '</div>' : ''}
-    <div class="service-cards">
-      <div class="service-card featured">
-        <span class="card-badge">Signs You Have ${animal.plural}</span>
-        <span class="card-icon">${animal.emoji}</span>
-        <h3>Warning Signs</h3>
-        <p>${animal.season}</p>
-        <ul class="card-list">
-          ${animal.signs.map(s => '<li>' + s + '</li>').join('')}
-        </ul>
-      </div>
-      <div class="service-card">
-        <span class="card-icon">🛠️</span>
-        <h3>What Professionals Do</h3>
-        <p>Licensed contractors handle every aspect of ${animal.name.toLowerCase()} — capture, exclusion, sanitation, repair.</p>
-        <ul class="card-list">
-          ${animal.services.map(s => '<li>' + s + '</li>').join('')}
-        </ul>
-      </div>
-    </div>
-    ${animal.slug === 'raccoon-removal' ? '<div style="margin-top:32px;text-align:center;"><img src="/images/raccoon-hero1.webp" width="1600" height="1066" alt="Adult raccoon (Procyon lotor) on a residential wooden deck — licensed local raccoon removal contractors for attic exclusion, humane trapping, sanitation, and entry-point repair near you" title="Raccoon removal near me — find a licensed local raccoon trapper and exclusion contractor" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;"></div>' : ''}
-    ${animal.slug === 'squirrel-removal' ? '<div style="margin-top:32px;text-align:center;"><img src="/images/squirrel-hero1.webp" width="1920" height="1280" alt="Eastern gray squirrel (Sciurus carolinensis) on a residential roof gutter — licensed local squirrel removal contractors for attic exclusion, humane trapping, chewed-wire repair, and entry-point sealing near you" title="Squirrel removal near me — find a licensed local squirrel trapper and attic exclusion contractor" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;"></div>' : ''}
-    ${animal.slug === 'snake-removal' ? '<div style="margin-top:32px;text-align:center;"><img src="/images/snake-hero1.webp" width="1600" height="1066" alt="Common garter snake (Thamnophis sirtalis) in a residential yard — licensed local snake removal contractor for venomous and non-venomous snake identification, humane relocation, copperhead removal, and yard exclusion near you" title="Snake removal near me — find a licensed local snake identification and removal contractor" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;"></div>' : ''}
-    ${animal.slug === 'bat-removal' ? '<div style="margin-top:32px;text-align:center;"><img src="/images/bat-hero1.webp" width="1200" height="1600" alt="Big brown bat (Eptesicus fuscus) safely handled during a residential bat exclusion job — licensed local bat removal contractor for chimney and attic bat colony exclusion, maternity-season-aware timing, guano remediation, and Georgia DNR-compliant work near you" title="Bat removal near me — find a licensed local bat exclusion and chimney/attic colony contractor" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;"></div>' : ''}
-  </div>
-</section>
-
-<section class="county-content">
-  <div class="container">
-    ${content.extendedBody}
-  </div>
-</section>
-
-<section class="county-content" style="background:#f8fafc;">
-  <div class="container">
-    <h2>${animal.name} Cost</h2>
-    <p style="font-size:1.5rem;font-weight:700;color:var(--primary);margin:0 0 8px;">${animal.costRange}</p>
-    <p style="color:#6b7280;margin:0;">${animal.costNote} Pricing varies by region, contractor, and severity. Each contractor in our directory provides free property-specific estimates.</p>
-  </div>
-</section>
-
-<section class="counties-section" style="background:var(--green-light);border-top:1px solid var(--green-border);">
-  <div class="container">
-    <div class="section-header">
-      <h2>Find a Licensed ${animal.name} Contractor by State</h2>
-      <p>Click your state to find the contractor serving your county.</p>
-    </div>
-    <ul class="counties-grid">
-      ${stateLinks}
+    <p class="kicker">The work</p>
+    <h2>How a ${P.esc(animalName.toLowerCase())} job runs</h2>
+    <p style="max-width:48em">${P.esc(animal.process)}</p>
+    <ul class="signs">
+      ${(animal.services || []).map(s => `<li>${P.esc(s)}</li>`).join('')}
     </ul>
-  </div>
-</section>
+    <p style="max-width:48em">${P.esc(animal.urgency)}</p>
 
-<section class="county-content">
-  <div class="container">
-    <h2>Frequently Asked Questions — ${animal.name}</h2>
-    <div style="display:flex;flex-direction:column;gap:16px;margin-top:16px;">
-      ${content.faqs.map((f, i) => '<details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;"' + (i === 0 ? ' open' : '') + '><summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">' + f.q + '<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary><div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">' + f.a + '</div></details>').join('')}
+    <table class="costtable">
+      <tr><th>Job</th><th>Typical range</th></tr>
+      <tr><td>${P.esc(animal.name)} — typical job</td><td class="price">${P.esc(animal.costRange)}</td></tr>
+    </table>
+    <p class="fineprint">General guidance from typical work — not a quote. Your price is set after inspection, before work starts.</p>
+
+    ${covered.length ? `<p class="kicker">Where we do this work</p><h2>${P.esc(animalName)} removal near you</h2><div class="chips">${covered.map(s => `<a class="chip" href="/${s.stateSlug}/${animal.slug}/">${P.esc(animalName)} removal in ${P.esc(s.stateName)}</a>`).join('')}</div>` : ''}
+
+    ${P.callCard(pro, { heading: animalName + ' problem? One call.' })}
+    ${P.faqSection(faqs, animalName + ' questions')}
+
+    <h2>Other animals we remove</h2>
+    <div class="chips">
+      ${ANIMALS.filter(a => a.slug !== animal.slug).map(a => `<a class="chip" href="/services/${a.slug}/">${P.esc(a.name)}</a>`).join('')}
     </div>
   </div>
-</section>
-
-` }) %>
+</section>`;
+%><%- include('layout', { title, metaDesc, canonical, schema, body }) %>
