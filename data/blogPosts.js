@@ -74,7 +74,7 @@ const BLOG_POSTS = [
 <h2>What to Do Right Now</h2>
 <p>If you're hearing the noises this spring and you think you have baby raccoons in your Macon attic or raccoon babies in your chimney, the responsible move is a licensed inspection before you do anything else. Don't seal. Don't trap. Don't try eviction fluid on your own during active whelping — it can shift the mother to a worse den site inside the same structure if you don't already know her backup options. A same-day inspection identifies the entry points, confirms kit stage, and lets the contractor build the right reunion protocol for your specific situation.</p>
 
-<p><a href="/georgia/macon/raccoon-removal/" style="font-weight:600;">See full Bibb County raccoon removal service details, pricing ranges by submarket, and the rest of what to know</a>, or call <strong>(404) 738-9764</strong> for an immediate inspection on your Macon-Bibb property. Same-day service is the norm during whelping season.</p>
+<p><a href="/georgia/macon/raccoon-removal/" style="font-weight:600;">See full Bibb County raccoon removal service details, pricing ranges by submarket, and the rest of what to know</a>, or call <strong>(844) 544-3498</strong> for an immediate inspection on your Macon-Bibb property. Same-day service is the norm during whelping season.</p>
 `
   },
   {
