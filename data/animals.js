@@ -126,6 +126,18 @@ const ANIMALS = [
     costRange: '$200–$600+', costNote: 'Initial trapping treatment. Ongoing seasonal programs run $100–$300+/month.'
   },
   {
+    slug: 'armadillo-removal',
+    name: 'Armadillo Removal',
+    plural: 'Armadillos',
+    emoji: '🦔',
+    shortDesc: 'Nine-banded armadillos root up lawns hunting grubs and dig burrows under driveways, porches, and foundations — tearing up yards overnight.',
+    signs: ['Shallow holes and rooted-up patches across the lawn', 'Burrow entrances under porches, decks, or driveways', 'Uprooted sod and damaged flower beds', 'Cracked or settling concrete near burrows', 'Armadillo sightings at dusk or after dark'],
+    services: ['Live trapping and removal', 'Burrow location and closure', 'Yard damage assessment', 'Exclusion barriers for repeat areas', 'Grub-pressure reduction advice'],
+    urgency: 'An armadillo can root up a lawn in a single night, and burrows under concrete cause settling and cracks. Armadillos can also carry disease, so they should never be handled directly.',
+    season: 'Armadillos are active year-round in Georgia. Lawn damage peaks spring through fall when soil is soft and grubs are plentiful, and females raise litters in burrows in summer.',
+    costRange: '$250–$600+', costNote: 'Trapping program for a property. Burrow closure and exclusion barriers additional.'
+  },
+  {
     slug: 'dead-animal-removal',
     name: 'Dead Animal Removal',
     plural: 'Dead Animals',
