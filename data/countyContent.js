@@ -7,6 +7,8 @@ const vermontData       = require('./states/vermont/counties.json');
 const rhodeIslandData   = require('./states/rhode-island/counties.json');
 const georgiaData       = require('./states/georgia/counties.json');
 const tennesseeData     = require('./states/tennessee/counties.json');
+const maineData         = require('./states/maine/counties.json');
+const massachusettsData = require('./states/massachusetts/counties.json');
 
 // Registry: state name → county data file
 const stateRegistry = {
@@ -17,6 +19,8 @@ const stateRegistry = {
   'Rhode Island':  rhodeIslandData,
   'Georgia':       georgiaData,
   'Tennessee':     tennesseeData,
+  'Maine':         maineData,
+  'Massachusetts': massachusettsData,
 };
 
 // ---- helpers ----
@@ -52,7 +56,7 @@ function delawareContent(countyName, county, s) {
   }
 
   const blockD = `Wildlife intrusion in ${countyName} follows Delaware's two main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}, meaning problems that might subside in colder northern states often continue through winter here.`;
-  const blockE = `All wildlife removal in Delaware is overseen by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds the applicable state permits and adheres to ${s.agency_short} guidelines on species handling and relocation.`;
+  const blockE = `All wildlife removal in Delaware is overseen by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network operates under a Division nuisance-control permit with a Division-certified operator on staff and adheres to ${s.agency_short} guidelines on species handling.`;
 
   return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription };
 }
@@ -122,7 +126,7 @@ function connecticutContent(countyName, county, s) {
   }
 
   const blockD = `Wildlife intrusion in ${countyName} follows Connecticut's two primary pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor} — and older New England homes with their balloon-frame construction and stone foundations give wildlife more entry opportunities than newer builds elsewhere in the country.`;
-  const blockE = `All commercial wildlife removal in Connecticut is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds a valid CT NWCO permit and follows CT DEEP Wildlife Division protocols on species-specific handling and relocation requirements.`;
+  const blockE = `All commercial wildlife removal in Connecticut is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds a valid CT NWCO license and follows CT DEEP Wildlife Division protocols on species-specific handling; Connecticut prohibits relocating rabies-vector species, so animals are evicted, released on site, or dispatched under DEEP rules.`;
 
   return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription };
 }
@@ -206,7 +210,7 @@ function newHampshireContent(countyName, county, s) {
   }
 
   const blockD = `Wildlife intrusion in ${countyName} follows New Hampshire's three main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
-  const blockE = `All commercial wildlife trapping in New Hampshire is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds a valid NH Wildlife Control Operator license and operates in compliance with NH Fish and Game protocols on species-specific handling and relocation.`;
+  const blockE = `All commercial wildlife trapping in New Hampshire is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds a valid NH Wildlife Control Operator license (Level II, the level required for work done for hire) and operates in compliance with NH Fish and Game protocols on species-specific handling.`;
 
   return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription };
 }
@@ -227,11 +231,11 @@ function vermontContent(countyName, county, s) {
     blockB = `Vacation properties along Mount Equinox and through the ski resort towns see heavy bat colony pressure in roof and wall cavities — older second homes with masonry gaps and unscreened soffits provide ideal roost sites, and overwintering rodents are equally persistent in the same structures during long off-season vacancies. Porcupines are an established nuisance at outbuildings, deck boards, and wooden vehicle components throughout the rural towns — a species that causes significant structural damage and is more common here than in the more open Champlain Valley counties. Raccoons, striped skunks, and fishers complete the county's regular nuisance picture, and Norway rats are a steady issue in Bennington's older commercial blocks. ${cap(county.absent_or_rare)}.`;
     blockC = `Service covers Bennington, Manchester, Pownal, Arlington, and Dorset, along with the ski-area communities in the county's eastern portion. Albany, NY is about 35 miles west and is the nearest outside metro center.`;
     metaTitle = `Bennington County Wildlife Control — Manchester, VT & Southwest Vermont`;
-    metaDescription = `Wildlife removal in Bennington County, VT. Bats, porcupines, and raccoons in the Manchester area and Battenkill valley. Vermont Fish & Wildlife certified contractors.`;
+    metaDescription = `Wildlife removal in Bennington County, VT. Bats, porcupines, and raccoons in the Manchester area and Battenkill valley. Nuisance work by licensed Vermont trappers.`;
 
   } else if (countyName === 'Caledonia County') {
     blockA = `St. Johnsbury serves as the commercial hub for the Northeast Kingdom's western flank, and Caledonia County radiates outward from it into rolling forested hills, small farms, and working timberlands that define this stretch of northeastern Vermont. Established in ${county.established} with a current population of ${county.population.toLocaleString()}, the county spans between the Connecticut River valley on its eastern edge and Groton State Forest and Willoughby State Forest to the north. Burlington is about 75 miles to the west — distant enough that the region functions largely as its own rural economy.`;
-    blockB = `Working timberland defines Caledonia County's character and its residential wildlife pressure profile. Older farmhouses and barns throughout the Northeast Kingdom routinely host little brown bat colonies through the summer maternity season, and raccoon families in outbuildings are a persistent year-round issue. Fishers cause regular chicken-coop predation and damage to remote outbuildings throughout Lyndon, Hardwick, and Danville — a service call profile distinct from southern Vermont. Beaver dams flood culverts, driveways, and low-lying farmland across the county, and ongoing dam management is a steady part of the local contractor workload. Porcupines target wooden deck boards and outbuildings at camps and rural homes, and red squirrels chew their way into attics throughout the older housing stock. ${cap(county.absent_or_rare)}.`;
+    blockB = `Working timberland defines Caledonia County's character and its residential wildlife pressure profile. Older farmhouses and barns throughout the Northeast Kingdom host bat colonies through the summer maternity season — small colonies now, since white-nose syndrome collapsed the region's little brown bat population, and every roost is handled as protected — and raccoon families in outbuildings are a persistent year-round issue. Fishers cause regular chicken-coop predation and damage to remote outbuildings throughout Lyndon, Hardwick, and Danville — a service call profile distinct from southern Vermont. Beaver dams flood culverts, driveways, and low-lying farmland across the county, and ongoing dam management is a steady part of the local contractor workload. Porcupines target wooden deck boards and outbuildings at camps and rural homes, and red squirrels chew their way into attics throughout the older housing stock. ${cap(county.absent_or_rare)}.`;
     blockC = `Contractors serve St. Johnsbury, Lyndon, Hardwick, Danville, and Barnet, along with the rural townships throughout the county. Burlington is about 75 miles west, making locally based coverage the only practical option for timely response.`;
     metaTitle = `Northeast Kingdom Wildlife Removal | Caledonia County, VT`;
     metaDescription = `Licensed wildlife removal in Caledonia County, VT. Fishers, porcupines, beavers, and bat colonies in the Northeast Kingdom — serving St. Johnsbury, Lyndon, and Hardwick.`;
@@ -315,7 +319,7 @@ function vermontContent(countyName, county, s) {
   }
 
   const blockD = `Wildlife intrusion in ${countyName} follows Vermont's three main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
-  const blockE = `All commercial wildlife removal in Vermont is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds a valid Vermont NWCO certification and operates within Vermont Fish and Wildlife guidelines on species-specific handling and relocation.`;
+  const blockE = `All commercial wildlife removal in Vermont is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds a valid Vermont trapping license — the credential Vermont requires for compensated nuisance trapping — and operates within Vermont Fish and Wildlife guidelines on species-specific handling.`;
 
   return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription };
 }
@@ -361,7 +365,7 @@ function rhodeIslandContent(countyName, county, s) {
   }
 
   const blockD = `Wildlife intrusion in ${countyName} follows Rhode Island's two main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
-  const blockE = `All commercial wildlife removal in Rhode Island is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds a valid Rhode Island Nuisance Wildlife Control permit and operates within RI DEM Fish and Wildlife guidelines on species-specific handling and relocation.`;
+  const blockE = `All commercial wildlife removal in Rhode Island is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. Every contractor in our network holds a valid Rhode Island Nuisance Wildlife Control Specialist (NWCS) permit and operates within RI DEM Fish and Wildlife guidelines on species-specific handling; live-caught animals are released on site or humanely dispatched — Rhode Island does not allow relocation.`;
 
   return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription };
 }
@@ -2904,6 +2908,49 @@ function tennesseeContent(countyName, county, s) {
   return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription, heroIntro, extendedBody, faqs, neighboringCounties, geo, sameAs, testimonials, lastUpdated, contractor };
 }
 
+// ---- Generic builder (national expansion states) ----
+// Composes county content from the rich counties.json fields for states
+// without a bespoke per-county builder. Phrasing rotates deterministically
+// by county so same-state county pages don't read as one template, and the
+// substance comes from each county's own data (features, habitat, wildlife).
+function genericStateContent(stateName, stateAbbr, credentialLine) {
+  return function (countyName, county, s) {
+    const seed = [...countyName].reduce((a, c) => a + c.charCodeAt(0), 0);
+    const pick = arr => arr[seed % arr.length];
+    const cities = county.largest_cities;
+    const top3 = cities.slice(0, 3).join(', ');
+    const top4 = cities.slice(0, 4).join(', ');
+    const features = county.natural_features.join(', ');
+    const animals = county.common_wildlife.slice(0, 5).join(', ');
+    const shortCounty = countyName.replace(/ County$/, '');
+
+    const blockA = pick([
+      `${countyName} is home to ${county.population.toLocaleString()} people, with ${county.county_seat} as its county seat. Established in ${county.established}, it covers ${county.region}. The landscape is defined by ${features} — the backdrop for most of the wildlife pressure homeowners here deal with.`,
+      `With a population of ${county.population.toLocaleString()}, ${countyName} covers ${county.region}, anchored by ${county.county_seat} (the county seat, established ${county.established}). ${cap(features)} shape the county's habitat and the animal problems that come with it.`,
+      `${county.county_seat} is the county seat of ${countyName}, a county of ${county.population.toLocaleString()} people spread across ${county.region}. The county dates to ${county.established}, and its defining natural features — ${features} — drive the local wildlife mix.`,
+    ]);
+    const blockB = pick([
+      `The ${county.habitat_type} of ${countyName} supports steady pressure from ${animals}. ${cap(county.regional_wildlife)}. ${cap(county.absent_or_rare)}.`,
+      `Homes here sit in ${county.habitat_type}, and the calls we run most in ${shortCounty} County involve ${animals}. ${cap(county.regional_wildlife)}. ${cap(county.absent_or_rare)}.`,
+    ]);
+    const blockC = pick([
+      `We cover all of ${countyName} — ${top4} and the communities in between. Call us and a local operator handles the job; nothing is handed off to a crew from out of the area.`,
+      `Our coverage runs across ${countyName}, including ${top4} and the smaller towns around them. Wherever in the county you are, one call reaches the crew that does the work.`,
+    ]);
+    const blockD = `Wildlife intrusion in ${countyName} follows ${stateName}'s main pressure windows: ${s.peak_intrusion_season}. ${s.climate_factor}.`;
+    const blockE = `All commercial wildlife removal in ${stateName} is regulated by the <strong>${s.agency}</strong>. ${s.permit_note}. ${credentialLine}`;
+    const metaTitle = `Wildlife Removal in ${countyName}, ${stateAbbr} — ${cities[0]}, ${cities[1]} & ${cities[2]}`;
+    const metaDescription = `Wildlife removal in ${countyName}, ${stateAbbr}: ${county.common_wildlife.slice(0, 4).join(', ')} — humane removal, exclusion and cleanup in ${top3}. Call (844) 544-3498.`;
+
+    return { blockA, blockB, blockC, blockD, blockE, metaTitle, metaDescription };
+  };
+}
+
+const maineContent = genericStateContent('Maine', 'ME',
+  'Every operator we send is an MDIFW-certified Animal Damage Control agent — Maine\u2019s certification for nuisance wildlife work — and holds a valid Maine trapping license.');
+const massachusettsContent = genericStateContent('Massachusetts', 'MA',
+  'Every operator we send is a MassWildlife-licensed Problem Animal Control (PAC) agent — the license Massachusetts requires for nuisance wildlife work done for hire.');
+
 // ---- main dispatcher ----
 function getCountyContent(stateName, countyName) {
   const stateData = stateRegistry[stateName];
@@ -2921,6 +2968,8 @@ function getCountyContent(stateName, countyName) {
   if (stateName === 'Rhode Island')  return rhodeIslandContent(countyName, county, s);
   if (stateName === 'Georgia')       return georgiaContent(countyName, county, s);
   if (stateName === 'Tennessee')     return tennesseeContent(countyName, county, s);
+  if (stateName === 'Maine')         return maineContent(countyName, county, s);
+  if (stateName === 'Massachusetts') return massachusettsContent(countyName, county, s);
 
   return null;
 }
