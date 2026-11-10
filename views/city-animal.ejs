@@ -1,361 +1,106 @@
 <%
+  const P = present;
+  const abbr = stateName === 'Georgia' ? 'GA' : stateName === 'Tennessee' ? 'TN' : '';
   const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + citySlug + '/' + animal.slug + '/';
-  // Canonical may redirect to a primary county for cities that straddle two
-  // indexed counties (set in server.js). Falls back to self when not provided.
-  const canonical = (typeof canonicalUrl !== 'undefined' && canonicalUrl) ? canonicalUrl : pageUrl;
-  const _authoredFaqs = (cityAnimalContent && cityAnimalContent.faqs) ? cityAnimalContent.faqs : [];
-  const _skipGeneric = !!(cityAnimalContent && cityAnimalContent.skipGenericFaqs);
-  const allFaqs = _skipGeneric ? _authoredFaqs : _authoredFaqs.concat(faqs || []);
-  const _primaryTitle = animal.name + ' in ' + cityName + ', ' + stateName + ' — Licensed Local Experts';
-  const pageTitle = (cityAnimalContent && cityAnimalContent.metaTitle)
-    ? cityAnimalContent.metaTitle
-    : (_primaryTitle.length <= 60 ? _primaryTitle : animal.name + ' in ' + cityName + ', ' + stateName);
-  const pageDesc = (cityAnimalContent && cityAnimalContent.metaDescription)
-    ? cityAnimalContent.metaDescription
-    : (cityAnimalContent && cityAnimalContent.intro
-        ? cityAnimalContent.intro.slice(0, 155).replace(/\s+\S*$/, '') + '…'
-        : (animal.name + ' in ' + cityName + ', ' + stateName + ' (' + countyName + '). ' + (animal.costRange ? 'Typical cost ' + animal.costRange + '. ' : '') + 'Licensed local contractor — humane methods, same-day service.'));
-  const ogImage = (cityAnimalContent && cityAnimalContent.ogImage)
-    || 'https://www.removewildlifenow.com/images/hero1.webp';
-  // Optional per-page override for og:title / twitter:title (separate from
-  // pageTitle which drives the <title> tag). Falls back to pageTitle when unset.
-  const socialTitle = (cityAnimalContent && cityAnimalContent.ogTitle) || pageTitle;
-  const seoEnhanced = !!(cityAnimalContent && cityAnimalContent.geo);
-  const stateRegion = stateName === 'Georgia' ? 'GA'
-    : stateName === 'Tennessee' ? 'TN'
-    : stateName === 'Delaware' ? 'DE'
-    : stateName === 'Connecticut' ? 'CT'
-    : stateName === 'New Hampshire' ? 'NH'
-    : stateName === 'Vermont' ? 'VT'
-    : stateName === 'Rhode Island' ? 'RI' : '';
-
-  // Contractor-aware phone + company name. Hoisted up here (rather than only in
-  // the body) so the LocalBusiness JSON-LD below can pull the same dynamic phone
-  // the on-page CTA uses — assigned contractor when LeadPortal returns one,
-  // central dispatch otherwise. The body re-uses these same variables.
-  const _phone = (countyContent && countyContent.contractor && countyContent.contractor.telephone)
-    ? countyContent.contractor.telephone
-    : '+18445443498';
-  const _phoneDisplay = formatPhone(_phone);
-  const _companyName = (countyContent && countyContent.contractor && countyContent.contractor.name)
-    ? countyContent.contractor.name
-    : null;
-%>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <%- include('_ga') %>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= pageTitle %></title>
-  <%# description emitted unescaped so a literal ampersand renders as "&" rather
-      than the "&amp;" produced by HTML-escaping. Mirrors og:title/twitter:title
-      and county.ejs. Safe: city-animal metaDescriptions contain no double-quotes. %>
-  <meta name="description" content="<%- pageDesc %>">
-  <link rel="canonical" href="<%= canonical %>">
-  <link rel="stylesheet" href="/css/style.css?v=<%= cssVersion %>">
-  <% if (!indexable) { %>
-  <meta name="robots" content="noindex, follow">
-  <% } else if (seoEnhanced) { %>
-  <meta name="robots" content="index, follow">
-  <% } %>
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="RemoveWildlifeNow.com">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:url" content="<%= pageUrl %>">
-  <meta property="og:title" content="<%- socialTitle %>">
-  <meta property="og:description" content="<%- pageDesc %>">
-  <meta property="og:image" content="<%= ogImage %>">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="<%- socialTitle %>">
-  <meta name="twitter:description" content="<%- pageDesc %>">
-  <meta name="twitter:image" content="<%= ogImage %>">
-
-  <% if (seoEnhanced) { %>
-  <!-- Geo -->
-  <meta name="geo.region" content="US-<%= stateRegion %>">
-  <meta name="geo.placename" content="<%= cityName %>, <%= stateName %>">
-  <meta name="geo.position" content="<%= cityAnimalContent.geo.lat %>;<%= cityAnimalContent.geo.lon %>">
-  <meta name="ICBM" content="<%= cityAnimalContent.geo.lat %>, <%= cityAnimalContent.geo.lon %>">
-
-  <% } %>
-
-  <%# Structured data: BreadcrumbList + Service (+ FAQPage when a visible FAQ
-      exists). Shared builder — lib/locationSchema.js + views/_location-schema.ejs.
-      Directory site: NO LocalBusiness / address / business geo / review markup.
-      Emitted on every page (not just seoEnhanced ones). %>
-  <%
-    const crumbs = buildCrumbs('city-animal', {
-      stateName, stateSlug, countyName, cityName,
-      // Link the city crumb only when the city hub is live; if it's noindex (404)
-      // the crumb renders as plain text instead of a broken link.
-      citySlug: (typeof hubIndexable !== 'undefined' && hubIndexable) ? citySlug : null,
-      serviceName: animal.name
-    });
-    // priceRange mirrors the visible cost section exactly (per-page override,
-    // else the animal default). Only set when the page actually shows a price.
-    const _visiblePrice = animal.costRange
-      ? ((cityAnimalContent && cityAnimalContent.costRangeOverride) || animal.costRange)
-      : null;
-    const service = {
-      serviceType: animal.name,
-      locationLabel: cityName + ', ' + stateName,
-      areaServed: [
-        { "@type": "City", "name": cityName + ", " + stateName },
-        { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
-      ],
-      providerName: _companyName || 'RemoveWildlifeNow.com',
-      providerPhone: _phone,
-      priceRange: _visiblePrice,
-      pageUrl: pageUrl,
-      description: pageDesc
-    };
-  %>
-  <%- include('_location-schema', { crumbs, pageUrl, service, faqs: allFaqs }) %>
-  <link rel="icon" href="https://www.removewildlifenow.com/favicon.png" sizes="180x180" type="image/png">
-</head>
-<body>
-  <%# _phone / _phoneDisplay / _companyName are declared in the head scriptlet
-      above (so the LocalBusiness JSON-LD can pull the same dynamic contractor
-      phone the on-page CTA uses). Body references those same variables. %>
-  <header>
-    <div class="container header-inner">
-      <a href="/" class="logo">RemoveWildlife<span>Now</span></a>
-      <nav class="header-nav">
-        <a href="/<%= stateSlug %>/"><%= stateName %></a>
-        <% if (typeof hubIndexable !== 'undefined' && hubIndexable) { %><a href="/<%= stateSlug %>/<%= citySlug %>/"><%= cityName %></a><% } else { %><span><%= cityName %></span><% } %>
-      </nav>
-      <a class="llp-phone header-phone" href="tel:<%= _phone %>">
-        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-        <%= _phoneDisplay %>
-      </a>
+  const canonical = (typeof canonicalUrl !== 'undefined' && canonicalUrl)
+    ? canonicalUrl.replace('https://www.removewildlifenow.com', '') : '/' + stateSlug + '/' + citySlug + '/' + animal.slug + '/';
+  const fillTokens = (s) => {
+    if (!s) return s;
+    let out = P.scrubVoice(String(s)
+      .replace(/\{\{\s*company\s*\}\}/g, pro.assigned ? pro.name : 'RemoveWildlifeNow')
+      .replace(/\{\{\s*phone\s*\}\}/g, pro.phoneDisplay));
+    if (pro.assigned) {
+      const dashed = pro.phoneE164.replace('+1', '').replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3');
+      out = out.split('(844) 544-3498').join(pro.phoneDisplay)
+               .split('+18445443498').join(pro.phoneE164)
+               .split('844-544-3498').join(dashed);
+    }
+    return out;
+  };
+  const C = composed || {};
+  const animalName = animal.name.replace(/ Removal$/, '');
+  const title = C.authoredMetaTitle ? fillTokens(C.authoredMetaTitle)
+    : animalName + ' in ' + cityName + ', ' + abbr + ' — Removal, Exclusion & Cleanup | RemoveWildlifeNow';
+  const metaDesc = C.authoredMetaDescription ? fillTokens(C.authoredMetaDescription)
+    : animalName + ' trouble in ' + cityName + '? Humane removal, entry points sealed, attic cleaned up. Same-day service — call ' + pro.phoneDisplay + '.';
+  const lede = C.authoredIntro || C.introFrame || (animal.shortDesc + ' In ' + cityName + ', we get them out, seal the way in, and clean up what they leave behind.');
+  const faqs = C.faqs || [];
+  const texture = C.texture;
+  const monthNow = new Date().getMonth() + 1;
+  const seasonNote = (seasonal && Array.isArray(seasonal.months) && seasonal.months.includes(monthNow)) ? seasonal : null;
+  const regionNote = (typeof animalRegionNote === 'string' && animalRegionNote) ? animalRegionNote : '';
+  const leadForm = include('_lead-form', { animalSlug: animal.slug });
+  const schemaObj = { "@context": "https://schema.org", "@graph": [
+    P.serviceSchema({ pro, pageUrl, serviceType: animal.name, areaName: cityName + ', ' + stateName }),
+    ...(P.faqSchema(faqs) ? [P.faqSchema(faqs)] : [])
+  ]};
+  const schema = JSON.stringify(schemaObj);
+  const body = `
+<section class="hero">
+  <div class="container">
+    ${P.crumbsHtml([{label:'Home', href:'/'}, {label: stateName, href:'/' + stateSlug + '/'}, {label: cityName, href:'/' + stateSlug + '/' + citySlug + '/'}, {label: animalName}])}
+    <p class="kicker">${P.esc(animal.name)} · ${P.esc(cityName)}, ${abbr}</p>
+    <h1>${P.esc(animalName)} trouble in ${P.esc(cityName)}?</h1>
+    <p class="lede">${fillTokens(lede)}</p>
+    <div class="btnrow">
+      <a class="btn" href="tel:${pro.phoneE164}">Call ${pro.phoneDisplay}</a>
+      <a class="btn alt" href="/${stateSlug}/${citySlug}/">All ${P.esc(cityName)} wildlife</a>
     </div>
-  </header>
-
-  <div class="trust-bar">
-    <div class="container trust-bar-inner">
-      <div class="trust-item">24/7 Emergency Response</div>
-      <div class="trust-item">Licensed &amp; Insured</div>
-      <div class="trust-item">Humane Methods</div>
-      <div class="trust-item">Local Experts</div>
-    </div>
+    <figure class="hero-photo"><img src="/images/animal-${animal.slug}.webp" alt="${P.esc(animalName)} — wildlife removal in ${P.esc(cityName)}" loading="lazy" onerror="this.parentNode.style.display='none'"></figure>
   </div>
+</section>
 
-  <main>
-    <%- include('_breadcrumb', { crumbs }) %>
+<section class="section">
+  <div class="container">
+    ${seasonNote ? `<div class="fieldnotes"><p class="kicker">Right now in ${P.esc(cityName)}</p><p><strong>${P.esc(P.scrubVoice(seasonNote.title))}.</strong> ${P.esc(P.scrubVoice(seasonNote.msg))}</p></div>` : ''}
 
-    <section class="page-hero page-hero-split">
-      <div class="container hero-split-grid">
-        <div class="hero-split-copy">
-          <div class="hero-badge"><%= cityName %>, <%= stateName %></div>
-          <h1><% if (!(cityAnimalContent && cityAnimalContent.hideHeroEmoji)) { %><span aria-hidden="true"><%= animal.emoji %></span> <% } %><%= (cityAnimalContent && cityAnimalContent.h1Override) || (animal.name + ' in ' + cityName) %></h1>
-          <p>Local licensed expert serving <%= cityName %> and all of <%= countyName %>. <%= animal.shortDesc %></p>
-          <a class="hero-split-call" href="tel:<%= _phone %>">📞 Call <%= _phoneDisplay %></a>
-        </div>
-        <%- include('_lead-form', { animalSlug: animal.slug }) %>
-      </div>
-    </section>
+    ${C.countyAnimalLead ? `<p style="max-width:48em">${fillTokens(C.countyAnimalLead)}</p>` : ''}
+    <p class="kicker">Signs</p>
+    <h2>How you know it&rsquo;s ${P.esc(animal.plural.toLowerCase())}</h2>
+    ${C.signsIntro ? `<p style="max-width:48em">${P.esc(C.signsIntro)}</p>` : ''}
+    <ul class="signs">
+      ${(C.signs || animal.signs || []).map(s => `<li>${P.esc(s)}</li>`).join('')}
+    </ul>
+    ${C.signsFrame ? `<p style="max-width:48em">${P.esc(C.signsFrame)}</p>` : ''}
 
-    <% if (cityAnimalContent && cityAnimalContent.intro) { %>
-    <section class="county-content">
-      <div class="container">
-        <h2><%= animal.plural %> in <%= cityName %>, <%= stateName %></h2>
-        <% if (cityAnimalContent.intro.trim().charAt(0) === '<') { %>
-        <%- cityAnimalContent.intro %>
-        <% } else { %>
-        <p><%- cityAnimalContent.intro %></p>
-        <% } %>
-      </div>
-    </section>
-    <% } %>
+    ${C.authoredBody ? fillTokens(C.authoredBody) : ''}
+    ${C.countyAnimalBody ? fillTokens(C.countyAnimalBody) : ''}
+    ${regionNote ? `<p style="max-width:48em">${fillTokens(regionNote)}</p>` : ''}
+    ${texture ? `<div class="fieldnotes"><p class="kicker">Field notes — ${P.esc(countyName)}</p><p>${P.esc(texture.terrain)}</p><p>${P.esc(texture.housing)}</p><p>${P.esc(texture.pressure)}</p></div>` : ''}
+    ${(C.cityNotes && (C.cityNotes.neighborhoods.length || C.cityNotes.housing || C.cityNotes.geo)) ? `<div class="fieldnotes"><p class="kicker">Around ${P.esc(cityName)}</p>${C.cityNotes.neighborhoods.length ? `<p><strong>Neighbourhoods we work:</strong> ${C.cityNotes.neighborhoods.map(n => P.esc(n)).join(' · ')}</p>` : ''}${C.cityNotes.housing ? `<p>${P.esc(fillTokens(C.cityNotes.housing))}</p>` : ''}${C.cityNotes.geo ? `<p>${P.esc(fillTokens(C.cityNotes.geo))}</p>` : ''}</div>` : ''}
+    ${(C.cityIntroParas || []).map(p => `<p style="max-width:48em">${fillTokens(p)}</p>`).join('')}
+    ${C.geoNote ? `<p style="max-width:48em">${P.esc(C.geoNote)}</p>` : ''}
 
-    <section class="cta-section">
-      <div class="container">
-        <div class="cta-box">
-          <% if (!(cityAnimalContent && cityAnimalContent.hideCtaH2)) { %><h2><%= animal.name %> — <%= cityName %>, <%= stateName %></h2><% } %>
-          <% if (_companyName) { %>
-          <p class="llp-company-name company-name"><%= _companyName %></p>
-          <% } else { %>
-          <p class="llp-company-name company-name" style="display:none;"></p>
-          <% } %>
-          <p class="cta-sub">Licensed local expert. Same-day and emergency service in <%= cityName %>.</p>
-          <div class="phone-wrap">
-            <a class="llp-phone phone-cta" href="tel:<%= _phone %>">
-              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-              <%= _phoneDisplay %>
-            </a>
-          </div>
-          <p class="cta-note llp-available-only">Serving <%= cityName %> and all of <%= countyName %>, <%= stateName %></p>
-          <% if (!indexable) { %>
-          <div class="no-contractor-section" id="no-contractor">
-            <h3><a href="tel:<%= _phone %>" style="color:inherit;text-decoration:none;"><%= _phoneDisplay %></a></h3>
-            <p>We're expanding. Contact us and we'll find <%= animal.name.toLowerCase() %> help in <%= cityName %> fast.</p>
-            <a href="/contact/?county=<%= encodeURIComponent(countyName) %>&state=<%= encodeURIComponent(stateName) %>" class="btn-contact">Contact Us for Help</a>
-          </div>
-          <% } %>
-          <div class="cta-badges">
-            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Licensed &amp; Insured</span>
-            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Same-Day Available</span>
-            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Humane Methods</span>
-          </div>
-        </div>
-      </div>
-    </section>
+    <p class="kicker">The work</p>
+    <h2>How we get ${P.esc(animal.plural.toLowerCase())} out of a ${P.esc(cityName)} home</h2>
+    <p style="max-width:48em">${P.esc(C.processText || animal.process)}</p>
+    ${C.processFrame ? `<p style="max-width:48em">${P.esc(C.processFrame)}</p>` : ''}
+    <ul class="signs">
+      ${(C.services || animal.services || []).map(s => `<li>${P.esc(s)}</li>`).join('')}
+    </ul>
+    ${C.localBridge ? `<p style="max-width:48em">${P.esc(C.localBridge)}</p>` : ''}
+    ${C.processCloser ? `<p style="max-width:48em">${P.esc(C.processCloser)}</p>` : ''}
 
-    <section class="services-section">
-      <div class="container">
-        <% if (animal.slug === 'opossum-removal') { %><div class="section-photo-banner"><img src="/images/hero11.webp" width="1440" height="1920" alt="Wild opossum spotted in <%= cityName %> yard — humane possum removal and prevention experts" loading="lazy" class="banner-img"><% } %>
-        <h2><%= animal.name %> in <%= cityName %> — What to Expect</h2>
-        <p class="section-sub"><%= animal.urgency %></p>
-        <% if (animal.slug === 'opossum-removal') { %></div><% } %>
-        <div class="service-cards">
-          <div class="service-card featured">
-            <span class="card-badge">Signs in <%= cityName %></span>
-            <span class="card-icon"><%= animal.emoji %></span>
-            <h3>Signs You Have <%= animal.plural %></h3>
-            <p><%= (cityAnimalContent && cityAnimalContent.seasonOverride) || animal.season %></p>
-            <ul class="card-list">
-              <% animal.signs.forEach(sign => { %>
-              <li><%= sign %></li>
-              <% }); %>
-            </ul>
-            <a class="llp-phone card-phone" href="tel:<%= _phone %>">
-              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-              <%= _phoneDisplay %>
-            </a>
-          </div>
-          <div class="service-card">
-            <span class="card-icon">🛠️</span>
-            <h3>Our Process in <%= cityName %></h3>
-            <p>Our local <%= countyName %> contractor serves all of <%= cityName %> using the same proven, humane process for every job.</p>
-            <ul class="card-list">
-              <% animal.services.forEach(svc => { %>
-              <li><%= svc %></li>
-              <% }); %>
-            </ul>
-            <a class="llp-phone card-phone" href="tel:<%= _phone %>">
-              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-              <%= _phoneDisplay %>
-            </a>
-          </div>
-        </div>
-        <% if (animal.slug === 'raccoon-removal') { %>
-        <div style="margin-top:32px;text-align:center;">
-          <img src="/images/raccoon-hero1.webp" width="1600" height="1066" alt="Adult raccoon (Procyon lotor) on a residential property in <%= cityName %>, <%= countyName %>, <%= stateName %> — licensed local raccoon removal contractor for attic exclusion, humane trapping, sanitation, and entry-point repair in <%= cityName %>" title="<%= cityName %> raccoon removal near me — licensed local raccoon trapper and exclusion contractor in <%= cityName %>, <%= stateName %>" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;">
-        </div>
-        <% } %>
-        <% if (animal.slug === 'squirrel-removal') { %>
-        <div style="margin-top:32px;text-align:center;">
-          <img src="/images/squirrel-hero1.webp" width="1920" height="1280" alt="Eastern gray squirrel (Sciurus carolinensis) on a residential roof gutter in <%= cityName %>, <%= countyName %>, <%= stateName %> — licensed local squirrel removal contractor for attic exclusion, humane trapping, chewed-wire repair, and entry-point sealing in <%= cityName %>" title="<%= cityName %> squirrel removal near me — licensed local squirrel trapper and attic exclusion contractor in <%= cityName %>, <%= stateName %>" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;">
-        </div>
-        <% } %>
-        <% if (animal.slug === 'snake-removal') { %>
-        <div style="margin-top:32px;text-align:center;">
-          <img src="/images/snake-hero1.webp" width="1600" height="1066" alt="<%= (cityAnimalContent && cityAnimalContent.heroImageAlt) || ('Eastern rat snake (Pantherophis alleghaniensis) in a residential yard in ' + cityName + ', ' + countyName + ', ' + stateName + ' — licensed local snake removal contractor for venomous and non-venomous snake identification, humane relocation, copperhead removal, and yard exclusion in ' + cityName) %>" title="<%= cityName %> snake removal near me — licensed local snake identification and removal contractor in <%= cityName %>, <%= stateName %>" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;">
-        </div>
-        <% } %>
-        <% if (animal.slug === 'bat-removal') { %>
-        <div style="margin-top:32px;text-align:center;">
-          <img src="/images/bat-hero1.webp" width="1200" height="1600" alt="Big brown bat (Eptesicus fuscus) safely handled during a residential bat exclusion job in <%= cityName %>, <%= countyName %>, <%= stateName %> — licensed local bat removal contractor for chimney and attic bat colony exclusion, maternity-season-aware timing, guano remediation, and Georgia DNR-compliant work in <%= cityName %>" title="<%= cityName %> bat removal near me — licensed local bat exclusion and chimney/attic colony contractor in <%= cityName %>, <%= stateName %>" loading="lazy" style="max-width:100%;max-height:640px;width:auto;height:auto;border-radius:12px;display:inline-block;">
-        </div>
-        <% } %>
-      </div>
-    </section>
+    <p class="kicker">Don&rsquo;t wait on it</p>
+    <h2>Why ${P.esc(animal.plural.toLowerCase())} get more expensive</h2>
+    <p style="max-width:48em">${P.esc(C.urgencyText || animal.urgency)}</p>
+    ${C.urgencyFrame ? `<p style="max-width:48em">${P.esc(C.urgencyFrame)}</p>` : ''}
+    ${C.waitRisk ? `<p style="max-width:48em">${P.esc(C.waitRisk)}</p>` : ''}
 
-    <% if (cityAnimalContent && cityAnimalContent.extendedBody) { %>
-    <section class="county-content">
-      <div class="container">
-        <%- cityAnimalContent.extendedBody %>
-      </div>
-    </section>
-    <% } %>
+    <p class="kicker">Cost</p>
+    <h2>What ${P.esc(animalName.toLowerCase())} removal runs in ${P.esc(cityName)}</h2>
+    ${C.costIntro ? `<p style="max-width:48em">${P.esc(C.costIntro)}</p>` : ''}
+    <table class="costtable">
+      <tr><th>Job</th><th>Typical range</th></tr>
+      <tr><td>${P.esc(animal.name)} — typical ${P.esc(cityName)} job</td><td class="price">${P.esc(animal.costRange)}</td></tr>
+    </table>
+    <p class="fineprint">General guidance from typical ${P.esc(stateName)} work — not a quote. Your price is set after we inspect your home, before work starts. ${stateName === 'Georgia' ? 'Full breakdown: <a href="/guides/wildlife-removal-cost-in-georgia/">what wildlife removal costs in Georgia</a>.' : 'See <a href="/guides/">our guides</a> for how pricing breaks down.'}</p>
 
-    <% if (seasonal) { %>
-    <section class="county-content" style="background:<%= seasonal.level === 'high' ? '#fff7ed' : seasonal.level === 'moderate' ? '#f0fdf4' : '#f8fafc' %>;border-top:3px solid <%= seasonal.level === 'high' ? '#f97316' : seasonal.level === 'moderate' ? '#22c55e' : '#94a3b8' %>;">
-      <div class="container">
-        <h2 style="color:<%= seasonal.level === 'high' ? '#c2410c' : seasonal.level === 'moderate' ? '#15803d' : '#475569' %>;margin-bottom:8px;">
-          <%= seasonal.level === 'high' ? '⚠️' : seasonal.level === 'moderate' ? '📅' : '📋' %> <%= seasonal.title %>
-        </h2>
-        <p><%= seasonal.msg %></p>
-      </div>
-    </section>
-    <% } %>
+    ${leadForm}
+    ${P.callCard(pro, { heading: animalName + ' in ' + cityName + ' — handled today' })}
+    ${P.faqSection(faqs, animalName + ' questions from ' + cityName + ' homeowners')}
 
-    <% if ((animalRegionNote || stateInfo) && !(cityAnimalContent && cityAnimalContent.extendedBody)) { %>
-    <section class="county-content">
-      <div class="container">
-        <h2><%= animal.name %> in <%= cityName %>, <%= stateName %> — Local Context</h2>
-        <% if (animalRegionNote) { %>
-        <p><%= animalRegionNote %></p>
-        <% } %>
-        <% if (stateInfo) { %>
-        <p>All wildlife removal in <%= stateName %> is regulated by the <strong><%= stateInfo.agency %></strong>. Our <%= cityName %> contractor is fully licensed under the <%= stateInfo.agency %> and uses only permitted, humane removal methods.</p>
-        <% } %>
-      </div>
-    </section>
-    <% } %>
-
-    <% if (animal.costRange) { %>
-    <section class="county-content" style="background:#f8fafc;">
-      <div class="container">
-        <h2><%= animal.name %> Cost in <%= cityName %></h2>
-        <p style="font-size:1.5rem;font-weight:700;color:var(--primary);margin:0 0 8px;"><%= (cityAnimalContent && cityAnimalContent.costRangeOverride) || animal.costRange %></p>
-        <p style="color:#6b7280;margin:0;"><%= (cityAnimalContent && cityAnimalContent.costNoteOverride) || animal.costNote %> Call for an estimate — pricing varies by contractor and job complexity.</p>
-      </div>
-    </section>
-    <% } %>
-
-    <% if (allFaqs && allFaqs.length) { %>
-    <section class="county-content">
-      <div class="container">
-        <h2>Frequently Asked Questions — <%= animal.name %> in <%= cityName %></h2>
-        <div style="display:flex;flex-direction:column;gap:16px;margin-top:16px;">
-          <% allFaqs.forEach(function(faq) { %>
-          <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
-            <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">
-              <%= faq.q %>
-              <span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span>
-            </summary>
-            <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;"><%- faq.a %></div>
-          </details>
-          <% }); %>
-        </div>
-      </div>
-    </section>
-    <% } %>
-
-    <% if (typeof moreAnimals !== 'undefined' && moreAnimals && moreAnimals.length) { %>
-    <section class="counties-section">
-      <div class="container">
-        <div class="section-header">
-          <h2>More Wildlife Services in <%= cityName %></h2>
-          <p>Your local contractor handles all wildlife removal needs</p>
-        </div>
-        <ul class="counties-grid">
-          <% moreAnimals.forEach(a => { %>
-          <li><a href="/<%= stateSlug %>/<%= citySlug %>/<%= a.slug %>/"><%= a.emoji %> <%= a.name %></a></li>
-          <% }); %>
-        </ul>
-      </div>
-    </section>
-    <% } %>
-  </main>
-
-  <footer>
-    <div class="container">
-      <p style="margin:0 0 6px;">Wildlife removal company? <a href="/list-your-business/" style="color:inherit;text-decoration:underline;">List your business</a> for exclusive county leads.</p>
-      <p>&copy; <%= new Date().getFullYear() %> RemoveWildlifeNow.com &mdash; Connecting homeowners with licensed wildlife removal professionals nationwide.</p>
-    </div>
-  </footer>
-
-  <script src="<%- embedScript %>"></script>
-
-  <%# Sticky mobile call CTA — reuses the top-of-body _phone / _phoneDisplay
-      that already gate every in-page anchor on the same contractor. %>
-  <%- include('_mobile-call', { phone: _phone, phoneDisplay: _phoneDisplay, leadForm: true }) %>
-</body>
-</html>
+    ${moreAnimals && moreAnimals.length ? `<h2>Other animals in ${P.esc(cityName)}</h2><div class="chips">${moreAnimals.map(a => `<a class="chip" href="/${stateSlug}/${citySlug}/${a.slug}/">${P.esc(a.name)}</a>`).join('')}</div>` : ''}
+  </div>
+</section>`;
+%><%- include('layout', { title, metaDesc, canonical, schema, body }) %>

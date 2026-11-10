@@ -1,304 +1,128 @@
 <%
-  const title = 'Wildlife Removal Directory | Find Local Contractors';
-  const metaDesc = 'Nationwide wildlife removal directory. Find licensed local contractors for raccoons, squirrels, rats, bats, snakes, and more — humane methods, same-day service.';
+  const title = 'Wildlife in the House? Georgia & Tennessee Wildlife Removal | RemoveWildlifeNow';
+  const metaDesc = 'Scratching in the attic, something in the wall, droppings overhead? Wildlife removal across Georgia and Tennessee — animals out, entry points sealed, attic cleaned up. Call (844) 544-3498.';
   const canonical = '/';
-  const ogImage = 'https://www.removewildlifenow.com/images/og-default.jpg';
-
+  const P = present;
+  const homeFaqs = [
+    { q: 'I hear scratching in my attic. What is it?', a: 'Daytime scratching is usually squirrels; heavy thumping and rolling sounds after dark point to raccoons; light scurrying at dusk is often rats or mice, and fluttering at dawn and dusk in summer can be bats. The noises page walks through each sound — or call us and describe it, and we will tell you what we think it is before anyone comes out.' },
+    { q: 'How fast can you get here?', a: 'We offer same-day service across our Georgia and Tennessee coverage areas, and we answer the phone 24/7. A live animal in the living space, a snake indoors, or a strong dead-animal smell gets treated as urgent.' },
+    { q: 'What does wildlife removal cost?', a: 'It depends on the animal, how it is getting in, and how much sealing and cleanup the job needs. Typical ranges for common jobs are in our Georgia cost guide — general guidance, not a quote. Your price is set after an inspection of your home, before work starts.' },
+    { q: 'Do you just trap, or do you keep them out?', a: 'Getting the animal out is only half the job. We seal the entry points it used, and we can clean and restore attic insulation it fouled. A removal without exclusion is a subscription to the same problem next season.' }
+  ];
   const schema = JSON.stringify({
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://www.removewildlifenow.com/#organization",
-        "name": "RemoveWildlifeNow.com",
-        "url": "https://www.removewildlifenow.com/",
-        "logo": "https://www.removewildlifenow.com/favicon.png",
-        "description": "Nationwide directory of licensed wildlife removal contractors. Connecting homeowners with local professionals for raccoons, squirrels, rats, bats, snakes, and more.",
-        "areaServed": { "@type": "Country", "name": "United States" },
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+1-844-544-3498",
-          "contactType": "customer service",
-          "areaServed": "US",
-          "availableLanguage": "English"
-        }
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://www.removewildlifenow.com/#website",
-        "url": "https://www.removewildlifenow.com/",
-        "name": "RemoveWildlifeNow.com",
-        "description": "Find licensed wildlife removal contractors near you.",
-        "publisher": { "@id": "https://www.removewildlifenow.com/#organization" },
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": {
-            "@type": "EntryPoint",
-            "urlTemplate": "https://www.removewildlifenow.com/?q={search_term_string}"
-          },
-          "query-input": "required name=search_term_string"
-        }
-      },
-      {
-        "@type": "WebPage",
-        "@id": "https://www.removewildlifenow.com/#webpage",
-        "url": "https://www.removewildlifenow.com/",
-        "name": title,
-        "description": metaDesc,
-        "isPartOf": { "@id": "https://www.removewildlifenow.com/#website" },
-        "about": { "@id": "https://www.removewildlifenow.com/#organization" },
-        "inLanguage": "en-US",
-        "primaryImageOfPage": ogImage
-      },
-      {
-        "@type": "Service",
-        "@id": "https://www.removewildlifenow.com/#service",
-        "name": "Wildlife Removal Directory Services",
-        "serviceType": "Wildlife Removal",
-        "provider": { "@id": "https://www.removewildlifenow.com/#organization" },
-        "areaServed": { "@type": "Country", "name": "United States" },
-        "description": "Connect with licensed wildlife removal contractors for raccoon removal, squirrel removal, rat control, bat exclusion, snake removal, opossum removal, and more across all 50 states.",
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Wildlife Removal Services",
-          "itemListElement": [
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Raccoon Removal" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Squirrel Removal" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Rat Removal" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bat Removal" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Snake Removal" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Opossum Removal" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bat Exclusion" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dead Animal Removal" } }
-          ]
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://www.removewildlifenow.com/#faq",
-        "mainEntity": [
-          { "@type": "Question", "name": "How does the wildlife removal directory work?", "acceptedAnswer": { "@type": "Answer", "text": "Click your state on the map, then drill down to your county to find the licensed wildlife removal contractor serving your area. Each county page lists the local professional plus information specific to your area's wildlife pressure, regulations, and seasonal patterns. One call connects you directly with a contractor who knows your local wildlife and the fastest legal solutions." } },
-          { "@type": "Question", "name": "How much does wildlife removal cost?", "acceptedAnswer": { "@type": "Answer", "text": "Most residential wildlife removal jobs run between $300 and $1,500+ depending on the species, the number of entry points to seal, whether babies are present, and how much sanitation and remediation is needed. Single-animal trap-and-release work sits at the lower end; multi-entry historic-home raccoon or bat exclusion with full guano remediation runs higher. Each contractor in our directory provides free property-specific estimates." } },
-          { "@type": "Question", "name": "What's the difference between wildlife removal and pest control?", "acceptedAnswer": { "@type": "Answer", "text": "Pest control focuses on insects and small rodents using chemicals and bait. Wildlife removal handles larger nuisance animals — raccoons, squirrels, bats, snakes, opossums, skunks — using trapping, exclusion, and structural sealing. Wildlife removal is licensed by state DNR/fish-and-wildlife agencies and operates under different legal protocols (especially for bats during maternity season and any rabies-vector species). For a raccoon in your attic or a bat colony in your chimney, you need a licensed wildlife removal contractor, not pest control." } },
-          { "@type": "Question", "name": "How do I find a licensed wildlife removal contractor near me?", "acceptedAnswer": { "@type": "Answer", "text": "Click your state on the map above, then select your county. The contractor listed is licensed under your state's DNR or fish-and-wildlife agency and holds the applicable trapping and nuisance-wildlife-control credentials. Every contractor in this directory is verified to operate legally in their service area." } },
-          { "@type": "Question", "name": "What animals do wildlife removal contractors handle?", "acceptedAnswer": { "@type": "Answer", "text": "The full range of residential nuisance wildlife: raccoons, squirrels (including flying squirrels), rats (Norway and roof rats), bats (with state-required maternity-season exclusion timing), snakes (venomous and non-venomous), opossums, skunks, groundhogs, moles, birds (pigeons, starlings, woodpeckers under federal Migratory Bird Treaty Act protocols), armadillos, and dead-animal removal from walls and crawlspaces." } },
-          { "@type": "Question", "name": "When can wildlife exclusion legally be done?", "acceptedAnswer": { "@type": "Answer", "text": "Most species have year-round exclusion windows, but bats are restricted: state DNR regulations across the U.S. typically restrict bat exclusion during the maternity season (May through August in most regions) when non-flying pups would be trapped inside the structure if exclusion went forward. The two safe windows are typically April and September through mid-October. Raccoon and squirrel exclusion is best timed outside the spring whelping windows. Inspections can happen any time of year." } },
-          { "@type": "Question", "name": "Are the contractors in this directory licensed and insured?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — every contractor in this directory holds the trapping license and nuisance-wildlife-control credentials required by their state DNR or fish-and-wildlife agency, and carries appropriate commercial liability insurance. Licensing requirements vary by state but generally include background checks, training in species-specific handling, and ongoing compliance with state and federal regulations on bat exclusion, migratory bird protection, and rabies-vector species." } },
-          { "@type": "Question", "name": "Why use a directory instead of searching for a contractor directly?", "acceptedAnswer": { "@type": "Answer", "text": "A directory verifies that the contractor serving your county is licensed, insured, and operates legally under state DNR rules. Search results often include unlicensed operators or pest-control companies that don't handle larger wildlife. Our directory pairs each indexable county with one verified local contractor, with content specific to your area's wildlife pressure, housing-stock entry points, and seasonal patterns." } }
-        ]
-      }
+      { "@type": "Organization", "@id": "https://www.removewildlifenow.com/#organization",
+        "name": "RemoveWildlifeNow", "url": "https://www.removewildlifenow.com/",
+        "description": "Wildlife removal across Georgia and Tennessee: removal, exclusion and attic cleanup for raccoons, squirrels, bats, rats, snakes, armadillos and more.",
+        "areaServed": [{ "@type": "State", "name": "Georgia" }, { "@type": "State", "name": "Tennessee" }],
+        "contactPoint": { "@type": "ContactPoint", "telephone": "+1-844-544-3498", "contactType": "customer service", "hoursAvailable": "Mo-Su 00:00-24:00" } },
+      P.faqSchema(homeFaqs)
     ]
   });
-
-  const extraHead = `
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="RemoveWildlifeNow.com">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:url" content="https://www.removewildlifenow.com/">
-    <meta property="og:title" content="${title}">
-    <meta property="og:description" content="${metaDesc}">
-    <meta property="og:image" content="${ogImage}">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="${title}">
-    <meta name="twitter:description" content="${metaDesc}">
-    <meta name="twitter:image" content="${ogImage}">
-
-    <meta name="robots" content="index, follow">
-  `;
-%>
-<%- include('layout', { title, metaDesc, canonical, schema, extraHead, body: `
-
+  const problemPlates = problems.map((p, i) => `
+    <div class="plate"><a href="/problems/${p.slug}/">
+      <span class="pl-num">Problem ${String(i + 1).padStart(2, '0')}</span>
+      <h3>${P.esc(p.title)}</h3>
+      <p>${P.esc(p.symptom)}</p>
+    </a></div>`).join('');
+  const animalRows = animals.map((a, i) => `
+    <a class="rowline" href="/services/${a.slug}/">
+      <span class="rl-num">${String(i + 1).padStart(2, '0')}</span>
+      <span class="rl-main"><strong>${P.esc(a.name.replace(/ Removal$/, ''))}</strong><span>${P.esc(a.shortDesc)}</span></span>
+      <span class="rl-go">The animal →</span>
+    </a>`).join('');
+  const guidePlates = guides.map((g, i) => `
+    <div class="plate"><a href="/guides/${g.slug}/">
+      <span class="pl-num">Guide ${String(i + 1).padStart(2, '0')}</span>
+      <h3>${P.esc(g.title)}</h3>
+      <p>${P.esc(g.intro.split('. ')[0])}.</p>
+    </a></div>`).join('');
+  const costRows = ['raccoon-removal','squirrel-removal','bat-removal','rat-removal','snake-removal','armadillo-removal'].map(s => {
+    const a = animals.find(x => x.slug === s);
+    return a ? `<tr><td>${P.esc(a.name)}</td><td class="price">${P.esc(a.costRange)}</td></tr>` : '';
+  }).join('');
+  const body = `
 <section class="hero">
-  <div class="hero-slideshow">
-    <img class="hero-slide" src="/images/hero1-1280.webp" srcset="/images/hero1-640.webp 640w, /images/hero1-960.webp 960w, /images/hero1-1280.webp 1280w, /images/hero1.webp 1920w" sizes="100vw" width="1920" height="1280" alt="Gray squirrel on a residential roof gutter" loading="eager" fetchpriority="high">
-    <img class="hero-slide" src="/images/hero2-1280.webp" srcset="/images/hero2-640.webp 640w, /images/hero2-960.webp 960w, /images/hero2-1280.webp 1280w, /images/hero2.webp 1920w" sizes="100vw" width="1920" height="1280" alt="Squirrel perched on a home shingle roof" loading="lazy">
-    <img class="hero-slide" src="/images/hero3-1280.webp" srcset="/images/hero3-640.webp 640w, /images/hero3-960.webp 960w, /images/hero3-1280.webp 1280w, /images/hero3.webp 1920w" sizes="100vw" width="1920" height="1316" alt="Two raccoons on a residential brick chimney" loading="lazy">
-    <img class="hero-slide" src="/images/hero4-1280.webp" srcset="/images/hero4-640.webp 640w, /images/hero4-960.webp 960w, /images/hero4-1280.webp 1280w, /images/hero4.webp 1920w" sizes="100vw" width="1920" height="1280" alt="Raccoon climbing a home deck at night" loading="lazy">
-    <img class="hero-slide" src="/images/hero5-1280.webp" srcset="/images/hero5-640.webp 640w, /images/hero5-960.webp 960w, /images/hero5-1280.webp 1280w, /images/hero5.webp 1920w" sizes="100vw" width="1920" height="1280" alt="Opossum next to a residential yard fence" loading="lazy">
-  </div>
-  <div class="container hero-content">
-    <div class="hero-badge">Nationwide Wildlife Removal Directory</div>
-    <h1>Find Licensed Wildlife Removal</h1>
-    <p class="hero-sub">A nationwide directory of licensed wildlife removal contractors. Click your state on the map below to find a verified local expert in your county. One call, problem solved.</p>
-    <div class="hero-actions">
-      <a href="#map-section" class="btn-primary">Find My County</a>
-      <a href="#services" class="btn-ghost">Browse Services</a>
-    </div>
-  </div>
-</section>
-
-<section class="map-section" id="map-section">
   <div class="container">
-    <div class="section-header">
-      <h2>Select Your State</h2>
-      <p>Hover to preview, click to browse counties and find your local contractor</p>
-    </div>
-    <div id="map-tooltip" class="map-tooltip"></div>
-    <svg id="us-map"></svg>
-    <p class="map-hint">Click any state to browse counties &amp; find a licensed local contractor</p>
-  </div>
-</section>
-
-<section class="counties-section" id="services" style="background:var(--green-light);border-top:1px solid var(--green-border);">
-  <div class="container">
-    <div class="section-header">
-      <h2>Wildlife Removal Services Nationwide</h2>
-      <p>Every contractor in our directory handles the full range of residential wildlife. Click any service to learn more about that animal and find a local contractor.</p>
-    </div>
-    <ul class="counties-grid">
-      <li><a href="/services/raccoon-removal/">🦝 Raccoon Removal</a></li>
-      <li><a href="/services/squirrel-removal/">🐿️ Squirrel Removal</a></li>
-      <li><a href="/services/rat-removal/">🐀 Rat Removal</a></li>
-      <li><a href="/services/bat-removal/">🦇 Bat Removal</a></li>
-      <li><a href="/services/snake-removal/">🐍 Snake Removal</a></li>
-      <li><a href="/services/opossum-removal/">🐾 Opossum Removal</a></li>
-      <li><a href="/services/skunk-removal/">🦨 Skunk Removal</a></li>
-      <li><a href="/services/bird-removal/">🐦 Bird Removal</a></li>
-      <li><a href="/services/groundhog-removal/">🦫 Groundhog Removal</a></li>
-      <li><a href="/services/mole-removal/">🐭 Mole Removal</a></li>
-      <li><a href="/services/dead-animal-removal/">⚠️ Dead Animal Removal</a></li>
-    </ul>
-  </div>
-</section>
-
-<section class="about" id="how-it-works">
-  <div class="container">
-    <div class="section-header">
-      <h2>How It Works</h2>
-      <p>We connect homeowners directly with the best local wildlife removal professionals in their county.</p>
-    </div>
-    <div class="features">
-      <div class="feature">
-        <span class="feature-icon">📍</span>
-        <h3>Find Your County</h3>
-        <p>Click your state on the map above, then select your county to find the licensed contractor serving your area.</p>
-      </div>
-      <div class="feature">
-        <span class="feature-icon">📞</span>
-        <h3>Call a Local Expert</h3>
-        <p>Get connected directly with a contractor who knows your local wildlife, regulations, and the fastest solutions.</p>
-      </div>
-      <div class="feature">
-        <span class="feature-icon">✅</span>
-        <h3>Problem Solved</h3>
-        <p>Licensed, insured professionals handle removal, exclusion, and cleanup — with a guarantee on their work.</p>
+    <p class="kicker">Wildlife removal · Georgia &amp; Tennessee</p>
+    <h1>Something is living in your house. Let&rsquo;s fix that.</h1>
+    <p class="lede">Most people don&rsquo;t call us because they saw an animal. They call because of a sound, a smell, or a mess. Start with what you&rsquo;re noticing — we&rsquo;ll name the likely culprit and get it out.</p>
+    <div class="picker">
+      <p class="pk-label">What&rsquo;s happening at your house?</p>
+      <div class="chips">
+        ${problems.map(p => `<a class="chip" href="/problems/${p.slug}/">${P.esc(p.title)}</a>`).join('')}
       </div>
     </div>
-  </div>
-</section>
-
-<section class="county-content">
-  <div class="container">
-    <h2>Frequently Asked Questions</h2>
-    <div style="display:flex;flex-direction:column;gap:16px;margin-top:16px;">
-      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;" open>
-        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">How does the wildlife removal directory work?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
-        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">Click your state on the map, then drill down to your county to find the licensed wildlife removal contractor serving your area. Each county page lists the local professional plus information specific to your area's wildlife pressure, regulations, and seasonal patterns. One call connects you directly with a contractor who knows your local wildlife and the fastest legal solutions.</div>
-      </details>
-      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
-        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">How much does wildlife removal cost?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
-        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">Most residential wildlife removal jobs run between <strong>$300 and $1,500+</strong> depending on the species, the number of entry points to seal, whether babies are present, and how much sanitation and remediation is needed. Single-animal trap-and-release work sits at the lower end; multi-entry historic-home raccoon or bat exclusion with full guano remediation runs higher. Each contractor in our directory provides free property-specific estimates.</div>
-      </details>
-      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
-        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">What's the difference between wildlife removal and pest control?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
-        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">Pest control focuses on insects and small rodents using chemicals and bait. Wildlife removal handles larger nuisance animals — raccoons, squirrels, bats, snakes, opossums, skunks — using trapping, exclusion, and structural sealing. Wildlife removal is licensed by state DNR/fish-and-wildlife agencies and operates under different legal protocols (especially for bats during maternity season and any rabies-vector species). For a raccoon in your attic or a bat colony in your chimney, you need a licensed wildlife removal contractor, not pest control.</div>
-      </details>
-      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
-        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">How do I find a licensed wildlife removal contractor near me?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
-        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">Click your state on the map above, then select your county. The contractor listed is licensed under your state's DNR or fish-and-wildlife agency and holds the applicable trapping and nuisance-wildlife-control credentials. Every contractor in this directory is verified to operate legally in their service area.</div>
-      </details>
-      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
-        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">What animals do wildlife removal contractors handle?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
-        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">The full range of residential nuisance wildlife: raccoons, squirrels (including flying squirrels), rats (Norway and roof rats), bats (with state-required maternity-season exclusion timing), snakes (venomous and non-venomous), opossums, skunks, groundhogs, moles, birds (pigeons, starlings, woodpeckers under federal Migratory Bird Treaty Act protocols), armadillos, and dead-animal removal from walls and crawlspaces.</div>
-      </details>
-      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
-        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">When can wildlife exclusion legally be done?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
-        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">Most species have year-round exclusion windows, but bats are restricted: state DNR regulations across the U.S. typically restrict bat exclusion during the maternity season (May through August in most regions) when non-flying pups would be trapped inside the structure if exclusion went forward. The two safe windows are typically April and September through mid-October. Raccoon and squirrel exclusion is best timed outside the spring whelping windows. Inspections can happen any time of year.</div>
-      </details>
-      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
-        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">Are the contractors in this directory licensed and insured?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
-        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">Yes — every contractor in this directory holds the trapping license and nuisance-wildlife-control credentials required by their state DNR or fish-and-wildlife agency, and carries appropriate commercial liability insurance. Licensing requirements vary by state but generally include background checks, training in species-specific handling, and ongoing compliance with state and federal regulations on bat exclusion, migratory bird protection, and rabies-vector species.</div>
-      </details>
-      <details style="border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
-        <summary style="padding:16px 20px;font-weight:600;cursor:pointer;font-size:0.97rem;list-style:none;display:flex;justify-content:space-between;align-items:center;">Why use a directory instead of searching for a contractor directly?<span style="font-size:1.2rem;flex-shrink:0;margin-left:12px;">+</span></summary>
-        <div style="padding:0 20px 16px;color:#374151;line-height:1.7;font-size:0.93rem;border-top:1px solid #f3f4f6;">A directory verifies that the contractor serving your county is licensed, insured, and operates legally under state DNR rules. Search results often include unlicensed operators or pest-control companies that don't handle larger wildlife. Our directory pairs each indexable county with one verified local contractor, with content specific to your area's wildlife pressure, housing-stock entry points, and seasonal patterns.</div>
-      </details>
+    <div class="btnrow">
+      <a class="btn" href="tel:${pro.phoneE164}">Call ${pro.phoneDisplay}</a>
+      <a class="btn alt" href="/guides/wildlife-removal-cost-in-georgia/">What does it cost?</a>
     </div>
   </div>
 </section>
 
-<script>
-  // Defer the interactive US map (d3 + topojson ~270KB + render) until the map
-  // section nears the viewport. It is below the fold, so loading it eagerly only
-  // inflated Total Blocking Time without helping the initial paint.
-  (function () {
-    var mapSection = document.getElementById('map-section');
-    if (!mapSection) return;
-    var started = false;
-    function loadScript(src) {
-      return new Promise(function (resolve, reject) {
-        var s = document.createElement('script');
-        s.src = src; s.onload = resolve; s.onerror = reject;
-        document.head.appendChild(s);
-      });
-    }
-    async function initMap() {
-      if (started) return; started = true;
-      await loadScript('https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js');
-      await loadScript('https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js');
-      const { topo, fips } = await d3.json('/api/states-map');
-      const states = topojson.feature(topo, topo.objects.states);
-      const mesh = topojson.mesh(topo, topo.objects.states, (a, b) => a !== b);
+<section class="section">
+  <div class="container">
+    <p class="kicker">Start with the problem</p>
+    <h2>Eight problems we get called about every week</h2>
+    <p style="max-width:46em">Each one has a short field guide: what it usually is, how urgent it is, what we do about it — and what not to do before we get there.</p>
+    <div class="plate-grid">${problemPlates}</div>
+  </div>
+</section>
 
-      const svg = d3.select('#us-map');
-      const container = svg.node().parentElement;
-      const width = container.clientWidth;
-      const height = Math.round(width * 0.62);
+<section class="section rule">
+  <div class="container">
+    <p class="kicker">Know the animal?</p>
+    <h2>Go straight to the animal</h2>
+    <div class="rows">${animalRows}</div>
+  </div>
+</section>
 
-      svg.attr('viewBox', \`0 0 \${width} \${height}\`)
-         .attr('width', '100%')
-         .style('display', 'block');
+<section class="section slate">
+  <div class="container">
+    <p class="kicker">How a job runs</p>
+    <h2>Out, sealed, cleaned up</h2>
+    <div class="steps">
+      <div class="step"><span class="st-num">01</span><h3>Tell us what&rsquo;s happening</h3><p>Call and describe the sound, smell or sighting. We&rsquo;ll tell you what we think it is and what it usually takes to fix — before anyone comes out.</p></div>
+      <div class="step"><span class="st-num">02</span><h3>We inspect the house</h3><p>Attic, roofline, vents, crawlspace. We find the animals, the damage, and every entry point they&rsquo;re using — then price the whole job up front.</p></div>
+      <div class="step"><span class="st-num">03</span><h3>Out, then sealed</h3><p>Humane removal first — trapping, one-way doors or exclusion, matched to the animal and the law. Then every entry point is sealed in materials animals can&rsquo;t chew through.</p></div>
+      <div class="step"><span class="st-num">04</span><h3>Cleaned up</h3><p>Droppings, nesting and fouled insulation come out; the attic is sanitised where it needs it. You get a straight walk-through of what was done and what to watch for.</p></div>
+    </div>
+  </div>
+</section>
 
-      const projection = d3.geoAlbersUsa().fitSize([width, height], states);
-      const path = d3.geoPath().projection(projection);
-      const tooltip = document.getElementById('map-tooltip');
+<section class="section">
+  <div class="container">
+    <p class="kicker">Before you call</p>
+    <h2>What removal costs in Georgia</h2>
+    <p style="max-width:46em">Honest ranges for the jobs we run most — general guidance from typical Georgia work, not a quote for your house. Your price is set after inspection, before any work starts.</p>
+    <table class="costtable">
+      <tr><th>Job</th><th>Typical range</th></tr>
+      ${costRows}
+    </table>
+    <p class="fineprint">Full breakdown — what drives the price up or down, and how to spot a padded quote — in the <a href="/guides/wildlife-removal-cost-in-georgia/">Georgia wildlife removal cost guide</a>.</p>
+  </div>
+</section>
 
-      svg.append('g')
-        .selectAll('path')
-        .data(states.features)
-        .join('path')
-          .attr('class', 'state')
-          .attr('d', path)
-          .on('mousemove', function(event, d) {
-            const name = fips[d.id]?.name;
-            if (!name) return;
-            tooltip.textContent = name;
-            tooltip.style.display = 'block';
-            tooltip.style.left = (event.offsetX + 12) + 'px';
-            tooltip.style.top = (event.offsetY - 10) + 'px';
-          })
-          .on('mouseleave', () => tooltip.style.display = 'none')
-          .on('click', (event, d) => {
-            const slug = fips[d.id]?.slug;
-            if (slug) window.location.href = '/' + slug + '/';
-          });
+<section class="section rule">
+  <div class="container">
+    <p class="kicker">Guides</p>
+    <h2>Read up before you need us</h2>
+    <div class="plate-grid">${guidePlates}</div>
+  </div>
+</section>
 
-      svg.append('path')
-        .datum(mesh)
-        .attr('class', 'state-border')
-        .attr('d', path);
-    }
-    if ('IntersectionObserver' in window) {
-      var io = new IntersectionObserver(function (entries) {
-        if (entries[0].isIntersecting) { io.disconnect(); initMap(); }
-      }, { rootMargin: '300px' });
-      io.observe(mapSection);
-    } else {
-      initMap();
-    }
-  })();
-</script>
-` }) %>
+<section class="section rule">
+  <div class="container">
+    <p class="kicker">Where we work</p>
+    <h2>Two states, covered county by county</h2>
+    <div class="plate-grid">
+      <div class="plate"><a href="/georgia/"><span class="pl-num">Georgia</span><h3>Georgia wildlife removal</h3><p>Metro Atlanta, Macon and middle Georgia, the coast at Savannah, and the Tennessee Valley — 25 counties, from the attic suburbs to farm country.</p></a></div>
+      <div class="plate"><a href="/tennessee/"><span class="pl-num">Tennessee</span><h3>Tennessee wildlife removal</h3><p>Nashville and Williamson County, Memphis and the Mississippi bottoms — river country, cave country, and fast-growing suburbs.</p></a></div>
+    </div>
+    <p style="margin-top:18px">Popular right now: <a href="/georgia/marietta/">Marietta</a> · <a href="/georgia/macon/">Macon</a> · <a href="/georgia/savannah/">Savannah</a> · <a href="/tennessee/nashville/">Nashville</a> · <a href="/tennessee/memphis/">Memphis</a> · <a href="/tennessee/franklin/">Franklin</a></p>
+    ${P.callCard(pro, { heading: 'Hearing something you shouldn&rsquo;t be?' })}
+    ${P.faqSection(homeFaqs, 'Questions homeowners ask us')}
+  </div>
+</section>`;
+%><%- include('layout', { title, metaDesc, canonical, schema, body }) %>

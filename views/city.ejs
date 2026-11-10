@@ -1,420 +1,100 @@
 <%
+  const P = present;
+  const abbr = stateName === 'Georgia' ? 'GA' : stateName === 'Tennessee' ? 'TN' : '';
   const pageUrl = 'https://www.removewildlifenow.com/' + stateSlug + '/' + citySlug + '/';
-  // Canonical may redirect to a primary county for cities that straddle two
-  // indexed counties (set in server.js). Falls back to self when not provided.
-  const canonical = (typeof canonicalUrl !== 'undefined' && canonicalUrl) ? canonicalUrl : pageUrl;
-  // Title pattern: leads with city + service keyword, then the two highest-
-  // converting phrases ("same-day", "24/7"). If the full title would exceed
-  // ~60 chars, fall back to a shorter variant.
-  const _primaryTitle = cityName + ' Wildlife Removal — Same-Day & 24/7 Emergency';
-  const _defaultTitle = _primaryTitle.length <= 60 ? _primaryTitle : (cityName + ' Wildlife Removal — Same-Day Service');
-  const pageTitle = (cityContent && cityContent.metaTitle) ? cityContent.metaTitle : _defaultTitle;
-
-  // Description pattern: mirrors searcher situation ("Got wildlife in your
-  // home?"), urgency, then either the per-county metaHook (a real local
-  // differentiator like "historic-home & chimney bat specialists.") or the
-  // generic species list. Set metaHook only when a county has a genuine
-  // distinctive angle — don't fabricate.
-  const _metaHook = (countyContent && countyContent.metaHook) ? countyContent.metaHook : null;
-  const _descBody = _metaHook ? _metaHook : ('bats, squirrels, raccoons, armadillos. Local ' + countyName + ' contractor.');
-  const _defaultDesc = 'Got wildlife in your ' + cityName + ' home? Same-day licensed removal — ' + _descBody + ' Call 24/7.';
-  const pageDesc = (cityContent && cityContent.metaDescription) ? cityContent.metaDescription : _defaultDesc;
-  const ogImage = (cityContent && cityContent.ogImage)
-    ? cityContent.ogImage
-    : 'https://www.removewildlifenow.com/images/hero1.webp';
-  // Optional per-page override for og:title / twitter:title (separate from
-  // pageTitle which drives the <title> tag). Falls back to pageTitle when unset.
-  const socialTitle = (cityContent && cityContent.ogTitle) || pageTitle;
-  const seoEnhanced = !!(cityContent && cityContent.geo);
-  const stateRegion = stateName === 'Georgia' ? 'GA'
-    : stateName === 'Tennessee' ? 'TN'
-    : stateName === 'Delaware' ? 'DE'
-    : stateName === 'Connecticut' ? 'CT'
-    : stateName === 'New Hampshire' ? 'NH'
-    : stateName === 'Vermont' ? 'VT'
-    : stateName === 'Rhode Island' ? 'RI' : '';
-%>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <%- include('_ga') %>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= pageTitle %></title>
-  <meta name="description" content="<%= pageDesc %>">
-  <link rel="canonical" href="<%= canonical %>">
-  <link rel="stylesheet" href="/css/style.css?v=<%= cssVersion %>">
-  <% if (!indexable) { %>
-  <meta name="robots" content="noindex, follow">
-  <% } else if (seoEnhanced) { %>
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
-  <% } %>
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="RemoveWildlifeNow.com">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:url" content="<%= pageUrl %>">
-  <meta property="og:title" content="<%- socialTitle %>">
-  <meta property="og:description" content="<%= pageDesc %>">
-  <meta property="og:image" content="<%= ogImage %>">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="<%- socialTitle %>">
-  <meta name="twitter:description" content="<%= pageDesc %>">
-  <meta name="twitter:image" content="<%= ogImage %>">
-
-  <% if (seoEnhanced) { %>
-  <!-- Geo -->
-  <meta name="geo.region" content="US-<%= stateRegion %>">
-  <meta name="geo.placename" content="<%= cityName %>, <%= stateName %>">
-  <meta name="geo.position" content="<%= cityContent.geo.lat %>;<%= cityContent.geo.lon %>">
-  <meta name="ICBM" content="<%= cityContent.geo.lat %>, <%= cityContent.geo.lon %>">
-
-  <% } %>
-
-  <%# Structured data: BreadcrumbList + Service (+ FAQPage when a visible FAQ
-      exists). Shared builder — lib/locationSchema.js + views/_location-schema.ejs.
-      Hub page: serviceType = "Wildlife Removal", no single price shown so no
-      offer. Directory site: NO LocalBusiness / address / business geo / review. %>
-  <%
-    const crumbs = buildCrumbs('city', { stateName, stateSlug, countyName, cityName, citySlug });
-    // Provider = the name + phone shown on the page: assigned contractor when
-    // LeadPortal returns one for the parent county, else central dispatch.
-    const _provName  = (countyContent && countyContent.contractor && countyContent.contractor.name) || 'RemoveWildlifeNow.com';
-    const _provPhone = (countyContent && countyContent.contractor && countyContent.contractor.telephone) || '+18445443498';
-    const service = {
-      serviceType: 'Wildlife Removal',
-      locationLabel: cityName + ', ' + stateName,
-      areaServed: [
-        { "@type": "City", "name": cityName + ", " + stateName },
-        { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
-      ],
-      providerName: _provName,
-      providerPhone: _provPhone,
-      priceRange: null,
-      pageUrl: pageUrl,
-      description: pageDesc
-    };
-    const _cityFaqs = (cityContent && cityContent.faqs && cityContent.faqs.length) ? cityContent.faqs : null;
-  %>
-  <%- include('_location-schema', { crumbs, pageUrl, service, faqs: _cityFaqs }) %>
-
-  <%# Page-level local-business entity for enriched city HUBS (geo present),
-      mirroring views/county.ejs. One canonical entity per page: PestControl
-      when LeadPortal has an assigned contractor for the parent county, the
-      LocalBusiness/ProfessionalService directory fallback otherwise. @id stays
-      "#business" in both branches. NO AggregateRating/Review — directory site. %>
-  <% if (seoEnhanced) { %>
-  <% if (countyContent && countyContent.contractor) { %>
-  <script type="application/ld+json">
-  <%- JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "ProfessionalService"],
-    "additionalType": "https://schema.org/PestControl",
-    "@id": pageUrl + "#business",
-    "name": countyContent.contractor.name,
-    "description": "Licensed wildlife removal in " + cityName + ", " + stateName + ". Expert removal of raccoons, squirrels, bats, snakes and more. Humane methods, same-day service available.",
-    "url": countyContent.contractor.url ? normalizeUrl(countyContent.contractor.url) : pageUrl,
-    "telephone": countyContent.contractor.telephone,
-    "image": countyContent.contractor.image || ogImage,
-    "priceRange": "$$",
-    "areaServed": [
-      { "@type": "City", "name": cityName + ", " + stateName },
-      { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
-    ],
-    "geo": { "@type": "GeoCoordinates", "latitude": cityContent.geo.lat, "longitude": cityContent.geo.lon },
-    "openingHours": "Mo-Su 00:00-23:59",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Wildlife Removal Services in " + cityName,
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Animal Exclusion" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Remediation" } }
-      ]
+  const canonical = (typeof canonicalUrl !== 'undefined' && canonicalUrl)
+    ? canonicalUrl.replace('https://www.removewildlifenow.com', '') : '/' + stateSlug + '/' + citySlug + '/';
+  // County copy may carry {{company}} / {{phone}} tokens — filled ONLY from
+  // this page's single pro object, so the number rule holds everywhere.
+  const fillTokens = (s) => {
+    if (!s) return s;
+    let out = P.scrubVoice(String(s)
+      .replace(/\{\{\s*company\s*\}\}/g, pro.assigned ? pro.name : 'RemoveWildlifeNow')
+      .replace(/\{\{\s*phone\s*\}\}/g, pro.phoneDisplay));
+    // Authored copy sometimes carries the (844) fallback number in prose. On
+    // an assigned county's pages every number must be the contractor's.
+    if (pro.assigned) {
+      const dashed = pro.phoneE164.replace('+1', '').replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3');
+      out = out.split('(844) 544-3498').join(pro.phoneDisplay)
+               .split('+18445443498').join(pro.phoneE164)
+               .split('844-544-3498').join(dashed);
     }
-  }) %>
-  </script>
-  <% } else { %>
-  <script type="application/ld+json">
-  <%- JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "ProfessionalService"],
-    "@id": pageUrl + "#business",
-    "name": "Wildlife Removal in " + cityName,
-    "description": "Licensed wildlife removal in " + cityName + ", " + stateName + ". Expert removal of raccoons, squirrels, bats, snakes and more. Humane methods, same-day service available.",
-    "url": pageUrl,
-    "telephone": "+1-844-544-3498",
-    "image": ogImage,
-    "priceRange": "$$",
-    "areaServed": [
-      { "@type": "City", "name": cityName + ", " + stateName },
-      { "@type": "AdministrativeArea", "name": countyName + ", " + stateName }
-    ],
-    "geo": { "@type": "GeoCoordinates", "latitude": cityContent.geo.lat, "longitude": cityContent.geo.lon },
-    "openingHours": "Mo-Su 00:00-23:59",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Wildlife Removal Services in " + cityName,
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Removal" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Animal Exclusion" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Remediation" } }
-      ]
-    }
-  }) %>
-  </script>
-  <% } %>
-  <% } %>
-  <link rel="icon" href="https://www.removewildlifenow.com/favicon.png" sizes="180x180" type="image/png">
-</head>
-<body>
-  <%
-    // Contractor-aware locals for every in-body anchor and the business-name
-    // slot. When LeadPortal has an assigned contractor for this county, use
-    // that contractor's phone + name; otherwise fall back to the central
-    // dispatch number for phone and null (keeps the hidden .llp-company-name
-    // paragraph for the LeadPortal client-side injection safety net).
-    // formatPhone() handles E.164 input and is a no-op for already-formatted values.
-    const _phone = (countyContent && countyContent.contractor && countyContent.contractor.telephone)
-      ? countyContent.contractor.telephone
-      : '+18445443498';
-    const _phoneDisplay = formatPhone(_phone);
-    const _companyName = (countyContent && countyContent.contractor && countyContent.contractor.name)
-      ? countyContent.contractor.name
-      : null;
-  %>
-  <header>
-    <div class="container header-inner">
-      <a href="/" class="logo">RemoveWildlife<span>Now</span></a>
-      <nav class="header-nav">
-        <a href="/">Home</a>
-        <a href="/<%= stateSlug %>/"><%= stateName %></a>
-        <a href="/<%= stateSlug %>/<%= citySlug %>/"><%= cityName %></a>
-      </nav>
-      <a class="llp-phone header-phone" href="tel:<%= _phone %>">
-        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-        <%= _phoneDisplay %>
-      </a>
+    return out;
+  };
+  const cc = countyContent || {};
+  const title = (cityContent && cityContent.metaTitle) ? fillTokens(cityContent.metaTitle)
+    : (cc.metaTitle ? fillTokens(cc.metaTitle) : cityName + ', ' + abbr + ' Wildlife Removal — Out, Sealed & Cleaned Up');
+  const metaDesc = (cityContent && cityContent.metaDescription) ? fillTokens(cityContent.metaDescription)
+    : (cc.metaDescription ? fillTokens(cc.metaDescription)
+    : 'Wildlife removal in ' + cityName + ', ' + abbr + ' — raccoons, squirrels, bats, rats, snakes and armadillos out, entry points sealed, attic cleaned up. Call ' + pro.phoneDisplay + '.');
+  const heroLede = fillTokens(cc.heroIntro) || fillTokens(cc.metaHook) ||
+    ('Heard something in the attic? Found droppings, a smell, or damage you can\'t explain? We remove wildlife from ' + cityName + ' homes, seal how it got in, and clean up what it left behind.');
+  const faqs = (composed && composed.countyFaqs) || [];
+  const texture = composed && composed.texture;
+  const leadForm = include('_lead-form', { animalSlug: '' });
+  const schemaObj = { "@context": "https://schema.org", "@graph": [
+    P.serviceSchema({ pro, pageUrl, serviceType: 'Wildlife Removal', areaName: cityName + ', ' + stateName }),
+    ...(P.faqSchema(faqs) ? [P.faqSchema(faqs)] : [])
+  ]};
+  const schema = JSON.stringify(schemaObj);
+  const body = `
+<section class="hero">
+  <div class="container">
+    ${P.crumbsHtml([{label:'Home', href:'/'}, {label: stateName, href:'/' + stateSlug + '/'}, {label: cityName}])}
+    <p class="kicker">${P.esc(countyName)} · ${P.esc(stateName)}</p>
+    <h1>${P.esc(cityName)} wildlife removal — out, sealed, cleaned up</h1>
+    <p class="lede">${heroLede}</p>
+    <div class="btnrow">
+      <a class="btn" href="tel:${pro.phoneE164}">Call ${pro.phoneDisplay}</a>
+      <a class="btn alt" href="/guides/wildlife-removal-cost-in-georgia/">What it costs</a>
     </div>
-  </header>
-
-  <div class="trust-bar">
-    <div class="container trust-bar-inner">
-      <div class="trust-item">24/7 Emergency Response</div>
-      <div class="trust-item">Licensed &amp; Insured</div>
-      <div class="trust-item">Humane Methods</div>
-      <div class="trust-item">Local Experts</div>
+    <div class="picker">
+      <p class="pk-label">Start with what you&rsquo;re noticing in ${P.esc(cityName)}</p>
+      <div class="chips">
+        ${PROBLEMS.map(p => `<a class="chip" href="/problems/${p.slug}/">${P.esc(p.title)}</a>`).join('')}
+      </div>
     </div>
+    <figure class="hero-photo"><img src="/images/city-${stateSlug}-${citySlug}.webp" alt="Wildlife removal work in ${P.esc(cityName)}, ${P.esc(stateName)}" loading="lazy" onerror="this.parentNode.style.display='none'"></figure>
   </div>
+</section>
 
-  <main>
-    <%- include('_breadcrumb', { crumbs }) %>
-
-    <section class="page-hero page-hero-split">
-      <div class="container hero-split-grid">
-        <div class="hero-split-copy">
-          <div class="hero-badge">Serving <%= cityName %>, <%= stateName %></div>
-          <h1><%= (cityContent && cityContent.h1Override) || ('Wildlife Removal in ' + cityName) %></h1>
-          <p>Raccoons in the attic? Bats in the chimney? Snake by the door? <%= cityName %>'s licensed wildlife pros — same-day service, humane methods. Call now.</p>
-          <a class="hero-split-call" href="tel:<%= _phone %>">📞 Call <%= _phoneDisplay %></a>
-        </div>
-        <%- include('_lead-form', { animalSlug: '' }) %>
-      </div>
-    </section>
-
-    <section class="cta-section">
-      <div class="container">
-        <div class="cta-box">
-          <h2>Your <%= cityName %> Wildlife Removal Expert</h2>
-          <% if (_companyName) { %>
-          <p class="llp-company-name company-name"><%= _companyName %></p>
-          <% } else { %>
-          <p class="llp-company-name company-name" style="display:none;"></p>
-          <% } %>
-          <p class="cta-sub">Licensed, insured &amp; local. Same-day and emergency service available in <%= cityName %>.</p>
-          <div class="phone-wrap">
-            <a class="llp-phone phone-cta" href="tel:<%= _phone %>">
-              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-              <%= _phoneDisplay %>
-            </a>
-          </div>
-          <p class="cta-note llp-available-only">Serving <%= cityName %> and all of <%= countyName %>, <%= stateName %></p>
-          <% if (!indexable) { %>
-          <div class="no-contractor-section" id="no-contractor">
-            <h3><a href="tel:<%= _phone %>" style="color:inherit;text-decoration:none;"><%= _phoneDisplay %></a></h3>
-            <p>We're expanding fast. Contact us and we'll connect you with help in <%= cityName %>.</p>
-            <a href="/contact/?county=<%= encodeURIComponent(countyName) %>&state=<%= encodeURIComponent(stateName) %>" class="btn-contact">Contact Us for Help</a>
-          </div>
-          <% } %>
-          <%# Contractor-agnostic trust signals. Cities may override via
-              cityContent.trustBadges; otherwise the generic default set shows.
-              No reviews/testimonials and no per-contractor claims. %>
-          <% const _trustBadges = (cityContent && cityContent.trustBadges && cityContent.trustBadges.length)
-               ? cityContent.trustBadges
-               : ['Licensed & Insured', 'Same-Day Available', 'Humane Methods']; %>
-          <div class="cta-badges">
-            <% _trustBadges.forEach(function(b) { %>
-            <span class="cta-badge"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> <%= b %></span>
-            <% }); %>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <% if (typeof cityAnimals !== 'undefined' && cityAnimals && cityAnimals.length) { %>
-    <section class="services-section">
-      <div class="container">
-        <h2>Wildlife Removal Services in <%= cityName %></h2>
-        <p class="section-sub">Our <%= countyName %> contractor serves all of <%= cityName %> — the same licensed professional handles every job in your area.</p>
-        <ul class="counties-grid">
-          <% cityAnimals.forEach(a => { %>
-          <li><a href="/<%= stateSlug %>/<%= citySlug %>/<%= a.slug %>/" title="<%= a.plural %> in <%= cityName %>, <%= stateName %>"><%= a.emoji %> <%= a.name %> in <%= cityName %></a></li>
-          <% }); %>
-        </ul>
-      </div>
-    </section>
-    <% } %>
-
-    <%# Mid-page CTA — repeats the call prompt between the services list and
-        the long-form wildlife content. Reuses contractor _phone/_phoneDisplay
-        from the top-of-body helper block. %>
-    <section class="cta-section">
-      <div class="container" style="text-align:center;">
-        <p style="font-size:1.15rem;font-weight:600;margin:0 0 14px;color:#1f4e30;">Wildlife problem in <%= cityName %>? Call for same-day service.</p>
-        <a class="llp-phone phone-cta" href="tel:<%= _phone %>">
-          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-          <%= _phoneDisplay %>
-        </a>
-      </div>
-    </section>
-
-    <section class="county-content">
-      <div class="container">
-        <h2>Wildlife Problems in <%= cityName %>, <%= stateName %></h2>
-        <% if (cityContent && cityContent.wildlife_intro) { %>
-        <% if (cityContent.wildlife_intro.trim().charAt(0) === '<') { %>
-        <%- cityContent.wildlife_intro %>
-        <% } else { %>
-        <p><%- cityContent.wildlife_intro %></p>
-        <% } %>
-        <% if (stateInfo) { %>
-        <p>The contractor serving <%= cityName %> is licensed by the <strong><%= stateInfo.agency %></strong> and knows the specific wildlife patterns, local regulations, and most effective removal methods for your area.</p>
-        <% } %>
-        <% } else if (stateInfo) { %>
-        <p><%= stateInfo.wildlifeNote %></p>
-        <p>The contractor serving <%= cityName %> is licensed by the <strong><%= stateInfo.agency %></strong> and knows the specific wildlife patterns, local regulations, and most effective removal methods for your area. <%= stateInfo.seasonNote %></p>
-        <% } else { %>
-        <p>Homeowners in <%= cityName %> deal with many of the same wildlife issues found throughout <%= countyName %>. Raccoons, squirrels, bats, and snakes are among the most common — often entering through damaged soffits, vents, and rooflines in residential neighborhoods.</p>
-        <p>The contractor serving <%= cityName %> is based in <%= countyName %> and knows the specific wildlife patterns, local regulations, and most effective removal methods for your area.</p>
-        <% } %>
-
-        <% if (cityContent && cityContent.neighborhoods && cityContent.neighborhoods.length) { %>
-        <h3><%= cityName %> Neighborhoods We Serve</h3>
-        <p>The local contractor handles wildlife removal calls across every neighborhood and corridor in <%= cityName %>, including:</p>
-        <ul class="tips-list">
-          <% cityContent.neighborhoods.forEach(function(n) { %>
-          <li><%= n %></li>
-          <% }); %>
-        </ul>
-        <%# geographyNote folds the landmark/geography items into a single
-            sentence (vs a second bulleted list). Falls back to the
-            geographic_features list for cities that haven't been merged. %>
-        <% if (cityContent && cityContent.geographyNote) { %>
-        <p><%- cityContent.geographyNote %></p>
-        <% } %>
-        <% } %>
-
-        <% if (cityContent && !cityContent.geographyNote && cityContent.geographic_features && cityContent.geographic_features.length) { %>
-        <h3>Local Geography Driving Wildlife Pressure</h3>
-        <p><%= cityName %>'s wildlife corridors and natural features include:</p>
-        <ul class="tips-list">
-          <% cityContent.geographic_features.forEach(function(g) { %>
-          <li><%= g %></li>
-          <% }); %>
-        </ul>
-        <% } %>
-
-        <h3>Why Use a Local <%= cityName %> Contractor?</h3>
-        <ul class="tips-list">
-          <% if (cityContent && cityContent.whyLocal && cityContent.whyLocal.length) { %>
-            <% cityContent.whyLocal.forEach(function(item) { %>
-            <li><%- item %></li>
-            <% }); %>
-          <% } else { %>
-          <li>They know the wildlife species most common to <%= cityName %> neighborhoods</li>
-          <li>Familiar with local ordinances and <%= stateName %> wildlife removal regulations</li>
-          <li>Faster response time — they're already in your area</li>
-          <li>Follow-up visits are easy when the contractor is local</li>
-          <% } %>
-        </ul>
-      </div>
-    </section>
-
-    <% if (cityContent && cityContent.extendedBody) { %>
-    <section class="county-content">
-      <div class="container">
-        <%- cityContent.extendedBody %>
-      </div>
-    </section>
-    <% } %>
-
-    <% if (cityContent && cityContent.faqs && cityContent.faqs.length) { %>
-    <section class="faq-section">
-      <div class="container">
-        <h2><%= cityName %> Wildlife Removal FAQ</h2>
-        <% cityContent.faqs.forEach(function(faq) { %>
-        <details class="faq-item">
-          <summary><%= faq.q %></summary>
-          <p><%- faq.a %></p>
-        </details>
-        <% }); %>
-      </div>
-    </section>
-    <% } %>
-
-    <%# Other cities in the same county — cross-links to sibling city hubs. Only
-        the indexed (live) ones are passed in, so the list never links to a 404.
-        Hidden when there are no other live cities. %>
-    <% if (typeof otherCities !== 'undefined' && otherCities && otherCities.length) { %>
-    <section class="services-section">
-      <div class="container">
-        <h2>Other Cities in <%= countyName %></h2>
-        <ul class="counties-grid">
-          <% otherCities.forEach(function(c) { %>
-          <li><a href="/<%= stateSlug %>/<%= c.slug %>/" title="<%= c.name %> Wildlife Removal"><%= c.name %> Wildlife Removal</a></li>
-          <% }); %>
-        </ul>
-      </div>
-    </section>
-    <% } %>
-
-    <%# Final-page CTA — last call prompt before the user reaches the footer. %>
-    <section class="cta-section">
-      <div class="container" style="text-align:center;">
-        <p style="font-size:1.15rem;font-weight:600;margin:0 0 14px;color:#1f4e30;">Wildlife problem in <%= cityName %>? Call for same-day service.</p>
-        <a class="llp-phone phone-cta" href="tel:<%= _phone %>">
-          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-          <%= _phoneDisplay %>
-        </a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <p class="directory-disclosure" style="margin:0 0 10px;font-size:0.85rem;opacity:0.85;max-width:720px;">RemoveWildlifeNow.com is a wildlife removal <strong>directory</strong>. Calls and form submissions from this page route to one assigned, licensed wildlife removal contractor serving <%= countyName %>, <%= stateName %>. We are not the contractor — we connect homeowners with the local pro covering their county.</p>
-      <p style="margin:0 0 6px;">Wildlife removal company? <a href="/list-your-business/" style="color:inherit;text-decoration:underline;">List your business</a> for exclusive county leads.</p>
-      <p>&copy; <%= new Date().getFullYear() %> RemoveWildlifeNow.com &mdash; Connecting homeowners with licensed wildlife removal professionals nationwide.</p>
+<section class="section">
+  <div class="container">
+    <p class="kicker">The animals</p>
+    <h2>What we take out of ${P.esc(cityName)} homes</h2>
+    <div class="rows">
+      ${cityAnimals.map((a, i) => `
+      <a class="rowline" href="/${stateSlug}/${citySlug}/${a.slug}/">
+        <span class="rl-num">${String(i + 1).padStart(2, '0')}</span>
+        <span class="rl-main"><strong>${P.esc(a.name)} in ${P.esc(cityName)}</strong><span>${P.esc((ANIMALS.find(x => x.slug === a.slug) || {}).shortDesc || '')}</span></span>
+        <span class="rl-go">Details →</span>
+      </a>`).join('')}
     </div>
-  </footer>
 
-  <script src="<%- embedScript %>"></script>
+    ${composed && composed.introFrame ? `<p style="max-width:48em">${P.esc(composed.introFrame)}</p>` : ''}
+    ${composed && composed.cityIntro ? composed.cityIntro.split(/\n\s*\n/).map(p => `<p style="max-width:48em">${fillTokens(p)}</p>`).join('') : ''}
+    ${(composed && composed.cityNotes && (composed.cityNotes.neighborhoods.length || composed.cityNotes.housing || composed.cityNotes.geo)) ? `<div class="fieldnotes"><p class="kicker">Around ${P.esc(cityName)}</p>${composed.cityNotes.neighborhoods.length ? `<p><strong>Neighbourhoods we work:</strong> ${composed.cityNotes.neighborhoods.map(n => P.esc(n)).join(' · ')}</p>` : ''}${composed.cityNotes.housing ? `<p>${fillTokens(P.esc(composed.cityNotes.housing))}</p>` : ''}${composed.cityNotes.geo ? `<p>${fillTokens(P.esc(composed.cityNotes.geo))}</p>` : ''}</div>` : ''}
+    ${composed && composed.geoNote ? `<p style="max-width:48em">${P.esc(composed.geoNote)}</p>` : ''}
+    ${cc.blockA ? `<h2>Wildlife in ${P.esc(countyName)}</h2><p style="max-width:48em">${fillTokens(cc.blockA)}</p>` : ''}
+    ${texture ? `<div class="fieldnotes"><p class="kicker">Field notes — ${P.esc(countyName)}</p><p>${P.esc(texture.terrain)}</p><p>${P.esc(texture.housing)}</p><p>${P.esc(texture.pressure)}</p></div>` : ''}
+    ${composed && composed.cityBody ? fillTokens(composed.cityBody) : ''}
+    ${composed && composed.extendedHtml ? fillTokens(composed.extendedHtml) : ''}
+    ${composed && composed.localBridge ? `<p style="max-width:48em">${P.esc(composed.localBridge)}</p>` : ''}
 
-  <%# Sticky mobile call CTA — reuses the top-of-body _phone / _phoneDisplay
-      that already gate every in-page anchor on the same contractor. %>
-  <%- include('_mobile-call', { phone: _phone, phoneDisplay: _phoneDisplay, leadForm: true }) %>
-</body>
-</html>
+    <p class="kicker" style="margin-top:2em">How the job runs</p>
+    <h2>From first call to sealed attic</h2>
+    <div class="steps">
+      <div class="step"><span class="st-num">01</span><h3>Call &amp; describe it</h3><p>Tell us the sound, smell or sighting. We&rsquo;ll name the likely animal and what the job usually takes.</p></div>
+      <div class="step"><span class="st-num">02</span><h3>Inspect</h3><p>Attic, roofline, vents and crawlspace — animals, damage and every entry point, priced up front.</p></div>
+      <div class="step"><span class="st-num">03</span><h3>Out &amp; sealed</h3><p>Humane removal matched to the animal, then entry points sealed in chew-proof materials.</p></div>
+      <div class="step"><span class="st-num">04</span><h3>Cleaned up</h3><p>Droppings and fouled insulation out, attic sanitised, and a walk-through of what to watch for.</p></div>
+    </div>
+
+    ${leadForm}
+    ${P.callCard(pro, { heading: cityName + ' — one call and it&rsquo;s handled' })}
+    ${P.faqSection(faqs, cityName + ' wildlife questions')}
+
+    ${otherCities && otherCities.length ? `<h2>Nearby towns in ${P.esc(countyName)}</h2><div class="citylinks">${otherCities.map(c => `<a href="/${stateSlug}/${c.slug}/">${P.esc(c.name)}</a>`).join('')}</div>` : ''}
+  </div>
+</section>`;
+%><%- include('layout', { title, metaDesc, canonical, schema, body }) %>
