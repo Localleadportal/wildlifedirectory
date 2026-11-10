@@ -1,0 +1,462 @@
+{
+  "counties": {
+    "Barnstable County": {
+      "absent_or_rare": "black bears are rare visitors rather than a resident population on Cape Cod, and moose and white-tailed deer management, along with any large-animal response, falls under MassWildlife rather than private wildlife removal contractors",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "striped skunks",
+        "bats",
+        "opossums",
+        "Norway rats",
+        "moles"
+      ],
+      "county_seat": "Barnstable",
+      "established": 1685,
+      "habitat_type": "a narrow glacial peninsula of pitch pine and oak woodland, kettle ponds, salt marsh, and dense seasonal and year-round cottage and suburban housing",
+      "largest_cities": [
+        "Barnstable",
+        "Falmouth",
+        "Yarmouth",
+        "Bourne",
+        "Mashpee",
+        "Dennis",
+        "Harwich"
+      ],
+      "natural_features": [
+        "Cape Cod National Seashore",
+        "Nickerson State Park",
+        "Sandy Neck Beach Park"
+      ],
+      "nearest_metro": "Boston (about 70 miles northwest of Barnstable) and Providence, RI (about 75 miles west)",
+      "population": 229067,
+      "region": "southeastern Massachusetts, comprising all of Cape Cod between Cape Cod Bay and Nantucket Sound",
+      "regional_wildlife": "Cape Cod's dense cottage housing, seasonal rentals, and older capes and ranches produce steady raccoon activity in chimneys and attics, skunk activity under porches and sheds, and bat colonies in summer homes that sit closed for long stretches. Coyotes are established across the Cape, and beaver flooding affects low-lying roads and cranberry-country waterways on the Upper Cape."
+    },
+    "Berkshire County": {
+      "absent_or_rare": "black bears and moose are common in Berkshire County and white-tailed deer are abundant, but all three are managed by MassWildlife — including through its Large Animal Response Team for moose and bears near roads and settled areas — rather than by private wildlife removal contractors; timber rattlesnakes, listed as Endangered in Massachusetts, occur in a few Berkshire locations and are protected, not a removal species",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "bats",
+        "striped skunks",
+        "woodchucks",
+        "beavers",
+        "porcupines"
+      ],
+      "county_seat": "Pittsfield",
+      "established": 1761,
+      "habitat_type": "the most rural and mountainous county in the state, with forested ridges, small mill and resort towns, farms, and lake communities",
+      "largest_cities": [
+        "Pittsfield",
+        "North Adams",
+        "Adams",
+        "Williamstown",
+        "Great Barrington",
+        "Dalton",
+        "Lee"
+      ],
+      "natural_features": [
+        "Mount Greylock State Reservation",
+        "October Mountain State Forest",
+        "Bash Bish Falls State Park"
+      ],
+      "nearest_metro": "Albany, NY (about 40 miles west of Pittsfield) and Springfield (about 55 miles southeast)",
+      "population": 129028,
+      "region": "the far western edge of Massachusetts in the Berkshire Hills, bordering Vermont, New York, and Connecticut",
+      "regional_wildlife": "Porcupines damage outbuildings, deck boards, and vehicles around rural homes and camps throughout the wooded hills, beavers flood roads, culverts, and low farmland along the Housatonic River and its tributaries, and bat colonies in older farmhouses and lake-community homes are a recurring summer issue. Fishers are well established across the county's forest."
+    },
+    "Bristol County": {
+      "absent_or_rare": "black bears are occasional visitors in the county's western towns and white-tailed deer live throughout the county, but both are managed by MassWildlife rather than private wildlife removal contractors",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Norway rats",
+        "striped skunks",
+        "opossums",
+        "bats",
+        "moles"
+      ],
+      "county_seat": "Taunton",
+      "established": 1685,
+      "habitat_type": "older mill cities on the Taunton River and Buzzards Bay, dense suburbs along the I-95 and I-495 corridors, and farmland and forest inland",
+      "largest_cities": [
+        "New Bedford",
+        "Fall River",
+        "Taunton",
+        "Attleboro",
+        "Dartmouth",
+        "North Attleborough",
+        "Mansfield"
+      ],
+      "natural_features": [
+        "Freetown-Fall River State Forest",
+        "Horseneck Beach State Reservation",
+        "Taunton River"
+      ],
+      "nearest_metro": "Providence, RI (about 20 miles west of Fall River) and Boston (about 55 miles north of New Bedford)",
+      "population": 579298,
+      "region": "southeastern Massachusetts along the Rhode Island border and Buzzards Bay, between Boston and Providence",
+      "regional_wildlife": "Norway rats are persistent in the older triple-decker and mill-era neighborhoods of Fall River and New Bedford, raccoons and skunks generate steady call volume across the Attleboro, Taunton, and Dartmouth suburbs, and beaver flooding affects low roads and farmland along the Taunton River tributaries."
+    },
+    "Dukes County": {
+      "absent_or_rare": "black bears and moose do not have resident populations on Martha's Vineyard, and white-tailed deer, which are abundant on the island, are managed by MassWildlife rather than private wildlife removal contractors",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "striped skunks",
+        "bats",
+        "opossums",
+        "white-footed mice",
+        "moles"
+      ],
+      "county_seat": "Edgartown",
+      "established": 1695,
+      "habitat_type": "an island county of oak and pine woodland, coastal ponds, farmland in the up-island towns, and a large stock of seasonal and second homes",
+      "largest_cities": [
+        "Oak Bluffs",
+        "Edgartown",
+        "Tisbury",
+        "West Tisbury",
+        "Chilmark",
+        "Aquinnah"
+      ],
+      "natural_features": [
+        "Felix Neck Wildlife Sanctuary",
+        "Menemsha Hills",
+        "Cape Poge Wildlife Refuge"
+      ],
+      "nearest_metro": "no mainland metro; ferry service connects the island to Woods Hole in Falmouth, with Boston about 95 miles away by road and ferry",
+      "population": 20590,
+      "region": "the island county of Martha's Vineyard and the Elizabeth Islands, south of Cape Cod",
+      "regional_wildlife": "Martha's Vineyard's large seasonal housing stock produces bat and overwintering-rodent problems in homes closed for the winter, raccoons and skunks are persistent around the down-island towns of Oak Bluffs, Tisbury, and Edgartown, and deer ticks associated with the island's deer herd are a defining wildlife-health concern. The island has no established fisher population comparable to the mainland."
+    },
+    "Essex County": {
+      "absent_or_rare": "black bears occur in the county's northwestern towns and white-tailed deer and wild turkeys live throughout the county, but they are managed by MassWildlife rather than private wildlife removal contractors",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Norway rats",
+        "striped skunks",
+        "opossums",
+        "bats",
+        "moles"
+      ],
+      "county_seat": "Salem",
+      "established": 1643,
+      "habitat_type": "dense Merrimack Valley mill cities, North Shore coastal suburbs, and wooded and farmed towns inland along the Ipswich and Merrimack rivers",
+      "largest_cities": [
+        "Lynn",
+        "Lawrence",
+        "Haverhill",
+        "Peabody",
+        "Methuen",
+        "Salem",
+        "Beverly"
+      ],
+      "natural_features": [
+        "Parker River National Wildlife Refuge",
+        "Merrimack River",
+        "Crane Beach in Ipswich"
+      ],
+      "nearest_metro": "Boston (about 15 miles south of Lynn and Salem)",
+      "population": 809940,
+      "region": "northeastern Massachusetts along the New Hampshire border and the North Shore, including the lower Merrimack Valley",
+      "regional_wildlife": "Norway rats are heavy in the older triple-decker neighborhoods of Lawrence, Lynn, and Haverhill, raccoon and skunk pressure is consistent across the Peabody, Danvers, and North Andover suburbs, and beaver flooding is a recurring problem along the Ipswich River and low-lying roads in the county's wooded inland towns. Bat colonies in older North Shore homes are a steady summer issue."
+    },
+    "Franklin County": {
+      "absent_or_rare": "black bears and moose live throughout Franklin County and white-tailed deer are abundant, but all are managed by MassWildlife rather than private wildlife removal contractors; timber rattlesnakes do not have documented populations in Franklin County",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "bats",
+        "beavers",
+        "striped skunks",
+        "woodchucks",
+        "porcupines"
+      ],
+      "county_seat": "Greenfield",
+      "established": 1811,
+      "habitat_type": "Connecticut River valley farmland and mill villages surrounded by heavily forested hill towns",
+      "largest_cities": [
+        "Greenfield",
+        "Montague",
+        "Orange",
+        "Deerfield",
+        "Sunderland",
+        "Northfield"
+      ],
+      "natural_features": [
+        "Connecticut River",
+        "Mount Sugarloaf State Reservation",
+        "Erving State Forest"
+      ],
+      "nearest_metro": "Springfield (about 35 miles south of Greenfield) and Northampton (about 25 miles south)",
+      "population": 71032,
+      "region": "northwestern Massachusetts in the upper Pioneer Valley, bordering Vermont and New Hampshire — the most rural county in eastern or central Massachusetts",
+      "regional_wildlife": "Beavers flood roads, culverts, and farmland along the Connecticut, Deerfield, and Millers rivers and their tributaries, porcupines damage outbuildings and deck boards in the forested hill towns, and bat colonies and raccoon families are routine in older farmhouses and mill-village homes around Greenfield, Montague, and Orange. Fishers cause occasional chicken-coop losses on small farms."
+    },
+    "Hampden County": {
+      "absent_or_rare": "timber rattlesnakes and copperheads in Hampden County are listed as Endangered under the Massachusetts Endangered Species Act and are protected — they are not a removal species; black bears are common in the county's hill towns and white-tailed deer live throughout, but both are managed by MassWildlife rather than private wildlife removal contractors",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Norway rats",
+        "striped skunks",
+        "opossums",
+        "bats",
+        "woodchucks"
+      ],
+      "county_seat": "Springfield",
+      "established": 1812,
+      "habitat_type": "the urban Springfield, Holyoke, and Chicopee core, dense river-valley suburbs, and forested hill towns to the west and east",
+      "largest_cities": [
+        "Springfield",
+        "Chicopee",
+        "Westfield",
+        "Holyoke",
+        "West Springfield",
+        "Agawam"
+      ],
+      "natural_features": [
+        "Mount Tom State Reservation",
+        "Robinson State Park",
+        "Connecticut River"
+      ],
+      "nearest_metro": "Springfield is itself the regional metro center; Hartford, CT is about 25 miles south",
+      "population": 465833,
+      "region": "south-central Massachusetts in the southern Pioneer Valley along the Connecticut River and the Connecticut border",
+      "regional_wildlife": "Norway rats are persistent in older Springfield and Holyoke neighborhoods, raccoons and skunks generate steady pressure across the West Springfield, Agawam, and Ludlow suburbs, and beaver flooding affects low roads and properties along the Westfield and Chicopee rivers. The rocky Holyoke Range and Mount Tom area is one of the few Massachusetts areas with documented timber rattlesnake and copperhead populations, both state-listed as Endangered and protected."
+    },
+    "Hampshire County": {
+      "absent_or_rare": "black bears are regular visitors in the hill towns and around Amherst and Northampton, moose occur in the Quabbin-area forests, and white-tailed deer are abundant, but all are managed by MassWildlife rather than private wildlife removal contractors; timber rattlesnakes and copperheads documented in the Holyoke Range are state Endangered and protected, not removal species",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "bats",
+        "striped skunks",
+        "woodchucks",
+        "beavers",
+        "opossums"
+      ],
+      "county_seat": "Northampton",
+      "established": 1662,
+      "habitat_type": "college towns and small cities in the river valley, productive Connecticut River farmland, and forested hill towns rising to the east and west",
+      "largest_cities": [
+        "Amherst",
+        "Northampton",
+        "South Hadley",
+        "Easthampton",
+        "Belchertown",
+        "Ware"
+      ],
+      "natural_features": [
+        "Connecticut River",
+        "Mount Holyoke Range and Skinner State Park",
+        "Quabbin Reservoir"
+      ],
+      "nearest_metro": "Springfield (about 20 miles south of Northampton)",
+      "population": 162308,
+      "region": "the middle Pioneer Valley of western Massachusetts along the Connecticut River, between Hampden County to the south and Franklin County to the north",
+      "regional_wildlife": "University-area neighborhoods in Amherst and Northampton see heavy raccoon and skunk pressure around student and rental housing, woodchucks are a persistent garden and farm pest in the Hadley and Hatfield farmland, and beavers flood roads and fields along Connecticut River tributaries. Bat colonies in older valley homes are a recurring summer issue."
+    },
+    "Middlesex County": {
+      "absent_or_rare": "black bears reach the county's northwestern towns only occasionally and white-tailed deer live throughout the suburban reservations, but both are managed by MassWildlife rather than private wildlife removal contractors; moose are rare visitors this far east",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Norway rats",
+        "striped skunks",
+        "opossums",
+        "bats",
+        "moles"
+      ],
+      "county_seat": "Cambridge",
+      "established": 1643,
+      "habitat_type": "dense inner suburbs and small cities around Boston and Lowell, extensive postwar suburbs, and protected river corridors and reservoirs that support suburban beaver and coyote populations",
+      "largest_cities": [
+        "Cambridge",
+        "Lowell",
+        "Newton",
+        "Somerville",
+        "Framingham",
+        "Malden",
+        "Waltham"
+      ],
+      "natural_features": [
+        "Middlesex Fells Reservation",
+        "Great Meadows National Wildlife Refuge",
+        "Walden Pond State Reservation"
+      ],
+      "nearest_metro": "Boston, which borders the county to the southeast; Lowell and Cambridge are regional centers within the county",
+      "population": 1631915,
+      "region": "northern and northwestern suburban Boston, from Cambridge and Somerville to Lowell and the Route 495 corridor — the most populous county in Massachusetts",
+      "regional_wildlife": "Raccoons, squirrels, and skunks generate the highest suburban call volume in the state across Newton, Lexington, Woburn, and the Route 128 suburbs, Norway rats are persistent in Cambridge, Somerville, Lowell, and Malden's older housing, and beaver flooding is a recurring municipal problem in Concord, Lincoln, and other towns along the Sudbury and Concord rivers. Coyotes and fishers are both established in the suburban woodlands and reservoir lands."
+    },
+    "Nantucket County": {
+      "absent_or_rare": "black bears, moose, coyotes, and fishers have no established resident populations on Nantucket, and white-tailed deer are managed by MassWildlife rather than private wildlife removal contractors",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "bats",
+        "striped skunks",
+        "Norway rats",
+        "white-footed mice",
+        "moles"
+      ],
+      "county_seat": "Nantucket",
+      "established": 1695,
+      "habitat_type": "a single-town island county of sandplain grassland and heathland, coastal ponds, harbor-side historic housing, and a very large stock of seasonal homes",
+      "largest_cities": [
+        "Nantucket"
+      ],
+      "natural_features": [
+        "Coskata-Coatue Wildlife Refuge",
+        "Nantucket National Wildlife Refuge",
+        "Sanford Farm and Ram Pasture"
+      ],
+      "nearest_metro": "no mainland metro; ferry and air service connect the island to Hyannis, with Boston about 105 miles away by road and ferry",
+      "population": 14250,
+      "region": "the island of Nantucket, about 30 miles south of Cape Cod in the Atlantic Ocean",
+      "regional_wildlife": "Nantucket's seasonal housing stock, much of it closed outside the summer season, produces bat, mouse, and squirrel problems discovered at spring openings, and raccoons and skunks are persistent around the historic town center and harbor neighborhoods. The island's deer herd is a long-standing management concern for tick-borne disease."
+    },
+    "Norfolk County": {
+      "absent_or_rare": "timber rattlesnakes and copperheads in the Blue Hills are listed as Endangered under the Massachusetts Endangered Species Act and are protected — they are not a removal species; black bears are only occasional visitors this close to Boston, and white-tailed deer in the Blue Hills and other reservations are managed by MassWildlife rather than private wildlife removal contractors",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Norway rats",
+        "striped skunks",
+        "opossums",
+        "bats",
+        "moles"
+      ],
+      "county_seat": "Dedham",
+      "established": 1793,
+      "habitat_type": "dense inner suburbs around Quincy and Brookline, postwar suburbs along Routes 128 and 1, and the forested Blue Hills and Neponset River corridor",
+      "largest_cities": [
+        "Quincy",
+        "Brookline",
+        "Weymouth",
+        "Braintree",
+        "Randolph",
+        "Franklin",
+        "Needham"
+      ],
+      "natural_features": [
+        "Blue Hills Reservation",
+        "Neponset River Reservation",
+        "Ponkapoag Pond"
+      ],
+      "nearest_metro": "Boston, which borders the county to the northeast",
+      "population": 726010,
+      "region": "suburban Boston south and southwest of the city, between Suffolk County and the Rhode Island border",
+      "regional_wildlife": "Raccoons and squirrels are persistent in the older housing of Quincy, Weymouth, and Braintree, Norway rats occur in the county's denser commercial and multi-family areas, and moles damage lawns throughout the Dedham, Needham, and Wellesley suburbs. The Blue Hills Reservation in Milton and Canton supports coyotes, fishers, and one of Massachusetts' few documented timber rattlesnake and copperhead populations."
+    },
+    "Plymouth County": {
+      "absent_or_rare": "black bears are occasional visitors in the county's inland towns and white-tailed deer and wild turkeys live throughout the county, but they are managed by MassWildlife rather than private wildlife removal contractors",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "striped skunks",
+        "opossums",
+        "bats",
+        "beavers",
+        "moles"
+      ],
+      "county_seat": "Brockton",
+      "established": 1685,
+      "habitat_type": "South Shore coastal suburbs, the older city of Brockton, and inland cranberry country with extensive pine barrens, ponds, and wetlands around Plymouth, Carver, and Middleborough",
+      "largest_cities": [
+        "Brockton",
+        "Plymouth",
+        "Bridgewater",
+        "Marshfield",
+        "Middleborough",
+        "Hingham",
+        "Wareham"
+      ],
+      "natural_features": [
+        "Myles Standish State Forest",
+        "Ellisville Harbor State Park",
+        "North River"
+      ],
+      "nearest_metro": "Boston (about 30 miles north of Plymouth and 25 miles north of Brockton)",
+      "population": 530820,
+      "region": "the South Shore and southeastern Massachusetts between Boston and Cape Cod, along Cape Cod Bay and Buzzards Bay",
+      "regional_wildlife": "Beaver flooding is a recurring problem around the cranberry bogs, ponds, and low roads of Plymouth, Carver, Wareham, and Middleborough, raccoons and skunks generate steady pressure in the Marshfield, Hingham, and Duxbury coastal suburbs, and bat colonies are common in older South Shore and Plymouth homes. Norway rats are persistent in Brockton's older neighborhoods."
+    },
+    "Suffolk County": {
+      "absent_or_rare": "black bears, moose, and fishers have no resident populations in Suffolk County, and white-tailed deer, which occur mainly in the county's larger parks and on the harbor islands, are managed by MassWildlife rather than private wildlife removal contractors; there are no documented timber rattlesnake or copperhead populations in Suffolk County",
+      "common_wildlife": [
+        "Norway rats",
+        "raccoons",
+        "Eastern gray squirrels",
+        "striped skunks",
+        "opossums",
+        "bats",
+        "house mice"
+      ],
+      "county_seat": "Boston",
+      "established": 1643,
+      "habitat_type": "the densest housing in the state — Boston rowhouses and triple-deckers, brick apartment blocks, and harbor and riverfront development — with very little undeveloped land outside parks and reservations",
+      "largest_cities": [
+        "Boston",
+        "Revere",
+        "Chelsea",
+        "Winthrop"
+      ],
+      "natural_features": [
+        "Boston Harbor Islands National Recreation Area",
+        "Charles River Reservation",
+        "Franklin Park"
+      ],
+      "nearest_metro": "Boston is itself the state capital and the regional metro center",
+      "population": 800937,
+      "region": "Boston and its immediate harbor neighbors — the urban core of Massachusetts",
+      "regional_wildlife": "Norway rats are the dominant wildlife problem in Boston, Chelsea, and Revere's dense rowhouse and triple-decker neighborhoods, raccoons use chimneys, roofs, and harbor-side green space across the city, and skunks and opossums are established in the city's parks, rail corridors, and residential yards. Big brown bat colonies roost in older brick and wood-frame buildings throughout the county."
+    },
+    "Worcester County": {
+      "absent_or_rare": "black bears are common in Worcester County's western and northern towns and moose live in the Quabbin-area forests, and white-tailed deer are abundant throughout, but all are managed by MassWildlife — including through its Large Animal Response Team — rather than private wildlife removal contractors",
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Norway rats",
+        "striped skunks",
+        "bats",
+        "beavers",
+        "moles"
+      ],
+      "county_seat": "Worcester",
+      "established": 1731,
+      "habitat_type": "the urban Worcester core and older mill cities in the north, extensive suburbs along I-290 and I-495, and heavily forested reservoir and hill country in the west",
+      "largest_cities": [
+        "Worcester",
+        "Leominster",
+        "Fitchburg",
+        "Shrewsbury",
+        "Milford",
+        "Gardner",
+        "Westborough"
+      ],
+      "natural_features": [
+        "Wachusett Mountain State Reservation",
+        "Quabbin Reservoir",
+        "Purgatory Chasm State Reservation"
+      ],
+      "nearest_metro": "Worcester is itself a regional metro center; Boston is about 45 miles east of Worcester",
+      "population": 862104,
+      "region": "central Massachusetts, the largest county in the state by land area, from the New Hampshire border to Connecticut and Rhode Island",
+      "regional_wildlife": "Norway rats are persistent in Worcester, Fitchburg, and Leominster's older neighborhoods, raccoons and skunks generate heavy pressure across the Shrewsbury, Holden, and Westborough suburbs, and beaver flooding is widespread along the streams and reservoir tributaries of the county's forested western towns. Fishers are well established, and bat colonies in older mill-city and farm housing are a recurring summer issue."
+    }
+  },
+  "state": {
+    "agency": "Massachusetts Division of Fisheries and Wildlife — MassWildlife",
+    "agency_short": "MassWildlife",
+    "climate_factor": "Massachusetts' cold winters push rodents, squirrels, and big brown bats that hibernate in buildings into attics and wall voids, while humid summers, extensive wetlands, and beaver-impounded water across the suburban and rural counties drive heavy raccoon, skunk, and mosquito-season wildlife pressure",
+    "county_government_note": "Massachusetts abolished eight of its fourteen county governments between 1997 and 2000 — Berkshire, Essex, Franklin, Hampden, Hampshire, Middlesex, Suffolk, and Worcester — while Barnstable, Bristol, Dukes, Norfolk, and Plymouth retain limited county government and Nantucket functions as a consolidated town-county; all fourteen counties remain as geographic and legal designations",
+    "name": "Massachusetts",
+    "peak_intrusion_season": "March through May during spring raccoon and squirrel dispersal and before bat maternity colonies form, June and July when bat pups are flightless in attics and exclusion is not permitted, late summer for skunk and woodchuck activity, and late September through November as rodents, squirrels, and bats seek winter shelter in older housing",
+    "permit_note": "Massachusetts licenses Problem Animal Control (PAC) agents through MassWildlife under M.G.L. c. 131, s. 4 and 321 CMR 2.14 to do nuisance wildlife work for hire for a listed set of species; Massachusetts law prohibits capturing and relocating wildlife off the property where it was caught, so trapped animals must be released on site or humanely destroyed, and beaver work outside the November 1 to April 15 trapping season requires a municipal Board of Health emergency permit"
+  }
+}

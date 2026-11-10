@@ -5,111 +5,264 @@
     "agency_short": "CT DEEP Wildlife Division",
     "peak_intrusion_season": "March through May during spring squirrel and raccoon dispersal, summer for bat maternity colonies and mole lawn damage in the suburban counties, and late September through November as rodents and squirrels seek winter shelter",
     "climate_factor": "Connecticut's cold winters push rodents, bats, and squirrels into attics aggressively, while warm humid summers drive heavy raccoon and skunk activity in suburban yards across the densely populated southern half of the state",
-    "permit_note": "Connecticut requires a Nuisance Wildlife Control Operator (NWCO) permit for commercial trapping, and migratory birds carry additional state and federal handling restrictions; large game animals fall under direct CT DEEP Wildlife Division management rather than the private wildlife removal industry",
+    "permit_note": "Connecticut requires a Nuisance Wildlife Control Operator (NWCO) license for commercial nuisance work, and migratory birds carry additional state and federal handling restrictions; relocating rabies-vector species is prohibited, and large game animals fall under direct CT DEEP Wildlife Division management rather than the private wildlife removal industry",
     "county_government_note": "Connecticut formally dissolved county government in 1960, but the eight counties remain as geographic and legal designations"
   },
   "counties": {
     "Fairfield County": {
-      "county_seat": "historically Bridgeport (county government dissolved in 1960)",
+      "county_seat": "Bridgeport",
       "population": 957419,
       "established": 1666,
       "region": "southwestern Connecticut along Long Island Sound, bordering New York",
-      "largest_cities": ["Bridgeport", "Stamford", "Norwalk", "Danbury", "Greenwich", "Fairfield"],
+      "largest_cities": [
+        "Bridgeport",
+        "Stamford",
+        "Norwalk",
+        "Danbury",
+        "Greenwich",
+        "Fairfield"
+      ],
       "nearest_metro": "New York City (Stamford is about 35 miles from Manhattan)",
-      "natural_features": ["Devil's Den Preserve", "Sherwood Island State Park", "Audubon Greenwich"],
+      "natural_features": [
+        "Devil's Den Preserve",
+        "Sherwood Island State Park",
+        "Audubon Greenwich"
+      ],
       "habitat_type": "dense suburban Gold Coast along the Sound, with wooded interior towns to the north",
-      "common_wildlife": ["raccoons", "Eastern gray squirrels", "striped skunks", "Norway rats", "Eastern chipmunks", "moles", "bats"],
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "striped skunks",
+        "Norway rats",
+        "Eastern chipmunks",
+        "moles",
+        "bats"
+      ],
       "regional_wildlife": "Norway rats are persistent in Bridgeport's older neighborhoods, raccoons and skunks generate heavy suburban call volume in Greenwich, Westport, and Darien, and moles damage the manicured lawns that define the Gold Coast residential landscape",
       "absent_or_rare": "black bears, moose, white-tailed deer, coyotes, and bobcats live in and pass through the surrounding region but are managed by CT DEEP Wildlife Division rather than private wildlife removal contractors"
     },
     "Hartford County": {
-      "county_seat": "historically Hartford (county government dissolved in 1960)",
+      "county_seat": "Hartford",
       "population": 899498,
       "established": 1666,
       "region": "central Connecticut along the Connecticut River valley",
-      "largest_cities": ["Hartford", "New Britain", "Bristol", "West Hartford", "Manchester", "Enfield"],
+      "largest_cities": [
+        "Hartford",
+        "New Britain",
+        "Bristol",
+        "West Hartford",
+        "Manchester",
+        "Enfield"
+      ],
       "nearest_metro": "Hartford is itself the regional metro center",
-      "natural_features": ["Talcott Mountain State Park", "Connecticut River", "Penwood State Park"],
+      "natural_features": [
+        "Talcott Mountain State Park",
+        "Connecticut River",
+        "Penwood State Park"
+      ],
       "habitat_type": "the urban Hartford core, dense suburbs throughout the river valley, and rocky traprock ridges to the west",
-      "common_wildlife": ["raccoons", "Eastern gray squirrels", "striped skunks", "opossums", "Norway rats", "moles", "bats"],
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "striped skunks",
+        "opossums",
+        "Norway rats",
+        "moles",
+        "bats"
+      ],
       "regional_wildlife": "fishers are well-established across the suburban towns producing occasional chicken-coop and outbuilding losses, Norway rats are persistent in older Hartford and New Britain neighborhoods, and moles damage the manicured lawns of the West Hartford, Manchester, and Glastonbury suburban ring",
       "absent_or_rare": "porcupines are scarce this far south of their core New England range, and black bears, moose, white-tailed deer, and bobcats living in the western Hartford County hills are managed by CT DEEP Wildlife Division rather than private wildlife removal contractors"
     },
     "Litchfield County": {
-      "county_seat": "historically Litchfield (county government dissolved in 1960)",
+      "county_seat": "Litchfield",
       "population": 185186,
       "established": 1751,
       "region": "northwestern Connecticut, the most rural and mountainous part of the state",
-      "largest_cities": ["Torrington", "Winsted", "New Milford", "Litchfield", "Watertown", "Thomaston"],
+      "largest_cities": [
+        "Torrington",
+        "Winsted",
+        "New Milford",
+        "Litchfield",
+        "Watertown",
+        "Thomaston"
+      ],
       "nearest_metro": "Hartford (about 30 miles east) and Waterbury (about 20 miles south)",
-      "natural_features": ["Mohawk State Forest", "Housatonic State Forest", "Lake Waramaug", "Macedonia Brook State Park"],
+      "natural_features": [
+        "Mohawk State Forest",
+        "Housatonic State Forest",
+        "Lake Waramaug",
+        "Macedonia Brook State Park"
+      ],
       "habitat_type": "wooded hills and small mountains, scattered farmland, and lake communities — the most forested county in the state",
-      "common_wildlife": ["raccoons", "Eastern gray squirrels", "fishers", "porcupines", "bats", "striped skunks", "woodchucks"],
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "fishers",
+        "porcupines",
+        "bats",
+        "striped skunks",
+        "woodchucks"
+      ],
       "regional_wildlife": "porcupines damage outbuildings, deck boards, and parked vehicles around camps and rural homes throughout the wooded hills, fishers cause regular chicken-coop predation across the small-farm landscape, and bat colonies in older lake-community homes around Lake Waramaug and Macedonia Brook State Park are a recurring summer issue",
       "absent_or_rare": "black bears, moose, white-tailed deer, and bobcats are abundant throughout this most-forested Connecticut county but fall under CT DEEP Wildlife Division jurisdiction rather than private wildlife removal contractor scope"
     },
     "Middlesex County": {
-      "county_seat": "historically Middletown (county government dissolved in 1960)",
+      "county_seat": "Middletown",
       "population": 164759,
       "established": 1785,
       "region": "south-central Connecticut along the lower Connecticut River and Long Island Sound",
-      "largest_cities": ["Middletown", "Old Saybrook", "Cromwell", "Portland", "Clinton", "Essex"],
+      "largest_cities": [
+        "Middletown",
+        "Old Saybrook",
+        "Cromwell",
+        "Portland",
+        "Clinton",
+        "Essex"
+      ],
       "nearest_metro": "Hartford (about 20 miles north) and New Haven (about 25 miles west)",
-      "natural_features": ["Cockaponset State Forest", "Hammonasset Beach State Park", "Connecticut River estuary"],
+      "natural_features": [
+        "Cockaponset State Forest",
+        "Hammonasset Beach State Park",
+        "Connecticut River estuary"
+      ],
       "habitat_type": "river towns, small Sound-facing shoreline communities, and significant inland forest",
-      "common_wildlife": ["raccoons", "Eastern gray squirrels", "striped skunks", "red foxes", "moles", "bats", "muskrats"],
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "striped skunks",
+        "red foxes",
+        "moles",
+        "bats",
+        "muskrats"
+      ],
       "regional_wildlife": "the lower Connecticut River corridor and Hammonasset Beach State Park concentrate muskrat, beaver, and Canada goose pressure on adjacent properties, bat activity in older shoreline homes is a recurring summer issue, and moles damage manicured lawns throughout the Middletown, Cromwell, and Old Saybrook residential neighborhoods",
       "absent_or_rare": "black bears are present in the surrounding region and white-tailed deer live throughout the county, but both species fall under CT DEEP Wildlife Division management rather than private wildlife removal contractor scope"
     },
     "New Haven County": {
-      "county_seat": "historically New Haven (county government dissolved in 1960)",
+      "county_seat": "New Haven",
       "population": 864835,
       "established": 1666,
       "region": "south-central Connecticut along Long Island Sound",
-      "largest_cities": ["New Haven", "Waterbury", "Meriden", "Milford", "West Haven", "Hamden"],
+      "largest_cities": [
+        "New Haven",
+        "Waterbury",
+        "Meriden",
+        "Milford",
+        "West Haven",
+        "Hamden"
+      ],
       "nearest_metro": "New Haven is the regional center, with New York City about 80 miles southwest",
-      "natural_features": ["Sleeping Giant State Park", "West Rock Ridge State Park", "Long Island Sound shoreline"],
+      "natural_features": [
+        "Sleeping Giant State Park",
+        "West Rock Ridge State Park",
+        "Long Island Sound shoreline"
+      ],
       "habitat_type": "the urban cores of New Haven and Waterbury, dense suburbs, and the rocky traprock ridges that run through the county",
-      "common_wildlife": ["raccoons", "Eastern gray squirrels", "Norway rats", "striped skunks", "opossums", "moles", "bats"],
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Norway rats",
+        "striped skunks",
+        "opossums",
+        "moles",
+        "bats"
+      ],
       "regional_wildlife": "Norway rat populations are heavy in the older three-decker neighborhoods of New Haven and the post-industrial blocks of Waterbury, raccoon and skunk pressure is consistent across the suburban ring of Hamden, Cheshire, and Milford, and moles damage manicured lawns throughout the suburban housing stock",
       "absent_or_rare": "porcupines are uncommon this far south, and black bears, moose, white-tailed deer, coyotes, and bobcats live in the surrounding region but fall under CT DEEP Wildlife Division management rather than private wildlife removal contractor scope"
     },
     "New London County": {
-      "county_seat": "historically New London (county government dissolved in 1960)",
+      "county_seat": "New London",
       "population": 268555,
       "established": 1666,
       "region": "southeastern Connecticut along Long Island Sound and the Rhode Island border",
-      "largest_cities": ["Norwich", "New London", "Groton", "Stonington", "East Lyme", "Waterford"],
+      "largest_cities": [
+        "Norwich",
+        "New London",
+        "Groton",
+        "Stonington",
+        "East Lyme",
+        "Waterford"
+      ],
       "nearest_metro": "Providence, RI (about 50 miles east) and Hartford (about 50 miles northwest)",
-      "natural_features": ["Pachaug State Forest", "Bluff Point State Park", "Mystic River estuary"],
+      "natural_features": [
+        "Pachaug State Forest",
+        "Bluff Point State Park",
+        "Mystic River estuary"
+      ],
       "habitat_type": "shoreline towns, the large Pachaug forest in the north, and rural farming communities in between",
-      "common_wildlife": ["raccoons", "Eastern gray squirrels", "striped skunks", "red foxes", "bats", "beavers", "fishers"],
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "striped skunks",
+        "red foxes",
+        "bats",
+        "beavers",
+        "fishers"
+      ],
       "regional_wildlife": "Pachaug State Forest's working timberland produces consistent fisher activity in the surrounding rural towns generating occasional chicken-coop and outbuilding losses, waterfront properties along the Mystic and Thames rivers see persistent beaver and muskrat pressure, and bat colonies in older coastal homes throughout Stonington and East Lyme are a recurring summer call source",
       "absent_or_rare": "black bears, moose, white-tailed deer, wild turkeys, bobcats, and river otters live in the surrounding region but are managed by CT DEEP Wildlife Division rather than private wildlife removal contractors"
     },
     "Tolland County": {
-      "county_seat": "historically Tolland (county government dissolved in 1960)",
+      "county_seat": "Tolland",
       "population": 149788,
       "established": 1785,
       "region": "north-central and northeastern Connecticut, including the area around UConn",
-      "largest_cities": ["Mansfield", "Vernon", "Stafford", "Tolland", "Coventry", "Ellington"],
+      "largest_cities": [
+        "Mansfield",
+        "Vernon",
+        "Stafford",
+        "Tolland",
+        "Coventry",
+        "Ellington"
+      ],
       "nearest_metro": "Hartford (about 20 miles southwest)",
-      "natural_features": ["Shenipsit State Forest", "Nipmuck State Forest", "Mansfield Hollow State Park"],
+      "natural_features": [
+        "Shenipsit State Forest",
+        "Nipmuck State Forest",
+        "Mansfield Hollow State Park"
+      ],
       "habitat_type": "rolling wooded hills, university and lake-area communities, and small dairy farms",
-      "common_wildlife": ["raccoons", "Eastern gray squirrels", "Eastern chipmunks", "fishers", "bats", "striped skunks", "porcupines"],
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "Eastern chipmunks",
+        "fishers",
+        "bats",
+        "striped skunks",
+        "porcupines"
+      ],
       "regional_wildlife": "university-area neighborhoods in Mansfield see heavy raccoon and skunk pressure around student housing, fishers are now common enough in the wooded hill towns of Tolland and Stafford to cause occasional chicken-coop and outbuilding damage, and bat colonies in older homes throughout Vernon and Coventry are a recurring summer issue",
       "absent_or_rare": "porcupines occur in the more wooded hill towns but are uncommon, and black bears, moose, white-tailed deer, and bobcats living in the surrounding region are managed by CT DEEP Wildlife Division rather than private wildlife removal contractors"
     },
     "Windham County": {
-      "county_seat": "historically Brooklyn (county government dissolved in 1960)",
+      "county_seat": "Brooklyn",
       "population": 116782,
       "established": 1726,
       "region": "northeastern Connecticut, the 'Quiet Corner,' bordering Massachusetts and Rhode Island",
-      "largest_cities": ["Killingly", "Windham", "Plainfield", "Putnam", "Thompson", "Woodstock"],
+      "largest_cities": [
+        "Killingly",
+        "Windham",
+        "Plainfield",
+        "Putnam",
+        "Thompson",
+        "Woodstock"
+      ],
       "nearest_metro": "Worcester, MA (about 30 miles northeast) and Hartford (about 35 miles west)",
-      "natural_features": ["Goodwin State Forest", "Natchaug State Forest", "Quinebaug River corridor"],
+      "natural_features": [
+        "Goodwin State Forest",
+        "Natchaug State Forest",
+        "Quinebaug River corridor"
+      ],
       "habitat_type": "the most rural region in the state, with extensive forest, hill farms, and small mill villages",
-      "common_wildlife": ["raccoons", "Eastern gray squirrels", "fishers", "bats", "porcupines", "beavers", "striped skunks"],
+      "common_wildlife": [
+        "raccoons",
+        "Eastern gray squirrels",
+        "fishers",
+        "bats",
+        "porcupines",
+        "beavers",
+        "striped skunks"
+      ],
       "regional_wildlife": "Windham County's rural character means fisher activity is widespread — chicken-coop predation and outbuilding damage are routine in the wooded townships, rural barns and outbuildings throughout the Quiet Corner host bat colonies and raccoon families, and beavers cause flooding issues along the Quinebaug River corridor",
       "absent_or_rare": "black bears, moose, white-tailed deer, wild turkeys, and bobcats are common throughout the surrounding rural countryside but fall under CT DEEP Wildlife Division jurisdiction rather than private wildlife removal contractor scope"
     }
