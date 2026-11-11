@@ -1,0 +1,690 @@
+{
+ "state": {
+  "name": "New Jersey",
+  "agency": "New Jersey Division of Fish and Wildlife (NJ Fish & Wildlife), New Jersey Department of Environmental Protection",
+  "agency_short": "NJ Fish & Wildlife",
+  "peak_intrusion_season": "February through April during raccoon and squirrel denning, spring for groundhog and skunk emergence, summer for bat maternity colonies (exclusion only inside the NJ Fish & Wildlife guideline windows), and late September through November as squirrels and rodents seek winter shelter",
+  "climate_factor": "New Jersey's humid summers and cold winters push squirrels, raccoons and rodents into attics hard each fall, while the Shore's empty off-season homes let bat and raccoon problems grow undetected for months",
+  "permit_note": "New Jersey has no nuisance wildlife control operator license: under the Game Code, N.J.A.C. 7:25-5.21, control of squirrel, raccoon, opossum, skunk, woodchuck and fox causing property damage is done by the property owner or their agent designated in writing, and species outside that list require a NJ Fish & Wildlife depredation permit; the separate NJDEP Commercial Pesticide Applicator license (Category 7A) covers pesticide and rodenticide application for hire and is not a wildlife license"
+ },
+ "counties": {
+  "Atlantic County": {
+   "county_seat": "Mays Landing",
+   "population": 274534,
+   "established": 1837,
+   "region": "southern New Jersey on the Atlantic coast, between the Pine Barrens and the Shore",
+   "largest_cities": [
+    "Atlantic City",
+    "Egg Harbor Township",
+    "Galloway Township",
+    "Mays Landing",
+    "Pleasantville",
+    "Hammonton"
+   ],
+   "nearest_metro": "Atlantic City is itself the regional center, with Philadelphia about 60 miles northwest",
+   "natural_features": [
+    "Edwin B. Forsythe National Wildlife Refuge",
+    "Great Egg Harbor River",
+    "Wharton State Forest edge and the Pine Barrens"
+   ],
+   "habitat_type": "casino and Shore housing in the east, Pine Barrens forest and blueberry and cranberry farms inland",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "opossums",
+    "bats",
+    "moles",
+    "Norway rats"
+   ],
+   "regional_wildlife": "raccoons and bats turn up constantly in Shore homes that sit closed between rentals, skunks work the sandy back-bay neighborhoods, and Pine Barrens-edge properties in Galloway and Hammonton see snakes and groundhogs along the tree line",
+   "absent_or_rare": "black bears are uncommon visitors this far south, and beaver, deer and wild turkey problems in the Barrens are NJ Fish & Wildlife matters rather than a routine house call"
+  },
+  "Bergen County": {
+   "county_seat": "Hackensack",
+   "population": 955732,
+   "established": 1683,
+   "region": "northeastern New Jersey across the Hudson from New York City",
+   "largest_cities": [
+    "Hackensack",
+    "Teaneck",
+    "Fort Lee",
+    "Ridgewood",
+    "Paramus",
+    "Englewood",
+    "Fair Lawn"
+   ],
+   "nearest_metro": "New York City (Fort Lee sits at the George Washington Bridge)",
+   "natural_features": [
+    "Overpeck County Park and the Hackensack River",
+    "Ramapo Mountains foothills in the northwest",
+    "Palisades Interstate Park along the Hudson"
+   ],
+   "habitat_type": "dense older suburbs and apartment towns in the south and east, wooded large-lot towns toward the Ramapo foothills",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "opossums",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats run the older commercial and multifamily blocks of Hackensack, Englewood and Fort Lee, raccoons and squirrels are relentless in the mature-canopy suburbs of Ridgewood and Teaneck, and groundhogs burrow the Ramapo-edge yards in the northwest towns",
+   "absent_or_rare": "venomous snakes are not a Bergen County pattern — the county's rocky northwest is copperhead country only at its far edge, and black bear sightings are handled by NJ Fish & Wildlife"
+  },
+  "Burlington County": {
+   "county_seat": "Mount Holly",
+   "population": 461860,
+   "established": 1694,
+   "region": "central-southern New Jersey, the state's largest county by area, from the Delaware River to the Pine Barrens",
+   "largest_cities": [
+    "Mount Holly",
+    "Marlton",
+    "Moorestown",
+    "Willingboro",
+    "Medford",
+    "Burlington City"
+   ],
+   "nearest_metro": "Philadelphia (about 20 miles west across the Delaware River)",
+   "natural_features": [
+    "Wharton State Forest",
+    "Rancocas State Park and Rancocas Creek",
+    "Brendan T. Byrne State Forest"
+   ],
+   "habitat_type": "Delaware River towns in the west, established suburbs in the northwest, and deep Pine Barrens forest across the eastern half",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "groundhogs",
+    "opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "the suburban northwest — Moorestown, Marlton and Mount Laurel side streets — produces steady squirrel, raccoon and mole work, while the Barrens towns around Medford and Tabernacle add groundhogs, snakes in the pines, and bats in older farmhouses and lake cabins",
+   "absent_or_rare": "the Pine Barrens' southern timber rattlesnake population lives in the deep forest townships, a state-Endangered species that is referral-only through NJ Fish & Wildlife, and beaver flooding in the Barrens is a permit matter"
+  },
+  "Camden County": {
+   "county_seat": "Camden",
+   "population": 523485,
+   "established": 1844,
+   "region": "southwestern New Jersey across the Delaware River from Philadelphia",
+   "largest_cities": [
+    "Camden",
+    "Cherry Hill",
+    "Voorhees Township",
+    "Gloucester Township",
+    "Pennsauken Township",
+    "Haddonfield",
+    "Winslow Township"
+   ],
+   "nearest_metro": "Philadelphia (directly across the Delaware River)",
+   "natural_features": [
+    "Cooper River Park and the Cooper River",
+    "Newton Lake and the Cooper River corridor",
+    "Wharton State Forest edge in Winslow"
+   ],
+   "habitat_type": "dense older city and inner-suburb blocks in the north, postwar suburbs in the center, and Pine Barrens forest in the southeast",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "opossums",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats are entrenched in Camden City's older blocks and the Pennsauken industrial edges, raccoons and squirrels fill Cherry Hill and Haddonfield attics under heavy canopy, and Winslow's Barrens-edge homes add groundhogs and the occasional pine snake sighting",
+   "absent_or_rare": "there are no venomous snakes established in Camden County's suburbs, and deer and beaver problems along the Cooper River are NJ Fish & Wildlife matters"
+  },
+  "Cape May County": {
+   "county_seat": "Cape May Court House",
+   "population": 95263,
+   "established": 1692,
+   "region": "the southern tip of New Jersey, a peninsula between Delaware Bay and the Atlantic Ocean",
+   "largest_cities": [
+    "Cape May Court House",
+    "Ocean City",
+    "Wildwood",
+    "Cape May",
+    "Villas",
+    "North Wildwood"
+   ],
+   "nearest_metro": "Atlantic City (about 35 miles northeast) and Philadelphia (about 80 miles northwest)",
+   "natural_features": [
+    "Cape May Point State Park",
+    "Delaware Bayshore marshes",
+    "Belleplain State Forest"
+   ],
+   "habitat_type": "barrier-island beach towns, bayshore villages, and a wooded mainland spine",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "opossums",
+    "bats",
+    "Norway rats"
+   ],
+   "regional_wildlife": "raccoons, skunks and bats are the standing problem in beach houses and rentals that sit empty for weeks in Ocean City, Wildwood and Cape May, and mainland towns around Cape May Court House and Belleplain add squirrels and groundhogs at the forest edge",
+   "absent_or_rare": "Cape May County has no established venomous snakes, and the county's famous bird migrations and osprey nests on structures are protected — deterrence and timing work, not removal"
+  },
+  "Cumberland County": {
+   "county_seat": "Bridgeton",
+   "population": 154152,
+   "established": 1748,
+   "region": "southwestern New Jersey along Delaware Bay, the state's farm belt",
+   "largest_cities": [
+    "Bridgeton",
+    "Vineland",
+    "Millville",
+    "Port Norris",
+    "Deerfield Township"
+   ],
+   "nearest_metro": "Philadelphia (about 45 miles northeast) and Wilmington, Delaware (about 35 miles northwest)",
+   "natural_features": [
+    "Maurice River and its tidal marshes",
+    "Union Lake",
+    "Parvin State Park edge and the bayshore wetlands"
+   ],
+   "habitat_type": "flat farmland, small older cities, and Delaware Bay marsh and fishing villages",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs work the farm edges and outbuildings that define Cumberland County, rats follow the older commercial blocks and food businesses in Bridgeton, Vineland and Millville, and raccoons and bats settle the bayshore villages around Port Norris and Mauricetown",
+   "absent_or_rare": "venomous snakes are not established in Cumberland County, and muskrat and beaver work in the Maurice River marshes is a NJ Fish & Wildlife permit matter"
+  },
+  "Essex County": {
+   "county_seat": "Newark",
+   "population": 863728,
+   "established": 1683,
+   "region": "northeastern New Jersey, home to Newark and the first ring of New York suburbs",
+   "largest_cities": [
+    "Newark",
+    "East Orange",
+    "Irvington",
+    "Montclair",
+    "Bloomfield",
+    "West Orange",
+    "Livingston"
+   ],
+   "nearest_metro": "Newark is itself a metro center, with New York City about 10 miles east",
+   "natural_features": [
+    "Branch Brook Park",
+    "Eagle Rock Reservation",
+    "South Mountain Reservation edge"
+   ],
+   "habitat_type": "dense urban core in the east rising to wooded Watchung ridges in the west",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "opossums",
+    "European starlings"
+   ],
+   "regional_wildlife": "Norway rats are the dominant call in Newark, East Orange and Irvington, where older multifamily blocks, alleys and sewers sit wall to wall, while the Watchung towns — Montclair, West Orange, Livingston — produce raccoon, squirrel and bat work in large older homes under heavy canopy",
+   "absent_or_rare": "Essex County has no venomous snakes, and its park deer and Canada goose problems are municipal and NJ Fish & Wildlife matters, not house calls"
+  },
+  "Gloucester County": {
+   "county_seat": "Woodbury",
+   "population": 302294,
+   "established": 1677,
+   "region": "southwestern New Jersey across from Philadelphia, between the suburbs and the farm belt",
+   "largest_cities": [
+    "Woodbury",
+    "Deptford Township",
+    "Washington Township",
+    "Glassboro",
+    "Williamstown",
+    "Mantua Township"
+   ],
+   "nearest_metro": "Philadelphia (about 15 miles northwest across the Delaware River)",
+   "natural_features": [
+    "Tall Pines State Preserve",
+    "Scotland Run Park",
+    "Delaware River waterfront at West Deptford"
+   ],
+   "habitat_type": "fast-growing suburbs in the north, college-town Glassboro, and farmland and orchards in the south",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "groundhogs burrow under sheds and decks across the farm-edge subdivisions of Washington Township, Monroe and Harrison, squirrels and raccoons fill attics in Deptford and Woodbury's older stock, and moles work the big new-subdivision lawns in Mantua and Woolwich",
+   "absent_or_rare": "venomous snakes are not established in Gloucester County, and beaver flooding on the county's creeks is a NJ Fish & Wildlife permit matter"
+  },
+  "Hudson County": {
+   "county_seat": "Jersey City",
+   "population": 705463,
+   "established": 1840,
+   "region": "northeastern New Jersey on the Hudson River waterfront, the most densely populated county in the state",
+   "largest_cities": [
+    "Jersey City",
+    "Hoboken",
+    "Bayonne",
+    "Union City",
+    "North Bergen",
+    "Weehawken",
+    "Secaucus"
+   ],
+   "nearest_metro": "New York City (directly across the Hudson River)",
+   "natural_features": [
+    "Liberty State Park",
+    "Hackensack Meadowlands at Secaucus",
+    "Hudson River waterfront and the Palisades"
+   ],
+   "habitat_type": "wall-to-wall urban blocks, high-rises and brownstones, with Meadowlands marsh at the western edge",
+   "common_wildlife": [
+    "Norway rats",
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "European starlings",
+    "house sparrows"
+   ],
+   "regional_wildlife": "Norway rats are the defining Hudson County call — older sewers, restaurant rows and shared-wall buildings in Jersey City, Hoboken, Union City and Bayonne let them travel block to block — with raccoons in chimneys and starlings and sparrows nesting in signs and vents along the commercial strips",
+   "absent_or_rare": "Hudson County has no snakes of any consequence and no groundhog country outside its few parks; Canada geese on waterfront lawns are deterrence work only"
+  },
+  "Hunterdon County": {
+   "county_seat": "Flemington",
+   "population": 128947,
+   "established": 1714,
+   "region": "western New Jersey along the Delaware River, the state's farm and estate county",
+   "largest_cities": [
+    "Flemington",
+    "Clinton",
+    "Raritan Township",
+    "Readington Township",
+    "Lambertville",
+    "High Bridge"
+   ],
+   "nearest_metro": "the Lehigh Valley and New York metro fringe (New York City about 60 miles east)",
+   "natural_features": [
+    "Spruce Run Recreation Area",
+    "Round Valley Reservoir",
+    "South Branch of the Raritan River and the Hunterdon plateau"
+   ],
+   "habitat_type": "rolling farmland, river towns, and wooded estate country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "black snakes"
+   ],
+   "regional_wildlife": "groundhogs under barns and shed foundations are the everyday Hunterdon call, bats colonize the attics of Flemington, Clinton and Lambertville's older homes every summer, and the Sourland and Cushetunk edges add black rat snakes in barns and the isolated copperhead colonies the county is known for",
+   "absent_or_rare": "timber rattlesnakes are not a Hunterdon County animal — the county's venomous snake is the copperhead, state-Threatened and referral-only — and bear and beaver problems belong to NJ Fish & Wildlife"
+  },
+  "Mercer County": {
+   "county_seat": "Trenton",
+   "population": 387340,
+   "established": 1838,
+   "region": "central New Jersey, home to Trenton and Princeton, between the Delaware River and the Sourlands",
+   "largest_cities": [
+    "Trenton",
+    "Hamilton Township",
+    "Princeton",
+    "Ewing Township",
+    "Lawrence Township",
+    "Hightstown"
+   ],
+   "nearest_metro": "Trenton and Princeton anchor the county, with Philadelphia about 35 miles southwest",
+   "natural_features": [
+    "Delaware and Raritan Canal State Park",
+    "Mercer Meadows and the Lawrence-Hopewell trail country",
+    "Sourland Mountain Preserve edge"
+   ],
+   "habitat_type": "state-capital city, university town, and established suburbs between river and ridge",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "groundhogs",
+    "opossums"
+   ],
+   "regional_wildlife": "Norway rats hold Trenton's older rowhouses and commercial blocks, raccoons and squirrels work the big-canopy neighborhoods of Princeton and Lawrence, and the Sourland edge in Hopewell adds copperhead sightings — state-Threatened, look-don't-touch — alongside groundhogs and bats in farmhouses",
+   "absent_or_rare": "the Sourlands hold one of the isolated copperhead populations named in state guidance; timber rattlesnakes do not occur in Mercer County, and canal-corridor beaver work is a permit matter"
+  },
+  "Middlesex County": {
+   "county_seat": "New Brunswick",
+   "population": 863162,
+   "established": 1683,
+   "region": "central New Jersey along the Raritan River, the state's crossroads county",
+   "largest_cities": [
+    "New Brunswick",
+    "Edison",
+    "Woodbridge Township",
+    "Piscataway Township",
+    "Perth Amboy",
+    "Old Bridge Township",
+    "East Brunswick"
+   ],
+   "nearest_metro": "New Brunswick is a regional center, with New York City about 35 miles northeast",
+   "natural_features": [
+    "Raritan River and the Raritan Bayshore",
+    "Cheesequake State Park",
+    "Delaware and Raritan Canal corridor"
+   ],
+   "habitat_type": "dense older cities, warehouse corridors, and large postwar suburbs",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "opossums",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats follow the older housing and food corridors of New Brunswick, Perth Amboy and the Route 1 and 9 strips, raccoons and squirrels are constant in Edison, Woodbridge and East Brunswick's canopy suburbs, and Cheesequake-edge homes add skunks, opossums and marsh-side raccoons",
+   "absent_or_rare": "Middlesex County has no venomous snakes, and its bayshore muskrat and Canada goose pressure is deterrence and permit work rather than a house call"
+  },
+  "Monmouth County": {
+   "county_seat": "Freehold Borough",
+   "population": 643615,
+   "established": 1683,
+   "region": "central New Jersey on the northern Shore, between New York commuter country and the beach towns",
+   "largest_cities": [
+    "Freehold Borough",
+    "Middletown Township",
+    "Long Branch",
+    "Asbury Park",
+    "Howell Township",
+    "Manalapan Township",
+    "Neptune Township"
+   ],
+   "nearest_metro": "New York City (about 50 miles north, with ferry and rail commuter links)",
+   "natural_features": [
+    "Sandy Hook and Gateway National Recreation Area",
+    "Manasquan Reservoir",
+    "Turkey Swamp Park and the northern Pine Barrens edge"
+   ],
+   "habitat_type": "Shore towns in the east, commuter suburbs in the center, and farm and forest in the west",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "groundhogs",
+    "eastern moles"
+   ],
+   "regional_wildlife": "raccoons and bats are the standing call in Shore homes in Long Branch, Asbury Park and the Middletown bayside that sit quiet between seasons, squirrels and moles work the Howell and Manalapan subdivisions, and Freehold-area farms add groundhogs and barn bats",
+   "absent_or_rare": "Monmouth County has no established venomous snakes, and osprey nests on chimneys and platforms are protected — timing and deterrence work coordinated with NJ Fish & Wildlife"
+  },
+  "Morris County": {
+   "county_seat": "Morristown",
+   "population": 509989,
+   "established": 1739,
+   "region": "northern New Jersey, suburban in the east and Highland and lake country in the west",
+   "largest_cities": [
+    "Morristown",
+    "Parsippany-Troy Hills",
+    "Randolph Township",
+    "Dover",
+    "Madison",
+    "Chatham Township",
+    "Rockaway Township"
+   ],
+   "nearest_metro": "New York City (about 35 miles east)",
+   "natural_features": [
+    "Great Swamp National Wildlife Refuge",
+    "Lake Hopatcong",
+    "Black River and the Morris Highlands"
+   ],
+   "habitat_type": "established eastern suburbs, lake communities, and forested Highlands ridges",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "groundhogs",
+    "opossums",
+    "black snakes"
+   ],
+   "regional_wildlife": "bats are a signature Morris County job — the county's two abandoned mine complexes are the state's documented bat hibernation sites, and older homes in Morristown, Madison and Chatham host summer colonies — while lake homes on Hopatcong add raccoons and squirrels, and the Highlands add black snakes and the occasional copperhead report",
+   "absent_or_rare": "timber rattlesnakes live along the northern Highlands ridges, state-Endangered and referral-only through the Venomous Snake Response Team, and Great Swamp beaver and deer work belongs to NJ Fish & Wildlife"
+  },
+  "Ocean County": {
+   "county_seat": "Toms River",
+   "population": 638229,
+   "established": 1850,
+   "region": "central New Jersey Shore, the state's fastest-growing retirement and beach county",
+   "largest_cities": [
+    "Toms River",
+    "Brick Township",
+    "Lakewood Township",
+    "Jackson Township",
+    "Manchester Township",
+    "Berkeley Township",
+    "Barnegat Township"
+   ],
+   "nearest_metro": "the northern Shore commuter belt, with New York City about 70 miles north",
+   "natural_features": [
+    "Barnegat Bay and Island Beach State Park",
+    "Double Trouble State Park and the Pine Barrens",
+    "Cattus Island County Park"
+   ],
+   "habitat_type": "barrier-island and lagoon communities in the east, fast-growing suburbs in the center, Pine Barrens in the west",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "groundhogs",
+    "eastern moles"
+   ],
+   "regional_wildlife": "raccoons, skunks and bats move into lagoon and beach homes in Brick, Berkeley and Barnegat that sit empty between visits, Lakewood and Jackson's wooded subdivisions produce heavy squirrel and raccoon volume, and the Barrens edge adds groundhogs and pine snakes in the western townships",
+   "absent_or_rare": "the Pine Barrens timber rattlesnake population reaches Ocean County's deep forest — state-Endangered, referral-only — and northern pine snakes here are state-Threatened and never handled"
+  },
+  "Passaic County": {
+   "county_seat": "Paterson",
+   "population": 524118,
+   "established": 1837,
+   "region": "northeastern New Jersey, split between the Paterson urban corridor and the Highlands lake country",
+   "largest_cities": [
+    "Paterson",
+    "Clifton",
+    "Passaic",
+    "Wayne Township",
+    "West Milford Township",
+    "Hawthorne",
+    "Pompton Lakes"
+   ],
+   "nearest_metro": "New York City (about 20 miles east)",
+   "natural_features": [
+    "Great Falls National Historical Park and the Passaic River",
+    "Greenwood Lake and the Wanaque Reservoir country",
+    "Ramapo Mountain State Forest edge"
+   ],
+   "habitat_type": "dense older cities in the south, suburbs in the center, and forested reservoir and lake country in the north",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats run Paterson, Passaic and Clifton's older multifamily and commercial blocks, raccoons and squirrels work Wayne's canopy suburbs, and West Milford and Ringwood lake homes add bats, raccoons and black snakes around the reservoirs",
+   "absent_or_rare": "copperheads occur in the county's rocky northern woods but are uncommon and state-Threatened — identification and referral, never a removal promise — and reservoir watershed wildlife is managed with NJ Fish & Wildlife"
+  },
+  "Salem County": {
+   "county_seat": "Salem",
+   "population": 64837,
+   "established": 1694,
+   "region": "southwestern New Jersey on Delaware Bay, the state's most rural county",
+   "largest_cities": [
+    "Salem",
+    "Pennsville Township",
+    "Carneys Point Township",
+    "Woodstown",
+    "Pittsgrove Township"
+   ],
+   "nearest_metro": "Wilmington, Delaware (about 15 miles west across the Delaware River)",
+   "natural_features": [
+    "Salem River and the Delaware Bayshore marshes",
+    "Parvin State Park",
+    "Alloway Creek and Mannington marshes"
+   ],
+   "habitat_type": "flat farmland, bayshore marsh, and small historic towns",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums",
+    "Norway rats"
+   ],
+   "regional_wildlife": "groundhogs and raccoons around barns, grain storage and farmhouses are the everyday Salem County call, bats roost in Salem City and Woodstown's older homes, and rats concentrate in the older riverfront blocks of Salem and Pennsville",
+   "absent_or_rare": "Salem County has no venomous snakes, and its marsh muskrat and beaver work is a NJ Fish & Wildlife permit matter rather than a house call"
+  },
+  "Somerset County": {
+   "county_seat": "Somerville",
+   "population": 345361,
+   "established": 1688,
+   "region": "central New Jersey between the Watchung ridges and the Sourlands",
+   "largest_cities": [
+    "Somerville",
+    "Bridgewater Township",
+    "Hillsborough Township",
+    "Franklin Township",
+    "Bernardsville",
+    "Bound Brook"
+   ],
+   "nearest_metro": "the central New Jersey corporate corridor, with New York City about 45 miles northeast",
+   "natural_features": [
+    "Great Swamp National Wildlife Refuge edge",
+    "Sourland Mountain Preserve",
+    "Raritan River and the Delaware and Raritan Canal"
+   ],
+   "habitat_type": "corporate-corridor suburbs, Watchung ridge towns, and Sourland farm country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "squirrels, raccoons and moles are steady across Bridgewater, Hillsborough and Franklin's subdivision lawns and canopy streets, Great Swamp-edge towns add bats in older homes, and the Sourlands add groundhogs, black snakes and the county's isolated copperhead colonies",
+   "absent_or_rare": "copperheads in the Sourlands are state-Threatened and referral-only, timber rattlesnakes do not occur in Somerset County, and Great Swamp wildlife is a federal refuge matter"
+  },
+  "Sussex County": {
+   "county_seat": "Newton",
+   "population": 144221,
+   "established": 1753,
+   "region": "northwestern New Jersey, the state's Skylands — Kittatinny Ridge, lakes and farms",
+   "largest_cities": [
+    "Newton",
+    "Sparta Township",
+    "Vernon Township",
+    "Hopatcong",
+    "Franklin",
+    "Sussex Borough"
+   ],
+   "nearest_metro": "the New York metro exurban fringe (New York City about 65 miles east)",
+   "natural_features": [
+    "Delaware Water Gap National Recreation Area",
+    "Kittatinny Ridge and Stokes State Forest",
+    "Lake Mohawk and the county's glacial lakes"
+   ],
+   "habitat_type": "mountain ridge, lake communities, and dairy farm valleys",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "black snakes"
+   ],
+   "regional_wildlife": "bats and raccoons in lake homes around Mohawk, Hopatcong and Culver are the summer staple, groundhogs work the farm valleys around Newton and Wantage, and the Kittatinny Ridge holds the state's best-known timber rattlesnake country — state-Endangered, strictly referral",
+   "absent_or_rare": "the northern copperhead is also present along the ridge and is state-Threatened; black bears are Sussex County's signature animal and every bear problem goes to NJ Fish & Wildlife, not a house call"
+  },
+  "Union County": {
+   "county_seat": "Elizabeth",
+   "population": 575345,
+   "established": 1857,
+   "region": "northeastern New Jersey, dense first-ring suburbs west of Staten Island",
+   "largest_cities": [
+    "Elizabeth",
+    "Plainfield",
+    "Union Township",
+    "Westfield",
+    "Cranford",
+    "Rahway",
+    "Linden"
+   ],
+   "nearest_metro": "New York City (about 15 miles east, across Staten Island)",
+   "natural_features": [
+    "Warinanco Park and the Elizabeth River",
+    "Watchung Reservation",
+    "Arthur Kill waterfront"
+   ],
+   "habitat_type": "dense older suburbs and small cities under heavy street canopy",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "opossums",
+    "European starlings"
+   ],
+   "regional_wildlife": "Norway rats follow the older multifamily and commercial blocks of Elizabeth, Linden and Rahway, raccoons and squirrels are constant in Westfield, Cranford and Union's canopy suburbs, and Watchung Reservation-edge homes add skunks, opossums and groundhogs",
+   "absent_or_rare": "Union County has no venomous snakes, and Arthur Kill marsh wildlife and goose problems are deterrence and permit matters"
+  },
+  "Warren County": {
+   "county_seat": "Belvidere",
+   "population": 109632,
+   "established": 1824,
+   "region": "western New Jersey along the Delaware River, between the Kittatinny Ridge and the farm valleys",
+   "largest_cities": [
+    "Belvidere",
+    "Phillipsburg",
+    "Hackettstown",
+    "Washington Borough",
+    "Blairstown Township",
+    "Hope Township"
+   ],
+   "nearest_metro": "the Lehigh Valley (Easton and Allentown, Pennsylvania, directly across the Delaware River)",
+   "natural_features": [
+    "Delaware River and the Delaware Water Gap southern reach",
+    "Jenny Jump State Forest",
+    "Pequest River and trout-stream valleys"
+   ],
+   "habitat_type": "river towns, farm valleys, and forested ridge country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "black snakes"
+   ],
+   "regional_wildlife": "groundhogs under barns and outbuildings lead in the farm valleys around Hope, Blairstown and Allamuchy, bats settle older homes in Belvidere, Washington and Hackettstown, and the Jenny Jump and Kittatinny edges add black snakes and rattlesnake country at the county's northern tip",
+   "absent_or_rare": "timber rattlesnakes along the northern ridge are state-Endangered and referral-only through the Venomous Snake Response Team, and Warren County black bear problems go to NJ Fish & Wildlife"
+  }
+ }
+}
