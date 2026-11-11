@@ -1,0 +1,1394 @@
+{
+ "state": {
+  "name": "South Carolina",
+  "agency": "South Carolina Department of Natural Resources",
+  "agency_short": "SCDNR",
+  "peak_intrusion_season": "March through May for spring raccoon and squirrel denning and bat maternity colonies forming, summer for armadillo digging, skunk grubbing, and snake activity across the Lowcountry, and September through November as rodents and squirrels seek winter shelter — with the Lowcountry staying active far later into the year than the Upstate",
+  "climate_factor": "South Carolina's humid subtropical climate keeps snakes, armadillos, and bats active late into fall on the coast and brings them back early in spring, hurricane and king-tide flooding from June through November pushes marsh and swamp animals into Lowcountry neighborhoods, and even Upstate winters are mild enough that attic pressure never fully stops",
+  "permit_note": "South Carolina has no nuisance wildlife control operator license — SCDNR lists wildlife control operators by county as a referral service and states plainly that it in no way endorses or guarantees the services of any operator on that list. The authority for the work is the free depredation permit SCDNR issues under S.C. Code Section 50-11-2570 (valid 30 days, one year for beaver), hunting and commercial fur licenses for in-season trapping, and the codified homeowner rule in Section 50-11-2570(B) covering furbearers and squirrels captured within 100 yards of a home that is being damaged — an animal captured under that rule must be destroyed or, with a department permit, may be relocated. Routine relocation of wildlife is against state law in South Carolina, and no permit at all is required to remove bats, though SCDNR guidance on timing still applies"
+ },
+ "counties": {
+  "Abbeville County": {
+   "county_seat": "Abbeville",
+   "population": 24295,
+   "established": 1785,
+   "region": "the western Piedmont on the Savannah River, along the South Carolina-Georgia line",
+   "largest_cities": [
+    "Abbeville",
+    "Calhoun Falls",
+    "Due West",
+    "Donalds",
+    "Lowndesville"
+   ],
+   "nearest_metro": "Greenville (about 55 miles northeast)",
+   "natural_features": [
+    "Richard B. Russell Lake on the Savannah River",
+    "Long Cane Creek and the Long Cane Ranger District of Sumter National Forest",
+    "the historic Abbeville town square"
+   ],
+   "habitat_type": "rolling Piedmont farmland and pine-hardwood forest broken by Sumter National Forest tracts and the Russell Lake shoreline",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "opossums",
+    "armadillos",
+    "bats"
+   ],
+   "regional_wildlife": "raccoons and opossums work the Russell Lake shoreline and Long Cane Creek bottoms into lake and farm homes, armadillos root pastures and lawns across the county, and bats hold colonies in Abbeville's older in-town houses",
+   "absent_or_rare": "alligators and cottonmouths are not part of this Piedmont county's working list, and groundhogs thin out toward its southern edge, though both stay matters of identification rather than routine calls"
+  },
+  "Aiken County": {
+   "county_seat": "Aiken",
+   "population": 177231,
+   "established": 1871,
+   "region": "the western Midlands Sandhills on the Savannah River, across from Augusta, Georgia",
+   "largest_cities": [
+    "Aiken",
+    "North Augusta",
+    "Graniteville",
+    "Wagener",
+    "Burnettown",
+    "Jackson"
+   ],
+   "nearest_metro": "Augusta, Georgia (directly across the Savannah River)",
+   "natural_features": [
+    "the Savannah River and its swamp bottoms",
+    "Hitchcock Woods, one of the largest urban forests in the country",
+    "the Aiken Gopher Tortoise Heritage Preserve and the Sandhills longleaf country"
+   ],
+   "habitat_type": "Sandhills longleaf pine and turkey oak over deep sand, giving way to Savannah River swamp and horse-country estates around Aiken",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "armadillos",
+    "opossums",
+    "striped skunks",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "armadillos are a routine lawn and burrow call across the Sandhills sand, raccoons and squirrels work the Hitchcock Woods edge straight into Aiken attics, and the Savannah River bottoms hold opossums, skunks, and cottonmouths along the wet ground",
+   "absent_or_rare": "the gopher tortoise and its burrows in the Sandhills are State Endangered and referral-only through SCDNR, and the southern hognose snake of these sandhills is State Threatened and never a removal job"
+  },
+  "Allendale County": {
+   "county_seat": "Allendale",
+   "population": 8039,
+   "established": 1919,
+   "region": "the western Lowcountry along the Savannah River, in the state's least populated corner",
+   "largest_cities": [
+    "Allendale",
+    "Fairfax",
+    "Ulmer",
+    "Sycamore"
+   ],
+   "nearest_metro": "Augusta, Georgia (about 55 miles northwest) and Savannah, Georgia (about 70 miles southeast)",
+   "natural_features": [
+    "the Savannah River and its floodplain swamps",
+    "the Lower Savannah River bottomland hardwoods",
+    "Red Bluff and the county's creek swamps"
+   ],
+   "habitat_type": "flat Lowcountry farm and timber land over Savannah River floodplain swamp, creek bottoms, and pine flatwoods",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "armadillos",
+    "striped skunks",
+    "gray squirrels",
+    "feral hogs in the river swamp"
+   ],
+   "regional_wildlife": "raccoons, opossums, and armadillos work the river swamp and creek bottoms into the county's small towns, feral hogs root the floodplain fields, and alligator sightings belong to the Savannah River backwaters",
+   "absent_or_rare": "groundhogs are scarce this far into the Lowcountry, and alligators here are an SCDNR tag-and-agent matter, never a private removal service"
+  },
+  "Anderson County": {
+   "county_seat": "Anderson",
+   "population": 203718,
+   "established": 1826,
+   "region": "the Upstate foothills between Greenville and the Georgia line, on Lake Hartwell",
+   "largest_cities": [
+    "Anderson",
+    "Belton",
+    "Honea Path",
+    "Williamston",
+    "Pelzer",
+    "Iva"
+   ],
+   "nearest_metro": "Greenville (about 30 miles northeast)",
+   "natural_features": [
+    "Lake Hartwell and its many creek arms",
+    "the Saluda River headwaters",
+    "Sadlers Creek and the county's foothill hardwood ridges"
+   ],
+   "habitat_type": "Upstate foothill suburbs and small cities giving way to pasture, hardwood ridges, and the Hartwell lakeshore",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "groundhogs",
+    "opossums",
+    "bats",
+    "armadillos"
+   ],
+   "regional_wildlife": "groundhogs burrow pasture edges and subdivision banks across the foothills, raccoons and squirrels work the Hartwell creek arms into lake and suburban homes, and armadillos have spread into the county's southern lawns",
+   "absent_or_rare": "cottonmouths do not reach this Upstate county, and copperheads in the rocky foothill woods are identification-and-safety calls, not removal promises"
+  },
+  "Bamberg County": {
+   "county_seat": "Bamberg",
+   "population": 13311,
+   "established": 1897,
+   "region": "the inland Lowcountry on the South Fork of the Edisto River",
+   "largest_cities": [
+    "Bamberg",
+    "Denmark",
+    "Ehrhardt",
+    "Olar"
+   ],
+   "nearest_metro": "Orangeburg (about 20 miles north) and Charleston (about 75 miles southeast)",
+   "natural_features": [
+    "the South Fork Edisto River and its blackwater swamps",
+    "the county's Carolina bays and creek bottoms",
+    "pine flatwoods and farm fields across the inner Coastal Plain"
+   ],
+   "habitat_type": "inner Coastal Plain farm and timber land threaded by blackwater Edisto swamp and Carolina bays",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "armadillos",
+    "striped skunks",
+    "gray squirrels",
+    "eastern moles"
+   ],
+   "regional_wildlife": "raccoons and opossums move out of the Edisto blackwater swamps into Bamberg and Denmark, armadillos root the sandy farm-edge lawns, and cottonmouths hold the swamp edges where yards meet wet ground",
+   "absent_or_rare": "groundhogs are uncommon in this flat Lowcountry county, and alligators in the Edisto backwaters are handled only through SCDNR's program"
+  },
+  "Barnwell County": {
+   "county_seat": "Barnwell",
+   "population": 20589,
+   "established": 1798,
+   "region": "the western Sandhills and Savannah River country below Aiken",
+   "largest_cities": [
+    "Barnwell",
+    "Blackville",
+    "Williston",
+    "Elko"
+   ],
+   "nearest_metro": "Augusta, Georgia (about 45 miles west) and Aiken (about 25 miles north)",
+   "natural_features": [
+    "the Savannah River and the Savannah River Site boundary",
+    "the Salkehatchie River headwaters",
+    "Lake Edgar Brown and the Sandhills longleaf tracts"
+   ],
+   "habitat_type": "Sandhills longleaf and farm land falling west to Savannah River swamp, with creek bottoms through the center",
+   "common_wildlife": [
+    "raccoons",
+    "armadillos",
+    "gray squirrels",
+    "opossums",
+    "striped skunks",
+    "eastern moles"
+   ],
+   "regional_wildlife": "armadillos dig through the Sandhills sand in Barnwell and Blackville lawns, raccoons work the creek bottoms and river swamp, and moles ridge the sandy yards all season",
+   "absent_or_rare": "the southern hognose of the Sandhills is State Threatened and referral-only, and alligators in the river backwaters belong to SCDNR's program, not a private service list"
+  },
+  "Beaufort County": {
+   "county_seat": "Beaufort",
+   "population": 187117,
+   "established": 1769,
+   "region": "the Lowcountry sea islands and marsh coast between Charleston and Savannah",
+   "largest_cities": [
+    "Beaufort",
+    "Bluffton",
+    "Hilton Head Island",
+    "Port Royal",
+    "Yemassee",
+    "Lady's Island"
+   ],
+   "nearest_metro": "Hilton Head Island and Bluffton are the county's own growth centers; Savannah, Georgia is about 35 miles south",
+   "natural_features": [
+    "the Beaufort River and Port Royal Sound",
+    "the sea-island marshes of St. Helena and Lady's Island",
+    "Hunting Island and the ACE Basin's southern edge"
+   ],
+   "habitat_type": "sea islands, salt marsh, and live-oak maritime forest, with raised Lowcountry homes behind marsh and tidal creek",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "armadillos",
+    "gray squirrels",
+    "bats",
+    "marsh rabbits along the marsh edge"
+   ],
+   "regional_wildlife": "raccoons and opossums work the marsh and live-oak islands nightly, armadillos burrow the sandy island soils, Brazilian free-tailed bats roost in older Beaufort and Bluffton structures, and alligators hold the freshwater ponds behind the marsh",
+   "absent_or_rare": "alligators are never a listed service here — nuisance animals go to SCDNR's tag program and its contracted Alligator Control Agents — and groundhogs do not occur on the sea islands"
+  },
+  "Berkeley County": {
+   "county_seat": "Moncks Corner",
+   "population": 229861,
+   "established": 1882,
+   "region": "the inner Lowcountry around Lake Moultrie and the Cooper River, north of Charleston",
+   "largest_cities": [
+    "Moncks Corner",
+    "Goose Creek",
+    "Hanahan",
+    "St. Stephen",
+    "Bonneau",
+    "Cross"
+   ],
+   "nearest_metro": "Charleston (about 30 miles southeast)",
+   "natural_features": [
+    "Lake Moultrie and the Cooper River",
+    "the Francis Marion National Forest's southern half",
+    "the Wando River and the county's blackwater creeks"
+   ],
+   "habitat_type": "fast-growing Charleston suburbs against Lake Moultrie, national forest pine flatwoods, and Cooper River swamp",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "armadillos",
+    "opossums",
+    "bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons and squirrels pour out of the Francis Marion forest edge into Goose Creek and Moncks Corner subdivisions, armadillos root the sandy new lawns, and lake-country homes take steady opossum and bat calls",
+   "absent_or_rare": "alligators in Lake Moultrie and the Cooper River are SCDNR-program animals only, and groundhogs are scarce on this flat coastal ground"
+  },
+  "Calhoun County": {
+   "county_seat": "St. Matthews",
+   "population": 14105,
+   "established": 1908,
+   "region": "the central Midlands Sandhills between Columbia and Orangeburg, on the Congaree River",
+   "largest_cities": [
+    "St. Matthews",
+    "Cameron",
+    "Fort Motte",
+    "Sandy Run"
+   ],
+   "nearest_metro": "Columbia (about 25 miles north)",
+   "natural_features": [
+    "the Congaree River floodplain",
+    "the Lake Marion upper shore and Santee swamp edge",
+    "the Sandhills farm country around St. Matthews"
+   ],
+   "habitat_type": "Sandhills farms and pine land east of the Congaree River floodplain, with swamp hardwoods along the river and lake",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "armadillos",
+    "gray squirrels",
+    "striped skunks",
+    "eastern moles"
+   ],
+   "regional_wildlife": "raccoons and opossums come out of the Congaree floodplain into St. Matthews and Cameron, armadillos and moles work the deep Sandhills sand, and fox squirrels show in the open pine and pecan groves",
+   "absent_or_rare": "groundhogs are uncommon on this sandy flat ground, and alligators along the lake and river are referred to SCDNR's program"
+  },
+  "Charleston County": {
+   "county_seat": "Charleston",
+   "population": 408235,
+   "established": 1769,
+   "region": "the central Lowcountry coast — the Charleston peninsula, sea islands, and marsh suburbs",
+   "largest_cities": [
+    "Charleston",
+    "North Charleston",
+    "Mount Pleasant",
+    "James Island",
+    "Johns Island",
+    "Folly Beach"
+   ],
+   "nearest_metro": "Charleston is itself the regional metro center",
+   "natural_features": [
+    "Charleston Harbor and the Ashley and Cooper rivers",
+    "the Francis Marion National Forest's Wambaw swamp country",
+    "the sea-island marshes of Johns, James, and Wadmalaw islands"
+   ],
+   "habitat_type": "a tidal city and suburbs spread across peninsula, marsh islands, and river necks, with raised houses, crawlspaces, and live-oak canopy",
+   "common_wildlife": [
+    "raccoons",
+    "Norway rats",
+    "gray squirrels",
+    "opossums",
+    "armadillos",
+    "Brazilian free-tailed bats"
+   ],
+   "regional_wildlife": "Norway rats are a defining call in the peninsula's older blocks and food-service districts, raccoons work every marsh-edge neighborhood, roof-level squirrels and free-tailed bat colonies fill the older rooflines, and armadillos burrow island and suburban sand",
+   "absent_or_rare": "alligators in the marsh ponds and golf lagoons go only to SCDNR's tag program and contracted agents, and groundhogs are absent from this coastal county's list"
+  },
+  "Cherokee County": {
+   "county_seat": "Gaffney",
+   "population": 56216,
+   "established": 1897,
+   "region": "the northern Upstate foothills on the North Carolina line, along the Broad River",
+   "largest_cities": [
+    "Gaffney",
+    "Blacksburg",
+    "East Gaffney",
+    "Grassy Pond"
+   ],
+   "nearest_metro": "Spartanburg (about 25 miles southeast) and Charlotte, North Carolina (about 55 miles northeast)",
+   "natural_features": [
+    "the Broad River and its Kings Creek tributaries",
+    "the Cowpens battleground country and foothill hardwood ridges",
+    "Lake Wylie is east; the county's own waters are Broad River bottoms and farm ponds"
+   ],
+   "habitat_type": "foothill mill towns and farmland in the Broad River valley, with hardwood ridges rising toward the North Carolina line",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "bats"
+   ],
+   "regional_wildlife": "groundhogs burrow the foothill pastures and mill-town banks around Gaffney and Blacksburg, raccoons and skunks work the Broad River bottoms, and squirrels fill the older in-town canopy",
+   "absent_or_rare": "cottonmouths do not occur in this Upstate county, and copperheads in the rocky ridges are safety-and-identification calls only"
+  },
+  "Chester County": {
+   "county_seat": "Chester",
+   "population": 32294,
+   "established": 1785,
+   "region": "the north-central Piedmont on the Catawba and Broad rivers, between Charlotte and Columbia",
+   "largest_cities": [
+    "Chester",
+    "Great Falls",
+    "Richburg",
+    "Fort Lawn",
+    "Lowrys"
+   ],
+   "nearest_metro": "Charlotte, North Carolina (about 45 miles north) and Columbia (about 55 miles south)",
+   "natural_features": [
+    "the Catawba River and Fishing Creek",
+    "the Broad River's western bank",
+    "Landsford Canal and the county's Piedmont hardwood bottoms"
+   ],
+   "habitat_type": "Piedmont mill towns, farmland, and hardwood river bottoms between the Catawba and Broad rivers",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "armadillos"
+   ],
+   "regional_wildlife": "groundhogs dig the pasture and railroad banks around Chester and Great Falls, raccoons follow Fishing Creek and the river bottoms into town, and armadillos have moved into the county's southern yards",
+   "absent_or_rare": "cottonmouths are not a Chester County snake, and alligator and diamondback copy has no place in this Piedmont county"
+  },
+  "Chesterfield County": {
+   "county_seat": "Chesterfield",
+   "population": 43273,
+   "established": 1798,
+   "region": "the northeastern Sandhills on the North Carolina line, along the Great Pee Dee River",
+   "largest_cities": [
+    "Chesterfield",
+    "Cheraw",
+    "Pageland",
+    "McBee",
+    "Jefferson"
+   ],
+   "nearest_metro": "Florence (about 40 miles southeast) and Charlotte, North Carolina (about 60 miles west)",
+   "natural_features": [
+    "the Carolina Sandhills National Wildlife Refuge",
+    "the Great Pee Dee River and Lynches River",
+    "Lake Wallace and the county's longleaf sandhills"
+   ],
+   "habitat_type": "deep-sand longleaf Sandhills and refuge land west of the Great Pee Dee River swamps",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "fox squirrels",
+    "armadillos",
+    "opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "fox squirrels run the open longleaf around Cheraw and the refuge, armadillos and moles work the deep sand, and raccoons commute the Pee Dee and Lynches river swamps into the farm towns",
+   "absent_or_rare": "the southern hognose snake of these sandhills is State Threatened and referral-only, and the gopher tortoise reaches its Sandhills refuges here only as SCDNR referral content"
+  },
+  "Clarendon County": {
+   "county_seat": "Manning",
+   "population": 31144,
+   "established": 1855,
+   "region": "the central Lowcountry around Lake Marion's north shore",
+   "largest_cities": [
+    "Manning",
+    "Summerton",
+    "Turbeville",
+    "Paxville",
+    "Alcolu"
+   ],
+   "nearest_metro": "Sumter (about 25 miles north) and Charleston (about 80 miles southeast)",
+   "natural_features": [
+    "Lake Marion, the state's largest lake",
+    "the Pocotaligo River swamp",
+    "the Black River headwater creeks and Wyboo swamp country"
+   ],
+   "habitat_type": "flat farm and timber land wrapped around Lake Marion's swampy north shore and the Pocotaligo swamp",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "armadillos",
+    "gray squirrels",
+    "bats",
+    "eastern moles"
+   ],
+   "regional_wildlife": "raccoons and opossums work the Lake Marion shoreline and Pocotaligo swamp into Manning and Summerton, armadillos root the sandy lake-edge lawns, and bat colonies hold the older in-town homes",
+   "absent_or_rare": "alligators in Lake Marion are SCDNR-program animals only, and groundhogs are scarce on this flat lake-plain ground"
+  },
+  "Colleton County": {
+   "county_seat": "Walterboro",
+   "population": 38604,
+   "established": 1798,
+   "region": "the western Lowcountry's ACE Basin — the Ashepoo, Combahee, and Edisto rivers",
+   "largest_cities": [
+    "Walterboro",
+    "Edisto Beach",
+    "Cottageville",
+    "Lodge",
+    "Smoaks"
+   ],
+   "nearest_metro": "Charleston (about 50 miles east) and Beaufort (about 35 miles south)",
+   "natural_features": [
+    "the ACE Basin, one of the largest undeveloped estuaries on the East Coast",
+    "the Edisto River and its blackwater swamps",
+    "the Ashepoo and Combahee river marshes"
+   ],
+   "habitat_type": "ACE Basin marsh, blackwater river swamp, and pine flatwoods around small farm and rail towns",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "armadillos",
+    "gray squirrels",
+    "bats",
+    "feral hogs in the basin swamps"
+   ],
+   "regional_wildlife": "raccoons, opossums, and feral hogs move out of the ACE Basin swamps into Walterboro and the farm communities, armadillos root the flatwoods clearings, and bats hold Walterboro's older homes",
+   "absent_or_rare": "alligators throughout the basin are SCDNR referral and tag-program content only, and groundhogs do not belong on this Lowcountry county's list"
+  },
+  "Darlington County": {
+   "county_seat": "Darlington",
+   "population": 62905,
+   "established": 1785,
+   "region": "the western Pee Dee, between Florence and the Sandhills",
+   "largest_cities": [
+    "Darlington",
+    "Hartsville",
+    "Lamar",
+    "Society Hill"
+   ],
+   "nearest_metro": "Florence (about 15 miles east)",
+   "natural_features": [
+    "Black Creek and the Hartsville mill ponds",
+    "the Great Pee Dee River's western swamps",
+    "the Darlington raceway country and its farm fields"
+   ],
+   "habitat_type": "Pee Dee farm and mill-town land along Black Creek, with river swamp on the eastern edge",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "opossums",
+    "armadillos",
+    "striped skunks",
+    "bats"
+   ],
+   "regional_wildlife": "raccoons and opossums follow Black Creek through Darlington and Hartsville, armadillos root the sandy farm-edge lawns, and skunks den under the older mill-town porches",
+   "absent_or_rare": "groundhogs thin out sharply on this Pee Dee flat ground, and alligators in the river swamp are SCDNR-program referrals"
+  },
+  "Dillon County": {
+   "county_seat": "Dillon",
+   "population": 28292,
+   "established": 1910,
+   "region": "the northern Pee Dee on the North Carolina line, along the Lumber and Little Pee Dee rivers",
+   "largest_cities": [
+    "Dillon",
+    "Latta",
+    "Lake View",
+    "Hamer"
+   ],
+   "nearest_metro": "Florence (about 30 miles south)",
+   "natural_features": [
+    "the Little Pee Dee River and its swamps",
+    "the Lumber River bottoms",
+    "the county's tobacco-and-timber farm country"
+   ],
+   "habitat_type": "flat Pee Dee farm and timber land cut by the Little Pee Dee and Lumber river swamps",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "armadillos",
+    "gray squirrels",
+    "striped skunks",
+    "eastern moles"
+   ],
+   "regional_wildlife": "raccoons and opossums commute the river swamps into Dillon and Latta, armadillos and moles work the sandy farm lawns, and skunks den under the older town housing",
+   "absent_or_rare": "groundhogs are uncommon in this flat border county, and alligators in the river swamps belong to SCDNR's program"
+  },
+  "Dorchester County": {
+   "county_seat": "St. George",
+   "population": 161540,
+   "established": 1897,
+   "region": "the inner Lowcountry northwest of Charleston, along the Edisto and Ashley rivers",
+   "largest_cities": [
+    "Summerville",
+    "St. George",
+    "Harleyville",
+    "Ridgeville",
+    "Reevesville"
+   ],
+   "nearest_metro": "Charleston (about 30 miles southeast) and Summerville is the county's own growth center",
+   "natural_features": [
+    "the Edisto River and Four Holes Swamp",
+    "the Ashley River's headwater swamps",
+    "Givhans Ferry and the county's pine flatwoods"
+   ],
+   "habitat_type": "explosive Charleston suburban growth at Summerville against Edisto and Ashley river swamp and pine flatwoods",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "armadillos",
+    "opossums",
+    "bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons and squirrels move out of the swamp and flatwoods into Summerville's canopy subdivisions, armadillos root the new sandy lawns, and opossums work the creek and swamp edges countywide",
+   "absent_or_rare": "alligators in the Edisto and the swamp ponds are SCDNR-program animals only, and groundhogs are not part of this Lowcountry county's fauna"
+  },
+  "Edgefield County": {
+   "county_seat": "Edgefield",
+   "population": 25657,
+   "established": 1785,
+   "region": "the western Piedmont on the Savannah River, in Sumter National Forest country",
+   "largest_cities": [
+    "Edgefield",
+    "Johnston",
+    "Trenton",
+    "Meriwether"
+   ],
+   "nearest_metro": "Augusta, Georgia (about 25 miles south) and Aiken (about 25 miles southeast)",
+   "natural_features": [
+    "the Savannah River and Stevens Creek",
+    "Sumter National Forest's Long Cane country",
+    "the historic Edgefield pottery and town-square district"
+   ],
+   "habitat_type": "Piedmont hardwood and pine ridges, national forest tracts, and farm valleys falling to the Savannah River",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "bats"
+   ],
+   "regional_wildlife": "groundhogs burrow the pasture banks around Edgefield and Johnston, raccoons work Stevens Creek and the river bottoms, and bats hold colonies in the county's antebellum in-town homes",
+   "absent_or_rare": "cottonmouths stay in the Savannah River swamp fringe and are identification calls there, while alligators are absent from this county's working list"
+  },
+  "Fairfield County": {
+   "county_seat": "Winnsboro",
+   "population": 20948,
+   "established": 1785,
+   "region": "the north-central Midlands Piedmont, between Columbia and the Catawba River",
+   "largest_cities": [
+    "Winnsboro",
+    "Ridgeway",
+    "Jenkinsville",
+    "Blair"
+   ],
+   "nearest_metro": "Columbia (about 30 miles south)",
+   "natural_features": [
+    "Lake Wateree on the Catawba River",
+    "the Broad River's eastern bank",
+    "the Winnsboro granite quarries and rocky Piedmont ridges"
+   ],
+   "habitat_type": "rocky Piedmont ridges, granite outcrops, and hardwood forest between the Broad and Catawba rivers, with Lake Wateree on the east",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "bats"
+   ],
+   "regional_wildlife": "groundhogs burrow the rocky pasture banks around Winnsboro and Ridgeway, raccoons work both river corridors and the Wateree shore, and bats colonize the county's stone and antebellum in-town buildings",
+   "absent_or_rare": "cottonmouths and alligators have no place in this inland Piedmont county's copy, and copperheads among the granite outcrops are safety-and-identification content"
+  },
+  "Florence County": {
+   "county_seat": "Florence",
+   "population": 137059,
+   "established": 1888,
+   "region": "the central Pee Dee, at the crossing of I-95 and I-20",
+   "largest_cities": [
+    "Florence",
+    "Lake City",
+    "Timmonsville",
+    "Johnsonville",
+    "Pamplico",
+    "Coward"
+   ],
+   "nearest_metro": "Florence is itself the regional center for the Pee Dee",
+   "natural_features": [
+    "the Great Pee Dee River and Jeffries Creek",
+    "Lynches River on the western edge",
+    "the Florence rail yards and the county's farm and timber country"
+   ],
+   "habitat_type": "a Pee Dee rail-and-interstate city ringed by farm and timber land, creek bottoms, and river swamp",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "opossums",
+    "armadillos",
+    "Norway rats",
+    "bats"
+   ],
+   "regional_wildlife": "raccoons and opossums follow Jeffries Creek through Florence's neighborhoods, Norway rats hold the older rail and commercial blocks, and armadillos root the county's sandy suburban lawns",
+   "absent_or_rare": "groundhogs are scarce on this flat Pee Dee ground, and alligators in the river swamps are referred to SCDNR's program"
+  },
+  "Georgetown County": {
+   "county_seat": "Georgetown",
+   "population": 63404,
+   "established": 1769,
+   "region": "the northern Lowcountry coast at Winyah Bay, between Charleston and Myrtle Beach",
+   "largest_cities": [
+    "Georgetown",
+    "Pawleys Island",
+    "Murrells Inlet",
+    "Andrews",
+    "Litchfield Beach"
+   ],
+   "nearest_metro": "Myrtle Beach (about 35 miles north) and Charleston (about 60 miles south)",
+   "natural_features": [
+    "Winyah Bay, where the Pee Dee, Waccamaw, Black, and Sampit rivers meet",
+    "the Waccamaw River and its cypress swamps",
+    "Brookgreen and the Murrells Inlet marsh creek country"
+   ],
+   "habitat_type": "Winyah Bay marsh, barrier-island beaches, and cypress river swamp behind a coast of historic and resort communities",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "armadillos",
+    "gray squirrels",
+    "bats",
+    "marsh rabbits along the marsh"
+   ],
+   "regional_wildlife": "raccoons and opossums work the Waccamaw cypress swamps and marsh creeks into Georgetown, Pawleys, and Murrells Inlet, armadillos burrow the sandy island soils, and bats roost in the historic district's raised homes",
+   "absent_or_rare": "alligators in the bay, rivers, and golf ponds are SCDNR tag-program animals only — never a private removal service — and groundhogs are absent from the coast"
+  },
+  "Greenville County": {
+   "county_seat": "Greenville",
+   "population": 525534,
+   "established": 1786,
+   "region": "the Upstate foothills at the Blue Ridge escarpment, the state's most populous county",
+   "largest_cities": [
+    "Greenville",
+    "Mauldin",
+    "Simpsonville",
+    "Greer",
+    "Travelers Rest",
+    "Fountain Inn"
+   ],
+   "nearest_metro": "Greenville is itself the regional metro center",
+   "natural_features": [
+    "the Reedy River and Falls Park in downtown Greenville",
+    "Paris Mountain and the Blue Ridge foothill ridges",
+    "the Saluda and Enoree river corridors"
+   ],
+   "habitat_type": "a foothill metro of dense suburbs and mill towns rising northwest to Paris Mountain and the Blue Ridge escarpment",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs burrow foothill banks and large-lot edges from Travelers Rest to Fountain Inn, squirrels and raccoons work the heavy canopy over Greenville's older neighborhoods, and bats colonize the mill-era and mountain-side homes",
+   "absent_or_rare": "cottonmouths do not occur in this Upstate county, the mountain form of the timber rattlesnake in the far northern ridges is rare safety-and-referral content, and armadillos are still only an arriving southern-edge call"
+  },
+  "Greenwood County": {
+   "county_seat": "Greenwood",
+   "population": 69351,
+   "established": 1897,
+   "region": "the west-central Piedmont on Lake Greenwood and the Saluda River",
+   "largest_cities": [
+    "Greenwood",
+    "Ninety Six",
+    "Ware Shoals",
+    "Hodges",
+    "Troy"
+   ],
+   "nearest_metro": "Greenville (about 55 miles north) and Augusta, Georgia (about 60 miles southwest)",
+   "natural_features": [
+    "Lake Greenwood on the Saluda River",
+    "the Saluda and Reedy river bottoms",
+    "Ninety Six and the county's Piedmont hardwood ridges"
+   ],
+   "habitat_type": "Piedmont mill city and small towns ringed by farmland, hardwood ridges, and the Lake Greenwood shore",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "armadillos"
+   ],
+   "regional_wildlife": "groundhogs burrow pasture and subdivision banks around Greenwood and Ninety Six, raccoons work the Saluda bottoms and lake shore, and armadillos have spread across the county's southern lawns",
+   "absent_or_rare": "cottonmouths are confined to the Saluda swamp fringe as identification calls, and alligator copy does not belong in this Piedmont county"
+  },
+  "Hampton County": {
+   "county_seat": "Hampton",
+   "population": 18561,
+   "established": 1878,
+   "region": "the western Lowcountry between the Savannah and Salkehatchie rivers",
+   "largest_cities": [
+    "Hampton",
+    "Estill",
+    "Varnville",
+    "Brunson",
+    "Furman"
+   ],
+   "nearest_metro": "Beaufort (about 40 miles southeast) and Savannah, Georgia (about 55 miles southwest)",
+   "natural_features": [
+    "the Salkehatchie River and its swamps",
+    "Lake Warren and the county's creek bottoms",
+    "the Coosawhatchie River headwaters"
+   ],
+   "habitat_type": "flat Lowcountry farm and timber land threaded by Salkehatchie and Coosawhatchie blackwater swamp",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "armadillos",
+    "gray squirrels",
+    "striped skunks",
+    "feral hogs in the swamps"
+   ],
+   "regional_wildlife": "raccoons, opossums, and feral hogs move out of the Salkehatchie swamps into Hampton and Estill, armadillos root the sandy yards, and bats hold the older in-town homes",
+   "absent_or_rare": "alligators in the river backwaters are SCDNR-program referrals only, and groundhogs are not a Hampton County animal"
+  },
+  "Horry County": {
+   "county_seat": "Conway",
+   "population": 351029,
+   "established": 1801,
+   "region": "the northern Lowcountry coast — the Grand Strand — on the Waccamaw River and the North Carolina line",
+   "largest_cities": [
+    "Conway",
+    "Myrtle Beach",
+    "North Myrtle Beach",
+    "Surfside Beach",
+    "Loris",
+    "Little River"
+   ],
+   "nearest_metro": "Myrtle Beach is the county's own coastal center; Wilmington, North Carolina is about 75 miles north",
+   "natural_features": [
+    "the Waccamaw River and its cypress swamps",
+    "the Grand Strand beaches from Little River to Garden City",
+    "Lewis Ocean Bay and the county's Carolina bays"
+   ],
+   "habitat_type": "a booming coastal county of beach resorts, golf subdivisions, and Waccamaw cypress swamp behind the Strand",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "armadillos",
+    "gray squirrels",
+    "bats",
+    "Norway rats in the resort corridors"
+   ],
+   "regional_wildlife": "raccoons and opossums work the Waccamaw swamps and marsh creeks into every Strand community, armadillos burrow the sandy subdivision soils, Norway rats hold the resort and restaurant corridors, and bats roost in older Conway and beach homes",
+   "absent_or_rare": "alligators in the river, swamps, and golf-course ponds go only to SCDNR's tag program and contracted agents, and groundhogs are absent from this coastal county"
+  },
+  "Jasper County": {
+   "county_seat": "Ridgeland",
+   "population": 28791,
+   "established": 1912,
+   "region": "the southern Lowcountry on the Savannah River, between Beaufort and Savannah",
+   "largest_cities": [
+    "Ridgeland",
+    "Hardeeville",
+    "Tillman",
+    "Gillisonville"
+   ],
+   "nearest_metro": "Savannah, Georgia (about 30 miles south) and Hilton Head Island (about 25 miles east)",
+   "natural_features": [
+    "the Savannah River and its refuge swamps",
+    "the Coosawhatchie and Tullifinny river marshes",
+    "the I-95 corridor's pine flatwoods and new subdivisions"
+   ],
+   "habitat_type": "Savannah River swamp, salt marsh creeks, and pine flatwoods carrying fast I-95 and Sun City growth",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "armadillos",
+    "gray squirrels",
+    "bats",
+    "feral hogs in the river swamp"
+   ],
+   "regional_wildlife": "raccoons, opossums, and feral hogs move out of the Savannah River swamp into Ridgeland and Hardeeville, armadillos root the new subdivision lawns, and marsh-edge homes take steady skunk and bat calls",
+   "absent_or_rare": "alligators throughout the river and marsh ponds are SCDNR-program animals only, and groundhogs do not occur in this southern Lowcountry county"
+  },
+  "Kershaw County": {
+   "county_seat": "Camden",
+   "population": 65403,
+   "established": 1798,
+   "region": "the north-central Midlands Sandhills on the Wateree River",
+   "largest_cities": [
+    "Camden",
+    "Lugoff",
+    "Elgin",
+    "Bethune"
+   ],
+   "nearest_metro": "Columbia (about 35 miles southwest)",
+   "natural_features": [
+    "the Wateree River and Lake Wateree's southern shore",
+    "the Lynches River headwaters",
+    "Camden's antebellum and horse-country estates"
+   ],
+   "habitat_type": "Sandhills horse country and pine woods west of the Wateree River swamps, with Columbia suburbs at Lugoff and Elgin",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "fox squirrels",
+    "armadillos",
+    "opossums",
+    "striped skunks"
+   ],
+   "regional_wildlife": "fox squirrels run Camden's open pine and horse country, raccoons work the Wateree swamps into Lugoff and Elgin, and armadillos dig the deep Sandhills sand across the county",
+   "absent_or_rare": "groundhogs reach only the county's northwestern Piedmont fringe as an occasional call, and the southern hognose of the sandhills is State Threatened and referral-only"
+  },
+  "Lancaster County": {
+   "county_seat": "Lancaster",
+   "population": 96016,
+   "established": 1785,
+   "region": "the north-central Piedmont on the Catawba River, in Charlotte's southern growth path",
+   "largest_cities": [
+    "Lancaster",
+    "Kershaw",
+    "Heath Springs",
+    "Indian Land",
+    "Van Wyck"
+   ],
+   "nearest_metro": "Charlotte, North Carolina (about 40 miles north)",
+   "natural_features": [
+    "the Catawba River and Lake Wylie is north; the county's waters are the Catawba and Lynches headwaters",
+    "Forty Acre Rock and the county's granite outcrops",
+    "the Andrew Jackson State Park pine and hardwood country"
+   ],
+   "habitat_type": "Piedmont farmland and hardwood ridges north, exploding Charlotte suburbs at Indian Land in the panhandle",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "bats"
+   ],
+   "regional_wildlife": "groundhogs burrow the Piedmont pastures around Lancaster and Kershaw, raccoons follow the Catawba bottoms, and Indian Land's new subdivisions take heavy squirrel, raccoon, and skunk calls against their wooded edges",
+   "absent_or_rare": "cottonmouths are not a Lancaster County snake, and copperheads around Forty Acre Rock and the granite ridges are safety-and-identification calls"
+  },
+  "Laurens County": {
+   "county_seat": "Laurens",
+   "population": 67539,
+   "established": 1785,
+   "region": "the west-central Piedmont between Greenville and Columbia, on the Enoree and Saluda rivers",
+   "largest_cities": [
+    "Laurens",
+    "Clinton",
+    "Gray Court",
+    "Cross Hill",
+    "Waterloo"
+   ],
+   "nearest_metro": "Greenville (about 35 miles north)",
+   "natural_features": [
+    "the Enoree River and its Sumter National Forest tracts",
+    "the Saluda River's upper reaches",
+    "Lake Greenwood's northern coves"
+   ],
+   "habitat_type": "Piedmont mill towns, farmland, and national forest tracts between the Enoree and Saluda rivers",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "armadillos"
+   ],
+   "regional_wildlife": "groundhogs burrow pasture banks across the county, raccoons work the Enoree forest corridor into Laurens and Clinton, and armadillos have spread into the southern lawns and farm edges",
+   "absent_or_rare": "cottonmouths hold only the Saluda swamp fringe as identification calls, and timber rattlesnake copy does not belong in this Piedmont county"
+  },
+  "Lee County": {
+   "county_seat": "Bishopville",
+   "population": 16531,
+   "established": 1902,
+   "region": "the east-central Midlands between Sumter and Florence, on the Lynches River",
+   "largest_cities": [
+    "Bishopville",
+    "Lynchburg",
+    "Elliott",
+    "Wisacky"
+   ],
+   "nearest_metro": "Sumter (about 25 miles southwest) and Florence (about 35 miles east)",
+   "natural_features": [
+    "the Lynches River and its swamps",
+    "Lee State Park's sandhills and artesian wells",
+    "the county's farm fields and pine stands"
+   ],
+   "habitat_type": "flat farm and sandhills land cut by the Lynches River swamp, in the Pee Dee's western fringe",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "armadillos",
+    "gray squirrels",
+    "striped skunks",
+    "eastern moles"
+   ],
+   "regional_wildlife": "raccoons and opossums commute the Lynches swamp into Bishopville, armadillos and moles work the sandy farm lawns, and skunks den under the older town and farm housing",
+   "absent_or_rare": "groundhogs are uncommon on this flat ground, and alligators in the river swamp are SCDNR-program referrals"
+  },
+  "Lexington County": {
+   "county_seat": "Lexington",
+   "population": 293991,
+   "established": 1804,
+   "region": "the west-central Midlands on Lake Murray and the Saluda River, across from Columbia",
+   "largest_cities": [
+    "Lexington",
+    "West Columbia",
+    "Cayce",
+    "Irmo",
+    "Batesburg-Leesville",
+    "Chapin"
+   ],
+   "nearest_metro": "Columbia (directly across the Congaree and Saluda rivers)",
+   "natural_features": [
+    "Lake Murray and its many residential coves",
+    "the Saluda River and Saluda Dam",
+    "Twelve Mile Creek and the county's pine and hardwood suburbs"
+   ],
+   "habitat_type": "Columbia's western suburbs and lake country around Lake Murray, with farm and pine land in the south and west",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "armadillos",
+    "opossums",
+    "bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons and squirrels work the Lake Murray shoreline canopy into Lexington, Irmo, and Chapin homes, armadillos root lawns across the county's sandy south, and bats hold colonies in the older West Columbia and Cayce housing",
+   "absent_or_rare": "groundhogs reach only the county's far northwestern fringe as a rare call, and alligators are not part of Lake Murray's working list — a Murray alligator report goes to SCDNR"
+  },
+  "McCormick County": {
+   "county_seat": "McCormick",
+   "population": 9463,
+   "established": 1916,
+   "region": "the western Piedmont on Lake Thurmond and the Savannah River, in Sumter National Forest country",
+   "largest_cities": [
+    "McCormick",
+    "Parksville",
+    "Plum Branch",
+    "Mount Carmel"
+   ],
+   "nearest_metro": "Augusta, Georgia (about 55 miles southeast) and Greenwood (about 30 miles northeast)",
+   "natural_features": [
+    "Lake Thurmond (Clarks Hill Lake) on the Savannah River",
+    "Sumter National Forest tracts across the county",
+    "Little River and the county's Piedmont creek bottoms"
+   ],
+   "habitat_type": "the state's second-least-populated county: national forest, lake shore, and farm valleys on the Savannah River",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "opossums",
+    "striped skunks",
+    "bats"
+   ],
+   "regional_wildlife": "raccoons work the Thurmond shoreline and creek bottoms into McCormick and the lake communities, groundhogs burrow the farm banks, and bats hold the older in-town and camp-meeting housing",
+   "absent_or_rare": "alligators do not belong in this county's copy, and cottonmouths are a Savannah River swamp-fringe identification call only"
+  },
+  "Marion County": {
+   "county_seat": "Marion",
+   "population": 29183,
+   "established": 1798,
+   "region": "the eastern Pee Dee on the Little Pee Dee River",
+   "largest_cities": [
+    "Marion",
+    "Mullins",
+    "Nichols",
+    "Sellers"
+   ],
+   "nearest_metro": "Florence (about 35 miles west) and Myrtle Beach (about 45 miles east)",
+   "natural_features": [
+    "the Little Pee Dee River and its cypress swamps",
+    "the Great Pee Dee River on the western edge",
+    "the county's tobacco-country farm fields and pine woods"
+   ],
+   "habitat_type": "flat Pee Dee farm and timber land threaded by the Little Pee Dee's cypress swamp",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "armadillos",
+    "gray squirrels",
+    "striped skunks",
+    "eastern moles"
+   ],
+   "regional_wildlife": "raccoons and opossums commute the Little Pee Dee swamps into Marion and Mullins, armadillos and moles work the sandy farm lawns, and bats hold the older tobacco-town homes",
+   "absent_or_rare": "groundhogs are uncommon on this flat river plain, and alligators in the river swamps are SCDNR-program referrals"
+  },
+  "Marlboro County": {
+   "county_seat": "Bennettsville",
+   "population": 26667,
+   "established": 1785,
+   "region": "the northeastern Pee Dee on the North Carolina line, along the Great Pee Dee River",
+   "largest_cities": [
+    "Bennettsville",
+    "McColl",
+    "Clio",
+    "Blenheim",
+    "Tatum"
+   ],
+   "nearest_metro": "Florence (about 40 miles south)",
+   "natural_features": [
+    "the Great Pee Dee River and its swamps",
+    "Lake Wallace at Bennettsville",
+    "the county's cotton-and-timber farm country"
+   ],
+   "habitat_type": "Pee Dee farm and timber land along the Great Pee Dee swamp, with Lake Wallace at the county seat",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "gray squirrels",
+    "armadillos",
+    "striped skunks",
+    "bats"
+   ],
+   "regional_wildlife": "raccoons and opossums follow the Pee Dee swamp and Lake Wallace into Bennettsville, armadillos root the sandy farm lawns, and bats colonize the older in-town homes",
+   "absent_or_rare": "groundhogs thin out on this flat border ground, and the sandhill refuges' protected snakes stay referral content where they occur"
+  },
+  "Newberry County": {
+   "county_seat": "Newberry",
+   "population": 37719,
+   "established": 1785,
+   "region": "the west-central Piedmont between Columbia and Greenville, on the Saluda River",
+   "largest_cities": [
+    "Newberry",
+    "Prosperity",
+    "Whitmire",
+    "Little Mountain",
+    "Pomaria",
+    "Silverstreet"
+   ],
+   "nearest_metro": "Columbia (about 40 miles southeast) and Greenville (about 55 miles north)",
+   "natural_features": [
+    "the Saluda River and Lake Murray's northern shore",
+    "Sumter National Forest's Enoree country",
+    "Lynch's Woods and the Newberry college-town canopy"
+   ],
+   "habitat_type": "Piedmont college town, mill villages, and farmland between the Saluda River, national forest, and Lake Murray",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "bats"
+   ],
+   "regional_wildlife": "groundhogs burrow pasture banks across the county, raccoons work the Saluda bottoms and forest corridor into Newberry and Whitmire, and bats hold colonies in the college-town and mill-village housing",
+   "absent_or_rare": "cottonmouths are a Saluda swamp-fringe identification call only, and armadillos are still an arriving call in the county's south"
+  },
+  "Oconee County": {
+   "county_seat": "Walhalla",
+   "population": 78607,
+   "established": 1868,
+   "region": "the northwestern Upstate mountains and lakes, on the Georgia and North Carolina lines",
+   "largest_cities": [
+    "Walhalla",
+    "Seneca",
+    "Westminster",
+    "Salem",
+    "West Union"
+   ],
+   "nearest_metro": "Greenville (about 45 miles east)",
+   "natural_features": [
+    "Lake Jocassee and Lake Keowee",
+    "the Chattooga River and Oconee's Blue Ridge waterfalls",
+    "Lake Hartwell's Tugaloo arm"
+   ],
+   "habitat_type": "Blue Ridge mountain forest, deep clear lakes, and foothill towns in the state's northwestern corner",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs burrow foothill pasture banks around Walhalla and Westminster, raccoons and bats work the lake and mountain homes around Seneca and Salem, and skunks den under mountain cabins and porches",
+   "absent_or_rare": "the mountain form of the timber rattlesnake in the Blue Ridge ridges is rare safety-and-referral content, cottonmouths do not occur here, and the star-nosed mole of the mountain wetlands is prose, not a service"
+  },
+  "Orangeburg County": {
+   "county_seat": "Orangeburg",
+   "population": 84223,
+   "established": 1769,
+   "region": "the south-central Midlands-to-Lowcountry plain, on the North and South Edisto rivers",
+   "largest_cities": [
+    "Orangeburg",
+    "Holly Hill",
+    "Elloree",
+    "Santee",
+    "Bowman",
+    "North"
+   ],
+   "nearest_metro": "Columbia (about 40 miles north) and Charleston (about 75 miles southeast)",
+   "natural_features": [
+    "the North and South Forks of the Edisto River",
+    "Lake Marion's southern shore at Santee",
+    "the county's vast farm fields and pine woods"
+   ],
+   "habitat_type": "the state's largest county by land area in this set: farm fields, pine woods, and Edisto blackwater swamp",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "armadillos",
+    "gray squirrels",
+    "striped skunks",
+    "eastern moles"
+   ],
+   "regional_wildlife": "raccoons and opossums commute the Edisto swamps into Orangeburg and the farm towns, armadillos and moles work the deep sandy soils, and bats hold the older homes around the university and downtown",
+   "absent_or_rare": "groundhogs are scarce on this flat plain, and alligators in Lake Marion and the Edisto backwaters are SCDNR-program referrals only"
+  },
+  "Pickens County": {
+   "county_seat": "Pickens",
+   "population": 131404,
+   "established": 1826,
+   "region": "the northern Upstate at the Blue Ridge escarpment, between Greenville and Clemson",
+   "largest_cities": [
+    "Pickens",
+    "Easley",
+    "Clemson",
+    "Liberty",
+    "Central",
+    "Six Mile"
+   ],
+   "nearest_metro": "Greenville (about 20 miles east)",
+   "natural_features": [
+    "Table Rock and the Blue Ridge escarpment",
+    "Lake Keowee and Lake Hartwell's upper arms",
+    "the Clemson and university lakeshore country"
+   ],
+   "habitat_type": "Blue Ridge foothill and mountain country, college lakeshore, and fast foothill suburbs",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs burrow foothill banks from Pickens to Liberty, raccoons and squirrels work the escarpment canopy over Easley and Clemson homes, and bats colonize older mill and mountain-side housing",
+   "absent_or_rare": "the mountain timber rattlesnake in the escarpment rocks is rare referral-and-safety content, and cottonmouths do not occur in this Upstate county"
+  },
+  "Richland County": {
+   "county_seat": "Columbia",
+   "population": 416147,
+   "established": 1785,
+   "region": "the central Midlands at the fall line, where the Broad and Saluda rivers form the Congaree",
+   "largest_cities": [
+    "Columbia",
+    "Forest Acres",
+    "Blythewood",
+    "Eastover",
+    "Hopkins",
+    "Gadsden"
+   ],
+   "nearest_metro": "Columbia is itself the state capital and regional metro center",
+   "natural_features": [
+    "the Congaree River and Congaree National Park's old-growth floodplain nearby in the county's south",
+    "the Broad and Saluda rivers and Riverbanks corridor",
+    "Lake Murray's eastern shore and the Sandhills suburbs of the northeast"
+   ],
+   "habitat_type": "the state capital: fall-line city neighborhoods, Sandhills suburbs, river corridors, and floodplain forest",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "bats",
+    "opossums",
+    "armadillos"
+   ],
+   "regional_wildlife": "raccoons and squirrels work the heavy canopy over Columbia's older neighborhoods from Shandon to Forest Acres, Norway rats hold the downtown and university food-service blocks, Brazilian free-tailed and big brown bats roost across the older housing stock, and armadillos root the northeastern Sandhills suburbs",
+   "absent_or_rare": "groundhogs are a fringe call only in the county's far northwest, and alligators are not a Richland County service — the rare Congaree report goes to SCDNR"
+  },
+  "Saluda County": {
+   "county_seat": "Saluda",
+   "population": 18862,
+   "established": 1895,
+   "region": "the west-central Piedmont on the Saluda River, west of Lake Murray",
+   "largest_cities": [
+    "Saluda",
+    "Ridge Spring",
+    "Ward",
+    "Monetta"
+   ],
+   "nearest_metro": "Columbia (about 45 miles east) and Augusta, Georgia (about 50 miles southwest)",
+   "natural_features": [
+    "the Saluda River and Lake Murray's western shore",
+    "the county's peach-and-poultry farm country",
+    "Mine Creek and the Piedmont ridge farms"
+   ],
+   "habitat_type": "Piedmont ridge farmland and small towns between the Saluda River and Lake Murray",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "bats"
+   ],
+   "regional_wildlife": "groundhogs burrow the ridge pasture banks around Saluda and Ridge Spring, raccoons work the Saluda bottoms and lake coves, and bats hold the older farm-town homes",
+   "absent_or_rare": "cottonmouths are a river-swamp fringe identification call only, and armadillos are an arriving call in the county's south"
+  },
+  "Spartanburg County": {
+   "county_seat": "Spartanburg",
+   "population": 327997,
+   "established": 1785,
+   "region": "the northern Upstate between Greenville and the North Carolina line, on the Pacolet and Tyger rivers",
+   "largest_cities": [
+    "Spartanburg",
+    "Duncan",
+    "Lyman",
+    "Wellford",
+    "Inman",
+    "Boiling Springs",
+    "Landrum"
+   ],
+   "nearest_metro": "Spartanburg is its own metro center, with Greenville about 30 miles west",
+   "natural_features": [
+    "the Pacolet and Tyger rivers and their mill valleys",
+    "Lake Bowen and the county's northern foothill ridges",
+    "the Croft and Glendale mill-country corridors"
+   ],
+   "habitat_type": "an Upstate mill-and-university metro of dense suburbs, mill towns, and northern foothill farmland",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs burrow foothill banks and pasture edges from Inman to Landrum, raccoons and squirrels work the canopy over Spartanburg's older neighborhoods and mill towns, and skunks den under decks across the suburbs",
+   "absent_or_rare": "cottonmouths do not occur in this Upstate county, and copperheads in the northern ridges are safety-and-identification calls"
+  },
+  "Sumter County": {
+   "county_seat": "Sumter",
+   "population": 105556,
+   "established": 1798,
+   "region": "the east-central Midlands on the Wateree River, beside Shaw Air Force Base",
+   "largest_cities": [
+    "Sumter",
+    "Pinewood",
+    "Mayesville",
+    "Rembert"
+   ],
+   "nearest_metro": "Sumter is its own center; Columbia is about 45 miles west",
+   "natural_features": [
+    "the Wateree River and its swamps",
+    "the Pocotaligo River and swamp at the county's south",
+    "Woods Bay and the county's Carolina bay country"
+   ],
+   "habitat_type": "a Midlands air-base city ringed by farm and timber land, river swamp, and Carolina bays",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "gray squirrels",
+    "armadillos",
+    "bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons and opossums commute the Wateree and Pocotaligo swamps into Sumter's neighborhoods, armadillos root the sandy suburban lawns, and bats hold colonies in the older in-town homes",
+   "absent_or_rare": "groundhogs are scarce on this flat ground, and alligators in the river swamps are SCDNR-program referrals"
+  },
+  "Union County": {
+   "county_seat": "Union",
+   "population": 27244,
+   "established": 1785,
+   "region": "the north-central Piedmont in Sumter National Forest country, on the Tyger River",
+   "largest_cities": [
+    "Union",
+    "Jonesville",
+    "Lockhart",
+    "Carlisle",
+    "Buffalo"
+   ],
+   "nearest_metro": "Spartanburg (about 30 miles north) and Columbia (about 65 miles southeast)",
+   "natural_features": [
+    "the Tyger and Enoree rivers and their national forest tracts",
+    "Sumter National Forest across the county's south and west",
+    "the Union mill-town and Lockhart river country"
+   ],
+   "habitat_type": "Piedmont mill town and farmland wrapped in national forest along the Tyger and Enoree rivers",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "bats"
+   ],
+   "regional_wildlife": "groundhogs burrow the pasture banks around Union and Jonesville, raccoons work the forest and river corridors into the mill town, and bats colonize the older mill-village housing",
+   "absent_or_rare": "cottonmouths are a Tyger River swamp-fringe identification call at most, and armadillos are still arriving in the county's south"
+  },
+  "Williamsburg County": {
+   "county_seat": "Kingstree",
+   "population": 31026,
+   "established": 1804,
+   "region": "the central Lowcountry on the Black River, between the Pee Dee and the coast",
+   "largest_cities": [
+    "Kingstree",
+    "Hemingway",
+    "Greeleyville",
+    "Lane",
+    "Stuckey"
+   ],
+   "nearest_metro": "Florence (about 45 miles north) and Charleston (about 70 miles southeast)",
+   "natural_features": [
+    "the Black River and its cypress swamps",
+    "the county's vast timber and farm country",
+    "the Black Mingo Creek bottoms"
+   ],
+   "habitat_type": "flat Lowcountry timber and farm land threaded by the Black River's cypress swamp",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "armadillos",
+    "gray squirrels",
+    "bats",
+    "feral hogs in the river swamp"
+   ],
+   "regional_wildlife": "raccoons, opossums, and feral hogs move out of the Black River swamp into Kingstree and the farm communities, armadillos root the sandy clearings, and bats hold the older in-town homes",
+   "absent_or_rare": "alligators in the Black River are SCDNR-program referrals only, and groundhogs do not belong on this Lowcountry county's list"
+  },
+  "York County": {
+   "county_seat": "York",
+   "population": 282090,
+   "established": 1785,
+   "region": "the northern Piedmont on the Catawba River and Lake Wylie, in Charlotte's southern metro",
+   "largest_cities": [
+    "Rock Hill",
+    "York",
+    "Fort Mill",
+    "Tega Cay",
+    "Clover",
+    "Lake Wylie"
+   ],
+   "nearest_metro": "Charlotte, North Carolina (about 25 miles north)",
+   "natural_features": [
+    "Lake Wylie and the Catawba River",
+    "the Kings Mountain foothill fringe in the county's west",
+    "the Fort Mill and Rock Hill creek corridors"
+   ],
+   "habitat_type": "Charlotte's southern metro: booming suburbs at Fort Mill and Lake Wylie, a mill city at Rock Hill, and farm country in the west",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "bats"
+   ],
+   "regional_wildlife": "groundhogs burrow the western pasture banks around York and Clover, raccoons and squirrels work the Catawba and Lake Wylie canopy into Rock Hill and Fort Mill homes, and skunks den under decks across the new suburbs",
+   "absent_or_rare": "cottonmouths are not a York County snake, and copperheads in the western rocky ground are safety-and-identification calls"
+  }
+ }
+}
