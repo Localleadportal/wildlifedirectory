@@ -1,0 +1,723 @@
+{
+ "state": {
+  "name": "Maryland",
+  "agency": "Maryland Department of Natural Resources, Wildlife and Heritage Service",
+  "agency_short": "Maryland DNR Wildlife and Heritage Service",
+  "peak_intrusion_season": "March through May during spring raccoon and squirrel denning, spring through fall for groundhog and mole lawn work, summer for bat colonies (exclusion follows the Maryland DNR-recommended September 1 to March 1 window), and September through November as rodents and squirrels seek winter shelter",
+  "climate_factor": "Maryland's humid subtropical summers keep snakes, groundhogs and moles active for a long season, while cold mountain winters in Garrett and Allegany counties and mild winters on the Eastern Shore produce very different intrusion calendars across one state",
+  "permit_note": "Maryland commercial nuisance work requires a Wildlife Damage Control Permit under COMAR 08.03.15, and Maryland DNR styles its holders licensed Wildlife Damage Control Operators; mice, moles, rats and voles are exempt from the permit, relocation is allowed only in the same or an adjacent county with written release-site permission and is prohibited for raccoon, skunk and fox, and bats may be removed only by non-lethal methods under COMAR 08.03.15.20"
+ },
+ "counties": {
+  "Allegany County": {
+   "county_seat": "Cumberland",
+   "population": 68262,
+   "established": 1789,
+   "region": "western Maryland in the Allegheny Mountains, along the Potomac River",
+   "largest_cities": [
+    "Cumberland",
+    "Frostburg",
+    "La Vale",
+    "Westernport",
+    "Cresaptown"
+   ],
+   "nearest_metro": "Cumberland is the regional center, with Hagerstown about 65 miles east",
+   "natural_features": [
+    "North Branch Potomac River",
+    "Rocky Gap State Park",
+    "Wills Mountain and the Allegany ridges"
+   ],
+   "habitat_type": "mountain ridges, river towns, and former coal and canal country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "groundhogs",
+    "black rat snakes"
+   ],
+   "regional_wildlife": "raccoons and bats work the older homes of Cumberland and Frostburg, groundhogs burrow the valley farms, and the mountain woods add timber rattlesnake country — safety and referral only — plus copperheads on the rocky slopes",
+   "absent_or_rare": "the Delmarva fox squirrel does not occur in western Maryland, and black bear problems in the Allegany woods are Maryland DNR matters, not house calls"
+  },
+  "Anne Arundel County": {
+   "county_seat": "Annapolis",
+   "population": 588261,
+   "established": 1650,
+   "region": "central Maryland on the western shore of the Chesapeake Bay, between Baltimore and Annapolis",
+   "largest_cities": [
+    "Annapolis",
+    "Glen Burnie",
+    "Odenton",
+    "Severna Park",
+    "Pasadena",
+    "Crofton"
+   ],
+   "nearest_metro": "Baltimore (about 25 miles north) and Washington, D.C. (about 35 miles west)",
+   "natural_features": [
+    "Chesapeake Bay western shore and the Severn River",
+    "Magothy and South rivers",
+    "Sandy Point State Park edge"
+   ],
+   "habitat_type": "state-capital waterfront, dense northern suburbs, and rural south county",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "eastern moles",
+    "Norway rats"
+   ],
+   "regional_wildlife": "raccoons, squirrels and bats are constant in Severna Park, Pasadena and Annapolis waterfront homes with crawlspaces and boat houses, rats hold Glen Burnie's older commercial blocks, and south county farmhouses add groundhogs and black rat snakes",
+   "absent_or_rare": "the Delmarva fox squirrel is an Eastern Shore animal and does not occur here, and osprey nests on Annapolis-area structures are protected — timing and deterrence work only"
+  },
+  "Baltimore County": {
+   "county_seat": "Baltimore",
+   "population": 585708,
+   "established": 1729,
+   "region": "an independent city on the Patapsco River and Baltimore Harbor, surrounded by but separate from Baltimore County",
+   "largest_cities": [
+    "Baltimore"
+   ],
+   "nearest_metro": "Baltimore is itself the metro center",
+   "natural_features": [
+    "Baltimore Harbor and the Patapsco River",
+    "Leakin Park and Gwynns Falls",
+    "Druid Hill Park"
+   ],
+   "habitat_type": "dense rowhouse city with harbor, park corridors and older industrial districts",
+   "common_wildlife": [
+    "Norway rats",
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "European starlings",
+    "feral pigeons",
+    "opossums"
+   ],
+   "regional_wildlife": "Norway rats are Baltimore's defining wildlife call — the rowhouse blocks, alleys and older sewers let them move building to building — with raccoons in chimneys and vacant properties, starlings and pigeons in signs and vents, and bats in older rooflines across the city",
+   "absent_or_rare": "Baltimore City has no groundhog or snake country of consequence inside the built city, and no armadillos occur anywhere in Maryland"
+  },
+  "Calvert County": {
+   "county_seat": "Prince Frederick",
+   "population": 92577,
+   "established": 1654,
+   "region": "southern Maryland, a peninsula between the Chesapeake Bay and the Patuxent River",
+   "largest_cities": [
+    "Prince Frederick",
+    "Lusby",
+    "Huntingtown",
+    "Dunkirk",
+    "Solomons"
+   ],
+   "nearest_metro": "Washington, D.C. (about 40 miles northwest)",
+   "natural_features": [
+    "Chesapeake Bay cliffs and Calvert Cliffs State Park",
+    "Patuxent River shoreline",
+    "Battle Creek Cypress Swamp"
+   ],
+   "habitat_type": "rural peninsula of tobacco-farm country turned commuter exurb",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "groundhogs and moles work the yards and former tobacco fields of Huntingtown and Dunkirk, raccoons and bats settle waterfront homes in Lusby and Solomons, and the county's woods add black rat snakes in barns and outbuildings",
+   "absent_or_rare": "Calvert County's famous fossil cliffs hold no venomous-snake pattern to market — copperheads are uncommon here — and bald eagle and osprey nests are protected, deterrence only"
+  },
+  "Caroline County": {
+   "county_seat": "Denton",
+   "population": 33386,
+   "established": 1773,
+   "region": "Maryland's Eastern Shore, farm country along the Choptank River",
+   "largest_cities": [
+    "Denton",
+    "Federalsburg",
+    "Greensboro",
+    "Ridgely"
+   ],
+   "nearest_metro": "the mid-Shore, with Easton about 20 miles west and Dover, Delaware about 30 miles northeast",
+   "natural_features": [
+    "Choptank River",
+    "Tuckahoe Creek and Tuckahoe State Park edge",
+    "Idlewild wildlife lands and farm ponds"
+   ],
+   "habitat_type": "flat Delmarva farmland and small towns",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "bats",
+    "eastern moles"
+   ],
+   "regional_wildlife": "groundhogs along ditch banks and barn foundations are the standing Caroline County call, raccoons work the Choptank and Tuckahoe corridors into Denton and Federalsburg attics, and farm outbuildings across the county host bats and barn owls' less welcome cousins — starlings in the vents",
+   "absent_or_rare": "the Delmarva fox squirrel lives in the Shore's mature pine stands and is a protected local species — referral-grade, never a removal target — and nutria in Shore marshes are a Maryland DNR eradication matter"
+  },
+  "Carroll County": {
+   "county_seat": "Westminster",
+   "population": 172891,
+   "established": 1837,
+   "region": "north-central Maryland Piedmont, between Baltimore and Frederick",
+   "largest_cities": [
+    "Westminster",
+    "Eldersburg",
+    "Sykesville",
+    "Taneytown",
+    "Hampstead"
+   ],
+   "nearest_metro": "Baltimore (about 35 miles southeast)",
+   "natural_features": [
+    "Liberty Reservoir watershed",
+    "Piney Run Park",
+    "Patapsco River headwaters"
+   ],
+   "habitat_type": "rolling Piedmont farm country with fast-growing southern suburbs",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "groundhogs under barns and sheds lead across Carroll's farm country, squirrels and raccoons fill Eldersburg and Westminster attics as subdivisions push into woodlots, and bats settle the older homes of Taneytown and Union Bridge",
+   "absent_or_rare": "copperheads are uncommon in Carroll County's Piedmont and timber rattlesnakes do not occur here; both stay identification-and-safety topics, not removal marketing"
+  },
+  "Cecil County": {
+   "county_seat": "Elkton",
+   "population": 103725,
+   "established": 1674,
+   "region": "northeastern Maryland at the head of the Chesapeake Bay, between Baltimore and Delaware",
+   "largest_cities": [
+    "Elkton",
+    "North East",
+    "Perryville",
+    "Rising Sun",
+    "Chesapeake City"
+   ],
+   "nearest_metro": "Baltimore (about 55 miles southwest) and Wilmington, Delaware (about 25 miles northeast)",
+   "natural_features": [
+    "Elk Neck State Park and the North East River",
+    "Susquehanna River and Conowingo reach",
+    "Chesapeake and Delaware Canal at Chesapeake City"
+   ],
+   "habitat_type": "bay-head waterfront, horse-farm country, and I-95 corridor towns",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "groundhogs",
+    "striped skunks",
+    "opossums",
+    "Norway rats"
+   ],
+   "regional_wildlife": "raccoons and bats are steady in waterfront and canal-town homes in North East, Chesapeake City and Perryville, groundhogs work the horse farms around Fair Hill and Rising Sun, and rats follow Elkton's older blocks and the riverfront",
+   "absent_or_rare": "the Delmarva fox squirrel's core Maryland range is farther down the Shore; Cecil sightings are uncommon, and any fox squirrel here is treated as protected and left to Maryland DNR guidance"
+  },
+  "Charles County": {
+   "county_seat": "La Plata",
+   "population": 166617,
+   "established": 1658,
+   "region": "southern Maryland along the Potomac River, Washington's exurban frontier",
+   "largest_cities": [
+    "La Plata",
+    "Waldorf",
+    "Indian Head",
+    "Hughesville",
+    "Bryans Road"
+   ],
+   "nearest_metro": "Washington, D.C. (about 25 miles north of Waldorf)",
+   "natural_features": [
+    "Potomac River shoreline and Mattawoman Creek",
+    "Myrtle Grove and Doncaster forest lands",
+    "Cedarville State Forest edge"
+   ],
+   "habitat_type": "Potomac waterfront, tobacco-farm heritage, and fast DC-exurb growth",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "squirrels, raccoons and moles surge in Waldorf and La Plata's growth-era subdivisions as building pushes into pine woods, groundhogs work the Hughesville farm belt, and Potomac waterfront homes in Indian Head and Bryans Road add bats and raccoons in crawlspaces",
+   "absent_or_rare": "copperheads occur in Charles County's woods but are uncommon near homes; the county has no timber rattlesnakes, and eagle and osprey nests on the Potomac shore are protected"
+  },
+  "Dorchester County": {
+   "county_seat": "Cambridge",
+   "population": 32431,
+   "established": 1669,
+   "region": "Maryland's Eastern Shore, the heart of Chesapeake marsh country",
+   "largest_cities": [
+    "Cambridge",
+    "Hurlock",
+    "East New Market",
+    "Vienna"
+   ],
+   "nearest_metro": "the mid-Shore, with Salisbury about 30 miles southeast",
+   "natural_features": [
+    "Blackwater National Wildlife Refuge",
+    "Choptank River",
+    "Fishing Bay and the Honga River marshes"
+   ],
+   "habitat_type": "the most marsh-bound county in Maryland, with working waterfronts and farm towns",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "opossums",
+    "bats",
+    "eastern moles",
+    "muskrats in the marshes"
+   ],
+   "regional_wildlife": "raccoons are the everyday Dorchester call — in Cambridge attics, Hurlock farm outbuildings and waterfront homes that sit between crabbing seasons — with skunks and opossums under the county's many raised houses and sheds, and bats in Cambridge's older stock",
+   "absent_or_rare": "the Delmarva fox squirrel lives in the mature loblolly stands around Blackwater and is protected — referral-grade only — and marsh muskrats and nutria are Maryland DNR marsh-management matters, not house calls"
+  },
+  "Frederick County": {
+   "county_seat": "Frederick",
+   "population": 271717,
+   "established": 1748,
+   "region": "western Maryland Piedmont and mountain county, between Washington and the Catoctins",
+   "largest_cities": [
+    "Frederick",
+    "Urbana",
+    "Middletown",
+    "Brunswick",
+    "Mount Airy",
+    "Thurmont"
+   ],
+   "nearest_metro": "Washington, D.C. (about 45 miles southeast) and Baltimore (about 50 miles east)",
+   "natural_features": [
+    "Catoctin Mountain Park and Cunningham Falls",
+    "Monocacy River and the Monocacy Battlefield lands",
+    "Sugarloaf Mountain"
+   ],
+   "habitat_type": "historic city, fast suburbs, and mountain and farm country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "black rat snakes"
+   ],
+   "regional_wildlife": "groundhogs are the signature Frederick County call across its farm belt, squirrels and raccoons fill Frederick City and Urbana attics, bats colonize Brunswick and Thurmont's older homes, and the Catoctin foothills add copperheads on rocky ground — protected, safety-first, never killed",
+   "absent_or_rare": "timber rattlesnakes are a far-western Maryland mountain animal and are not a Frederick County pattern; black bear sightings at the county's mountain edge go to Maryland DNR"
+  },
+  "Garrett County": {
+   "county_seat": "Oakland",
+   "population": 28806,
+   "established": 1872,
+   "region": "Maryland's far-western mountain county, the state's highest and coldest",
+   "largest_cities": [
+    "Oakland",
+    "Grantsville",
+    "Friendsville",
+    "McHenry"
+   ],
+   "nearest_metro": "the Deep Creek Lake resort area anchors the county, with Cumberland about 45 miles east",
+   "natural_features": [
+    "Deep Creek Lake",
+    "Savage River State Forest",
+    "Youghiogheny River"
+   ],
+   "habitat_type": "high plateau, state forest, and lake resort country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "groundhogs",
+    "porcupines in the woods"
+   ],
+   "regional_wildlife": "bats and raccoons in Deep Creek Lake homes that sit closed between visits are the Garrett County staple, skunks and groundhogs work Oakland and Grantsville yards, and the Savage River woods add porcupine damage at cabins and outbuildings",
+   "absent_or_rare": "Garrett County is Maryland's timber rattlesnake country — a protected, watchlist species handled as safety and referral only — and black bears here are common and entirely a Maryland DNR matter"
+  },
+  "Harford County": {
+   "county_seat": "Bel Air",
+   "population": 260924,
+   "established": 1773,
+   "region": "northeastern Maryland between Baltimore and the Susquehanna River",
+   "largest_cities": [
+    "Bel Air",
+    "Aberdeen",
+    "Havre de Grace",
+    "Edgewood",
+    "Fallston",
+    "Jarrettsville"
+   ],
+   "nearest_metro": "Baltimore (about 25 miles southwest)",
+   "natural_features": [
+    "Susquehanna State Park and the Susquehanna River",
+    "Bush River and Gunpowder Bay waterfront",
+    "Rocks State Park"
+   ],
+   "habitat_type": "Bay waterfront, Aberdeen Proving Ground edge, and Piedmont farm country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "Norway rats",
+    "groundhogs",
+    "striped skunks",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons, squirrels and bats are constant in Bel Air, Fallston and Jarrettsville's canopy neighborhoods, rats follow the older waterfront blocks of Havre de Grace, Aberdeen and Edgewood, and farm country adds groundhogs and barn bats",
+   "absent_or_rare": "the Delmarva fox squirrel does not occur on the western shore, and Susquehanna bald eagle concentrations are protected — observation and deterrence only"
+  },
+  "Howard County": {
+   "county_seat": "Ellicott City",
+   "population": 332317,
+   "established": 1851,
+   "region": "central Maryland between Baltimore and Washington, built around Columbia",
+   "largest_cities": [
+    "Ellicott City",
+    "Columbia",
+    "Elkridge",
+    "Fulton",
+    "Savage",
+    "Clarksville"
+   ],
+   "nearest_metro": "Baltimore and Washington, D.C. (each about 20-30 miles away)",
+   "natural_features": [
+    "Patapsco Valley State Park",
+    "Patuxent River and Triadelphia Reservoir edge",
+    "Columbia's lake and pathway system"
+   ],
+   "habitat_type": "affluent planned suburbs, historic mill towns, and western farm country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "eastern moles",
+    "groundhogs"
+   ],
+   "regional_wildlife": "squirrels, raccoons and moles are the Howard County constant across Columbia, Ellicott City and Elkridge's mature suburbs, bats settle older homes in Savage and the Patapsco valley, and the western farm belt around Clarksville and Glenelg adds groundhogs and skunks",
+   "absent_or_rare": "Howard County has no venomous-snake pattern to speak of — copperheads are rare and localized — and no Delmarva fox squirrels on this side of the Bay"
+  },
+  "Kent County": {
+   "county_seat": "Chestertown",
+   "population": 19198,
+   "established": 1642,
+   "region": "Maryland's Eastern Shore, the state's smallest county by population",
+   "largest_cities": [
+    "Chestertown",
+    "Rock Hall",
+    "Galena",
+    "Millington"
+   ],
+   "nearest_metro": "the upper Shore, with Annapolis about 35 miles southwest across the Bay Bridge from neighboring Queen Anne's",
+   "natural_features": [
+    "Chester River",
+    "Eastern Neck National Wildlife Refuge",
+    "Chesapeake Bay shore at Rock Hall"
+   ],
+   "habitat_type": "historic river towns, working waterfronts, and grain-farm country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "raccoons and bats in Chestertown's colonial-era homes and Rock Hall's waterfront houses lead Kent County's calls, groundhogs work the farm edges around Galena and Kennedyville, and skunks den under the county's many porches and sheds",
+   "absent_or_rare": "the Delmarva fox squirrel occurs in the Shore's mature pine and hardwood stands and is protected — referral-grade only — and Eastern Neck refuge wildlife is a federal matter"
+  },
+  "Montgomery County": {
+   "county_seat": "Rockville",
+   "population": 1062061,
+   "established": 1776,
+   "region": "Maryland's most populous county, Washington's northern suburbs",
+   "largest_cities": [
+    "Rockville",
+    "Gaithersburg",
+    "Silver Spring",
+    "Bethesda",
+    "Germantown",
+    "Takoma Park",
+    "Chevy Chase"
+   ],
+   "nearest_metro": "Washington, D.C. (the county borders the District)",
+   "natural_features": [
+    "Rock Creek Regional Park",
+    "Cabin John and the Potomac River",
+    "Seneca Creek State Park"
+   ],
+   "habitat_type": "dense inner suburbs, corporate corridors, and an agricultural reserve in the north",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "Norway rats",
+    "striped skunks",
+    "opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "raccoons and squirrels are relentless in Silver Spring, Bethesda and Takoma Park's canopy neighborhoods, rats hold the older commercial cores of Rockville, Gaithersburg and Wheaton, bats roost in the county's older colonials, and the Agricultural Reserve adds groundhogs and barn animals around Poolesville and Damascus",
+   "absent_or_rare": "Montgomery County's Agricultural Reserve foxes and coyotes are farm-country animals, not house-call services, and the county has no timber rattlesnakes — copperheads are uncommon and localized along the Potomac"
+  },
+  "Prince George's County": {
+   "county_seat": "Upper Marlboro",
+   "population": 967201,
+   "established": 1696,
+   "region": "Maryland inside the Capital Beltway and beyond, Washington's eastern suburbs",
+   "largest_cities": [
+    "Upper Marlboro",
+    "Bowie",
+    "Laurel",
+    "Hyattsville",
+    "College Park",
+    "Greenbelt",
+    "Largo"
+   ],
+   "nearest_metro": "Washington, D.C. (the county borders the District)",
+   "natural_features": [
+    "Patuxent River and the Patuxent wildlife refuge country",
+    "Anacostia River tributaries and parkland",
+    "Greenbelt Park and the Beltsville agricultural lands"
+   ],
+   "habitat_type": "dense Beltway suburbs, university and federal-agriculture lands, and rural south county",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "raccoons and squirrels fill attics from Hyattsville and College Park to Bowie, rats are entrenched in the older Beltway-era blocks and commercial strips, bats colonize older homes in Greenbelt and Laurel, and rural south county around Upper Marlboro adds groundhogs and black rat snakes",
+   "absent_or_rare": "the Beltsville and Patuxent research lands hold protected species work that is federal, not residential, and no Delmarva fox squirrels occur on the western shore"
+  },
+  "Queen Anne's County": {
+   "county_seat": "Centreville",
+   "population": 49874,
+   "established": 1706,
+   "region": "Maryland's Eastern Shore at the Bay Bridge, Kent Island and mainland farm country",
+   "largest_cities": [
+    "Centreville",
+    "Stevensville",
+    "Queenstown",
+    "Grasonville",
+    "Chester"
+   ],
+   "nearest_metro": "Annapolis (directly across the Chesapeake Bay Bridge)",
+   "natural_features": [
+    "Kent Island and the Narrows",
+    "Chester River and Corsica River",
+    "Wye Island natural resources lands"
+   ],
+   "habitat_type": "Bay Bridge commuter country, waterfront communities, and farm towns",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "eastern moles",
+    "groundhogs"
+   ],
+   "regional_wildlife": "raccoons and bats are the Kent Island staple in waterfront homes in Stevensville, Chester and Grasonville, groundhogs and moles work Centreville and Church Hill farm edges, and mainland river towns add skunks under porches and sheds",
+   "absent_or_rare": "the Delmarva fox squirrel lives in mature Shore pine stands including Wye Island country and is protected — referral-grade only — and osprey nests on Kent Island structures are timing and deterrence work"
+  },
+  "Somerset County": {
+   "county_seat": "Princess Anne",
+   "population": 24620,
+   "established": 1666,
+   "region": "Maryland's southernmost Eastern Shore county, marsh and crab country",
+   "largest_cities": [
+    "Princess Anne",
+    "Crisfield",
+    "Westover",
+    "Deal Island"
+   ],
+   "nearest_metro": "the lower Shore, with Salisbury about 30 miles north",
+   "natural_features": [
+    "Pocomoke River and Pocomoke Sound",
+    "Janes Island State Park",
+    "Deal Island wildlife lands"
+   ],
+   "habitat_type": "the state's most rural Shore county — marsh, pine woods and working waterfronts",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "opossums",
+    "bats",
+    "eastern moles",
+    "groundhogs"
+   ],
+   "regional_wildlife": "raccoons work Crisfield's waterfront and Princess Anne's older homes year-round, skunks and opossums den under the raised houses and sheds that marsh country requires, and farm outbuildings across Westover and Marion host bats and starlings",
+   "absent_or_rare": "the Delmarva fox squirrel in the Pocomoke pine stands is protected and referral-grade only, and marsh muskrats and nutria belong to Maryland DNR marsh programs, not house calls"
+  },
+  "St. Mary's County": {
+   "county_seat": "Leonardtown",
+   "population": 113510,
+   "established": 1637,
+   "region": "southern Maryland, Maryland's oldest county, between the Potomac and Patuxent rivers",
+   "largest_cities": [
+    "Leonardtown",
+    "Lexington Park",
+    "California",
+    "Mechanicsville",
+    "Charlotte Hall"
+   ],
+   "nearest_metro": "Washington, D.C. (about 60 miles northwest), with Naval Air Station Patuxent River in the county",
+   "natural_features": [
+    "Potomac and Patuxent river shorelines",
+    "St. Mary's River and St. Mary's City",
+    "Point Lookout State Park"
+   ],
+   "habitat_type": "peninsula of naval-base growth, waterfront villages and Amish and farm country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "raccoons, squirrels and moles surge in Lexington Park and California's growth-era subdivisions, groundhogs work the Mechanicsville and Charlotte Hall farm belt — including Amish farms — and waterfront homes from Leonardtown to Piney Point add bats and raccoons in crawlspaces",
+   "absent_or_rare": "copperheads are uncommon in St. Mary's flat peninsula woods, the county has no timber rattlesnakes, and Point Lookout and river osprey and eagle nests are protected"
+  },
+  "Talbot County": {
+   "county_seat": "Easton",
+   "population": 37526,
+   "established": 1661,
+   "region": "Maryland's Eastern Shore, the Bay's sailing and estate country",
+   "largest_cities": [
+    "Easton",
+    "St. Michaels",
+    "Oxford",
+    "Tilghman Island"
+   ],
+   "nearest_metro": "the mid-Shore, with Annapolis about 40 miles west across the Bay",
+   "natural_features": [
+    "Miles River and Wye River country",
+    "Tred Avon River at Oxford",
+    "Chesapeake Bay shore and Tilghman Island"
+   ],
+   "habitat_type": "historic towns, waterfront estates, and farm country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "eastern moles",
+    "groundhogs"
+   ],
+   "regional_wildlife": "raccoons and bats lead in Easton, St. Michaels and Oxford's historic homes and waterfront estates, moles and groundhogs work the farm and estate lawns, and Tilghman Island's watermen's homes add skunks and opossums under porches and sheds",
+   "absent_or_rare": "the Delmarva fox squirrel in the county's mature pine stands is protected and referral-grade only, and the rivers' osprey and eagle nests are protected — deterrence and timing only"
+  },
+  "Washington County": {
+   "county_seat": "Hagerstown",
+   "population": 154705,
+   "established": 1776,
+   "region": "western Maryland's valley county, between Pennsylvania and the Potomac",
+   "largest_cities": [
+    "Hagerstown",
+    "Boonsboro",
+    "Smithsburg",
+    "Williamsport",
+    "Clear Spring"
+   ],
+   "nearest_metro": "Hagerstown is the regional hub, with Frederick about 25 miles east",
+   "natural_features": [
+    "Antietam National Battlefield and Antietam Creek",
+    "Potomac River and the C&O Canal",
+    "South Mountain and the Appalachian Trail"
+   ],
+   "habitat_type": "Hager Valley farm country, canal towns, and mountain edges",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "black rat snakes"
+   ],
+   "regional_wildlife": "groundhogs lead across the Hager Valley's farms and subdivisions, raccoons and bats fill Hagerstown and Boonsboro's older homes, black rat snakes work the barns around Smithsburg and Clear Spring, and South Mountain adds copperheads on rocky ground — protected and safety-first",
+   "absent_or_rare": "timber rattlesnakes are a far-western mountain animal beyond South Mountain's usual pattern and stay referral-only if ever reported; Antietam battlefield wildlife is a National Park Service matter"
+  },
+  "Wicomico County": {
+   "county_seat": "Salisbury",
+   "population": 104588,
+   "established": 1867,
+   "region": "Maryland's Eastern Shore commercial hub, on the Wicomico River",
+   "largest_cities": [
+    "Salisbury",
+    "Delmar",
+    "Fruitland",
+    "Pittsville",
+    "Hebron"
+   ],
+   "nearest_metro": "Salisbury is the lower Shore's regional center",
+   "natural_features": [
+    "Wicomico River",
+    "Nanticoke River marshes",
+    "Pemberton Historical Park and Shore pine woods"
+   ],
+   "habitat_type": "regional city, suburbs, and surrounding Delmarva farm and pine country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "rats follow Salisbury's older neighborhoods, university blocks and riverfront food businesses, raccoons and squirrels fill Fruitland and Delmar's canopy suburbs, and the surrounding farm and pine country adds groundhogs, bats in farmhouses, and Delmarva fox squirrel sightings in mature stands — protected, referral-grade only",
+   "absent_or_rare": "nutria in the Nanticoke marshes are a Maryland DNR eradication matter, and no venomous-snake pattern markets in Wicomico County — copperheads are rare on the lower Shore"
+  },
+  "Worcester County": {
+   "county_seat": "Snow Hill",
+   "population": 52460,
+   "established": 1742,
+   "region": "Maryland's Atlantic coast county — Ocean City, farmland and the Pocomoke forest",
+   "largest_cities": [
+    "Snow Hill",
+    "Ocean City",
+    "Berlin",
+    "Pocomoke City",
+    "Ocean Pines"
+   ],
+   "nearest_metro": "Ocean City is the resort center, with Salisbury about 30 miles northwest",
+   "natural_features": [
+    "Assateague Island National Seashore edge",
+    "Pocomoke River and Pocomoke State Forest",
+    "Sinepuxent and Chincoteague bays"
+   ],
+   "habitat_type": "barrier-island resort, coastal bays, and inland farm and forest",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "eastern moles",
+    "Norway rats"
+   ],
+   "regional_wildlife": "raccoons, skunks and bats are the standing job in Ocean City and Ocean Pines homes and rentals that sit empty between seasons, rats follow Ocean City's boardwalk food blocks in season, and Berlin, Snow Hill and Pocomoke City add squirrels, groundhogs and bats in older inland homes",
+   "absent_or_rare": "the Delmarva fox squirrel in Pocomoke State Forest stands is protected and referral-grade only, Assateague's wild horses are a federal matter, and no venomous snakes market in Worcester County"
+  }
+ }
+}
