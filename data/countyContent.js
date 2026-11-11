@@ -9,6 +9,15 @@ const georgiaData       = require('./states/georgia/counties.json');
 const tennesseeData     = require('./states/tennessee/counties.json');
 const maineData         = require('./states/maine/counties.json');
 const massachusettsData = require('./states/massachusetts/counties.json');
+const newJerseyData     = require('./states/new-jersey/counties.json');
+const newYorkData       = require('./states/new-york/counties.json');
+const pennsylvaniaData  = require('./states/pennsylvania/counties.json');
+const marylandData      = require('./states/maryland/counties.json');
+const virginiaData      = require('./states/virginia/counties.json');
+const westVirginiaData  = require('./states/west-virginia/counties.json');
+const northCarolinaData = require('./states/north-carolina/counties.json');
+const southCarolinaData = require('./states/south-carolina/counties.json');
+const floridaData       = require('./states/florida/counties.json');
 
 // Registry: state name → county data file
 const stateRegistry = {
@@ -21,6 +30,15 @@ const stateRegistry = {
   'Tennessee':     tennesseeData,
   'Maine':         maineData,
   'Massachusetts': massachusettsData,
+  'New Jersey':    newJerseyData,
+  'New York':      newYorkData,
+  'Pennsylvania':  pennsylvaniaData,
+  'Maryland':      marylandData,
+  'Virginia':      virginiaData,
+  'West Virginia': westVirginiaData,
+  'North Carolina':northCarolinaData,
+  'South Carolina':southCarolinaData,
+  'Florida':       floridaData,
 };
 
 // ---- helpers ----
@@ -2950,6 +2968,24 @@ const maineContent = genericStateContent('Maine', 'ME',
   'Every operator we send is an MDIFW-certified Animal Damage Control agent — Maine\u2019s certification for nuisance wildlife work — and holds a valid Maine trapping license.');
 const massachusettsContent = genericStateContent('Massachusetts', 'MA',
   'Every operator we send is a MassWildlife-licensed Problem Animal Control (PAC) agent — the license Massachusetts requires for nuisance wildlife work done for hire.');
+const newJerseyContent = genericStateContent('New Jersey', 'NJ',
+  "Our operators work as the property owner's designated agent under the New Jersey Fish & Wildlife Game Code and hold Division depredation permits where a species requires one.");
+const newYorkContent = genericStateContent('New York', 'NY',
+  "Every operator we send is a DEC-licensed Nuisance Wildlife Control Operator (NWCO).");
+const pennsylvaniaContent = genericStateContent('Pennsylvania', 'PA',
+  "Every operator we send holds a Pennsylvania Game Commission nuisance wildlife control operator permit.");
+const marylandContent = genericStateContent('Maryland', 'MD',
+  "Every operator we send is a Maryland DNR-licensed Wildlife Damage Control Operator.");
+const virginiaContent = genericStateContent('Virginia', 'VA',
+  "Every operator we send holds a Commercial Nuisance Animal Permit (CNAP) issued by the Virginia Department of Wildlife Resources.");
+const westVirginiaContent = genericStateContent('West Virginia', 'WV',
+  "Every operator we send is a WVDNR-licensed Wildlife Damage Control Agent (WDCA).");
+const northCarolinaContent = genericStateContent('North Carolina', 'NC',
+  "Every operator we send is a licensed Wildlife Control Agent (WCA) licensed by the NC Wildlife Resources Commission.");
+const southCarolinaContent = genericStateContent('South Carolina', 'SC',
+  "Our operators are listed with SCDNR and work under department depredation permits where the job requires one.");
+const floridaContent = genericStateContent('Florida', 'FL',
+  "Work is done under FWC Rule 68A-9.010 with the property owner’s authorization — Florida issues no nuisance-trapper license.");
 
 // ---- main dispatcher ----
 function getCountyContent(stateName, countyName) {
@@ -2970,6 +3006,15 @@ function getCountyContent(stateName, countyName) {
   if (stateName === 'Tennessee')     return tennesseeContent(countyName, county, s);
   if (stateName === 'Maine')         return maineContent(countyName, county, s);
   if (stateName === 'Massachusetts') return massachusettsContent(countyName, county, s);
+  if (stateName === 'New Jersey')     return newJerseyContent(countyName, county, s);
+  if (stateName === 'New York')       return newYorkContent(countyName, county, s);
+  if (stateName === 'Pennsylvania')   return pennsylvaniaContent(countyName, county, s);
+  if (stateName === 'Maryland')       return marylandContent(countyName, county, s);
+  if (stateName === 'Virginia')       return virginiaContent(countyName, county, s);
+  if (stateName === 'West Virginia')  return westVirginiaContent(countyName, county, s);
+  if (stateName === 'North Carolina') return northCarolinaContent(countyName, county, s);
+  if (stateName === 'South Carolina') return southCarolinaContent(countyName, county, s);
+  if (stateName === 'Florida')        return floridaContent(countyName, county, s);
 
   return null;
 }

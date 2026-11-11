@@ -47,6 +47,42 @@ const COVERAGE_STATES = [
     name: 'Massachusetts', slug: 'massachusetts', abbr: 'MA',
     blurb: 'Boston and its suburbs, Worcester, the Pioneer Valley, Cape Cod and the Berkshires — all 14 counties.',
   },
+  {
+    name: 'New Jersey', slug: 'new-jersey', abbr: 'NJ',
+    blurb: 'Newark and the northeast corridor, Princeton and the suburbs, the Shore and the Pine Barrens — all 21 counties, statewide.',
+  },
+  {
+    name: 'New York', slug: 'new-york', abbr: 'NY',
+    blurb: 'New York City and Long Island, the Hudson Valley and Capital Region, Rochester, Syracuse, Binghamton and Buffalo — 30 counties.',
+  },
+  {
+    name: 'Pennsylvania', slug: 'pennsylvania', abbr: 'PA',
+    blurb: 'Philadelphia and Pittsburgh, the Lehigh Valley, Harrisburg, Scranton and Erie — 30 counties.',
+  },
+  {
+    name: 'Maryland', slug: 'maryland', abbr: 'MD',
+    blurb: 'Baltimore and its suburbs, the Washington suburbs, Annapolis, Frederick and the Eastern Shore — every county plus Baltimore City.',
+  },
+  {
+    name: 'Virginia', slug: 'virginia', abbr: 'VA',
+    blurb: 'Northern Virginia, Richmond, Hampton Roads, Charlottesville and the Shenandoah Valley — 38 counties and independent cities.',
+  },
+  {
+    name: 'West Virginia', slug: 'west-virginia', abbr: 'WV',
+    blurb: 'Charleston, Morgantown, Huntington, the Eastern Panhandle and the coalfields — all 55 counties, statewide.',
+  },
+  {
+    name: 'North Carolina', slug: 'north-carolina', abbr: 'NC',
+    blurb: 'Charlotte, the Triangle, the Triad, Asheville, Wilmington and the coast — 40 counties.',
+  },
+  {
+    name: 'South Carolina', slug: 'south-carolina', abbr: 'SC',
+    blurb: 'Charleston, Columbia, Greenville, Myrtle Beach and the Lowcountry — all 46 counties, statewide.',
+  },
+  {
+    name: 'Florida', slug: 'florida', abbr: 'FL',
+    blurb: 'Miami and South Florida, Orlando, Tampa Bay, Jacksonville and the Treasure Coast — 32 counties.',
+  },
 ];
 
 const STATE_ABBR = {
