@@ -1,0 +1,3649 @@
+{
+ "state": {
+  "name": "Virginia",
+  "agency": "Virginia Department of Wildlife Resources",
+  "agency_short": "DWR",
+  "peak_intrusion_season": "March through May during spring raccoon and squirrel denning and groundhog emergence, the May 1 through August 15 bat maternity season under CNAP conditions, summer for skunk, groundhog, and copperhead activity, and late September through November as squirrels, rats, and bats seek winter shelter",
+  "climate_factor": "Virginia runs from Atlantic and Chesapeake Bay Tidewater through the Piedmont to Blue Ridge and Allegheny karst country, so humid coastal summers, mild Piedmont winters that keep raccoons and opossums active, and cold mountain winters that push bats and rodents into structures all shape call volume in different parts of the state",
+  "permit_note": "Virginia requires a Commercial Nuisance Animal Permit (CNAP), issued by the Virginia Department of Wildlife Resources under 4 VAC 15-30-50, for commercial nuisance wildlife work; bat work requires additional DWR-recognized bat training from January 1, 2025, the CNAP does not authorize threatened or endangered species, federally protected migratory birds, black bear, white-tailed deer, or wild turkey, and Virginia prohibits trap-and-relocate — captured wildlife is released on the property's curtilage or humanely euthanized, with only snakes and, in no-firearm areas, squirrels eligible for the bounded off-site releases the permit conditions allow"
+ },
+ "counties": {
+  "Accomack County": {
+   "county_seat": "Accomac",
+   "population": 33413,
+   "established": 1663,
+   "region": "Eastern Shore between Chesapeake Bay and the Atlantic",
+   "largest_cities": [
+    "Onley",
+    "Chincoteague",
+    "Wachapreague",
+    "Accomac",
+    "Parksley"
+   ],
+   "nearest_metro": "Virginia Beach-Norfolk metro across the Chesapeake Bay Bridge-Tunnel",
+   "natural_features": [
+    "Chincoteague National Wildlife Refuge",
+    "Chesapeake Bay shoreline",
+    "barrier islands"
+   ],
+   "habitat_type": "flat coastal farmland, salt marsh, and small shore towns",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Onley, with steady pressure along Chincoteague National Wildlife Refuge",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Albemarle County": {
+   "county_seat": "Charlottesville",
+   "population": 112395,
+   "established": 1744,
+   "region": "central Piedmont at the foot of the Blue Ridge",
+   "largest_cities": [
+    "Charlottesville area communities",
+    "Crozet",
+    "Scottsville",
+    "Earlysville",
+    "Keswick"
+   ],
+   "nearest_metro": "Charlottesville is the regional metro center",
+   "natural_features": [
+    "Rivanna River",
+    "Blue Ridge foothills",
+    "Carter Mountain"
+   ],
+   "habitat_type": "rolling Piedmont farmland, vineyards, and wooded suburbs west of Charlottesville",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Charlottesville area communities, with steady pressure along Rivanna River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Alleghany County": {
+   "county_seat": "Covington",
+   "population": 15087,
+   "established": 1822,
+   "region": "Allegheny Mountains in western Virginia",
+   "largest_cities": [
+    "Covington area",
+    "Clifton Forge",
+    "Iron Gate"
+   ],
+   "nearest_metro": "Roanoke is about 45 miles southeast",
+   "natural_features": [
+    "Jackson River",
+    "Douthat State Park",
+    "Allegheny ridges"
+   ],
+   "habitat_type": " steep mountain forest, river valleys, and small industrial towns",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Covington area, with steady pressure along Jackson River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Amelia County": {
+   "county_seat": "Amelia Court House",
+   "population": 13265,
+   "established": 1735,
+   "region": "south-central Piedmont",
+   "largest_cities": [
+    "Amelia Court House",
+    "Amelia"
+   ],
+   "nearest_metro": "Richmond is about 35 miles east",
+   "natural_features": [
+    "Appomattox River headwaters",
+    "Amelia Wildlife Management Area"
+   ],
+   "habitat_type": "rolling farmland and pine-hardwood forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Amelia Court House, with steady pressure along Appomattox River headwaters",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Amherst County": {
+   "county_seat": "Amherst",
+   "population": 31337,
+   "established": 1761,
+   "region": "central Piedmont and Blue Ridge foothills",
+   "largest_cities": [
+    "Amherst",
+    "Madison Heights",
+    "Sweet Briar area"
+   ],
+   "nearest_metro": "Lynchburg is directly south across the James River",
+   "natural_features": [
+    "James River",
+    "Blue Ridge foothills",
+    "Mount Pleasant"
+   ],
+   "habitat_type": "foothill forest, farmland, and suburbs facing Lynchburg",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Amherst, with steady pressure along James River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Appomattox County": {
+   "county_seat": "Appomattox",
+   "population": 16477,
+   "established": 1845,
+   "region": "south-central Piedmont",
+   "largest_cities": [
+    "Appomattox",
+    "Pamplin City"
+   ],
+   "nearest_metro": "Lynchburg is about 25 miles west",
+   "natural_features": [
+    "Appomattox Court House National Historical Park",
+    "Appomattox River"
+   ],
+   "habitat_type": "farmland, forest, and small towns along US-460",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Appomattox, with steady pressure along Appomattox Court House National Historical Park",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Arlington County": {
+   "county_seat": "Arlington",
+   "population": 238643,
+   "established": 1801,
+   "region": "Northern Virginia inside the Capital Beltway",
+   "largest_cities": [
+    "Arlington",
+    "Crystal City",
+    "Ballston",
+    "Rosslyn",
+    "Shirlington"
+   ],
+   "nearest_metro": "Washington, DC is directly across the Potomac River",
+   "natural_features": [
+    "Potomac River",
+    "Four Mile Run",
+    "Potomac Palisades"
+   ],
+   "habitat_type": "dense urban and inner-suburban neighborhoods on the Potomac bluffs",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Arlington, with steady pressure along Potomac River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Augusta County": {
+   "county_seat": "Staunton",
+   "population": 77987,
+   "established": 1738,
+   "region": "Shenandoah Valley between the Blue Ridge and Alleghenies",
+   "largest_cities": [
+    "Staunton area",
+    "Waynesboro area",
+    "Stuarts Draft",
+    "Verona",
+    "Fishersville"
+   ],
+   "nearest_metro": "Staunton and Waynesboro anchor the county",
+   "natural_features": [
+    "South River",
+    "Shenandoah National Park edge",
+    "George Washington National Forest"
+   ],
+   "habitat_type": "fertile Valley farmland framed by forested mountain ridges",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Staunton area, with steady pressure along South River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Bath County": {
+   "county_seat": "Warm Springs",
+   "population": 4209,
+   "established": 1791,
+   "region": "Allegheny Mountains and hot-spring valleys",
+   "largest_cities": [
+    "Warm Springs",
+    "Hot Springs",
+    "Millboro"
+   ],
+   "nearest_metro": "Roanoke is about 70 miles south",
+   "natural_features": [
+    "Warm Springs pools",
+    "Cowpasture River",
+    "Lake Moomaw nearby"
+   ],
+   "habitat_type": "mountain forest, spring valleys, and resort communities",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Warm Springs, with steady pressure along Warm Springs pools",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Bedford County": {
+   "county_seat": "Bedford",
+   "population": 79651,
+   "established": 1754,
+   "region": "central Piedmont and Blue Ridge foothills",
+   "largest_cities": [
+    "Bedford",
+    "Forest",
+    "Goode",
+    "Big Island"
+   ],
+   "nearest_metro": "Lynchburg is about 15 miles east, Roanoke about 25 miles west",
+   "natural_features": [
+    "Smith Mountain Lake",
+    "Peaks of Otter",
+    "James River"
+   ],
+   "habitat_type": "lake communities, farmland, and foothill forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Bedford, with steady pressure along Smith Mountain Lake",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Bland County": {
+   "county_seat": "Bland",
+   "population": 6213,
+   "established": 1861,
+   "region": "southwestern mountains",
+   "largest_cities": [
+    "Bland",
+    "Rocky Gap"
+   ],
+   "nearest_metro": "Wytheville is about 20 miles south",
+   "natural_features": [
+    "Jefferson National Forest",
+    "Walker Mountain"
+   ],
+   "habitat_type": "remote mountain forest and farm valleys",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Bland, with steady pressure along Jefferson National Forest",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Botetourt County": {
+   "county_seat": "Fincastle",
+   "population": 33916,
+   "established": 1770,
+   "region": "upper James River valley north of Roanoke",
+   "largest_cities": [
+    "Fincastle",
+    "Buchanan",
+    "Troutville",
+    "Daleville"
+   ],
+   "nearest_metro": "Roanoke is directly south",
+   "natural_features": [
+    "James River",
+    "Blue Ridge Parkway",
+    "Appalachian Trail"
+   ],
+   "habitat_type": "river valley farmland and mountain forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Fincastle, with steady pressure along James River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Brunswick County": {
+   "county_seat": "Lawrenceville",
+   "population": 15849,
+   "established": 1720,
+   "region": "Southside Piedmont near the North Carolina line",
+   "largest_cities": [
+    "Lawrenceville",
+    "Alberta",
+    "Brodnax"
+   ],
+   "nearest_metro": "Petersburg is about 40 miles northeast",
+   "natural_features": [
+    "Lake Gaston",
+    "Meherrin River",
+    "Fort Christanna site"
+   ],
+   "habitat_type": "farmland, pine forest, and lake shoreline",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Lawrenceville, with steady pressure along Lake Gaston",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Buchanan County": {
+   "county_seat": "Grundy",
+   "population": 20055,
+   "established": 1858,
+   "region": "far-southwest Appalachian coalfields",
+   "largest_cities": [
+    "Grundy",
+    "Hurley",
+    "Vansant"
+   ],
+   "nearest_metro": "Pikeville, KY is the nearest larger town across the state line",
+   "natural_features": [
+    "Levisa Fork",
+    "Breaks Interstate Park nearby",
+    "coalfield ridges"
+   ],
+   "habitat_type": "steep forested hollows and coal-country towns",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Grundy, with steady pressure along Levisa Fork. Nine-banded armadillos are still rare vagrants this far southwest — a confirmed sighting here is a report to DWR, not a removal service",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Buckingham County": {
+   "county_seat": "Buckingham",
+   "population": 17048,
+   "established": 1761,
+   "region": "central Piedmont",
+   "largest_cities": [
+    "Dillwyn",
+    "Buckingham"
+   ],
+   "nearest_metro": "Charlottesville is about 40 miles north, Richmond about 60 miles east",
+   "natural_features": [
+    "James River",
+    "Slate River",
+    "Appomattox-Buckingham State Forest"
+   ],
+   "habitat_type": "farmland, slate country, and extensive forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Dillwyn, with steady pressure along James River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Campbell County": {
+   "county_seat": "Rustburg",
+   "population": 55084,
+   "established": 1782,
+   "region": "south-central Piedmont",
+   "largest_cities": [
+    "Rustburg",
+    "Altavista",
+    "Brookneal",
+    "Timberlake"
+   ],
+   "nearest_metro": "Lynchburg borders the county to the north",
+   "natural_features": [
+    "Staunton River",
+    "James River"
+   ],
+   "habitat_type": "suburbs south of Lynchburg, farmland, and river bottoms",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Rustburg, with steady pressure along Staunton River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Caroline County": {
+   "county_seat": "Bowling Green",
+   "population": 31842,
+   "established": 1728,
+   "region": "central Coastal Plain and Fall Line",
+   "largest_cities": [
+    "Bowling Green",
+    "Port Royal",
+    "Ruther Glen"
+   ],
+   "nearest_metro": "Richmond is about 30 miles south, Fredericksburg about 25 miles north",
+   "natural_features": [
+    "Rappahannock River",
+    "Mattaponi River",
+    "Fort Walker"
+   ],
+   "habitat_type": "farmland, river swamps, and I-95 corridor suburbs",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Bowling Green, with steady pressure along Rappahannock River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Carroll County": {
+   "county_seat": "Hillsville",
+   "population": 29155,
+   "established": 1842,
+   "region": "Blue Ridge plateau in southwestern Virginia",
+   "largest_cities": [
+    "Hillsville",
+    "Woodlawn",
+    "Cana"
+   ],
+   "nearest_metro": "Mount Airy, NC is about 20 miles south",
+   "natural_features": [
+    "Blue Ridge Parkway",
+    "New River",
+    "Crooked Creek"
+   ],
+   "habitat_type": "high plateau farmland and mountain forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Hillsville, with steady pressure along Blue Ridge Parkway",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Charles City": {
+   "county_seat": "Charles City",
+   "population": 6662,
+   "established": 1619,
+   "region": "James River plantations between Richmond and Williamsburg",
+   "largest_cities": [
+    "Charles City",
+    "Ruthville"
+   ],
+   "nearest_metro": "Richmond is about 25 miles west",
+   "natural_features": [
+    "James River",
+    "Chickahominy River",
+    "historic river plantations"
+   ],
+   "habitat_type": "rural riverfront, farmland, and tidal forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Charles City, with steady pressure along James River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Charlotte County": {
+   "county_seat": "Charlotte Court House",
+   "population": 11448,
+   "established": 1761,
+   "region": "Southside Piedmont",
+   "largest_cities": [
+    "Keysville",
+    "Charlotte Court House",
+    "Phenix"
+   ],
+   "nearest_metro": "Farmville is about 25 miles north",
+   "natural_features": [
+    "Staunton River",
+    "Roanoke Creek"
+   ],
+   "habitat_type": "farmland and pine-hardwood forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Keysville, with steady pressure along Staunton River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Chesterfield County": {
+   "county_seat": "Chesterfield",
+   "population": 383958,
+   "established": 1749,
+   "region": "Richmond metro, south of the James River",
+   "largest_cities": [
+    "Midlothian",
+    "Chester",
+    "Bon Air",
+    "Brandermill",
+    "Ettrick"
+   ],
+   "nearest_metro": "Richmond borders the county to the northeast",
+   "natural_features": [
+    "James River",
+    "Pocahontas State Park",
+    "Lake Chesdin"
+   ],
+   "habitat_type": "large suburbs, state-park forest, and riverfront neighborhoods",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Midlothian, with steady pressure along James River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Clarke County": {
+   "county_seat": "Berryville",
+   "population": 14783,
+   "established": 1836,
+   "region": "northern Shenandoah Valley",
+   "largest_cities": [
+    "Berryville",
+    "Boyce",
+    "White Post"
+   ],
+   "nearest_metro": "Winchester is about 12 miles west",
+   "natural_features": [
+    "Shenandoah River",
+    "Blue Ridge crest",
+    "Blandy Experimental Farm"
+   ],
+   "habitat_type": "horse-farm country, orchards, and river bottomland",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Berryville, with steady pressure along Shenandoah River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Craig County": {
+   "county_seat": "New Castle",
+   "population": 4892,
+   "established": 1851,
+   "region": "mountain valleys west of Roanoke",
+   "largest_cities": [
+    "New Castle",
+    "Paint Bank"
+   ],
+   "nearest_metro": "Roanoke is about 25 miles southeast",
+   "natural_features": [
+    "Jefferson National Forest",
+    "Craig Creek",
+    "Appalachian Trail"
+   ],
+   "habitat_type": "remote mountain forest and small farm valleys",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around New Castle, with steady pressure along Jefferson National Forest",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Culpeper County": {
+   "county_seat": "Culpeper",
+   "population": 54373,
+   "established": 1749,
+   "region": "northern Piedmont",
+   "largest_cities": [
+    "Culpeper",
+    "Brandy Station",
+    "Rixeyville"
+   ],
+   "nearest_metro": "Washington, DC is about 70 miles northeast, Fredericksburg about 35 miles east",
+   "natural_features": [
+    "Rapidan River",
+    "Rappahannock River",
+    "Brandy Station battlefield"
+   ],
+   "habitat_type": "rolling horse and cattle farmland with a growing town center",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Culpeper, with steady pressure along Rapidan River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Cumberland County": {
+   "county_seat": "Cumberland",
+   "population": 9675,
+   "established": 1749,
+   "region": "central Piedmont",
+   "largest_cities": [
+    "Cumberland",
+    "Cartersville"
+   ],
+   "nearest_metro": "Farmville is about 15 miles south, Richmond about 45 miles east",
+   "natural_features": [
+    "Willis River",
+    "Bear Creek Lake State Park"
+   ],
+   "habitat_type": "farmland and forest along the Farmville corridor",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Cumberland, with steady pressure along Willis River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Dickenson County": {
+   "county_seat": "Clintwood",
+   "population": 14087,
+   "established": 1880,
+   "region": "far-southwest coalfields",
+   "largest_cities": [
+    "Clintwood",
+    "Haysi",
+    "Clinchco"
+   ],
+   "nearest_metro": "Pikeville, KY is about 35 miles north",
+   "natural_features": [
+    "Breaks Interstate Park",
+    "Pound River",
+    "Jefferson National Forest"
+   ],
+   "habitat_type": "steep coalfield ridges and hollows",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Clintwood, with steady pressure along Breaks Interstate Park",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Dinwiddie County": {
+   "county_seat": "Dinwiddie",
+   "population": 28088,
+   "established": 1752,
+   "region": "Southside, southwest of Petersburg",
+   "largest_cities": [
+    "Dinwiddie",
+    "McKenney"
+   ],
+   "nearest_metro": "Petersburg borders the county to the northeast",
+   "natural_features": [
+    "Appomattox River",
+    "Five Forks battlefield",
+    "Lake Chesdin edge"
+   ],
+   "habitat_type": "rural farmland and forest with Petersburg suburbs at the edge",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Dinwiddie, with steady pressure along Appomattox River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Essex County": {
+   "county_seat": "Tappahannock",
+   "population": 10593,
+   "established": 1692,
+   "region": "Middle Peninsula on the Rappahannock River",
+   "largest_cities": [
+    "Tappahannock"
+   ],
+   "nearest_metro": "Richmond is about 45 miles southwest",
+   "natural_features": [
+    "Rappahannock River",
+    "tidal marshes"
+   ],
+   "habitat_type": "river towns, farmland, and tidal marsh",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Tappahannock, with steady pressure along Rappahannock River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Fairfax County": {
+   "county_seat": "Fairfax",
+   "population": 1150309,
+   "established": 1742,
+   "region": "Northern Virginia suburbs of Washington, DC",
+   "largest_cities": [
+    "Reston",
+    "Herndon",
+    "Vienna",
+    "McLean",
+    "Annandale",
+    "Springfield",
+    "Burke"
+   ],
+   "nearest_metro": "Washington, DC is about 15 miles northeast",
+   "natural_features": [
+    "Potomac River",
+    "Great Falls Park",
+    "Huntley Meadows Park",
+    "Accotink Creek"
+   ],
+   "habitat_type": "dense suburbs under mature canopy, with river parks and stream valleys",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Reston, with steady pressure along Potomac River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Fauquier County": {
+   "county_seat": "Warrenton",
+   "population": 74355,
+   "established": 1759,
+   "region": "northern Piedmont horse country",
+   "largest_cities": [
+    "Warrenton",
+    "Marshall",
+    "The Plains",
+    "Bealeton",
+    "Remington"
+   ],
+   "nearest_metro": "Washington, DC is about 45 miles northeast",
+   "natural_features": [
+    "Blue Ridge foothills",
+    "Rappahannock River headwaters",
+    "Sky Meadows nearby"
+   ],
+   "habitat_type": "horse farms, rolling pasture, and small towns",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Warrenton, with steady pressure along Blue Ridge foothills",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Floyd County": {
+   "county_seat": "Floyd",
+   "population": 15476,
+   "established": 1831,
+   "region": "Blue Ridge plateau",
+   "largest_cities": [
+    "Floyd",
+    "Willis"
+   ],
+   "nearest_metro": "Roanoke is about 40 miles northeast",
+   "natural_features": [
+    "Blue Ridge Parkway",
+    "Little River"
+   ],
+   "habitat_type": "high plateau farmland, music-town center, and mountain forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Floyd, with steady pressure along Blue Ridge Parkway",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Fluvanna County": {
+   "county_seat": "Palmyra",
+   "population": 27948,
+   "established": 1777,
+   "region": "central Piedmont",
+   "largest_cities": [
+    "Palmyra",
+    "Lake Monticello",
+    "Fork Union"
+   ],
+   "nearest_metro": "Charlottesville is about 20 miles northwest",
+   "natural_features": [
+    "James River",
+    "Rivanna River",
+    "Lake Monticello"
+   ],
+   "habitat_type": "farmland, forest, and a large lake community",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Palmyra, with steady pressure along James River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Franklin County": {
+   "county_seat": "Rocky Mount",
+   "population": 54990,
+   "established": 1785,
+   "region": "southern Piedmont and Smith Mountain Lake",
+   "largest_cities": [
+    "Rocky Mount",
+    "Boones Mill",
+    "Ferrum"
+   ],
+   "nearest_metro": "Roanoke is about 25 miles north",
+   "natural_features": [
+    "Smith Mountain Lake",
+    "Pigg River",
+    "Blue Ridge foothills"
+   ],
+   "habitat_type": "lake communities, farmland, and foothill forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Rocky Mount, with steady pressure along Smith Mountain Lake",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Frederick County": {
+   "county_seat": "Winchester",
+   "population": 94788,
+   "established": 1738,
+   "region": "northern Shenandoah Valley",
+   "largest_cities": [
+    "Winchester area",
+    "Stephens City",
+    "Middletown",
+    "Clear Brook"
+   ],
+   "nearest_metro": "Winchester is the county's metro center",
+   "natural_features": [
+    "Opequon Creek",
+    "Shenandoah River headwaters",
+    "Great North Mountain"
+   ],
+   "habitat_type": "Valley farmland, orchards, and fast-growing Winchester suburbs",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Winchester area, with steady pressure along Opequon Creek",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Giles County": {
+   "county_seat": "Pearisburg",
+   "population": 16493,
+   "established": 1806,
+   "region": "New River valley in the mountains",
+   "largest_cities": [
+    "Pearisburg",
+    "Narrows",
+    "Rich Creek"
+   ],
+   "nearest_metro": "Blacksburg is about 20 miles southeast",
+   "natural_features": [
+    "New River",
+    "Appalachian Trail",
+    "Cascade Falls"
+   ],
+   "habitat_type": "mountain forest and river towns",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Pearisburg, with steady pressure along New River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Gloucester County": {
+   "county_seat": "Gloucester Court House",
+   "population": 38671,
+   "established": 1651,
+   "region": "Middle Peninsula between the York River and Chesapeake Bay",
+   "largest_cities": [
+    "Gloucester Point",
+    "Gloucester Court House",
+    "Hayes"
+   ],
+   "nearest_metro": "Newport News is about 20 miles south across the York River",
+   "natural_features": [
+    "York River",
+    "Chesapeake Bay",
+    "Beaverdam Park"
+   ],
+   "habitat_type": "peninsula farmland, tidal creeks, and bay-front homes",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Gloucester Point, with steady pressure along York River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Goochland County": {
+   "county_seat": "Goochland",
+   "population": 25972,
+   "established": 1728,
+   "region": "Piedmont west of Richmond",
+   "largest_cities": [
+    "Goochland",
+    "Manakin-Sabot",
+    "Oilville"
+   ],
+   "nearest_metro": "Richmond is about 20 miles east",
+   "natural_features": [
+    "James River",
+    "Tuckahoe Creek"
+   ],
+   "habitat_type": "estate farmland, river frontage, and Richmond exurbs",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Goochland, with steady pressure along James River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Grayson County": {
+   "county_seat": "Independence",
+   "population": 15333,
+   "established": 1793,
+   "region": "southwestern Blue Ridge highlands",
+   "largest_cities": [
+    "Independence",
+    "Galax area",
+    "Fries"
+   ],
+   "nearest_metro": "Galax borders the county",
+   "natural_features": [
+    "New River",
+    "Grayson Highlands State Park",
+    "Mount Rogers nearby"
+   ],
+   "habitat_type": "high mountain pasture, Christmas-tree farms, and river towns",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Independence, with steady pressure along New River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Greene County": {
+   "county_seat": "Stanardsville",
+   "population": 20752,
+   "established": 1838,
+   "region": "Blue Ridge foothills north of Charlottesville",
+   "largest_cities": [
+    "Stanardsville",
+    "Ruckersville"
+   ],
+   "nearest_metro": "Charlottesville is about 15 miles south",
+   "natural_features": [
+    "Shenandoah National Park",
+    "Rapidan River headwaters",
+    "Blue Ridge crest"
+   ],
+   "habitat_type": "foothill suburbs, farmland, and mountain forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Stanardsville, with steady pressure along Shenandoah National Park",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Greensville County": {
+   "county_seat": "Emporia",
+   "population": 11291,
+   "established": 1780,
+   "region": "Southside on the North Carolina line",
+   "largest_cities": [
+    "Skippers",
+    "Skipwith area"
+   ],
+   "nearest_metro": "Emporia is the county's service center",
+   "natural_features": [
+    "Meherrin River",
+    "Interstate 95 corridor"
+   ],
+   "habitat_type": "farmland, pine forest, and highway corridor",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Skippers, with steady pressure along Meherrin River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Halifax County": {
+   "county_seat": "Halifax",
+   "population": 33670,
+   "established": 1752,
+   "region": "Southside on the Staunton River",
+   "largest_cities": [
+    "South Boston",
+    "Halifax",
+    "Scottsburg"
+   ],
+   "nearest_metro": "Danville is about 35 miles west",
+   "natural_features": [
+    "Staunton River",
+    "Banister River",
+    "Kerr Lake nearby"
+   ],
+   "habitat_type": "farmland, tobacco country, and river bottoms",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around South Boston, with steady pressure along Staunton River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Hanover County": {
+   "county_seat": "Hanover",
+   "population": 114021,
+   "established": 1720,
+   "region": "Richmond metro, north of the James River",
+   "largest_cities": [
+    "Mechanicsville",
+    "Ashland",
+    "Hanover",
+    "Beaverdam"
+   ],
+   "nearest_metro": "Richmond borders the county to the south",
+   "natural_features": [
+    "Pamunkey River",
+    "Chickahominy River",
+    "Scotchtown"
+   ],
+   "habitat_type": "suburbs, horse farms, and river swampland",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Mechanicsville, with steady pressure along Pamunkey River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Henrico County": {
+   "county_seat": "Richmond",
+   "population": 334866,
+   "established": 1611,
+   "region": "Richmond metro, north and east of the James River",
+   "largest_cities": [
+    "Glen Allen",
+    "Short Pump",
+    "Tuckahoe",
+    "Sandston",
+    "Highland Springs"
+   ],
+   "nearest_metro": "Richmond is enclaved within and beside the county",
+   "natural_features": [
+    "James River",
+    "Chickahominy River",
+    "Deep Run Park"
+   ],
+   "habitat_type": "dense suburbs, river parks, and older inner neighborhoods",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Glen Allen, with steady pressure along James River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Henry County": {
+   "county_seat": "Martinsville",
+   "population": 50116,
+   "established": 1777,
+   "region": "southern Piedmont",
+   "largest_cities": [
+    "Collinsville",
+    "Bassett",
+    "Ridgeway"
+   ],
+   "nearest_metro": "Martinsville is the county's center, Danville about 30 miles east",
+   "natural_features": [
+    "Smith River",
+    "Philpott Lake"
+   ],
+   "habitat_type": "mill towns, farmland, and foothill forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Collinsville, with steady pressure along Smith River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Highland County": {
+   "county_seat": "Monterey",
+   "population": 2232,
+   "established": 1847,
+   "region": " Allegheny highlands, Virginia's least populous county",
+   "largest_cities": [
+    "Monterey",
+    "McDowell"
+   ],
+   "nearest_metro": "Staunton is about 45 miles east",
+   "natural_features": [
+    "Blue Grass Valley",
+    "Allegheny ridges",
+    "maple groves"
+   ],
+   "habitat_type": "high mountain pasture and forest, maple-sugar country",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Monterey, with steady pressure along Blue Grass Valley",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Isle of Wight County": {
+   "county_seat": "Isle of Wight",
+   "population": 40185,
+   "established": 1634,
+   "region": "western Hampton Roads, south of the James River",
+   "largest_cities": [
+    "Smithfield",
+    "Windsor",
+    "Carrollton"
+   ],
+   "nearest_metro": "Suffolk and Newport News are the neighboring metros",
+   "natural_features": [
+    "James River",
+    "Pagan River",
+    "Blackwater River"
+   ],
+   "habitat_type": "rural farmland, river towns, and growing Suffolk-edge suburbs",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Smithfield, with steady pressure along James River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "James City": {
+   "county_seat": "Williamsburg",
+   "population": 79662,
+   "established": 1617,
+   "region": "Virginia Peninsula between the James and York rivers",
+   "largest_cities": [
+    "Williamsburg area",
+    "Toano",
+    "Norge",
+    "Lightfoot"
+   ],
+   "nearest_metro": "Williamsburg is the county's service center",
+   "natural_features": [
+    "James River",
+    "York River",
+    "Chickahominy River",
+    "Colonial Williamsburg edge"
+   ],
+   "habitat_type": "peninsula suburbs, historic sites, and tidal river forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Williamsburg area, with steady pressure along James River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "King and Queen County": {
+   "county_seat": "King and Queen Court House",
+   "population": 6623,
+   "established": 1691,
+   "region": "Middle Peninsula",
+   "largest_cities": [
+    "King and Queen Court House",
+    "Walkerton"
+   ],
+   "nearest_metro": "Richmond is about 35 miles southwest",
+   "natural_features": [
+    "Mattaponi River",
+    "Dragon Run swamp"
+   ],
+   "habitat_type": "rural farmland and deep swamp forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around King and Queen Court House, with steady pressure along Mattaponi River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "King George County": {
+   "county_seat": "King George",
+   "population": 27171,
+   "established": 1720,
+   "region": "Potomac River shore of the Northern Neck gateway",
+   "largest_cities": [
+    "King George",
+    "Dahlgren"
+   ],
+   "nearest_metro": "Fredericksburg is about 20 miles west",
+   "natural_features": [
+    "Potomac River",
+    "Rappahannock River",
+    "Caledon State Park"
+   ],
+   "habitat_type": "river shore, farmland, and Dahlgren naval community",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around King George, with steady pressure along Potomac River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "King William County": {
+   "county_seat": "King William",
+   "population": 18477,
+   "established": 1702,
+   "region": "Middle Peninsula between the Pamunkey and Mattaponi",
+   "largest_cities": [
+    "West Point area",
+    "King William",
+    "Aylett"
+   ],
+   "nearest_metro": "Richmond is about 30 miles southwest",
+   "natural_features": [
+    "Pamunkey River",
+    "Mattaponi River"
+   ],
+   "habitat_type": "rural farmland and river towns",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around West Point area, with steady pressure along Pamunkey River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Lancaster County": {
+   "county_seat": "Lancaster",
+   "population": 10897,
+   "established": 1651,
+   "region": "Northern Neck on Chesapeake Bay",
+   "largest_cities": [
+    "Kilmarnock",
+    "Irvington",
+    "White Stone"
+   ],
+   "nearest_metro": "Richmond is about 75 miles southwest",
+   "natural_features": [
+    "Rappahannock River",
+    "Chesapeake Bay",
+    "Corrotoman River"
+   ],
+   "habitat_type": "bay and river waterfront, marinas, and farmland",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Kilmarnock, with steady pressure along Rappahannock River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Lee County": {
+   "county_seat": "Jonesville",
+   "population": 22173,
+   "established": 1792,
+   "region": "far-southwest tip of Virginia",
+   "largest_cities": [
+    "Jonesville",
+    "Pennington Gap",
+    "Rose Hill"
+   ],
+   "nearest_metro": "Kingsport, TN is about 40 miles southeast",
+   "natural_features": [
+    "Cumberland Gap nearby",
+    "Powell River",
+    "Stone Mountain"
+   ],
+   "habitat_type": "mountain valleys and farmland at the Cumberland Gap",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Jonesville, with steady pressure along Cumberland Gap nearby. Nine-banded armadillos are still rare vagrants this far southwest — a confirmed sighting here is a report to DWR, not a removal service",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Loudoun County": {
+   "county_seat": "Leesburg",
+   "population": 420959,
+   "established": 1757,
+   "region": "Northern Virginia, west of Fairfax County",
+   "largest_cities": [
+    "Ashburn",
+    "Leesburg",
+    "Sterling",
+    "Purcellville",
+    "Aldie",
+    "South Riding"
+   ],
+   "nearest_metro": "Washington, DC is about 35 miles southeast",
+   "natural_features": [
+    "Potomac River",
+    "Blue Ridge crest",
+    "Goose Creek",
+    "Bull Run Mountains"
+   ],
+   "habitat_type": "fast-growing suburbs in the east, horse farms and vineyards in the west",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Ashburn, with steady pressure along Potomac River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Louisa County": {
+   "county_seat": "Louisa",
+   "population": 39062,
+   "established": 1742,
+   "region": "central Piedmont",
+   "largest_cities": [
+    "Louisa",
+    "Mineral",
+    "Gordonsville area"
+   ],
+   "nearest_metro": "Charlottesville is about 30 miles west, Richmond about 50 miles east",
+   "natural_features": [
+    "Lake Anna",
+    "North Anna River",
+    "South Anna River"
+   ],
+   "habitat_type": "lake communities, farmland, and forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Louisa, with steady pressure along Lake Anna",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Lunenburg County": {
+   "county_seat": "Lunenburg",
+   "population": 11936,
+   "established": 1746,
+   "region": "Southside Piedmont",
+   "largest_cities": [
+    "Victoria",
+    "Kenbridge",
+    "Lunenburg"
+   ],
+   "nearest_metro": "Farmville is about 30 miles north",
+   "natural_features": [
+    "Meherrin River",
+    "Nottoway River"
+   ],
+   "habitat_type": "farmland and pine forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Victoria, with steady pressure along Meherrin River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Madison County": {
+   "county_seat": "Madison",
+   "population": 13837,
+   "established": 1792,
+   "region": "Blue Ridge foothills",
+   "largest_cities": [
+    "Madison",
+    "Rochelle"
+   ],
+   "nearest_metro": "Charlottesville is about 30 miles south",
+   "natural_features": [
+    "Shenandoah National Park",
+    "Rapidan River",
+    "Old Rag nearby"
+   ],
+   "habitat_type": "foothill farmland and mountain forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Madison, with steady pressure along Shenandoah National Park",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Mathews County": {
+   "county_seat": "Mathews",
+   "population": 8533,
+   "established": 1791,
+   "region": "Chesapeake Bay peninsula",
+   "largest_cities": [
+    "Mathews",
+    "Hudgins"
+   ],
+   "nearest_metro": "Gloucester is about 15 miles west",
+   "natural_features": [
+    "Chesapeake Bay",
+    "East River",
+    "Gwynn's Island"
+   ],
+   "habitat_type": "bay waterfront, marsh, and small villages",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Mathews, with steady pressure along Chesapeake Bay",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Mecklenburg County": {
+   "county_seat": "Boydton",
+   "population": 30278,
+   "established": 1765,
+   "region": "Southside lake country on the North Carolina line",
+   "largest_cities": [
+    "South Hill",
+    "Clarksville",
+    "Chase City",
+    "Boydton"
+   ],
+   "nearest_metro": "Richmond is about 85 miles northeast",
+   "natural_features": [
+    "Kerr Lake (Buggs Island Lake)",
+    "Lake Gaston",
+    "Roanoke River"
+   ],
+   "habitat_type": "lake communities, farmland, and pine forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around South Hill, with steady pressure along Kerr Lake (Buggs Island Lake)",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Middlesex County": {
+   "county_seat": "Saluda",
+   "population": 10597,
+   "established": 1669,
+   "region": "Middle Peninsula on the Rappahannock",
+   "largest_cities": [
+    "Urbanna",
+    "Deltaville",
+    "Saluda"
+   ],
+   "nearest_metro": "Richmond is about 55 miles west",
+   "natural_features": [
+    "Rappahannock River",
+    "Piankatank River",
+    "Chesapeake Bay"
+   ],
+   "habitat_type": "river and bay waterfront, marinas, and farmland",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Urbanna, with steady pressure along Rappahannock River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Montgomery County": {
+   "county_seat": "Christiansburg",
+   "population": 101832,
+   "established": 1776,
+   "region": "New River Valley",
+   "largest_cities": [
+    "Blacksburg",
+    "Christiansburg",
+    "Shawsville"
+   ],
+   "nearest_metro": "Blacksburg and Christiansburg form the metro center",
+   "natural_features": [
+    "New River",
+    "Virginia Tech campus",
+    "Brush Mountain"
+   ],
+   "habitat_type": "university town, suburbs, and mountain forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Blacksburg, with steady pressure along New River. Nine-banded armadillos are still rare vagrants this far southwest — a confirmed sighting here is a report to DWR, not a removal service",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Nelson County": {
+   "county_seat": "Lovingston",
+   "population": 14930,
+   "established": 1807,
+   "region": "Blue Ridge and James River",
+   "largest_cities": [
+    "Wintergreen",
+    "Lovingston",
+    "Schuyler"
+   ],
+   "nearest_metro": "Charlottesville is about 30 miles northeast",
+   "natural_features": [
+    "Blue Ridge Parkway",
+    "James River",
+    "Wintergreen Resort"
+   ],
+   "habitat_type": "mountain resorts, orchards, breweries, and river farms",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Wintergreen, with steady pressure along Blue Ridge Parkway",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "New Kent County": {
+   "county_seat": "New Kent",
+   "population": 24067,
+   "established": 1654,
+   "region": "between Richmond and Williamsburg",
+   "largest_cities": [
+    "Quinton",
+    "Providence Forge",
+    "New Kent"
+   ],
+   "nearest_metro": "Richmond is about 20 miles west",
+   "natural_features": [
+    "Pamunkey River",
+    "Chickahominy River",
+    "Diascund Reservoir"
+   ],
+   "habitat_type": "exurban farmland, forest, and river frontage",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Quinton, with steady pressure along Pamunkey River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Northampton County": {
+   "county_seat": "Eastville",
+   "population": 12095,
+   "established": 1634,
+   "region": "southern Eastern Shore",
+   "largest_cities": [
+    "Cape Charles",
+    "Eastville",
+    "Nassawadox"
+   ],
+   "nearest_metro": "Virginia Beach is across the Chesapeake Bay Bridge-Tunnel",
+   "natural_features": [
+    "Chesapeake Bay",
+    "Atlantic marshes",
+    "Eastern Shore National Wildlife Refuge"
+   ],
+   "habitat_type": "southern shore farmland, bay towns, and marsh",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Cape Charles, with steady pressure along Chesapeake Bay",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Northumberland County": {
+   "county_seat": "Heathsville",
+   "population": 11874,
+   "established": 1648,
+   "region": "Northern Neck on Chesapeake Bay",
+   "largest_cities": [
+    "Heathsville",
+    "Reedville",
+    "Burgess"
+   ],
+   "nearest_metro": "Richmond is about 80 miles southwest",
+   "natural_features": [
+    "Potomac River",
+    "Great Wicomico River",
+    "Chesapeake Bay"
+   ],
+   "habitat_type": "waterfront villages, farmland, and fishing ports",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Heathsville, with steady pressure along Potomac River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Nottoway County": {
+   "county_seat": "Nottoway",
+   "population": 15566,
+   "established": 1789,
+   "region": "Southside Piedmont",
+   "largest_cities": [
+    "Blackstone",
+    "Crewe",
+    "Burkeville"
+   ],
+   "nearest_metro": "Petersburg is about 40 miles east",
+   "natural_features": [
+    "Nottoway River",
+    "Fort Barfoot"
+   ],
+   "habitat_type": "farmland, small towns, and military-reservation forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Blackstone, with steady pressure along Nottoway River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Orange County": {
+   "county_seat": "Orange",
+   "population": 36756,
+   "established": 1734,
+   "region": "central Piedmont",
+   "largest_cities": [
+    "Orange",
+    "Gordonsville",
+    "Lake of the Woods"
+   ],
+   "nearest_metro": "Charlottesville is about 25 miles southwest, Fredericksburg about 35 miles east",
+   "natural_features": [
+    "Rapidan River",
+    "Lake of the Woods",
+    "Montpelier"
+   ],
+   "habitat_type": "horse farms, historic estates, and a large lake community",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Orange, with steady pressure along Rapidan River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Page County": {
+   "county_seat": "Luray",
+   "population": 23556,
+   "established": 1831,
+   "region": "Shenandoah Valley between Massanutten and the Blue Ridge",
+   "largest_cities": [
+    "Luray",
+    "Shenandoah",
+    "Stanley"
+   ],
+   "nearest_metro": "Harrisonburg is about 30 miles southwest",
+   "natural_features": [
+    "Shenandoah River South Fork",
+    "Shenandoah National Park",
+    "Luray Caverns"
+   ],
+   "habitat_type": "valley farmland framed by national-park mountains",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Luray, with steady pressure along Shenandoah River South Fork",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Patrick County": {
+   "county_seat": "Stuart",
+   "population": 17308,
+   "established": 1791,
+   "region": "southern Blue Ridge foothills",
+   "largest_cities": [
+    "Stuart",
+    "Woolwine"
+   ],
+   "nearest_metro": "Martinsville is about 25 miles east",
+   "natural_features": [
+    "Blue Ridge Parkway",
+    "Smith River",
+    "Fairy Stone State Park"
+   ],
+   "habitat_type": "mountain farmland and forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Stuart, with steady pressure along Blue Ridge Parkway",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Pittsylvania County": {
+   "county_seat": "Chatham",
+   "population": 60120,
+   "established": 1767,
+   "region": "Southside, Virginia's largest county by land area",
+   "largest_cities": [
+    "Chatham",
+    "Gretna",
+    "Hurt",
+    "Danville area communities"
+   ],
+   "nearest_metro": "Danville borders the county",
+   "natural_features": [
+    "Staunton River",
+    "Banister River",
+    "Leesville Lake"
+   ],
+   "habitat_type": "farmland, forest, and mill-country towns",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Chatham, with steady pressure along Staunton River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Powhatan County": {
+   "county_seat": "Powhatan",
+   "population": 30833,
+   "established": 1777,
+   "region": "Piedmont west of Richmond",
+   "largest_cities": [
+    "Powhatan",
+    "Huguenot area"
+   ],
+   "nearest_metro": "Richmond is about 20 miles east",
+   "natural_features": [
+    "James River",
+    "Appomattox River headwaters"
+   ],
+   "habitat_type": "exurban estates, farmland, and river frontage",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Powhatan, with steady pressure along James River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Prince Edward County": {
+   "county_seat": "Farmville",
+   "population": 21849,
+   "established": 1754,
+   "region": "south-central Piedmont",
+   "largest_cities": [
+    "Farmville",
+    "Prospect"
+   ],
+   "nearest_metro": "Richmond is about 65 miles east",
+   "natural_features": [
+    "Appomattox River",
+    "High Bridge Trail",
+    "Longwood and Hampden-Sydney"
+   ],
+   "habitat_type": "college town, farmland, and forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Farmville, with steady pressure along Appomattox River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Prince George County": {
+   "county_seat": "Prince George",
+   "population": 43314,
+   "established": 1703,
+   "region": "south of Petersburg on the James River",
+   "largest_cities": [
+    "Prince George",
+    "Disputanta"
+   ],
+   "nearest_metro": "Petersburg borders the county to the west",
+   "natural_features": [
+    "James River",
+    "Appomattox River",
+    "Fort Gregg-Adams"
+   ],
+   "habitat_type": "rural farmland, river bluffs, and military community",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Prince George, with steady pressure along James River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Prince William County": {
+   "county_seat": "Manassas",
+   "population": 489640,
+   "established": 1731,
+   "region": "Northern Virginia, southwest of Fairfax County",
+   "largest_cities": [
+    "Woodbridge",
+    "Manassas area",
+    "Dale City",
+    "Lake Ridge",
+    "Gainesville",
+    "Haymarket"
+   ],
+   "nearest_metro": "Washington, DC is about 30 miles northeast",
+   "natural_features": [
+    "Potomac River",
+    "Occoquan River",
+    "Manassas National Battlefield Park",
+    "Prince William Forest Park"
+   ],
+   "habitat_type": "dense eastern suburbs, battlefield parkland, and western horse country",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Woodbridge, with steady pressure along Potomac River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Pulaski County": {
+   "county_seat": "Pulaski",
+   "population": 33773,
+   "established": 1839,
+   "region": "New River Valley",
+   "largest_cities": [
+    "Pulaski",
+    "Dublin",
+    "Radford area"
+   ],
+   "nearest_metro": "Blacksburg is about 25 miles northeast",
+   "natural_features": [
+    "New River",
+    "Claytor Lake"
+   ],
+   "habitat_type": "river and lake communities, farmland, and mountain forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Pulaski, with steady pressure along New River. Nine-banded armadillos are still rare vagrants this far southwest — a confirmed sighting here is a report to DWR, not a removal service",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Rappahannock County": {
+   "county_seat": "Sperryville",
+   "population": 7348,
+   "established": 1833,
+   "region": "Blue Ridge foothills, no incorporated towns",
+   "largest_cities": [
+    "Sperryville",
+    "Washington",
+    "Flint Hill"
+   ],
+   "nearest_metro": "Warrenton is about 25 miles east",
+   "natural_features": [
+    "Shenandoah National Park",
+    "Rappahannock River headwaters",
+    "Skyline Drive"
+   ],
+   "habitat_type": "mountain foothill farms, orchards, and park borderland",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Sperryville, with steady pressure along Shenandoah National Park",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Richmond County": {
+   "county_seat": "Richmond",
+   "population": 229247,
+   "established": 1737,
+   "region": "Fall Line capital on the James River",
+   "largest_cities": [
+    "Richmond"
+   ],
+   "nearest_metro": "Richmond",
+   "natural_features": [
+    "Richmond is the state capital and regional metro center"
+   ],
+   "habitat_type": "James River and its rapids; Shockoe Bottom; Church Hill; Fan District",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Richmond, with steady pressure along Richmond is the state capital and regional metro center",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral",
+   "independent_city": true
+  },
+  "Roanoke County": {
+   "county_seat": "Salem",
+   "population": 96929,
+   "established": 1838,
+   "region": "Roanoke Valley in the Blue Ridge",
+   "largest_cities": [
+    "Vinton",
+    "Cave Spring",
+    "Hollins",
+    "Catawba"
+   ],
+   "nearest_metro": "Roanoke city is enclaved within the county",
+   "natural_features": [
+    "Roanoke River",
+    "Blue Ridge Parkway",
+    "Appalachian Trail",
+    "McAfee Knob"
+   ],
+   "habitat_type": "valley suburbs, river corridor, and mountain ridges",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Vinton, with steady pressure along Roanoke River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Rockbridge County": {
+   "county_seat": "Lexington",
+   "population": 22650,
+   "established": 1778,
+   "region": "southern Shenandoah Valley and Blue Ridge",
+   "largest_cities": [
+    "Lexington area",
+    "Buena Vista area",
+    "Glasgow"
+   ],
+   "nearest_metro": "Staunton is about 35 miles northeast",
+   "natural_features": [
+    "Natural Bridge",
+    "Maury River",
+    "Goshen Pass"
+   ],
+   "habitat_type": "valley farmland, college towns, and mountain forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Lexington area, with steady pressure along Natural Bridge",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Rockingham County": {
+   "county_seat": "Harrisonburg",
+   "population": 84536,
+   "established": 1778,
+   "region": "central Shenandoah Valley",
+   "largest_cities": [
+    "Harrisonburg area",
+    "Bridgewater",
+    "Elkton",
+    "Dayton",
+    "Broadway"
+   ],
+   "nearest_metro": "Harrisonburg is the county's metro center",
+   "natural_features": [
+    "Shenandoah River",
+    "Shenandoah National Park",
+    "George Washington National Forest"
+   ],
+   "habitat_type": "Valley farmland, poultry country, and mountain borders",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Harrisonburg area, with steady pressure along Shenandoah River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Russell County": {
+   "county_seat": "Lebanon",
+   "population": 25781,
+   "established": 1786,
+   "region": "southwestern mountains",
+   "largest_cities": [
+    "Lebanon",
+    "Honaker",
+    "Cleveland"
+   ],
+   "nearest_metro": "Abingdon is about 25 miles south",
+   "natural_features": [
+    "Clinch River",
+    "Jefferson National Forest"
+   ],
+   "habitat_type": "mountain valleys, farmland, and coal-country edges",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Lebanon, with steady pressure along Clinch River. Nine-banded armadillos are still rare vagrants this far southwest — a confirmed sighting here is a report to DWR, not a removal service",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Scott County": {
+   "county_seat": "Gate City",
+   "population": 21566,
+   "established": 1814,
+   "region": "far-southwest Ridge-and-Valley",
+   "largest_cities": [
+    "Gate City",
+    "Weber City",
+    "Nickelsville"
+   ],
+   "nearest_metro": "Kingsport, TN borders the county to the south",
+   "natural_features": [
+    "North Fork Holston River",
+    "Natural Tunnel State Park"
+   ],
+   "habitat_type": "ridge-and-valley farmland and forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Gate City, with steady pressure along North Fork Holston River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Shenandoah County": {
+   "county_seat": "Woodstock",
+   "population": 44268,
+   "established": 1772,
+   "region": "northern Shenandoah Valley",
+   "largest_cities": [
+    "Woodstock",
+    "Strasburg",
+    "New Market",
+    "Mount Jackson",
+    "Edinburg"
+   ],
+   "nearest_metro": "Winchester is about 35 miles northeast",
+   "natural_features": [
+    "Shenandoah River North Fork",
+    "Massanutten Mountain",
+    "Seven Bends State Park"
+   ],
+   "habitat_type": "valley farmland, small towns, and forested mountains",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Woodstock, with steady pressure along Shenandoah River North Fork",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Smyth County": {
+   "county_seat": "Marion",
+   "population": 29800,
+   "established": 1832,
+   "region": "southwestern Ridge-and-Valley",
+   "largest_cities": [
+    "Marion",
+    "Saltville",
+    "Chilhowie"
+   ],
+   "nearest_metro": "Abingdon is about 25 miles southwest",
+   "natural_features": [
+    "Holston River forks",
+    "Mount Rogers National Recreation Area",
+    "Hungry Mother State Park"
+   ],
+   "habitat_type": "valley towns, farmland, and high mountain forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Marion, with steady pressure along Holston River forks",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Southampton County": {
+   "county_seat": "Courtland",
+   "population": 17996,
+   "established": 1749,
+   "region": "western Tidewater",
+   "largest_cities": [
+    "Courtland",
+    "Franklin area",
+    "Boykins"
+   ],
+   "nearest_metro": "Franklin is an independent city inside the county's area",
+   "natural_features": [
+    "S Blackwater River",
+    "Nottoway River",
+    "Meherrin River"
+   ],
+   "habitat_type": "peanut and cotton farmland, river swamps, and pine forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Courtland, with steady pressure along S Blackwater River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Spotsylvania County": {
+   "county_seat": "Spotsylvania Courthouse",
+   "population": 143198,
+   "established": 1721,
+   "region": "Fredericksburg metro on the Fall Line",
+   "largest_cities": [
+    "Fredericksburg area communities",
+    "Lake Wilderness",
+    "Thornburg",
+    "Spotsylvania Courthouse"
+   ],
+   "nearest_metro": "Fredericksburg borders the county",
+   "natural_features": [
+    "Rappahannock River",
+    "Lake Anna",
+    "Civil War battlefields"
+   ],
+   "habitat_type": "fast-growing suburbs, lake shore, and battlefield forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Fredericksburg area communities, with steady pressure along Rappahannock River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Stafford County": {
+   "county_seat": "Stafford",
+   "population": 165045,
+   "established": 1664,
+   "region": "Northern Virginia exurbs south of Prince William",
+   "largest_cities": [
+    "Stafford",
+    "Fredericksburg area communities",
+    "Garrisonville",
+    "Aquia Harbour"
+   ],
+   "nearest_metro": "Fredericksburg is about 12 miles south, Washington DC about 40 miles north",
+   "natural_features": [
+    "Potomac River",
+    "Rappahannock River",
+    "Quantico Creek",
+    "Widewater State Park"
+   ],
+   "habitat_type": "suburbs, river shore, and Quantico-edge forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Stafford, with steady pressure along Potomac River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Surry County": {
+   "county_seat": "Surry",
+   "population": 6561,
+   "established": 1652,
+   "region": "James River south bank",
+   "largest_cities": [
+    "Surry",
+    "Claremont"
+   ],
+   "nearest_metro": "Williamsburg is across the James River by ferry",
+   "natural_features": [
+    "James River",
+    "Chippokes Plantation State Park"
+   ],
+   "habitat_type": "rural river farmland and forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Surry, with steady pressure along James River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Sussex County": {
+   "county_seat": "Sussex",
+   "population": 10619,
+   "established": 1754,
+   "region": "Southside Tidewater",
+   "largest_cities": [
+    "Waverly",
+    "Wakefield",
+    "Stony Creek"
+   ],
+   "nearest_metro": "Petersburg is about 25 miles north",
+   "natural_features": [
+    "Nottoway River",
+    "Blackwater River"
+   ],
+   "habitat_type": "peanut farmland, pine forest, and river swamps",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Waverly, with steady pressure along Nottoway River",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Tazewell County": {
+   "county_seat": "Tazewell",
+   "population": 40182,
+   "established": 1799,
+   "region": "southwestern mountains",
+   "largest_cities": [
+    "Tazewell",
+    "Richlands",
+    "Bluefield area"
+   ],
+   "nearest_metro": "Bluefield borders the county",
+   "natural_features": [
+    "Clinch River",
+    "Burkes Garden",
+    "Jefferson National Forest"
+   ],
+   "habitat_type": "mountain valleys, coal country, and a high enclosed farming valley",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Tazewell, with steady pressure along Clinch River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Warren County": {
+   "county_seat": "Front Royal",
+   "population": 41318,
+   "established": 1836,
+   "region": "northern Shenandoah Valley at the Blue Ridge",
+   "largest_cities": [
+    "Front Royal",
+    "Linden"
+   ],
+   "nearest_metro": "Winchester is about 20 miles northwest",
+   "natural_features": [
+    "Shenandoah River forks",
+    "Shenandoah National Park entrance",
+    "Skyline Drive"
+   ],
+   "habitat_type": "river town, valley farmland, and park gateway communities",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Front Royal, with steady pressure along Shenandoah River forks",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Washington County": {
+   "county_seat": "Abingdon",
+   "population": 53935,
+   "established": 1776,
+   "region": "southwestern Valley",
+   "largest_cities": [
+    "Abingdon",
+    "Glade Spring",
+    "Damascus"
+   ],
+   "nearest_metro": "Bristol borders the county",
+   "natural_features": [
+    "Holston River",
+    "South Holston Lake",
+    "Virginia Creeper Trail"
+   ],
+   "habitat_type": "valley farmland, trail towns, and mountain forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Abingdon, with steady pressure along Holston River. Nine-banded armadillos are still rare vagrants this far southwest — a confirmed sighting here is a report to DWR, not a removal service",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "Westmoreland County": {
+   "county_seat": "Montross",
+   "population": 18477,
+   "established": 1653,
+   "region": "Northern Neck on the Potomac River",
+   "largest_cities": [
+    "Montross",
+    "Colonial Beach area",
+    "Hague"
+   ],
+   "nearest_metro": "Richmond is about 65 miles southwest",
+   "natural_features": [
+    "Potomac River",
+    "Rappahannock River",
+    "Westmoreland State Park"
+   ],
+   "habitat_type": "river shore, farmland, and Stratford Hall country",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Montross, with steady pressure along Potomac River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Wise County": {
+   "county_seat": "Wise",
+   "population": 35875,
+   "established": 1856,
+   "region": "far-southwest coalfields",
+   "largest_cities": [
+    "Wise",
+    "Big Stone Gap",
+    "Appalachia",
+    "Coeburn"
+   ],
+   "nearest_metro": "Norton is an independent city inside the county's area",
+   "natural_features": [
+    "Powell River",
+    "Jefferson National Forest",
+    "High Knob"
+   ],
+   "habitat_type": "coalfield mountains, college town, and forest hollows",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Wise, with steady pressure along Powell River. Nine-banded armadillos are still rare vagrants this far southwest — a confirmed sighting here is a report to DWR, not a removal service",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal"
+  },
+  "Wythe County": {
+   "county_seat": "Wytheville",
+   "population": 28137,
+   "established": 1790,
+   "region": "southwestern Valley crossroads",
+   "largest_cities": [
+    "Wytheville",
+    "Rural Retreat"
+   ],
+   "nearest_metro": "Roanoke is about 70 miles northeast, Blacksburg about 40 miles east",
+   "natural_features": [
+    "New River",
+    "Interstate 77 and 81 crossroads"
+   ],
+   "habitat_type": "valley farmland and mountain-ringed towns",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Wytheville, with steady pressure along New River. Nine-banded armadillos are still rare vagrants this far southwest — a confirmed sighting here is a report to DWR, not a removal service",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work"
+  },
+  "York County": {
+   "county_seat": "Yorktown",
+   "population": 70745,
+   "established": 1634,
+   "region": "Virginia Peninsula",
+   "largest_cities": [
+    "Yorktown",
+    "Grafton",
+    "Tabb",
+    "Lightfoot area"
+   ],
+   "nearest_metro": "Newport News and Williamsburg border the county",
+   "natural_features": [
+    "York River",
+    "Chesapeake Bay edge",
+    "Colonial National Historical Park"
+   ],
+   "habitat_type": "peninsula suburbs, historic battlefields, and tidal creeks",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Yorktown, with steady pressure along York River",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral"
+  },
+  "Alexandria County": {
+   "county_seat": "Alexandria",
+   "population": 159467,
+   "established": 1749,
+   "region": "Northern Virginia on the Potomac River",
+   "largest_cities": [
+    "Alexandria"
+   ],
+   "nearest_metro": "Alexandria",
+   "natural_features": [
+    "Washington, DC is directly across the Potomac River"
+   ],
+   "habitat_type": "Potomac River; Old Town Alexandria; Cameron Run",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Alexandria, with steady pressure along Washington, DC is directly across the Potomac River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal",
+   "independent_city": true
+  },
+  "Bristol County": {
+   "county_seat": "Bristol",
+   "population": 17072,
+   "established": 1856,
+   "region": "far-southwest Valley on the Tennessee line",
+   "largest_cities": [
+    "Bristol"
+   ],
+   "nearest_metro": "Bristol",
+   "natural_features": [
+    "Kingsport and Johnson City, TN are about 25 miles southwest"
+   ],
+   "habitat_type": "State Street state line; South Holston River nearby",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Bristol, with steady pressure along Kingsport and Johnson City, TN are about 25 miles southwest",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work",
+   "independent_city": true
+  },
+  "Buena Vista County": {
+   "county_seat": "Buena Vista",
+   "population": 6597,
+   "established": 1892,
+   "region": "southern Shenandoah Valley",
+   "largest_cities": [
+    "Buena Vista"
+   ],
+   "nearest_metro": "Buena Vista",
+   "natural_features": [
+    "Lexington is about 6 miles west"
+   ],
+   "habitat_type": "Maury River; Blue Ridge foothills",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Buena Vista, with steady pressure along Lexington is about 6 miles west",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral",
+   "independent_city": true
+  },
+  "Charlottesville County": {
+   "county_seat": "Charlottesville",
+   "population": 46253,
+   "established": 1762,
+   "region": "central Piedmont",
+   "largest_cities": [
+    "Charlottesville"
+   ],
+   "nearest_metro": "Charlottesville",
+   "natural_features": [
+    "Charlottesville is the regional metro center"
+   ],
+   "habitat_type": "Rivanna River; Downtown Mall; University of Virginia",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Charlottesville, with steady pressure along Charlottesville is the regional metro center",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal",
+   "independent_city": true
+  },
+  "Chesapeake County": {
+   "county_seat": "Chesapeake",
+   "population": 251269,
+   "established": 1963,
+   "region": "Hampton Roads, south side",
+   "largest_cities": [
+    "Chesapeake"
+   ],
+   "nearest_metro": "Chesapeake",
+   "natural_features": [
+    "Norfolk and Virginia Beach border the city"
+   ],
+   "habitat_type": "Great Dismal Swamp; Elizabeth River South Branch; Intracoastal Waterway",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Chesapeake, with steady pressure along Norfolk and Virginia Beach border the city",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work",
+   "independent_city": true
+  },
+  "Colonial Heights County": {
+   "county_seat": "Colonial Heights",
+   "population": 18132,
+   "established": 1926,
+   "region": "Tri-Cities on the Appomattox River",
+   "largest_cities": [
+    "Colonial Heights"
+   ],
+   "nearest_metro": "Colonial Heights",
+   "natural_features": [
+    "Petersburg is directly south, Richmond about 20 miles north"
+   ],
+   "habitat_type": "Appomattox River; Swift Creek",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Colonial Heights, with steady pressure along Petersburg is directly south, Richmond about 20 miles north",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral",
+   "independent_city": true
+  },
+  "Covington County": {
+   "county_seat": "Covington",
+   "population": 5737,
+   "established": 1819,
+   "region": "Allegheny Mountains",
+   "largest_cities": [
+    "Covington"
+   ],
+   "nearest_metro": "Covington",
+   "natural_features": [
+    "Roanoke is about 45 miles southeast"
+   ],
+   "habitat_type": "Jackson River; Allegheny ridges",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Covington, with steady pressure along Roanoke is about 45 miles southeast",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal",
+   "independent_city": true
+  },
+  "Danville County": {
+   "county_seat": "Danville",
+   "population": 42211,
+   "established": 1793,
+   "region": "Southside on the Dan River",
+   "largest_cities": [
+    "Danville"
+   ],
+   "nearest_metro": "Danville",
+   "natural_features": [
+    "Greensboro, NC is about 45 miles south"
+   ],
+   "habitat_type": "Dan River; historic tobacco and mill districts; Anglers Park",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Danville, with steady pressure along Greensboro, NC is about 45 miles south",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work",
+   "independent_city": true
+  },
+  "Emporia County": {
+   "county_seat": "Emporia",
+   "population": 5766,
+   "established": 1887,
+   "region": "Southside highway crossroads",
+   "largest_cities": [
+    "Emporia"
+   ],
+   "nearest_metro": "Emporia",
+   "natural_features": [
+    "Petersburg is about 40 miles north"
+   ],
+   "habitat_type": "Meherrin River; Interstate 95 and US-58 crossroads",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Emporia, with steady pressure along Petersburg is about 40 miles north",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral",
+   "independent_city": true
+  },
+  "Falls Church County": {
+   "county_seat": "Falls Church",
+   "population": 14772,
+   "established": 1875,
+   "region": "Northern Virginia inside the Beltway",
+   "largest_cities": [
+    "Falls Church"
+   ],
+   "nearest_metro": "Falls Church",
+   "natural_features": [
+    "Washington, DC is about 10 miles east"
+   ],
+   "habitat_type": "Four Mile Run; W&OD Trail",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Falls Church, with steady pressure along Washington, DC is about 10 miles east",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work",
+   "independent_city": true
+  },
+  "Fredericksburg County": {
+   "county_seat": "Fredericksburg",
+   "population": 28296,
+   "established": 1728,
+   "region": "Fall Line on the Rappahannock River",
+   "largest_cities": [
+    "Fredericksburg"
+   ],
+   "nearest_metro": "Fredericksburg",
+   "natural_features": [
+    "Washington, DC is about 50 miles north, Richmond about 55 miles south"
+   ],
+   "habitat_type": "Rappahannock River; historic downtown; Civil War battlefields",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Fredericksburg, with steady pressure along Washington, DC is about 50 miles north, Richmond about 55 miles south",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal",
+   "independent_city": true
+  },
+  "Galax County": {
+   "county_seat": "Galax",
+   "population": 6720,
+   "established": 1906,
+   "region": "southwestern Blue Ridge",
+   "largest_cities": [
+    "Galax"
+   ],
+   "nearest_metro": "Galax",
+   "natural_features": [
+    "Mount Airy, NC is about 25 miles south"
+   ],
+   "habitat_type": "Chestnut Creek; New River Trail",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Galax, with steady pressure along Mount Airy, NC is about 25 miles south",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work",
+   "independent_city": true
+  },
+  "Hampton County": {
+   "county_seat": "Hampton",
+   "population": 137148,
+   "established": 1610,
+   "region": "Hampton Roads Peninsula",
+   "largest_cities": [
+    "Hampton"
+   ],
+   "nearest_metro": "Hampton",
+   "natural_features": [
+    "Newport News borders the city, Norfolk is across Hampton Roads harbor"
+   ],
+   "habitat_type": "Chesapeake Bay; Hampton Roads harbor; Back River; Fort Monroe",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Hampton, with steady pressure along Newport News borders the city, Norfolk is across Hampton Roads harbor",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral",
+   "independent_city": true
+  },
+  "Harrisonburg County": {
+   "county_seat": "Harrisonburg",
+   "population": 51187,
+   "established": 1779,
+   "region": "central Shenandoah Valley",
+   "largest_cities": [
+    "Harrisonburg"
+   ],
+   "nearest_metro": "Harrisonburg",
+   "natural_features": [
+    "Harrisonburg is the regional metro center"
+   ],
+   "habitat_type": "Black's Run; James Madison University; Massanutten nearby",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Harrisonburg, with steady pressure along Harrisonburg is the regional metro center",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal",
+   "independent_city": true
+  },
+  "Hopewell County": {
+   "county_seat": "Hopewell",
+   "population": 22526,
+   "established": 1913,
+   "region": "Tri-Cities at the James and Appomattox confluence",
+   "largest_cities": [
+    "Hopewell"
+   ],
+   "nearest_metro": "Hopewell",
+   "natural_features": [
+    "Petersburg is about 10 miles west, Richmond about 20 miles north"
+   ],
+   "habitat_type": "James River; Appomattox River",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Hopewell, with steady pressure along Petersburg is about 10 miles west, Richmond about 20 miles north",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work",
+   "independent_city": true
+  },
+  "Lexington County": {
+   "county_seat": "Lexington",
+   "population": 7320,
+   "established": 1778,
+   "region": "southern Shenandoah Valley",
+   "largest_cities": [
+    "Lexington"
+   ],
+   "nearest_metro": "Lexington",
+   "natural_features": [
+    "Staunton is about 35 miles northeast"
+   ],
+   "habitat_type": "Maury River; Virginia Military Institute and Washington and Lee",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Lexington, with steady pressure along Staunton is about 35 miles northeast",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral",
+   "independent_city": true
+  },
+  "Lynchburg County": {
+   "county_seat": "Lynchburg",
+   "population": 79316,
+   "established": 1786,
+   "region": "central Virginia on the James River",
+   "largest_cities": [
+    "Lynchburg"
+   ],
+   "nearest_metro": "Lynchburg",
+   "natural_features": [
+    "Roanoke is about 55 miles west"
+   ],
+   "habitat_type": "James River; Blackwater Creek; Liberty University",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Lynchburg, with steady pressure along Roanoke is about 55 miles west",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal",
+   "independent_city": true
+  },
+  "Manassas County": {
+   "county_seat": "Manassas",
+   "population": 42632,
+   "established": 1873,
+   "region": "Northern Virginia",
+   "largest_cities": [
+    "Manassas"
+   ],
+   "nearest_metro": "Manassas",
+   "natural_features": [
+    "Washington, DC is about 30 miles northeast"
+   ],
+   "habitat_type": "Bull Run nearby; Manassas National Battlefield edge; historic downtown",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Manassas, with steady pressure along Washington, DC is about 30 miles northeast",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work",
+   "independent_city": true
+  },
+  "Manassas Park County": {
+   "county_seat": "Manassas Park",
+   "population": 17172,
+   "established": 1957,
+   "region": "Northern Virginia",
+   "largest_cities": [
+    "Manassas Park"
+   ],
+   "nearest_metro": "Manassas Park",
+   "natural_features": [
+    "Washington, DC is about 30 miles northeast"
+   ],
+   "habitat_type": "Bull Run Regional Park nearby",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Manassas Park, with steady pressure along Washington, DC is about 30 miles northeast",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral",
+   "independent_city": true
+  },
+  "Martinsville County": {
+   "county_seat": "Martinsville",
+   "population": 13746,
+   "established": 1791,
+   "region": "southern Piedmont",
+   "largest_cities": [
+    "Martinsville"
+   ],
+   "nearest_metro": "Martinsville",
+   "natural_features": [
+    "Danville is about 30 miles east"
+   ],
+   "habitat_type": "Smith River; Lake Lanier",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Martinsville, with steady pressure along Danville is about 30 miles east",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal",
+   "independent_city": true
+  },
+  "Newport News County": {
+   "county_seat": "Newport News",
+   "population": 184306,
+   "established": 1896,
+   "region": "Hampton Roads Peninsula",
+   "largest_cities": [
+    "Newport News"
+   ],
+   "nearest_metro": "Newport News",
+   "natural_features": [
+    "Norfolk is across Hampton Roads harbor, Hampton borders the city"
+   ],
+   "habitat_type": "James River; Hampton Roads harbor; Newport News Park",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Newport News, with steady pressure along Norfolk is across Hampton Roads harbor, Hampton borders the city",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work",
+   "independent_city": true
+  },
+  "Norfolk County": {
+   "county_seat": "Norfolk",
+   "population": 232995,
+   "established": 1682,
+   "region": "Hampton Roads harbor",
+   "largest_cities": [
+    "Norfolk"
+   ],
+   "nearest_metro": "Norfolk",
+   "natural_features": [
+    "Virginia Beach borders the city to the east"
+   ],
+   "habitat_type": "Elizabeth River; Chesapeake Bay; Lafayette River; naval station waterfront",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Norfolk, with steady pressure along Virginia Beach borders the city to the east",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral",
+   "independent_city": true
+  },
+  "Norton County": {
+   "county_seat": "Norton",
+   "population": 3687,
+   "established": 1894,
+   "region": "far-southwest coalfields",
+   "largest_cities": [
+    "Norton"
+   ],
+   "nearest_metro": "Norton",
+   "natural_features": [
+    "Kingsport, TN is about 35 miles southeast"
+   ],
+   "habitat_type": "Guest River; High Knob nearby",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Norton, with steady pressure along Kingsport, TN is about 35 miles southeast",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal",
+   "independent_city": true
+  },
+  "Petersburg County": {
+   "county_seat": "Petersburg",
+   "population": 33246,
+   "established": 1748,
+   "region": "Tri-Cities on the Appomattox River",
+   "largest_cities": [
+    "Petersburg"
+   ],
+   "nearest_metro": "Petersburg",
+   "natural_features": [
+    "Richmond is about 25 miles north"
+   ],
+   "habitat_type": "Appomattox River; historic Old Towne; Petersburg National Battlefield",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Petersburg, with steady pressure along Richmond is about 25 miles north",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work",
+   "independent_city": true
+  },
+  "Poquoson County": {
+   "county_seat": "Poquoson",
+   "population": 12460,
+   "established": 1952,
+   "region": "Hampton Roads Peninsula on Chesapeake Bay",
+   "largest_cities": [
+    "Poquoson"
+   ],
+   "nearest_metro": "Poquoson",
+   "natural_features": [
+    "Newport News and Hampton are about 10 miles southwest"
+   ],
+   "habitat_type": "Chesapeake Bay; Back River; Plum Tree Island marsh",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Poquoson, with steady pressure along Newport News and Hampton are about 10 miles southwest",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral",
+   "independent_city": true
+  },
+  "Portsmouth County": {
+   "county_seat": "Portsmouth",
+   "population": 97274,
+   "established": 1752,
+   "region": "Hampton Roads, western Elizabeth River",
+   "largest_cities": [
+    "Portsmouth"
+   ],
+   "nearest_metro": "Portsmouth",
+   "natural_features": [
+    "Norfolk is directly across the Elizabeth River"
+   ],
+   "habitat_type": "Elizabeth River; Olde Towne historic district; naval shipyard waterfront",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Portsmouth, with steady pressure along Norfolk is directly across the Elizabeth River",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal",
+   "independent_city": true
+  },
+  "Radford County": {
+   "county_seat": "Radford",
+   "population": 16570,
+   "established": 1892,
+   "region": "New River Valley",
+   "largest_cities": [
+    "Radford"
+   ],
+   "nearest_metro": "Radford",
+   "natural_features": [
+    "Blacksburg is about 15 miles northeast"
+   ],
+   "habitat_type": "New River; Radford University",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Radford, with steady pressure along Blacksburg is about 15 miles northeast",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work",
+   "independent_city": true
+  },
+  "Salem County": {
+   "county_seat": "Salem",
+   "population": 25165,
+   "established": 1802,
+   "region": "Roanoke Valley",
+   "largest_cities": [
+    "Salem"
+   ],
+   "nearest_metro": "Salem",
+   "natural_features": [
+    "Roanoke borders the city to the east"
+   ],
+   "habitat_type": "Roanoke River; Roanoke College",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Salem, with steady pressure along Roanoke borders the city to the east",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work",
+   "independent_city": true
+  },
+  "Staunton County": {
+   "county_seat": "Staunton",
+   "population": 25964,
+   "established": 1747,
+   "region": "central Shenandoah Valley",
+   "largest_cities": [
+    "Staunton"
+   ],
+   "nearest_metro": "Staunton",
+   "natural_features": [
+    "Harrisonburg is about 25 miles northeast"
+   ],
+   "habitat_type": "Lewis Creek; historic downtown; Gypsy Hill Park",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Staunton, with steady pressure along Harrisonburg is about 25 miles northeast",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral",
+   "independent_city": true
+  },
+  "Suffolk County": {
+   "county_seat": "Suffolk",
+   "population": 100659,
+   "established": 1742,
+   "region": "Hampton Roads, largest Virginia city by land area",
+   "largest_cities": [
+    "Suffolk"
+   ],
+   "nearest_metro": "Suffolk",
+   "natural_features": [
+    "Norfolk and Chesapeake border the city"
+   ],
+   "habitat_type": "Great Dismal Swamp; Nansemond River; Lake Drummond nearby",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Suffolk, with steady pressure along Norfolk and Chesapeake border the city",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal",
+   "independent_city": true
+  },
+  "Virginia Beach County": {
+   "county_seat": "Virginia Beach",
+   "population": 459470,
+   "established": 1963,
+   "region": "Hampton Roads oceanfront",
+   "largest_cities": [
+    "Virginia Beach"
+   ],
+   "nearest_metro": "Virginia Beach",
+   "natural_features": [
+    "Virginia Beach is the state's most populous city",
+    "Norfolk borders it west"
+   ],
+   "habitat_type": "Atlantic oceanfront; Chesapeake Bay; Back Bay; First Landing State Park; Great Neck",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Virginia Beach, with steady pressure along Virginia Beach is the state's most populous city",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work",
+   "independent_city": true
+  },
+  "Waynesboro County": {
+   "county_seat": "Waynesboro",
+   "population": 22429,
+   "established": 1797,
+   "region": "southern Shenandoah Valley",
+   "largest_cities": [
+    "Waynesboro"
+   ],
+   "nearest_metro": "Waynesboro",
+   "natural_features": [
+    "Staunton is about 12 miles northwest, Charlottesville about 30 miles east"
+   ],
+   "habitat_type": "South River; Blue Ridge and Skyline Drive edge",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "moles"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks and commercial strips, raccoons and squirrels take the attics above them, and bats return to older rooflines each summer around Waynesboro, with steady pressure along Staunton is about 12 miles northwest, Charlottesville about 30 miles east",
+   "absent_or_rare": "federally protected migratory birds and any state or federal threatened or endangered species are outside CNAP authority and route to the Virginia Department of Wildlife Resources for referral",
+   "independent_city": true
+  },
+  "Williamsburg County": {
+   "county_seat": "Williamsburg",
+   "population": 15834,
+   "established": 1699,
+   "region": "Virginia Peninsula",
+   "largest_cities": [
+    "Williamsburg"
+   ],
+   "nearest_metro": "Williamsburg",
+   "natural_features": [
+    "Newport News is about 15 miles southeast"
+   ],
+   "habitat_type": "Colonial Williamsburg; College of William & Mary; York River nearby",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "eastern moles",
+    "Virginia opossums"
+   ],
+   "regional_wildlife": "bats colonize older farmhouses and barns, skunks work lawns and outbuildings at dusk, and moles push up ridges across pastures and yards around Williamsburg, with steady pressure along Newport News is about 15 miles southeast",
+   "absent_or_rare": "black bear and white-tailed deer are present in the wider region but are DWR-managed species — a Commercial Nuisance Animal Permit does not cover live deer or bear removal",
+   "independent_city": true
+  },
+  "Winchester County": {
+   "county_seat": "Winchester",
+   "population": 28120,
+   "established": 1744,
+   "region": "northern Shenandoah Valley",
+   "largest_cities": [
+    "Winchester"
+   ],
+   "nearest_metro": "Winchester",
+   "natural_features": [
+    "Washington, DC is about 75 miles east"
+   ],
+   "habitat_type": "Abrams Creek; historic Old Town; apple country",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "striped skunks",
+    "Virginia opossums",
+    "bats",
+    "woodchucks",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons den in chimneys and attics, gray squirrels work the canopy, and woodchucks burrow along fences, barns, and garden edges around Winchester, with steady pressure along Washington, DC is about 75 miles east",
+   "absent_or_rare": "white-tailed deer, black bear, and wild turkey live in the surrounding country but are handled by the Virginia Department of Wildlife Resources, not by a CNAP holder — the Commercial Nuisance Animal Permit does not authorize deer, bear, or turkey work",
+   "independent_city": true
+  }
+ }
+}
