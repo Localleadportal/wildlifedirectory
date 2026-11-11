@@ -23,6 +23,7 @@ const ALL = [
 ];
 
 const NO_ARMADILLO = ALL.filter(s => s !== 'armadillo-removal');
+const NO_GROUNDHOG = ALL.filter(s => s !== 'groundhog-removal');
 
 const STATE_ANIMALS = {
   'Georgia': ALL,
@@ -35,6 +36,15 @@ const STATE_ANIMALS = {
   'Vermont': NO_ARMADILLO,
   'Maine': NO_ARMADILLO,
   'Massachusetts': NO_ARMADILLO,
+  'New Jersey': NO_ARMADILLO,
+  'New York': NO_ARMADILLO,
+  'Pennsylvania': NO_ARMADILLO,
+  'Maryland': NO_ARMADILLO,
+  'Virginia': NO_ARMADILLO,
+  'West Virginia': NO_ARMADILLO,
+  'North Carolina': ALL,
+  'South Carolina': ALL,
+  'Florida': NO_GROUNDHOG,
 };
 
 function animalsForState(stateName) {
