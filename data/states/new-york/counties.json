@@ -1,0 +1,1875 @@
+{
+ "state": {
+  "name": "New York",
+  "agency": "New York State Department of Environmental Conservation",
+  "agency_short": "DEC",
+  "peak_intrusion_season": "Late September through November as raccoons, squirrels, and bats seek winter shelter, February through April for raccoon and squirrel denning, and spring through summer for bat maternity colonies, groundhog and skunk emergence, and mole lawn damage",
+  "climate_factor": "New York's hard continental winters push rodents, squirrels, and bats into heated attics, lake-effect snow belts off Lakes Erie and Ontario bury the Buffalo, Rochester, and Syracuse corridors, and milder coastal-moderated winters on Long Island and in New York City keep rats, raccoons, and pigeons active year-round downstate",
+  "permit_note": "New York requires anyone charging a fee for nuisance wildlife work to hold a nuisance wildlife control operator (NWCO) license issued by DEC under Environmental Conservation Law section 11-0524; that license does not cover deer, bear, beaver, otter, mink, muskrat, fisher, bobcat, wild turkey, native snakes or turtles, endangered or threatened species, or migratory birds, which need special DEC or federal permits, and homeowners may not relocate wildlife off their own property"
+ },
+ "counties": {
+  "Albany County": {
+   "county_seat": "Albany",
+   "population": 314848,
+   "established": 1683,
+   "region": "the Capital District on the upper Hudson River",
+   "largest_cities": [
+    "Albany",
+    "Cohoes",
+    "Watervliet",
+    "Colonie",
+    "Bethlehem",
+    "Guilderland"
+   ],
+   "nearest_metro": "Albany is itself the regional metro center",
+   "natural_features": [
+    "Hudson River",
+    "Albany Pine Bush Preserve",
+    "Normans Kill"
+   ],
+   "habitat_type": "state-capital neighborhoods, older river cities, and dense suburbs under mature canopy",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "Norway rats",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "Norway rats hold the older blocks of Albany, Cohoes, and Watervliet, raccoons and squirrels work the Pine Bush-edge suburbs of Colonie and Guilderland, and bats return to big older homes in Bethlehem each summer",
+   "absent_or_rare": "black bears, beavers, and fishers live in the Helderberg and river-edge woods around the county but need special DEC permits and are handled through the regional DEC wildlife office, not as a routine booking"
+  },
+  "Allegany County": {
+   "county_seat": "Belmont",
+   "population": 46456,
+   "established": 1806,
+   "region": "the Southern Tier along the Pennsylvania line",
+   "largest_cities": [
+    "Wellsville",
+    "Alfred",
+    "Belmont",
+    "Cuba",
+    "Bolivar"
+   ],
+   "nearest_metro": "Jamestown and Olean to the west, Rochester to the north",
+   "natural_features": [
+    "Genesee River",
+    "Wiscoy Creek",
+    "Hanging Bog Wildlife Management Area"
+   ],
+   "habitat_type": "rural farm and forest country with small villages and seasonal camps",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "groundhogs",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs burrow the farm fields and garden edges around Wellsville and Cuba, raccoons and bats settle older farmhouses and camps, and skunks work under porches across the small villages",
+   "absent_or_rare": "black bears, beavers, bobcats, and fishers are present in the county's deep woods but are permit-gated species referred to DEC, never a private removal service"
+  },
+  "Bronx County": {
+   "county_seat": "Bronx",
+   "population": 1472654,
+   "established": 1914,
+   "region": "the northernmost New York City borough, on the mainland north of Manhattan",
+   "largest_cities": [
+    "Bronx"
+   ],
+   "nearest_metro": "New York City",
+   "natural_features": [
+    "Harlem River",
+    "Bronx River",
+    "Pelham Bay Park",
+    "Van Cortlandt Park"
+   ],
+   "habitat_type": "dense mainland borough of pre-war apartment buildings, rowhouses, and parkland",
+   "common_wildlife": [
+    "Norway rats",
+    "raccoons",
+    "gray squirrels",
+    "pigeons",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "Norway rats run the older apartment blocks and commercial corridors, raccoons work Pelham Bay and Van Cortlandt park edges into Riverdale yards, and pigeons and starlings nest in signs, bridges, and roof structures borough-wide",
+   "absent_or_rare": "coyotes are seen in the borough's big parks and deer appear at the northern edge, but neither is a private removal job in New York City — sightings go to the city and DEC"
+  },
+  "Broome County": {
+   "county_seat": "Binghamton",
+   "population": 198683,
+   "established": 1806,
+   "region": "the eastern Southern Tier at the Susquehanna and Chenango river confluence",
+   "largest_cities": [
+    "Binghamton",
+    "Endicott",
+    "Johnson City",
+    "Vestal",
+    "Chenango"
+   ],
+   "nearest_metro": "Binghamton is itself the regional metro center",
+   "natural_features": [
+    "Susquehanna River",
+    "Chenango River",
+    "Otsiningo Park"
+   ],
+   "habitat_type": "a river-valley metro of older mill and shoe-factory housing ringed by wooded hills",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats persist in Binghamton, Johnson City, and Endicott's older blocks, raccoons and squirrels fill Triple Cities attics each fall, and groundhogs burrow the hillside yards above the river valley",
+   "absent_or_rare": "black bears come down from the surrounding hills into bird feeders and trash in spring, but bears are a DEC matter requiring a special permit, not a booking"
+  },
+  "Cattaraugus County": {
+   "county_seat": "Little Valley",
+   "population": 77042,
+   "established": 1808,
+   "region": "the western Southern Tier, home to Allegany State Park",
+   "largest_cities": [
+    "Olean",
+    "Salamanca",
+    "Ellicottville",
+    "Little Valley",
+    "Randolph"
+   ],
+   "nearest_metro": "Buffalo (about 60 miles north)",
+   "natural_features": [
+    "Allegany State Park",
+    "Allegheny Reservoir",
+    "Conewango Creek"
+   ],
+   "habitat_type": "forested hills, ski country, and small river towns",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs and skunks work the farm and village edges around Olean and Randolph, raccoons and bats settle seasonal homes near Ellicottville and Allegany State Park, and squirrels fill camp attics left empty all winter",
+   "absent_or_rare": "black bears, beavers, bobcats, and fishers are common in Allegany State Park country but are permit-gated and referred to DEC"
+  },
+  "Cayuga County": {
+   "county_seat": "Auburn",
+   "population": 76248,
+   "established": 1799,
+   "region": "the northern Finger Lakes on Owasco and Cayuga lakes",
+   "largest_cities": [
+    "Auburn",
+    "Weedsport",
+    "Port Byron",
+    "Moravia",
+    "Union Springs"
+   ],
+   "nearest_metro": "Syracuse (about 25 miles east)",
+   "natural_features": [
+    "Owasco Lake",
+    "Cayuga Lake",
+    "Montezuma National Wildlife Refuge (northern edge)"
+   ],
+   "habitat_type": "lake towns, farmland, and marsh country between two Finger Lakes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "groundhogs",
+    "bats",
+    "muskrats (prose only)"
+   ],
+   "regional_wildlife": "raccoons and bats are steady in Auburn's older housing, groundhogs burrow farm edges from Moravia to Weedsport, and skunks den under lake cottages around Owasco and Cayuga lakes",
+   "absent_or_rare": "beavers and muskrats press the Montezuma marsh edges and lake outlets, but both need special DEC permits and are referred to the regional DEC office"
+  },
+  "Chautauqua County": {
+   "county_seat": "Mayville",
+   "population": 127657,
+   "established": 1808,
+   "region": "the far western corner of the state on Lake Erie",
+   "largest_cities": [
+    "Jamestown",
+    "Dunkirk",
+    "Fredonia",
+    "Lakewood",
+    "Westfield"
+   ],
+   "nearest_metro": "Buffalo (about 70 miles northeast) and Erie, Pennsylvania",
+   "natural_features": [
+    "Lake Erie shoreline",
+    "Chautauqua Lake",
+    "Allegheny National Forest edge"
+   ],
+   "habitat_type": "grape-belt lake towns, a small manufacturing city, and farm and forest interior",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "groundhogs",
+    "bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "Norway rats and pigeons hold older Jamestown and Dunkirk blocks, raccoons and squirrels work the Chautauqua Lake cottage belt, and groundhogs burrow the grape-farm edges from Fredonia to Westfield",
+   "absent_or_rare": "beavers flood interior creek bottoms and black bears wander the southern hills, but both are permit-gated species handled through DEC"
+  },
+  "Chemung County": {
+   "county_seat": "Elmira",
+   "population": 84148,
+   "established": 1836,
+   "region": "the central Southern Tier on the Chemung River",
+   "largest_cities": [
+    "Elmira",
+    "Horseheads",
+    "Elmira Heights",
+    "Big Flats",
+    "Southport"
+   ],
+   "nearest_metro": "Elmira is itself the regional metro center",
+   "natural_features": [
+    "Chemung River",
+    "Newtown Creek",
+    "Mark Twain State Park hills"
+   ],
+   "habitat_type": "a river-valley city of older industrial housing with wooded hillsides",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "groundhogs",
+    "bats"
+   ],
+   "regional_wildlife": "Norway rats persist in Elmira's older neighborhoods, raccoons and squirrels take hillside attics in Elmira Heights and Horseheads, and groundhogs and skunks work the garden suburbs of Big Flats and Southport",
+   "absent_or_rare": "black bears descend from the southern hills in spring and beavers work the Chemung River backwaters, but both need special DEC permits"
+  },
+  "Chenango County": {
+   "county_seat": "Norwich",
+   "population": 47220,
+   "established": 1798,
+   "region": "the central Southern Tier river valleys",
+   "largest_cities": [
+    "Norwich",
+    "Greene",
+    "Oxford",
+    "Sherburne",
+    "New Berlin"
+   ],
+   "nearest_metro": "Binghamton (about 40 miles south)",
+   "natural_features": [
+    "Chenango River",
+    "Bowman Lake State Park",
+    "Long Pond State Forest"
+   ],
+   "habitat_type": "rolling dairy-farm valleys and small river towns",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs are a constant on dairy-farm edges and garden plots from Norwich to Oxford, raccoons and bats settle older farmhouses, and skunks den under village porches each spring",
+   "absent_or_rare": "beavers, fishers, and black bears are established in the county's forests but are permit-gated and referred to DEC"
+  },
+  "Clinton County": {
+   "county_seat": "Plattsburgh",
+   "population": 79843,
+   "established": 1788,
+   "region": "the northeastern corner on Lake Champlain and the Canadian border",
+   "largest_cities": [
+    "Plattsburgh",
+    "Peru",
+    "Dannemora",
+    "Rouses Point",
+    "Keeseville"
+   ],
+   "nearest_metro": "Plattsburgh is the regional center; Montreal is about 60 miles north",
+   "natural_features": [
+    "Lake Champlain",
+    "Saranac River",
+    "Ausable Chasm"
+   ],
+   "habitat_type": "a lake port city, farmland, and the Adirondack foothills",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "groundhogs",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and squirrels work Plattsburgh's older neighborhoods and lake camps, groundhogs burrow Champlain-valley farm edges, and bats colonize older homes in Peru and Dannemora each summer",
+   "absent_or_rare": "moose wander the western towns and beavers and fishers work the interior woods, but all are DEC-managed species, not private removal work"
+  },
+  "Columbia County": {
+   "county_seat": "Hudson",
+   "population": 61570,
+   "established": 1786,
+   "region": "the east bank of the mid-Hudson Valley",
+   "largest_cities": [
+    "Hudson",
+    "Kinderhook",
+    "Chatham",
+    "Valatie",
+    "Germantown"
+   ],
+   "nearest_metro": "Albany (about 35 miles north)",
+   "natural_features": [
+    "Hudson River",
+    "Kinderhook Creek",
+    "Taconic State Park (eastern edge)"
+   ],
+   "habitat_type": "river city, farm valleys, and second-home country under the Taconics",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "groundhogs",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and bats fill the older homes and weekend houses of Hudson, Kinderhook, and Chatham, groundhogs burrow farm and garden edges county-wide, and skunks den under barns and porches",
+   "absent_or_rare": "black bears and bobcats move through the Taconic foothills and beavers work the Kinderhook Creek bottoms, but all are permit-gated and referred to DEC"
+  },
+  "Cortland County": {
+   "county_seat": "Cortland",
+   "population": 46809,
+   "established": 1808,
+   "region": "the gateway between the Finger Lakes and the Southern Tier",
+   "largest_cities": [
+    "Cortland",
+    "Homer",
+    "McGraw",
+    "Marathon"
+   ],
+   "nearest_metro": "Syracuse (about 35 miles north) and Binghamton (about 40 miles south)",
+   "natural_features": [
+    "Tioughnioga River",
+    "Greek Peak slopes",
+    "Hoxie Gorge"
+   ],
+   "habitat_type": "a small college and manufacturing city in a farm valley",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs burrow the valley farm edges, raccoons and squirrels take Cortland and Homer attics, and bats return to older village homes each summer",
+   "absent_or_rare": "beavers and fishers work the Tioughnioga corridor and upland forests but need special DEC permits"
+  },
+  "Delaware County": {
+   "county_seat": "Delhi",
+   "population": 44308,
+   "established": 1797,
+   "region": "the western Catskills and the Delaware River headwaters",
+   "largest_cities": [
+    "Delhi",
+    "Walton",
+    "Sidney",
+    "Margaretville",
+    "Hancock"
+   ],
+   "nearest_metro": "Binghamton (about 60 miles west)",
+   "natural_features": [
+    "East and West Branches of the Delaware River",
+    "Cannonsville Reservoir",
+    "Pepacton Reservoir"
+   ],
+   "habitat_type": "mountain farm valleys, reservoir country, and seasonal homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and bats settle seasonal Catskill homes left empty for weeks, groundhogs burrow the farm valleys around Delhi and Walton, and skunks work under porches in the river villages",
+   "absent_or_rare": "black bears are a fixture of the western Catskills and beavers and bobcats work the reservoir feeder streams, but all are permit-gated DEC species"
+  },
+  "Dutchess County": {
+   "county_seat": "Poughkeepsie",
+   "population": 295911,
+   "established": 1683,
+   "region": "the east bank of the mid-Hudson Valley, a New York City commuter county",
+   "largest_cities": [
+    "Poughkeepsie",
+    "Beacon",
+    "Fishkill",
+    "Wappinger",
+    "Hyde Park",
+    "Rhinebeck"
+   ],
+   "nearest_metro": "Poughkeepsie and Beacon anchor the county; New York City is about 75 miles south",
+   "natural_features": [
+    "Hudson River",
+    "Wappinger Creek",
+    "Taconic State Park",
+    "Innisfree Garden"
+   ],
+   "habitat_type": "a river city, commuter suburbs, and horse-farm and estate country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "Norway rats",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats and pigeons hold older Poughkeepsie blocks, raccoons and squirrels run the commuter suburbs of Fishkill, Wappinger, and Hyde Park, and bats and groundhogs are steady on the farm and estate properties around Rhinebeck",
+   "absent_or_rare": "black bears cross the eastern hills and beavers work the Wappinger and Ten Mile creek bottoms, but both need special DEC permits; copperheads occur in the rocky Hudson Highlands at the county's southern edge — identification and safety only"
+  },
+  "Erie County": {
+   "county_seat": "Buffalo",
+   "population": 954236,
+   "established": 1821,
+   "region": "the Lake Erie and Niagara River shore of western New York",
+   "largest_cities": [
+    "Buffalo",
+    "Amherst",
+    "Tonawanda",
+    "Cheektowaga",
+    "West Seneca",
+    "Hamburg",
+    "Lackawanna"
+   ],
+   "nearest_metro": "Buffalo is itself the regional metro center",
+   "natural_features": [
+    "Lake Erie",
+    "Niagara River",
+    "Buffalo Creek",
+    "Tifft Nature Preserve"
+   ],
+   "habitat_type": "a Great Lakes port metro of older industrial neighborhoods and dense suburbs - lake-effect snow belts, older housing, and heavy suburban canopy",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats hold Buffalo and Lackawanna's older industrial blocks, raccoons and squirrels run the Amherst, Tonawanda, and Cheektowaga suburbs, groundhogs and skunks work the Hamburg and West Seneca yard edges, and bats colonize older homes across the metro each summer",
+   "absent_or_rare": "beavers and muskrats press the Buffalo Creek and Tonawanda Creek bottoms but need special DEC permits, and deer in the metro parks are a DEC matter, not a booking"
+  },
+  "Essex County": {
+   "county_seat": "Elizabethtown",
+   "population": 37381,
+   "established": 1799,
+   "region": "the Adirondack High Peaks and Lake Champlain",
+   "largest_cities": [
+    "Lake Placid",
+    "Ticonderoga",
+    "Elizabethtown",
+    "Saranac Lake (part)",
+    "Keene"
+   ],
+   "nearest_metro": "Plattsburgh (about 50 miles north)",
+   "natural_features": [
+    "Lake Champlain",
+    "High Peaks Wilderness",
+    "Ausable River"
+   ],
+   "habitat_type": "mountain and lake country of camps, second homes, and small towns",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "bats",
+    "striped skunks",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and bats settle Adirondack camps and second homes around Lake Placid and Keene that sit empty for weeks, squirrels fill camp attics each fall, and groundhogs work the Champlain-valley farms",
+   "absent_or_rare": "moose, black bears, beavers, fishers, and bobcats are Adirondack fixtures but are DEC-managed, permit-gated species; Indiana bat hibernacula are documented in the county, so bat work is identification and exclusion only"
+  },
+  "Franklin County": {
+   "county_seat": "Malone",
+   "population": 47555,
+   "established": 1808,
+   "region": "the northern Adirondacks and the St. Lawrence valley edge",
+   "largest_cities": [
+    "Malone",
+    "Saranac Lake",
+    "Tupper Lake",
+    "Chateaugay"
+   ],
+   "nearest_metro": "Plattsburgh (about 60 miles east)",
+   "natural_features": [
+    "Saranac Lakes",
+    "Salmon River",
+    "Adirondack Park northern tier"
+   ],
+   "habitat_type": "northern forest, lake camps, and farm towns",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "groundhogs",
+    "opossums"
+   ],
+   "regional_wildlife": "bats and squirrels overwinter in Saranac Lake and Tupper Lake camps, raccoons work Malone's older housing, and skunks and groundhogs are steady on the farm edges",
+   "absent_or_rare": "moose, black bears, beavers, and fishers are common in the northern woods but are permit-gated and referred to DEC"
+  },
+  "Fulton County": {
+   "county_seat": "Johnstown",
+   "population": 53383,
+   "established": 1838,
+   "region": "the southern Adirondack foothills and Mohawk valley edge",
+   "largest_cities": [
+    "Gloversville",
+    "Johnstown",
+    "Northville",
+    "Mayfield"
+   ],
+   "nearest_metro": "Albany (about 45 miles southeast) via the Mohawk valley",
+   "natural_features": [
+    "Great Sacandaga Lake",
+    "Canada Lake",
+    "Mohawk River (southern edge)"
+   ],
+   "habitat_type": "glove-city housing, foothill towns, and a large reservoir lake belt",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "groundhogs",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and bats settle Great Sacandaga Lake camps and older Johnstown and Gloversville homes, and groundhogs burrow the foothill farm edges",
+   "absent_or_rare": "black bears, beavers, and fishers work the foothill forests but need special DEC permits"
+  },
+  "Genesee County": {
+   "county_seat": "Batavia",
+   "population": 58388,
+   "established": 1802,
+   "region": "the flat farm plain between Buffalo and Rochester",
+   "largest_cities": [
+    "Batavia",
+    "Le Roy",
+    "Bergen",
+    "Oakfield",
+    "Pavilion"
+   ],
+   "nearest_metro": "Buffalo (about 35 miles west) and Rochester (about 35 miles east)",
+   "natural_features": [
+    "Tonawanda Creek",
+    "Iroquois National Wildlife Refuge (northern edge)",
+    "Oak Orchard Creek"
+   ],
+   "habitat_type": "a small manufacturing city surrounded by rich muck and dairy farmland",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "groundhogs",
+    "striped skunks",
+    "bats"
+   ],
+   "regional_wildlife": "groundhogs burrow the farm and ditch-bank edges from Le Roy to Pavilion, raccoons and squirrels take Batavia attics, and Norway rats persist in Batavia's older commercial blocks",
+   "absent_or_rare": "beavers and muskrats work the Tonawanda and Oak Orchard creek bottoms and the refuge marshes, but both are permit-gated and referred to DEC"
+  },
+  "Greene County": {
+   "county_seat": "Catskill",
+   "population": 47931,
+   "established": 1800,
+   "region": "the northern Catskills and the west bank of the Hudson",
+   "largest_cities": [
+    "Catskill",
+    "Coxsackie",
+    "Athens",
+    "Windham",
+    "Hunter"
+   ],
+   "nearest_metro": "Albany (about 35 miles north)",
+   "natural_features": [
+    "Catskill Creek",
+    "Kaaterskill Falls",
+    "Hudson River"
+   ],
+   "habitat_type": "river towns, ski-mountain villages, and seasonal Catskill homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "groundhogs",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and bats settle seasonal homes around Windham and Hunter, squirrels fill Catskill and Coxsackie attics, and groundhogs burrow the valley farms",
+   "absent_or_rare": "black bears are routine in the northern Catskills and beavers work the creek bottoms, but both are permit-gated DEC species; timber rattlesnakes occur at the edges of the eastern Catskills — safety and identification only"
+  },
+  "Hamilton County": {
+   "county_seat": "Lake Pleasant",
+   "population": 5107,
+   "established": 1816,
+   "region": "the heart of the Adirondack Park, the state's least populous county",
+   "largest_cities": [
+    "Speculator",
+    "Indian Lake",
+    "Long Lake",
+    "Inlet",
+    "Lake Pleasant"
+   ],
+   "nearest_metro": "Utica and Glens Falls are the nearest small metros, each over an hour away",
+   "natural_features": [
+    "Lake Pleasant",
+    "Indian Lake",
+    "Sacandaga Lake (eastern arm)"
+   ],
+   "habitat_type": "deep-forest lake camps and hamlets inside the Adirondack Park",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "groundhogs"
+   ],
+   "regional_wildlife": "raccoons and bats are the main camp problem, settling roofs and chimneys of seasonal homes around Speculator, Indian Lake, and Long Lake that sit empty most of the year",
+   "absent_or_rare": "moose, black bears, beavers, fishers, and bobcats define this county's wildlife but are all DEC-managed and permit-gated"
+  },
+  "Herkimer County": {
+   "county_seat": "Herkimer",
+   "population": 60139,
+   "established": 1791,
+   "region": "the Mohawk valley and southern Adirondacks",
+   "largest_cities": [
+    "Ilion",
+    "Herkimer",
+    "Little Falls",
+    "Frankfort",
+    "Dolgeville"
+   ],
+   "nearest_metro": "Utica (about 15 miles west)",
+   "natural_features": [
+    "Mohawk River",
+    "Erie Canal",
+    "West Canada Creek"
+   ],
+   "habitat_type": "mill villages along the Mohawk with Adirondack foothill towns north",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "groundhogs",
+    "bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "Norway rats and raccoons work the older mill housing of Ilion, Herkimer, and Little Falls, groundhogs burrow valley farm edges, and bats settle foothill camps to the north",
+   "absent_or_rare": "beavers, fishers, and black bears work the West Canada Creek corridor and northern woods but need special DEC permits"
+  },
+  "Jefferson County": {
+   "county_seat": "Watertown",
+   "population": 116721,
+   "established": 1805,
+   "region": "the Lake Ontario and St. Lawrence River shore, including the Thousand Islands",
+   "largest_cities": [
+    "Watertown",
+    "Clayton",
+    "Alexandria Bay",
+    "Carthage",
+    "Adams"
+   ],
+   "nearest_metro": "Watertown is itself the regional center; Syracuse is about 70 miles south",
+   "natural_features": [
+    "Lake Ontario shoreline",
+    "St. Lawrence River and Thousand Islands",
+    "Black River"
+   ],
+   "habitat_type": "a river-and-lake city, military-adjacent suburbs near Fort Drum, and island and farm country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and bats settle Watertown homes and Thousand Islands cottages around Clayton and Alexandria Bay, Norway rats hold Watertown's older blocks, and groundhogs burrow the farm interior",
+   "absent_or_rare": "beavers and muskrats press the Black River and lakeshore marshes and Indiana bat hibernacula are documented in the county, so those cases are permit and DEC matters, not routine bookings"
+  },
+  "Kings County": {
+   "county_seat": "Brooklyn",
+   "population": 2736074,
+   "established": 1683,
+   "region": "the western end of Long Island, New York City's most populous borough",
+   "largest_cities": [
+    "Brooklyn"
+   ],
+   "nearest_metro": "New York City",
+   "natural_features": [
+    "East River",
+    "Prospect Park",
+    "Jamaica Bay",
+    "Coney Island shoreline"
+   ],
+   "habitat_type": "a dense borough of brownstones, rowhouses, pre-war apartments, and warehouses",
+   "common_wildlife": [
+    "Norway rats",
+    "raccoons",
+    "gray squirrels",
+    "pigeons",
+    "bats",
+    "house sparrows"
+   ],
+   "regional_wildlife": "Norway rats are the borough's number-one call, running brownstone basements, restaurant rows, and older apartment blocks, pigeons and house sparrows nest in signs, cornices, and roof structures, and raccoons and squirrels work the Prospect Park and Green-Wood edges into Park Slope and Bay Ridge yards",
+   "absent_or_rare": "Canada geese gather on Jamaica Bay and park lawns but need federal authorization for any control work, so goose problems are deterrence and habitat work only"
+  },
+  "Lewis County": {
+   "county_seat": "Lowville",
+   "population": 26582,
+   "established": 1805,
+   "region": "the Tug Hill plateau and Black River valley",
+   "largest_cities": [
+    "Lowville",
+    "Lyons Falls",
+    "Copenhagen",
+    "Croghan"
+   ],
+   "nearest_metro": "Watertown (about 25 miles north)",
+   "natural_features": [
+    "Black River",
+    "Tug Hill plateau",
+    "Whetstone Gulf"
+   ],
+   "habitat_type": "deep-snow farm and forest country of small villages",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs and skunks work the dairy-farm edges around Lowville and Croghan, and raccoons and bats settle older farmhouses and Tug Hill camps",
+   "absent_or_rare": "beavers, fishers, bobcats, and black bears are established on the Tug Hill but are permit-gated and referred to DEC"
+  },
+  "Livingston County": {
+   "county_seat": "Geneseo",
+   "population": 61334,
+   "established": 1821,
+   "region": "the Genesee River valley and western Finger Lakes edge",
+   "largest_cities": [
+    "Geneseo",
+    "Avon",
+    "Dansville",
+    "Mount Morris",
+    "Caledonia"
+   ],
+   "nearest_metro": "Rochester (about 30 miles north)",
+   "natural_features": [
+    "Genesee River",
+    "Conesus Lake",
+    "Letchworth State Park (western edge)"
+   ],
+   "habitat_type": "college and farm towns around a finger lake",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs burrow the rich valley farmland, raccoons and bats settle Geneseo and Dansville homes, and skunks den under porches in the lake towns around Conesus",
+   "absent_or_rare": "beavers work the Genesee River bottoms and black bears pass through the southern hills, but both need special DEC permits"
+  },
+  "Madison County": {
+   "county_seat": "Wampsville",
+   "population": 68016,
+   "established": 1806,
+   "region": "the geographic center of the state, between Syracuse and Utica",
+   "largest_cities": [
+    "Oneida",
+    "Canastota",
+    "Cazenovia",
+    "Hamilton",
+    "Chittenango"
+   ],
+   "nearest_metro": "Syracuse (about 25 miles west) and Utica (about 25 miles east)",
+   "natural_features": [
+    "Oneida Lake (northern shore)",
+    "Chittenango Falls",
+    "Cazenovia Lake"
+   ],
+   "habitat_type": "farm towns, a small city, and lake communities",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs and skunks work the farm and garden edges from Canastota to Hamilton, raccoons and bats take older homes in Oneida and Cazenovia, and squirrels fill attics each fall",
+   "absent_or_rare": "the eastern massasauga's central New York bog country lies just west of the county and beavers work the Oneida Creek bottoms — the snake is state-Endangered and safety-only, and beaver work is permit-gated"
+  },
+  "Monroe County": {
+   "county_seat": "Rochester",
+   "population": 759443,
+   "established": 1821,
+   "region": "the Lake Ontario shore of the Genesee River",
+   "largest_cities": [
+    "Rochester",
+    "Greece",
+    "Irondequoit",
+    "Henrietta",
+    "Webster",
+    "Pittsford",
+    "Chili"
+   ],
+   "nearest_metro": "Rochester is itself the regional metro center",
+   "natural_features": [
+    "Lake Ontario",
+    "Genesee River",
+    "Erie Canal",
+    "Braddock Bay"
+   ],
+   "habitat_type": "a Great Lakes industrial metro of older city housing and leafy suburbs - lake-effect snow, canal corridors, and dense older housing stock",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats persist in Rochester's older neighborhoods, raccoons and squirrels fill attics from Greece and Irondequoit to Pittsford and Henrietta, groundhogs burrow the canal-side and farm edges, and bats return to big older homes each summer under heavy lake-effect snow",
+   "absent_or_rare": "beavers and muskrats work the Braddock Bay marshes and canal bottoms but are permit-gated and referred to DEC; deer are abundant in the metro parks but are a DEC matter"
+  },
+  "Montgomery County": {
+   "county_seat": "Fonda",
+   "population": 49532,
+   "established": 1772,
+   "region": "the Mohawk valley west of Albany",
+   "largest_cities": [
+    "Amsterdam",
+    "Canajoharie",
+    "Fort Plain",
+    "St. Johnsville",
+    "Fonda"
+   ],
+   "nearest_metro": "Albany (about 40 miles east) and Utica (about 45 miles west)",
+   "natural_features": [
+    "Mohawk River",
+    "Erie Canal",
+    "Canajoharie Creek"
+   ],
+   "habitat_type": "canal and mill towns in a farm valley",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "groundhogs",
+    "bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "Norway rats and raccoons hold Amsterdam's older mill blocks, groundhogs burrow the valley farms, and bats and squirrels settle homes from Canajoharie to St. Johnsville",
+   "absent_or_rare": "beavers and muskrats work the Mohawk River backwaters and creek bottoms but are permit-gated and referred to DEC"
+  },
+  "Nassau County": {
+   "county_seat": "Mineola",
+   "population": 1395774,
+   "established": 1899,
+   "region": "the western half of Long Island, directly east of New York City",
+   "largest_cities": [
+    "Hempstead",
+    "Freeport",
+    "Glen Cove",
+    "Long Beach",
+    "Oyster Bay",
+    "Great Neck",
+    "Garden City"
+   ],
+   "nearest_metro": "New York City (Queens border)",
+   "natural_features": [
+    "Long Island Sound shoreline",
+    "Atlantic beaches",
+    "Hempstead Lake State Park",
+    "Jones Beach (southern barrier)"
+   ],
+   "habitat_type": "dense post-war suburbs, Gold Coast estates, and older downtown villages",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "bats",
+    "opossums",
+    "pigeons"
+   ],
+   "regional_wildlife": "raccoons and squirrels are the dominant attic calls from Great Neck to Garden City, Norway rats hold the older downtowns of Hempstead, Freeport, and Glen Cove, and opossums and bats are steady across the post-war subdivisions",
+   "absent_or_rare": "Canada geese crowd the county's ponds and golf courses but need federal authorization for control, so goose work is deterrence only; there are no groundhog-heavy farm edges left in most of this built-out county"
+  },
+  "New York County": {
+   "county_seat": "New York",
+   "population": 1694251,
+   "established": 1683,
+   "region": "Manhattan, the island borough between the Hudson and East rivers",
+   "largest_cities": [
+    "Manhattan"
+   ],
+   "nearest_metro": "New York City",
+   "natural_features": [
+    "Hudson River",
+    "East River",
+    "Central Park",
+    "Harlem River"
+   ],
+   "habitat_type": "the densest county in America — pre-war high-rises, brownstones, and commercial towers",
+   "common_wildlife": [
+    "Norway rats",
+    "pigeons",
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "house sparrows"
+   ],
+   "regional_wildlife": "Norway rats define Manhattan wildlife work, running basements, trash rooms, and restaurant blocks in every neighborhood, pigeons and house sparrows nest on ledges, signs, and AC units, and raccoons and squirrels work Central Park's edges into Upper West and Upper East Side rooflines",
+   "absent_or_rare": "peregrine falcons nest on Manhattan bridges and towers and Canada geese use its parks, but protected birds are observation and deterrence matters only, never removal"
+  },
+  "Niagara County": {
+   "county_seat": "Lockport",
+   "population": 212666,
+   "established": 1808,
+   "region": "the Niagara River and Lake Ontario shore",
+   "largest_cities": [
+    "Niagara Falls",
+    "Lockport",
+    "North Tonawanda",
+    "Lewiston",
+    "Newfane"
+   ],
+   "nearest_metro": "Buffalo (about 25 miles south)",
+   "natural_features": [
+    "Niagara River and Falls",
+    "Lake Ontario shoreline",
+    "Erie Canal (eastern terminus towns)"
+   ],
+   "habitat_type": "a falls city, canal towns, and fruit-belt farmland",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats and pigeons hold older Niagara Falls and Lockport blocks, raccoons and squirrels run the canal-town suburbs, and groundhogs and skunks work the fruit-belt farm edges from Lewiston to Newfane",
+   "absent_or_rare": "beavers and muskrats press the Tonawanda Creek and lakeshore marsh bottoms but need special DEC permits"
+  },
+  "Oneida County": {
+   "county_seat": "Utica",
+   "population": 232125,
+   "established": 1798,
+   "region": "the Mohawk valley and Tug Hill and Adirondack foothills",
+   "largest_cities": [
+    "Utica",
+    "Rome",
+    "New Hartford",
+    "Whitesboro",
+    "Clinton",
+    "Sherrill"
+   ],
+   "nearest_metro": "Utica and Rome anchor the county; Syracuse is about 55 miles west",
+   "natural_features": [
+    "Mohawk River",
+    "Oneida Lake (western edge)",
+    "Delta Reservoir"
+   ],
+   "habitat_type": "an older industrial metro in a river valley with farm and foothill towns",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats persist in Utica and Rome's older neighborhoods, raccoons and squirrels fill attics in New Hartford, Whitesboro, and Clinton, and groundhogs and skunks work the farm edges county-wide",
+   "absent_or_rare": "black bears come off the Tug Hill and Adirondack foothills, and beavers work the creek bottoms — both are permit-gated and referred to DEC"
+  },
+  "Onondaga County": {
+   "county_seat": "Syracuse",
+   "population": 476516,
+   "established": 1794,
+   "region": "the geographic center of the state on Onondaga Lake",
+   "largest_cities": [
+    "Syracuse",
+    "Cicero",
+    "Clay",
+    "Manlius",
+    "Baldwinsville",
+    "Liverpool"
+   ],
+   "nearest_metro": "Syracuse is itself the regional metro center",
+   "natural_features": [
+    "Onondaga Lake",
+    "Seneca River",
+    "Erie Canal",
+    "Green Lakes State Park"
+   ],
+   "habitat_type": "a lake-and-canal metro of older city blocks and sprawling northern suburbs - lake-effect snow off Lake Ontario, older salt-city housing, and wooded eastern hills",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats hold Syracuse's older salt-city blocks, raccoons and squirrels run the Clay, Cicero, and Manlius suburbs, groundhogs and skunks work the yard edges county-wide, and bats settle older homes around Baldwinsville and Liverpool each summer",
+   "absent_or_rare": "Indiana bat hibernacula are documented in Onondaga County, so bat colonies are identified before any exclusion is planned; beavers on the Seneca River bottoms are permit-gated, and the eastern massasauga's central New York bog country lies just west - that snake is state-Endangered and safety-only"
+  },
+  "Ontario County": {
+   "county_seat": "Canandaigua",
+   "population": 112458,
+   "established": 1789,
+   "region": "the northern Finger Lakes on Canandaigua and Seneca lakes",
+   "largest_cities": [
+    "Canandaigua",
+    "Geneva",
+    "Victor",
+    "Farmington",
+    "Bloomfield"
+   ],
+   "nearest_metro": "Rochester (about 30 miles northwest)",
+   "natural_features": [
+    "Canandaigua Lake",
+    "Seneca Lake (Geneva shore)",
+    "Bristol Hills"
+   ],
+   "habitat_type": "growing Rochester exurbs, lake towns, and farm country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs burrow the farm and vineyard edges, raccoons and squirrels take the growing Victor and Farmington subdivisions, and bats settle older Canandaigua and Geneva homes",
+   "absent_or_rare": "beavers and muskrats work the lake outlets and marsh edges but are permit-gated; Geneva sits on the Ontario and Seneca county line, and its Ontario County side is the larger share"
+  },
+  "Orange County": {
+   "county_seat": "Goshen",
+   "population": 401310,
+   "established": 1683,
+   "region": "the lower Hudson Valley and the New Jersey and Pennsylvania lines",
+   "largest_cities": [
+    "Middletown",
+    "Newburgh",
+    "Port Jervis",
+    "Warwick",
+    "Monroe",
+    "Goshen"
+   ],
+   "nearest_metro": "the New York City metro's outer ring (about 60 miles to Manhattan)",
+   "natural_features": [
+    "Hudson River (Highlands shore)",
+    "Wallkill River",
+    "Shawangunk Ridge",
+    "Harriman State Park (eastern edge)"
+   ],
+   "habitat_type": "a fast-growing commuter county of a small industrial city, suburbs, and farm valleys",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats hold older Newburgh and Middletown blocks, raccoons and squirrels run the fast-growing suburbs of Monroe, Warwick, and Goshen, and groundhogs and skunks work the Wallkill valley farm edges",
+   "absent_or_rare": "copperheads and timber rattlesnakes occur in the rocky Highlands and Shawangunk terrain — both are safety and identification matters only, copperheads as a downstate snake and the rattlesnake as a state-Threatened species; black bears are routine here but are a DEC matter"
+  },
+  "Orleans County": {
+   "county_seat": "Albion",
+   "population": 40343,
+   "established": 1824,
+   "region": "the Lake Ontario shore between Buffalo and Rochester",
+   "largest_cities": [
+    "Albion",
+    "Medina",
+    "Holley",
+    "Lyndonville"
+   ],
+   "nearest_metro": "Buffalo and Rochester are each about 35-40 miles away",
+   "natural_features": [
+    "Lake Ontario shoreline",
+    "Erie Canal",
+    "Oak Orchard River"
+   ],
+   "habitat_type": "canal villages and flat fruit and farm country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs and skunks work the farm and canal-bank edges, raccoons and bats settle Albion and Medina's older homes, and squirrels fill village attics each fall",
+   "absent_or_rare": "beavers and muskrats press the Oak Orchard and marsh bottoms but need special DEC permits"
+  },
+  "Oswego County": {
+   "county_seat": "Oswego",
+   "population": 117525,
+   "established": 1816,
+   "region": "the southeastern Lake Ontario shore and Tug Hill edge",
+   "largest_cities": [
+    "Oswego",
+    "Fulton",
+    "Mexico",
+    "Pulaski",
+    "Phoenix"
+   ],
+   "nearest_metro": "Syracuse (about 35 miles south)",
+   "natural_features": [
+    "Lake Ontario shoreline",
+    "Oswego River",
+    "Salmon River"
+   ],
+   "habitat_type": "a lake port city, river towns, and snowy Tug Hill-edge farm country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats hold Oswego and Fulton's older river blocks, raccoons and squirrels take homes from Mexico to Phoenix, and groundhogs and skunks work the farm edges under some of the heaviest lake-effect snow in the East",
+   "absent_or_rare": "Indiana bat hibernacula are documented in the county, so bat colonies are identified before any exclusion is planned; beavers work the Salmon River bottoms but are permit-gated"
+  },
+  "Otsego County": {
+   "county_seat": "Cooperstown",
+   "population": 58600,
+   "established": 1791,
+   "region": "the northern Catskill foothills and Susquehanna headwaters",
+   "largest_cities": [
+    "Oneonta",
+    "Cooperstown",
+    "Richfield Springs",
+    "Unadilla"
+   ],
+   "nearest_metro": "Binghamton and Utica are each about 60 miles away",
+   "natural_features": [
+    "Otsego Lake",
+    "Susquehanna River headwaters",
+    "Glimmerglass State Park"
+   ],
+   "habitat_type": "a small college city, a famous lake village, and dairy-farm hills",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs are a fixture of the dairy-farm landscape, raccoons and bats settle Oneonta and Cooperstown homes and seasonal lake houses, and skunks den under village porches",
+   "absent_or_rare": "beavers, fishers, and black bears work the hill forests but are permit-gated and referred to DEC"
+  },
+  "Putnam County": {
+   "county_seat": "Carmel Hamlet",
+   "population": 97668,
+   "established": 1812,
+   "region": "the Hudson Highlands east of the river, a New York City commuter county",
+   "largest_cities": [
+    "Carmel",
+    "Brewster",
+    "Cold Spring",
+    "Patterson",
+    "Mahopac",
+    "Kent"
+   ],
+   "nearest_metro": "the New York City metro (about 60 miles to Manhattan)",
+   "natural_features": [
+    "Hudson River (Highlands shore)",
+    "Great Swamp (Patterson)",
+    "Fahnestock State Park",
+    "NYC watershed reservoirs"
+   ],
+   "habitat_type": "wooded commuter towns, reservoir country, and rocky Highlands terrain",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "groundhogs",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and squirrels are the steady attic calls in Carmel, Mahopac, and Patterson, bats settle older Cold Spring and Brewster homes, and skunks and groundhogs work the wooded lots county-wide",
+   "absent_or_rare": "copperheads occur in the rocky Hudson Highlands around Cold Spring — identification and safety only, never a removal promise; black bears and beavers in the watershed woods are DEC matters"
+  },
+  "Queens County": {
+   "county_seat": "Jamaica",
+   "population": 2405464,
+   "established": 1683,
+   "region": "the northwestern Long Island borough of New York City",
+   "largest_cities": [
+    "Queens"
+   ],
+   "nearest_metro": "New York City",
+   "natural_features": [
+    "Flushing Bay",
+    "East River",
+    "Jamaica Bay",
+    "Forest Park",
+    "Flushing Meadows Corona Park"
+   ],
+   "habitat_type": "a vast borough of attached rowhouses, garden apartments, and two-family homes",
+   "common_wildlife": [
+    "Norway rats",
+    "raccoons",
+    "gray squirrels",
+    "pigeons",
+    "bats",
+    "house sparrows"
+   ],
+   "regional_wildlife": "Norway rats run the older commercial corridors and attached housing from Astoria to Jamaica, raccoons and squirrels work the Forest Park and Flushing Meadows edges into Ridgewood, Glendale, and Forest Hills rooflines, and pigeons nest in elevated-train structures, signs, and roof bulkheads",
+   "absent_or_rare": "Canada geese gather on Jamaica Bay and the park lakes but need federal authorization for any control work, so goose problems are deterrence and habitat work only"
+  },
+  "Rensselaer County": {
+   "county_seat": "Troy",
+   "population": 161130,
+   "established": 1791,
+   "region": "the east bank of the Hudson across from Albany",
+   "largest_cities": [
+    "Troy",
+    "Rensselaer",
+    "East Greenbush",
+    "Brunswick",
+    "Schodack"
+   ],
+   "nearest_metro": "Albany (directly across the Hudson River)",
+   "natural_features": [
+    "Hudson River",
+    "Hoosic River",
+    "Grafton Lakes State Park"
+   ],
+   "habitat_type": "an older mill and college city, commuter suburbs, and rural hill towns east",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats and pigeons hold Troy's older downtown and mill blocks, raccoons and squirrels run the East Greenbush and Brunswick suburbs, and groundhogs and bats are steady in the hill towns toward Grafton",
+   "absent_or_rare": "black bears and beavers work the eastern hills and Hoosic River bottoms but need special DEC permits"
+  },
+  "Richmond County": {
+   "county_seat": "St. George",
+   "population": 495747,
+   "established": 1683,
+   "region": "Staten Island, the southernmost borough, across the harbor from Manhattan",
+   "largest_cities": [
+    "Staten Island"
+   ],
+   "nearest_metro": "New York City",
+   "natural_features": [
+    "Upper and Lower New York Bay",
+    "Arthur Kill",
+    "Staten Island Greenbelt",
+    "Great Kills Park"
+   ],
+   "habitat_type": "the most suburban borough — single-family homes, townhouses, and the Greenbelt's forest",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "opossums",
+    "bats",
+    "pigeons"
+   ],
+   "regional_wildlife": "raccoons and squirrels are the dominant calls in the island's single-family neighborhoods from St. George to Tottenville, Norway rats hold the older North Shore and Arthur Kill industrial edges, and opossums and bats work the Greenbelt-edge streets",
+   "absent_or_rare": "white-tailed deer are a visible presence in the Greenbelt and island parks but deer are a DEC and city matter requiring special permits, never a private removal booking"
+  },
+  "Rockland County": {
+   "county_seat": "New City",
+   "population": 338329,
+   "established": 1798,
+   "region": "the west bank of the lower Hudson, the smallest county by area in the state outside New York City",
+   "largest_cities": [
+    "Spring Valley",
+    "Nyack",
+    "Suffern",
+    "New City",
+    "Haverstraw",
+    "Clarkstown towns"
+   ],
+   "nearest_metro": "the New York City metro (about 30 miles to Manhattan)",
+   "natural_features": [
+    "Hudson River",
+    "Harriman and Bear Mountain State Parks",
+    "Rockland Lake"
+   ],
+   "habitat_type": "dense commuter suburbs pressed against state-park forest",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "raccoons and squirrels run the dense suburbs of Clarkstown, Spring Valley, and New City where park forest meets rooftops, Norway rats hold older Spring Valley and Haverstraw blocks, and skunks and groundhogs work the yard edges",
+   "absent_or_rare": "copperheads occur in the rocky Harriman and Bear Mountain terrain — identification and safety only; black bears wander out of the state parks regularly but are a DEC matter, not a booking"
+  },
+  "Saratoga County": {
+   "county_seat": "Ballston Spa",
+   "population": 235509,
+   "established": 1791,
+   "region": "the upper Hudson and southern Adirondack foothills north of Albany",
+   "largest_cities": [
+    "Saratoga Springs",
+    "Clifton Park",
+    "Mechanicville",
+    "Ballston Spa",
+    "Halfmoon",
+    "Malta"
+   ],
+   "nearest_metro": "Albany (about 30 miles south)",
+   "natural_features": [
+    "Hudson River",
+    "Saratoga Lake",
+    "Sacandaga Lake (northwestern edge)",
+    "Saratoga Spa State Park"
+   ],
+   "habitat_type": "a fast-growing county of a resort city, dense suburbs, and horse country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "raccoons and squirrels fill attics in fast-growing Clifton Park, Halfmoon, and Malta, Norway rats hold older Mechanicville and Saratoga Springs blocks, and bats and groundhogs are steady around Saratoga Lake and the horse farms",
+   "absent_or_rare": "black bears and beavers work the northern foothill towns but need special DEC permits; Indiana bat hibernacula are documented in the wider Capital and cave country, so colonies are identified before exclusion"
+  },
+  "Schenectady County": {
+   "county_seat": "Schenectady",
+   "population": 158061,
+   "established": 1809,
+   "region": "the Mohawk River in the Capital District",
+   "largest_cities": [
+    "Schenectady",
+    "Rotterdam",
+    "Niskayuna",
+    "Glenville",
+    "Scotia"
+   ],
+   "nearest_metro": "Albany (about 15 miles southeast)",
+   "natural_features": [
+    "Mohawk River",
+    "Erie Canal locks",
+    "Plotter Kill Preserve"
+   ],
+   "habitat_type": "a compact older industrial city with leafy suburbs and rural edges",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "pigeons",
+    "bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "Norway rats and pigeons hold Schenectady's older downtown and industrial blocks, raccoons and squirrels run the Niskayuna, Rotterdam, and Glenville suburbs, and bats return to big older homes each summer",
+   "absent_or_rare": "beavers and muskrats work the Mohawk River and Plotter Kill bottoms but are permit-gated and referred to DEC"
+  },
+  "Schoharie County": {
+   "county_seat": "Schoharie",
+   "population": 29714,
+   "established": 1795,
+   "region": "the Schoharie valley between the Catskills and Capital District",
+   "largest_cities": [
+    "Schoharie",
+    "Cobleskill",
+    "Middleburgh",
+    "Richmondville"
+   ],
+   "nearest_metro": "Albany (about 40 miles east)",
+   "natural_features": [
+    "Schoharie Creek",
+    "Vroman's Nose",
+    "Mine Kill State Park"
+   ],
+   "habitat_type": "farm valleys and small villages under Catskill foothills",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs burrow the rich valley farmland, raccoons and bats settle Cobleskill and Schoharie village homes, and skunks den under porches and barns",
+   "absent_or_rare": "black bears, beavers, and fishers work the foothill forests but are permit-gated DEC species"
+  },
+  "Schuyler County": {
+   "county_seat": "Watkins Glen",
+   "population": 17898,
+   "established": 1854,
+   "region": "the southern end of Seneca Lake in the Finger Lakes",
+   "largest_cities": [
+    "Watkins Glen",
+    "Montour Falls",
+    "Odessa",
+    "Burdett"
+   ],
+   "nearest_metro": "Elmira (about 20 miles south) and Ithaca (about 20 miles east)",
+   "natural_features": [
+    "Seneca Lake",
+    "Watkins Glen State Park gorge",
+    "Finger Lakes National Forest"
+   ],
+   "habitat_type": "a gorge and vineyard village, lake cottages, and national-forest farms",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and bats settle Watkins Glen and Montour Falls homes and lake cottages, and groundhogs and skunks work the farm and vineyard edges",
+   "absent_or_rare": "beavers and black bears work the national forest and Hector hills but need special DEC permits"
+  },
+  "Seneca County": {
+   "county_seat": "Waterloo",
+   "population": 33814,
+   "established": 1804,
+   "region": "between Seneca and Cayuga lakes in the Finger Lakes",
+   "largest_cities": [
+    "Seneca Falls",
+    "Waterloo",
+    "Ovid",
+    "Willard"
+   ],
+   "nearest_metro": "Syracuse, Rochester, and Ithaca are each about 45-55 miles away",
+   "natural_features": [
+    "Seneca Lake",
+    "Cayuga Lake",
+    "Montezuma National Wildlife Refuge (eastern edge)",
+    "Seneca Army Depot grounds"
+   ],
+   "habitat_type": "two-lake farm country and historic canal towns",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs and skunks work the farm edges between the lakes, raccoons and bats take Seneca Falls and Waterloo homes, and squirrels fill attics each fall",
+   "absent_or_rare": "the white deer herd on the former Seneca Army Depot grounds is a managed attraction, not a nuisance service, and beavers and muskrats on the Montezuma edge are permit-gated"
+  },
+  "Steuben County": {
+   "county_seat": "Bath",
+   "population": 93584,
+   "established": 1796,
+   "region": "the south-central Southern Tier along Pennsylvania",
+   "largest_cities": [
+    "Corning",
+    "Bath",
+    "Hornell",
+    "Hammondsport",
+    "Wayland"
+   ],
+   "nearest_metro": "Elmira (about 35 miles east) and Rochester (about 75 miles north)",
+   "natural_features": [
+    "Canisteo River",
+    "Keuka Lake (southern end)",
+    "Cohocton River"
+   ],
+   "habitat_type": "glass and manufacturing towns, vineyard hills, and farm valleys",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "groundhogs",
+    "bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "Norway rats hold older Corning and Hornell blocks, groundhogs burrow the farm valleys, and raccoons and bats settle Bath and Keuka Lake homes and cottages",
+   "absent_or_rare": "black bears, beavers, and bobcats work the southern hills but are permit-gated; timber rattlesnakes occur in isolated Southern Tier pockets — safety and identification only"
+  },
+  "Suffolk County": {
+   "county_seat": "Riverhead",
+   "population": 1525920,
+   "established": 1683,
+   "region": "the eastern two-thirds of Long Island",
+   "largest_cities": [
+    "Huntington",
+    "Babylon",
+    "Islip",
+    "Smithtown",
+    "Brookhaven",
+    "Riverhead",
+    "Southampton"
+   ],
+   "nearest_metro": "the New York City metro's eastern reach (about 60-100 miles to Manhattan)",
+   "natural_features": [
+    "Long Island Sound",
+    "Atlantic Ocean and Fire Island",
+    "Great South Bay",
+    "Peconic Bay",
+    "Pine Barrens"
+   ],
+   "habitat_type": "twin-fork vacation country, dense western suburbs, and protected pine barrens",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "bats",
+    "opossums",
+    "groundhogs"
+   ],
+   "regional_wildlife": "raccoons and squirrels dominate the western suburbs of Huntington, Babylon, and Islip, Norway rats hold the older downtowns and ferry and fishing ports, groundhogs burrow the farm and estate edges out east, and bats settle Southampton and East End summer homes",
+   "absent_or_rare": "Canada geese crowd the bayside parks and golf courses but need federal authorization for control, so goose work is deterrence only; DEC's Suffolk tree-clearing guidance for listed bats is a tree-work rule, not a building-exclusion rule"
+  },
+  "Sullivan County": {
+   "county_seat": "Monticello",
+   "population": 78547,
+   "established": 1809,
+   "region": "the southern Catskills and Delaware River",
+   "largest_cities": [
+    "Monticello",
+    "Liberty",
+    "Fallsburg",
+    "Callicoon"
+   ],
+   "nearest_metro": "the New York City metro's weekend reach (about 90 miles)",
+   "natural_features": [
+    "Delaware River",
+    "Bashakill Wildlife Management Area",
+    "Catskill Park southern tier"
+   ],
+   "habitat_type": "resort and bungalow-colony country, camps, and small towns",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "groundhogs",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and bats settle bungalow colonies and seasonal homes around Monticello, Liberty, and Fallsburg that sit empty for months, and skunks den under camp porches each spring",
+   "absent_or_rare": "black bears are a Catskill fixture around trash and bird feeders and beavers work the Bashakill wetlands, but both are permit-gated DEC species"
+  },
+  "Tioga County": {
+   "county_seat": "Owego",
+   "population": 48455,
+   "established": 1791,
+   "region": "the Pennsylvania line of the eastern Southern Tier",
+   "largest_cities": [
+    "Owego",
+    "Waverly",
+    "Apalachin",
+    "Newark Valley",
+    "Candor"
+   ],
+   "nearest_metro": "Binghamton (about 20 miles east)",
+   "natural_features": [
+    "Susquehanna River",
+    "Owego Creek"
+   ],
+   "habitat_type": "river villages and dairy-farm valleys",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs and skunks work the farm and garden edges from Owego to Candor, and raccoons and bats settle the river-village homes along the Susquehanna",
+   "absent_or_rare": "black bears and beavers move through the southern hills and creek bottoms but need special DEC permits"
+  },
+  "Tompkins County": {
+   "county_seat": "Ithaca",
+   "population": 105740,
+   "established": 1817,
+   "region": "the southern end of Cayuga Lake in the Finger Lakes",
+   "largest_cities": [
+    "Ithaca",
+    "Dryden",
+    "Lansing",
+    "Trumansburg",
+    "Groton"
+   ],
+   "nearest_metro": "Ithaca is itself the regional center; Syracuse is about 55 miles north",
+   "natural_features": [
+    "Cayuga Lake",
+    "Taughannock Falls",
+    "Buttermilk Falls",
+    "Ithaca gorges"
+   ],
+   "habitat_type": "a college city in a gorge-cut landscape with farm towns around",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats hold Ithaca's older downtown and student-rental blocks, raccoons and squirrels run the Cayuga Heights and Lansing canopy, groundhogs burrow the farm towns of Dryden and Groton, and bats return to big older homes each summer",
+   "absent_or_rare": "the eastern massasauga's only New York populations live in boggy wetlands in central New York west of the county — it is state-Endangered and federally Threatened, and any snake question here is identification and safety only; beavers on the inlet marshes are permit-gated"
+  },
+  "Ulster County": {
+   "county_seat": "Kingston",
+   "population": 181851,
+   "established": 1683,
+   "region": "the west bank of the Hudson between the Catskills and the Highlands",
+   "largest_cities": [
+    "Kingston",
+    "New Paltz",
+    "Saugerties",
+    "Ellenville",
+    "Woodstock"
+   ],
+   "nearest_metro": "the New York City metro's weekend reach; Albany is about 55 miles north",
+   "natural_features": [
+    "Hudson River",
+    "Shawangunk Ridge",
+    "Catskill Park (eastern escarpment)",
+    "Ashokan Reservoir"
+   ],
+   "habitat_type": "a river city, college and farm towns, and mountain second-home country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats hold Kingston's older Rondout and uptown blocks, raccoons and squirrels settle second homes around Woodstock and Saugerties, groundhogs work the Wallkill valley farms, and bats colonize older New Paltz homes each summer",
+   "absent_or_rare": "copperheads are documented in the county's rocky terrain (a DEC officer removed one in New Paltz) and timber rattlesnakes occur at the Catskill and Shawangunk edges — both are identification and safety matters only; Indiana bat hibernacula are documented in Ulster County, so bat colonies are identified before exclusion"
+  },
+  "Warren County": {
+   "county_seat": "Lake George",
+   "population": 65737,
+   "established": 1813,
+   "region": "the southeastern Adirondacks and Lake George",
+   "largest_cities": [
+    "Glens Falls",
+    "Lake George",
+    "Queensbury",
+    "Warrensburg"
+   ],
+   "nearest_metro": "Albany (about 55 miles south)",
+   "natural_features": [
+    "Lake George",
+    "Hudson River headwaters",
+    "Adirondack Park"
+   ],
+   "habitat_type": "a small city, a resort lake, and mountain camp country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "groundhogs",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and bats settle Lake George and Queensbury seasonal homes and Glens Falls older housing, often discovered only at spring opening",
+   "absent_or_rare": "black bears, beavers, fishers, and moose work the Adirondack interior but are DEC-managed; Indiana bat hibernacula are documented in Warren County, so bat work starts with identification"
+  },
+  "Washington County": {
+   "county_seat": "Hudson Falls",
+   "population": 61302,
+   "established": 1772,
+   "region": "the upper Hudson and Champlain valleys on the Vermont line",
+   "largest_cities": [
+    "Hudson Falls",
+    "Fort Edward",
+    "Granville",
+    "Cambridge",
+    "Whitehall"
+   ],
+   "nearest_metro": "Albany (about 55 miles south) and Glens Falls (about 10 miles west)",
+   "natural_features": [
+    "Hudson River",
+    "Lake Champlain (southern end)",
+    "Batten Kill"
+   ],
+   "habitat_type": "slate and dairy-farm valleys and canal towns",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs and skunks work the dairy-farm edges from Cambridge to Granville, and raccoons and bats settle Hudson Falls and Fort Edward homes",
+   "absent_or_rare": "beavers and black bears work the Batten Kill and eastern hills but need special DEC permits"
+  },
+  "Wayne County": {
+   "county_seat": "Lyons",
+   "population": 91283,
+   "established": 1823,
+   "region": "the Lake Ontario shore between Rochester and Syracuse",
+   "largest_cities": [
+    "Newark",
+    "Lyons",
+    "Palmyra",
+    "Williamson",
+    "Sodus"
+   ],
+   "nearest_metro": "Rochester (about 30 miles west)",
+   "natural_features": [
+    "Lake Ontario shoreline",
+    "Erie Canal",
+    "Montezuma Audubon marshes (eastern edge)"
+   ],
+   "habitat_type": "canal towns and flat fruit and muck-farm country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs burrow the muck-farm and orchard edges, raccoons and bats settle Newark, Lyons, and Palmyra homes, and skunks den under farm porches",
+   "absent_or_rare": "beavers and muskrats press the canal and marsh bottoms but are permit-gated and referred to DEC"
+  },
+  "Westchester County": {
+   "county_seat": "White Plains",
+   "population": 1004457,
+   "established": 1683,
+   "region": "directly north of New York City, between the Hudson River and Long Island Sound",
+   "largest_cities": [
+    "White Plains",
+    "Yonkers",
+    "New Rochelle",
+    "Mount Vernon",
+    "Peekskill",
+    "Rye",
+    "Scarsdale"
+   ],
+   "nearest_metro": "New York City (about 25 miles south of White Plains)",
+   "natural_features": [
+    "Hudson River",
+    "Long Island Sound",
+    "Croton Reservoir and NYC watershed",
+    "Ward Pound Ridge Reservation"
+   ],
+   "habitat_type": "dense southern suburbs rising to wooded northern estate towns",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "bats",
+    "striped skunks",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats hold the older downtowns of Yonkers, Mount Vernon, and New Rochelle, raccoons and squirrels are relentless in the canopy suburbs from Scarsdale to Rye, and groundhogs, skunks, and bats are steady in the wooded northern towns around Pound Ridge and Croton",
+   "absent_or_rare": "black bears wander the northern watershed woods and beavers work the Croton system, but both are DEC matters needing special permits; coyotes are present county-wide and are not a rabies-vector species in New York and not a removal booking"
+  },
+  "Wyoming County": {
+   "county_seat": "Warsaw",
+   "population": 40531,
+   "established": 1841,
+   "region": "the Genesee River headwaters between Buffalo and Rochester",
+   "largest_cities": [
+    "Warsaw",
+    "Perry",
+    "Attica",
+    "Arcade",
+    "Castile"
+   ],
+   "nearest_metro": "Buffalo (about 45 miles west)",
+   "natural_features": [
+    "Genesee River gorge at Letchworth State Park",
+    "Silver Lake"
+   ],
+   "habitat_type": "dairy-farm valleys and the Letchworth gorge country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs are a constant on the dairy farms around Warsaw, Perry, and Arcade, and raccoons and bats settle the village homes and farmhouses",
+   "absent_or_rare": "beavers, black bears, and fishers work the gorge and hill country but are permit-gated and referred to DEC"
+  },
+  "Yates County": {
+   "county_seat": "Penn Yan",
+   "population": 24774,
+   "established": 1823,
+   "region": "the heart of the Finger Lakes on Keuka and Seneca lakes",
+   "largest_cities": [
+    "Penn Yan",
+    "Dresden",
+    "Rushville",
+    "Dundee"
+   ],
+   "nearest_metro": "Rochester (about 55 miles northwest) and Ithaca (about 40 miles southeast)",
+   "natural_features": [
+    "Keuka Lake",
+    "Seneca Lake",
+    "Keuka Lake outlet"
+   ],
+   "habitat_type": "vineyard and Mennonite farm country between two lakes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs burrow the vineyard and farm edges, raccoons and bats settle Penn Yan homes and Keuka Lake cottages, and skunks work under farm porches",
+   "absent_or_rare": "beavers and muskrats press the lake outlets and marsh edges but are permit-gated and referred to DEC"
+  },
+  "St. Lawrence County": {
+   "county_seat": "Canton",
+   "population": 108505,
+   "established": 1802,
+   "region": "the St. Lawrence River valley and northwestern Adirondacks, the state's largest county by area",
+   "largest_cities": [
+    "Ogdensburg",
+    "Massena",
+    "Potsdam",
+    "Canton",
+    "Gouverneur"
+   ],
+   "nearest_metro": "Watertown (about 70 miles southwest) and Plattsburgh (about 90 miles east)",
+   "natural_features": [
+    "St. Lawrence River",
+    "Raquette River",
+    "Adirondack Park (southern half)"
+   ],
+   "habitat_type": "river ports, college towns, and vast farm and forest interior",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "groundhogs",
+    "striped skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "groundhogs and skunks work the dairy-farm landscape, raccoons and bats settle Ogdensburg, Massena, Potsdam, and Canton homes and northern camps, and squirrels fill attics each fall",
+   "absent_or_rare": "moose, black bears, beavers, fishers, and bobcats are established across the county's woods but are all DEC-managed, permit-gated species"
+  }
+ }
+}
