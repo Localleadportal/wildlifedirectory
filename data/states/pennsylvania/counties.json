@@ -1,0 +1,2074 @@
+{
+ "state": {
+  "name": "Pennsylvania",
+  "agency": "Pennsylvania Game Commission",
+  "agency_short": "PGC",
+  "peak_intrusion_season": "March through May during spring raccoon and squirrel denning and groundhog emergence, summer for bat maternity colonies under Game Commission guidance and peak mole and groundhog lawn damage, and late September through November as squirrels and rodents seek winter shelter",
+  "climate_factor": "Pennsylvania's four full seasons — cold winters and hot, humid summers — push squirrels, rodents, and overwintering big brown bats into attics in winter while keeping raccoons, skunks, and groundhogs active in yards from early spring through late fall",
+  "permit_note": "Pennsylvania requires anyone doing commercial nuisance wildlife work for another person to hold a Pennsylvania Game Commission nuisance wildlife control operator permit under 58 Pa. Code Chapter 147, Subchapter T; captured rabies-vector species — raccoons, skunks, foxes, coyotes, bats, and groundhogs — are never released, and other captured wildlife is euthanized humanely or released only in an area open to hunting or trapping within 24 hours under 58 Pa. Code Section 147.726(g)"
+ },
+ "counties": {
+  "Philadelphia County": {
+   "county_seat": "Philadelphia",
+   "population": 1584138,
+   "established": 1682,
+   "region": "southeastern Pennsylvania on the Delaware River, consolidated city-county at the heart of the Delaware Valley",
+   "largest_cities": [
+    "Philadelphia"
+   ],
+   "nearest_metro": "Philadelphia is itself the metro center and Pennsylvania's largest city",
+   "natural_features": [
+    "Delaware River waterfront",
+    "Schuylkill River and Fairmount Park",
+    "Wissahickon Valley Park",
+    "Pennypack and Cobbs Creek corridors"
+   ],
+   "habitat_type": "dense urban row-home neighborhoods, brick twins, and older apartment blocks threaded by wooded river park corridors",
+   "common_wildlife": [
+    "raccoons",
+    "Norway rats",
+    "Eastern gray squirrels",
+    "skunks",
+    "opossums",
+    "bats",
+    "pigeons"
+   ],
+   "regional_wildlife": "Norway rats are entrenched in the older row-home blocks, alleys, and sewer lines from South Philadelphia to Kensington, raccoons den in chimneys and rooflines across the Northeast and Northwest, and the Wissahickon and Fairmount Park corridors carry squirrels, skunks, and opossums deep into residential streets",
+   "absent_or_rare": "white-tailed deer, foxes, and coyotes live along the park corridors but are managed by the Pennsylvania Game Commission rather than handled as routine household removal work"
+  },
+  "Delaware County": {
+   "county_seat": "Media",
+   "population": 576830,
+   "established": 1789,
+   "region": "southeastern Pennsylvania between Philadelphia and the Delaware state line, in the inner Delaware Valley suburbs",
+   "largest_cities": [
+    "Chester",
+    "Upper Darby",
+    "Media",
+    "Springfield",
+    "Havertown",
+    "Drexel Hill"
+   ],
+   "nearest_metro": "Philadelphia (the county borders the city to the northeast)",
+   "natural_features": [
+    "Ridley Creek State Park",
+    "Darby Creek corridor",
+    "Chester Creek corridor",
+    "Delaware River waterfront at Chester"
+   ],
+   "habitat_type": "dense inner suburbs of brick twins, rowhouses, and postwar singles over older borough cores",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "skunks",
+    "opossums",
+    "bats",
+    "groundhogs"
+   ],
+   "regional_wildlife": "raccoons and squirrels work the mature street trees and older rooflines of Upper Darby, Drexel Hill, and Havertown, Norway rats hold the older commercial blocks and waterfront industry in Chester, and Ridley Creek and Darby Creek feed skunks, opossums, and groundhogs into yards across Springfield and Marple",
+   "absent_or_rare": "black bears and bobcats are not established in this urban county, and white-tailed deer along the creek parks fall under Pennsylvania Game Commission management rather than private removal"
+  },
+  "Chester County": {
+   "county_seat": "West Chester",
+   "population": 534413,
+   "established": 1682,
+   "region": "southeastern Pennsylvania, the western edge of the Philadelphia suburbs giving way to farm country",
+   "largest_cities": [
+    "West Chester",
+    "Phoenixville",
+    "Coatesville",
+    "Kennett Square",
+    "Downingtown",
+    "Malvern"
+   ],
+   "nearest_metro": "Philadelphia (about 25 miles east of West Chester)",
+   "natural_features": [
+    "Brandywine Creek corridor",
+    "Marsh Creek State Park",
+    "French Creek corridor",
+    "ChesLen Preserve and White Clay Creek"
+   ],
+   "habitat_type": "fast-growing suburbs in the east, historic boroughs along the Brandywine, and working farms and mushroom country in the south",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "opossums",
+    "moles"
+   ],
+   "regional_wildlife": "groundhogs burrow fence lines and barn edges from Kennett Square to Honey Brook, raccoons and gray squirrels fill the attics of West Chester, Downingtown, and the Main Line edge, and Brandywine Creek bottomland carries skunks and opossums into borough back yards",
+   "absent_or_rare": "black bears pass through the northern townships only rarely, and beavers and white-tailed deer along the creeks are Pennsylvania Game Commission matters rather than routine removal calls"
+  },
+  "Montgomery County": {
+   "county_seat": "Norristown",
+   "population": 856553,
+   "established": 1784,
+   "region": "southeastern Pennsylvania, the northwestern Philadelphia suburbs along the Schuylkill River",
+   "largest_cities": [
+    "Norristown",
+    "King of Prussia",
+    "Pottstown",
+    "Lansdale",
+    "Ardmore",
+    "Conshohocken"
+   ],
+   "nearest_metro": "Philadelphia (the county touches the city along its southeastern edge)",
+   "natural_features": [
+    "Schuylkill River corridor",
+    "Valley Forge National Historical Park",
+    "Perkiomen Creek and Green Lane Park",
+    "Evansburg State Park"
+   ],
+   "habitat_type": "dense suburbs and Main Line communities in the south and east, older river boroughs, and rural townships in the northwest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "skunks",
+    "groundhogs",
+    "bats",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons and squirrels are constant in the mature-canopy suburbs from Ardmore to Abington, Norway rats persist in Norristown and Pottstown's older blocks, and groundhogs and moles work the lawns and farm edges from Green Lane to the Perkiomen valley",
+   "absent_or_rare": "black bears are only occasional visitors to the northwestern townships, and deer, beavers, and foxes along the Schuylkill and Perkiomen are managed by the Pennsylvania Game Commission"
+  },
+  "Bucks County": {
+   "county_seat": "Doylestown",
+   "population": 646538,
+   "established": 1682,
+   "region": "southeastern Pennsylvania along the Delaware River, the northern tier of the Philadelphia suburbs",
+   "largest_cities": [
+    "Doylestown",
+    "Levittown",
+    "Bensalem",
+    "Newtown",
+    "Quakertown",
+    "Warminster"
+   ],
+   "nearest_metro": "Philadelphia (about 25 miles south of Doylestown)",
+   "natural_features": [
+    "Delaware River and Delaware Canal corridor",
+    "Lake Nockamixon and Nockamixon State Park",
+    "Neshaminy Creek corridor",
+    "Peace Valley Park"
+   ],
+   "habitat_type": "postwar Levittown-era suburbs in the south, historic boroughs and horse farms in the center, and wooded river hills in the north",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "opossums",
+    "moles"
+   ],
+   "regional_wildlife": "gray squirrels and raccoons dominate calls from Levittown and Bensalem to Doylestown, groundhogs burrow the farm and large-lot edges of central Bucks, and the Neshaminy and Delaware corridors move skunks and opossums through Newtown, Warminster, and the river towns",
+   "absent_or_rare": "black bears appear in upper Bucks only as wanderers, and beavers, deer, and Canada geese on the river and lakes fall under Pennsylvania Game Commission and federal rules rather than private removal"
+  },
+  "Lancaster County": {
+   "county_seat": "Lancaster",
+   "population": 552984,
+   "established": 1729,
+   "region": "south-central Pennsylvania, Pennsylvania Dutch farm country between the Susquehanna River and the Philadelphia suburbs",
+   "largest_cities": [
+    "Lancaster",
+    "Ephrata",
+    "Lititz",
+    "Elizabethtown",
+    "Mount Joy",
+    "Strasburg"
+   ],
+   "nearest_metro": "Harrisburg (about 35 miles northwest) and Philadelphia (about 70 miles east)",
+   "natural_features": [
+    "Susquehanna River corridor",
+    "Conestoga River",
+    "Lancaster County Central Park",
+    "Welsh Mountain and Speedwell Forge Lake"
+   ],
+   "habitat_type": "some of the most productive farmland in the East, with dense boroughs, Plain Sect farmsteads, and fast-growing suburbs",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "skunks",
+    "Eastern gray squirrels",
+    "bats",
+    "opossums",
+    "moles"
+   ],
+   "regional_wildlife": "groundhogs are a daily fact of farm life along fence rows and bank barns countywide, raccoons raid feed rooms and den in Lancaster city and borough attics, and big brown bats hold old colonies in the stone farmhouses and tobacco barns of the Conestoga valley",
+   "absent_or_rare": "black bears are rare wanderers this far into farm country, and white-tailed deer and beavers are Pennsylvania Game Commission-managed species rather than household removal work"
+  },
+  "Berks County": {
+   "county_seat": "Reading",
+   "population": 428849,
+   "established": 1752,
+   "region": "southeastern Pennsylvania in the Schuylkill River valley between the Philadelphia suburbs and the Blue Mountain ridge",
+   "largest_cities": [
+    "Reading",
+    "Wyomissing",
+    "Kutztown",
+    "Boyertown",
+    "Birdsboro",
+    "Hamburg"
+   ],
+   "nearest_metro": "Reading is the regional center, with Philadelphia about 55 miles southeast",
+   "natural_features": [
+    "Schuylkill River corridor",
+    "Blue Mountain and Hawk Mountain Sanctuary",
+    "Antietam Lake and French Creek State Park edge",
+    "Tulpehocken Creek and Blue Marsh Lake"
+   ],
+   "habitat_type": "the older industrial city of Reading, streetcar suburbs, and broad farm valleys under the Blue Mountain ridge",
+   "common_wildlife": [
+    "raccoons",
+    "Norway rats",
+    "Eastern gray squirrels",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "Norway rats persist in Reading's older row-home and warehouse blocks, raccoons and squirrels work Wyomissing and the boroughs along the Schuylkill, and groundhogs and skunks fill the farm edges from Kutztown to Hamburg under Blue Mountain",
+   "absent_or_rare": "black bears come down off Blue Mountain into northern townships but are Pennsylvania Game Commission-managed, as are deer and beavers along the Tulpehocken"
+  },
+  "Lehigh County": {
+   "county_seat": "Allentown",
+   "population": 374557,
+   "established": 1812,
+   "region": "eastern Pennsylvania in the Lehigh Valley along the Lehigh River",
+   "largest_cities": [
+    "Allentown",
+    "Emmaus",
+    "Macungie",
+    "Whitehall",
+    "Catasauqua",
+    "Coopersburg"
+   ],
+   "nearest_metro": "Allentown is the regional center, about 60 miles north of Philadelphia",
+   "natural_features": [
+    "Lehigh River corridor",
+    "South Mountain",
+    "Lehigh Gap and the Appalachian Trail ridge",
+    "Jordan Creek and Little Lehigh Creek"
+   ],
+   "habitat_type": "the industrial city of Allentown, dense boroughs, warehouse-corridor suburbs, and farm townships under South Mountain",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons and gray squirrels are heavy across Allentown, Whitehall, and the borough ring, Norway rats hold older commercial and riverfront blocks, and groundhogs and moles work the big suburban lawns and farm edges from Macungie to Coopersburg",
+   "absent_or_rare": "black bears wander in from the Blue Mountain ridge only occasionally, and deer, beavers, and foxes are Pennsylvania Game Commission-managed rather than private removal work"
+  },
+  "Northampton County": {
+   "county_seat": "Easton",
+   "population": 312951,
+   "established": 1752,
+   "region": "eastern Pennsylvania in the Lehigh Valley where the Lehigh River meets the Delaware River",
+   "largest_cities": [
+    "Easton",
+    "Bethlehem",
+    "Nazareth",
+    "Bangor",
+    "Hellertown",
+    "Wilson"
+   ],
+   "nearest_metro": "Allentown-Bethlehem-Easton is the regional metro, about 70 miles north of Philadelphia",
+   "natural_features": [
+    "Delaware River waterfront at Easton",
+    "Lehigh River corridor",
+    "Jacobsburg Environmental Education Center",
+    "Blue Mountain ridge and Appalachian Trail"
+   ],
+   "habitat_type": "historic Easton and Bethlehem industrial blocks, slate-belt boroughs in the north, and suburban growth along the river corridors",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and squirrels work the older rooflines of Easton, Bethlehem, and the slate-belt boroughs, rats persist around the riverfront and older commercial stock, and groundhogs burrow the farm and quarry edges from Nazareth to Bangor",
+   "absent_or_rare": "black bears are occasional visitors off Blue Mountain, and deer, beaver, and fisher activity in the northern woods is Pennsylvania Game Commission business rather than routine removal"
+  },
+  "York County": {
+   "county_seat": "York",
+   "population": 456438,
+   "established": 1749,
+   "region": "south-central Pennsylvania along the Susquehanna River's west shore, bordering Maryland",
+   "largest_cities": [
+    "York",
+    "Hanover",
+    "Dallastown",
+    "Red Lion",
+    "Shrewsbury",
+    "Spring Grove"
+   ],
+   "nearest_metro": "Harrisburg (about 25 miles north) across the Susquehanna",
+   "natural_features": [
+    "Susquehanna River corridor",
+    "Codorus Creek and Lake Marburg at Codorus State Park",
+    "Gifford Pinchot State Park",
+    "Rocky Ridge and Samuel S. Lewis State Park"
+   ],
+   "habitat_type": "the older industrial city of York, snack-food and manufacturing boroughs, and rolling farm country to the Maryland line",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "Eastern gray squirrels",
+    "skunks",
+    "Norway rats",
+    "bats",
+    "moles"
+   ],
+   "regional_wildlife": "groundhogs burrow farm edges and Hanover-area gardens all season, raccoons and squirrels fill York city and suburban attics, and Norway rats persist in the older industrial blocks of York and Spring Grove",
+   "absent_or_rare": "black bears are uncommon wanderers from the northern ridges, and deer, beavers, and muskrats along the Susquehanna and Codorus are managed by the Pennsylvania Game Commission"
+  },
+  "Dauphin County": {
+   "county_seat": "Harrisburg",
+   "population": 286401,
+   "established": 1785,
+   "region": "south-central Pennsylvania on the east shore of the Susquehanna River, home to the state capital",
+   "largest_cities": [
+    "Harrisburg",
+    "Hershey",
+    "Middletown",
+    "Hummelstown",
+    "Steelton",
+    "Linglestown"
+   ],
+   "nearest_metro": "Harrisburg is the state capital and regional metro center",
+   "natural_features": [
+    "Susquehanna River and City Island",
+    "Blue Mountain and Peters Mountain ridges",
+    "Swatara Creek corridor",
+    "Wildwood Park and the Harrisburg greenbelt"
+   ],
+   "habitat_type": "the capital city and older river boroughs, Hershey's planned community, and ridge-and-valley suburbs to the north",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and gray squirrels run the mature street trees of Harrisburg, Hershey, and Linglestown, Norway rats hold the older blocks of Steelton and Middletown, and groundhogs work the farm and large-lot edges under Blue Mountain",
+   "absent_or_rare": "black bears come down Peters Mountain into the northern townships but are Pennsylvania Game Commission-managed, as are deer and beavers on the Swatara"
+  },
+  "Cumberland County": {
+   "county_seat": "Carlisle",
+   "population": 259469,
+   "established": 1750,
+   "region": "south-central Pennsylvania in the Cumberland Valley on the Susquehanna's west shore",
+   "largest_cities": [
+    "Carlisle",
+    "Mechanicsburg",
+    "Camp Hill",
+    "Lemoyne",
+    "Shippensburg",
+    "New Cumberland"
+   ],
+   "nearest_metro": "Harrisburg (directly across the Susquehanna River)",
+   "natural_features": [
+    "Conodoguinet Creek corridor",
+    "Susquehanna River west shore",
+    "South Mountain northern foothills",
+    "Kings Gap Environmental Education Center"
+   ],
+   "habitat_type": "fast-growing capital suburbs in the east, the historic college town of Carlisle, and farm valley toward Shippensburg",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "moles",
+    "opossums"
+   ],
+   "regional_wildlife": "squirrels and raccoons are steady in Camp Hill, Lemoyne, and Mechanicsburg's mature suburbs, groundhogs burrow valley farm edges and new-subdivision lots, and bats roost in Carlisle's older stone and brick housing",
+   "absent_or_rare": "black bears are occasional visitors off South Mountain, and deer, beavers, and muskrats along the Conodoguinet fall under Pennsylvania Game Commission management"
+  },
+  "Lebanon County": {
+   "county_seat": "Lebanon",
+   "population": 143257,
+   "established": 1813,
+   "region": "south-central Pennsylvania in the Lebanon Valley between Harrisburg and Reading",
+   "largest_cities": [
+    "Lebanon",
+    "Palmyra",
+    "Annville",
+    "Myerstown",
+    "Cornwall"
+   ],
+   "nearest_metro": "Harrisburg (about 25 miles west)",
+   "natural_features": [
+    "Swatara Creek corridor",
+    "Memorial Lake State Park",
+    "Middle Creek Wildlife Management Area southern edge",
+    "South Mountain foothills and the old Cornwall iron lands"
+   ],
+   "habitat_type": "a small industrial city, Pennsylvania Dutch farm valley, and commuter suburbs toward Hershey and Harrisburg",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "skunks",
+    "Eastern gray squirrels",
+    "bats",
+    "opossums",
+    "moles"
+   ],
+   "regional_wildlife": "groundhogs and skunks work the farm edges and borough yards from Myerstown to Annville, raccoons den in Lebanon city's older homes, and bats use the stone farmhouses and barns along the Swatara",
+   "absent_or_rare": "black bears are rare wanderers from South Mountain, and deer, beavers, and wild turkeys in the valley are Pennsylvania Game Commission-managed species"
+  },
+  "Adams County": {
+   "county_seat": "Gettysburg",
+   "population": 103852,
+   "established": 1800,
+   "region": "south-central Pennsylvania, Gettysburg battlefield country along the Maryland line",
+   "largest_cities": [
+    "Gettysburg",
+    "Littlestown",
+    "New Oxford",
+    "East Berlin",
+    "Biglerville"
+   ],
+   "nearest_metro": "Harrisburg (about 35 miles northeast) and Baltimore (about 55 miles southeast)",
+   "natural_features": [
+    "Gettysburg National Military Park",
+    "Conewago Creek corridor",
+    "South Mountain western slope",
+    "Michaux State Forest eastern edge"
+   ],
+   "habitat_type": "historic battlefield boroughs, orchard country around Biglerville and Arendtsville, and rural residential growth",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "skunks",
+    "Eastern gray squirrels",
+    "bats",
+    "opossums",
+    "moles"
+   ],
+   "regional_wildlife": "groundhogs burrow orchard edges and battlefield fence lines, raccoons and skunks work Gettysburg's older homes and the boroughs along Route 30, and bats roost in the stone houses and barns of the orchard country",
+   "absent_or_rare": "black bears wander down from Michaux and South Mountain only occasionally, and deer and turkeys on the battlefield are managed by the Pennsylvania Game Commission and the National Park Service"
+  },
+  "Franklin County": {
+   "county_seat": "Chambersburg",
+   "population": 155932,
+   "established": 1784,
+   "region": "south-central Pennsylvania in the Cumberland Valley along the Maryland line",
+   "largest_cities": [
+    "Chambersburg",
+    "Waynesboro",
+    "Greencastle",
+    "Mercersburg",
+    "Mont Alto"
+   ],
+   "nearest_metro": "Hagerstown, Maryland (about 20 miles south of Chambersburg)",
+   "natural_features": [
+    "Conococheague Creek corridor",
+    "Michaux State Forest",
+    "Tuscarora Mountain and Kittatinny Ridge",
+    "Caledonia State Park"
+   ],
+   "habitat_type": "valley farm country and warehouse corridor along I-81, with mountain forest on both sides",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "Eastern gray squirrels",
+    "skunks",
+    "bats",
+    "opossums",
+    "moles"
+   ],
+   "regional_wildlife": "groundhogs burrow farm and orchard edges from Greencastle to Mercersburg, raccoons and squirrels fill Chambersburg and Waynesboro housing, and skunks work the valley floor lawns all summer",
+   "absent_or_rare": "black bears are regular in the Michaux and Tuscarora forests but are Pennsylvania Game Commission-managed, as are deer and beavers along the Conococheague"
+  },
+  "Luzerne County": {
+   "county_seat": "Wilkes-Barre",
+   "population": 325594,
+   "established": 1786,
+   "region": "northeastern Pennsylvania in the Wyoming Valley along the Susquehanna River, historic anthracite coal country",
+   "largest_cities": [
+    "Wilkes-Barre",
+    "Hazleton",
+    "Pittston",
+    "Nanticoke",
+    "Kingston",
+    "Mountain Top"
+   ],
+   "nearest_metro": "Scranton-Wilkes-Barre is the regional metro",
+   "natural_features": [
+    "Susquehanna River through the Wyoming Valley",
+    "Lehigh River gorge at the county's east",
+    "Frances Slocum and Ricketts Glen state parks",
+    "Nescopeck and Wapwallopen creek corridors"
+   ],
+   "habitat_type": "dense coal-era cities and boroughs in the valley, mine-scarred hillsides, and mountain suburbs",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "skunks",
+    "bats",
+    "groundhogs",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and rats run the dense older housing of Wilkes-Barre, Pittston, and Nanticoke, bats colonize coal-era attics and church belfries across the valley, and skunks and groundhogs work the Mountain Top and Hazleton edges",
+   "absent_or_rare": "black bears are common in the surrounding mountains but are Pennsylvania Game Commission-managed, as are deer, beavers, and fishers in the state parks"
+  },
+  "Lackawanna County": {
+   "county_seat": "Scranton",
+   "population": 215896,
+   "established": 1878,
+   "region": "northeastern Pennsylvania in the Lackawanna Valley, the northern half of the Scranton-Wilkes-Barre metro",
+   "largest_cities": [
+    "Scranton",
+    "Dunmore",
+    "Carbondale",
+    "Old Forge",
+    "Dickson City",
+    "Clarks Summit"
+   ],
+   "nearest_metro": "Scranton is the regional center, about 100 miles north of Philadelphia",
+   "natural_features": [
+    "Lackawanna River corridor",
+    "Lackawanna State Park",
+    "Moosic Mountain and the Pocono edge",
+    "Nay Aug Park gorge in Scranton"
+   ],
+   "habitat_type": "the dense older city of Scranton, coal-era valley boroughs, and Abington suburbs climbing out of the valley",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "skunks",
+    "bats",
+    "opossums",
+    "groundhogs"
+   ],
+   "regional_wildlife": "Norway rats and raccoons persist in Scranton's older neighborhoods and along the Lackawanna River, squirrels and bats fill Dunmore, Old Forge, and Carbondale housing, and skunks dig lawns across the Abingtons",
+   "absent_or_rare": "black bears are regular visitors off Moosic Mountain but are Pennsylvania Game Commission-managed, as are beavers and deer along the Lackawanna River"
+  },
+  "Monroe County": {
+   "county_seat": "Stroudsburg",
+   "population": 168327,
+   "established": 1836,
+   "region": "northeastern Pennsylvania in the Poconos along the Delaware River and the New Jersey line",
+   "largest_cities": [
+    "Stroudsburg",
+    "East Stroudsburg",
+    "Mount Pocono",
+    "Tobyhanna",
+    "Brodheadsville",
+    "Tannersville"
+   ],
+   "nearest_metro": "the Stroudsburgs are the local center, with the New York metro about 75 miles east",
+   "natural_features": [
+    "Delaware Water Gap National Recreation Area",
+    "Brodhead Creek corridor",
+    "Tobyhanna and Gouldsboro state parks",
+    "Camelback Mountain and Big Pocono State Park"
+   ],
+   "habitat_type": "Pocono resort and vacation-home communities, lake developments, and fast-growing commuter suburbs in deep forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "skunks",
+    "groundhogs",
+    "opossums",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons and bats are the signature problem in vacation and second homes that sit empty between visits, squirrels chew into lake-community houses from Tobyhanna to Brodheadsville, and skunks work the lawns of the Stroudsburg suburbs",
+   "absent_or_rare": "black bears are abundant in the Poconos and are the county's biggest wildlife presence, but they are Pennsylvania Game Commission-managed and never a private removal booking — the same goes for deer, beavers, and porcupines in the deep woods"
+  },
+  "Centre County": {
+   "county_seat": "Bellefonte",
+   "population": 158172,
+   "established": 1800,
+   "region": "central Pennsylvania, Penn State country in the ridge-and-valley heart of the state",
+   "largest_cities": [
+    "State College",
+    "Bellefonte",
+    "Philipsburg",
+    "Boalsburg",
+    "Centre Hall"
+   ],
+   "nearest_metro": "State College is the regional center, about 85 miles northwest of Harrisburg",
+   "natural_features": [
+    "Mount Nittany and Tussey Ridge",
+    "Spring Creek and Bald Eagle Creek corridors",
+    "Rothrock and Bald Eagle state forests",
+    "Penns Creek and Penn's Cave country to the east"
+   ],
+   "habitat_type": "a university town and suburbs in Happy Valley, historic Bellefonte, and long farm valleys between forested ridges",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "groundhogs",
+    "skunks",
+    "opossums",
+    "moles"
+   ],
+   "regional_wildlife": "squirrels and raccoons run the student-rental and older housing of State College and Bellefonte, groundhogs burrow the farm valleys of Penns and Nittany, and bats roost in Victorian Bellefonte and farmhouses along Spring Creek",
+   "absent_or_rare": "black bears, deer, and bobcats fill the surrounding state forests but are Pennsylvania Game Commission-managed rather than household removal work"
+  },
+  "Blair County": {
+   "county_seat": "Hollidaysburg",
+   "population": 122822,
+   "established": 1846,
+   "region": "central Pennsylvania in the Allegheny Front country around Altoona",
+   "largest_cities": [
+    "Altoona",
+    "Hollidaysburg",
+    "Tyrone",
+    "Duncansville",
+    "Bellwood"
+   ],
+   "nearest_metro": "Altoona is the regional center, about 95 miles east of Pittsburgh",
+   "natural_features": [
+    "Brush Mountain and the Allegheny Front",
+    "Juniata River and Frankstown Branch corridor",
+    "Canoe Creek State Park",
+    "Horseshoe Curve and the railroad corridor"
+   ],
+   "habitat_type": "the railroad city of Altoona in its mountain bowl, older boroughs, and farm valleys along the Juniata",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "bats",
+    "skunks",
+    "groundhogs",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and rats persist in Altoona's dense older housing, bats colonize churches and mill-era attics in Hollidaysburg and Tyrone, and groundhogs and skunks work the valley farms and suburban edges",
+   "absent_or_rare": "black bears come off Brush Mountain regularly but are Pennsylvania Game Commission-managed, as are deer and beavers along the Juniata"
+  },
+  "Cambria County": {
+   "county_seat": "Ebensburg",
+   "population": 133472,
+   "established": 1804,
+   "region": "west-central Pennsylvania on the Allegheny Plateau around Johnstown",
+   "largest_cities": [
+    "Johnstown",
+    "Ebensburg",
+    "Nanty Glo",
+    "Northern Cambria",
+    "Portage"
+   ],
+   "nearest_metro": "Johnstown is the regional center, about 65 miles east of Pittsburgh",
+   "natural_features": [
+    "Conemaugh River gorge and the Johnstown floodplain",
+    "Little Conemaugh and Stoneycreek rivers",
+    "Prince Gallitzin State Park and Glendale Lake",
+    "Allegheny Front escarpment"
+   ],
+   "habitat_type": "the steep industrial city of Johnstown, coal and steel boroughs on the plateau, and forested ridges",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "bats",
+    "skunks",
+    "groundhogs",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and rats work Johnstown's dense hillside housing and older commercial blocks, bats roost in plateau churches and Ebensburg's older homes, and skunks and groundhogs fill the borough edges from Portage to Nanty Glo",
+   "absent_or_rare": "black bears, deer, and fishers are common on the plateau but are Pennsylvania Game Commission-managed rather than private removal work"
+  },
+  "Lycoming County": {
+   "county_seat": "Williamsport",
+   "population": 114188,
+   "established": 1795,
+   "region": "north-central Pennsylvania on the West Branch Susquehanna River, the largest county in the state by land area",
+   "largest_cities": [
+    "Williamsport",
+    "South Williamsport",
+    "Jersey Shore",
+    "Montoursville",
+    "Muncy",
+    "Hughesville"
+   ],
+   "nearest_metro": "Williamsport is the regional center, about 85 miles north of Harrisburg",
+   "natural_features": [
+    "West Branch Susquehanna River corridor",
+    "Loyalsock Creek and Loyalsock State Forest",
+    "Lycoming Creek corridor",
+    "Pine Creek and the Pennsylvania Grand Canyon western edge"
+   ],
+   "habitat_type": "the river city of Williamsport, lumber-era boroughs, and a vast forested interior in the Loyalsock",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "skunks",
+    "groundhogs",
+    "opossums",
+    "Norway rats"
+   ],
+   "regional_wildlife": "raccoons and squirrels fill Williamsport's lumber-era housing, bats roost in river-town churches and older homes from Muncy to Jersey Shore, and groundhogs and skunks work the farm valley along the West Branch",
+   "absent_or_rare": "black bears, deer, bobcats, and fishers are abundant in the Loyalsock State Forest but are Pennsylvania Game Commission-managed, never routine removal calls"
+  },
+  "Allegheny County": {
+   "county_seat": "Pittsburgh",
+   "population": 1250578,
+   "established": 1788,
+   "region": "southwestern Pennsylvania at the forks of the Ohio, where the Allegheny and Monongahela rivers meet",
+   "largest_cities": [
+    "Pittsburgh",
+    "Bethel Park",
+    "Monroeville",
+    "McKeesport",
+    "Penn Hills",
+    "Mount Lebanon"
+   ],
+   "nearest_metro": "Pittsburgh is the regional metro center",
+   "natural_features": [
+    "Allegheny, Monongahela, and Ohio river corridors",
+    "Frick Park and Schenley Park woodlands",
+    "South Park and North Park",
+    "Youghiogheny River at the county's southeast"
+   ],
+   "habitat_type": "dense urban Pittsburgh neighborhoods on steep river hills, streetcar suburbs, and Mon Valley mill towns",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "skunks",
+    "bats",
+    "groundhogs",
+    "opossums"
+   ],
+   "regional_wildlife": "Norway rats and raccoons run Pittsburgh's older rowhouse and hillside neighborhoods and the Mon Valley mill towns, gray squirrels are relentless in the streetcar suburbs from Mount Lebanon to Penn Hills, and groundhogs burrow the river hillsides and park edges countywide",
+   "absent_or_rare": "white-tailed deer are heavily overabundant in the parks and suburbs but are Pennsylvania Game Commission-managed, and beavers, foxes, and coyotes along the rivers are not routine household removal work"
+  },
+  "Westmoreland County": {
+   "county_seat": "Greensburg",
+   "population": 354663,
+   "established": 1773,
+   "region": "southwestern Pennsylvania in the Laurel Highlands foothills east of Pittsburgh",
+   "largest_cities": [
+    "Greensburg",
+    "Latrobe",
+    "New Kensington",
+    "Monessen",
+    "Jeannette",
+    "Irwin"
+   ],
+   "nearest_metro": "Pittsburgh (about 30 miles west of Greensburg)",
+   "natural_features": [
+    "Youghiogheny River corridor",
+    "Loyalhanna Creek and Keystone State Park",
+    "Chestnut Ridge",
+    "Linn Run and Forbes State Forest edge"
+   ],
+   "habitat_type": "Greensburg and older industrial boroughs, Pittsburgh commuter suburbs in the west, and mountain country on Chestnut Ridge",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "Norway rats",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and squirrels fill Greensburg, Latrobe, and the western suburbs, groundhogs burrow farms and big lots under Chestnut Ridge, and rats persist in the older Mon Valley and New Kensington blocks",
+   "absent_or_rare": "black bears are regular on Chestnut Ridge and in the Forbes State Forest but are Pennsylvania Game Commission-managed, as are deer and beavers on the Loyalhanna"
+  },
+  "Washington County": {
+   "county_seat": "Washington",
+   "population": 209349,
+   "established": 1781,
+   "region": "southwestern Pennsylvania in the Marcellus gas country south of Pittsburgh",
+   "largest_cities": [
+    "Washington",
+    "Canonsburg",
+    "Monongahela",
+    "California",
+    "Charleroi",
+    "McMurray"
+   ],
+   "nearest_metro": "Pittsburgh (about 25 miles north of Washington)",
+   "natural_features": [
+    "Monongahela River corridor",
+    "Chartiers Creek corridor",
+    "Cross Creek County Park",
+    "Mingo Creek County Park"
+   ],
+   "habitat_type": "the older city of Washington, Mon Valley river towns, gas-country rural land, and affluent Peters Township suburbs",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "opossums",
+    "moles"
+   ],
+   "regional_wildlife": "groundhogs burrow farm, gas-pad, and big-lot edges across the county, raccoons and squirrels fill Washington, Canonsburg, and McMurray housing, and skunks work the Mon Valley river towns at dusk",
+   "absent_or_rare": "black bears are occasional visitors in the southern townships, and deer, beavers, and muskrats along the Monongahela and Chartiers Creek are Pennsylvania Game Commission-managed"
+  },
+  "Butler County": {
+   "county_seat": "Butler",
+   "population": 193763,
+   "established": 1800,
+   "region": "western Pennsylvania north of Pittsburgh, mixing Cranberry suburbs with farm and gas country",
+   "largest_cities": [
+    "Butler",
+    "Cranberry",
+    "Slippery Rock",
+    "Zelienople",
+    "Evans City",
+    "Mars"
+   ],
+   "nearest_metro": "Pittsburgh (about 30 miles south of Butler city)",
+   "natural_features": [
+    "Connoquenessing Creek corridor",
+    "Moraine State Park and Lake Arthur",
+    "Slippery Rock Creek gorge",
+    "Allegheny River at the county's east"
+   ],
+   "habitat_type": "fast-growing Cranberry suburbs in the south, the older city of Butler, and rural farm and woodland in the north",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "moles",
+    "opossums"
+   ],
+   "regional_wildlife": "squirrels and raccoons run the new Cranberry and Mars subdivisions as their trees mature, groundhogs and moles work the farm and big-lot north, and bats roost in Butler city's older housing and Slippery Rock borough homes",
+   "absent_or_rare": "black bears wander the northern woods but are Pennsylvania Game Commission-managed, as are deer and beavers on Lake Arthur and the Connoquenessing"
+  },
+  "Beaver County": {
+   "county_seat": "Beaver",
+   "population": 168215,
+   "established": 1800,
+   "region": "western Pennsylvania along the Ohio River northwest of Pittsburgh",
+   "largest_cities": [
+    "Beaver",
+    "Aliquippa",
+    "Beaver Falls",
+    "Monaca",
+    "Ambridge",
+    "Rochester"
+   ],
+   "nearest_metro": "Pittsburgh (about 30 miles southeast)",
+   "natural_features": [
+    "Ohio River corridor",
+    "Beaver River corridor",
+    "Raccoon Creek State Park",
+    "Bradys Run Park"
+   ],
+   "habitat_type": "historic Ohio River boroughs, steel-era towns along the Beaver River, and suburban growth in the center",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and rats persist in the river towns from Ambridge to Beaver Falls, groundhogs burrow the hillsides above the Ohio, and bats roost in the Victorian housing of Beaver and Rochester",
+   "absent_or_rare": "white-tailed deer and beavers along the rivers and in Raccoon Creek State Park are Pennsylvania Game Commission-managed rather than routine removal work"
+  },
+  "Mercer County": {
+   "county_seat": "Mercer",
+   "population": 110683,
+   "established": 1800,
+   "region": "western Pennsylvania on the Ohio line, in the Shenango River valley",
+   "largest_cities": [
+    "Sharon",
+    "Hermitage",
+    "Grove City",
+    "Greenville",
+    "Mercer",
+    "Farrell"
+   ],
+   "nearest_metro": "Youngstown, Ohio (about 15 miles west of Sharon)",
+   "natural_features": [
+    "Shenango River and Shenango River Lake",
+    "Lake Wilhelm and Maurice K. Goddard State Park",
+    "Pymatuning Reservoir western shore",
+    "Neshannock Creek corridor"
+   ],
+   "habitat_type": "small steel-era cities in the Shenango valley, Grove City's outlet-corridor growth, and farm and lake country",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "opossums",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons and squirrels fill Sharon, Farrell, and Hermitage housing, groundhogs burrow farm edges from Grove City to Greenville, and bats roost in the valley's older churches and homes",
+   "absent_or_rare": "black bears are occasional in the northern woods, and deer, beavers, and muskrats around Shenango Lake and Pymatuning are Pennsylvania Game Commission-managed"
+  },
+  "Fayette County": {
+   "county_seat": "Uniontown",
+   "population": 128804,
+   "established": 1783,
+   "region": "southwestern Pennsylvania in the Laurel Highlands along the West Virginia line",
+   "largest_cities": [
+    "Uniontown",
+    "Connellsville",
+    "Brownsville",
+    "Masontown",
+    "Perryopolis"
+   ],
+   "nearest_metro": "Pittsburgh (about 45 miles northwest of Uniontown)",
+   "natural_features": [
+    "Youghiogheny River and Ohiopyle State Park",
+    "Laurel Ridge and Chestnut Ridge",
+    "Monongahela River at Brownsville",
+    "Fort Necessity and the National Road corridor"
+   ],
+   "habitat_type": "the mountain city of Uniontown, river and rail boroughs, coal country, and Laurel Highlands resort land",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "skunks",
+    "groundhogs",
+    "opossums",
+    "Norway rats"
+   ],
+   "regional_wildlife": "raccoons and bats work Uniontown and Connellsville housing and the mountain cabins around Ohiopyle, skunks and groundhogs fill the valley farms, and rats persist in the older Monongahela riverfront blocks of Brownsville",
+   "absent_or_rare": "black bears are common in the Laurel Highlands but are Pennsylvania Game Commission-managed, as are deer, beavers, and fishers in the state parks"
+  },
+  "Erie County": {
+   "county_seat": "Erie",
+   "population": 270876,
+   "established": 1800,
+   "region": "northwestern Pennsylvania on Lake Erie, the state's only Great Lakes shoreline county",
+   "largest_cities": [
+    "Erie",
+    "Corry",
+    "North East",
+    "Girard",
+    "Edinboro",
+    "Harborcreek"
+   ],
+   "nearest_metro": "Erie is the regional center, about 100 miles from both Pittsburgh and Buffalo",
+   "natural_features": [
+    "Lake Erie shoreline and Presque Isle State Park",
+    "Walnut Creek and Elk Creek steelhead corridors",
+    "Lake Erie wine-country grape belt",
+    "Erie Bluffs State Park"
+   ],
+   "habitat_type": "the older lake city of Erie, grape-belt boroughs along the shore, and Edinboro lake country inland",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "opossums"
+   ],
+   "regional_wildlife": "Norway rats and raccoons run Erie's older east- and west-side neighborhoods and waterfront, groundhogs burrow the grape-belt farms from North East to Girard, and bats roost in lake-effect country homes and Edinboro cottages",
+   "absent_or_rare": "white-tailed deer on Presque Isle and beavers and muskrats in the lake marshes are Pennsylvania Game Commission-managed, and black bears are only occasional visitors inland"
+  },
+  "Armstrong County": {
+   "county_seat": "Kittanning",
+   "population": 65558,
+   "established": 1800,
+   "region": "western Pennsylvania along the Allegheny River northeast of Pittsburgh",
+   "largest_cities": [
+    "Kittanning",
+    "Ford City",
+    "Leechburg",
+    "Apollo",
+    "Freeport"
+   ],
+   "nearest_metro": "Pittsburgh (about 40 miles southwest)",
+   "natural_features": [
+    "Allegheny River corridor",
+    "Crooked Creek Lake",
+    "Mahoning Creek corridor"
+   ],
+   "habitat_type": "river boroughs and rural farm and woodland",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "groundhogs",
+    "skunks",
+    "bats"
+   ],
+   "regional_wildlife": "raccoons and squirrels fill Kittanning and Ford City housing, groundhogs burrow the farm country, and bats roost in river-town churches",
+   "absent_or_rare": "black bears, deer, and beavers along the Allegheny are Pennsylvania Game Commission-managed rather than routine removal work"
+  },
+  "Bedford County": {
+   "county_seat": "Bedford",
+   "population": 47577,
+   "established": 1771,
+   "region": "south-central Pennsylvania in the Allegheny foothills along the Maryland line",
+   "largest_cities": [
+    "Bedford",
+    "Everett",
+    "Hyndman",
+    "Saxton",
+    "New Paris"
+   ],
+   "nearest_metro": "Altoona (about 30 miles north)",
+   "natural_features": [
+    "Juniata River Raystown Branch corridor",
+    "Blue Knob State Park",
+    "Shawnee State Park",
+    "Wills Mountain"
+   ],
+   "habitat_type": "historic Bedford borough, farm valleys, and mountain forest",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "skunks",
+    "Eastern gray squirrels",
+    "bats"
+   ],
+   "regional_wildlife": "groundhogs and skunks work the farm valleys, raccoons den in Bedford and Everett homes, and bats use the older stone housing",
+   "absent_or_rare": "black bears and deer are abundant in the mountains but Pennsylvania Game Commission-managed"
+  },
+  "Bradford County": {
+   "county_seat": "Towanda",
+   "population": 59967,
+   "established": 1810,
+   "region": "northern-tier Pennsylvania along the Susquehanna River and the New York line",
+   "largest_cities": [
+    "Towanda",
+    "Sayre",
+    "Athens",
+    "Troy",
+    "Canton"
+   ],
+   "nearest_metro": "Elmira, New York (about 20 miles north of Sayre)",
+   "natural_features": [
+    "Susquehanna River corridor",
+    "Mount Pisgah State Park",
+    "Sugar Creek corridor"
+   ],
+   "habitat_type": "river boroughs and dairy farm country in the Endless Mountains foothills",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "groundhogs burrow dairy farm edges, raccoons and bats fill Towanda and Sayre housing, and skunks work the valley farms",
+   "absent_or_rare": "black bears, deer, and beavers are common but Pennsylvania Game Commission-managed"
+  },
+  "Cameron County": {
+   "county_seat": "Emporium",
+   "population": 4547,
+   "established": 1860,
+   "region": "north-central Pennsylvania in the Pennsylvania Wilds, one of the state's least populous counties",
+   "largest_cities": [
+    "Emporium",
+    "Driftwood"
+   ],
+   "nearest_metro": "St. Marys in Elk County (about 15 miles west)",
+   "natural_features": [
+    "Sinnemahoning Creek and Sinnemahoning State Park",
+    "Elk State Forest",
+    "Bucktail State Park corridor"
+   ],
+   "habitat_type": "deep forest and small creek-valley communities",
+   "common_wildlife": [
+    "raccoons",
+    "bats",
+    "skunks",
+    "porcupines"
+   ],
+   "regional_wildlife": "raccoons and bats are the house calls in Emporium, skunks work camp properties, and porcupines gnaw outbuildings through the forest",
+   "absent_or_rare": "elk, black bears, deer, and bobcats define this county and are entirely Pennsylvania Game Commission-managed"
+  },
+  "Carbon County": {
+   "county_seat": "Jim Thorpe",
+   "population": 65249,
+   "established": 1843,
+   "region": "eastern Pennsylvania in the Pocono foothills along the Lehigh River",
+   "largest_cities": [
+    "Jim Thorpe",
+    "Lehighton",
+    "Palmerton",
+    "Weatherly",
+    "Lansford"
+   ],
+   "nearest_metro": "Allentown (about 30 miles south)",
+   "natural_features": [
+    "Lehigh River gorge and Lehigh Gorge State Park",
+    "Hickory Run State Park",
+    "Beltzville Lake"
+   ],
+   "habitat_type": "historic Jim Thorpe, coal boroughs, and vacation and lake communities",
+   "common_wildlife": [
+    "raccoons",
+    "bats",
+    "Eastern gray squirrels",
+    "skunks",
+    "groundhogs"
+   ],
+   "regional_wildlife": "raccoons and bats fill Jim Thorpe and Lehighton housing and lake homes around Beltzville, and skunks work the borough edges",
+   "absent_or_rare": "black bears are common in the gorge country but Pennsylvania Game Commission-managed"
+  },
+  "Clarion County": {
+   "county_seat": "Clarion",
+   "population": 37241,
+   "established": 1839,
+   "region": "western Pennsylvania along the Allegheny River and the Clarion River",
+   "largest_cities": [
+    "Clarion",
+    "New Bethlehem",
+    "Knox",
+    "Rimersburg",
+    "Strattanville"
+   ],
+   "nearest_metro": "Pittsburgh (about 80 miles southwest)",
+   "natural_features": [
+    "Clarion River corridor",
+    "Cook Forest State Park southern edge",
+    "Allegheny River at East Brady"
+   ],
+   "habitat_type": "college borough of Clarion, river towns, and farm and forest land",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "groundhogs burrow the farm country, raccoons and bats fill Clarion and river-town homes, and skunks work the borough edges",
+   "absent_or_rare": "black bears, deer, and beavers along the Clarion River are Pennsylvania Game Commission-managed"
+  },
+  "Clearfield County": {
+   "county_seat": "Clearfield",
+   "population": 80562,
+   "established": 1804,
+   "region": "central Pennsylvania on the Allegheny Plateau along the West Branch Susquehanna",
+   "largest_cities": [
+    "Clearfield",
+    "DuBois",
+    "Curwensville",
+    "Philipsburg"
+   ],
+   "nearest_metro": "State College (about 40 miles southeast of Clearfield)",
+   "natural_features": [
+    "West Branch Susquehanna River corridor",
+    "Parker Dam State Park",
+    "Moshannon State Forest",
+    "Quehanna Wild Area southern edge"
+   ],
+   "habitat_type": "plateau boroughs, DuBois as the commercial hub, and extensive forest",
+   "common_wildlife": [
+    "raccoons",
+    "bats",
+    "skunks",
+    "groundhogs",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "raccoons and bats fill Clearfield and DuBois housing, skunks and groundhogs work the plateau farms and camp properties",
+   "absent_or_rare": "black bears, deer, and elk at the county's east are Pennsylvania Game Commission-managed"
+  },
+  "Clinton County": {
+   "county_seat": "Lock Haven",
+   "population": 37450,
+   "established": 1839,
+   "region": "central Pennsylvania on the West Branch Susquehanna at the Bald Eagle valley",
+   "largest_cities": [
+    "Lock Haven",
+    "Renovo",
+    "Mill Hall",
+    "Avis",
+    "Beach Creek"
+   ],
+   "nearest_metro": "Williamsport (about 25 miles east)",
+   "natural_features": [
+    "West Branch Susquehanna River corridor",
+    "Bald Eagle State Forest",
+    "Pine Creek mouth",
+    "Hyner View State Park"
+   ],
+   "habitat_type": "the river city of Lock Haven, valley boroughs, and mountain forest",
+   "common_wildlife": [
+    "raccoons",
+    "bats",
+    "Eastern gray squirrels",
+    "skunks",
+    "groundhogs"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and bats fill Lock Haven and Mill Hall housing, and groundhogs work the Bald Eagle valley farms",
+   "absent_or_rare": "black bears, deer, and bobcats in the mountain forest are Pennsylvania Game Commission-managed"
+  },
+  "Columbia County": {
+   "county_seat": "Bloomsburg",
+   "population": 64727,
+   "established": 1813,
+   "region": "central Pennsylvania on the Susquehanna River's north branch",
+   "largest_cities": [
+    "Bloomsburg",
+    "Berwick",
+    "Catawissa",
+    "Benton",
+    "Millville"
+   ],
+   "nearest_metro": "Wilkes-Barre (about 35 miles northeast)",
+   "natural_features": [
+    "Susquehanna River corridor",
+    "Fishing Creek corridor",
+    "Ricketts Glen State Park southern edge"
+   ],
+   "habitat_type": "the university borough of Bloomsburg, Berwick's industrial blocks, and farm country",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "groundhogs",
+    "skunks"
+   ],
+   "regional_wildlife": "squirrels and raccoons run Bloomsburg and Berwick housing, groundhogs burrow the farm country, and bats roost in older river-town homes",
+   "absent_or_rare": "black bears come down from the northern mountains but are Pennsylvania Game Commission-managed"
+  },
+  "Crawford County": {
+   "county_seat": "Meadville",
+   "population": 83938,
+   "established": 1800,
+   "region": "northwestern Pennsylvania around Pymatuning Reservoir and Conneaut Lake",
+   "largest_cities": [
+    "Meadville",
+    "Titusville",
+    "Conneaut Lake",
+    "Cambridge Springs",
+    "Linesville"
+   ],
+   "nearest_metro": "Erie (about 35 miles north of Meadville)",
+   "natural_features": [
+    "Pymatuning Reservoir and Pymatuning State Park",
+    "Conneaut Lake",
+    "French Creek corridor",
+    "Oil Creek State Park"
+   ],
+   "habitat_type": "Meadville and Titusville small cities, lake communities, and dairy farm country",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "Eastern gray squirrels",
+    "moles"
+   ],
+   "regional_wildlife": "groundhogs and moles work the farm and lake lawns, raccoons and bats fill Meadville and Titusville homes, and skunks den around Conneaut Lake cottages",
+   "absent_or_rare": "deer, beavers, and muskrats at Pymatuning are Pennsylvania Game Commission-managed, and black bears are occasional in the woods"
+  },
+  "Elk County": {
+   "county_seat": "Ridgway",
+   "population": 30990,
+   "established": 1843,
+   "region": "north-central Pennsylvania in the Pennsylvania Wilds elk country",
+   "largest_cities": [
+    "Ridgway",
+    "St. Marys",
+    "Johnsonburg",
+    "Kersey",
+    "Benezette"
+   ],
+   "nearest_metro": "DuBois (about 25 miles south of Ridgway)",
+   "natural_features": [
+    "Elk Country Visitor Center and Winslow Hill near Benezette",
+    "Clarion River corridor",
+    "East Branch Clarion River Lake",
+    "Allegheny National Forest southern edge"
+   ],
+   "habitat_type": "small industrial boroughs in deep forest, famous for its wild elk herd",
+   "common_wildlife": [
+    "raccoons",
+    "bats",
+    "skunks",
+    "porcupines",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "raccoons and bats are the house calls in Ridgway and St. Marys, porcupines gnaw camp outbuildings, and skunks work the valley edges",
+   "absent_or_rare": "elk, black bears, deer, and bobcats are the county's defining wildlife and are Pennsylvania Game Commission-managed"
+  },
+  "Forest County": {
+   "county_seat": "Tionesta",
+   "population": 6973,
+   "established": 1848,
+   "region": "northwestern Pennsylvania in the Allegheny National Forest, the state's most forested county",
+   "largest_cities": [
+    "Tionesta",
+    "Marienville",
+    "Endeavor"
+   ],
+   "nearest_metro": "Warren (about 30 miles northeast)",
+   "natural_features": [
+    "Allegheny River corridor",
+    "Tionesta Lake",
+    "Allegheny National Forest",
+    "Cook Forest State Park"
+   ],
+   "habitat_type": "tiny river boroughs, camps, and second homes in unbroken forest",
+   "common_wildlife": [
+    "raccoons",
+    "bats",
+    "skunks",
+    "porcupines"
+   ],
+   "regional_wildlife": "raccoons and bats fill the camp and second-home stock around Tionesta Lake, porcupines gnaw camp siding, and skunks den under seasonal porches",
+   "absent_or_rare": "black bears, deer, and bobcats are abundant and entirely Pennsylvania Game Commission-managed"
+  },
+  "Fulton County": {
+   "county_seat": "McConnellsburg",
+   "population": 14556,
+   "established": 1850,
+   "region": "south-central Pennsylvania in the ridge-and-valley country along the Maryland line",
+   "largest_cities": [
+    "McConnellsburg",
+    "Hancock",
+    "Needmore",
+    "Warfordsburg"
+   ],
+   "nearest_metro": "Hagerstown, Maryland (about 25 miles south)",
+   "natural_features": [
+    "Tonoloway Creek corridor",
+    "Sideling Hill",
+    "Buchanan State Forest",
+    "Meadow Grounds Lake"
+   ],
+   "habitat_type": "one small borough and rural farm and mountain land",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "groundhogs and skunks work the farm valleys, and raccoons and bats fill McConnellsburg's older homes",
+   "absent_or_rare": "black bears and deer in Buchanan State Forest are Pennsylvania Game Commission-managed"
+  },
+  "Greene County": {
+   "county_seat": "Waynesburg",
+   "population": 35954,
+   "established": 1796,
+   "region": "southwestern Pennsylvania corner county on the West Virginia line",
+   "largest_cities": [
+    "Waynesburg",
+    "Carmichaels",
+    "Waynesburg area villages",
+    "Greensboro",
+    "Jefferson"
+   ],
+   "nearest_metro": "Morgantown, West Virginia (about 20 miles south)",
+   "natural_features": [
+    "Monongahela River at the county's east",
+    "Ryerson Station State Park",
+    "Enlow Fork and Dunkard Creek corridors"
+   ],
+   "habitat_type": "Waynesburg's college borough, coal and gas country, and farm hills",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "groundhogs burrow the farm hills, raccoons and bats fill Waynesburg and Carmichaels housing, and skunks work the creek valleys",
+   "absent_or_rare": "black bears are occasional, and deer and beavers are Pennsylvania Game Commission-managed"
+  },
+  "Huntingdon County": {
+   "county_seat": "Huntingdon",
+   "population": 44092,
+   "established": 1787,
+   "region": "central Pennsylvania around Raystown Lake in the ridge-and-valley country",
+   "largest_cities": [
+    "Huntingdon",
+    "Mount Union",
+    "Orbisonia",
+    "Alexandria",
+    "Petersburg"
+   ],
+   "nearest_metro": "Altoona (about 30 miles west)",
+   "natural_features": [
+    "Raystown Lake",
+    "Juniata River corridor",
+    "Rothrock State Forest",
+    "Stone Mountain and the Jacks Mountain ridge"
+   ],
+   "habitat_type": "lake communities, valley boroughs, and mountain forest",
+   "common_wildlife": [
+    "raccoons",
+    "bats",
+    "groundhogs",
+    "skunks",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "raccoons and bats fill Huntingdon borough and Raystown lake homes, groundhogs work the valley farms, and skunks den at lake cottages",
+   "absent_or_rare": "black bears, deer, and bobcats in Rothrock are Pennsylvania Game Commission-managed"
+  },
+  "Indiana County": {
+   "county_seat": "Indiana",
+   "population": 83246,
+   "established": 1803,
+   "region": "western Pennsylvania in the Allegheny foothills east of Pittsburgh — Indiana County, Pennsylvania, home of Indiana University of Pennsylvania",
+   "largest_cities": [
+    "Indiana",
+    "Blairsville",
+    "Homer City",
+    "Saltsburg",
+    "Clymer"
+   ],
+   "nearest_metro": "Pittsburgh (about 55 miles southwest)",
+   "natural_features": [
+    "Two Lick Creek and Yellow Creek State Park",
+    "Conemaugh River at Saltsburg",
+    "Kintersburg and the covered-bridge country"
+   ],
+   "habitat_type": "the university borough of Indiana, coal boroughs, and farm and forest land",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "bats",
+    "groundhogs",
+    "skunks"
+   ],
+   "regional_wildlife": "squirrels and raccoons run Indiana borough's student and older housing, bats roost in farmhouses, and groundhogs burrow the farm country",
+   "absent_or_rare": "black bears and deer in the northern woods are Pennsylvania Game Commission-managed"
+  },
+  "Jefferson County": {
+   "county_seat": "Brookville",
+   "population": 44492,
+   "established": 1804,
+   "region": "west-central Pennsylvania on the Allegheny Plateau, home of Punxsutawney",
+   "largest_cities": [
+    "Brookville",
+    "Punxsutawney",
+    "Brockway",
+    "Reynoldsville",
+    "Summerville"
+   ],
+   "nearest_metro": "DuBois (about 15 miles east of Brookville)",
+   "natural_features": [
+    "Redbank Creek corridor",
+    "Clear Creek State Park",
+    "Mahoning Creek and Punxsutawney"
+   ],
+   "habitat_type": "historic Brookville, Punxsutawney, and rural plateau farms and forest",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "bats",
+    "skunks",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "groundhogs are a point of local pride in Punxsutawney and a burrowing problem everywhere else, raccoons and bats fill Brookville and Brockway homes, and skunks work the farm edges",
+   "absent_or_rare": "black bears and deer on the plateau are Pennsylvania Game Commission-managed"
+  },
+  "Juniata County": {
+   "county_seat": "Mifflintown",
+   "population": 23509,
+   "established": 1831,
+   "region": "central Pennsylvania in the Juniata River valley",
+   "largest_cities": [
+    "Mifflintown",
+    "Port Royal",
+    "Thompsontown",
+    "Mifflin",
+    "Richfield"
+   ],
+   "nearest_metro": "Harrisburg (about 40 miles southeast)",
+   "natural_features": [
+    "Juniata River corridor",
+    "Tuscarora State Forest",
+    "Shade Mountain"
+   ],
+   "habitat_type": "small valley boroughs and farm country under Shade Mountain",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "groundhogs and skunks work the farm valley, and raccoons and bats fill Mifflintown and Port Royal homes",
+   "absent_or_rare": "black bears come off Shade Mountain but are Pennsylvania Game Commission-managed"
+  },
+  "Lawrence County": {
+   "county_seat": "New Castle",
+   "population": 86070,
+   "established": 1849,
+   "region": "western Pennsylvania on the Ohio line north of Pittsburgh",
+   "largest_cities": [
+    "New Castle",
+    "Ellwood City",
+    "New Wilmington",
+    "Bessemer",
+    "Wampum"
+   ],
+   "nearest_metro": "Youngstown, Ohio (about 20 miles west) and Pittsburgh (about 50 miles southeast)",
+   "natural_features": [
+    "Shenango River and Neshannock Creek corridors",
+    "McConnells Mill State Park",
+    "Slippery Rock Creek gorge"
+   ],
+   "habitat_type": "the older industrial city of New Castle, Amish farm country around New Wilmington, and river boroughs",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "groundhogs",
+    "skunks",
+    "bats"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and rats persist in New Castle's older blocks, groundhogs burrow the Amish farm country, and bats roost in Ellwood City housing",
+   "absent_or_rare": "deer and beavers in McConnells Mill are Pennsylvania Game Commission-managed, and black bears are occasional visitors"
+  },
+  "McKean County": {
+   "county_seat": "Smethport",
+   "population": 40432,
+   "established": 1804,
+   "region": "northern-tier Pennsylvania in the Pennsylvania Wilds along the New York line",
+   "largest_cities": [
+    "Bradford",
+    "Smethport",
+    "Kane",
+    "Port Allegany",
+    "Mount Jewett"
+   ],
+   "nearest_metro": "Olean, New York (about 20 miles north of Bradford)",
+   "natural_features": [
+    "Allegheny National Forest eastern half",
+    "Kinzua Bridge State Park",
+    "Allegany River headwaters",
+    "Kinzua Creek corridor"
+   ],
+   "habitat_type": "the oil-heritage city of Bradford, small boroughs, and deep national-forest country",
+   "common_wildlife": [
+    "raccoons",
+    "bats",
+    "skunks",
+    "porcupines",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "raccoons and bats fill Bradford, Kane, and Smethport homes, porcupines gnaw camp outbuildings, and skunks work the valley edges",
+   "absent_or_rare": "black bears, deer, bobcats, and fishers fill the national forest and are Pennsylvania Game Commission-managed"
+  },
+  "Mifflin County": {
+   "county_seat": "Lewistown",
+   "population": 46143,
+   "established": 1789,
+   "region": "central Pennsylvania in the Juniata valley at Lewistown",
+   "largest_cities": [
+    "Lewistown",
+    "Burnham",
+    "Reedsville",
+    "Belleville",
+    "McVeytown"
+   ],
+   "nearest_metro": "State College (about 30 miles north)",
+   "natural_features": [
+    "Juniata River corridor",
+    "Jacks Mountain and Stone Mountain",
+    "Kishacoquillas Valley"
+   ],
+   "habitat_type": "Lewistown's older borough blocks, Amish Kishacoquillas Valley farms, and mountain forest",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "Eastern gray squirrels",
+    "Norway rats"
+   ],
+   "regional_wildlife": "groundhogs and skunks work the Kish valley farms, raccoons and rats persist in Lewistown's older housing, and bats roost in valley farmhouses",
+   "absent_or_rare": "black bears and deer on Jacks Mountain are Pennsylvania Game Commission-managed"
+  },
+  "Montour County": {
+   "county_seat": "Danville",
+   "population": 18136,
+   "established": 1850,
+   "region": "central Pennsylvania on the Susquehanna's north branch, the state's smallest county by land area",
+   "largest_cities": [
+    "Danville",
+    "Washingtonville",
+    "Riverside"
+   ],
+   "nearest_metro": "Bloomsburg (about 10 miles east) and Williamsport (about 30 miles north)",
+   "natural_features": [
+    "Susquehanna River corridor",
+    "Montour Ridge",
+    "Montour Preserve and Lake Chillisquaque"
+   ],
+   "habitat_type": "the hospital town of Danville, farm country, and the Montour Ridge woods",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "groundhogs",
+    "bats",
+    "skunks"
+   ],
+   "regional_wildlife": "squirrels and raccoons fill Danville's older homes, groundhogs burrow the farm country, and bats roost along Montour Ridge farmhouses",
+   "absent_or_rare": "deer and beavers along the Susquehanna are Pennsylvania Game Commission-managed"
+  },
+  "Northumberland County": {
+   "county_seat": "Sunbury",
+   "population": 91647,
+   "established": 1772,
+   "region": "central Pennsylvania where the Susquehanna's two branches meet",
+   "largest_cities": [
+    "Sunbury",
+    "Shamokin",
+    "Milton",
+    "Mount Carmel",
+    "Kulpmont"
+   ],
+   "nearest_metro": "Williamsport (about 35 miles north) and Harrisburg (about 55 miles south)",
+   "natural_features": [
+    "Susquehanna River confluence at Sunbury",
+    "Shamokin Creek corridor",
+    "Montour Ridge western end"
+   ],
+   "habitat_type": "river cities, anthracite boroughs of Shamokin and Mount Carmel, and farm country",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "bats",
+    "skunks",
+    "groundhogs"
+   ],
+   "regional_wildlife": "raccoons, rats, and bats run the older housing of Sunbury, Shamokin, and Mount Carmel, and groundhogs work the farm edges",
+   "absent_or_rare": "black bears are occasional in the northern ridges, and deer are Pennsylvania Game Commission-managed"
+  },
+  "Perry County": {
+   "county_seat": "New Bloomfield",
+   "population": 45842,
+   "established": 1820,
+   "region": "south-central Pennsylvania across the Susquehanna from Harrisburg",
+   "largest_cities": [
+    "New Bloomfield",
+    "Duncannon",
+    "Marysville",
+    "Newport",
+    "Liverpool"
+   ],
+   "nearest_metro": "Harrisburg (directly across the Susquehanna River)",
+   "natural_features": [
+    "Susquehanna River east shore",
+    "Sherman Creek corridor",
+    "Tuscarora State Forest",
+    "Little Buffalo State Park"
+   ],
+   "habitat_type": "bedroom-community boroughs for Harrisburg commuters and rural valley farms",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "moles"
+   ],
+   "regional_wildlife": "squirrels and raccoons fill the commuter boroughs from Duncannon to Marysville, groundhogs and moles work the valley farms and big lots",
+   "absent_or_rare": "black bears wander Tuscarora State Forest but are Pennsylvania Game Commission-managed"
+  },
+  "Pike County": {
+   "county_seat": "Milford",
+   "population": 58535,
+   "established": 1814,
+   "region": "northeastern Pennsylvania in the Poconos along the Delaware River and the New York line",
+   "largest_cities": [
+    "Milford",
+    "Dingmans Ferry",
+    "Matamoras",
+    "Shohola",
+    "Greentown"
+   ],
+   "nearest_metro": "the New York metro (about 70 miles east of Milford)",
+   "natural_features": [
+    "Delaware Water Gap National Recreation Area",
+    "Delaware State Forest",
+    "Lake Wallenpaupack southern shore",
+    "Raymondskill and Dingmans falls"
+   ],
+   "habitat_type": "historic Milford, lake and gated forest communities, and second homes in deep woods",
+   "common_wildlife": [
+    "raccoons",
+    "bats",
+    "Eastern gray squirrels",
+    "skunks",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and bats are the standing problem in second homes and lake communities that sit empty for weeks, and skunks den under seasonal decks",
+   "absent_or_rare": "black bears are abundant and Pennsylvania Game Commission-managed, as are deer, beavers, and porcupines in the state forest"
+  },
+  "Potter County": {
+   "county_seat": "Coudersport",
+   "population": 16396,
+   "established": 1804,
+   "region": "north-central Pennsylvania in the Pennsylvania Wilds, famous for Cherry Springs dark skies",
+   "largest_cities": [
+    "Coudersport",
+    "Galeton",
+    "Ulysses",
+    "Austin",
+    "Shinglehouse"
+   ],
+   "nearest_metro": "Olean, New York (about 40 miles north)",
+   "natural_features": [
+    "Cherry Springs State Park",
+    "Susquehannock State Forest",
+    "Allegheny River headwaters",
+    "Pine Creek headwaters"
+   ],
+   "habitat_type": "tiny boroughs, camps, and some of the darkest, emptiest forest in the East",
+   "common_wildlife": [
+    "raccoons",
+    "bats",
+    "skunks",
+    "porcupines"
+   ],
+   "regional_wildlife": "raccoons and bats fill Coudersport and Galeton homes and camp properties, porcupines gnaw outbuildings, and skunks den under seasonal porches",
+   "absent_or_rare": "black bears, deer, elk at the southern edge, and bobcats are Pennsylvania Game Commission-managed"
+  },
+  "Schuylkill County": {
+   "county_seat": "Pottsville",
+   "population": 143049,
+   "established": 1811,
+   "region": "east-central Pennsylvania in the southern anthracite coal fields",
+   "largest_cities": [
+    "Pottsville",
+    "Schuylkill Haven",
+    "Tamaqua",
+    "Orwigsburg",
+    "Pine Grove"
+   ],
+   "nearest_metro": "Reading (about 30 miles south of Pottsville)",
+   "natural_features": [
+    "Schuylkill River headwaters corridor",
+    "Swatara State Park",
+    "Tuscarora State Park and Locust Lake",
+    "Blue Mountain southern slope"
+   ],
+   "habitat_type": "Pottsville and dense coal boroughs, farm valleys, and mountain forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "Norway rats",
+    "bats",
+    "skunks",
+    "groundhogs"
+   ],
+   "regional_wildlife": "raccoons, rats, and bats run Pottsville, Tamaqua, and the coal boroughs' older housing, and groundhogs work the farm valleys",
+   "absent_or_rare": "black bears are common on Blue Mountain but Pennsylvania Game Commission-managed"
+  },
+  "Snyder County": {
+   "county_seat": "Middleburg",
+   "population": 39736,
+   "established": 1855,
+   "region": "central Pennsylvania in the middle Susquehanna valley",
+   "largest_cities": [
+    "Middleburg",
+    "Selinsgrove",
+    "Shamokin Dam",
+    "Beaver Springs",
+    "McClure"
+   ],
+   "nearest_metro": "Harrisburg (about 45 miles south)",
+   "natural_features": [
+    "Susquehanna River corridor at Selinsgrove",
+    "Penns Creek corridor",
+    "Shade Mountain northern slope"
+   ],
+   "habitat_type": "the university borough of Selinsgrove, farm country, and Shade Mountain woods",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "groundhogs",
+    "bats",
+    "skunks"
+   ],
+   "regional_wildlife": "squirrels and raccoons fill Selinsgrove and Middleburg housing, groundhogs burrow the farm country, and bats roost in Penns Creek valley farmhouses",
+   "absent_or_rare": "black bears come off Shade Mountain but are Pennsylvania Game Commission-managed"
+  },
+  "Somerset County": {
+   "county_seat": "Somerset",
+   "population": 74129,
+   "established": 1795,
+   "region": "south-central Pennsylvania on the Allegheny Plateau along the Maryland line, home to Mount Davis, the state's highest point",
+   "largest_cities": [
+    "Somerset",
+    "Berlin",
+    "Meyersdale",
+    "Windber",
+    "Confluence"
+   ],
+   "nearest_metro": "Johnstown (about 25 miles north of Somerset)",
+   "natural_features": [
+    "Laurel Hill State Park",
+    "Mount Davis and Forbes State Forest",
+    "Youghiogheny River at Confluence",
+    "Casselman River corridor"
+   ],
+   "habitat_type": "plateau boroughs, wind-farm ridges, ski country, and farm valleys",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "groundhogs and skunks work the plateau farms, raccoons and bats fill Somerset and Windber housing and mountain cabins",
+   "absent_or_rare": "black bears and deer in the Forbes State Forest are Pennsylvania Game Commission-managed"
+  },
+  "Sullivan County": {
+   "county_seat": "Laporte",
+   "population": 5840,
+   "established": 1847,
+   "region": "northeastern Pennsylvania in the Endless Mountains, one of the state's least populous counties",
+   "largest_cities": [
+    "Laporte",
+    "Dushore",
+    "Eagles Mere",
+    "Forksville"
+   ],
+   "nearest_metro": "Williamsport (about 35 miles west)",
+   "natural_features": [
+    "Worlds End State Park",
+    "Loyalsock State Forest",
+    "Loyalsock Creek gorge",
+    "Eagles Mere Lake"
+   ],
+   "habitat_type": "the resort borough of Eagles Mere, tiny Laporte, and cabin country in deep forest",
+   "common_wildlife": [
+    "raccoons",
+    "bats",
+    "skunks",
+    "porcupines"
+   ],
+   "regional_wildlife": "raccoons and bats fill Eagles Mere and lake-cabin properties, porcupines gnaw outbuildings, and skunks den under seasonal porches",
+   "absent_or_rare": "black bears, deer, and bobcats fill the Loyalsock and are Pennsylvania Game Commission-managed"
+  },
+  "Susquehanna County": {
+   "county_seat": "Montrose",
+   "population": 38434,
+   "established": 1810,
+   "region": "northeastern Pennsylvania in the Endless Mountains along the New York line",
+   "largest_cities": [
+    "Montrose",
+    "Susquehanna",
+    "Forest City",
+    "New Milford",
+    "Hallstead"
+   ],
+   "nearest_metro": "Binghamton, New York (about 25 miles north)",
+   "natural_features": [
+    "Susquehanna River corridor",
+    "Salt Springs State Park",
+    "Quarry and gas-well country across the hills"
+   ],
+   "habitat_type": "gas-country boroughs, dairy farms, and lake communities",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "groundhogs burrow the dairy farms, raccoons and bats fill Montrose and Forest City homes, and skunks work the lake communities",
+   "absent_or_rare": "black bears and deer are common but Pennsylvania Game Commission-managed"
+  },
+  "Tioga County": {
+   "county_seat": "Wellsboro",
+   "population": 41045,
+   "established": 1804,
+   "region": "north-central Pennsylvania, home of the Pine Creek Gorge, the Pennsylvania Grand Canyon",
+   "largest_cities": [
+    "Wellsboro",
+    "Mansfield",
+    "Tioga",
+    "Blossburg",
+    "Westfield"
+   ],
+   "nearest_metro": "Elmira, New York (about 40 miles north of Wellsboro) and Williamsport (about 50 miles southeast)",
+   "natural_features": [
+    "Pine Creek Gorge and Leonard Harrison and Colton Point state parks",
+    "Tioga State Forest",
+    "Cowanesque Lake"
+   ],
+   "habitat_type": "Wellsboro's gaslight borough, Mansfield's university town, and gorge and farm country",
+   "common_wildlife": [
+    "raccoons",
+    "bats",
+    "groundhogs",
+    "skunks",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "raccoons and bats fill Wellsboro and Mansfield housing and gorge-area cabins, groundhogs work the farm valleys",
+   "absent_or_rare": "black bears, deer, and bobcats in the gorge country are Pennsylvania Game Commission-managed"
+  },
+  "Union County": {
+   "county_seat": "Lewisburg",
+   "population": 42681,
+   "established": 1813,
+   "region": "central Pennsylvania on the West Branch Susquehanna",
+   "largest_cities": [
+    "Lewisburg",
+    "Mifflinburg",
+    "New Berlin",
+    "Hartleton"
+   ],
+   "nearest_metro": "Williamsport (about 25 miles north)",
+   "natural_features": [
+    "West Branch Susquehanna River corridor",
+    "Buffalo Creek corridor",
+    "Bald Eagle State Forest",
+    "Sand Bridge State Park"
+   ],
+   "habitat_type": "the Bucknell borough of Lewisburg, Pennsylvania Dutch farm country, and ridge forest",
+   "common_wildlife": [
+    "raccoons",
+    "Eastern gray squirrels",
+    "groundhogs",
+    "bats",
+    "skunks",
+    "moles"
+   ],
+   "regional_wildlife": "squirrels and raccoons fill Lewisburg and Mifflinburg homes, groundhogs and moles work the farm country and Buffalo Valley lawns",
+   "absent_or_rare": "black bears wander down from Bald Eagle State Forest but are Pennsylvania Game Commission-managed"
+  },
+  "Venango County": {
+   "county_seat": "Franklin",
+   "population": 50454,
+   "established": 1800,
+   "region": "northwestern Pennsylvania at the confluence of the Allegheny River and French Creek, the birthplace of the oil industry",
+   "largest_cities": [
+    "Franklin",
+    "Oil City",
+    "Cranberry",
+    "Seneca",
+    "Sugarcreek"
+   ],
+   "nearest_metro": "Erie (about 60 miles north)",
+   "natural_features": [
+    "Allegheny River corridor",
+    "French Creek corridor",
+    "Oil Creek State Park",
+    "Two Mile Run County Park"
+   ],
+   "habitat_type": "historic Franklin and Oil City, river hills, and oil-country forest",
+   "common_wildlife": [
+    "raccoons",
+    "bats",
+    "groundhogs",
+    "skunks",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "raccoons and bats fill Franklin and Oil City's Victorian housing, groundhogs burrow the river hills, and skunks work the borough edges",
+   "absent_or_rare": "black bears and deer in the river hills are Pennsylvania Game Commission-managed"
+  },
+  "Warren County": {
+   "county_seat": "Warren",
+   "population": 38587,
+   "established": 1800,
+   "region": "northwestern Pennsylvania in the Allegheny National Forest along the New York line",
+   "largest_cities": [
+    "Warren",
+    "Youngsville",
+    "Sheffield",
+    "Sugar Grove",
+    "Clarendon"
+   ],
+   "nearest_metro": "Jamestown, New York (about 20 miles north of Warren)",
+   "natural_features": [
+    "Allegheny Reservoir and Kinzua Dam",
+    "Allegheny National Forest",
+    "Allegheny River corridor",
+    "Chapman State Park"
+   ],
+   "habitat_type": "the river city of Warren, national-forest communities, and camp country",
+   "common_wildlife": [
+    "raccoons",
+    "bats",
+    "skunks",
+    "porcupines",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "raccoons and bats fill Warren and Youngsville homes and reservoir camps, porcupines gnaw camp outbuildings, and skunks den under seasonal porches",
+   "absent_or_rare": "black bears, deer, and bobcats fill the national forest and are Pennsylvania Game Commission-managed"
+  },
+  "Wayne County": {
+   "county_seat": "Honesdale",
+   "population": 51155,
+   "established": 1798,
+   "region": "northeastern Pennsylvania in the northern Poconos along the Delaware River",
+   "largest_cities": [
+    "Honesdale",
+    "Hawley",
+    "Waymart",
+    "Hamlin",
+    "White Mills"
+   ],
+   "nearest_metro": "Scranton (about 30 miles west of Honesdale)",
+   "natural_features": [
+    "Lake Wallenpaupack eastern shore",
+    "Delaware River upper corridor",
+    "Lackawaxen River corridor",
+    "Prompton State Park"
+   ],
+   "habitat_type": "Honesdale and Hawley boroughs, lake communities, and second-home forest",
+   "common_wildlife": [
+    "raccoons",
+    "bats",
+    "Eastern gray squirrels",
+    "skunks",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and bats are the standing issue in Lake Wallenpaupack and second-home properties, and skunks den under seasonal decks",
+   "absent_or_rare": "black bears are abundant and Pennsylvania Game Commission-managed, as are deer and beavers on the Lackawaxen"
+  },
+  "Wyoming County": {
+   "county_seat": "Tunkhannock",
+   "population": 26069,
+   "established": 1842,
+   "region": "northeastern Pennsylvania in the Endless Mountains along the Susquehanna River",
+   "largest_cities": [
+    "Tunkhannock",
+    "Factoryville",
+    "Nicholson",
+    "Laceyville",
+    "Meshoppen"
+   ],
+   "nearest_metro": "Scranton (about 20 miles southeast of Tunkhannock)",
+   "natural_features": [
+    "Susquehanna River corridor",
+    "Endless Mountains ridges",
+    "Bowmans Creek corridor"
+   ],
+   "habitat_type": "Tunkhannock borough, river towns, and farm and gas country",
+   "common_wildlife": [
+    "raccoons",
+    "groundhogs",
+    "skunks",
+    "bats",
+    "Eastern gray squirrels"
+   ],
+   "regional_wildlife": "groundhogs burrow the farm country, raccoons and bats fill Tunkhannock and Factoryville homes, and skunks work the river towns",
+   "absent_or_rare": "black bears and deer in the Endless Mountains are Pennsylvania Game Commission-managed"
+  }
+ }
+}
