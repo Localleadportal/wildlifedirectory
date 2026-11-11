@@ -1,0 +1,2156 @@
+{
+ "state": {
+  "name": "Florida",
+  "agency": "Florida Fish and Wildlife Conservation Commission",
+  "agency_short": "FWC",
+  "peak_intrusion_season": "Year-round in Florida's warm climate, with the heaviest raccoon, squirrel, and roof rat attic pressure in the cooler months from November through March, bat maternity season running April 16 through August 14 when exclusion is prohibited, and a post-storm push after summer and fall hurricanes and flooding",
+  "climate_factor": "Florida has no winter off-season for nuisance wildlife — heat, humidity, heavy rain, retention ponds, canals, and year-round breeding for roof rats keep animals active in attics, lanai screens, docks, and yards in every month, and storms regularly displace wildlife into garages, pools, and flooded structures",
+  "permit_note": "Florida does not license nuisance wildlife trappers. Work is done under FWC Rule 68A-9.010 with the property owner's authorization — Florida issues no nuisance-trapper license. Structure rat and mouse work involving chemicals or pesticides is FDACS Chapter 482 pest-control territory; the only related credential is the Section 482.157 Limited Commercial Wildlife Management certificate for nonchemical rodent work in, on, or under a structure, and our crew frames structure rodent work as trapping and exclusion, never chemical control."
+ },
+ "counties": {
+  "Miami-Dade County": {
+   "county_seat": "Miami",
+   "population": 2701767,
+   "established": 1836,
+   "region": "southeast Florida on Biscayne Bay, bordering the Everglades to the west",
+   "largest_cities": [
+    "Miami",
+    "Hialeah",
+    "Miami Gardens",
+    "Miami Beach",
+    "Doral",
+    "Coral Gables",
+    "Kendall",
+    "Homestead"
+   ],
+   "nearest_metro": "Miami is itself the metro center",
+   "natural_features": [
+    "Biscayne Bay",
+    "Everglades National Park edge",
+    "Miami River",
+    "Coral Gables Waterway"
+   ],
+   "habitat_type": "dense coastal urban core giving way to western suburbs against Everglades wetlands",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Biscayne Bay and Everglades National Park edge, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils. Green iguanas — a Prohibited species under Chapter 68-5 that can never be relocated or released — bask along canals and seawalls here and are removed humanely on the property, never moved elsewhere, and Burmese pythons are an Everglades-edge concern handled only through Florida Fish and Wildlife Conservation Commission programs, not a routine booking",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Broward County": {
+   "county_seat": "Fort Lauderdale",
+   "population": 1962531,
+   "established": 1915,
+   "region": "southeast Florida Atlantic coast between Miami-Dade and Palm Beach",
+   "largest_cities": [
+    "Fort Lauderdale",
+    "Hollywood",
+    "Pembroke Pines",
+    "Miramar",
+    "Coral Springs",
+    "Pompano Beach",
+    "Davie",
+    "Plantation"
+   ],
+   "nearest_metro": "Fort Lauderdale is itself the metro center",
+   "natural_features": [
+    "New River",
+    "Intracoastal Waterway",
+    "Everglades Wildlife Management Area",
+    "Hugh Taylor Birch State Park"
+   ],
+   "habitat_type": "dense coastal suburbs and canal cities backed by Everglades conservation land",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around New River and Intracoastal Waterway, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils. Green iguanas — a Prohibited species under Chapter 68-5 that can never be relocated or released — bask along canals and seawalls here and are removed humanely on the property, never moved elsewhere, and Burmese pythons are an Everglades-edge concern handled only through Florida Fish and Wildlife Conservation Commission programs, not a routine booking",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Palm Beach County": {
+   "county_seat": "West Palm Beach",
+   "population": 1533801,
+   "established": 1909,
+   "region": "southeast Florida Atlantic coast, the largest county in Florida by land area in the east",
+   "largest_cities": [
+    "West Palm Beach",
+    "Boca Raton",
+    "Boynton Beach",
+    "Delray Beach",
+    "Jupiter",
+    "Wellington",
+    "Palm Beach Gardens",
+    "Lake Worth Beach"
+   ],
+   "nearest_metro": "West Palm Beach is itself the metro center",
+   "natural_features": [
+    "Lake Okeechobee eastern shore",
+    "Loxahatchee National Wildlife Refuge",
+    "Intracoastal Waterway",
+    "Jonathan Dickinson area wetlands to the north"
+   ],
+   "habitat_type": "coastal cities and western equestrian and agricultural suburbs backed by Everglades refuge land",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Lake Okeechobee eastern shore and Loxahatchee National Wildlife Refuge, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils. Green iguanas — a Prohibited species under Chapter 68-5 that can never be relocated or released — bask along canals and seawalls here and are removed humanely on the property, never moved elsewhere, and Burmese pythons are an Everglades-edge concern handled only through Florida Fish and Wildlife Conservation Commission programs, not a routine booking",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Monroe County": {
+   "county_seat": "Key West",
+   "population": 82874,
+   "established": 1823,
+   "region": "the Florida Keys island chain and Everglades mainland tip, between the Atlantic and the Gulf",
+   "largest_cities": [
+    "Key West",
+    "Marathon",
+    "Key Largo",
+    "Islamorada",
+    "Big Pine Key"
+   ],
+   "nearest_metro": "Key West and Marathon are the population centers; Miami is the nearest mainland metro",
+   "natural_features": [
+    "Florida Keys National Marine Sanctuary",
+    "Everglades National Park",
+    "Bahia Honda State Park",
+    "National Key Deer Refuge"
+   ],
+   "habitat_type": "island communities linked by the Overseas Highway, plus remote mainland Everglades",
+   "common_wildlife": [
+    "raccoons",
+    "roof rats",
+    "Virginia opossums",
+    "Brazilian free-tailed bats",
+    "eastern gray squirrels",
+    "Muscovy ducks",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Florida Keys National Marine Sanctuary and Everglades National Park, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils. Green iguanas — a Prohibited species under Chapter 68-5 that can never be relocated or released — bask along canals and seawalls here and are removed humanely on the property, never moved elsewhere, and Burmese pythons are an Everglades-edge concern handled only through Florida Fish and Wildlife Conservation Commission programs, not a routine booking",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Martin County": {
+   "county_seat": "Stuart",
+   "population": 163315,
+   "established": 1925,
+   "region": "Treasure Coast of southeast Florida, between St. Lucie and Palm Beach counties",
+   "largest_cities": [
+    "Stuart",
+    "Jensen Beach",
+    "Palm City",
+    "Hobe Sound",
+    "Indiantown"
+   ],
+   "nearest_metro": "Stuart; West Palm Beach is about 40 miles south",
+   "natural_features": [
+    "St. Lucie River",
+    "Jonathan Dickinson State Park",
+    "Savannas Preserve",
+    "Indian River Lagoon"
+   ],
+   "habitat_type": "small coastal cities, riverfront suburbs, and inland rural and equestrian land",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around St. Lucie River and Jonathan Dickinson State Park, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils. Green iguanas are reported this far north on the Treasure Coast, so an iguana sighting here is an identification call first — they are a Prohibited species that can never be relocated or released",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "St. Lucie County": {
+   "county_seat": "Fort Pierce",
+   "population": 358704,
+   "established": 1905,
+   "region": "Treasure Coast of southeast Florida on the Indian River Lagoon",
+   "largest_cities": [
+    "Port St. Lucie",
+    "Fort Pierce",
+    "Lakewood Park",
+    "White City",
+    "River Park",
+    "Indian River Estates"
+   ],
+   "nearest_metro": "Port St. Lucie and Fort Pierce; West Palm Beach is about 60 miles south",
+   "natural_features": [
+    "Indian River Lagoon",
+    "Savannas Preserve State Park",
+    "North Fork St. Lucie River",
+    "Hutchinson Island"
+   ],
+   "habitat_type": "fast-growing master-planned suburbs, older lagoon cities, and barrier-island communities",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Indian River Lagoon and Savannas Preserve State Park, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils. Green iguanas are reported this far north on the Treasure Coast, so an iguana sighting here is an identification call first — they are a Prohibited species that can never be relocated or released",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Indian River County": {
+   "county_seat": "Vero Beach",
+   "population": 169941,
+   "established": 1919,
+   "region": "Treasure Coast of southeast Florida, the northern Treasure Coast county",
+   "largest_cities": [
+    "Vero Beach",
+    "Sebastian",
+    "Fellsmere",
+    "Gifford",
+    "Winter Beach"
+   ],
+   "nearest_metro": "Vero Beach; Melbourne is about 35 miles north",
+   "natural_features": [
+    "Indian River Lagoon",
+    "Sebastian Inlet State Park",
+    "St. Sebastian River Preserve",
+    "Pelican Island National Wildlife Refuge"
+   ],
+   "habitat_type": "barrier-island beach towns, citrus country inland, and lagoon-front suburbs",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Indian River Lagoon and Sebastian Inlet State Park, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils. Green iguanas are reported this far north on the Treasure Coast, so an iguana sighting here is an identification call first — they are a Prohibited species that can never be relocated or released",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Hillsborough County": {
+   "county_seat": "Tampa",
+   "population": 1535564,
+   "established": 1834,
+   "region": "west-central Florida on Tampa Bay, anchored by Tampa",
+   "largest_cities": [
+    "Tampa",
+    "Brandon",
+    "Riverview",
+    "Plant City",
+    "Temple Terrace",
+    "Apollo Beach",
+    "Lutz"
+   ],
+   "nearest_metro": "Tampa is itself the metro center",
+   "natural_features": [
+    "Tampa Bay",
+    "Hillsborough River",
+    "Alafia River",
+    "Little Manatee River"
+   ],
+   "habitat_type": "large urban core, dense suburbs, port and industrial land, and rural east county",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Tampa Bay and Hillsborough River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Pinellas County": {
+   "county_seat": "Clearwater",
+   "population": 959107,
+   "established": 1912,
+   "region": "west-central Florida peninsula between Tampa Bay and the Gulf of Mexico",
+   "largest_cities": [
+    "St. Petersburg",
+    "Clearwater",
+    "Largo",
+    "Pinellas Park",
+    "Dunedin",
+    "Tarpon Springs",
+    "Safety Harbor"
+   ],
+   "nearest_metro": "St. Petersburg and Clearwater; Tampa is across the bay",
+   "natural_features": [
+    "Tampa Bay shoreline",
+    "Boca Ciega Bay",
+    "Lake Tarpon",
+    "Weedon Island Preserve"
+   ],
+   "habitat_type": "Florida's most densely populated county — continuous coastal suburbs and barrier-island beaches",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Tampa Bay shoreline and Boca Ciega Bay, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Pasco County": {
+   "county_seat": "Dade City",
+   "population": 632996,
+   "established": 1887,
+   "region": "west-central Florida north of Tampa, from the Gulf coast to inland lakes",
+   "largest_cities": [
+    "Dade City",
+    "New Port Richey",
+    "Wesley Chapel",
+    "Zephyrhills",
+    "Land O' Lakes",
+    "Hudson"
+   ],
+   "nearest_metro": "Tampa (southern Pasco is Tampa suburbia)",
+   "natural_features": [
+    "Withlacoochee River",
+    "Green Swamp",
+    "Anclote River",
+    "Werner-Boyce Salt Springs State Park"
+   ],
+   "habitat_type": "southern Tampa suburbs, coastal communities, and rural lake and ranch country in the east",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Withlacoochee River and Green Swamp, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Hernando County": {
+   "county_seat": "Brooksville",
+   "population": 212807,
+   "established": 1843,
+   "region": "west-central Florida Nature Coast north of Tampa",
+   "largest_cities": [
+    "Brooksville",
+    "Spring Hill",
+    "Weeki Wachee",
+    "Hernando Beach",
+    "Ridge Manor"
+   ],
+   "nearest_metro": "Tampa is about 45 miles south",
+   "natural_features": [
+    "Weeki Wachee Springs",
+    "Withlacoochee State Forest",
+    "Chassahowitzka wetlands",
+    "Weeki Wachee River"
+   ],
+   "habitat_type": "spring and river communities, Spring Hill suburbs, and forest and ranch land inland",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Weeki Wachee Springs and Withlacoochee State Forest, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Citrus County": {
+   "county_seat": "Inverness",
+   "population": 166503,
+   "established": 1887,
+   "region": "west-central Florida Nature Coast on the Gulf",
+   "largest_cities": [
+    "Inverness",
+    "Crystal River",
+    "Homosassa",
+    "Lecanto",
+    "Beverly Hills"
+   ],
+   "nearest_metro": "Ocala and Tampa are the nearest larger metros",
+   "natural_features": [
+    "Crystal River",
+    "King's Bay",
+    "Withlacoochee State Forest",
+    "Homosassa Springs"
+   ],
+   "habitat_type": "spring-fed river towns, Gulf marsh coast, and low-density inland suburbs",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Crystal River and King's Bay, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Sarasota County": {
+   "county_seat": "Sarasota",
+   "population": 469013,
+   "established": 1921,
+   "region": "southwest Florida Gulf coast south of Tampa Bay",
+   "largest_cities": [
+    "Sarasota",
+    "North Port",
+    "Venice",
+    "Osprey",
+    "Englewood",
+    "Siesta Key"
+   ],
+   "nearest_metro": "Sarasota is itself the metro center",
+   "natural_features": [
+    "Myakka River State Park",
+    "Sarasota Bay",
+    "Oscar Scherer State Park",
+    "Venice Inlet"
+   ],
+   "habitat_type": "coastal cities, barrier-island beaches, and fast-growing inland suburbs around North Port",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Myakka River State Park and Sarasota Bay, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Manatee County": {
+   "county_seat": "Bradenton",
+   "population": 429125,
+   "established": 1855,
+   "region": "southwest Florida at the mouth of Tampa Bay on the Gulf",
+   "largest_cities": [
+    "Bradenton",
+    "Palmetto",
+    "Lakewood Ranch",
+    "Anna Maria",
+    "Holmes Beach",
+    "Ellenton"
+   ],
+   "nearest_metro": "Bradenton; Tampa and St. Petersburg are across the bay",
+   "natural_features": [
+    "Manatee River",
+    "Palma Sola Bay",
+    "Anna Maria Island",
+    "Lake Manatee"
+   ],
+   "habitat_type": "river and bay suburbs, barrier-island beach towns, and agricultural east county",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Manatee River and Palma Sola Bay, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Charlotte County": {
+   "county_seat": "Punta Gorda",
+   "population": 206134,
+   "established": 1921,
+   "region": "southwest Florida around Charlotte Harbor",
+   "largest_cities": [
+    "Punta Gorda",
+    "Port Charlotte",
+    "Harbour Heights",
+    "Rotonda West",
+    "Charlotte Harbor"
+   ],
+   "nearest_metro": "Punta Gorda and Port Charlotte; Fort Myers is about 30 miles south",
+   "natural_features": [
+    "Charlotte Harbor",
+    "Peace River",
+    "Myakka River",
+    "Cape Haze Peninsula"
+   ],
+   "habitat_type": "canal-front suburbs around Charlotte Harbor, older coastal towns, and inland scrub",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Charlotte Harbor and Peace River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Lee County": {
+   "county_seat": "Fort Myers",
+   "population": 822453,
+   "established": 1887,
+   "region": "southwest Florida Gulf coast around the Caloosahatchee River",
+   "largest_cities": [
+    "Fort Myers",
+    "Cape Coral",
+    "Lehigh Acres",
+    "Bonita Springs",
+    "Estero",
+    "Sanibel",
+    "Fort Myers Beach"
+   ],
+   "nearest_metro": "Fort Myers and Cape Coral are the metro centers",
+   "natural_features": [
+    "Caloosahatchee River",
+    "Sanibel Island",
+    "Estero Bay",
+    "Six Mile Cypress Slough"
+   ],
+   "habitat_type": "canal city of Cape Coral, coastal suburbs, barrier islands, and inland Lehigh Acres",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Caloosahatchee River and Sanibel Island, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils. Green iguanas — a Prohibited species under Chapter 68-5 that can never be relocated or released — bask along canals and seawalls here and are removed humanely on the property, never moved elsewhere, and Burmese pythons are an Everglades-edge concern handled only through Florida Fish and Wildlife Conservation Commission programs, not a routine booking",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Collier County": {
+   "county_seat": "Naples",
+   "population": 404368,
+   "established": 1923,
+   "region": "southwest Florida Gulf coast at the edge of the Everglades and Big Cypress",
+   "largest_cities": [
+    "Naples",
+    "Marco Island",
+    "Immokalee",
+    "Golden Gate",
+    "Everglades City",
+    "Ave Maria"
+   ],
+   "nearest_metro": "Naples is itself the metro center",
+   "natural_features": [
+    "Big Cypress National Preserve",
+    "Everglades National Park western edge",
+    "Fakahatchee Strand Preserve",
+    "Ten Thousand Islands"
+   ],
+   "habitat_type": "affluent coastal Naples, inland Immokalee farm country, and vast Everglades preserve land",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Big Cypress National Preserve and Everglades National Park western edge, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils. Green iguanas — a Prohibited species under Chapter 68-5 that can never be relocated or released — bask along canals and seawalls here and are removed humanely on the property, never moved elsewhere, and Burmese pythons are an Everglades-edge concern handled only through Florida Fish and Wildlife Conservation Commission programs, not a routine booking",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Orange County": {
+   "county_seat": "Orlando",
+   "population": 1471416,
+   "established": 1845,
+   "region": "central Florida anchored by Orlando",
+   "largest_cities": [
+    "Orlando",
+    "Winter Park",
+    "Apopka",
+    "Ocoee",
+    "Winter Garden",
+    "Maitland",
+    "Windermere"
+   ],
+   "nearest_metro": "Orlando is itself the metro center",
+   "natural_features": [
+    "Lake Apopka",
+    "Wekiwa Springs State Park",
+    "Econlockhatchee River",
+    "Lake Conway chain"
+   ],
+   "habitat_type": "dense urban and suburban Orlando, lake chains everywhere, and tourism corridors",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Lake Apopka and Wekiwa Springs State Park, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Seminole County": {
+   "county_seat": "Sanford",
+   "population": 484271,
+   "established": 1913,
+   "region": "central Florida north of Orlando along the St. Johns River",
+   "largest_cities": [
+    "Sanford",
+    "Altamonte Springs",
+    "Oviedo",
+    "Lake Mary",
+    "Winter Springs",
+    "Longwood"
+   ],
+   "nearest_metro": "Orlando (Seminole is Orlando suburbia)",
+   "natural_features": [
+    "St. Johns River",
+    "Lake Monroe",
+    "Wekiva River",
+    "Little Big Econ State Forest"
+   ],
+   "habitat_type": "dense Orlando suburbs, lakefront towns, and river and spring corridors",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around St. Johns River and Lake Monroe, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Osceola County": {
+   "county_seat": "Kissimmee",
+   "population": 437784,
+   "established": 1887,
+   "region": "central Florida south of Orlando, headwaters of the Everglades",
+   "largest_cities": [
+    "Kissimmee",
+    "St. Cloud",
+    "Poinciana",
+    "Celebration",
+    "Buenaventura Lakes"
+   ],
+   "nearest_metro": "Orlando (Kissimmee is in the Orlando metro)",
+   "natural_features": [
+    "Lake Tohopekaliga",
+    "Shingle Creek",
+    "Kissimmee River headwaters",
+    "Three Lakes Wildlife Management Area"
+   ],
+   "habitat_type": "tourism and vacation-rental corridors, Kissimmee suburbs, and ranch land south",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Lake Tohopekaliga and Shingle Creek, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Lake County": {
+   "county_seat": "Tavares",
+   "population": 395804,
+   "established": 1887,
+   "region": "central Florida lake country northwest of Orlando",
+   "largest_cities": [
+    "Tavares",
+    "Clermont",
+    "Leesburg",
+    "Mount Dora",
+    "Eustis",
+    "Lady Lake"
+   ],
+   "nearest_metro": "Orlando is about 30 miles southeast",
+   "natural_features": [
+    "Harris Chain of Lakes",
+    "Ocala National Forest southern edge",
+    "Lake Apopka north shore",
+    "Palatlakaha River"
+   ],
+   "habitat_type": "lake towns, Clermont hills suburbs, and forest-edge communities",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Harris Chain of Lakes and Ocala National Forest southern edge, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Marion County": {
+   "county_seat": "Ocala",
+   "population": 396415,
+   "established": 1844,
+   "region": "north-central Florida horse country around Ocala",
+   "largest_cities": [
+    "Ocala",
+    "Dunnellon",
+    "Belleview",
+    "Silver Springs Shores",
+    "Marion Oaks",
+    "McIntosh"
+   ],
+   "nearest_metro": "Ocala is itself the metro center",
+   "natural_features": [
+    "Ocala National Forest",
+    "Silver Springs",
+    "Rainbow Springs",
+    "Ocklawaha River"
+   ],
+   "habitat_type": "horse farms, Ocala suburbs, forest communities, and spring and river towns",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Ocala National Forest and Silver Springs, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Volusia County": {
+   "county_seat": "DeLand",
+   "population": 590357,
+   "established": 1854,
+   "region": "east-central Florida Atlantic coast around Daytona Beach",
+   "largest_cities": [
+    "Daytona Beach",
+    "DeLand",
+    "Deltona",
+    "Ormond Beach",
+    "Port Orange",
+    "New Smyrna Beach",
+    "Edgewater"
+   ],
+   "nearest_metro": "Daytona Beach and DeLand; Orlando is about 50 miles southwest",
+   "natural_features": [
+    "St. Johns River",
+    "Blue Spring State Park",
+    "Tomoka State Park",
+    "Halifax River"
+   ],
+   "habitat_type": "beach cities, inland St. Johns River towns, and the fast-growing Deltona corridor",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around St. Johns River and Blue Spring State Park, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Brevard County": {
+   "county_seat": "Titusville",
+   "population": 643979,
+   "established": 1844,
+   "region": "east-central Florida Space Coast on the Atlantic",
+   "largest_cities": [
+    "Titusville",
+    "Melbourne",
+    "Palm Bay",
+    "Cocoa",
+    "Merritt Island",
+    "Satellite Beach",
+    "Rockledge"
+   ],
+   "nearest_metro": "Melbourne and Palm Bay; Orlando is about 45 miles west",
+   "natural_features": [
+    "Indian River Lagoon",
+    "Merritt Island National Wildlife Refuge",
+    "St. Johns River",
+    "Banana River"
+   ],
+   "habitat_type": "long coastal Space Coast suburbs, lagoon and river frontage, and refuge land",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Indian River Lagoon and Merritt Island National Wildlife Refuge, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Duval County": {
+   "county_seat": "Jacksonville",
+   "population": 1030822,
+   "established": 1822,
+   "region": "northeast Florida on the St. Johns River — consolidated city-county government",
+   "largest_cities": [
+    "Jacksonville",
+    "Jacksonville Beach",
+    "Atlantic Beach",
+    "Neptune Beach",
+    "Baldwin",
+    "Mayport"
+   ],
+   "nearest_metro": "Jacksonville is itself the metro center",
+   "natural_features": [
+    "St. Johns River",
+    "Timucuan Ecological and Historic Preserve",
+    "Intracoastal Waterway",
+    "Little Talbot Island"
+   ],
+   "habitat_type": "Florida's largest city by area — urban core, sprawling suburbs, beaches, and river frontage",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around St. Johns River and Timucuan Ecological and Historic Preserve, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "St. Johns County": {
+   "county_seat": "St. Augustine",
+   "population": 320110,
+   "established": 1821,
+   "region": "northeast Florida Atlantic coast, home to St. Augustine",
+   "largest_cities": [
+    "St. Augustine",
+    "St. Augustine Beach",
+    "Ponte Vedra Beach",
+    "Hastings",
+    "Fruit Cove",
+    "Nocatee"
+   ],
+   "nearest_metro": "St. Augustine; Jacksonville is about 40 miles north",
+   "natural_features": [
+    "Matanzas River",
+    "Guana Tolomato Matanzas Reserve",
+    "Anastasia State Park",
+    "St. Johns River western edge"
+   ],
+   "habitat_type": "historic St. Augustine, beach communities, and fast-growing northern suburbs",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Matanzas River and Guana Tolomato Matanzas Reserve, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Clay County": {
+   "county_seat": "Green Cove Springs",
+   "population": 232439,
+   "established": 1858,
+   "region": "northeast Florida west of the St. Johns River, Jacksonville suburbia",
+   "largest_cities": [
+    "Green Cove Springs",
+    "Orange Park",
+    "Middleburg",
+    "Fleming Island",
+    "Keystone Heights"
+   ],
+   "nearest_metro": "Jacksonville (Clay is Jacksonville suburbia)",
+   "natural_features": [
+    "St. Johns River",
+    "Doctors Lake",
+    "Black Creek",
+    "Camp Blanding"
+   ],
+   "habitat_type": "Jacksonville suburbs, river towns, and rural south county",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around St. Johns River and Doctors Lake, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Nassau County": {
+   "county_seat": "Fernandina Beach",
+   "population": 101501,
+   "established": 1824,
+   "region": "northeast Florida on the Georgia line at Amelia Island",
+   "largest_cities": [
+    "Fernandina Beach",
+    "Yulee",
+    "Callahan",
+    "Hilliard",
+    "Nassau Village-Ratliff"
+   ],
+   "nearest_metro": "Jacksonville is about 35 miles south",
+   "natural_features": [
+    "Amelia Island",
+    "St. Marys River",
+    "Fort Clinch State Park",
+    "Nassau River"
+   ],
+   "habitat_type": "Amelia Island beach town, Yulee suburbs, and rural western timber country",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Amelia Island and St. Marys River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Leon County": {
+   "county_seat": "Tallahassee",
+   "population": 292817,
+   "established": 1824,
+   "region": "north Florida panhandle-edge capital county in the Red Hills",
+   "largest_cities": [
+    "Tallahassee",
+    "Bradfordville",
+    "Woodville",
+    "Chaires",
+    "Fort Braden"
+   ],
+   "nearest_metro": "Tallahassee is itself the metro center",
+   "natural_features": [
+    "Lake Jackson",
+    "Lake Talquin",
+    "Apalachicola National Forest edge",
+    "Wakulla River headwaters"
+   ],
+   "habitat_type": "capital city neighborhoods under heavy oak canopy, suburbs, and Red Hills plantation country",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Lake Jackson and Lake Talquin, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils, and this is the part of Florida where southern copperheads and timber rattlesnakes also occur at the edge of their range alongside the statewide cottonmouth",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Escambia County": {
+   "county_seat": "Pensacola",
+   "population": 326928,
+   "established": 1821,
+   "region": "western Florida panhandle on Pensacola Bay and the Gulf",
+   "largest_cities": [
+    "Pensacola",
+    "Pensacola Beach",
+    "Century",
+    "Cantonment",
+    "Gonzalez",
+    "Warrington"
+   ],
+   "nearest_metro": "Pensacola is itself the metro center",
+   "natural_features": [
+    "Pensacola Bay",
+    "Escambia River",
+    "Perdido Bay",
+    "Gulf Islands National Seashore"
+   ],
+   "habitat_type": "historic Pensacola, bay and beach communities, and rural north county",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Pensacola Bay and Escambia River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils, and this is the part of Florida where southern copperheads and timber rattlesnakes also occur at the edge of their range alongside the statewide cottonmouth",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Santa Rosa County": {
+   "county_seat": "Milton",
+   "population": 188966,
+   "established": 1842,
+   "region": "western Florida panhandle between Pensacola Bay and East Bay",
+   "largest_cities": [
+    "Milton",
+    "Navarre",
+    "Pace",
+    "Gulf Breeze",
+    "Jay"
+   ],
+   "nearest_metro": "Pensacola is across the bay",
+   "natural_features": [
+    "Blackwater River State Forest",
+    "East Bay",
+    "Santa Rosa Sound",
+    "Yellow River"
+   ],
+   "habitat_type": "river and forest towns, Navarre beach suburbs, and Pace growth corridor",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Blackwater River State Forest and East Bay, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils, and this is the part of Florida where southern copperheads and timber rattlesnakes also occur at the edge of their range alongside the statewide cottonmouth",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Okaloosa County": {
+   "county_seat": "Crestview",
+   "population": 211668,
+   "established": 1915,
+   "region": "western Florida panhandle Emerald Coast on the Gulf",
+   "largest_cities": [
+    "Crestview",
+    "Fort Walton Beach",
+    "Destin",
+    "Niceville",
+    "Valparaiso",
+    "Mary Esther"
+   ],
+   "nearest_metro": "Fort Walton Beach and Destin; Pensacola is about 45 miles west",
+   "natural_features": [
+    "Choctawhatchee Bay",
+    "Eglin Air Force Base ranges",
+    "Blackwater River headwaters",
+    "Henderson Beach State Park"
+   ],
+   "habitat_type": "Emerald Coast beach cities, bay suburbs, and inland Crestview",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Choctawhatchee Bay and Eglin Air Force Base ranges, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils, and this is the part of Florida where southern copperheads and timber rattlesnakes also occur at the edge of their range alongside the statewide cottonmouth",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Alachua County": {
+   "county_seat": "Gainesville",
+   "population": 290623,
+   "established": 1824,
+   "region": "north-central Florida around Gainesville",
+   "largest_cities": [
+    "Gainesville",
+    "Alachua",
+    "High Springs",
+    "Newberry",
+    "Archer"
+   ],
+   "nearest_metro": "Gainesville is itself the metro center",
+   "natural_features": [
+    "Paynes Prairie Preserve",
+    "Devil's Millhopper",
+    "Santa Fe River"
+   ],
+   "habitat_type": "university city and rural farm towns",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Paynes Prairie Preserve and Devil's Millhopper, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Baker County": {
+   "county_seat": "Macclenny",
+   "population": 29368,
+   "established": 1861,
+   "region": "northeast Florida on the Georgia line west of Jacksonville",
+   "largest_cities": [
+    "Macclenny",
+    "Glen St. Mary",
+    "Sanderson"
+   ],
+   "nearest_metro": "Jacksonville is about 30 miles east",
+   "natural_features": [
+    "Osceola National Forest",
+    "St. Marys River"
+   ],
+   "habitat_type": "small towns in pine flatwoods and forest",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Osceola National Forest and St. Marys River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Bay County": {
+   "county_seat": "Panama City",
+   "population": 175216,
+   "established": 1913,
+   "region": "central Florida panhandle on St. Andrew Bay and the Gulf",
+   "largest_cities": [
+    "Panama City",
+    "Panama City Beach",
+    "Lynn Haven",
+    "Callaway",
+    "Parker"
+   ],
+   "nearest_metro": "Panama City is itself the metro center",
+   "natural_features": [
+    "St. Andrew Bay",
+    "St. Andrews State Park",
+    "West Bay"
+   ],
+   "habitat_type": "beach and bay suburbs and inland towns",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around St. Andrew Bay and St. Andrews State Park, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils, and this is the part of Florida where southern copperheads and timber rattlesnakes also occur at the edge of their range alongside the statewide cottonmouth",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Bradford County": {
+   "county_seat": "Starke",
+   "population": 28003,
+   "established": 1858,
+   "region": "north Florida between Gainesville and Jacksonville",
+   "largest_cities": [
+    "Starke",
+    "Lawtey",
+    "Brooker",
+    "Hampton"
+   ],
+   "nearest_metro": "Jacksonville and Gainesville are each about 40 miles away",
+   "natural_features": [
+    "Santa Fe River",
+    "Samson Lake",
+    "Crosby Lake"
+   ],
+   "habitat_type": "small lake towns and rural land",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Santa Fe River and Samson Lake, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Calhoun County": {
+   "county_seat": "Blountstown",
+   "population": 13996,
+   "established": 1838,
+   "region": "central Florida panhandle on the Apalachicola River",
+   "largest_cities": [
+    "Blountstown",
+    "Altha"
+   ],
+   "nearest_metro": "Tallahassee is about 50 miles east",
+   "natural_features": [
+    "Apalachicola River",
+    "Chipola River"
+   ],
+   "habitat_type": "rural river county with small towns",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Apalachicola River and Chipola River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils, and this is the part of Florida where southern copperheads and timber rattlesnakes also occur at the edge of their range alongside the statewide cottonmouth",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Columbia County": {
+   "county_seat": "Lake City",
+   "population": 71686,
+   "established": 1832,
+   "region": "north Florida at the I-10/I-75 crossroads",
+   "largest_cities": [
+    "Lake City",
+    "Fort White",
+    "Five Points"
+   ],
+   "nearest_metro": "Lake City; Gainesville is about 45 miles south",
+   "natural_features": [
+    "Ichetucknee Springs",
+    "Santa Fe River",
+    "Suwannee River",
+    "O'Leno State Park"
+   ],
+   "habitat_type": "Lake City suburbs and spring and river country",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Ichetucknee Springs and Santa Fe River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "DeSoto County": {
+   "county_seat": "Arcadia",
+   "population": 33976,
+   "established": 1887,
+   "region": "south-central Florida interior on the Peace River",
+   "largest_cities": [
+    "Arcadia",
+    "Nocatee"
+   ],
+   "nearest_metro": "Sarasota and Fort Myers are the nearest coastal metros",
+   "natural_features": [
+    "Peace River",
+    "Prairie Creek"
+   ],
+   "habitat_type": "Arcadia and cattle and citrus country",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Peace River and Prairie Creek, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Dixie County": {
+   "county_seat": "Cross City",
+   "population": 17032,
+   "established": 1914,
+   "region": "north Florida Big Bend Gulf coast",
+   "largest_cities": [
+    "Cross City",
+    "Horseshoe Beach",
+    "Old Town"
+   ],
+   "nearest_metro": "Gainesville is about 60 miles east",
+   "natural_features": [
+    "Suwannee River mouth",
+    "Steinhatchee River",
+    "Lower Suwannee refuge land"
+   ],
+   "habitat_type": "sparse Gulf coast and river communities",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Suwannee River mouth and Steinhatchee River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Flagler County": {
+   "county_seat": "Bunnell",
+   "population": 120932,
+   "established": 1917,
+   "region": "east-central Florida coast between St. Augustine and Daytona Beach",
+   "largest_cities": [
+    "Palm Coast",
+    "Bunnell",
+    "Flagler Beach",
+    "Beverly Beach"
+   ],
+   "nearest_metro": "Palm Coast; Daytona Beach is about 25 miles south",
+   "natural_features": [
+    "Matanzas River",
+    "Bulow Creek State Park",
+    "Washington Oaks"
+   ],
+   "habitat_type": "Palm Coast canal suburbs and coastal towns",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Matanzas River and Bulow Creek State Park, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Franklin County": {
+   "county_seat": "Apalachicola",
+   "population": 12046,
+   "established": 1832,
+   "region": "central Florida panhandle Forgotten Coast on Apalachicola Bay",
+   "largest_cities": [
+    "Apalachicola",
+    "Carrabelle",
+    "Eastpoint"
+   ],
+   "nearest_metro": "Tallahassee is about 80 miles northeast",
+   "natural_features": [
+    "Apalachicola River and Bay",
+    "St. George Island",
+    "Tate's Hell State Forest"
+   ],
+   "habitat_type": "fishing towns and barrier-island communities",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Apalachicola River and Bay and St. George Island, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils, and this is the part of Florida where southern copperheads and timber rattlesnakes also occur at the edge of their range alongside the statewide cottonmouth",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Gadsden County": {
+   "county_seat": "Quincy",
+   "population": 43826,
+   "established": 1824,
+   "region": "north Florida panhandle-edge west of Tallahassee",
+   "largest_cities": [
+    "Quincy",
+    "Chattahoochee",
+    "Gretna",
+    "Havana",
+    "Midway"
+   ],
+   "nearest_metro": "Tallahassee is about 25 miles east",
+   "natural_features": [
+    "Lake Talquin",
+    "Ochlockonee River",
+    "Apalachicola River"
+   ],
+   "habitat_type": "Quincy and Red Hills farm country",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Lake Talquin and Ochlockonee River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils, and this is the part of Florida where southern copperheads and timber rattlesnakes also occur at the edge of their range alongside the statewide cottonmouth",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Gilchrist County": {
+   "county_seat": "Trenton",
+   "population": 18471,
+   "established": 1925,
+   "region": "north Florida Suwannee River country",
+   "largest_cities": [
+    "Trenton",
+    "Bell",
+    "Fanning Springs"
+   ],
+   "nearest_metro": "Gainesville is about 35 miles east",
+   "natural_features": [
+    "Suwannee River",
+    "Santa Fe River",
+    "Ginnie Springs area"
+   ],
+   "habitat_type": "rural springs and farm county",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Suwannee River and Santa Fe River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Glades County": {
+   "county_seat": "Moore Haven",
+   "population": 12660,
+   "established": 1917,
+   "region": "south-central Florida on the western shore of Lake Okeechobee",
+   "largest_cities": [
+    "Moore Haven",
+    "Buckhead Ridge"
+   ],
+   "nearest_metro": "Fort Myers and West Palm Beach are the nearest metros",
+   "natural_features": [
+    "Lake Okeechobee western shore",
+    "Caloosahatchee River",
+    "Fisheating Creek"
+   ],
+   "habitat_type": "sparse lake and sugarcane country",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Lake Okeechobee western shore and Caloosahatchee River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Gulf County": {
+   "county_seat": "Port St. Joe",
+   "population": 14896,
+   "established": 1913,
+   "region": "central Florida panhandle on St. Joseph Bay",
+   "largest_cities": [
+    "Port St. Joe",
+    "Wewahitchka"
+   ],
+   "nearest_metro": "Panama City is about 35 miles west",
+   "natural_features": [
+    "St. Joseph Bay",
+    "St. Joseph Peninsula State Park",
+    "Apalachicola River delta"
+   ],
+   "habitat_type": "bay towns and beach peninsula",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around St. Joseph Bay and St. Joseph Peninsula State Park, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils, and this is the part of Florida where southern copperheads and timber rattlesnakes also occur at the edge of their range alongside the statewide cottonmouth",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Hamilton County": {
+   "county_seat": "Jasper",
+   "population": 13988,
+   "established": 1827,
+   "region": "north Florida on the Georgia line along the Suwannee River",
+   "largest_cities": [
+    "Jasper",
+    "Jennings",
+    "White Springs"
+   ],
+   "nearest_metro": "Valdosta, Georgia is the nearest metro",
+   "natural_features": [
+    "Suwannee River",
+    "Withlacoochee River"
+   ],
+   "habitat_type": "rural river county",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Suwannee River and Withlacoochee River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Hardee County": {
+   "county_seat": "Wauchula",
+   "population": 25686,
+   "established": 1917,
+   "region": "south-central Florida interior on the Peace River",
+   "largest_cities": [
+    "Wauchula",
+    "Bowling Green",
+    "Zolfo Springs"
+   ],
+   "nearest_metro": "Lakeland and Sarasota are the nearest metros",
+   "natural_features": [
+    "Peace River",
+    "Charlie Creek"
+   ],
+   "habitat_type": "citrus and cattle towns",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Peace River and Charlie Creek, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Hendry County": {
+   "county_seat": "LaBelle",
+   "population": 43258,
+   "established": 1911,
+   "region": "south Florida interior east of Fort Myers",
+   "largest_cities": [
+    "LaBelle",
+    "Clewiston",
+    "Montura"
+   ],
+   "nearest_metro": "Fort Myers is about 30 miles west",
+   "natural_features": [
+    "Caloosahatchee River",
+    "Lake Okeechobee southern shore"
+   ],
+   "habitat_type": "LaBelle, Clewiston, and sugarcane country",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Caloosahatchee River and Lake Okeechobee southern shore, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Highlands County": {
+   "county_seat": "Sebring",
+   "population": 105185,
+   "established": 1921,
+   "region": "south-central Florida lake country",
+   "largest_cities": [
+    "Sebring",
+    "Avon Park",
+    "Lake Placid"
+   ],
+   "nearest_metro": "Sebring; Orlando and Fort Myers are the nearest larger metros",
+   "natural_features": [
+    "Lake Jackson",
+    "Lake Placid lakes",
+    "Highlands Hammock State Park"
+   ],
+   "habitat_type": "lake towns and citrus country",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Lake Jackson and Lake Placid lakes, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Holmes County": {
+   "county_seat": "Bonifay",
+   "population": 19978,
+   "established": 1915,
+   "region": "western Florida panhandle interior",
+   "largest_cities": [
+    "Bonifay",
+    "Ponce de Leon",
+    "Westville"
+   ],
+   "nearest_metro": "Dothan, Alabama is the nearest metro",
+   "natural_features": [
+    "Choctawhatchee River"
+   ],
+   "habitat_type": "rural panhandle county",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Choctawhatchee River and Choctawhatchee River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils, and this is the part of Florida where southern copperheads and timber rattlesnakes also occur at the edge of their range alongside the statewide cottonmouth",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Jackson County": {
+   "county_seat": "Marianna",
+   "population": 48004,
+   "established": 1824,
+   "region": "central Florida panhandle on the Chipola River",
+   "largest_cities": [
+    "Marianna",
+    "Sneads",
+    "Graceville",
+    "Cottondale"
+   ],
+   "nearest_metro": "Tallahassee is about 65 miles east; Dothan, Alabama is north",
+   "natural_features": [
+    "Chipola River",
+    "Florida Caverns State Park",
+    "Compass Lake"
+   ],
+   "habitat_type": "Marianna and farm country",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Chipola River and Florida Caverns State Park, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils, and this is the part of Florida where southern copperheads and timber rattlesnakes also occur at the edge of their range alongside the statewide cottonmouth",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Jefferson County": {
+   "county_seat": "Monticello",
+   "population": 14510,
+   "established": 1827,
+   "region": "north Florida panhandle-edge east of Tallahassee",
+   "largest_cities": [
+    "Monticello",
+    "Wacissa"
+   ],
+   "nearest_metro": "Tallahassee is about 25 miles west",
+   "natural_features": [
+    "Wacissa River",
+    "Aucilla River",
+    "Lake Miccosukee"
+   ],
+   "habitat_type": "rural Red Hills and river county",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Wacissa River and Aucilla River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Lafayette County": {
+   "county_seat": "Mayo",
+   "population": 8246,
+   "established": 1883,
+   "region": "north Florida Suwannee River country",
+   "largest_cities": [
+    "Mayo",
+    "Day"
+   ],
+   "nearest_metro": "Gainesville is about 70 miles east",
+   "natural_features": [
+    "Suwannee River",
+    "Troy Spring"
+   ],
+   "habitat_type": "one of Florida's least populous counties",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Suwannee River and Troy Spring, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Levy County": {
+   "county_seat": "Bronson",
+   "population": 42915,
+   "established": 1845,
+   "region": "north Florida Big Bend Gulf coast south of Gainesville",
+   "largest_cities": [
+    "Bronson",
+    "Cedar Key",
+    "Chiefland",
+    "Williston",
+    "Inglis"
+   ],
+   "nearest_metro": "Gainesville is about 35 miles east",
+   "natural_features": [
+    "Suwannee River mouth",
+    "Withlacoochee River",
+    "Cedar Key",
+    "Waccasassa Bay"
+   ],
+   "habitat_type": "Gulf coast towns, Cedar Key, and farm country",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Suwannee River mouth and Withlacoochee River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Liberty County": {
+   "county_seat": "Bristol",
+   "population": 8055,
+   "established": 1855,
+   "region": "central Florida panhandle in Apalachicola National Forest",
+   "largest_cities": [
+    "Bristol",
+    "Hosford"
+   ],
+   "nearest_metro": "Tallahassee is about 45 miles east",
+   "natural_features": [
+    "Apalachicola River",
+    "Apalachicola National Forest",
+    "Torreya State Park"
+   ],
+   "habitat_type": "Florida's least populous county — forest and small towns",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Apalachicola River and Apalachicola National Forest, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils, and this is the part of Florida where southern copperheads and timber rattlesnakes also occur at the edge of their range alongside the statewide cottonmouth",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Madison County": {
+   "county_seat": "Madison",
+   "population": 18085,
+   "established": 1827,
+   "region": "north Florida on the Georgia line",
+   "largest_cities": [
+    "Madison",
+    "Greenville",
+    "Lee"
+   ],
+   "nearest_metro": "Tallahassee is about 55 miles west; Valdosta, Georgia is north",
+   "natural_features": [
+    "Withlacoochee River",
+    "Suwannee River"
+   ],
+   "habitat_type": "rural farm county",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Withlacoochee River and Suwannee River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Okeechobee County": {
+   "county_seat": "Okeechobee",
+   "population": 42394,
+   "established": 1915,
+   "region": "south-central Florida on the northern shore of Lake Okeechobee",
+   "largest_cities": [
+    "Okeechobee",
+    "Taylor Creek",
+    "Fort Drum"
+   ],
+   "nearest_metro": "Fort Pierce and West Palm Beach are the nearest coastal metros",
+   "natural_features": [
+    "Lake Okeechobee northern shore",
+    "Kissimmee River",
+    "Taylor Creek"
+   ],
+   "habitat_type": "lake town and ranch country",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Lake Okeechobee northern shore and Kissimmee River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Polk County": {
+   "county_seat": "Bartow",
+   "population": 787458,
+   "established": 1861,
+   "region": "central Florida between Tampa and Orlando",
+   "largest_cities": [
+    "Lakeland",
+    "Bartow",
+    "Winter Haven",
+    "Haines City",
+    "Auburndale",
+    "Lake Wales"
+   ],
+   "nearest_metro": "Lakeland and Winter Haven; Tampa and Orlando flank the county",
+   "natural_features": [
+    "Peace River headwaters",
+    "Green Swamp",
+    "Lake Kissimmee edge",
+    "Circle B Bar Reserve"
+   ],
+   "habitat_type": "Lakeland suburbs, lake towns, and phosphate and citrus land",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Peace River headwaters and Green Swamp, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Putnam County": {
+   "county_seat": "Palatka",
+   "population": 75213,
+   "established": 1849,
+   "region": "northeast Florida on the St. Johns River",
+   "largest_cities": [
+    "Palatka",
+    "Crescent City",
+    "Interlachen",
+    "Welaka"
+   ],
+   "nearest_metro": "Jacksonville and Gainesville are the nearest metros",
+   "natural_features": [
+    "St. Johns River",
+    "Crescent Lake",
+    "Ravine Gardens State Park"
+   ],
+   "habitat_type": "Palatka and river and lake towns",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around St. Johns River and Crescent Lake, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Sumter County": {
+   "county_seat": "Bushnell",
+   "population": 151153,
+   "established": 1853,
+   "region": "central Florida west of Orlando, home to much of The Villages",
+   "largest_cities": [
+    "The Villages",
+    "Bushnell",
+    "Wildwood",
+    "Lake Panasoffkee",
+    "Coleman"
+   ],
+   "nearest_metro": "The Villages; Orlando is about 50 miles east",
+   "natural_features": [
+    "Withlacoochee River",
+    "Lake Panasoffkee",
+    "Green Swamp east edge"
+   ],
+   "habitat_type": "retirement communities and rural south county",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Withlacoochee River and Lake Panasoffkee, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Suwannee County": {
+   "county_seat": "Live Oak",
+   "population": 46101,
+   "established": 1858,
+   "region": "north Florida on the Suwannee River",
+   "largest_cities": [
+    "Live Oak",
+    "Branford",
+    "Dowling Park"
+   ],
+   "nearest_metro": "Gainesville is about 60 miles southeast",
+   "natural_features": [
+    "Suwannee River",
+    "Ichetucknee River mouth",
+    "Peacock Springs"
+   ],
+   "habitat_type": "Live Oak and farm and spring country",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Suwannee River and Ichetucknee River mouth, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Taylor County": {
+   "county_seat": "Perry",
+   "population": 21796,
+   "established": 1849,
+   "region": "north Florida Big Bend Gulf coast",
+   "largest_cities": [
+    "Perry",
+    "Steinhatchee"
+   ],
+   "nearest_metro": "Tallahassee is about 50 miles northwest",
+   "natural_features": [
+    "Steinhatchee River",
+    "Econfina River",
+    "Aucilla River"
+   ],
+   "habitat_type": "Perry and sparse Gulf coast",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Steinhatchee River and Econfina River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Union County": {
+   "county_seat": "Lake Butler",
+   "population": 16461,
+   "established": 1861,
+   "region": "north Florida lake country",
+   "largest_cities": [
+    "Lake Butler",
+    "Worthington Springs",
+    "Raiford"
+   ],
+   "nearest_metro": "Gainesville is about 30 miles south",
+   "natural_features": [
+    "Lake Butler",
+    "Santa Fe River"
+   ],
+   "habitat_type": "Florida's smallest county by land area",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Lake Butler and Santa Fe River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Wakulla County": {
+   "county_seat": "Crawfordville",
+   "population": 36269,
+   "established": 1843,
+   "region": "north Florida Big Bend south of Tallahassee",
+   "largest_cities": [
+    "Crawfordville",
+    "St. Marks",
+    "Sopchoppy",
+    "Panacea"
+   ],
+   "nearest_metro": "Tallahassee is about 20 miles north",
+   "natural_features": [
+    "Wakulla Springs",
+    "St. Marks River",
+    "Apalachee Bay",
+    "St. Marks National Wildlife Refuge"
+   ],
+   "habitat_type": "Tallahassee exurbs and coast and refuge land",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Wakulla Springs and St. Marks River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Walton County": {
+   "county_seat": "DeFuniak Springs",
+   "population": 83204,
+   "established": 1824,
+   "region": "western Florida panhandle from the Gulf to the Alabama line",
+   "largest_cities": [
+    "DeFuniak Springs",
+    "Santa Rosa Beach",
+    "Miramar Beach",
+    "Freeport",
+    "Paxton"
+   ],
+   "nearest_metro": "Destin and Fort Walton Beach are west; Panama City is east",
+   "natural_features": [
+    "Choctawhatchee Bay",
+    "Choctawhatchee River",
+    "Point Washington State Forest",
+    "Topsail Hill Preserve"
+   ],
+   "habitat_type": "South Walton beach communities and inland DeFuniak Springs",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Choctawhatchee Bay and Choctawhatchee River, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils, and this is the part of Florida where southern copperheads and timber rattlesnakes also occur at the edge of their range alongside the statewide cottonmouth",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  },
+  "Washington County": {
+   "county_seat": "Chipley",
+   "population": 25587,
+   "established": 1827,
+   "region": "central Florida panhandle interior",
+   "largest_cities": [
+    "Chipley",
+    "Vernon",
+    "Wausau"
+   ],
+   "nearest_metro": "Panama City is about 40 miles south",
+   "natural_features": [
+    "Choctawhatchee River",
+    "Holmes Creek",
+    "Pine Log State Forest"
+   ],
+   "habitat_type": "Chipley and rural panhandle land",
+   "common_wildlife": [
+    "raccoons",
+    "eastern gray squirrels",
+    "roof rats",
+    "Virginia opossums",
+    "nine-banded armadillos",
+    "eastern moles",
+    "Brazilian free-tailed bats",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons, eastern gray squirrels, and roof rats work the homes around Choctawhatchee River and Holmes Creek, opossums and striped skunks move through yards at night, armadillos dig in lawns and flower beds, and eastern moles tunnel the sandy soils, and this is the part of Florida where southern copperheads and timber rattlesnakes also occur at the edge of their range alongside the statewide cottonmouth",
+   "absent_or_rare": "gopher tortoises in dry upland ground are State Threatened and left alone — their burrows carry a 25-foot permit buffer and only an FWC Authorized Agent may move one — burrowing owls, sandhill cranes, and wood storks are referral-only, and any alligator four feet or longer that threatens people, pets, or property goes only to the Florida Fish and Wildlife Conservation Commission's Statewide Nuisance Alligator Program, never to a private booking"
+  }
+ }
+}
