@@ -1,0 +1,1573 @@
+{
+ "state": {
+  "name": "West Virginia",
+  "agency": "West Virginia Division of Natural Resources, Wildlife Resources Section",
+  "agency_short": "WVDNR",
+  "peak_intrusion_season": "March through May during spring raccoon and squirrel denning and groundhog emergence, summer for bat maternity colonies in attics and peak copperhead activity, and late September through November as rodents, squirrels, and bats seek winter shelter in homes across the mountains and river valleys",
+  "climate_factor": "West Virginia's mountain winters push rodents, squirrels, and bats into attics and wall voids hard, while warm humid summers in the Ohio River and Kanawha valleys drive heavy raccoon, skunk, and groundhog activity; elevation changes the calendar by weeks between the Eastern Panhandle and the high Allegheny counties",
+  "permit_note": "West Virginia requires a Wildlife Damage Control Agent (WDCA) license, issued by the West Virginia Division of Natural Resources under W. Va. Code §20-2-50a and 58 CSR 41, for commercial nuisance wildlife work; a WDCA may control only the species listed in 58 CSR 41 §7.1.g, may never control the species listed in §7.1.i, and under §8.1 must euthanize captured wildlife humanely or liberate it at the site of capture — off-site release requires the prior approval of the district wildlife biologist"
+ },
+ "counties": {
+  "Barbour County": {
+   "county_seat": "Philippi",
+   "population": 15465,
+   "established": 1843,
+   "region": "north-central West Virginia in the Tygart Valley",
+   "largest_cities": [
+    "Philippi",
+    "Belington",
+    "Junior"
+   ],
+   "nearest_metro": "Clarksburg (about 25 miles northwest)",
+   "natural_features": [
+    "Tygart River",
+    "Audra State Park",
+    "Alum Cave and the Middle Fork River corridor"
+   ],
+   "habitat_type": "river-valley towns under steep wooded ridges, with farms and camps along the Tygart and Middle Fork",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "opossums",
+    "bats",
+    "woodchucks"
+   ],
+   "regional_wildlife": "raccoons work the Tygart River bottoms and Philippi's older blocks, gray squirrels fill the oak ridges above the valley towns, and woodchucks burrow the farm edges around Belington and Junior",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers live throughout the county but may be controlled only with prior approval from the WVDNR district biologist and a Natural Resources Police officer, not as routine work"
+  },
+  "Berkeley County": {
+   "county_seat": "Martinsburg",
+   "population": 122076,
+   "established": 1772,
+   "region": "the Eastern Panhandle along I-81, bordering Maryland and Virginia",
+   "largest_cities": [
+    "Martinsburg",
+    "Hedgesville",
+    "Inwood"
+   ],
+   "nearest_metro": "Washington, DC (about 75 miles southeast) and Hagerstown, MD (about 20 miles north)",
+   "natural_features": [
+    "Opequon Creek",
+    "Sleepy Creek Wildlife Management Area",
+    "Back Creek and the Potomac River border"
+   ],
+   "habitat_type": "fast-growing I-81 subdivisions and Martinsburg's older urban core, backed by orchard land, karst limestone, and wooded ridges in the west",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "woodchucks",
+    "bats",
+    "Norway rats",
+    "moles"
+   ],
+   "regional_wildlife": "woodchucks burrow under sheds and decks across the orchard-edge subdivisions from Inwood to Hedgesville, skunks work the new lawns along I-81, Norway rats hold Martinsburg's oldest blocks, and bats turn up in both 1800s downtown homes and brand-new attics in the exurban growth ring",
+   "absent_or_rare": "white-tailed deer, black bears, and beavers live in the county's western ridges and creek bottoms but may be controlled only with prior WVDNR approval, and the county's limestone caves are bat habitat where listed species are referral-only, never a service"
+  },
+  "Boone County": {
+   "county_seat": "Madison",
+   "population": 21809,
+   "established": 1847,
+   "region": "southwestern West Virginia coal country along the Coal River",
+   "largest_cities": [
+    "Madison",
+    "Danville",
+    "Sylvester"
+   ],
+   "nearest_metro": "Charleston (about 25 miles northeast)",
+   "natural_features": [
+    "Coal River and Little Coal River",
+    "steep reclaimed mine land and ridge forests",
+    "Fork Creek Wildlife Management Area (in neighboring Lincoln, serving the same ridge country)"
+   ],
+   "habitat_type": "narrow Coal River valley towns tucked against steep wooded ridges, with homes and camps strung along the hollows",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "striped skunks",
+    "gray squirrels",
+    "bats",
+    "snakes"
+   ],
+   "regional_wildlife": "raccoons and opossums work the Coal River bottoms and the valley towns nightly, snakes — mostly harmless rat snakes and garter snakes, with copperheads on the rocky cuts — turn up around stone walls and woodpiles, and bats roost in older hollow homes and outbuildings",
+   "absent_or_rare": "black bears and white-tailed deer are common on the reclaimed ridges but may be controlled only with prior WVDNR approval, and beavers flooding hollow roads are likewise approval-gated, never routine services"
+  },
+  "Braxton County": {
+   "county_seat": "Sutton",
+   "population": 12447,
+   "established": 1836,
+   "region": "the geographic center of West Virginia, on the Elk River",
+   "largest_cities": [
+    "Sutton",
+    "Gassaway",
+    "Flatwoods"
+   ],
+   "nearest_metro": "Charleston (about 60 miles southwest) and Clarksburg (about 45 miles north)",
+   "natural_features": [
+    "Elk River and Sutton Lake",
+    "Burnsville Lake",
+    "Bulltown and the West Fork corridor"
+   ],
+   "habitat_type": "lake and river country of small valley towns, camps, and farmhouses under heavy forest cover",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "opossums",
+    "woodchucks",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons work the Elk River and lake shoreline camps, bats colonize older Sutton and Gassaway homes and seasonal lake houses, and woodchucks and skunks handle the farm-edge digging around Flatwoods",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers are plentiful around the lakes and river bottoms but may be controlled only with prior WVDNR approval rather than as routine removal work"
+  },
+  "Brooke County": {
+   "county_seat": "Wellsburg",
+   "population": 22366,
+   "established": 1796,
+   "region": "the Northern Panhandle on the Ohio River, bordering Ohio and Pennsylvania",
+   "largest_cities": [
+    "Wellsburg",
+    "Follansbee",
+    "Bethany"
+   ],
+   "nearest_metro": "Pittsburgh, PA (about 35 miles east) and Steubenville, OH (across the river)",
+   "natural_features": [
+    "Ohio River shoreline",
+    "Cross Creek and Buffalo Creek",
+    "Brooke Hills Park"
+   ],
+   "habitat_type": "Ohio River mill towns and older suburbs under wooded bluffs, with farmland on the plateau above",
+   "common_wildlife": [
+    "raccoons",
+    "Norway rats",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums"
+   ],
+   "regional_wildlife": "Norway rats persist in the older riverfront blocks of Wellsburg and Follansbee, raccoons and bats work the bluff-side homes above the river, and skunks and opossums fill the suburban yards in between",
+   "absent_or_rare": "white-tailed deer and beavers live along the creek bottoms but may be controlled only with prior WVDNR approval, and Canada geese on the riverfront are federally protected — deterrence only, never a removal service"
+  },
+  "Cabell County": {
+   "county_seat": "Huntington",
+   "population": 94687,
+   "established": 1809,
+   "region": "western West Virginia on the Ohio River at the Kentucky and Ohio tri-state",
+   "largest_cities": [
+    "Huntington",
+    "Milton",
+    "Barboursville"
+   ],
+   "nearest_metro": "Huntington is itself the tri-state metro center",
+   "natural_features": [
+    "Ohio River and Guyandotte River confluence",
+    "Ritter Park and the Fourpole Creek corridor",
+    "Beech Fork State Park (southern county line)"
+   ],
+   "habitat_type": "the Huntington urban core and older suburbs, with river-bottom towns and wooded hill neighborhoods throughout",
+   "common_wildlife": [
+    "raccoons",
+    "Norway rats",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "pigeons and starlings"
+   ],
+   "regional_wildlife": "Norway rats anchor calls in Huntington's oldest neighborhoods and commercial blocks, raccoons and gray squirrels work the hill and park-side streets, pigeons and starlings roost on downtown commercial buildings, and bats colonize older homes from the Southside to Barboursville",
+   "absent_or_rare": "white-tailed deer and beavers live along the Guyandotte and Beech Fork but may be controlled only with prior WVDNR approval, and Canada geese on the riverfront are deterrence-only under federal protection"
+  },
+  "Calhoun County": {
+   "county_seat": "Grantsville",
+   "population": 6229,
+   "established": 1856,
+   "region": "central West Virginia on the Little Kanawha River",
+   "largest_cities": [
+    "Grantsville",
+    "Arnoldsburg"
+   ],
+   "nearest_metro": "Parkersburg (about 45 miles northwest)",
+   "natural_features": [
+    "Little Kanawha River",
+    "steep forested ridges and oil-and-gas country",
+    "Cedar Creek State Park (just over the Gilmer line)"
+   ],
+   "habitat_type": "one of the state's most rural counties — small river towns, farm bottoms, and homes scattered through deep forest",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "opossums",
+    "bats",
+    "woodchucks",
+    "snakes"
+   ],
+   "regional_wildlife": "raccoons and opossums work the Little Kanawha bottoms, gray and fox squirrels fill the ridge oak woods, bats roost in the county's older farmhouses and churches, and harmless rat snakes are routine around barns and woodpiles",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers are all common but may be controlled only with prior WVDNR approval, and timber rattlesnakes on the rocky ridgetops are never a removal promise — safety and identification only"
+  },
+  "Clay County": {
+   "county_seat": "Clay",
+   "population": 8051,
+   "established": 1858,
+   "region": "central West Virginia on the Elk River",
+   "largest_cities": [
+    "Clay",
+    "Ivydale"
+   ],
+   "nearest_metro": "Charleston (about 50 miles southwest)",
+   "natural_features": [
+    "Elk River",
+    "Buffalo Creek and the county's steep hollow country",
+    "Wallback Wildlife Management Area"
+   ],
+   "habitat_type": "deeply rural Elk River valley and hollow communities under near-total forest cover",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "opossums",
+    "striped skunks",
+    "woodchucks"
+   ],
+   "regional_wildlife": "raccoons commute from the Elk River bottoms into the town of Clay and the hollow homes, bats settle the older farmhouses, and woodchucks and skunks work the cleared bottoms and garden plots",
+   "absent_or_rare": "black bears and white-tailed deer are abundant in the surrounding forest but may be controlled only with prior WVDNR approval, and beaver work on the creeks is approval-gated as well"
+  },
+  "Doddridge County": {
+   "county_seat": "West Union",
+   "population": 7808,
+   "established": 1845,
+   "region": "north-central West Virginia on Middle Island Creek",
+   "largest_cities": [
+    "West Union",
+    "Smithburg"
+   ],
+   "nearest_metro": "Clarksburg (about 30 miles east) and Parkersburg (about 40 miles west)",
+   "natural_features": [
+    "Middle Island Creek",
+    "North Bend Rail Trail corridor",
+    "rolling oil-and-gas ridge country"
+   ],
+   "habitat_type": "small rail-trail towns and farm country on rolling wooded ridges",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "woodchucks",
+    "bats",
+    "opossums",
+    "striped skunks"
+   ],
+   "regional_wildlife": "woodchucks burrow the farm and garden edges around West Union, raccoons work the Middle Island Creek bottoms, and bats and squirrels share the county's older farmhouses",
+   "absent_or_rare": "white-tailed deer, black bears, and beavers live throughout the creek country but may be controlled only with prior WVDNR approval rather than as routine services"
+  },
+  "Fayette County": {
+   "county_seat": "Fayetteville",
+   "population": 40856,
+   "established": 1831,
+   "region": "south-central West Virginia at the New River Gorge",
+   "largest_cities": [
+    "Fayetteville",
+    "Oak Hill",
+    "Montgomery",
+    "Ansted"
+   ],
+   "nearest_metro": "Beckley (about 25 miles south) and Charleston (about 55 miles northwest)",
+   "natural_features": [
+    "New River Gorge National Park and Preserve",
+    "New River and Gauley River confluence",
+    "Babcock State Park and Hawks Nest State Park"
+   ],
+   "habitat_type": "gorge-rim towns, rafting and vacation properties, and older coal and railroad towns along the rivers",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "snakes"
+   ],
+   "regional_wildlife": "raccoons and bats are the gorge country's steady pair — raccoons in Fayetteville and Oak Hill attics and vacation rentals, bats in older homes and cabins near the rim — while copperheads keep to the rocky gorge slopes and stone walls, and skunks work the town yards at dusk",
+   "absent_or_rare": "black bears, white-tailed deer, and river otters live in the gorge but may be controlled only with prior WVDNR approval, and the Allegheny woodrat in the gorge's rock outcrops is a never-control species — referral only, never a service"
+  },
+  "Gilmer County": {
+   "county_seat": "Glenville",
+   "population": 7408,
+   "established": 1845,
+   "region": "central West Virginia on the Little Kanawha River",
+   "largest_cities": [
+    "Glenville",
+    "Sand Fork"
+   ],
+   "nearest_metro": "Weston (about 25 miles northeast) and Charleston (about 75 miles southwest)",
+   "natural_features": [
+    "Little Kanawha River",
+    "Cedar Creek State Park",
+    "heavily forested ridge country throughout"
+   ],
+   "habitat_type": "a small college town in a river bottom, surrounded by farm clearings and deep forest",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "woodchucks",
+    "opossums",
+    "striped skunks"
+   ],
+   "regional_wildlife": "raccoons and bats share Glenville's older homes — bats in the summer attics, raccoons in the chimneys — woodchucks work the Cedar Creek farm country, and squirrels fill the ridge woods pressing every clearing",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers are common in the forest and creek bottoms but may be controlled only with prior WVDNR approval, not as routine work"
+  },
+  "Grant County": {
+   "county_seat": "Petersburg",
+   "population": 10778,
+   "established": 1868,
+   "region": "the Potomac Highlands on the South Branch Potomac River",
+   "largest_cities": [
+    "Petersburg",
+    "Bayard",
+    "Mount Storm"
+   ],
+   "nearest_metro": "Winchester, VA (about 55 miles east) and Cumberland, MD (about 50 miles north)",
+   "natural_features": [
+    "South Branch Potomac River",
+    "Smoke Hole Canyon country",
+    "North Fork Mountain and the Monongahela National Forest edge"
+   ],
+   "habitat_type": "river-valley farm towns under high ridges, with poultry country, camps, and second homes along the South Branch",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "woodchucks",
+    "bats",
+    "snakes"
+   ],
+   "regional_wildlife": "raccoons work the South Branch bottoms and Petersburg's older streets, woodchucks and skunks dig the farm and garden edges, timber rattlesnakes keep to the rocky North Fork Mountain slopes, and bats roost in valley homes and riverside camps",
+   "absent_or_rare": "black bears and white-tailed deer are plentiful on the ridges but may be controlled only with prior WVDNR approval, and the timber rattlesnake — the state reptile — is safety and identification work only, never a lethal service"
+  },
+  "Greenbrier County": {
+   "county_seat": "Lewisburg",
+   "population": 32977,
+   "established": 1778,
+   "region": "southeastern West Virginia in the Greenbrier Valley, bordering Virginia",
+   "largest_cities": [
+    "Lewisburg",
+    "White Sulphur Springs",
+    "Ronceverte",
+    "Alderson"
+   ],
+   "nearest_metro": "Beckley (about 45 miles west) and Roanoke, VA (about 70 miles southeast)",
+   "natural_features": [
+    "Greenbrier River",
+    "Greenbrier State Forest and the karst cave country",
+    "Monongahela National Forest (northern county)"
+   ],
+   "habitat_type": "a broad limestone farm valley with historic towns, cave and karst country, and forested mountain edges",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "woodchucks",
+    "bats",
+    "moles",
+    "snakes"
+   ],
+   "regional_wildlife": "raccoons and squirrels work Lewisburg's historic streets and the valley farms, moles tunnel the limestone valley's lawns and pastures, woodchucks burrow the farm edges, and bats roost in older valley homes — with the county's caves reserved for the protected species that are never ours to disturb",
+   "absent_or_rare": "the Virginia big-eared bat and Indiana bat in the county's caves are federally endangered and never-control species — referral to WVDNR and USFWS only — and black bears, deer, and beavers may be controlled only with prior WVDNR approval"
+  },
+  "Hampshire County": {
+   "county_seat": "Romney",
+   "population": 23150,
+   "established": 1754,
+   "region": "the Potomac Highlands on the South Branch Potomac, the state's oldest county",
+   "largest_cities": [
+    "Romney",
+    "Capon Bridge",
+    "Springfield"
+   ],
+   "nearest_metro": "Winchester, VA (about 35 miles east) and Cumberland, MD (about 30 miles northwest)",
+   "natural_features": [
+    "South Branch Potomac River and The Trough",
+    "Capon River and Cacapon River country",
+    "Short Mountain and Nathaniel Mountain WMA"
+   ],
+   "habitat_type": "river-valley farm towns, orchard country, and ridge-and-hollow homes and camps between the South Branch and the Cacapon",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "woodchucks",
+    "striped skunks",
+    "bats",
+    "snakes"
+   ],
+   "regional_wildlife": "raccoons work the South Branch bottoms and Romney's older streets, woodchucks burrow the orchard and farm edges around Capon Bridge, skunks dig the valley lawns, and copperheads favor the rocky ridge slopes and stone walls above the rivers",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers live throughout the valley and ridge country but may be controlled only with prior WVDNR approval, and timber rattlesnakes on the rocky ridges are identification and safety work only"
+  },
+  "Hancock County": {
+   "county_seat": "New Cumberland",
+   "population": 28576,
+   "established": 1848,
+   "region": "the northernmost Northern Panhandle on the Ohio River and Pennsylvania line",
+   "largest_cities": [
+    "New Cumberland",
+    "Weirton",
+    "Chester"
+   ],
+   "nearest_metro": "Pittsburgh, PA (about 35 miles southeast) and Steubenville, OH (about 15 miles south)",
+   "natural_features": [
+    "Ohio River shoreline",
+    "Tomlinson Run State Park",
+    "steep wooded bluffs above the river towns"
+   ],
+   "habitat_type": "Ohio River industrial and residential towns under wooded bluffs, with suburban growth around Weirton",
+   "common_wildlife": [
+    "raccoons",
+    "Norway rats",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums"
+   ],
+   "regional_wildlife": "Norway rats hold the older riverfront and industrial blocks of Weirton and New Cumberland, raccoons and squirrels work the bluff-side neighborhoods, and bats return to the county's older homes every summer",
+   "absent_or_rare": "white-tailed deer and beavers live along the creek bottoms but may be controlled only with prior WVDNR approval, and Canada geese on the river are federally protected — deterrence only"
+  },
+  "Hardy County": {
+   "county_seat": "Moorefield",
+   "population": 14042,
+   "established": 1786,
+   "region": "the Potomac Highlands on the South Fork of the South Branch Potomac",
+   "largest_cities": [
+    "Moorefield",
+    "Wardensville"
+   ],
+   "nearest_metro": "Winchester, VA (about 50 miles east) and Harrisonburg, VA (about 45 miles southeast)",
+   "natural_features": [
+    "South Fork Potomac River and Moorefield Valley",
+    "Lost River and the trough country of the west",
+    "Warden Lake and Trout Pond recreation country"
+   ],
+   "habitat_type": "a wide poultry-and-farm river valley between high ridges, with camps and homes along the South Fork and Lost River",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "woodchucks",
+    "striped skunks",
+    "bats",
+    "snakes"
+   ],
+   "regional_wildlife": "raccoons work the South Fork bottoms and Moorefield's older streets, woodchucks and skunks dig the poultry-farm and garden edges, bats roost in valley homes and river camps, and copperheads and timber rattlesnakes keep to the rocky ridge slopes",
+   "absent_or_rare": "black bears and white-tailed deer are common on the ridges but may be controlled only with prior WVDNR approval, and the timber rattlesnake, the state reptile, is safety and identification work only — never a lethal service"
+  },
+  "Harrison County": {
+   "county_seat": "Clarksburg",
+   "population": 65737,
+   "established": 1784,
+   "region": "north-central West Virginia on the West Fork River",
+   "largest_cities": [
+    "Clarksburg",
+    "Bridgeport",
+    "Shinnston",
+    "Salem"
+   ],
+   "nearest_metro": "Clarksburg-Bridgeport is the regional center; Morgantown is about 35 miles north",
+   "natural_features": [
+    "West Fork River",
+    "Watters Smith Memorial State Park",
+    "rolling gas-country hills and river bottoms"
+   ],
+   "habitat_type": "Clarksburg's older urban neighborhoods and Bridgeport's fast suburbs, with small coal and rail towns and farm country between",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "woodchucks"
+   ],
+   "regional_wildlife": "Norway rats persist in Clarksburg's oldest blocks, raccoons and squirrels work the canopy neighborhoods of Clarksburg, Bridgeport, and Salem, bats colonize the county's deep stock of early-1900s homes, and woodchucks and skunks handle the suburban-edge digging in Shinnston and beyond",
+   "absent_or_rare": "white-tailed deer and beavers live along the West Fork bottoms but may be controlled only with prior WVDNR approval, and black bears in the county's wooded east are likewise approval-gated"
+  },
+  "Jackson County": {
+   "county_seat": "Ripley",
+   "population": 27658,
+   "established": 1831,
+   "region": "western West Virginia on the Ohio River and Mill Creek",
+   "largest_cities": [
+    "Ripley",
+    "Ravenswood"
+   ],
+   "nearest_metro": "Charleston (about 35 miles southeast) and Parkersburg (about 35 miles north)",
+   "natural_features": [
+    "Ohio River shoreline at Ravenswood",
+    "Mill Creek and Cedar Lakes",
+    "rolling farm and forest country throughout"
+   ],
+   "habitat_type": "Ohio River town at Ravenswood, the Ripley farm-and-suburb center, and rural homes across rolling farm country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "woodchucks",
+    "striped skunks",
+    "bats",
+    "moles",
+    "opossums"
+   ],
+   "regional_wildlife": "woodchucks and moles work the farm and lawn country around Ripley, raccoons and bats fill the older homes of Ripley and Ravenswood, and skunks and opossums cover the rural yards in between",
+   "absent_or_rare": "white-tailed deer, black bears, and beavers live along the river and creek bottoms but may be controlled only with prior WVDNR approval, not as routine services"
+  },
+  "Jefferson County": {
+   "county_seat": "Charles Town",
+   "population": 59676,
+   "established": 1801,
+   "region": "the Eastern Panhandle at the Potomac and Shenandoah confluence, the state's easternmost county",
+   "largest_cities": [
+    "Charles Town",
+    "Harpers Ferry",
+    "Shepherdstown",
+    "Ranson"
+   ],
+   "nearest_metro": "Washington, DC (about 60 miles southeast) and Winchester, VA (about 25 miles southwest)",
+   "natural_features": [
+    "Potomac River and Shenandoah River confluence at Harpers Ferry",
+    "Blue Ridge foothills and the Appalachian Trail corridor",
+    "limestone karst and cave country under the valley floor"
+   ],
+   "habitat_type": "historic towns, horse-and-farm country, and fast DC-exurban subdivisions over limestone karst",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "woodchucks",
+    "striped skunks",
+    "bats",
+    "moles",
+    "snakes"
+   ],
+   "regional_wildlife": "woodchucks burrow the horse-farm and subdivision edges from Charles Town to Shepherdstown, raccoons and squirrels work the historic towns' old housing, bats roost in 1800s homes and the county's karst-edge buildings, and black rat snakes are routine around barns and stone walls",
+   "absent_or_rare": "the Indiana bat and Virginia big-eared bat in the county's caves are federally endangered never-control species — referral only — and white-tailed deer and beavers may be controlled only with prior WVDNR approval"
+  },
+  "Kanawha County": {
+   "county_seat": "Charleston",
+   "population": 180745,
+   "established": 1789,
+   "region": "central West Virginia on the Kanawha River — the state's most populous county",
+   "largest_cities": [
+    "Charleston",
+    "South Charleston",
+    "Dunbar",
+    "St. Albans"
+   ],
+   "nearest_metro": "Charleston is the state capital and metro center",
+   "natural_features": [
+    "Kanawha River and Elk River confluence at Charleston",
+    "Coonskin Park and Kanawha State Forest",
+    "steep wooded hills framing every valley neighborhood"
+   ],
+   "habitat_type": "the Charleston urban core and river suburbs, chemical-valley towns downstream, and hollow communities up every creek",
+   "common_wildlife": [
+    "raccoons",
+    "Norway rats",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "pigeons and starlings"
+   ],
+   "regional_wildlife": "Norway rats anchor the oldest Charleston and valley-town blocks, raccoons and squirrels work the hill neighborhoods that rise straight from the streets, pigeons and starlings roost on downtown and plant-area commercial buildings, and bats colonize older homes from Charleston to St. Albans",
+   "absent_or_rare": "white-tailed deer, black bears, and beavers live in Kanawha State Forest and the creek bottoms but may be controlled only with prior WVDNR approval, and Canada geese on the riverfront are deterrence-only under federal protection"
+  },
+  "Lewis County": {
+   "county_seat": "Weston",
+   "population": 16501,
+   "established": 1816,
+   "region": "north-central West Virginia on the West Fork River",
+   "largest_cities": [
+    "Weston",
+    "Jane Lew"
+   ],
+   "nearest_metro": "Clarksburg (about 25 miles north)",
+   "natural_features": [
+    "West Fork River and Stonewall Jackson Lake",
+    "Stonecoal Lake",
+    "rolling farm and forest hills"
+   ],
+   "habitat_type": "the Weston valley town, lake communities, and farm-and-forest country throughout",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "woodchucks",
+    "striped skunks",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and bats share Weston's older homes, woodchucks and skunks work the farm edges, and lake-area camps around Stonewall Jackson Lake open each spring to overwinter raccoon and bat sign",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers live around the lakes and river bottoms but may be controlled only with prior WVDNR approval, not as routine work"
+  },
+  "Lincoln County": {
+   "county_seat": "Hamlin",
+   "population": 20512,
+   "established": 1867,
+   "region": "southwestern West Virginia in the Guyandotte and Mud River country",
+   "largest_cities": [
+    "Hamlin",
+    "Harts",
+    "West Hamlin"
+   ],
+   "nearest_metro": "Charleston (about 30 miles northeast) and Huntington (about 25 miles northwest)",
+   "natural_features": [
+    "Guyandotte River (eastern county)",
+    "Mud River and its lake at Eleanor (neighboring Putnam)",
+    "Fork Creek Wildlife Management Area"
+   ],
+   "habitat_type": "rural river-valley and hollow communities with farm clearings under steep forest",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "woodchucks"
+   ],
+   "regional_wildlife": "raccoons and opossums work the Mud and Guyandotte bottoms nightly, woodchucks burrow the cleared farm edges, and bats and squirrels share the older hollow homes",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers live throughout the river country but may be controlled only with prior WVDNR approval rather than as routine services"
+  },
+  "Logan County": {
+   "county_seat": "Logan",
+   "population": 32072,
+   "established": 1824,
+   "region": "southwestern West Virginia coal country on the Guyandotte River",
+   "largest_cities": [
+    "Logan",
+    "Chapmanville",
+    "Man"
+   ],
+   "nearest_metro": "Charleston (about 50 miles northeast)",
+   "natural_features": [
+    "Guyandotte River",
+    "Chief Logan State Park",
+    "steep reclaimed mine land and ridge forest"
+   ],
+   "habitat_type": "coal-valley towns and hollow communities tucked under steep wooded and reclaimed ridges",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "striped skunks",
+    "gray squirrels",
+    "bats",
+    "snakes"
+   ],
+   "regional_wildlife": "raccoons and opossums work the Guyandotte bottoms and every hollow community, bats roost in the older valley homes, and copperheads favor the rocky mine-bench and stone-wall country above the towns",
+   "absent_or_rare": "black bears are genuinely common on the reclaimed ridges — Chief Logan's bears are famous — but bears, deer, and beavers may be controlled only with prior WVDNR approval, never as routine services"
+  },
+  "McDowell County": {
+   "county_seat": "Welch",
+   "population": 19674,
+   "established": 1858,
+   "region": "the southernmost West Virginia coalfields, bordering Virginia",
+   "largest_cities": [
+    "Welch",
+    "War",
+    "Gary"
+   ],
+   "nearest_metro": "Bluefield (about 35 miles east) and Beckley (about 55 miles north)",
+   "natural_features": [
+    "Tug Fork River",
+    "steep coal-country ridges and hollow country throughout",
+    "Panther State Forest (western county)"
+   ],
+   "habitat_type": "historic coal towns in narrow valleys, hollow communities, and some of the most rugged forest in the state",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "snakes"
+   ],
+   "regional_wildlife": "raccoons and opossums work the Tug Fork bottoms and every coal town, bats colonize the deep stock of coal-era homes in Welch and War, and snakes — rat snakes around the houses, copperheads on the rocky slopes — are a routine summer call",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers are abundant in the forest but may be controlled only with prior WVDNR approval, and timber rattlesnakes in the high rocky country are safety and identification work only"
+  },
+  "Marion County": {
+   "county_seat": "Fairmont",
+   "population": 56389,
+   "established": 1842,
+   "region": "north-central West Virginia on the Tygart and Monongahela rivers",
+   "largest_cities": [
+    "Fairmont",
+    "Mannington",
+    "Pleasant Valley"
+   ],
+   "nearest_metro": "Fairmont is a regional center; Morgantown is about 20 miles northeast",
+   "natural_features": [
+    "Tygart River and Monongahela River confluence at Fairmont",
+    "Valley Falls State Park",
+    "rolling gas-and-farm country throughout"
+   ],
+   "habitat_type": "Fairmont's older urban neighborhoods, Mannington's small-town core, and suburbs and farms across rolling hills",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "opossums"
+   ],
+   "regional_wildlife": "Norway rats persist in Fairmont's oldest blocks, raccoons, squirrels, and bats work the canopy neighborhoods on both river hills, and woodchucks and skunks cover the farm and suburban edges around Mannington and Pleasant Valley",
+   "absent_or_rare": "white-tailed deer, black bears, and beavers live along the river bottoms but may be controlled only with prior WVDNR approval, not as routine removal work"
+  },
+  "Marshall County": {
+   "county_seat": "Moundsville",
+   "population": 30445,
+   "established": 1835,
+   "region": "the Northern Panhandle on the Ohio River, below Wheeling",
+   "largest_cities": [
+    "Moundsville",
+    "Cameron",
+    "Glen Dale",
+    "Benwood"
+   ],
+   "nearest_metro": "Wheeling (about 12 miles north)",
+   "natural_features": [
+    "Ohio River shoreline",
+    "Fish Creek and Grave Creek country",
+    "wooded bluffs and plateau farmland"
+   ],
+   "habitat_type": "Ohio River towns under the bluffs, with suburbs and farms on the plateau above",
+   "common_wildlife": [
+    "raccoons",
+    "Norway rats",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums"
+   ],
+   "regional_wildlife": "Norway rats hold the older riverfront blocks of Moundsville and Benwood, raccoons and bats work the bluff-side and older housing, and skunks, opossums, and woodchucks fill the plateau suburbs and farms",
+   "absent_or_rare": "white-tailed deer and beavers live along the creek bottoms but may be controlled only with prior WVDNR approval, and Canada geese on the riverfront are federally protected — deterrence only"
+  },
+  "Mason County": {
+   "county_seat": "Point Pleasant",
+   "population": 25353,
+   "established": 1804,
+   "region": "western West Virginia at the Ohio and Kanawha confluence",
+   "largest_cities": [
+    "Point Pleasant",
+    "New Haven",
+    "Mason"
+   ],
+   "nearest_metro": "Gallipolis, OH (across the river) and Huntington (about 40 miles south)",
+   "natural_features": [
+    "Ohio River and Kanawha River confluence at Point Pleasant",
+    "McClintic Wildlife Management Area",
+    "broad river bottoms and farm country"
+   ],
+   "habitat_type": "historic Point Pleasant at the confluence, river towns up both shores, and farm country across the bottoms and hills",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "moles",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and bats work Point Pleasant's historic homes, woodchucks and moles handle the farm and lawn country, and skunks and opossums cover the river-town yards from New Haven to Mason",
+   "absent_or_rare": "white-tailed deer, bald eagles along the rivers, and beavers live in the bottoms and at McClintic but are managed by WVDNR — beaver work may be done only with prior WVDNR approval, and eagles are federally protected"
+  },
+  "Mercer County": {
+   "county_seat": "Princeton",
+   "population": 59694,
+   "established": 1837,
+   "region": "southern West Virginia on the Virginia line, along I-77",
+   "largest_cities": [
+    "Princeton",
+    "Bluefield",
+    "Athens",
+    "Bramwell"
+   ],
+   "nearest_metro": "Princeton-Bluefield is the regional center",
+   "natural_features": [
+    "Bluestone River and Bluestone State Park country (northern county)",
+    "New River (northeastern edge)",
+    "high ridge-and-valley country along East River Mountain"
+   ],
+   "habitat_type": "Princeton's suburbs and Bluefield's historic hillside neighborhoods, with farm valleys and mountain towns between",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "opossums",
+    "moles"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and bats work the older homes of Princeton and Bluefield, woodchucks and moles handle the farm-valley lawns and gardens, and skunks and opossums cover the ridge-town yards from Athens to Bramwell",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers live in the Bluestone and mountain country but may be controlled only with prior WVDNR approval, not as routine services"
+  },
+  "Mineral County": {
+   "county_seat": "Keyser",
+   "population": 26938,
+   "established": 1866,
+   "region": "the Potomac Highlands on the North Branch Potomac, bordering Maryland",
+   "largest_cities": [
+    "Keyser",
+    "Piedmont",
+    "Ridgeley"
+   ],
+   "nearest_metro": "Cumberland, MD (about 25 miles northeast)",
+   "natural_features": [
+    "North Branch Potomac River",
+    "Knobly Mountain and the Ridgeley bluffs",
+    "Jennings Randolph Lake (western border)"
+   ],
+   "habitat_type": "river and rail towns along the North Branch, with farm valleys and forested ridges behind",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "bats",
+    "striped skunks",
+    "woodchucks"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and bats work the older homes of Keyser, Piedmont, and Ridgeley, Norway rats hold the oldest riverfront and rail blocks, and woodchucks and skunks cover the farm-valley edges",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers live in the ridge and river country but may be controlled only with prior WVDNR approval, not as routine work"
+  },
+  "Mingo County": {
+   "county_seat": "Williamson",
+   "population": 23576,
+   "established": 1895,
+   "region": "southwestern West Virginia coal country on the Tug Fork, bordering Kentucky",
+   "largest_cities": [
+    "Williamson",
+    "Kermit",
+    "Matewan",
+    "Gilbert"
+   ],
+   "nearest_metro": "Pikeville, KY (about 30 miles south) and Logan (about 30 miles north)",
+   "natural_features": [
+    "Tug Fork River (Kentucky border)",
+    "steep coal-country ridges throughout",
+    "Hatfield-McCoy trail country in the ridges"
+   ],
+   "habitat_type": "Tug Fork valley towns and hollow communities under steep forested and reclaimed ridges",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "striped skunks",
+    "gray squirrels",
+    "bats",
+    "snakes"
+   ],
+   "regional_wildlife": "raccoons and opossums work the Tug Fork bottoms and every hollow, bats roost in the coal-era homes of Williamson and Matewan, and copperheads favor the rocky slopes and stone walls above the towns",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers are common in the ridge country but may be controlled only with prior WVDNR approval, never as routine removal work"
+  },
+  "Monongalia County": {
+   "county_seat": "Morgantown",
+   "population": 105822,
+   "established": 1776,
+   "region": "north-central West Virginia on the Monongahela River, bordering Pennsylvania",
+   "largest_cities": [
+    "Morgantown",
+    "Westover",
+    "Star City",
+    "Granville"
+   ],
+   "nearest_metro": "Morgantown is a metro center; Pittsburgh, PA is about 75 miles north",
+   "natural_features": [
+    "Monongahela River and Cheat Lake",
+    "Coopers Rock State Forest",
+    "Deckers Creek gorge through Morgantown"
+   ],
+   "habitat_type": "Morgantown's university neighborhoods and fast suburbs, river towns, and forested ridge country in the east",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "Norway rats",
+    "striped skunks",
+    "woodchucks",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and bats work Morgantown's canopy neighborhoods and student rentals, Norway rats hold the oldest downtown and riverfront blocks, and woodchucks and skunks cover the suburban ring from Westover to Cheat Lake",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers live in the Coopers Rock and Cheat country but may be controlled only with prior WVDNR approval, not as routine services"
+  },
+  "Monroe County": {
+   "county_seat": "Union",
+   "population": 12376,
+   "established": 1799,
+   "region": "southeastern West Virginia in the Greenbrier and New River country, bordering Virginia",
+   "largest_cities": [
+    "Union",
+    "Peterstown"
+   ],
+   "nearest_metro": "Lewisburg (about 25 miles north) and Bluefield (about 45 miles southwest)",
+   "natural_features": [
+    "Greenbrier River (northern border)",
+    "New River (southern border)",
+    "Peters Mountain and the karst valley country"
+   ],
+   "habitat_type": "one of the state's most pastoral counties — farm valleys, small towns, and karst cave country under Peters Mountain",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "woodchucks",
+    "striped skunks",
+    "bats",
+    "moles",
+    "snakes"
+   ],
+   "regional_wildlife": "woodchucks and moles work the farm valleys around Union and Peterstown, raccoons and bats share the older farmhouses, skunks dig the valley lawns, and snakes — rat snakes at the barns, copperheads on Peters Mountain's rocky slopes — round out the summer calls",
+   "absent_or_rare": "the caves of the karst country hold federally listed bats that are never-control species — referral to WVDNR and USFWS only — and black bears, deer, and beavers may be controlled only with prior WVDNR approval"
+  },
+  "Morgan County": {
+   "county_seat": "Berkeley Springs",
+   "population": 17063,
+   "established": 1820,
+   "region": "the Eastern Panhandle between the Potomac River and Cacapon Mountain",
+   "largest_cities": [
+    "Berkeley Springs",
+    "Great Cacapon",
+    "Paw Paw"
+   ],
+   "nearest_metro": "Winchester, VA (about 35 miles southeast) and Hagerstown, MD (about 30 miles northeast)",
+   "natural_features": [
+    "Potomac River (northern border)",
+    "Cacapon Mountain and Sleepy Creek country",
+    "the warm springs at Berkeley Springs State Park"
+   ],
+   "habitat_type": "the historic spa town of Berkeley Springs, river and mountain cabins, and rural homes and second homes throughout",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "snakes",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and bats are the cabin country's pair — both move into Berkeley Springs-area homes and second homes that sit quiet in the week — woodchucks and skunks work the cleared lots, and copperheads favor Cacapon Mountain's rocky slopes and stone walls",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers live throughout the mountain and river country but may be controlled only with prior WVDNR approval, and timber rattlesnakes on the rocky ridges are safety and identification work only"
+  },
+  "Nicholas County": {
+   "county_seat": "Summersville",
+   "population": 24581,
+   "established": 1818,
+   "region": "central West Virginia on the Gauley and Meadow rivers",
+   "largest_cities": [
+    "Summersville",
+    "Richwood",
+    "Craigsville"
+   ],
+   "nearest_metro": "Beckley (about 40 miles south) and Charleston (about 65 miles west)",
+   "natural_features": [
+    "Summersville Lake",
+    "Gauley River National Recreation Area",
+    "Carnifex Ferry and the Meadow River country"
+   ],
+   "habitat_type": "Summersville's growing lake-and-highway town, Richwood's mountain valley, and farm-and-forest country throughout",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and bats share the older homes of Summersville and Richwood and the lake houses around Summersville Lake, woodchucks and skunks work the farm and yard edges, and squirrels fill the oak woods pressing every town",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers live throughout the river and forest country but may be controlled only with prior WVDNR approval, not as routine services"
+  },
+  "Ohio County": {
+   "county_seat": "Wheeling",
+   "population": 42071,
+   "established": 1776,
+   "region": "the Northern Panhandle on the Ohio River, bordering Ohio and Pennsylvania",
+   "largest_cities": [
+    "Wheeling",
+    "Triadelphia",
+    "Bethlehem"
+   ],
+   "nearest_metro": "Wheeling is the regional center; Pittsburgh, PA is about 55 miles east",
+   "natural_features": [
+    "Ohio River and Wheeling Island",
+    "Wheeling Creek",
+    "Oglebay Park's wooded hills"
+   ],
+   "habitat_type": "Wheeling's dense historic neighborhoods and brick core, island housing, and hill suburbs above the river",
+   "common_wildlife": [
+    "raccoons",
+    "Norway rats",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "pigeons and starlings"
+   ],
+   "regional_wildlife": "Norway rats anchor Wheeling's oldest riverfront, island, and commercial blocks, raccoons, squirrels, and bats work the canopy hill neighborhoods, pigeons and starlings roost on downtown commercial buildings, and skunks and opossums fill the suburban yards",
+   "absent_or_rare": "white-tailed deer and beavers live along Wheeling Creek but may be controlled only with prior WVDNR approval, and Canada geese on the riverfront and island are federally protected — deterrence only, never removal"
+  },
+  "Pendleton County": {
+   "county_seat": "Franklin",
+   "population": 6143,
+   "established": 1788,
+   "region": "the Potomac Highlands — the state's highest, most mountainous rural county",
+   "largest_cities": [
+    "Franklin",
+    "Brandywine"
+   ],
+   "nearest_metro": "Harrisonburg, VA (about 40 miles southeast)",
+   "natural_features": [
+    "Spruce Knob, the highest point in West Virginia",
+    "Seneca Rocks and Germany Valley",
+    "South Branch Potomac headwaters and cave country including Hellhole"
+   ],
+   "habitat_type": "high mountain farm valleys, tiny valley towns, and camps under the state's tallest ridges",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "woodchucks",
+    "bats",
+    "snakes"
+   ],
+   "regional_wildlife": "raccoons and bats share the valley farmhouses around Franklin, woodchucks and skunks work the farm edges, and timber rattlesnakes keep to the rocky high slopes around Seneca Rocks and Spruce Knob — identification and safety country, not removal country",
+   "absent_or_rare": "Hellhole cave's Indiana bats and Virginia big-eared bats are federally endangered never-control species — referral only — and black bears, deer, and beavers may be controlled only with prior WVDNR approval"
+  },
+  "Pleasants County": {
+   "county_seat": "St. Marys",
+   "population": 7653,
+   "established": 1851,
+   "region": "western West Virginia on the Ohio River, between Parkersburg and New Martinsville",
+   "largest_cities": [
+    "St. Marys",
+    "Belmont"
+   ],
+   "nearest_metro": "Parkersburg (about 20 miles south)",
+   "natural_features": [
+    "Ohio River shoreline and Middle Island",
+    "Middle Island Creek mouth country",
+    "wooded bluffs and farm ridges"
+   ],
+   "habitat_type": "the small river city of St. Marys, Belmont, and rural homes across bluff and farm country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "woodchucks"
+   ],
+   "regional_wildlife": "raccoons and bats work St. Marys' older homes, skunks and opossums cover the river-town yards, and woodchucks dig the farm edges around Belmont",
+   "absent_or_rare": "white-tailed deer and beavers live along the river and creek bottoms but may be controlled only with prior WVDNR approval, and bald eagles on the river are federally protected"
+  },
+  "Pocahontas County": {
+   "county_seat": "Marlinton",
+   "population": 7876,
+   "established": 1821,
+   "region": "the Potomac Highlands — birthplace of rivers, the state's most mountainous eastern county",
+   "largest_cities": [
+    "Marlinton",
+    "Durbin",
+    "Hillsboro"
+   ],
+   "nearest_metro": "Lewisburg (about 45 miles south) and Elkins (about 50 miles north)",
+   "natural_features": [
+    "Greenbrier River headwaters",
+    "Snowshoe and the Cheat Mountain high country",
+    "Cranberry Glades and the Monongahela National Forest"
+   ],
+   "habitat_type": "high mountain towns, ski-area properties, and farm valleys along the Greenbrier, surrounded by national forest",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "snakes",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and bats are the high-country pair — raccoons in Marlinton and Durbin attics, bats in mountain homes and ski-area properties — woodchucks work the Greenbrier farm valleys, and timber rattlesnakes keep to the rocky Cheat Mountain slopes",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers are abundant in the national forest but may be controlled only with prior WVDNR approval, and the Allegheny woodrat and northern flying squirrel in the high country are never-control species — referral only"
+  },
+  "Preston County": {
+   "county_seat": "Kingwood",
+   "population": 34022,
+   "established": 1818,
+   "region": "north-central West Virginia high country, bordering Maryland and Pennsylvania",
+   "largest_cities": [
+    "Kingwood",
+    "Terra Alta",
+    "Masontown",
+    "Rowlesburg"
+   ],
+   "nearest_metro": "Morgantown (about 20 miles west)",
+   "natural_features": [
+    "Cheat River gorge",
+    "Big Sandy Creek and Bruceton Mills country",
+    "high Allegheny plateau farmland"
+   ],
+   "habitat_type": "Kingwood's valley town, mountain boroughs like Terra Alta and Rowlesburg, and farm-and-forest country throughout",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and bats work the older homes of Kingwood, Terra Alta, and Rowlesburg, woodchucks and skunks cover the plateau farm country, and porcupine sign in the high woods is prose wildlife, not a service — our calls stay with the house-and-yard animals",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers live in the Cheat gorge and creek country but may be controlled only with prior WVDNR approval, not as routine work"
+  },
+  "Putnam County": {
+   "county_seat": "Winfield",
+   "population": 57440,
+   "established": 1848,
+   "region": "western West Virginia on the Kanawha River, between Charleston and Huntington",
+   "largest_cities": [
+    "Winfield",
+    "Hurricane",
+    "Buffalo",
+    "Eleanor"
+   ],
+   "nearest_metro": "Charleston (about 25 miles east) and Huntington (about 25 miles west)",
+   "natural_features": [
+    "Kanawha River",
+    "Hurricane Creek and the Teays Valley growth corridor",
+    "wooded ridges framing the valley suburbs"
+   ],
+   "habitat_type": "Teays Valley's fast suburbs, Winfield's river town, and farm-and-ridge country in the north",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "woodchucks",
+    "bats",
+    "moles",
+    "opossums"
+   ],
+   "regional_wildlife": "squirrels and raccoons work the maturing Teays Valley canopy in Hurricane and beyond, woodchucks and skunks dig the subdivision and farm edges, moles tunnel the valley lawns, and bats and rats hold the older Winfield and Buffalo river stock",
+   "absent_or_rare": "white-tailed deer and beavers live along the Kanawha and creek bottoms but may be controlled only with prior WVDNR approval, not as routine services"
+  },
+  "Raleigh County": {
+   "county_seat": "Beckley",
+   "population": 74124,
+   "established": 1850,
+   "region": "southern West Virginia on the New River, along I-77 and I-64",
+   "largest_cities": [
+    "Beckley",
+    "Sophia",
+    "Mabscott"
+   ],
+   "nearest_metro": "Beckley is the regional center",
+   "natural_features": [
+    "New River Gorge (northern county)",
+    "Little Beaver State Park and Lake Stephens",
+    "Glade Creek and Piney Creek country"
+   ],
+   "habitat_type": "Beckley's urban and suburban core, coal-heritage towns, and lake and gorge country throughout",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "opossums"
+   ],
+   "regional_wildlife": "Norway rats hold Beckley's oldest commercial and residential blocks, raccoons, squirrels, and bats work the canopy neighborhoods and older homes, and woodchucks, skunks, and opossums cover the suburban and coal-town edges from Sophia to Mabscott",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers live in the gorge and creek country but may be controlled only with prior WVDNR approval, not as routine removal work"
+  },
+  "Randolph County": {
+   "county_seat": "Elkins",
+   "population": 27932,
+   "established": 1787,
+   "region": "the Potomac Highlands on the Tygart Valley River",
+   "largest_cities": [
+    "Elkins",
+    "Beverly",
+    "Mill Creek"
+   ],
+   "nearest_metro": "Clarksburg (about 45 miles northwest)",
+   "natural_features": [
+    "Tygart Valley River",
+    "Monongahela National Forest (most of the eastern county)",
+    "Shavers Fork and Cheat Mountain country"
+   ],
+   "habitat_type": "Elkins' rail-and-college town, valley farm towns, and vast national-forest country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "opossums",
+    "snakes"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and bats work Elkins' older neighborhoods and the valley towns, woodchucks and skunks cover the farm country, and timber rattlesnakes keep to Cheat Mountain's rocky slopes — safety and identification country",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers are abundant in the national forest but may be controlled only with prior WVDNR approval, and the northern flying squirrel and Allegheny woodrat are never-control species — referral only"
+  },
+  "Ritchie County": {
+   "county_seat": "Harrisville",
+   "population": 8444,
+   "established": 1843,
+   "region": "northwestern West Virginia in the Hughes River and North Bend country",
+   "largest_cities": [
+    "Harrisville",
+    "Pennsboro",
+    "Cairo",
+    "Ellenboro"
+   ],
+   "nearest_metro": "Parkersburg (about 30 miles west)",
+   "natural_features": [
+    "Hughes River and North Bend State Park",
+    "North Bend Rail Trail",
+    "rolling oil-and-gas farm and forest country"
+   ],
+   "habitat_type": "small rail-trail towns and farm country on rolling wooded ridges",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "woodchucks",
+    "bats",
+    "opossums",
+    "striped skunks"
+   ],
+   "regional_wildlife": "woodchucks burrow the farm and garden edges across the county, raccoons work the Hughes River bottoms, and bats and squirrels share the older homes of Harrisville, Pennsboro, and Cairo",
+   "absent_or_rare": "white-tailed deer, black bears, and beavers live throughout the river country but may be controlled only with prior WVDNR approval, not as routine services"
+  },
+  "Roane County": {
+   "county_seat": "Spencer",
+   "population": 14196,
+   "established": 1856,
+   "region": "central West Virginia in the Spring Creek and Pocatalico country",
+   "largest_cities": [
+    "Spencer",
+    "Walton",
+    "Reedy"
+   ],
+   "nearest_metro": "Charleston (about 40 miles south)",
+   "natural_features": [
+    "Spring Creek and Charles Fork Lake",
+    "Pocatalico River (eastern county)",
+    "rolling farm and forest hills"
+   ],
+   "habitat_type": "Spencer's small valley town and farm-and-forest country throughout",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "woodchucks",
+    "bats",
+    "striped skunks",
+    "opossums"
+   ],
+   "regional_wildlife": "woodchucks burrow the farm and garden edges around Spencer and Walton, raccoons work the creek bottoms, and bats and squirrels share the county's older farmhouses",
+   "absent_or_rare": "white-tailed deer, black bears, and beavers live along the creeks but may be controlled only with prior WVDNR approval, not as routine work"
+  },
+  "Summers County": {
+   "county_seat": "Hinton",
+   "population": 11667,
+   "established": 1820,
+   "region": "southern West Virginia on the New River, bordering Virginia",
+   "largest_cities": [
+    "Hinton",
+    "Sandstone"
+   ],
+   "nearest_metro": "Beckley (about 35 miles northwest)",
+   "natural_features": [
+    "New River Gorge (southern reaches)",
+    "Bluestone Lake and Bluestone State Park",
+    "Greenbrier River confluence at Hinton"
+   ],
+   "habitat_type": "Hinton's historic rail-town terraces and rural New River and Greenbrier valley communities",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "snakes"
+   ],
+   "regional_wildlife": "raccoons and bats work Hinton's terraced historic homes, skunks and opossums cover the river-town yards, and copperheads favor the rocky New River slopes and stone walls above the bottoms",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers live throughout the river country but may be controlled only with prior WVDNR approval, and timber rattlesnakes on the high rocky ground are safety and identification work only"
+  },
+  "Taylor County": {
+   "county_seat": "Grafton",
+   "population": 16705,
+   "established": 1844,
+   "region": "north-central West Virginia on the Tygart Valley River",
+   "largest_cities": [
+    "Grafton",
+    "Flemington"
+   ],
+   "nearest_metro": "Clarksburg (about 20 miles southwest) and Fairmont (about 20 miles north)",
+   "natural_features": [
+    "Tygart Valley River and Tygart Lake",
+    "Valley Falls country (eastern border)",
+    "rolling rail-and-farm hill country"
+   ],
+   "habitat_type": "Grafton's historic rail town in the Tygart valley, Flemington's small borough, and farm country throughout",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and bats share Grafton's deep stock of older homes, woodchucks and skunks work the farm edges, and squirrels fill the valley oaks pressing every roof in town",
+   "absent_or_rare": "white-tailed deer, black bears, and beavers live along the Tygart and its creeks but may be controlled only with prior WVDNR approval, not as routine services"
+  },
+  "Tucker County": {
+   "county_seat": "Parsons",
+   "population": 6762,
+   "established": 1856,
+   "region": "the Potomac Highlands — high Allegheny country of Canaan Valley and Blackwater Falls",
+   "largest_cities": [
+    "Parsons",
+    "Davis",
+    "Thomas",
+    "Hambleton"
+   ],
+   "nearest_metro": "Elkins (about 25 miles south)",
+   "natural_features": [
+    "Blackwater Falls and the Blackwater Canyon",
+    "Canaan Valley",
+    "Cheat River headwaters (Shavers Fork and Dry Fork)"
+   ],
+   "habitat_type": "high mountain towns, ski and vacation properties in Canaan Valley, and farm valleys along the Cheat",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "opossums",
+    "snakes"
+   ],
+   "regional_wildlife": "raccoons and bats are the mountain pair — raccoons in Parsons, Davis, and Thomas attics, bats in Canaan Valley vacation homes — woodchucks work the Cheat valley farms, and timber rattlesnakes keep to the Blackwater Canyon's rocky slopes",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers are abundant in the high country but may be controlled only with prior WVDNR approval, and the northern flying squirrel and Allegheny woodrat are never-control species — referral only"
+  },
+  "Tyler County": {
+   "county_seat": "Middlebourne",
+   "population": 8208,
+   "established": 1814,
+   "region": "western West Virginia on the Ohio River, in the Sistersville oil country",
+   "largest_cities": [
+    "Middlebourne",
+    "Sistersville",
+    "Paden City"
+   ],
+   "nearest_metro": "New Martinsville (about 15 miles north) and Parkersburg (about 45 miles south)",
+   "natural_features": [
+    "Ohio River shoreline",
+    "Middle Island Creek",
+    "historic oil-and-gas ridge country"
+   ],
+   "habitat_type": "Sistersville's historic oil-boom housing, Middlebourne's small valley town, and farm-and-ridge country throughout",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "woodchucks"
+   ],
+   "regional_wildlife": "raccoons and bats work the oil-era homes of Sistersville and Middlebourne, skunks and opossums cover the river and creek bottoms, and woodchucks dig the farm edges on the ridges",
+   "absent_or_rare": "white-tailed deer and beavers live along the river and Middle Island Creek but may be controlled only with prior WVDNR approval, and bald eagles on the river are federally protected"
+  },
+  "Upshur County": {
+   "county_seat": "Buckhannon",
+   "population": 23854,
+   "established": 1851,
+   "region": "central West Virginia on the Buckhannon River",
+   "largest_cities": [
+    "Buckhannon",
+    "Adrian"
+   ],
+   "nearest_metro": "Clarksburg (about 35 miles north) and Elkins (about 30 miles east)",
+   "natural_features": [
+    "Buckhannon River",
+    "forested Allegheny foothills throughout",
+    "farm valleys along the river and French Creek"
+   ],
+   "habitat_type": "Buckhannon's college-town neighborhoods and farm-and-forest country in the Allegheny foothills",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "woodchucks",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and bats work Buckhannon's canopy neighborhoods and older homes, woodchucks and skunks cover the farm country, and opossums fill the creek bottoms",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers live in the foothill forest and river bottoms but may be controlled only with prior WVDNR approval, not as routine work"
+  },
+  "Wayne County": {
+   "county_seat": "Wayne",
+   "population": 38982,
+   "established": 1842,
+   "region": "westernmost West Virginia on the Ohio and Big Sandy rivers, bordering Kentucky and Ohio",
+   "largest_cities": [
+    "Wayne",
+    "Kenova",
+    "Ceredo",
+    "Fort Gay"
+   ],
+   "nearest_metro": "Huntington (the county's northern edge reaches the Huntington metro)",
+   "natural_features": [
+    "Ohio River and Big Sandy River (western borders)",
+    "Beech Fork State Park",
+    "East Lynn Lake"
+   ],
+   "habitat_type": "tri-state river towns at Kenova and Ceredo, the Wayne valley town, and rural ridge-and-hollow country in the south",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "woodchucks",
+    "Norway rats"
+   ],
+   "regional_wildlife": "raccoons, squirrels, and bats work the older homes of Kenova, Ceredo, and Wayne, Norway rats hold the oldest riverfront blocks at the tri-state, and woodchucks, skunks, and opossums cover the southern farm and hollow country (Huntington itself sits in Cabell County for our pages — its Wayne County neighborhoods are served from the Cabell hub)",
+   "absent_or_rare": "white-tailed deer, black bears, and beavers live around Beech Fork and East Lynn but may be controlled only with prior WVDNR approval, not as routine services"
+  },
+  "Webster County": {
+   "county_seat": "Webster Springs",
+   "population": 8150,
+   "established": 1860,
+   "region": "central West Virginia in the Elk and Gauley headwaters — among the most rural counties in the East",
+   "largest_cities": [
+    "Webster Springs",
+    "Camden-on-Gauley",
+    "Cowen"
+   ],
+   "nearest_metro": "Summersville (about 40 miles west) and Elkins (about 45 miles northeast)",
+   "natural_features": [
+    "Elk River (upper reaches)",
+    "Gauley River headwaters (southern border)",
+    "Big Ditch Wildlife Management Area and mountain forest throughout"
+   ],
+   "habitat_type": "the small resort-and-river town of Webster Springs and deeply rural mountain communities",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "woodchucks"
+   ],
+   "regional_wildlife": "raccoons and bats share the older homes of Webster Springs and Cowen, skunks and opossums work the river bottoms, and woodchucks take the few cleared farm edges in a sea of forest",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers are abundant in the mountain forest but may be controlled only with prior WVDNR approval, and timber rattlesnakes on the rocky high ground are safety and identification work only"
+  },
+  "Wetzel County": {
+   "county_seat": "New Martinsville",
+   "population": 14310,
+   "established": 1846,
+   "region": "western West Virginia on the Ohio River, below the Northern Panhandle",
+   "largest_cities": [
+    "New Martinsville",
+    "Pine Grove",
+    "Hundred"
+   ],
+   "nearest_metro": "New Martinsville is the local center; Parkersburg is about 55 miles south",
+   "natural_features": [
+    "Ohio River shoreline",
+    "Fish Creek and Fishing Creek country",
+    "wooded bluffs and oil-and-gas ridge country"
+   ],
+   "habitat_type": "New Martinsville's river city, small creek towns like Pine Grove and Hundred, and ridge farm country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "Norway rats",
+    "striped skunks",
+    "opossums"
+   ],
+   "regional_wildlife": "raccoons and bats work New Martinsville's older homes, Norway rats hold the oldest riverfront blocks, and skunks, opossums, and squirrels cover the creek towns and ridge farms",
+   "absent_or_rare": "white-tailed deer and beavers live along the river and creeks but may be controlled only with prior WVDNR approval, and bald eagles on the river are federally protected"
+  },
+  "Wirt County": {
+   "county_seat": "Elizabeth",
+   "population": 5194,
+   "established": 1848,
+   "region": "western West Virginia on the Little Kanawha River — the state's least populous county",
+   "largest_cities": [
+    "Elizabeth",
+    "Burning Springs"
+   ],
+   "nearest_metro": "Parkersburg (about 20 miles northwest)",
+   "natural_features": [
+    "Little Kanawha River",
+    "Burning Springs oil-heritage country",
+    "rolling forested hills throughout"
+   ],
+   "habitat_type": "the tiny river town of Elizabeth and deeply rural farm-and-forest country",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "bats",
+    "opossums",
+    "striped skunks",
+    "woodchucks"
+   ],
+   "regional_wildlife": "raccoons and bats share Elizabeth's older homes, opossums and skunks work the river bottoms, and woodchucks dig the scattered farm clearings",
+   "absent_or_rare": "white-tailed deer, black bears, and beavers live along the Little Kanawha but may be controlled only with prior WVDNR approval, not as routine services"
+  },
+  "Wood County": {
+   "county_seat": "Parkersburg",
+   "population": 83498,
+   "established": 1798,
+   "region": "western West Virginia at the Ohio and Little Kanawha confluence",
+   "largest_cities": [
+    "Parkersburg",
+    "Vienna",
+    "Williamstown"
+   ],
+   "nearest_metro": "Parkersburg is the regional center",
+   "natural_features": [
+    "Ohio River and Little Kanawha River confluence",
+    "Blennerhassett Island",
+    "Mountwood Park and the Hughes River country (eastern county)"
+   ],
+   "habitat_type": "Parkersburg's urban core and older suburbs, Vienna and Williamstown's river suburbs, and farm-and-forest country in the east",
+   "common_wildlife": [
+    "raccoons",
+    "Norway rats",
+    "gray squirrels",
+    "bats",
+    "striped skunks",
+    "opossums",
+    "pigeons and starlings"
+   ],
+   "regional_wildlife": "Norway rats anchor Parkersburg's oldest neighborhoods and commercial blocks, raccoons, squirrels, and bats work the canopy suburbs of Vienna and Parkersburg, pigeons and starlings roost on downtown commercial buildings, and skunks and woodchucks cover Williamstown and the rural east",
+   "absent_or_rare": "white-tailed deer and beavers live along both rivers but may be controlled only with prior WVDNR approval, and Canada geese and bald eagles on the river and Blennerhassett Island are federally protected — deterrence and referral only"
+  },
+  "Wyoming County": {
+   "county_seat": "Pineville",
+   "population": 22393,
+   "established": 1850,
+   "region": "southern West Virginia coal country on the Guyandotte River",
+   "largest_cities": [
+    "Pineville",
+    "Mullens",
+    "Oceana"
+   ],
+   "nearest_metro": "Beckley (about 35 miles northeast)",
+   "natural_features": [
+    "Guyandotte River",
+    "Twin Falls Resort State Park",
+    "steep coal-country ridges throughout"
+   ],
+   "habitat_type": "coal valley towns at Pineville, Mullens, and Oceana, and hollow communities under steep ridges",
+   "common_wildlife": [
+    "raccoons",
+    "opossums",
+    "striped skunks",
+    "gray squirrels",
+    "bats",
+    "snakes"
+   ],
+   "regional_wildlife": "raccoons and opossums work the Guyandotte bottoms and every hollow community, bats roost in the coal-era homes, and copperheads favor the rocky slopes, stone walls, and woodpiles above the towns",
+   "absent_or_rare": "black bears, white-tailed deer, and beavers are common in the ridge country but may be controlled only with prior WVDNR approval, never as routine removal work"
+  }
+ }
+}
