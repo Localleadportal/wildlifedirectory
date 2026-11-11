@@ -1,0 +1,2822 @@
+{
+ "state": {
+  "name": "North Carolina",
+  "agency": "North Carolina Wildlife Resources Commission",
+  "agency_short": "NCWRC",
+  "peak_intrusion_season": "March through May for spring raccoon and squirrel litters and snakes active at 60 degrees and above, May 1 through July 31 for the bat pup season when evictions pause, and September through November as raccoons, squirrels, and rodents seek winter shelter",
+  "climate_factor": "North Carolina runs humid subtropical in the Piedmont and Coastal Plain, with mild coastal winters that keep snakes and armadillos active later into the year, genuinely cold mountain winters with bat hibernation, and hurricane-season flooding June through November that pushes snakes, raccoons, and alligators into coastal neighborhoods",
+  "permit_note": "North Carolina requires a Wildlife Control Agent (WCA) license under G.S. 113-273(l) and 15A NCAC 10H .1501-.1510 for paid wildlife damage control and removal, including bat eviction; work runs through depredation permits, relocating trapped Carnivora, armadillos, groundhogs, nutria, and beaver is prohibited under 15A NCAC 10B .0106, and a WCA cannot issue depredation permits for listed species, big game, or bats"
+ },
+ "counties": {
+  "Alamance County": {
+   "county_seat": "Graham",
+   "population": 176000,
+   "established": 1849,
+   "region": "central Piedmont along the Haw River",
+   "largest_cities": [
+    "Burlington",
+    "Graham",
+    "Mebane",
+    "Elon",
+    "Haw River",
+    "Swepsonville",
+    "Alamance"
+   ],
+   "nearest_metro": "Graham is the county's own center",
+   "natural_features": [
+    "Haw River",
+    "Lake Cammack",
+    "Cedarock Park"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Alexander County": {
+   "county_seat": "Taylorsville",
+   "population": 38000,
+   "established": 1847,
+   "region": "western Piedmont foothills",
+   "largest_cities": [
+    "Taylorsville"
+   ],
+   "nearest_metro": "Taylorsville area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Alleghany County": {
+   "county_seat": "Sparta",
+   "population": 11000,
+   "established": 1859,
+   "region": "northern Blue Ridge mountains",
+   "largest_cities": [
+    "Sparta"
+   ],
+   "nearest_metro": "Sparta area",
+   "natural_features": [
+    "Blue Ridge ridges and coves",
+    "forested headwaters",
+    "national forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Anson County": {
+   "county_seat": "Wadesboro",
+   "population": 22000,
+   "established": 1750,
+   "region": "southern Piedmont on the South Carolina line",
+   "largest_cities": [
+    "Wadesboro"
+   ],
+   "nearest_metro": "Wadesboro area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Ashe County": {
+   "county_seat": "Jefferson",
+   "population": 27000,
+   "established": 1799,
+   "region": "northern Blue Ridge mountains",
+   "largest_cities": [
+    "Jefferson"
+   ],
+   "nearest_metro": "Jefferson area",
+   "natural_features": [
+    "Blue Ridge ridges and coves",
+    "forested headwaters",
+    "national forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Avery County": {
+   "county_seat": "Newland",
+   "population": 18000,
+   "established": 1911,
+   "region": "high Blue Ridge mountains",
+   "largest_cities": [
+    "Newland"
+   ],
+   "nearest_metro": "Newland area",
+   "natural_features": [
+    "Blue Ridge ridges and coves",
+    "forested headwaters",
+    "national forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Beaufort County": {
+   "county_seat": "Washington",
+   "population": 45000,
+   "established": 1712,
+   "region": "inner Coastal Plain on the Pamlico River",
+   "largest_cities": [
+    "Washington"
+   ],
+   "nearest_metro": "Washington area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Bertie County": {
+   "county_seat": "Windsor",
+   "population": 18000,
+   "established": 1722,
+   "region": "inner Coastal Plain on the Chowan River",
+   "largest_cities": [
+    "Windsor"
+   ],
+   "nearest_metro": "Windsor area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Bladen County": {
+   "county_seat": "Elizabethtown",
+   "population": 30000,
+   "established": 1734,
+   "region": "southern Coastal Plain",
+   "largest_cities": [
+    "Elizabethtown"
+   ],
+   "nearest_metro": "Elizabethtown area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Brunswick County": {
+   "county_seat": "Bolivia",
+   "population": 160000,
+   "established": 1764,
+   "region": "southern coast on the Cape Fear and the Atlantic",
+   "largest_cities": [
+    "Southport",
+    "Oak Island",
+    "Shallotte",
+    "Leland",
+    "Ocean Isle Beach",
+    "Sunset Beach",
+    "Bolivia"
+   ],
+   "nearest_metro": "Bolivia is the county's own center",
+   "natural_features": [
+    "Cape Fear River",
+    "Lockwood Folly River",
+    "Bald Head Island marshes"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Buncombe County": {
+   "county_seat": "Asheville",
+   "population": 275000,
+   "established": 1791,
+   "region": "southern Blue Ridge mountains around Asheville",
+   "largest_cities": [
+    "Asheville",
+    "Arden",
+    "Black Mountain",
+    "Weaverville",
+    "Woodfin",
+    "Biltmore Forest",
+    "Swannanoa"
+   ],
+   "nearest_metro": "Asheville is the county's own center",
+   "natural_features": [
+    "French Broad River",
+    "Blue Ridge Parkway",
+    "Pisgah National Forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are an established breeding animal here — one of the eight western counties where the NC Wildlife Resources Commission confirms established populations — and their digging in lawns and gardens is a standing call, not a novelty. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Burke County": {
+   "county_seat": "Morganton",
+   "population": 88000,
+   "established": 1777,
+   "region": "western Piedmont foothills below the Blue Ridge escarpment",
+   "largest_cities": [
+    "Morganton",
+    "Valdese",
+    "Drexel",
+    "Hildebran",
+    "Glen Alpine",
+    "Rutherford College"
+   ],
+   "nearest_metro": "Morganton is the county's own center",
+   "natural_features": [
+    "Lake James",
+    "Linville Gorge edge",
+    "Catawba River"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Cabarrus County": {
+   "county_seat": "Concord",
+   "population": 235000,
+   "established": 1792,
+   "region": "central Piedmont northeast of Charlotte",
+   "largest_cities": [
+    "Concord",
+    "Kannapolis",
+    "Harrisburg",
+    "Mount Pleasant",
+    "Midland",
+    "Locust"
+   ],
+   "nearest_metro": "Concord is the county's own center",
+   "natural_features": [
+    "Catawba River tributaries",
+    "Frank Liske Park",
+    "Reed Gold Mine woods"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Caldwell County": {
+   "county_seat": "Lenoir",
+   "population": 80000,
+   "established": 1841,
+   "region": "western Piedmont foothills",
+   "largest_cities": [
+    "Lenoir"
+   ],
+   "nearest_metro": "Lenoir area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Camden County": {
+   "county_seat": "Camden",
+   "population": 11000,
+   "established": 1777,
+   "region": "northeastern Coastal Plain near the Virginia line",
+   "largest_cities": [
+    "Camden"
+   ],
+   "nearest_metro": "Camden area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Carteret County": {
+   "county_seat": "Beaufort",
+   "population": 70000,
+   "established": 1722,
+   "region": "central coast on Bogue Sound and the Atlantic",
+   "largest_cities": [
+    "Morehead City",
+    "Beaufort",
+    "Newport",
+    "Atlantic Beach",
+    "Emerald Isle",
+    "Cape Carteret"
+   ],
+   "nearest_metro": "Beaufort is the county's own center",
+   "natural_features": [
+    "Bogue Sound",
+    "North River",
+    "Cedar Island marshes"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Caswell County": {
+   "county_seat": "Yanceyville",
+   "population": 23000,
+   "established": 1777,
+   "region": "northern Piedmont on the Virginia line",
+   "largest_cities": [
+    "Yanceyville"
+   ],
+   "nearest_metro": "Yanceyville area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Catawba County": {
+   "county_seat": "Newton",
+   "population": 166000,
+   "established": 1842,
+   "region": "western Piedmont around Hickory and Lake Norman's west shore",
+   "largest_cities": [
+    "Hickory",
+    "Newton",
+    "Conover",
+    "Maiden",
+    "Claremont",
+    "Long View",
+    "Brookford"
+   ],
+   "nearest_metro": "Newton is the county's own center",
+   "natural_features": [
+    "Lake Norman west shore",
+    "Hickory City lakes",
+    "Catawba River"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Chatham County": {
+   "county_seat": "Pittsboro",
+   "population": 80000,
+   "established": 1771,
+   "region": "central Piedmont southwest of the Triangle",
+   "largest_cities": [
+    "Pittsboro",
+    "Siler City",
+    "Moncure",
+    "Goldston"
+   ],
+   "nearest_metro": "Pittsboro is the county's own center",
+   "natural_features": [
+    "Jordan Lake",
+    "Haw River",
+    "Deep River"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Cherokee County": {
+   "county_seat": "Murphy",
+   "population": 29000,
+   "established": 1839,
+   "region": "far western Blue Ridge mountains",
+   "largest_cities": [
+    "Murphy"
+   ],
+   "nearest_metro": "Murphy area",
+   "natural_features": [
+    "Blue Ridge ridges and coves",
+    "forested headwaters",
+    "national forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are an established breeding animal here — one of the eight western counties where the NC Wildlife Resources Commission confirms established populations — and their digging in lawns and gardens is a standing call, not a novelty. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Chowan County": {
+   "county_seat": "Edenton",
+   "population": 14000,
+   "established": 1668,
+   "region": "inner Coastal Plain on Albemarle Sound",
+   "largest_cities": [
+    "Edenton"
+   ],
+   "nearest_metro": "Edenton area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Clay County": {
+   "county_seat": "Hayesville",
+   "population": 11000,
+   "established": 1861,
+   "region": "far western Blue Ridge mountains",
+   "largest_cities": [
+    "Hayesville"
+   ],
+   "nearest_metro": "Hayesville area",
+   "natural_features": [
+    "Blue Ridge ridges and coves",
+    "forested headwaters",
+    "national forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are an established breeding animal here — one of the eight western counties where the NC Wildlife Resources Commission confirms established populations — and their digging in lawns and gardens is a standing call, not a novelty. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Cleveland County": {
+   "county_seat": "Shelby",
+   "population": 100000,
+   "established": 1841,
+   "region": "southwestern Piedmont foothills",
+   "largest_cities": [
+    "Shelby"
+   ],
+   "nearest_metro": "Shelby area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Columbus County": {
+   "county_seat": "Whiteville",
+   "population": 52000,
+   "established": 1808,
+   "region": "southern Coastal Plain",
+   "largest_cities": [
+    "Whiteville"
+   ],
+   "nearest_metro": "Whiteville area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Craven County": {
+   "county_seat": "New Bern",
+   "population": 102000,
+   "established": 1712,
+   "region": "central Coastal Plain at the Neuse and Trent rivers",
+   "largest_cities": [
+    "New Bern",
+    "Havelock",
+    "Trent Woods",
+    "River Bend",
+    "Bridgeton",
+    "Vanceboro"
+   ],
+   "nearest_metro": "New Bern is the county's own center",
+   "natural_features": [
+    "Neuse River",
+    "Trent River",
+    "Croatan National Forest"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Cumberland County": {
+   "county_seat": "Fayetteville",
+   "population": 340000,
+   "established": 1754,
+   "region": "southern Piedmont and Sandhills around Fayetteville and Fort Liberty",
+   "largest_cities": [
+    "Fayetteville",
+    "Hope Mills",
+    "Spring Lake",
+    "Fort Liberty",
+    "Eastover",
+    "Stedman",
+    "Wade"
+   ],
+   "nearest_metro": "Fayetteville is the county's own center",
+   "natural_features": [
+    "Cape Fear River",
+    "Carvers Creek State Park",
+    "Little River"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Currituck County": {
+   "county_seat": "Currituck",
+   "population": 29000,
+   "established": 1668,
+   "region": "northeastern coast on Currituck Sound",
+   "largest_cities": [
+    "Currituck"
+   ],
+   "nearest_metro": "Currituck area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Dare County": {
+   "county_seat": "Manteo",
+   "population": 38000,
+   "established": 1870,
+   "region": "Outer Banks coast",
+   "largest_cities": [
+    "Manteo"
+   ],
+   "nearest_metro": "Manteo area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Davidson County": {
+   "county_seat": "Lexington",
+   "population": 172000,
+   "established": 1822,
+   "region": "central Piedmont south of Winston-Salem",
+   "largest_cities": [
+    "Lexington",
+    "Thomasville",
+    "Welcome",
+    "Wallburg",
+    "Denton",
+    "Midway",
+    "Arcadia"
+   ],
+   "nearest_metro": "Lexington is the county's own center",
+   "natural_features": [
+    "High Rock Lake",
+    "Yadkin River",
+    "Boone's Cave Park"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Davie County": {
+   "county_seat": "Mocksville",
+   "population": 44000,
+   "established": 1836,
+   "region": "central Piedmont along the Yadkin River",
+   "largest_cities": [
+    "Mocksville"
+   ],
+   "nearest_metro": "Mocksville area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Duplin County": {
+   "county_seat": "Kenansville",
+   "population": 49000,
+   "established": 1750,
+   "region": "southern Coastal Plain",
+   "largest_cities": [
+    "Kenansville"
+   ],
+   "nearest_metro": "Kenansville area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Durham County": {
+   "county_seat": "Durham",
+   "population": 330000,
+   "established": 1881,
+   "region": "central Piedmont in the Triangle",
+   "largest_cities": [
+    "Durham",
+    "Bahama",
+    "Rougemont"
+   ],
+   "nearest_metro": "Durham is the county's own center",
+   "natural_features": [
+    "Eno River",
+    "Eno River State Park",
+    "Duke Forest"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Edgecombe County": {
+   "county_seat": "Tarboro",
+   "population": 50000,
+   "established": 1741,
+   "region": "inner Coastal Plain on the Tar River",
+   "largest_cities": [
+    "Tarboro"
+   ],
+   "nearest_metro": "Tarboro area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Franklin County": {
+   "county_seat": "Louisburg",
+   "population": 74000,
+   "established": 1779,
+   "region": "northern Piedmont northeast of Raleigh",
+   "largest_cities": [
+    "Louisburg"
+   ],
+   "nearest_metro": "Louisburg area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Gaston County": {
+   "county_seat": "Gastonia",
+   "population": 235000,
+   "established": 1846,
+   "region": "southwestern Piedmont west of Charlotte",
+   "largest_cities": [
+    "Gastonia",
+    "Belmont",
+    "Mount Holly",
+    "Dallas",
+    "Stanley",
+    "Cherryville",
+    "Lowell"
+   ],
+   "nearest_metro": "Gastonia is the county's own center",
+   "natural_features": [
+    "Catawba River",
+    "Crowders Mountain State Park",
+    "South Fork River"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Gates County": {
+   "county_seat": "Gatesville",
+   "population": 10000,
+   "established": 1779,
+   "region": "northeastern Coastal Plain",
+   "largest_cities": [
+    "Gatesville"
+   ],
+   "nearest_metro": "Gatesville area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Graham County": {
+   "county_seat": "Robbinsville",
+   "population": 8000,
+   "established": 1872,
+   "region": "far western Blue Ridge mountains",
+   "largest_cities": [
+    "Robbinsville"
+   ],
+   "nearest_metro": "Robbinsville area",
+   "natural_features": [
+    "Blue Ridge ridges and coves",
+    "forested headwaters",
+    "national forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Granville County": {
+   "county_seat": "Oxford",
+   "population": 63000,
+   "established": 1746,
+   "region": "northern Piedmont north of Durham",
+   "largest_cities": [
+    "Oxford"
+   ],
+   "nearest_metro": "Oxford area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Greene County": {
+   "county_seat": "Snow Hill",
+   "population": 20000,
+   "established": 1791,
+   "region": "inner Coastal Plain",
+   "largest_cities": [
+    "Snow Hill"
+   ],
+   "nearest_metro": "Snow Hill area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Guilford County": {
+   "county_seat": "Greensboro",
+   "population": 550000,
+   "established": 1771,
+   "region": "central Piedmont around Greensboro and High Point",
+   "largest_cities": [
+    "Greensboro",
+    "High Point",
+    "Jamestown",
+    "Summerfield",
+    "Oak Ridge",
+    "Stokesdale",
+    "Pleasant Garden"
+   ],
+   "nearest_metro": "Greensboro is the county's own center",
+   "natural_features": [
+    "Lake Brandt",
+    "Lake Higgins",
+    "Haw River headwaters"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Halifax County": {
+   "county_seat": "Halifax",
+   "population": 48000,
+   "established": 1758,
+   "region": "inner Coastal Plain on the Roanoke River",
+   "largest_cities": [
+    "Halifax"
+   ],
+   "nearest_metro": "Halifax area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Harnett County": {
+   "county_seat": "Lillington",
+   "population": 140000,
+   "established": 1855,
+   "region": "central Coastal Plain and Sandhills north of Fayetteville",
+   "largest_cities": [
+    "Lillington",
+    "Dunn",
+    "Angier",
+    "Coats",
+    "Erwin",
+    "Buies Creek",
+    "Bunnlevel"
+   ],
+   "nearest_metro": "Lillington is the county's own center",
+   "natural_features": [
+    "Cape Fear River",
+    "Raven Rock State Park",
+    "Upper Little River"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Haywood County": {
+   "county_seat": "Waynesville",
+   "population": 62000,
+   "established": 1808,
+   "region": "southern Blue Ridge mountains west of Asheville",
+   "largest_cities": [
+    "Waynesville",
+    "Canton",
+    "Clyde",
+    "Maggie Valley",
+    "Lake Junaluska",
+    "Hazelwood"
+   ],
+   "nearest_metro": "Waynesville is the county's own center",
+   "natural_features": [
+    "Pigeon River",
+    "Lake Junaluska",
+    "Great Smoky Mountains National Park edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Henderson County": {
+   "county_seat": "Hendersonville",
+   "population": 120000,
+   "established": 1838,
+   "region": "southern Blue Ridge mountains south of Asheville",
+   "largest_cities": [
+    "Hendersonville",
+    "Fletcher",
+    "Flat Rock",
+    "Mills River",
+    "Laurel Park",
+    "Etowah",
+    "Horse Shoe"
+   ],
+   "nearest_metro": "Hendersonville is the county's own center",
+   "natural_features": [
+    "French Broad River",
+    "Dupont State Forest edge",
+    "Mills River"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are an established breeding animal here — one of the eight western counties where the NC Wildlife Resources Commission confirms established populations — and their digging in lawns and gardens is a standing call, not a novelty. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Hertford County": {
+   "county_seat": "Winton",
+   "population": 21000,
+   "established": 1759,
+   "region": "inner Coastal Plain",
+   "largest_cities": [
+    "Winton"
+   ],
+   "nearest_metro": "Winton area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Hoke County": {
+   "county_seat": "Raeford",
+   "population": 54000,
+   "established": 1911,
+   "region": "Sandhills west of Fayetteville",
+   "largest_cities": [
+    "Raeford",
+    "Rockfish",
+    "Five Points",
+    "Dundarrach",
+    "Ashley Heights"
+   ],
+   "nearest_metro": "Raeford is the county's own center",
+   "natural_features": [
+    "Little River",
+    "Sandhills pine woods",
+    "Fort Liberty edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Hyde County": {
+   "county_seat": "Swan Quarter",
+   "population": 4500,
+   "established": 1705,
+   "region": "inner coast on Pamlico Sound",
+   "largest_cities": [
+    "Swan Quarter"
+   ],
+   "nearest_metro": "Swan Quarter area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Iredell County": {
+   "county_seat": "Statesville",
+   "population": 195000,
+   "established": 1788,
+   "region": "western Piedmont around Lake Norman",
+   "largest_cities": [
+    "Mooresville",
+    "Statesville",
+    "Troutman",
+    "Harmony",
+    "Love Valley",
+    "Stony Point"
+   ],
+   "nearest_metro": "Statesville is the county's own center",
+   "natural_features": [
+    "Lake Norman",
+    "Lake Norman State Park",
+    "Catawba River"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Jackson County": {
+   "county_seat": "Sylva",
+   "population": 43000,
+   "established": 1851,
+   "region": "southern Blue Ridge mountains",
+   "largest_cities": [
+    "Sylva"
+   ],
+   "nearest_metro": "Sylva area",
+   "natural_features": [
+    "Blue Ridge ridges and coves",
+    "forested headwaters",
+    "national forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are an established breeding animal here — one of the eight western counties where the NC Wildlife Resources Commission confirms established populations — and their digging in lawns and gardens is a standing call, not a novelty. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Johnston County": {
+   "county_seat": "Smithfield",
+   "population": 235000,
+   "established": 1746,
+   "region": "central Coastal Plain and Piedmont edge southeast of Raleigh",
+   "largest_cities": [
+    "Smithfield",
+    "Clayton",
+    "Selma",
+    "Benson",
+    "Four Oaks",
+    "Kenly",
+    "Princeton"
+   ],
+   "nearest_metro": "Smithfield is the county's own center",
+   "natural_features": [
+    "Neuse River",
+    "Clemmons State Forest edge",
+    "Howell Woods"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Jones County": {
+   "county_seat": "Trenton",
+   "population": 9500,
+   "established": 1779,
+   "region": "central Coastal Plain",
+   "largest_cities": [
+    "Trenton"
+   ],
+   "nearest_metro": "Trenton area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Lee County": {
+   "county_seat": "Sanford",
+   "population": 66000,
+   "established": 1907,
+   "region": "central Piedmont and Sandhills edge at Sanford",
+   "largest_cities": [
+    "Sanford",
+    "Broadway",
+    "Cameron",
+    "Lemon Springs",
+    "Tramway"
+   ],
+   "nearest_metro": "Sanford is the county's own center",
+   "natural_features": [
+    "Deep River",
+    "San-Lee Park",
+    "Cape Fear River headwaters"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Lenoir County": {
+   "county_seat": "Kinston",
+   "population": 55000,
+   "established": 1791,
+   "region": "inner Coastal Plain on the Neuse River",
+   "largest_cities": [
+    "Kinston",
+    "La Grange",
+    "Pink Hill",
+    "Deep Run"
+   ],
+   "nearest_metro": "Kinston is the county's own center",
+   "natural_features": [
+    "Neuse River",
+    "Neuseway Nature Park",
+    "Contentnea Creek"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Lincoln County": {
+   "county_seat": "Lincolnton",
+   "population": 92000,
+   "established": 1779,
+   "region": "western Piedmont west of Lake Norman",
+   "largest_cities": [
+    "Lincolnton",
+    "Denver",
+    "Iron Station",
+    "Vale",
+    "Crouse",
+    "Pumpkin Center"
+   ],
+   "nearest_metro": "Lincolnton is the county's own center",
+   "natural_features": [
+    "Lake Norman west shore",
+    "Lake Norman State Park edge",
+    "South Fork River"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "McDowell County": {
+   "county_seat": "Marion",
+   "population": 45000,
+   "established": 1842,
+   "region": "Blue Ridge foothills east of Asheville",
+   "largest_cities": [
+    "Marion",
+    "Old Fort",
+    "Nebo",
+    "Pleasant Gardens",
+    "Glenwood",
+    "Little Switzerland"
+   ],
+   "nearest_metro": "Marion is the county's own center",
+   "natural_features": [
+    "Lake James",
+    "Catawba River",
+    "Pisgah National Forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Macon County": {
+   "county_seat": "Franklin",
+   "population": 38000,
+   "established": 1828,
+   "region": "southern Blue Ridge mountains",
+   "largest_cities": [
+    "Franklin"
+   ],
+   "nearest_metro": "Franklin area",
+   "natural_features": [
+    "Blue Ridge ridges and coves",
+    "forested headwaters",
+    "national forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are an established breeding animal here — one of the eight western counties where the NC Wildlife Resources Commission confirms established populations — and their digging in lawns and gardens is a standing call, not a novelty. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Madison County": {
+   "county_seat": "Marshall",
+   "population": 22000,
+   "established": 1851,
+   "region": "northern Blue Ridge mountains",
+   "largest_cities": [
+    "Marshall"
+   ],
+   "nearest_metro": "Marshall area",
+   "natural_features": [
+    "Blue Ridge ridges and coves",
+    "forested headwaters",
+    "national forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Martin County": {
+   "county_seat": "Williamston",
+   "population": 22000,
+   "established": 1774,
+   "region": "inner Coastal Plain",
+   "largest_cities": [
+    "Williamston"
+   ],
+   "nearest_metro": "Williamston area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Mecklenburg County": {
+   "county_seat": "Charlotte",
+   "population": 1120000,
+   "established": 1762,
+   "region": "southwestern Piedmont around Charlotte",
+   "largest_cities": [
+    "Charlotte",
+    "Huntersville",
+    "Cornelius",
+    "Davidson",
+    "Matthews",
+    "Mint Hill",
+    "Pineville"
+   ],
+   "nearest_metro": "Charlotte is the county's own center",
+   "natural_features": [
+    "Lake Norman south shore",
+    "Catawba River",
+    "McDowell Nature Preserve"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Mitchell County": {
+   "county_seat": "Bakersville",
+   "population": 15000,
+   "established": 1861,
+   "region": "high Blue Ridge mountains",
+   "largest_cities": [
+    "Bakersville"
+   ],
+   "nearest_metro": "Bakersville area",
+   "natural_features": [
+    "Blue Ridge ridges and coves",
+    "forested headwaters",
+    "national forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Montgomery County": {
+   "county_seat": "Troy",
+   "population": 26000,
+   "established": 1779,
+   "region": "Uwharrie Piedmont",
+   "largest_cities": [
+    "Troy"
+   ],
+   "nearest_metro": "Troy area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Moore County": {
+   "county_seat": "Carthage",
+   "population": 108000,
+   "established": 1784,
+   "region": "Sandhills around Southern Pines and Pinehurst",
+   "largest_cities": [
+    "Southern Pines",
+    "Pinehurst",
+    "Aberdeen",
+    "Carthage",
+    "Vass",
+    "Whispering Pines",
+    "Pinebluff"
+   ],
+   "nearest_metro": "Carthage is the county's own center",
+   "natural_features": [
+    "Sandhills longleaf pine woods",
+    "Little River",
+    "Weymouth Woods"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Nash County": {
+   "county_seat": "Nashville",
+   "population": 97000,
+   "established": 1777,
+   "region": "Piedmont and Coastal Plain edge at Rocky Mount",
+   "largest_cities": [
+    "Rocky Mount",
+    "Nashville",
+    "Spring Hope",
+    "Bailey",
+    "Middlesex",
+    "Castalia",
+    "Whitakers"
+   ],
+   "nearest_metro": "Nashville is the county's own center",
+   "natural_features": [
+    "Tar River",
+    "Rocky Mount Mills pond",
+    "Stony Creek"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "New Hanover County": {
+   "county_seat": "Wilmington",
+   "population": 235000,
+   "established": 1729,
+   "region": "southern coast at Wilmington and the Cape Fear River",
+   "largest_cities": [
+    "Wilmington",
+    "Wrightsville Beach",
+    "Carolina Beach",
+    "Kure Beach",
+    "Castle Hayne",
+    "Ogden"
+   ],
+   "nearest_metro": "Wilmington is the county's own center",
+   "natural_features": [
+    "Cape Fear River",
+    "Wrightsville Beach marshes",
+    "Carolina Beach State Park"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Northampton County": {
+   "county_seat": "Jackson",
+   "population": 17000,
+   "established": 1741,
+   "region": "inner Coastal Plain on the Roanoke River",
+   "largest_cities": [
+    "Jackson"
+   ],
+   "nearest_metro": "Jackson area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Onslow County": {
+   "county_seat": "Jacksonville",
+   "population": 205000,
+   "established": 1734,
+   "region": "central coast around Jacksonville and Camp Lejeune",
+   "largest_cities": [
+    "Jacksonville",
+    "Richlands",
+    "Swansboro",
+    "Holly Ridge",
+    "Sneads Ferry",
+    "North Topsail Beach"
+   ],
+   "nearest_metro": "Jacksonville is the county's own center",
+   "natural_features": [
+    "New River",
+    "Camp Lejeune woods",
+    "Hammocks Beach State Park"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Orange County": {
+   "county_seat": "Hillsborough",
+   "population": 150000,
+   "established": 1752,
+   "region": "central Piedmont in the Triangle around Chapel Hill",
+   "largest_cities": [
+    "Chapel Hill",
+    "Hillsborough",
+    "Carrboro",
+    "Efland",
+    "Cedar Grove"
+   ],
+   "nearest_metro": "Hillsborough is the county's own center",
+   "natural_features": [
+    "Eno River",
+    "Occoneechee Mountain",
+    "University Lake"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Pamlico County": {
+   "county_seat": "Bayboro",
+   "population": 12000,
+   "established": 1872,
+   "region": "inner coast on Pamlico Sound",
+   "largest_cities": [
+    "Bayboro"
+   ],
+   "nearest_metro": "Bayboro area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Pasquotank County": {
+   "county_seat": "Elizabeth City",
+   "population": 41000,
+   "established": 1668,
+   "region": "northeastern Coastal Plain on the Pasquotank River",
+   "largest_cities": [
+    "Elizabeth City"
+   ],
+   "nearest_metro": "Elizabeth City area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Pender County": {
+   "county_seat": "Burgaw",
+   "population": 65000,
+   "established": 1875,
+   "region": "southern Coastal Plain north of Wilmington",
+   "largest_cities": [
+    "Burgaw",
+    "Surf City",
+    "Topsail Beach",
+    "Hampstead",
+    "Rocky Point",
+    "Atkinson"
+   ],
+   "nearest_metro": "Burgaw is the county's own center",
+   "natural_features": [
+    "Black River",
+    "Cape Fear River",
+    "Holly Shelter Game Land"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Perquimans County": {
+   "county_seat": "Hertford",
+   "population": 13000,
+   "established": 1668,
+   "region": "inner Coastal Plain on Albemarle Sound",
+   "largest_cities": [
+    "Hertford"
+   ],
+   "nearest_metro": "Hertford area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Person County": {
+   "county_seat": "Roxboro",
+   "population": 40000,
+   "established": 1791,
+   "region": "northern Piedmont",
+   "largest_cities": [
+    "Roxboro"
+   ],
+   "nearest_metro": "Roxboro area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Pitt County": {
+   "county_seat": "Greenville",
+   "population": 180000,
+   "established": 1760,
+   "region": "inner Coastal Plain around Greenville",
+   "largest_cities": [
+    "Greenville",
+    "Winterville",
+    "Ayden",
+    "Farmville",
+    "Grifton",
+    "Bethel",
+    "Fountain"
+   ],
+   "nearest_metro": "Greenville is the county's own center",
+   "natural_features": [
+    "Tar River",
+    "River Park North",
+    "Greenville greenways"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Polk County": {
+   "county_seat": "Columbus",
+   "population": 20000,
+   "established": 1855,
+   "region": "Blue Ridge foothills",
+   "largest_cities": [
+    "Columbus"
+   ],
+   "nearest_metro": "Columbus area",
+   "natural_features": [
+    "Blue Ridge ridges and coves",
+    "forested headwaters",
+    "national forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Randolph County": {
+   "county_seat": "Asheboro",
+   "population": 148000,
+   "established": 1779,
+   "region": "central Piedmont and Uwharrie edge",
+   "largest_cities": [
+    "Asheboro",
+    "Randleman",
+    "Archdale",
+    "Liberty",
+    "Ramseur",
+    "Franklinville",
+    "Seagrove"
+   ],
+   "nearest_metro": "Asheboro is the county's own center",
+   "natural_features": [
+    "Uwharrie National Forest edge",
+    "Deep River",
+    "Lake Reese"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Richmond County": {
+   "county_seat": "Rockingham",
+   "population": 43000,
+   "established": 1779,
+   "region": "Sandhills",
+   "largest_cities": [
+    "Rockingham"
+   ],
+   "nearest_metro": "Rockingham area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Robeson County": {
+   "county_seat": "Lumberton",
+   "population": 118000,
+   "established": 1787,
+   "region": "southern Coastal Plain on the Lumber River",
+   "largest_cities": [
+    "Lumberton",
+    "Pembroke",
+    "Maxton",
+    "Red Springs",
+    "Fairmont",
+    "St. Pauls",
+    "Rowland"
+   ],
+   "nearest_metro": "Lumberton is the county's own center",
+   "natural_features": [
+    "Lumber River",
+    "Lumber River State Park",
+    "Lumbee pine woods"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Rockingham County": {
+   "county_seat": "Wentworth",
+   "population": 92000,
+   "established": 1785,
+   "region": "northern Piedmont",
+   "largest_cities": [
+    "Wentworth"
+   ],
+   "nearest_metro": "Wentworth area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Rowan County": {
+   "county_seat": "Salisbury",
+   "population": 148000,
+   "established": 1753,
+   "region": "central Piedmont along the Yadkin River",
+   "largest_cities": [
+    "Salisbury",
+    "China Grove",
+    "Landis",
+    "Spencer",
+    "Rockwell",
+    "Granite Quarry"
+   ],
+   "nearest_metro": "Salisbury is the county's own center",
+   "natural_features": [
+    "Yadkin River",
+    "High Rock Lake",
+    "Dan Nicholas Park"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Rutherford County": {
+   "county_seat": "Rutherfordton",
+   "population": 65000,
+   "established": 1779,
+   "region": "western Piedmont foothills",
+   "largest_cities": [
+    "Rutherfordton"
+   ],
+   "nearest_metro": "Rutherfordton area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Sampson County": {
+   "county_seat": "Clinton",
+   "population": 60000,
+   "established": 1784,
+   "region": "southern Coastal Plain",
+   "largest_cities": [
+    "Clinton"
+   ],
+   "nearest_metro": "Clinton area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Scotland County": {
+   "county_seat": "Laurinburg",
+   "population": 34000,
+   "established": 1899,
+   "region": "Sandhills on the South Carolina line",
+   "largest_cities": [
+    "Laurinburg"
+   ],
+   "nearest_metro": "Laurinburg area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Stanly County": {
+   "county_seat": "Albemarle",
+   "population": 65000,
+   "established": 1841,
+   "region": "central Piedmont and Uwharrie edge",
+   "largest_cities": [
+    "Albemarle"
+   ],
+   "nearest_metro": "Albemarle area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Stokes County": {
+   "county_seat": "Danbury",
+   "population": 46000,
+   "established": 1789,
+   "region": "northern Piedmont foothills",
+   "largest_cities": [
+    "Danbury"
+   ],
+   "nearest_metro": "Danbury area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Surry County": {
+   "county_seat": "Dobson",
+   "population": 72000,
+   "established": 1771,
+   "region": "northern Piedmont foothills",
+   "largest_cities": [
+    "Dobson"
+   ],
+   "nearest_metro": "Dobson area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Swain County": {
+   "county_seat": "Bryson City",
+   "population": 14000,
+   "established": 1871,
+   "region": "southern Blue Ridge mountains",
+   "largest_cities": [
+    "Bryson City"
+   ],
+   "nearest_metro": "Bryson City area",
+   "natural_features": [
+    "Blue Ridge ridges and coves",
+    "forested headwaters",
+    "national forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are an established breeding animal here — one of the eight western counties where the NC Wildlife Resources Commission confirms established populations — and their digging in lawns and gardens is a standing call, not a novelty. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Transylvania County": {
+   "county_seat": "Brevard",
+   "population": 33000,
+   "established": 1861,
+   "region": "southern Blue Ridge mountains",
+   "largest_cities": [
+    "Brevard"
+   ],
+   "nearest_metro": "Brevard area",
+   "natural_features": [
+    "Blue Ridge ridges and coves",
+    "forested headwaters",
+    "national forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are an established breeding animal here — one of the eight western counties where the NC Wildlife Resources Commission confirms established populations — and their digging in lawns and gardens is a standing call, not a novelty. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Tyrrell County": {
+   "county_seat": "Columbia",
+   "population": 3200,
+   "established": 1729,
+   "region": "inner coast on Albemarle Sound",
+   "largest_cities": [
+    "Columbia"
+   ],
+   "nearest_metro": "Columbia area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Union County": {
+   "county_seat": "Monroe",
+   "population": 255000,
+   "established": 1842,
+   "region": "southwestern Piedmont southeast of Charlotte",
+   "largest_cities": [
+    "Monroe",
+    "Indian Trail",
+    "Waxhaw",
+    "Weddington",
+    "Marvin",
+    "Wesley Chapel",
+    "Stallings"
+   ],
+   "nearest_metro": "Monroe is the county's own center",
+   "natural_features": [
+    "Cane Creek Park",
+    "Twelve Mile Creek",
+    "Lanes Creek"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Vance County": {
+   "county_seat": "Henderson",
+   "population": 42000,
+   "established": 1881,
+   "region": "northern Piedmont",
+   "largest_cities": [
+    "Henderson"
+   ],
+   "nearest_metro": "Henderson area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Wake County": {
+   "county_seat": "Raleigh",
+   "population": 1180000,
+   "established": 1771,
+   "region": "central Piedmont in the Triangle around Raleigh",
+   "largest_cities": [
+    "Raleigh",
+    "Cary",
+    "Apex",
+    "Wake Forest",
+    "Garner",
+    "Holly Springs",
+    "Fuquay-Varina"
+   ],
+   "nearest_metro": "Raleigh is the county's own center",
+   "natural_features": [
+    "Neuse River",
+    "Falls Lake",
+    "William B. Umstead State Park"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Warren County": {
+   "county_seat": "Warrenton",
+   "population": 19000,
+   "established": 1779,
+   "region": "northern Piedmont",
+   "largest_cities": [
+    "Warrenton"
+   ],
+   "nearest_metro": "Warrenton area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Washington County": {
+   "county_seat": "Plymouth",
+   "population": 11000,
+   "established": 1799,
+   "region": "inner Coastal Plain",
+   "largest_cities": [
+    "Plymouth"
+   ],
+   "nearest_metro": "Plymouth area",
+   "natural_features": [
+    "Coastal Plain rivers and swamps",
+    "longleaf and loblolly pine woods",
+    " tidal creeks and marsh edge"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Watauga County": {
+   "county_seat": "Boone",
+   "population": 57000,
+   "established": 1849,
+   "region": "high Blue Ridge mountains",
+   "largest_cities": [
+    "Boone"
+   ],
+   "nearest_metro": "Boone area",
+   "natural_features": [
+    "Blue Ridge ridges and coves",
+    "forested headwaters",
+    "national forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Wayne County": {
+   "county_seat": "Goldsboro",
+   "population": 118000,
+   "established": 1779,
+   "region": "inner Coastal Plain on the Neuse River",
+   "largest_cities": [
+    "Goldsboro",
+    "Mount Olive",
+    "Pikeville",
+    "Fremont",
+    "Seven Springs",
+    "Eureka"
+   ],
+   "nearest_metro": "Goldsboro is the county's own center",
+   "natural_features": [
+    "Neuse River",
+    "Cliffs of the Neuse State Park",
+    "Little River"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Wilkes County": {
+   "county_seat": "Wilkesboro",
+   "population": 66000,
+   "established": 1777,
+   "region": "western Piedmont foothills",
+   "largest_cities": [
+    "Wilkesboro"
+   ],
+   "nearest_metro": "Wilkesboro area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Wilson County": {
+   "county_seat": "Wilson",
+   "population": 78000,
+   "established": 1855,
+   "region": "inner Coastal Plain",
+   "largest_cities": [
+    "Wilson",
+    "Elm City",
+    "Lucama",
+    "Stantonsburg",
+    "Saratoga",
+    "Black Creek"
+   ],
+   "nearest_metro": "Wilson is the county's own center",
+   "natural_features": [
+    "Lake Wilson",
+    "Toisnot Creek",
+    "Contentnea Creek"
+   ],
+   "habitat_type": "flat Coastal Plain with sandy soils, pine woods, river swamps, and raised or slab homes near water",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "Virginia opossums",
+    "eastern moles",
+    "bats"
+   ],
+   "regional_wildlife": "cottonmouths use the swamps and ditches, raccoons and opossums work crawlspaces under raised homes, and Canada geese gather on retention ponds through the subdivisions",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Yadkin County": {
+   "county_seat": "Yadkinville",
+   "population": 37000,
+   "established": 1850,
+   "region": "central Piedmont along the Yadkin River",
+   "largest_cities": [
+    "Yadkinville"
+   ],
+   "nearest_metro": "Yadkinville area",
+   "natural_features": [
+    "rolling Piedmont woodlots",
+    "creek and river corridors",
+    "farm ponds"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Yancey County": {
+   "county_seat": "Burnsville",
+   "population": 19000,
+   "established": 1833,
+   "region": "high Blue Ridge mountains",
+   "largest_cities": [
+    "Burnsville"
+   ],
+   "nearest_metro": "Burnsville area",
+   "natural_features": [
+    "Blue Ridge ridges and coves",
+    "forested headwaters",
+    "national forest edge"
+   ],
+   "habitat_type": "mountain coves, ridges, and valley towns with cabins, vacation rentals, and older valley homes",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "striped skunks",
+    "bats",
+    "Virginia opossums",
+    "eastern moles"
+   ],
+   "regional_wildlife": "timber rattlesnakes hold rocky mountain slopes, copperheads work leaf litter and woodpiles around cabins, and bats hibernate in mountain roosts where white-nose syndrome has hit hardest",
+   "absent_or_rare": "Armadillos are not established here — the NC Wildlife Resources Commission confirms established breeding populations in only eight western counties — so an armadillo report this far from that range is uncommon and worth confirming on site. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  },
+  "Forsyth County": {
+   "county_seat": "Winston-Salem",
+   "population": 390000,
+   "established": 1849,
+   "region": "central Piedmont around Winston-Salem",
+   "largest_cities": [
+    "Winston-Salem",
+    "Kernersville",
+    "Clemmons",
+    "Lewisville",
+    "Walkertown",
+    "King",
+    "Bethania"
+   ],
+   "nearest_metro": "Winston-Salem is the county's own center",
+   "natural_features": [
+    "Salem Lake",
+    "Yadkin River tributaries",
+    "Tanglewood Park"
+   ],
+   "habitat_type": "Piedmont suburbs and small towns with brick ranches, crawlspace foundations, and mature oak canopy over wooded lots",
+   "common_wildlife": [
+    "raccoons",
+    "gray squirrels",
+    "Norway rats",
+    "striped skunks",
+    "Virginia opossums",
+    "bats"
+   ],
+   "regional_wildlife": "copperheads — in many Piedmont neighborhoods the only venomous snake — work ivy, leaf litter, and stone walls, while raccoons and squirrels run the oak canopy straight onto roofs",
+   "absent_or_rare": "Armadillos have been reported in this county as their range expands east from the western mountains, but the NC Wildlife Resources Commission does not list this county among the eight with established breeding populations, so our crew treats armadillo calls here as sighting and digging reports to confirm on site rather than an established infestation. Black bears, deer, and wild turkey are big game handled by the Commission, not private removal, and listed snakes and bats cannot be taken on a WCA-issued permit."
+  }
+ }
+}
